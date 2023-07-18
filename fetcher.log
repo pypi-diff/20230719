@@ -1020,3 +1020,101 @@
 [2023-07-19 00:50:54] INFO root fetch - processPackages [gpt-index]: Remove: archive file [/home/abi/fetcher/tmp/gpt_index-0.7.9.tar.gz]
 [2023-07-19 00:50:54] INFO root fetch - main [MainThread]: End processing [gpt-index]: success
 [2023-07-19 00:50:54] INFO root fetch - main [MainThread]: Store serial: [18940967]
+[2023-07-19 00:55:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18940967]
+[2023-07-19 00:56:03] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-19 00:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ton-http-api
+[2023-07-19 00:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ogre-python
+[2023-07-19 00:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cz-gitmoji
+[2023-07-19 00:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mbforbes-python-utils
+[2023-07-19 00:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Energon-Prometheus-exporter
+[2023-07-19 00:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ephysio
+[2023-07-19 00:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kodexa
+[2023-07-19 00:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scrunch
+[2023-07-19 00:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: multidms
+[2023-07-19 00:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: flowright
+[2023-07-19 00:56:03] INFO root fetch - processPackages [mbforbes-python-utils]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-19 00:56:03] INFO root fetch - processPackages [cz-gitmoji]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-19 00:56:03] INFO root fetch - processPackages [ton-http-api]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-19 00:56:03] INFO root fetch - processPackages [scrunch]: New version: [6.5.1996.post1689714519] Old Version: [6.5.1995.post1689706678]
+[2023-07-19 00:56:03] INFO root fetch - processPackages [kodexa]: New version: [6.3.35592733010] Old Version: [6.3.35592112892]
+[2023-07-19 00:56:03] INFO root fetch - processPackages [cz-gitmoji]: Downloading https://files.pythonhosted.org/packages/7e/ef/9955a0b28b958746dbabc98783d2607430e7fef3bd7b653cdc0fe3714af3/cz-gitmoji-0.0.1.tar.gz
+[2023-07-19 00:56:03] INFO root fetch - processPackages [ogre-python]: New version: [14.0.1] Old Version: [14.0.0]
+[2023-07-19 00:56:03] WARNING root fetch - processPackages [flowright]: Skipping, unable to determine old version
+[2023-07-19 00:56:03] INFO root fetch - processPackages [flowright]: Start processing: schemachange
+[2023-07-19 00:56:03] INFO root fetch - main [MainThread]: End processing [flowright] error
+[2023-07-19 00:56:03] INFO root fetch - processPackages [ephysio]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-19 00:56:03] ERROR root fetch - processPackages [Energon-Prometheus-exporter]: Unable to get metadata: No such project 'Energon-Prometheus-exporter'
+[2023-07-19 00:56:03] INFO root fetch - processPackages [Energon-Prometheus-exporter]: Start processing: airless
+[2023-07-19 00:56:03] INFO root fetch - main [MainThread]: End processing [Energon-Prometheus-exporter] error
+[2023-07-19 00:56:03] WARNING root fetch - processPackages [multidms]: Skipping, unable to determine old version
+[2023-07-19 00:56:03] INFO root fetch - processPackages [multidms]: Start processing: cihai-cli
+[2023-07-19 00:56:03] INFO root fetch - main [MainThread]: End processing [multidms] error
+[2023-07-19 00:56:03] INFO root fetch - processPackages [cihai-cli]: New version: [0.9.0a1] Old Version: [0.9.0a0]
+[2023-07-19 00:56:03] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/60/2b/ef9fad4dab2fbf9a3a3c46a0dda8fe58c4831f920c56dd8d59754490f481/scrunch-6.5.1995.post1689706678.tar.gz
+[2023-07-19 00:56:03] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/5c/6b/63274240a536151ff317fc28b2178d65f39390e3511812c3fa1d4b7c937a/kodexa-6.3.35592112892.tar.gz
+[2023-07-19 00:56:03] INFO root fetch - processPackages [mbforbes-python-utils]: Downloading https://files.pythonhosted.org/packages/12/2b/631e0f235bf83d9133e8c1dfc8855e7109a6c63ff725a9ae8aa07e43dfa8/mbforbes_python_utils-0.2.1.tar.gz
+[2023-07-19 00:56:03] INFO root fetch - processPackages [schemachange]: New version: [3.5.3] Old Version: [3.5.2]
+[2023-07-19 00:56:03] INFO root fetch - processPackages [ton-http-api]: Downloading https://files.pythonhosted.org/packages/cd/44/7c13d5dc69ffc48e076132df46cf3471dbca856da886c098e1ed530825b5/ton-http-api-2.0.8.tar.gz
+[2023-07-19 00:56:03] INFO root fetch - processPackages [airless]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 00:56:03] INFO root fetch - processPackages [ogre-python]: Downloading https://files.pythonhosted.org/packages/80/62/f969b4c658d45a792cf0b86ac392ed060dec9ce8d4ce7b10d9b27f7f2f89/ogre_python-14.0.0-cp310-cp310-win_amd64.whl
+[2023-07-19 00:56:03] INFO root fetch - processPackages [cihai-cli]: Downloading https://files.pythonhosted.org/packages/d2/4c/75ccfa9c6b8fb30de3cba09cf54a8c9f6f9f2f38a9cea4b854a81c25cc79/cihai-cli-0.9.0a0.tar.gz
+[2023-07-19 00:56:04] INFO root fetch - processPackages [cz-gitmoji]: Downloading https://files.pythonhosted.org/packages/5d/fc/1e1e73b32eb9a423237342dc41ad8899c72001cd859283d0fb7bfec37ea6/cz-gitmoji-0.0.2.tar.gz
+[2023-07-19 00:56:04] INFO root fetch - processPackages [ephysio]: Downloading https://files.pythonhosted.org/packages/35/31/33cb5e682d9ac9c9cf96c61a5872d4100b13e4608131eb6c35e11fb8a2cb/ephysio-1.0.6.tar.gz
+[2023-07-19 00:56:04] INFO root fetch - processPackages [schemachange]: Downloading https://files.pythonhosted.org/packages/81/0d/4d1814c18e4442ea9bbf060da5aced041728349f438f5803a592ade8ca4a/schemachange-3.5.2.tar.gz
+[2023-07-19 00:56:04] WARNING root fetch - processPackages [ogre-python]: Skipping package: exceeds size limit 11931584>=10485760
+[2023-07-19 00:56:04] INFO root fetch - main [MainThread]: End processing [ogre-python] error
+[2023-07-19 00:56:04] INFO root fetch - processPackages [airless]: Downloading https://files.pythonhosted.org/packages/6d/39/576afe2ce8e7b3f3f04d131830c000e35b10ea059645334e47145401906f/airless-0.0.8.tar.gz
+[2023-07-19 00:56:04] INFO root fetch - processPackages [cz-gitmoji]: executing diffoscope
+[2023-07-19 00:56:04] INFO root fetch - processPackages [cz-gitmoji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cz-gitmoji-0.0.1.tar.gz tmp/cz-gitmoji-0.0.2.tar.gz --markdown 20230719/c/cz-gitmoji/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-19 00:56:04] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/8f/61/86da216f8c853a7f72cbecb9f2496a680eca90220e5669758b05488a3784/scrunch-6.5.1996.post1689714519.tar.gz
+[2023-07-19 00:56:04] INFO root fetch - processPackages [cihai-cli]: Downloading https://files.pythonhosted.org/packages/0b/b5/e89b0b6924ecd0d5a3cb77abed8ec4b18fefbae25d67658b915c13d1bf35/cihai-cli-0.9.0a1.tar.gz
+[2023-07-19 00:56:04] INFO root fetch - processPackages [mbforbes-python-utils]: Downloading https://files.pythonhosted.org/packages/64/e4/3b9c80174f9d7f1ccbd355b46f58a4e5fb06bb723c3ab8c69d917095cf96/mbforbes_python_utils-0.2.2.tar.gz
+[2023-07-19 00:56:04] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/54/8c/8299c007dd0fbbc46c2a0cbfc51827185121a432292ae42852df60559914/kodexa-6.3.35592733010.tar.gz
+[2023-07-19 00:56:04] INFO root fetch - processPackages [scrunch]: executing diffoscope
+[2023-07-19 00:56:04] INFO root fetch - processPackages [scrunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrunch-6.5.1995.post1689706678.tar.gz tmp/scrunch-6.5.1996.post1689714519.tar.gz --markdown 20230719/s/scrunch/6.5.1995.post1689706678-6.5.1996.post1689714519/diff.md --exclude *.pyd
+[2023-07-19 00:56:04] INFO root fetch - processPackages [ephysio]: Downloading https://files.pythonhosted.org/packages/18/08/7d27f4b191e587d7c88af54221fdaac285dbf4cd76acf3b70f48a880927a/ephysio-1.0.7.tar.gz
+[2023-07-19 00:56:04] INFO root fetch - processPackages [schemachange]: Downloading https://files.pythonhosted.org/packages/e9/55/c6d981366684c4938722411f7731c7cdae0c636519b0a96f9df91f92c274/schemachange-3.5.3.tar.gz
+[2023-07-19 00:56:04] INFO root fetch - processPackages [cihai-cli]: executing diffoscope
+[2023-07-19 00:56:04] INFO root fetch - processPackages [cihai-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cihai-cli-0.9.0a0.tar.gz tmp/cihai-cli-0.9.0a1.tar.gz --markdown 20230719/c/cihai-cli/0.9.0a0-0.9.0a1/diff.md --exclude *.pyd
+[2023-07-19 00:56:04] INFO root fetch - processPackages [mbforbes-python-utils]: executing diffoscope
+[2023-07-19 00:56:04] INFO root fetch - processPackages [mbforbes-python-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mbforbes_python_utils-0.2.1.tar.gz tmp/mbforbes_python_utils-0.2.2.tar.gz --markdown 20230719/m/mbforbes-python-utils/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-19 00:56:04] INFO root fetch - processPackages [kodexa]: executing diffoscope
+[2023-07-19 00:56:04] INFO root fetch - processPackages [kodexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa-6.3.35592112892.tar.gz tmp/kodexa-6.3.35592733010.tar.gz --markdown 20230719/k/kodexa/6.3.35592112892-6.3.35592733010/diff.md --exclude *.pyd
+[2023-07-19 00:56:04] INFO root fetch - processPackages [ephysio]: executing diffoscope
+[2023-07-19 00:56:04] INFO root fetch - processPackages [ephysio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ephysio-1.0.6.tar.gz tmp/ephysio-1.0.7.tar.gz --markdown 20230719/e/ephysio/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-19 00:56:04] INFO root fetch - processPackages [schemachange]: executing diffoscope
+[2023-07-19 00:56:04] INFO root fetch - processPackages [schemachange]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schemachange-3.5.2.tar.gz tmp/schemachange-3.5.3.tar.gz --markdown 20230719/s/schemachange/3.5.2-3.5.3/diff.md --exclude *.pyd
+[2023-07-19 00:56:04] INFO root fetch - processPackages [airless]: Downloading https://files.pythonhosted.org/packages/c0/a9/3f69bc8d2a91ea0a02d60d926962763854d5536b39b8872d58ab50f15e9f/airless-0.0.9.tar.gz
+[2023-07-19 00:56:04] INFO root fetch - processPackages [airless]: executing diffoscope
+[2023-07-19 00:56:04] INFO root fetch - processPackages [airless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airless-0.0.8.tar.gz tmp/airless-0.0.9.tar.gz --markdown 20230719/a/airless/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 00:56:04] INFO root fetch - processPackages [ton-http-api]: Downloading https://files.pythonhosted.org/packages/6a/90/fa11d1d6c7b9d9371e957411f4f16ea4a6707ea56afb2ff2e60905eaaeb9/ton-http-api-2.0.9.tar.gz
+[2023-07-19 00:56:05] INFO root fetch - processPackages [ton-http-api]: executing diffoscope
+[2023-07-19 00:56:05] INFO root fetch - processPackages [ton-http-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ton-http-api-2.0.8.tar.gz tmp/ton-http-api-2.0.9.tar.gz --markdown 20230719/t/ton-http-api/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-19 00:56:05] INFO root fetch - processPackages [cz-gitmoji]: Remove: archive file [/home/abi/fetcher/tmp/cz-gitmoji-0.0.1.tar.gz]
+[2023-07-19 00:56:05] INFO root fetch - processPackages [cz-gitmoji]: Remove: archive file [/home/abi/fetcher/tmp/cz-gitmoji-0.0.2.tar.gz]
+[2023-07-19 00:56:05] INFO root fetch - main [MainThread]: End processing [cz-gitmoji]: success
+[2023-07-19 00:56:05] INFO root fetch - processPackages [mbforbes-python-utils]: Remove: archive file [/home/abi/fetcher/tmp/mbforbes_python_utils-0.2.1.tar.gz]
+[2023-07-19 00:56:05] INFO root fetch - processPackages [mbforbes-python-utils]: Remove: archive file [/home/abi/fetcher/tmp/mbforbes_python_utils-0.2.2.tar.gz]
+[2023-07-19 00:56:05] INFO root fetch - main [MainThread]: End processing [mbforbes-python-utils]: success
+[2023-07-19 00:56:05] INFO root fetch - processPackages [cihai-cli]: Remove: archive file [/home/abi/fetcher/tmp/cihai-cli-0.9.0a0.tar.gz]
+[2023-07-19 00:56:05] INFO root fetch - processPackages [cihai-cli]: Remove: archive file [/home/abi/fetcher/tmp/cihai-cli-0.9.0a1.tar.gz]
+[2023-07-19 00:56:05] INFO root fetch - main [MainThread]: End processing [cihai-cli]: success
+[2023-07-19 00:56:06] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.1995.post1689706678.tar.gz]
+[2023-07-19 00:56:06] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.1996.post1689714519.tar.gz]
+[2023-07-19 00:56:06] INFO root fetch - main [MainThread]: End processing [scrunch]: success
+[2023-07-19 00:56:06] INFO root fetch - processPackages [airless]: Remove: archive file [/home/abi/fetcher/tmp/airless-0.0.8.tar.gz]
+[2023-07-19 00:56:06] INFO root fetch - processPackages [airless]: Remove: archive file [/home/abi/fetcher/tmp/airless-0.0.9.tar.gz]
+[2023-07-19 00:56:06] INFO root fetch - main [MainThread]: End processing [airless]: success
+[2023-07-19 00:56:06] INFO root fetch - processPackages [schemachange]: Remove: archive file [/home/abi/fetcher/tmp/schemachange-3.5.2.tar.gz]
+[2023-07-19 00:56:06] INFO root fetch - processPackages [schemachange]: Remove: archive file [/home/abi/fetcher/tmp/schemachange-3.5.3.tar.gz]
+[2023-07-19 00:56:06] INFO root fetch - main [MainThread]: End processing [schemachange]: success
+[2023-07-19 00:56:06] INFO root fetch - processPackages [ephysio]: Remove: archive file [/home/abi/fetcher/tmp/ephysio-1.0.6.tar.gz]
+[2023-07-19 00:56:06] INFO root fetch - processPackages [ephysio]: Remove: archive file [/home/abi/fetcher/tmp/ephysio-1.0.7.tar.gz]
+[2023-07-19 00:56:06] INFO root fetch - main [MainThread]: End processing [ephysio]: success
+[2023-07-19 00:56:06] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-6.3.35592112892.tar.gz]
+[2023-07-19 00:56:06] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-6.3.35592733010.tar.gz]
+[2023-07-19 00:56:06] INFO root fetch - main [MainThread]: End processing [kodexa]: success
+[2023-07-19 00:56:06] INFO root fetch - processPackages [ton-http-api]: Remove: archive file [/home/abi/fetcher/tmp/ton-http-api-2.0.8.tar.gz]
+[2023-07-19 00:56:06] INFO root fetch - processPackages [ton-http-api]: Remove: archive file [/home/abi/fetcher/tmp/ton-http-api-2.0.9.tar.gz]
+[2023-07-19 00:56:06] INFO root fetch - main [MainThread]: End processing [ton-http-api]: success
+[2023-07-19 00:56:06] INFO root fetch - main [MainThread]: Store serial: [18941014]
