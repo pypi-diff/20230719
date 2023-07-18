@@ -1118,3 +1118,45 @@
 [2023-07-19 00:56:06] INFO root fetch - processPackages [ton-http-api]: Remove: archive file [/home/abi/fetcher/tmp/ton-http-api-2.0.9.tar.gz]
 [2023-07-19 00:56:06] INFO root fetch - main [MainThread]: End processing [ton-http-api]: success
 [2023-07-19 00:56:06] INFO root fetch - main [MainThread]: Store serial: [18941014]
+[2023-07-19 01:01:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18941014]
+[2023-07-19 01:01:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-19 01:01:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Energon-Prometheus-exporter
+[2023-07-19 01:01:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jinjafx
+[2023-07-19 01:01:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sardine-system
+[2023-07-19 01:01:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: griptape
+[2023-07-19 01:01:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flwr-nightly
+[2023-07-19 01:01:14] INFO root fetch - processPackages [griptape]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-19 01:01:14] INFO root fetch - processPackages [sardine-system]: New version: [0.4.0] Old Version: [0.2.1]
+[2023-07-19 01:01:14] INFO root fetch - processPackages [jinjafx]: New version: [1.9.5] Old Version: [1.9.2]
+[2023-07-19 01:01:14] WARNING root fetch - processPackages [Energon-Prometheus-exporter]: Skipping, unable to determine old version
+[2023-07-19 01:01:14] INFO root fetch - main [MainThread]: End processing [Energon-Prometheus-exporter] error
+[2023-07-19 01:01:15] INFO root fetch - processPackages [flwr-nightly]: New version: [1.5.0.dev20230718] Old Version: [1.5.0.dev20230715]
+[2023-07-19 01:01:15] INFO root fetch - processPackages [griptape]: Downloading https://files.pythonhosted.org/packages/61/6a/bcf2cf6048e3abdc73de35cbae9b02a4d5a43d68bdd51e246ecddb0472b1/griptape-0.9.0.tar.gz
+[2023-07-19 01:01:15] INFO root fetch - processPackages [sardine-system]: Downloading https://files.pythonhosted.org/packages/c5/04/41c9e83b1f034a4f6200d99e6a585a77048be987bb644db7ff79f85a7d23/sardine_system-0.2.1.tar.gz
+[2023-07-19 01:01:15] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/9b/c7/a69c9dd342b4c96d9bf79d3457eb66da67a7fe096db0a304146c1a9680ba/flwr_nightly-1.5.0.dev20230715.tar.gz
+[2023-07-19 01:01:15] INFO root fetch - processPackages [jinjafx]: Downloading https://files.pythonhosted.org/packages/8c/ef/a913b01ddc5057869372b3ee2c19887721f59f66289a06bc02a85562bb6b/jinjafx-1.9.2.tar.gz
+[2023-07-19 01:01:15] INFO root fetch - processPackages [sardine-system]: Downloading https://files.pythonhosted.org/packages/71/2f/b7743c2fe5cb1aa79daa5fd43e5a93a01c5cd499e4ebfdbd363f189e82a6/sardine-system-0.4.0.tar.gz
+[2023-07-19 01:01:15] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/d7/17/27c1a3f059f4f508d9b5179f82c9d5177ee10265baa3baa68e30adec7f03/flwr_nightly-1.5.0.dev20230718.tar.gz
+[2023-07-19 01:01:15] INFO root fetch - processPackages [griptape]: Downloading https://files.pythonhosted.org/packages/d3/e7/7c06c5c2173f5e68123d3bdeb9f89c59f9548675ab8e244c9a62bd4cf34d/griptape-0.9.1.tar.gz
+[2023-07-19 01:01:15] INFO root fetch - processPackages [sardine-system]: executing diffoscope
+[2023-07-19 01:01:15] INFO root fetch - processPackages [sardine-system]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sardine_system-0.2.1.tar.gz tmp/sardine-system-0.4.0.tar.gz --markdown 20230719/s/sardine-system/0.2.1-0.4.0/diff.md --exclude *.pyd
+[2023-07-19 01:01:15] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2023-07-19 01:01:15] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.5.0.dev20230715.tar.gz tmp/flwr_nightly-1.5.0.dev20230718.tar.gz --markdown 20230719/f/flwr-nightly/1.5.0.dev20230715-1.5.0.dev20230718/diff.md --exclude *.pyd
+[2023-07-19 01:01:15] INFO root fetch - processPackages [jinjafx]: Downloading https://files.pythonhosted.org/packages/a5/27/2fffa807f4f77b0840a8b46246372c35430b21be959dd230da134d6bf3f0/jinjafx-1.9.5.tar.gz
+[2023-07-19 01:01:15] INFO root fetch - processPackages [griptape]: executing diffoscope
+[2023-07-19 01:01:15] INFO root fetch - processPackages [griptape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griptape-0.9.0.tar.gz tmp/griptape-0.9.1.tar.gz --markdown 20230719/g/griptape/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-19 01:01:16] INFO root fetch - processPackages [jinjafx]: executing diffoscope
+[2023-07-19 01:01:16] INFO root fetch - processPackages [jinjafx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jinjafx-1.9.2.tar.gz tmp/jinjafx-1.9.5.tar.gz --markdown 20230719/j/jinjafx/1.9.2-1.9.5/diff.md --exclude *.pyd
+[2023-07-19 01:01:16] INFO root fetch - processPackages [griptape]: Remove: archive file [/home/abi/fetcher/tmp/griptape-0.9.0.tar.gz]
+[2023-07-19 01:01:16] INFO root fetch - processPackages [griptape]: Remove: archive file [/home/abi/fetcher/tmp/griptape-0.9.1.tar.gz]
+[2023-07-19 01:01:16] INFO root fetch - main [MainThread]: End processing [griptape]: success
+[2023-07-19 01:01:16] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230715.tar.gz]
+[2023-07-19 01:01:16] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230718.tar.gz]
+[2023-07-19 01:01:16] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2023-07-19 01:01:16] INFO root fetch - processPackages [sardine-system]: Remove: archive file [/home/abi/fetcher/tmp/sardine_system-0.2.1.tar.gz]
+[2023-07-19 01:01:16] INFO root fetch - processPackages [sardine-system]: Remove: archive file [/home/abi/fetcher/tmp/sardine-system-0.4.0.tar.gz]
+[2023-07-19 01:01:16] INFO root fetch - main [MainThread]: End processing [sardine-system]: success
+[2023-07-19 01:01:17] INFO root fetch - processPackages [jinjafx]: Remove: archive file [/home/abi/fetcher/tmp/jinjafx-1.9.2.tar.gz]
+[2023-07-19 01:01:17] INFO root fetch - processPackages [jinjafx]: Remove: archive file [/home/abi/fetcher/tmp/jinjafx-1.9.5.tar.gz]
+[2023-07-19 01:01:17] INFO root fetch - main [MainThread]: End processing [jinjafx]: success
+[2023-07-19 01:01:17] INFO root fetch - main [MainThread]: Store serial: [18941032]
