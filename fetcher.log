@@ -1520,3 +1520,75 @@
 [2023-07-19 01:22:09] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307182218-py3-none-any.whl.zip]
 [2023-07-19 01:22:09] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-07-19 01:22:09] INFO root fetch - main [MainThread]: Store serial: [18941240]
+[2023-07-19 01:27:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18941240]
+[2023-07-19 01:27:17] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-19 01:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: web3r
+[2023-07-19 01:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: elasticsearch-curator
+[2023-07-19 01:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fitsviz
+[2023-07-19 01:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openapi-server-test
+[2023-07-19 01:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyeikonal
+[2023-07-19 01:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kfish
+[2023-07-19 01:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eef-data
+[2023-07-19 01:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: shil
+[2023-07-19 01:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-url-tokenizer
+[2023-07-19 01:27:18] INFO root fetch - processPackages [fitsviz]: New version: [0.0.7] Old Version: [0.0.5]
+[2023-07-19 01:27:18] WARNING root fetch - processPackages [pyeikonal]: Skipping, unable to determine old version
+[2023-07-19 01:27:18] INFO root fetch - processPackages [django-url-tokenizer]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 01:27:18] INFO root fetch - main [MainThread]: End processing [pyeikonal] error
+[2023-07-19 01:27:18] INFO root fetch - processPackages [shil]: New version: [2023.7.18.23.21] Old Version: [2023.7.18.23.20]
+[2023-07-19 01:27:18] INFO root fetch - processPackages [kfish]: New version: [99.0.202307182221] Old Version: [99.0.202307182217]
+[2023-07-19 01:27:18] INFO root fetch - processPackages [fitsviz]: Downloading https://files.pythonhosted.org/packages/6c/89/f7a98a49c1fad7216181e3c6a97a437a796803a385472fe83f94f0ecdb19/fitsviz-0.0.5.tar.gz
+[2023-07-19 01:27:18] WARNING root fetch - processPackages [web3r]: Skipping, unable to determine old version
+[2023-07-19 01:27:18] INFO root fetch - main [MainThread]: End processing [web3r] error
+[2023-07-19 01:27:18] INFO root fetch - processPackages [eef-data]: New version: [0.47] Old Version: [0.46]
+[2023-07-19 01:27:18] INFO root fetch - processPackages [elasticsearch-curator]: New version: [8.0.6] Old Version: [8.0.5]
+[2023-07-19 01:27:18] INFO root fetch - processPackages [shil]: Downloading https://files.pythonhosted.org/packages/a0/0a/dcc6ec17c2a68c73cb9a310b6b5bdc30999763520a86932f5f6cac28f907/shil-2023.7.18.23.20.tar.gz
+[2023-07-19 01:27:18] INFO root fetch - processPackages [openapi-server-test]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-19 01:27:18] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/58/fc/c297e12ea86d40bc35c3034412e468c38bef18667e6adfe0b24802b0e417/django-url-tokenizer-0.0.8.tar.gz
+[2023-07-19 01:27:18] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/26/49/940c03972943409217d4e75568e126f26f5cf4dcd193765b26d5cef697b1/kfish-99.0.202307182217-py3-none-any.whl
+[2023-07-19 01:27:18] INFO root fetch - processPackages [elasticsearch-curator]: Downloading https://files.pythonhosted.org/packages/0d/71/85287b14691bb541ec2ce94406002fb134d3db837aa9294124ea7d3c9676/elasticsearch_curator-8.0.5.tar.gz
+[2023-07-19 01:27:18] INFO root fetch - processPackages [eef-data]: Downloading https://files.pythonhosted.org/packages/eb/51/77e965841a4802bbc91be2cc52f5a4f8f954fba0e584989cd64f6d0ef7ee/eef-data-0.46.tar.gz
+[2023-07-19 01:27:18] INFO root fetch - processPackages [shil]: Downloading https://files.pythonhosted.org/packages/dd/b7/1d60704f457d93bf976e0ed24b7f88bb9e7776b8e3d475e9077f58e9e47b/shil-2023.7.18.23.21.tar.gz
+[2023-07-19 01:27:18] INFO root fetch - processPackages [openapi-server-test]: Downloading https://files.pythonhosted.org/packages/c5/bc/4df5908592f029b1be7588c57e98c5beb3bbcd1e78c2b58e60944fd87a55/openapi_server_test-1.0.6.tar.gz
+[2023-07-19 01:27:18] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/c5/13/df27d1141ec44b1c35f247440fc5cb506efe40a15cbed84328a82cab2d67/django-url-tokenizer-0.0.9.tar.gz
+[2023-07-19 01:27:18] INFO root fetch - processPackages [fitsviz]: Downloading https://files.pythonhosted.org/packages/c6/ea/dc9811a62c729b2fb96190c065e879ddc96124cb8ed221df625ce6e828c8/fitsviz-0.0.7.tar.gz
+[2023-07-19 01:27:18] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/17/0b/d2838cc7db7cb7c853089d78ccfb01f8fbf3b6daf9b97f7cf12b7ec0dfd0/kfish-99.0.202307182221-py3-none-any.whl
+[2023-07-19 01:27:18] INFO root fetch - processPackages [shil]: executing diffoscope
+[2023-07-19 01:27:18] INFO root fetch - processPackages [shil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shil-2023.7.18.23.20.tar.gz tmp/shil-2023.7.18.23.21.tar.gz --markdown 20230719/s/shil/2023.7.18.23.20-2023.7.18.23.21/diff.md --exclude *.pyd
+[2023-07-19 01:27:18] INFO root fetch - processPackages [django-url-tokenizer]: executing diffoscope
+[2023-07-19 01:27:18] INFO root fetch - processPackages [django-url-tokenizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-url-tokenizer-0.0.8.tar.gz tmp/django-url-tokenizer-0.0.9.tar.gz --markdown 20230719/d/django-url-tokenizer/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 01:27:18] INFO root fetch - processPackages [fitsviz]: executing diffoscope
+[2023-07-19 01:27:18] INFO root fetch - processPackages [fitsviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fitsviz-0.0.5.tar.gz tmp/fitsviz-0.0.7.tar.gz --markdown 20230719/f/fitsviz/0.0.5-0.0.7/diff.md --exclude *.pyd
+[2023-07-19 01:27:18] INFO root fetch - processPackages [eef-data]: Downloading https://files.pythonhosted.org/packages/68/34/b33168a52c3f2b44390ffb08a2ac5e68160ee4f0c3e24fd7ab8bd03b5d83/eef-data-0.47.tar.gz
+[2023-07-19 01:27:18] INFO root fetch - processPackages [elasticsearch-curator]: Downloading https://files.pythonhosted.org/packages/aa/68/52c914432ab9f2061ab86b5271683988aec4ffef97604f241063ee3e2f09/elasticsearch_curator-8.0.6.tar.gz
+[2023-07-19 01:27:18] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-19 01:27:18] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307182217-py3-none-any.whl.zip tmp/kfish-99.0.202307182221-py3-none-any.whl.zip --markdown 20230719/k/kfish/99.0.202307182217-99.0.202307182221/diff.md --exclude *.pyd
+[2023-07-19 01:27:18] INFO root fetch - processPackages [openapi-server-test]: Downloading https://files.pythonhosted.org/packages/3f/0a/288fc075b71cbe52231213a2cac72ac55a1ad0cc2e23e17e064e13f6c889/openapi_server_test-1.0.7.tar.gz
+[2023-07-19 01:27:19] INFO root fetch - processPackages [eef-data]: executing diffoscope
+[2023-07-19 01:27:19] INFO root fetch - processPackages [eef-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eef-data-0.46.tar.gz tmp/eef-data-0.47.tar.gz --markdown 20230719/e/eef-data/0.46-0.47/diff.md --exclude *.pyd
+[2023-07-19 01:27:19] INFO root fetch - processPackages [elasticsearch-curator]: executing diffoscope
+[2023-07-19 01:27:19] INFO root fetch - processPackages [elasticsearch-curator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elasticsearch_curator-8.0.5.tar.gz tmp/elasticsearch_curator-8.0.6.tar.gz --markdown 20230719/e/elasticsearch-curator/8.0.5-8.0.6/diff.md --exclude *.pyd
+[2023-07-19 01:27:19] INFO root fetch - processPackages [openapi-server-test]: executing diffoscope
+[2023-07-19 01:27:19] INFO root fetch - processPackages [openapi-server-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapi_server_test-1.0.6.tar.gz tmp/openapi_server_test-1.0.7.tar.gz --markdown 20230719/o/openapi-server-test/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-19 01:27:19] INFO root fetch - processPackages [fitsviz]: Remove: archive file [/home/abi/fetcher/tmp/fitsviz-0.0.5.tar.gz]
+[2023-07-19 01:27:19] INFO root fetch - processPackages [fitsviz]: Remove: archive file [/home/abi/fetcher/tmp/fitsviz-0.0.7.tar.gz]
+[2023-07-19 01:27:19] INFO root fetch - main [MainThread]: End processing [fitsviz]: success
+[2023-07-19 01:27:19] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.8.tar.gz]
+[2023-07-19 01:27:19] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.9.tar.gz]
+[2023-07-19 01:27:19] INFO root fetch - main [MainThread]: End processing [django-url-tokenizer]: success
+[2023-07-19 01:27:20] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307182217-py3-none-any.whl.zip]
+[2023-07-19 01:27:20] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307182221-py3-none-any.whl.zip]
+[2023-07-19 01:27:20] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-19 01:27:20] INFO root fetch - processPackages [shil]: Remove: archive file [/home/abi/fetcher/tmp/shil-2023.7.18.23.20.tar.gz]
+[2023-07-19 01:27:20] INFO root fetch - processPackages [shil]: Remove: archive file [/home/abi/fetcher/tmp/shil-2023.7.18.23.21.tar.gz]
+[2023-07-19 01:27:20] INFO root fetch - main [MainThread]: End processing [shil]: success
+[2023-07-19 01:27:20] INFO root fetch - processPackages [elasticsearch-curator]: Remove: archive file [/home/abi/fetcher/tmp/elasticsearch_curator-8.0.5.tar.gz]
+[2023-07-19 01:27:20] INFO root fetch - processPackages [elasticsearch-curator]: Remove: archive file [/home/abi/fetcher/tmp/elasticsearch_curator-8.0.6.tar.gz]
+[2023-07-19 01:27:20] INFO root fetch - main [MainThread]: End processing [elasticsearch-curator]: success
+[2023-07-19 01:27:20] INFO root fetch - processPackages [eef-data]: Remove: archive file [/home/abi/fetcher/tmp/eef-data-0.46.tar.gz]
+[2023-07-19 01:27:20] INFO root fetch - processPackages [eef-data]: Remove: archive file [/home/abi/fetcher/tmp/eef-data-0.47.tar.gz]
+[2023-07-19 01:27:20] INFO root fetch - main [MainThread]: End processing [eef-data]: success
+[2023-07-19 01:27:20] INFO root fetch - processPackages [openapi-server-test]: Remove: archive file [/home/abi/fetcher/tmp/openapi_server_test-1.0.6.tar.gz]
+[2023-07-19 01:27:20] INFO root fetch - processPackages [openapi-server-test]: Remove: archive file [/home/abi/fetcher/tmp/openapi_server_test-1.0.7.tar.gz]
+[2023-07-19 01:27:20] INFO root fetch - main [MainThread]: End processing [openapi-server-test]: success
+[2023-07-19 01:27:20] INFO root fetch - main [MainThread]: Store serial: [18941269]
