@@ -348,3 +348,105 @@
 [2023-07-19 00:18:32] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307181919-py3-none-any.whl.zip]
 [2023-07-19 00:18:32] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-07-19 00:18:32] INFO root fetch - main [MainThread]: Store serial: [18940660]
+[2023-07-19 00:23:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18940660]
+[2023-07-19 00:23:40] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-19 00:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kcli
+[2023-07-19 00:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lbt-dragonfly
+[2023-07-19 00:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openram
+[2023-07-19 00:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unqlite
+[2023-07-19 00:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oct-to-tiff
+[2023-07-19 00:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kfish
+[2023-07-19 00:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyastgrep
+[2023-07-19 00:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: candor-test
+[2023-07-19 00:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: iambic-core
+[2023-07-19 00:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wsuks
+[2023-07-19 00:23:41] INFO root fetch - processPackages [iambic-core]: New version: [0.9.8] Old Version: [0.9.6]
+[2023-07-19 00:23:41] INFO root fetch - processPackages [openram]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-19 00:23:41] INFO root fetch - processPackages [candor-test]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-19 00:23:41] INFO root fetch - processPackages [kfish]: New version: [99.0.202307182217] Old Version: [99.0.202307181922]
+[2023-07-19 00:23:41] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-07-19 00:23:41] INFO root fetch - processPackages [kcli]: New version: [99.0.202307182214] Old Version: [99.0.202307181919]
+[2023-07-19 00:23:41] INFO root fetch - processPackages [iambic-core]: Downloading https://files.pythonhosted.org/packages/9e/25/21eeb36df4421605a4e9a0f3f4ff71207d35463557f2a464b38aa3200082/iambic_core-0.9.6.tar.gz
+[2023-07-19 00:23:41] INFO root fetch - processPackages [oct-to-tiff]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-19 00:23:41] INFO root fetch - processPackages [unqlite]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-19 00:23:41] INFO root fetch - processPackages [wsuks]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-19 00:23:41] INFO root fetch - processPackages [pyastgrep]: New version: [1.3] Old Version: [1.2.2]
+[2023-07-19 00:23:41] INFO root fetch - processPackages [candor-test]: Downloading https://files.pythonhosted.org/packages/67/16/07362863e37fbb2869f4b6c5dacd82ee55fa2c214c4a6f44a752a8cd1385/candor-test-1.0.0.tar.gz
+[2023-07-19 00:23:41] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/e7/e3/a76ac57ca39ebb7efa07082bc9583ed1070af6172e554006679e316de5a8/kcli-99.0.202307181919-py3-none-any.whl
+[2023-07-19 00:23:41] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-07-19 00:23:41] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/6b/3b/b2b3ce8d0f38f30da7b8870f32b28881ea5a1e22c05ec7a23d7a37f2bad5/kfish-99.0.202307181922-py3-none-any.whl
+[2023-07-19 00:23:41] INFO root fetch - processPackages [openram]: Downloading https://files.pythonhosted.org/packages/cd/81/d4f41efe943d85919e448d6c65c4be619651aadd21d63f69137165780373/openram-1.2.8.tar.gz
+[2023-07-19 00:23:41] INFO root fetch - processPackages [oct-to-tiff]: Downloading https://files.pythonhosted.org/packages/13/a3/6befc8ef68ba7055560b2eaa393d8c094ad0de711665340ec6553233a565/oct_to_tiff-0.3.0.tar.gz
+[2023-07-19 00:23:41] INFO root fetch - processPackages [unqlite]: Downloading https://files.pythonhosted.org/packages/0e/f1/fa494172520bf8f29c2be86f18894356b7d7740ddec51c0ef90e9996f460/unqlite-0.9.5.tar.gz
+[2023-07-19 00:23:41] INFO root fetch - processPackages [wsuks]: Downloading https://files.pythonhosted.org/packages/81/0f/381b16587eace9d53970173b294d0a73569c9089f1578eda4580172cd5ef/wsuks-0.4.1.tar.gz
+[2023-07-19 00:23:41] INFO root fetch - processPackages [pyastgrep]: Downloading https://files.pythonhosted.org/packages/63/a3/849056c75838f10f25f572d42b0383adf6a001facf4378ef28d366a0c5c2/pyastgrep-1.2.2.tar.gz
+[2023-07-19 00:23:41] INFO root fetch - processPackages [iambic-core]: Downloading https://files.pythonhosted.org/packages/6f/80/c1e31a0542c8c742b4f9f67bf67da9ea788a31fe7a030465447db59f3205/iambic_core-0.9.8.tar.gz
+[2023-07-19 00:23:41] INFO root fetch - processPackages [candor-test]: Downloading https://files.pythonhosted.org/packages/d5/f9/b5950114441f414598f1751528509c4428b78d0bc26d217ed8a0751efd29/candor-test-1.0.1.tar.gz
+[2023-07-19 00:23:41] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-07-19 00:23:41] INFO root fetch - processPackages [openram]: Downloading https://files.pythonhosted.org/packages/db/55/baee5dcc46fb63835c99917282700e98ba6d6177d267d541ceb50f1352d8/openram-1.2.9.tar.gz
+[2023-07-19 00:23:42] INFO root fetch - processPackages [candor-test]: executing diffoscope
+[2023-07-19 00:23:42] INFO root fetch - processPackages [candor-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/candor-test-1.0.0.tar.gz tmp/candor-test-1.0.1.tar.gz --markdown 20230719/c/candor-test/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-19 00:23:42] INFO root fetch - processPackages [iambic-core]: executing diffoscope
+[2023-07-19 00:23:42] INFO root fetch - processPackages [iambic-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iambic_core-0.9.6.tar.gz tmp/iambic_core-0.9.8.tar.gz --markdown 20230719/i/iambic-core/0.9.6-0.9.8/diff.md --exclude *.pyd
+[2023-07-19 00:23:42] INFO root fetch - processPackages [oct-to-tiff]: Downloading https://files.pythonhosted.org/packages/ee/a3/40016261ff4b1876599dfb02622be200cba2523497761a62b9882f18061b/oct_to_tiff-0.4.0.tar.gz
+[2023-07-19 00:23:42] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-07-19 00:23:42] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230719/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-07-19 00:23:42] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/26/49/940c03972943409217d4e75568e126f26f5cf4dcd193765b26d5cef697b1/kfish-99.0.202307182217-py3-none-any.whl
+[2023-07-19 00:23:42] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/ae/6d/d4ca83907daf7bcfe5e1c1f082da3d3f81078efa5c5e090868d2a7a7cbce/kcli-99.0.202307182214-py3-none-any.whl
+[2023-07-19 00:23:42] INFO root fetch - processPackages [unqlite]: Downloading https://files.pythonhosted.org/packages/36/a7/61986c77a7396db67e8064646ac5c0735901831f23730fe75cdfdd73d292/unqlite-0.9.6.tar.gz
+[2023-07-19 00:23:42] INFO root fetch - processPackages [wsuks]: Downloading https://files.pythonhosted.org/packages/60/4f/8ece78d696e74c14545f20349456e8b5b7d8dc5944dc473bb42abbc57336/wsuks-0.4.2.tar.gz
+[2023-07-19 00:23:42] INFO root fetch - processPackages [oct-to-tiff]: executing diffoscope
+[2023-07-19 00:23:42] INFO root fetch - processPackages [oct-to-tiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oct_to_tiff-0.3.0.tar.gz tmp/oct_to_tiff-0.4.0.tar.gz --markdown 20230719/o/oct-to-tiff/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-19 00:23:42] INFO root fetch - processPackages [openram]: executing diffoscope
+[2023-07-19 00:23:42] INFO root fetch - processPackages [openram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openram-1.2.8.tar.gz tmp/openram-1.2.9.tar.gz --markdown 20230719/o/openram/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-19 00:23:42] INFO root fetch - processPackages [pyastgrep]: Downloading https://files.pythonhosted.org/packages/1e/4e/aa67d9e1b7f1604411d70471219e6a9daa34f59ee3b19caa98b442ffb800/pyastgrep-1.3.tar.gz
+[2023-07-19 00:23:42] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-19 00:23:42] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307181922-py3-none-any.whl.zip tmp/kfish-99.0.202307182217-py3-none-any.whl.zip --markdown 20230719/k/kfish/99.0.202307181922-99.0.202307182217/diff.md --exclude *.pyd
+[2023-07-19 00:23:42] INFO root fetch - processPackages [unqlite]: executing diffoscope
+[2023-07-19 00:23:42] INFO root fetch - processPackages [unqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unqlite-0.9.5.tar.gz tmp/unqlite-0.9.6.tar.gz --markdown 20230719/u/unqlite/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-19 00:23:42] INFO root fetch - processPackages [pyastgrep]: executing diffoscope
+[2023-07-19 00:23:42] INFO root fetch - processPackages [pyastgrep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyastgrep-1.2.2.tar.gz tmp/pyastgrep-1.3.tar.gz --markdown 20230719/p/pyastgrep/1.2.2-1.3/diff.md --exclude *.pyd
+[2023-07-19 00:23:42] INFO root fetch - processPackages [wsuks]: executing diffoscope
+[2023-07-19 00:23:42] INFO root fetch - processPackages [wsuks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wsuks-0.4.1.tar.gz tmp/wsuks-0.4.2.tar.gz --markdown 20230719/w/wsuks/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-19 00:23:42] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-19 00:23:42] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307181919-py3-none-any.whl.zip tmp/kcli-99.0.202307182214-py3-none-any.whl.zip --markdown 20230719/k/kcli/99.0.202307181919-99.0.202307182214/diff.md --exclude *.pyd
+[2023-07-19 00:23:43] INFO root fetch - processPackages [candor-test]: Remove: archive file [/home/abi/fetcher/tmp/candor-test-1.0.0.tar.gz]
+[2023-07-19 00:23:43] INFO root fetch - processPackages [candor-test]: Remove: archive file [/home/abi/fetcher/tmp/candor-test-1.0.1.tar.gz]
+[2023-07-19 00:23:43] INFO root fetch - processPackages [candor-test]: Start processing: gigagan-pytorch
+[2023-07-19 00:23:43] INFO root fetch - main [MainThread]: End processing [candor-test]: success
+[2023-07-19 00:23:43] INFO root fetch - processPackages [gigagan-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 00:23:43] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2023-07-19 00:23:43] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2023-07-19 00:23:43] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-07-19 00:23:43] INFO root fetch - processPackages [gigagan-pytorch]: Downloading https://files.pythonhosted.org/packages/c0/aa/26bf6b7a863fb9525dd2ca84ff5122173d9bcd4d108b07c4aa8bb92431c7/gigagan-pytorch-0.0.8.tar.gz
+[2023-07-19 00:23:43] INFO root fetch - processPackages [oct-to-tiff]: Remove: archive file [/home/abi/fetcher/tmp/oct_to_tiff-0.3.0.tar.gz]
+[2023-07-19 00:23:43] INFO root fetch - processPackages [oct-to-tiff]: Remove: archive file [/home/abi/fetcher/tmp/oct_to_tiff-0.4.0.tar.gz]
+[2023-07-19 00:23:43] INFO root fetch - main [MainThread]: End processing [oct-to-tiff]: success
+[2023-07-19 00:23:43] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307181922-py3-none-any.whl.zip]
+[2023-07-19 00:23:43] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307182217-py3-none-any.whl.zip]
+[2023-07-19 00:23:43] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-19 00:23:43] INFO root fetch - processPackages [gigagan-pytorch]: Downloading https://files.pythonhosted.org/packages/88/15/d88c491945eed450311a7b87b5c2fc81ce2bdeb29f0c7c042a11e387769b/gigagan-pytorch-0.0.9.tar.gz
+[2023-07-19 00:23:43] INFO root fetch - processPackages [gigagan-pytorch]: executing diffoscope
+[2023-07-19 00:23:43] INFO root fetch - processPackages [gigagan-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gigagan-pytorch-0.0.8.tar.gz tmp/gigagan-pytorch-0.0.9.tar.gz --markdown 20230719/g/gigagan-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 00:23:44] INFO root fetch - processPackages [pyastgrep]: Remove: archive file [/home/abi/fetcher/tmp/pyastgrep-1.2.2.tar.gz]
+[2023-07-19 00:23:44] INFO root fetch - processPackages [pyastgrep]: Remove: archive file [/home/abi/fetcher/tmp/pyastgrep-1.3.tar.gz]
+[2023-07-19 00:23:44] INFO root fetch - main [MainThread]: End processing [pyastgrep]: success
+[2023-07-19 00:23:44] INFO root fetch - processPackages [iambic-core]: Remove: archive file [/home/abi/fetcher/tmp/iambic_core-0.9.6.tar.gz]
+[2023-07-19 00:23:44] INFO root fetch - processPackages [iambic-core]: Remove: archive file [/home/abi/fetcher/tmp/iambic_core-0.9.8.tar.gz]
+[2023-07-19 00:23:44] INFO root fetch - main [MainThread]: End processing [iambic-core]: success
+[2023-07-19 00:23:44] INFO root fetch - processPackages [wsuks]: Remove: archive file [/home/abi/fetcher/tmp/wsuks-0.4.1.tar.gz]
+[2023-07-19 00:23:44] INFO root fetch - processPackages [wsuks]: Remove: archive file [/home/abi/fetcher/tmp/wsuks-0.4.2.tar.gz]
+[2023-07-19 00:23:44] INFO root fetch - main [MainThread]: End processing [wsuks]: success
+[2023-07-19 00:23:44] INFO root fetch - processPackages [unqlite]: Remove: archive file [/home/abi/fetcher/tmp/unqlite-0.9.5.tar.gz]
+[2023-07-19 00:23:44] INFO root fetch - processPackages [unqlite]: Remove: archive file [/home/abi/fetcher/tmp/unqlite-0.9.6.tar.gz]
+[2023-07-19 00:23:44] INFO root fetch - main [MainThread]: End processing [unqlite]: success
+[2023-07-19 00:23:44] INFO root fetch - processPackages [gigagan-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/gigagan-pytorch-0.0.8.tar.gz]
+[2023-07-19 00:23:44] INFO root fetch - processPackages [gigagan-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/gigagan-pytorch-0.0.9.tar.gz]
+[2023-07-19 00:23:44] INFO root fetch - main [MainThread]: End processing [gigagan-pytorch]: success
+[2023-07-19 00:23:46] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307181919-py3-none-any.whl.zip]
+[2023-07-19 00:23:46] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307182214-py3-none-any.whl.zip]
+[2023-07-19 00:23:46] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-19 00:23:48] INFO root fetch - processPackages [openram]: Remove: archive file [/home/abi/fetcher/tmp/openram-1.2.8.tar.gz]
+[2023-07-19 00:23:48] INFO root fetch - processPackages [openram]: Remove: archive file [/home/abi/fetcher/tmp/openram-1.2.9.tar.gz]
+[2023-07-19 00:23:48] INFO root fetch - main [MainThread]: End processing [openram]: success
+[2023-07-19 00:23:48] INFO root fetch - main [MainThread]: Store serial: [18940697]
