@@ -854,3 +854,169 @@
 [2023-07-19 00:45:39] INFO root fetch - processPackages [robust-laplacian]: Remove: archive file [/home/abi/fetcher/tmp/robust_laplacian-0.2.5.tar.gz]
 [2023-07-19 00:45:39] INFO root fetch - main [MainThread]: End processing [robust-laplacian]: success
 [2023-07-19 00:45:39] INFO root fetch - main [MainThread]: Store serial: [18940894]
+[2023-07-19 00:50:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18940894]
+[2023-07-19 00:50:48] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-19 00:50:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TapisCL-ICICLE
+[2023-07-19 00:50:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Chromify
+[2023-07-19 00:50:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyclipr
+[2023-07-19 00:50:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dvv
+[2023-07-19 00:50:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dapr-dev
+[2023-07-19 00:50:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: llama-index
+[2023-07-19 00:50:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dapr-ext-workflow-dev
+[2023-07-19 00:50:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flask-dapr-dev
+[2023-07-19 00:50:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gpt-index
+[2023-07-19 00:50:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dapr-ext-grpc-dev
+[2023-07-19 00:50:48] INFO root fetch - processPackages [dvv]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-07-19 00:50:48] INFO root fetch - processPackages [dapr-ext-workflow-dev]: New version: [0.0.1rc1.dev1636] Old Version: [0.0.1rc1.dev1627]
+[2023-07-19 00:50:48] INFO root fetch - processPackages [dapr-dev]: New version: [1.9.0rc1.dev1636] Old Version: [1.9.0rc1.dev1627]
+[2023-07-19 00:50:48] INFO root fetch - processPackages [llama-index]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-07-19 00:50:48] INFO root fetch - processPackages [dapr-ext-grpc-dev]: New version: [1.9.0rc1.dev1636] Old Version: [1.9.0rc1.dev1627]
+[2023-07-19 00:50:48] INFO root fetch - processPackages [gpt-index]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-07-19 00:50:48] INFO root fetch - processPackages [flask-dapr-dev]: New version: [1.9.0rc1.dev1636] Old Version: [1.9.0rc1.dev1627]
+[2023-07-19 00:50:48] INFO root fetch - processPackages [Chromify]: New version: [1.1.7] Old Version: [1.1.5]
+[2023-07-19 00:50:48] INFO root fetch - processPackages [TapisCL-ICICLE]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-19 00:50:48] INFO root fetch - processPackages [pyclipr]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-19 00:50:48] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/a9/fc/759318b247b4f445b1da56bb0d8b711a7de1adda75a92c3fd92176d9984c/gpt_index-0.7.8.tar.gz
+[2023-07-19 00:50:48] INFO root fetch - processPackages [dapr-ext-workflow-dev]: Downloading https://files.pythonhosted.org/packages/63/e8/4d2482365a51d9208d890d7bf252cbb1ca22986cb1847eebbcdcb1f9c13e/dapr-ext-workflow-dev-0.0.1rc1.dev1627.tar.gz
+[2023-07-19 00:50:48] INFO root fetch - processPackages [dapr-dev]: Downloading https://files.pythonhosted.org/packages/b2/00/dc8bc574ddb5b3f8dae055931189fdbe470cf80fb8a70a79fba0df64f651/dapr-dev-1.9.0rc1.dev1627.tar.gz
+[2023-07-19 00:50:48] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/2f/e7/26c0a77d20d762a2e856738f0f1e38342069be88566479653d9d9118e33a/llama_index-0.7.8.tar.gz
+[2023-07-19 00:50:48] INFO root fetch - processPackages [flask-dapr-dev]: Downloading https://files.pythonhosted.org/packages/09/dd/399aa9b15b6fd3d0bce579111be43159ca937e8e65d5a84488ab594d42ba/flask-dapr-dev-1.9.0rc1.dev1627.tar.gz
+[2023-07-19 00:50:48] INFO root fetch - processPackages [dvv]: Downloading https://files.pythonhosted.org/packages/b4/5c/db94553bf529be0c9f5ab36ac9f75ee0417320da0cec5f6b0bbb5fbd84a2/dvv-0.0.1.tar.gz
+[2023-07-19 00:50:48] INFO root fetch - processPackages [dapr-ext-grpc-dev]: Downloading https://files.pythonhosted.org/packages/fa/4b/7db964570bdfb6243782ba114870c08a90f78a0a95bd4022bc7f8d27da2c/dapr-ext-grpc-dev-1.9.0rc1.dev1627.tar.gz
+[2023-07-19 00:50:49] INFO root fetch - processPackages [Chromify]: Downloading https://files.pythonhosted.org/packages/79/95/94ebfe78f9b0dd539cef2439cfc067f4d7670f878ac7323fa040705ad66d/Chromify-1.1.5.tar.gz
+[2023-07-19 00:50:49] INFO root fetch - processPackages [pyclipr]: Downloading https://files.pythonhosted.org/packages/df/b5/b20605cafb1f9e467cacf38872f415c59fcb5676a7b72ecd524c5280f5e2/pyclipr-0.1.1-cp39-cp39-win_amd64.whl
+[2023-07-19 00:50:49] INFO root fetch - processPackages [TapisCL-ICICLE]: Downloading https://files.pythonhosted.org/packages/e2/45/10a1da88801c1ffc57a66385268a02e2d544674ae748e3cca31556bd7235/TapisCL-ICICLE-1.0.1.tar.gz
+[2023-07-19 00:50:49] INFO root fetch - processPackages [dapr-ext-workflow-dev]: Downloading https://files.pythonhosted.org/packages/af/ce/b19549c7d8575a021a0f9fe926d86fcc805d9a1a08dbb3b68c5577e36a4b/dapr-ext-workflow-dev-0.0.1rc1.dev1636.tar.gz
+[2023-07-19 00:50:49] INFO root fetch - processPackages [dapr-dev]: Downloading https://files.pythonhosted.org/packages/b8/01/653476ccda947955f32b5de51cf251de14b9e3e67e002089e139592e0272/dapr-dev-1.9.0rc1.dev1636.tar.gz
+[2023-07-19 00:50:49] INFO root fetch - processPackages [flask-dapr-dev]: Downloading https://files.pythonhosted.org/packages/ab/36/2818610278557447d25a6f85787f27355d28147c376c19e288e0e6671aa7/flask-dapr-dev-1.9.0rc1.dev1636.tar.gz
+[2023-07-19 00:50:49] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/1a/7c/9e8aceb37943ab1d15e27d69ed3e650c7692b3669e2d293bd325e988437f/llama_index-0.7.9.tar.gz
+[2023-07-19 00:50:49] INFO root fetch - processPackages [dapr-ext-grpc-dev]: Downloading https://files.pythonhosted.org/packages/5b/31/6069c4399b22b1b239ba8470c07cab3f6366568058554fac9d96da61015e/dapr-ext-grpc-dev-1.9.0rc1.dev1636.tar.gz
+[2023-07-19 00:50:49] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/fb/cd/b6cf67186f1ef0f3078acd211131fce74e74d15332fa85c6bdcdc2812534/gpt_index-0.7.9.tar.gz
+[2023-07-19 00:50:49] INFO root fetch - processPackages [dvv]: Downloading https://files.pythonhosted.org/packages/5f/7c/27c4a1c4f488d7e2b664cdcfe10101ffb581f3517c041cb8ca425696d7ec/dvv-0.0.3.tar.gz
+[2023-07-19 00:50:49] INFO root fetch - processPackages [dapr-ext-workflow-dev]: executing diffoscope
+[2023-07-19 00:50:49] INFO root fetch - processPackages [dapr-ext-workflow-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapr-ext-workflow-dev-0.0.1rc1.dev1627.tar.gz tmp/dapr-ext-workflow-dev-0.0.1rc1.dev1636.tar.gz --markdown 20230719/d/dapr-ext-workflow-dev/0.0.1rc1.dev1627-0.0.1rc1.dev1636/diff.md --exclude *.pyd
+[2023-07-19 00:50:49] INFO root fetch - processPackages [flask-dapr-dev]: executing diffoscope
+[2023-07-19 00:50:49] INFO root fetch - processPackages [flask-dapr-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-dapr-dev-1.9.0rc1.dev1627.tar.gz tmp/flask-dapr-dev-1.9.0rc1.dev1636.tar.gz --markdown 20230719/f/flask-dapr-dev/1.9.0rc1.dev1627-1.9.0rc1.dev1636/diff.md --exclude *.pyd
+[2023-07-19 00:50:49] INFO root fetch - processPackages [Chromify]: Downloading https://files.pythonhosted.org/packages/87/0d/0120d5a5b3c84582062d1cc921fad1d55d54e52fc9752485871b01c71980/Chromify-1.1.7-py3-none-any.whl
+[2023-07-19 00:50:49] INFO root fetch - processPackages [dapr-dev]: executing diffoscope
+[2023-07-19 00:50:49] INFO root fetch - processPackages [dapr-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapr-dev-1.9.0rc1.dev1627.tar.gz tmp/dapr-dev-1.9.0rc1.dev1636.tar.gz --markdown 20230719/d/dapr-dev/1.9.0rc1.dev1627-1.9.0rc1.dev1636/diff.md --exclude *.pyd
+[2023-07-19 00:50:49] INFO root fetch - processPackages [dapr-ext-grpc-dev]: executing diffoscope
+[2023-07-19 00:50:49] INFO root fetch - processPackages [dapr-ext-grpc-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapr-ext-grpc-dev-1.9.0rc1.dev1627.tar.gz tmp/dapr-ext-grpc-dev-1.9.0rc1.dev1636.tar.gz --markdown 20230719/d/dapr-ext-grpc-dev/1.9.0rc1.dev1627-1.9.0rc1.dev1636/diff.md --exclude *.pyd
+[2023-07-19 00:50:49] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2023-07-19 00:50:49] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.7.8.tar.gz tmp/llama_index-0.7.9.tar.gz --markdown 20230719/l/llama-index/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-07-19 00:50:49] INFO root fetch - processPackages [dvv]: executing diffoscope
+[2023-07-19 00:50:49] INFO root fetch - processPackages [dvv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvv-0.0.1.tar.gz tmp/dvv-0.0.3.tar.gz --markdown 20230719/d/dvv/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-07-19 00:50:49] INFO root fetch - processPackages [TapisCL-ICICLE]: Downloading https://files.pythonhosted.org/packages/43/78/8ce9c3e48a2acb2b61d9404bcce6573c67a152abe99d207931cd7621943a/TapisCL-ICICLE-1.0.2.tar.gz
+[2023-07-19 00:50:49] INFO root fetch - processPackages [gpt-index]: executing diffoscope
+[2023-07-19 00:50:49] INFO root fetch - processPackages [gpt-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_index-0.7.8.tar.gz tmp/gpt_index-0.7.9.tar.gz --markdown 20230719/g/gpt-index/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-07-19 00:50:49] INFO root fetch - processPackages [Chromify]: executing diffoscope
+[2023-07-19 00:50:49] INFO root fetch - processPackages [Chromify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Chromify-1.1.5.tar.gz tmp/Chromify-1.1.7-py3-none-any.whl.zip --markdown 20230719/C/Chromify/1.1.5-1.1.7/diff.md --exclude *.pyd
+[2023-07-19 00:50:49] INFO root fetch - processPackages [pyclipr]: Downloading https://files.pythonhosted.org/packages/77/c4/4c7ffc0f3a8cefc7cd11753a617eb4b5bb576eb5d90f51c002aaab4475f8/pyclipr-0.1.2-cp39-cp39-win_amd64.whl
+[2023-07-19 00:50:49] INFO root fetch - processPackages [TapisCL-ICICLE]: executing diffoscope
+[2023-07-19 00:50:49] INFO root fetch - processPackages [TapisCL-ICICLE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TapisCL-ICICLE-1.0.1.tar.gz tmp/TapisCL-ICICLE-1.0.2.tar.gz --markdown 20230719/T/TapisCL-ICICLE/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-19 00:50:50] INFO root fetch - processPackages [pyclipr]: executing diffoscope
+[2023-07-19 00:50:50] INFO root fetch - processPackages [pyclipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyclipr-0.1.1-cp39-cp39-win_amd64.whl.zip tmp/pyclipr-0.1.2-cp39-cp39-win_amd64.whl.zip --markdown 20230719/p/pyclipr/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-19 00:50:50] INFO root fetch - processPackages [dapr-ext-workflow-dev]: Remove: archive file [/home/abi/fetcher/tmp/dapr-ext-workflow-dev-0.0.1rc1.dev1627.tar.gz]
+[2023-07-19 00:50:50] INFO root fetch - processPackages [dapr-ext-workflow-dev]: Remove: archive file [/home/abi/fetcher/tmp/dapr-ext-workflow-dev-0.0.1rc1.dev1636.tar.gz]
+[2023-07-19 00:50:50] INFO root fetch - processPackages [dapr-ext-workflow-dev]: Start processing: dapr-ext-fastapi-dev
+[2023-07-19 00:50:50] INFO root fetch - main [MainThread]: End processing [dapr-ext-workflow-dev]: success
+[2023-07-19 00:50:51] INFO root fetch - processPackages [dapr-ext-fastapi-dev]: New version: [1.9.0rc1.dev1636] Old Version: [1.9.0rc1.dev1627]
+[2023-07-19 00:50:51] INFO root fetch - processPackages [flask-dapr-dev]: Remove: archive file [/home/abi/fetcher/tmp/flask-dapr-dev-1.9.0rc1.dev1627.tar.gz]
+[2023-07-19 00:50:51] INFO root fetch - processPackages [flask-dapr-dev]: Remove: archive file [/home/abi/fetcher/tmp/flask-dapr-dev-1.9.0rc1.dev1636.tar.gz]
+[2023-07-19 00:50:51] INFO root fetch - processPackages [flask-dapr-dev]: Start processing: svtplay-dl
+[2023-07-19 00:50:51] INFO root fetch - main [MainThread]: End processing [flask-dapr-dev]: success
+[2023-07-19 00:50:51] INFO root fetch - processPackages [dapr-ext-fastapi-dev]: Downloading https://files.pythonhosted.org/packages/40/4f/d1dfee9c612030d20b094efd248463ca809640350012a1a0df0152ab6c48/dapr-ext-fastapi-dev-1.9.0rc1.dev1627.tar.gz
+[2023-07-19 00:50:51] INFO root fetch - processPackages [svtplay-dl]: New version: [4.9] Old Version: [4.8]
+[2023-07-19 00:50:51] INFO root fetch - processPackages [Chromify]: Remove: archive file [/home/abi/fetcher/tmp/Chromify-1.1.5.tar.gz]
+[2023-07-19 00:50:51] INFO root fetch - processPackages [Chromify]: Remove: archive file [/home/abi/fetcher/tmp/Chromify-1.1.7-py3-none-any.whl.zip]
+[2023-07-19 00:50:51] INFO root fetch - processPackages [Chromify]: Start processing: vector-vault
+[2023-07-19 00:50:51] INFO root fetch - main [MainThread]: End processing [Chromify]: success
+[2023-07-19 00:50:51] INFO root fetch - processPackages [dvv]: Remove: archive file [/home/abi/fetcher/tmp/dvv-0.0.1.tar.gz]
+[2023-07-19 00:50:51] INFO root fetch - processPackages [dvv]: Remove: archive file [/home/abi/fetcher/tmp/dvv-0.0.3.tar.gz]
+[2023-07-19 00:50:51] INFO root fetch - processPackages [dvv]: Start processing: fitsviz
+[2023-07-19 00:50:51] INFO root fetch - main [MainThread]: End processing [dvv]: success
+[2023-07-19 00:50:51] INFO root fetch - processPackages [dapr-ext-fastapi-dev]: Downloading https://files.pythonhosted.org/packages/ca/1b/77fa1a5faeb60645a37fbeb997decb0fed641a0dfa2bcda0b8eedcf800ef/dapr-ext-fastapi-dev-1.9.0rc1.dev1636.tar.gz
+[2023-07-19 00:50:51] INFO root fetch - processPackages [fitsviz]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-19 00:50:51] INFO root fetch - processPackages [dapr-ext-grpc-dev]: Remove: archive file [/home/abi/fetcher/tmp/dapr-ext-grpc-dev-1.9.0rc1.dev1627.tar.gz]
+[2023-07-19 00:50:51] INFO root fetch - processPackages [dapr-ext-grpc-dev]: Remove: archive file [/home/abi/fetcher/tmp/dapr-ext-grpc-dev-1.9.0rc1.dev1636.tar.gz]
+[2023-07-19 00:50:51] INFO root fetch - processPackages [dapr-ext-grpc-dev]: Start processing: Web3R.py
+[2023-07-19 00:50:51] INFO root fetch - main [MainThread]: End processing [dapr-ext-grpc-dev]: success
+[2023-07-19 00:50:51] INFO root fetch - processPackages [pyclipr]: Remove: archive file [/home/abi/fetcher/tmp/pyclipr-0.1.1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-19 00:50:51] INFO root fetch - processPackages [pyclipr]: Remove: archive file [/home/abi/fetcher/tmp/pyclipr-0.1.2-cp39-cp39-win_amd64.whl.zip]
+[2023-07-19 00:50:51] INFO root fetch - processPackages [pyclipr]: Start processing: modelbit
+[2023-07-19 00:50:51] INFO root fetch - main [MainThread]: End processing [pyclipr]: success
+[2023-07-19 00:50:51] INFO root fetch - processPackages [vector-vault]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-07-19 00:50:51] INFO root fetch - processPackages [svtplay-dl]: Downloading https://files.pythonhosted.org/packages/75/24/b7383220b002857995ff8bc68c5ef37adea8a7283c742cb35cb5501ddc2c/svtplay-dl-4.8.tar.gz
+[2023-07-19 00:50:51] INFO root fetch - processPackages [dapr-dev]: Remove: archive file [/home/abi/fetcher/tmp/dapr-dev-1.9.0rc1.dev1627.tar.gz]
+[2023-07-19 00:50:51] INFO root fetch - processPackages [dapr-dev]: Remove: archive file [/home/abi/fetcher/tmp/dapr-dev-1.9.0rc1.dev1636.tar.gz]
+[2023-07-19 00:50:51] INFO root fetch - processPackages [dapr-dev]: Start processing: torp
+[2023-07-19 00:50:51] INFO root fetch - main [MainThread]: End processing [dapr-dev]: success
+[2023-07-19 00:50:51] INFO root fetch - processPackages [modelbit]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-07-19 00:50:51] INFO root fetch - processPackages [fitsviz]: Downloading https://files.pythonhosted.org/packages/8e/87/76b330e2c640b56efff0a30833e5d7823dcbc9f5ccf74115053840e6dc03/fitsviz-0.0.3.tar.gz
+[2023-07-19 00:50:51] INFO root fetch - processPackages [dapr-ext-fastapi-dev]: executing diffoscope
+[2023-07-19 00:50:51] INFO root fetch - processPackages [dapr-ext-fastapi-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapr-ext-fastapi-dev-1.9.0rc1.dev1627.tar.gz tmp/dapr-ext-fastapi-dev-1.9.0rc1.dev1636.tar.gz --markdown 20230719/d/dapr-ext-fastapi-dev/1.9.0rc1.dev1627-1.9.0rc1.dev1636/diff.md --exclude *.pyd
+[2023-07-19 00:50:51] WARNING root fetch - processPackages [Web3R.py]: Skipping, unable to determine old version
+[2023-07-19 00:50:51] INFO root fetch - processPackages [Web3R.py]: Start processing: vector-vault
+[2023-07-19 00:50:51] INFO root fetch - main [MainThread]: End processing [Web3R.py] error
+[2023-07-19 00:50:51] INFO root fetch - processPackages [torp]: New version: [0.0.3] Old Version: [0.0.0]
+[2023-07-19 00:50:51] INFO root fetch - processPackages [vector-vault]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-07-19 00:50:51] INFO root fetch - processPackages [modelbit]: Downloading https://files.pythonhosted.org/packages/c9/f0/ed4cc6d7e8a055435d41e58b6ff37b6189ac3cb52e6383b72c12aa4e605f/modelbit-0.9.6.tar.gz
+[2023-07-19 00:50:51] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/65/be/9b303b705a962e98bc814d6c789d33179a8a1dd4017b30ba40fa473bffa6/vector_vault-2.1.1.tar.gz
+[2023-07-19 00:50:51] INFO root fetch - processPackages [TapisCL-ICICLE]: Remove: archive file [/home/abi/fetcher/tmp/TapisCL-ICICLE-1.0.1.tar.gz]
+[2023-07-19 00:50:51] INFO root fetch - processPackages [TapisCL-ICICLE]: Remove: archive file [/home/abi/fetcher/tmp/TapisCL-ICICLE-1.0.2.tar.gz]
+[2023-07-19 00:50:51] INFO root fetch - processPackages [TapisCL-ICICLE]: Start processing: torp
+[2023-07-19 00:50:51] INFO root fetch - main [MainThread]: End processing [TapisCL-ICICLE]: success
+[2023-07-19 00:50:51] INFO root fetch - processPackages [torp]: Downloading https://files.pythonhosted.org/packages/44/26/05bb409facdbbd57419068d89d3c34a1d8171e7d088431489d44ebd5b1b0/torp-0.0.0.tar.gz
+[2023-07-19 00:50:51] INFO root fetch - processPackages [torp]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-19 00:50:51] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/65/be/9b303b705a962e98bc814d6c789d33179a8a1dd4017b30ba40fa473bffa6/vector_vault-2.1.1.tar.gz
+[2023-07-19 00:50:52] INFO root fetch - processPackages [fitsviz]: Downloading https://files.pythonhosted.org/packages/81/fc/8f90208ce4963f06bdbe06a0fd89337e92315171dfbb9d86e3465580eeb5/fitsviz-0.0.4.tar.gz
+[2023-07-19 00:50:52] INFO root fetch - processPackages [torp]: Downloading https://files.pythonhosted.org/packages/39/94/e837698920dc956af279936b30a2c02c2111926e15d4f8c59f426a043a52/torp-0.0.4-py3-none-any.whl
+[2023-07-19 00:50:52] INFO root fetch - processPackages [torp]: Downloading https://files.pythonhosted.org/packages/eb/e8/42fdd458d2991653e801e90a2ce0ee715840775ba6a5ccc768aae20e107f/torp-0.0.3.tar.gz
+[2023-07-19 00:50:52] INFO root fetch - processPackages [modelbit]: Downloading https://files.pythonhosted.org/packages/55/0f/8d19e66368fbaa57d08deb9b9d12c445c2e2451e77490d39dfff1e70698a/modelbit-0.9.7.tar.gz
+[2023-07-19 00:50:52] INFO root fetch - processPackages [fitsviz]: executing diffoscope
+[2023-07-19 00:50:52] INFO root fetch - processPackages [fitsviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fitsviz-0.0.3.tar.gz tmp/fitsviz-0.0.4.tar.gz --markdown 20230719/f/fitsviz/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-19 00:50:52] INFO root fetch - processPackages [svtplay-dl]: Downloading https://files.pythonhosted.org/packages/1a/bc/d74decb2cdb4277e5cbe51f24c751f45bbd387cb4f411079c8f2e23591a3/svtplay-dl-4.9.tar.gz
+[2023-07-19 00:50:52] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/88/8a/a787b885786b8a7d6cbabb230efa58b7eb0ae6b2c2be79bd2c61f55022bf/vector_vault-2.1.2.tar.gz
+[2023-07-19 00:50:52] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/88/8a/a787b885786b8a7d6cbabb230efa58b7eb0ae6b2c2be79bd2c61f55022bf/vector_vault-2.1.2.tar.gz
+[2023-07-19 00:50:52] INFO root fetch - processPackages [torp]: executing diffoscope
+[2023-07-19 00:50:52] INFO root fetch - processPackages [torp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torp-0.0.0.tar.gz tmp/torp-0.0.3.tar.gz --markdown 20230719/t/torp/0.0.0-0.0.3/diff.md --exclude *.pyd
+[2023-07-19 00:50:52] INFO root fetch - processPackages [modelbit]: executing diffoscope
+[2023-07-19 00:50:52] INFO root fetch - processPackages [modelbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbit-0.9.6.tar.gz tmp/modelbit-0.9.7.tar.gz --markdown 20230719/m/modelbit/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-07-19 00:50:52] INFO root fetch - processPackages [svtplay-dl]: executing diffoscope
+[2023-07-19 00:50:52] INFO root fetch - processPackages [svtplay-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svtplay-dl-4.8.tar.gz tmp/svtplay-dl-4.9.tar.gz --markdown 20230719/s/svtplay-dl/4.8-4.9/diff.md --exclude *.pyd
+[2023-07-19 00:50:52] INFO root fetch - processPackages [vector-vault]: executing diffoscope
+[2023-07-19 00:50:52] INFO root fetch - processPackages [vector-vault]: executing diffoscope
+[2023-07-19 00:50:52] INFO root fetch - processPackages [vector-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_vault-2.1.1.tar.gz tmp/vector_vault-2.1.2.tar.gz --markdown 20230719/v/vector-vault/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-07-19 00:50:52] INFO root fetch - processPackages [vector-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_vault-2.1.1.tar.gz tmp/vector_vault-2.1.2.tar.gz --markdown 20230719/v/vector-vault/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-07-19 00:50:52] INFO root fetch - processPackages [torp]: Downloading https://files.pythonhosted.org/packages/64/0e/39f7f55b03cfbaa0aa07000fc2207a94a35c1ab1262f249b378fa0731a6c/torp-0.0.5.tar.gz
+[2023-07-19 00:50:52] INFO root fetch - processPackages [torp]: executing diffoscope
+[2023-07-19 00:50:52] INFO root fetch - processPackages [torp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torp-0.0.4-py3-none-any.whl.zip tmp/torp-0.0.5.tar.gz --markdown 20230719/t/torp/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-19 00:50:52] INFO root fetch - processPackages [dapr-ext-fastapi-dev]: Remove: archive file [/home/abi/fetcher/tmp/dapr-ext-fastapi-dev-1.9.0rc1.dev1627.tar.gz]
+[2023-07-19 00:50:52] INFO root fetch - processPackages [dapr-ext-fastapi-dev]: Remove: archive file [/home/abi/fetcher/tmp/dapr-ext-fastapi-dev-1.9.0rc1.dev1636.tar.gz]
+[2023-07-19 00:50:52] INFO root fetch - main [MainThread]: End processing [dapr-ext-fastapi-dev]: success
+[2023-07-19 00:50:53] INFO root fetch - processPackages [fitsviz]: Remove: archive file [/home/abi/fetcher/tmp/fitsviz-0.0.3.tar.gz]
+[2023-07-19 00:50:53] INFO root fetch - processPackages [fitsviz]: Remove: archive file [/home/abi/fetcher/tmp/fitsviz-0.0.4.tar.gz]
+[2023-07-19 00:50:53] INFO root fetch - main [MainThread]: End processing [fitsviz]: success
+[2023-07-19 00:50:53] INFO root fetch - processPackages [torp]: Remove: archive file [/home/abi/fetcher/tmp/torp-0.0.0.tar.gz]
+[2023-07-19 00:50:53] INFO root fetch - processPackages [torp]: Remove: archive file [/home/abi/fetcher/tmp/torp-0.0.3.tar.gz]
+[2023-07-19 00:50:53] INFO root fetch - main [MainThread]: End processing [torp]: success
+[2023-07-19 00:50:53] INFO root fetch - processPackages [modelbit]: Remove: archive file [/home/abi/fetcher/tmp/modelbit-0.9.6.tar.gz]
+[2023-07-19 00:50:53] INFO root fetch - processPackages [modelbit]: Remove: archive file [/home/abi/fetcher/tmp/modelbit-0.9.7.tar.gz]
+[2023-07-19 00:50:53] INFO root fetch - main [MainThread]: End processing [modelbit]: success
+[2023-07-19 00:50:54] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-2.1.1.tar.gz]
+[2023-07-19 00:50:54] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-2.1.2.tar.gz]
+[2023-07-19 00:50:54] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
+[2023-07-19 00:50:54] INFO root fetch - processPackages [svtplay-dl]: Remove: archive file [/home/abi/fetcher/tmp/svtplay-dl-4.8.tar.gz]
+[2023-07-19 00:50:54] INFO root fetch - processPackages [svtplay-dl]: Remove: archive file [/home/abi/fetcher/tmp/svtplay-dl-4.9.tar.gz]
+[2023-07-19 00:50:54] INFO root fetch - main [MainThread]: End processing [svtplay-dl]: success
+[2023-07-19 00:50:54] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
+[2023-07-19 00:50:54] INFO root fetch - processPackages [torp]: Remove: archive file [/home/abi/fetcher/tmp/torp-0.0.4-py3-none-any.whl.zip]
+[2023-07-19 00:50:54] INFO root fetch - processPackages [torp]: Remove: archive file [/home/abi/fetcher/tmp/torp-0.0.5.tar.gz]
+[2023-07-19 00:50:54] INFO root fetch - main [MainThread]: End processing [torp]: success
+[2023-07-19 00:50:54] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.7.8.tar.gz]
+[2023-07-19 00:50:54] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.7.9.tar.gz]
+[2023-07-19 00:50:54] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2023-07-19 00:50:54] INFO root fetch - processPackages [gpt-index]: Remove: archive file [/home/abi/fetcher/tmp/gpt_index-0.7.8.tar.gz]
+[2023-07-19 00:50:54] INFO root fetch - processPackages [gpt-index]: Remove: archive file [/home/abi/fetcher/tmp/gpt_index-0.7.9.tar.gz]
+[2023-07-19 00:50:54] INFO root fetch - main [MainThread]: End processing [gpt-index]: success
+[2023-07-19 00:50:54] INFO root fetch - main [MainThread]: Store serial: [18940967]
