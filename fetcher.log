@@ -235,3 +235,116 @@
 [2023-07-19 00:13:18] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-postprocess-0.4.99.tar.gz]
 [2023-07-19 00:13:18] INFO root fetch - main [MainThread]: End processing [honeybee-radiance-postprocess]: success
 [2023-07-19 00:13:18] INFO root fetch - main [MainThread]: Store serial: [18940614]
+[2023-07-19 00:18:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18940614]
+[2023-07-19 00:18:26] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-19 00:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lbt-honeybee
+[2023-07-19 00:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kcli
+[2023-07-19 00:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dragonfly-uwg
+[2023-07-19 00:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lbt-dragonfly
+[2023-07-19 00:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gradec
+[2023-07-19 00:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dragonfly-energy
+[2023-07-19 00:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lbt-dragonfly
+[2023-07-19 00:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lbt-honeybee
+[2023-07-19 00:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kfish
+[2023-07-19 00:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dvv
+[2023-07-19 00:18:27] WARNING root fetch - processPackages [gradec]: Skipping, unable to determine old version
+[2023-07-19 00:18:27] INFO root fetch - processPackages [gradec]: Start processing: candor-test
+[2023-07-19 00:18:27] INFO root fetch - main [MainThread]: End processing [gradec] error
+[2023-07-19 00:18:27] WARNING root fetch - processPackages [dvv]: Skipping, unable to determine old version
+[2023-07-19 00:18:27] INFO root fetch - processPackages [dvv]: Start processing: threads-api
+[2023-07-19 00:18:27] INFO root fetch - main [MainThread]: End processing [dvv] error
+[2023-07-19 00:18:27] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-07-19 00:18:27] INFO root fetch - processPackages [kfish]: New version: [99.0.202307181922] Old Version: [99.0.202307181822]
+[2023-07-19 00:18:27] INFO root fetch - processPackages [candor-test]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-19 00:18:27] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-07-19 00:18:27] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-19 00:18:27] INFO root fetch - processPackages [kcli]: New version: [99.0.202307181919] Old Version: [99.0.202307181819]
+[2023-07-19 00:18:27] INFO root fetch - processPackages [threads-api]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-19 00:18:27] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-19 00:18:27] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-07-19 00:18:27] INFO root fetch - processPackages [dragonfly-uwg]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-07-19 00:18:27] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/90/0b/13e4392902372913284bf6236fe865fb2010646425fd64cd6365185668d6/kfish-99.0.202307181822-py3-none-any.whl
+[2023-07-19 00:18:27] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-07-19 00:18:27] INFO root fetch - processPackages [threads-api]: Downloading https://files.pythonhosted.org/packages/8e/7b/d9f92cfe385bef370f7b0c6946c2c5bae610c8564a65a6b1e0a2cd206538/threads-api-1.1.8.tar.gz
+[2023-07-19 00:18:27] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/19/59/4901be09b4bc6b97917c58bf3279cb373aa222989b9501e53b4c43213a9e/lbt-honeybee-0.7.98.tar.gz
+[2023-07-19 00:18:27] INFO root fetch - processPackages [dragonfly-energy]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-19 00:18:27] INFO root fetch - processPackages [candor-test]: Downloading https://files.pythonhosted.org/packages/67/16/07362863e37fbb2869f4b6c5dacd82ee55fa2c214c4a6f44a752a8cd1385/candor-test-1.0.0.tar.gz
+[2023-07-19 00:18:27] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/ea/b3/386e46936bc2638577dc4f91ed1211ee3379d65ac19557f668f8d1f0dfe8/kcli-99.0.202307181819-py3-none-any.whl
+[2023-07-19 00:18:27] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/19/59/4901be09b4bc6b97917c58bf3279cb373aa222989b9501e53b4c43213a9e/lbt-honeybee-0.7.98.tar.gz
+[2023-07-19 00:18:27] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/a6/3c/7afbd082f170d8d51ed57abdf8bb67058ca404ede70f9d982fd95c8bb807/dragonfly-uwg-0.5.98.tar.gz
+[2023-07-19 00:18:27] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-07-19 00:18:27] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/20/4e/115840f938ee254b23bd515351ba786228441464717f8557431f914e75f4/dragonfly-energy-1.9.8.tar.gz
+[2023-07-19 00:18:27] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-07-19 00:18:27] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/a2/24/156ec161f44515db7966a68d9cc8aa62da7475128d138541e64b86dd4487/lbt-honeybee-0.7.99.tar.gz
+[2023-07-19 00:18:28] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/a2/24/156ec161f44515db7966a68d9cc8aa62da7475128d138541e64b86dd4487/lbt-honeybee-0.7.99.tar.gz
+[2023-07-19 00:18:28] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/6b/3b/b2b3ce8d0f38f30da7b8870f32b28881ea5a1e22c05ec7a23d7a37f2bad5/kfish-99.0.202307181922-py3-none-any.whl
+[2023-07-19 00:18:28] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/e7/e3/a76ac57ca39ebb7efa07082bc9583ed1070af6172e554006679e316de5a8/kcli-99.0.202307181919-py3-none-any.whl
+[2023-07-19 00:18:28] INFO root fetch - processPackages [candor-test]: Downloading https://files.pythonhosted.org/packages/d5/f9/b5950114441f414598f1751528509c4428b78d0bc26d217ed8a0751efd29/candor-test-1.0.1.tar.gz
+[2023-07-19 00:18:28] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-07-19 00:18:28] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230719/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-07-19 00:18:28] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-07-19 00:18:28] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230719/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-07-19 00:18:28] INFO root fetch - processPackages [threads-api]: Downloading https://files.pythonhosted.org/packages/85/23/ee0d1c9967b678f8a86817ad842a1577939edc7b5469bb1e5d6d237402b7/threads-api-1.1.9.tar.gz
+[2023-07-19 00:18:28] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-07-19 00:18:28] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230719/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-19 00:18:28] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-07-19 00:18:28] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230719/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-19 00:18:28] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-19 00:18:28] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307181822-py3-none-any.whl.zip tmp/kfish-99.0.202307181922-py3-none-any.whl.zip --markdown 20230719/k/kfish/99.0.202307181822-99.0.202307181922/diff.md --exclude *.pyd
+[2023-07-19 00:18:28] INFO root fetch - processPackages [threads-api]: executing diffoscope
+[2023-07-19 00:18:28] INFO root fetch - processPackages [threads-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threads-api-1.1.8.tar.gz tmp/threads-api-1.1.9.tar.gz --markdown 20230719/t/threads-api/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-19 00:18:28] INFO root fetch - processPackages [candor-test]: executing diffoscope
+[2023-07-19 00:18:28] INFO root fetch - processPackages [candor-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/candor-test-1.0.0.tar.gz tmp/candor-test-1.0.1.tar.gz --markdown 20230719/c/candor-test/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-19 00:18:28] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-19 00:18:28] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307181819-py3-none-any.whl.zip tmp/kcli-99.0.202307181919-py3-none-any.whl.zip --markdown 20230719/k/kcli/99.0.202307181819-99.0.202307181919/diff.md --exclude *.pyd
+[2023-07-19 00:18:28] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/55/b3/3f9a36d82b87f343d4e196e93a8cf3e838b9c80b0849f927d4f3505355af/dragonfly-uwg-0.5.99.tar.gz
+[2023-07-19 00:18:28] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/09/b6/c12f13159c5beb3b855a32f792faef162ad37358d2e0d3311cbd68a969db/dragonfly-energy-1.9.9.tar.gz
+[2023-07-19 00:18:28] INFO root fetch - processPackages [dragonfly-uwg]: executing diffoscope
+[2023-07-19 00:18:28] INFO root fetch - processPackages [dragonfly-uwg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-uwg-0.5.98.tar.gz tmp/dragonfly-uwg-0.5.99.tar.gz --markdown 20230719/d/dragonfly-uwg/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-07-19 00:18:29] INFO root fetch - processPackages [dragonfly-energy]: executing diffoscope
+[2023-07-19 00:18:29] INFO root fetch - processPackages [dragonfly-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-energy-1.9.8.tar.gz tmp/dragonfly-energy-1.9.9.tar.gz --markdown 20230719/d/dragonfly-energy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-19 00:18:29] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2023-07-19 00:18:29] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2023-07-19 00:18:29] INFO root fetch - processPackages [lbt-dragonfly]: Start processing: nvidia-tao
+[2023-07-19 00:18:29] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-07-19 00:18:29] INFO root fetch - processPackages [threads-api]: Remove: archive file [/home/abi/fetcher/tmp/threads-api-1.1.8.tar.gz]
+[2023-07-19 00:18:29] INFO root fetch - processPackages [threads-api]: Remove: archive file [/home/abi/fetcher/tmp/threads-api-1.1.9.tar.gz]
+[2023-07-19 00:18:29] INFO root fetch - processPackages [threads-api]: Start processing: gigagan-pytorch
+[2023-07-19 00:18:29] INFO root fetch - main [MainThread]: End processing [threads-api]: success
+[2023-07-19 00:18:29] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-07-19 00:18:29] INFO root fetch - processPackages [nvidia-tao]: New version: [5.0.0] Old Version: [4.0.1]
+[2023-07-19 00:18:29] INFO root fetch - processPackages [candor-test]: Remove: archive file [/home/abi/fetcher/tmp/candor-test-1.0.0.tar.gz]
+[2023-07-19 00:18:29] INFO root fetch - processPackages [candor-test]: Remove: archive file [/home/abi/fetcher/tmp/candor-test-1.0.1.tar.gz]
+[2023-07-19 00:18:29] INFO root fetch - main [MainThread]: End processing [candor-test]: success
+[2023-07-19 00:18:29] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307181822-py3-none-any.whl.zip]
+[2023-07-19 00:18:29] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307181922-py3-none-any.whl.zip]
+[2023-07-19 00:18:29] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-19 00:18:29] INFO root fetch - processPackages [gigagan-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 00:18:29] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.98.tar.gz]
+[2023-07-19 00:18:29] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.99.tar.gz]
+[2023-07-19 00:18:29] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-07-19 00:18:29] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-07-19 00:18:29] INFO root fetch - processPackages [gigagan-pytorch]: Downloading https://files.pythonhosted.org/packages/c0/aa/26bf6b7a863fb9525dd2ca84ff5122173d9bcd4d108b07c4aa8bb92431c7/gigagan-pytorch-0.0.8.tar.gz
+[2023-07-19 00:18:29] INFO root fetch - processPackages [nvidia-tao]: Downloading https://files.pythonhosted.org/packages/c0/c8/2f48cb7472fb4019d997558b07d35b74a4c028eed73fc857bb030f42db87/nvidia_tao-4.0.1-py3-none-any.whl
+[2023-07-19 00:18:30] INFO root fetch - processPackages [gigagan-pytorch]: Downloading https://files.pythonhosted.org/packages/88/15/d88c491945eed450311a7b87b5c2fc81ce2bdeb29f0c7c042a11e387769b/gigagan-pytorch-0.0.9.tar.gz
+[2023-07-19 00:18:30] INFO root fetch - processPackages [gigagan-pytorch]: executing diffoscope
+[2023-07-19 00:18:30] INFO root fetch - processPackages [gigagan-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gigagan-pytorch-0.0.8.tar.gz tmp/gigagan-pytorch-0.0.9.tar.gz --markdown 20230719/g/gigagan-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 00:18:30] INFO root fetch - processPackages [nvidia-tao]: Downloading https://files.pythonhosted.org/packages/8e/0a/5953eb77b0e305a0d846642b5349d1ce0a34a660eb5b57d6a514ca0e62aa/nvidia_tao-5.0.0-py3-none-any.whl
+[2023-07-19 00:18:30] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.8.tar.gz]
+[2023-07-19 00:18:30] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.9.tar.gz]
+[2023-07-19 00:18:30] INFO root fetch - main [MainThread]: End processing [dragonfly-energy]: success
+[2023-07-19 00:18:30] INFO root fetch - processPackages [nvidia-tao]: executing diffoscope
+[2023-07-19 00:18:30] INFO root fetch - processPackages [nvidia-tao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_tao-4.0.1-py3-none-any.whl.zip tmp/nvidia_tao-5.0.0-py3-none-any.whl.zip --markdown 20230719/n/nvidia-tao/4.0.1-5.0.0/diff.md --exclude *.pyd
+[2023-07-19 00:18:30] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.98.tar.gz]
+[2023-07-19 00:18:30] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.99.tar.gz]
+[2023-07-19 00:18:30] INFO root fetch - main [MainThread]: End processing [dragonfly-uwg]: success
+[2023-07-19 00:18:31] INFO root fetch - processPackages [gigagan-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/gigagan-pytorch-0.0.8.tar.gz]
+[2023-07-19 00:18:31] INFO root fetch - processPackages [gigagan-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/gigagan-pytorch-0.0.9.tar.gz]
+[2023-07-19 00:18:31] INFO root fetch - main [MainThread]: End processing [gigagan-pytorch]: success
+[2023-07-19 00:18:31] INFO root fetch - processPackages [nvidia-tao]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_tao-4.0.1-py3-none-any.whl.zip]
+[2023-07-19 00:18:31] INFO root fetch - processPackages [nvidia-tao]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_tao-5.0.0-py3-none-any.whl.zip]
+[2023-07-19 00:18:31] INFO root fetch - main [MainThread]: End processing [nvidia-tao]: success
+[2023-07-19 00:18:32] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307181819-py3-none-any.whl.zip]
+[2023-07-19 00:18:32] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307181919-py3-none-any.whl.zip]
+[2023-07-19 00:18:32] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-19 00:18:32] INFO root fetch - main [MainThread]: Store serial: [18940660]
