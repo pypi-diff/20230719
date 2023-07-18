@@ -1386,3 +1386,137 @@
 [2023-07-19 01:16:53] INFO root fetch - processPackages [medicc2]: Remove: archive file [/home/abi/fetcher/tmp/medicc2-1.0.2.tar.gz]
 [2023-07-19 01:16:53] INFO root fetch - main [MainThread]: End processing [medicc2]: success
 [2023-07-19 01:16:53] INFO root fetch - main [MainThread]: Store serial: [18941157]
+[2023-07-19 01:21:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18941157]
+[2023-07-19 01:22:02] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-19 01:22:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dragonfly-core
+[2023-07-19 01:22:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seisopt
+[2023-07-19 01:22:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iga
+[2023-07-19 01:22:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seisrtm
+[2023-07-19 01:22:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: maisaedu-utilities-prefect
+[2023-07-19 01:22:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: maisaedu-poormans-dms
+[2023-07-19 01:22:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: seistools
+[2023-07-19 01:22:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: surfdisp
+[2023-07-19 01:22:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tomoflow
+[2023-07-19 01:22:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: metamaterialanalysiscode
+[2023-07-19 01:22:02] WARNING root fetch - processPackages [surfdisp]: Skipping, unable to determine old version
+[2023-07-19 01:22:02] INFO root fetch - processPackages [surfdisp]: Start processing: freewillai
+[2023-07-19 01:22:02] INFO root fetch - main [MainThread]: End processing [surfdisp] error
+[2023-07-19 01:22:02] INFO root fetch - processPackages [maisaedu-poormans-dms]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 01:22:02] INFO root fetch - processPackages [maisaedu-utilities-prefect]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 01:22:02] WARNING root fetch - processPackages [tomoflow]: Skipping, unable to determine old version
+[2023-07-19 01:22:02] INFO root fetch - processPackages [tomoflow]: Start processing: polyglot-piranha-playground
+[2023-07-19 01:22:02] INFO root fetch - main [MainThread]: End processing [tomoflow] error
+[2023-07-19 01:22:02] WARNING root fetch - processPackages [seisopt]: Skipping, unable to determine old version
+[2023-07-19 01:22:02] INFO root fetch - processPackages [seisopt]: Start processing: metamaterialanalysiscode
+[2023-07-19 01:22:02] INFO root fetch - main [MainThread]: End processing [seisopt] error
+[2023-07-19 01:22:02] INFO root fetch - processPackages [iga]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-19 01:22:02] INFO root fetch - processPackages [metamaterialanalysiscode]: New version: [1.0] Old Version: [0.1]
+[2023-07-19 01:22:02] WARNING root fetch - processPackages [seistools]: Skipping, unable to determine old version
+[2023-07-19 01:22:02] INFO root fetch - processPackages [seistools]: Start processing: torp
+[2023-07-19 01:22:02] INFO root fetch - main [MainThread]: End processing [seistools] error
+[2023-07-19 01:22:02] WARNING root fetch - processPackages [seisrtm]: Skipping, unable to determine old version
+[2023-07-19 01:22:02] INFO root fetch - processPackages [seisrtm]: Start processing: aind-data-schema
+[2023-07-19 01:22:02] INFO root fetch - main [MainThread]: End processing [seisrtm] error
+[2023-07-19 01:22:02] INFO root fetch - processPackages [dragonfly-core]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-19 01:22:02] INFO root fetch - processPackages [maisaedu-poormans-dms]: Downloading https://files.pythonhosted.org/packages/51/c8/520652d19cdb586cb001f3e2fd10b49475ec1fcf77f5ebf25ee483d4f069/maisaedu-poormans-dms-1.0.8.tar.gz
+[2023-07-19 01:22:02] INFO root fetch - processPackages [freewillai]: New version: [1.1] Old Version: [1.0]
+[2023-07-19 01:22:02] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Downloading https://files.pythonhosted.org/packages/27/aa/a84fbe50d4cd0665bd3f2b32671a030342ad0e5347c62cd84baa19cb1e64/maisaedu-utilities-prefect-1.0.8.tar.gz
+[2023-07-19 01:22:03] INFO root fetch - processPackages [metamaterialanalysiscode]: New version: [1.0] Old Version: [0.1]
+[2023-07-19 01:22:03] INFO root fetch - processPackages [torp]: New version: [0.0.8] Old Version: [0.0.5]
+[2023-07-19 01:22:03] WARNING root fetch - processPackages [polyglot-piranha-playground]: Skipping, unable to determine old version
+[2023-07-19 01:22:03] INFO root fetch - processPackages [polyglot-piranha-playground]: Start processing: foundation-model-package
+[2023-07-19 01:22:03] INFO root fetch - main [MainThread]: End processing [polyglot-piranha-playground] error
+[2023-07-19 01:22:03] INFO root fetch - processPackages [torp]: Downloading https://files.pythonhosted.org/packages/64/0e/39f7f55b03cfbaa0aa07000fc2207a94a35c1ab1262f249b378fa0731a6c/torp-0.0.5.tar.gz
+[2023-07-19 01:22:03] INFO root fetch - processPackages [aind-data-schema]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-19 01:22:03] INFO root fetch - processPackages [metamaterialanalysiscode]: Downloading https://files.pythonhosted.org/packages/9a/b2/3edad8589ff649490b88c0e9bea7b9814565cc0f7b57378137c9c434c3d2/metamaterialanalysiscode-0.1.tar.gz
+[2023-07-19 01:22:03] INFO root fetch - processPackages [metamaterialanalysiscode]: Downloading https://files.pythonhosted.org/packages/9a/b2/3edad8589ff649490b88c0e9bea7b9814565cc0f7b57378137c9c434c3d2/metamaterialanalysiscode-0.1.tar.gz
+[2023-07-19 01:22:03] INFO root fetch - processPackages [foundation-model-package]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-19 01:22:03] INFO root fetch - processPackages [iga]: Downloading https://files.pythonhosted.org/packages/66/81/d8546cb51849f9ce3406064a8e69ed7f01e8fd945544a0db176ebe275fb3/iga-1.1.0.tar.gz
+[2023-07-19 01:22:03] INFO root fetch - processPackages [freewillai]: Downloading https://files.pythonhosted.org/packages/09/e4/1f16ee9ea9e9a22296e1bcfec6e707d39221576812dfb60cf6c2bb52fe31/freewillai-1.0.tar.gz
+[2023-07-19 01:22:03] INFO root fetch - processPackages [maisaedu-poormans-dms]: Downloading https://files.pythonhosted.org/packages/7b/dc/9a6d6cd7622f50c7981e2b4362ed76ba8142b4b75f73867b9b409d609cf0/maisaedu-poormans-dms-1.0.9.tar.gz
+[2023-07-19 01:22:03] INFO root fetch - processPackages [dragonfly-core]: Downloading https://files.pythonhosted.org/packages/93/fd/7cad9d4c9406e421f7ce31b725936bb32ec8a421f9b143e829c33cae55dd/dragonfly-core-1.8.1.tar.gz
+[2023-07-19 01:22:03] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Downloading https://files.pythonhosted.org/packages/95/7c/dbd9fa092dadcd28e2e350cd4738749237ca8191a62152c690a10b487d1a/maisaedu-utilities-prefect-1.0.9.tar.gz
+[2023-07-19 01:22:03] INFO root fetch - processPackages [maisaedu-poormans-dms]: executing diffoscope
+[2023-07-19 01:22:03] INFO root fetch - processPackages [maisaedu-poormans-dms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maisaedu-poormans-dms-1.0.8.tar.gz tmp/maisaedu-poormans-dms-1.0.9.tar.gz --markdown 20230719/m/maisaedu-poormans-dms/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 01:22:03] INFO root fetch - processPackages [aind-data-schema]: Downloading https://files.pythonhosted.org/packages/f0/3d/4b855ccf3f1b8204c6d84b119d9c98b856c1659bfafe8aa893009a0e4d63/aind-data-schema-0.9.5.tar.gz
+[2023-07-19 01:22:03] INFO root fetch - processPackages [torp]: Downloading https://files.pythonhosted.org/packages/f5/98/34f14bd87ffef876dd08a4bf47e51c5c81588fbd4d3119a9dd65c0391609/torp-0.0.8.tar.gz
+[2023-07-19 01:22:03] INFO root fetch - processPackages [foundation-model-package]: Downloading https://files.pythonhosted.org/packages/c1/db/07d409552504817b89bc65d5f7e5c038d15232b78d5e206a4b9a4d8dc890/foundation-model-package-0.0.1.tar.gz
+[2023-07-19 01:22:03] INFO root fetch - processPackages [maisaedu-utilities-prefect]: executing diffoscope
+[2023-07-19 01:22:03] INFO root fetch - processPackages [maisaedu-utilities-prefect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maisaedu-utilities-prefect-1.0.8.tar.gz tmp/maisaedu-utilities-prefect-1.0.9.tar.gz --markdown 20230719/m/maisaedu-utilities-prefect/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 01:22:03] INFO root fetch - processPackages [metamaterialanalysiscode]: Downloading https://files.pythonhosted.org/packages/0a/94/0bae740255c93c53c3eefe044ade1ad6486516bc9d4a785dedcab0a46674/metamaterialanalysiscode-1.0.tar.gz
+[2023-07-19 01:22:03] INFO root fetch - processPackages [metamaterialanalysiscode]: Downloading https://files.pythonhosted.org/packages/0a/94/0bae740255c93c53c3eefe044ade1ad6486516bc9d4a785dedcab0a46674/metamaterialanalysiscode-1.0.tar.gz
+[2023-07-19 01:22:03] INFO root fetch - processPackages [torp]: executing diffoscope
+[2023-07-19 01:22:03] INFO root fetch - processPackages [torp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torp-0.0.5.tar.gz tmp/torp-0.0.8.tar.gz --markdown 20230719/t/torp/0.0.5-0.0.8/diff.md --exclude *.pyd
+[2023-07-19 01:22:03] INFO root fetch - processPackages [iga]: Downloading https://files.pythonhosted.org/packages/5d/8f/ad49669c36da679622915a067c8d6c7de7da86989d52a0cf72e6dbb27d77/iga-1.2.0.tar.gz
+[2023-07-19 01:22:03] INFO root fetch - processPackages [freewillai]: Downloading https://files.pythonhosted.org/packages/65/2f/197a37d1b68670aae44811084f0d7c2232640e3c9a2fd09f09214b98a6e3/freewillai-1.1.tar.gz
+[2023-07-19 01:22:03] INFO root fetch - processPackages [dragonfly-core]: Downloading https://files.pythonhosted.org/packages/75/cb/4a1ce4726a070a188305b8d5343b4300bf24190845d85c8718cc31aa3e53/dragonfly-core-1.9.0.tar.gz
+[2023-07-19 01:22:04] INFO root fetch - processPackages [metamaterialanalysiscode]: executing diffoscope
+[2023-07-19 01:22:04] INFO root fetch - processPackages [metamaterialanalysiscode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metamaterialanalysiscode-0.1.tar.gz tmp/metamaterialanalysiscode-1.0.tar.gz --markdown 20230719/m/metamaterialanalysiscode/0.1-1.0/diff.md --exclude *.pyd
+[2023-07-19 01:22:04] INFO root fetch - processPackages [metamaterialanalysiscode]: executing diffoscope
+[2023-07-19 01:22:04] INFO root fetch - processPackages [metamaterialanalysiscode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metamaterialanalysiscode-0.1.tar.gz tmp/metamaterialanalysiscode-1.0.tar.gz --markdown 20230719/m/metamaterialanalysiscode/0.1-1.0/diff.md --exclude *.pyd
+[2023-07-19 01:22:04] INFO root fetch - processPackages [freewillai]: executing diffoscope
+[2023-07-19 01:22:04] INFO root fetch - processPackages [freewillai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freewillai-1.0.tar.gz tmp/freewillai-1.1.tar.gz --markdown 20230719/f/freewillai/1.0-1.1/diff.md --exclude *.pyd
+[2023-07-19 01:22:04] INFO root fetch - processPackages [iga]: executing diffoscope
+[2023-07-19 01:22:04] INFO root fetch - processPackages [iga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iga-1.1.0.tar.gz tmp/iga-1.2.0.tar.gz --markdown 20230719/i/iga/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-19 01:22:04] INFO root fetch - processPackages [dragonfly-core]: executing diffoscope
+[2023-07-19 01:22:04] INFO root fetch - processPackages [dragonfly-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-core-1.8.1.tar.gz tmp/dragonfly-core-1.9.0.tar.gz --markdown 20230719/d/dragonfly-core/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-19 01:22:04] INFO root fetch - processPackages [foundation-model-package]: Downloading https://files.pythonhosted.org/packages/11/98/8c11d5040cf30d6e4fa3f2bead97d44c09101d635ef830881dc701cac6f8/foundation-model-package-0.0.2.tar.gz
+[2023-07-19 01:22:04] INFO root fetch - processPackages [aind-data-schema]: Downloading https://files.pythonhosted.org/packages/42/51/6b230e8ca198de797130787e0cd5036fc8d11696d1c43a8c8c07152176e8/aind-data-schema-0.9.6.tar.gz
+[2023-07-19 01:22:04] INFO root fetch - processPackages [foundation-model-package]: executing diffoscope
+[2023-07-19 01:22:04] INFO root fetch - processPackages [foundation-model-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foundation-model-package-0.0.1.tar.gz tmp/foundation-model-package-0.0.2.tar.gz --markdown 20230719/f/foundation-model-package/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-19 01:22:04] INFO root fetch - processPackages [maisaedu-poormans-dms]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-poormans-dms-1.0.8.tar.gz]
+[2023-07-19 01:22:04] INFO root fetch - processPackages [maisaedu-poormans-dms]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-poormans-dms-1.0.9.tar.gz]
+[2023-07-19 01:22:04] INFO root fetch - processPackages [maisaedu-poormans-dms]: Start processing: shil
+[2023-07-19 01:22:04] INFO root fetch - main [MainThread]: End processing [maisaedu-poormans-dms]: success
+[2023-07-19 01:22:04] INFO root fetch - processPackages [shil]: New version: [2023.7.18.23.21] Old Version: [2023.7.18.23.20]
+[2023-07-19 01:22:05] INFO root fetch - processPackages [aind-data-schema]: executing diffoscope
+[2023-07-19 01:22:05] INFO root fetch - processPackages [aind-data-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-schema-0.9.5.tar.gz tmp/aind-data-schema-0.9.6.tar.gz --markdown 20230719/a/aind-data-schema/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-19 01:22:05] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-utilities-prefect-1.0.8.tar.gz]
+[2023-07-19 01:22:05] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-utilities-prefect-1.0.9.tar.gz]
+[2023-07-19 01:22:05] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Start processing: kcli
+[2023-07-19 01:22:05] INFO root fetch - main [MainThread]: End processing [maisaedu-utilities-prefect]: success
+[2023-07-19 01:22:05] INFO root fetch - processPackages [torp]: Remove: archive file [/home/abi/fetcher/tmp/torp-0.0.5.tar.gz]
+[2023-07-19 01:22:05] INFO root fetch - processPackages [torp]: Remove: archive file [/home/abi/fetcher/tmp/torp-0.0.8.tar.gz]
+[2023-07-19 01:22:05] INFO root fetch - processPackages [torp]: Start processing: shil
+[2023-07-19 01:22:05] INFO root fetch - main [MainThread]: End processing [torp]: success
+[2023-07-19 01:22:05] INFO root fetch - processPackages [kcli]: New version: [99.0.202307182218] Old Version: [99.0.202307182214]
+[2023-07-19 01:22:05] INFO root fetch - processPackages [shil]: New version: [2023.7.18.23.21] Old Version: [2023.7.18.23.20]
+[2023-07-19 01:22:05] INFO root fetch - processPackages [shil]: Downloading https://files.pythonhosted.org/packages/a0/0a/dcc6ec17c2a68c73cb9a310b6b5bdc30999763520a86932f5f6cac28f907/shil-2023.7.18.23.20.tar.gz
+[2023-07-19 01:22:05] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/ae/6d/d4ca83907daf7bcfe5e1c1f082da3d3f81078efa5c5e090868d2a7a7cbce/kcli-99.0.202307182214-py3-none-any.whl
+[2023-07-19 01:22:05] INFO root fetch - processPackages [shil]: Downloading https://files.pythonhosted.org/packages/a0/0a/dcc6ec17c2a68c73cb9a310b6b5bdc30999763520a86932f5f6cac28f907/shil-2023.7.18.23.20.tar.gz
+[2023-07-19 01:22:05] INFO root fetch - processPackages [shil]: Downloading https://files.pythonhosted.org/packages/dd/b7/1d60704f457d93bf976e0ed24b7f88bb9e7776b8e3d475e9077f58e9e47b/shil-2023.7.18.23.21.tar.gz
+[2023-07-19 01:22:05] INFO root fetch - processPackages [shil]: Downloading https://files.pythonhosted.org/packages/dd/b7/1d60704f457d93bf976e0ed24b7f88bb9e7776b8e3d475e9077f58e9e47b/shil-2023.7.18.23.21.tar.gz
+[2023-07-19 01:22:05] INFO root fetch - processPackages [metamaterialanalysiscode]: Remove: archive file [/home/abi/fetcher/tmp/metamaterialanalysiscode-0.1.tar.gz]
+[2023-07-19 01:22:05] INFO root fetch - processPackages [metamaterialanalysiscode]: Remove: archive file [/home/abi/fetcher/tmp/metamaterialanalysiscode-1.0.tar.gz]
+[2023-07-19 01:22:05] INFO root fetch - main [MainThread]: End processing [metamaterialanalysiscode]: success
+[2023-07-19 01:22:05] INFO root fetch - processPackages [foundation-model-package]: Remove: archive file [/home/abi/fetcher/tmp/foundation-model-package-0.0.1.tar.gz]
+[2023-07-19 01:22:05] INFO root fetch - processPackages [foundation-model-package]: Remove: archive file [/home/abi/fetcher/tmp/foundation-model-package-0.0.2.tar.gz]
+[2023-07-19 01:22:05] INFO root fetch - main [MainThread]: End processing [metamaterialanalysiscode]: success
+[2023-07-19 01:22:05] INFO root fetch - main [MainThread]: End processing [foundation-model-package]: success
+[2023-07-19 01:22:05] INFO root fetch - processPackages [shil]: executing diffoscope
+[2023-07-19 01:22:05] INFO root fetch - processPackages [shil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shil-2023.7.18.23.20.tar.gz tmp/shil-2023.7.18.23.21.tar.gz --markdown 20230719/s/shil/2023.7.18.23.20-2023.7.18.23.21/diff.md --exclude *.pyd
+[2023-07-19 01:22:05] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/42/52/318a0945adc0b56c075970a554923ade762886d85853288eb0b46c67c864/kcli-99.0.202307182218-py3-none-any.whl
+[2023-07-19 01:22:05] INFO root fetch - processPackages [shil]: executing diffoscope
+[2023-07-19 01:22:05] INFO root fetch - processPackages [shil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shil-2023.7.18.23.20.tar.gz tmp/shil-2023.7.18.23.21.tar.gz --markdown 20230719/s/shil/2023.7.18.23.20-2023.7.18.23.21/diff.md --exclude *.pyd
+[2023-07-19 01:22:05] INFO root fetch - processPackages [dragonfly-core]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-core-1.8.1.tar.gz]
+[2023-07-19 01:22:05] INFO root fetch - processPackages [dragonfly-core]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-core-1.9.0.tar.gz]
+[2023-07-19 01:22:05] INFO root fetch - main [MainThread]: End processing [dragonfly-core]: success
+[2023-07-19 01:22:05] INFO root fetch - processPackages [iga]: Remove: archive file [/home/abi/fetcher/tmp/iga-1.1.0.tar.gz]
+[2023-07-19 01:22:05] INFO root fetch - processPackages [iga]: Remove: archive file [/home/abi/fetcher/tmp/iga-1.2.0.tar.gz]
+[2023-07-19 01:22:05] INFO root fetch - main [MainThread]: End processing [iga]: success
+[2023-07-19 01:22:05] INFO root fetch - processPackages [freewillai]: Remove: archive file [/home/abi/fetcher/tmp/freewillai-1.0.tar.gz]
+[2023-07-19 01:22:05] INFO root fetch - processPackages [freewillai]: Remove: archive file [/home/abi/fetcher/tmp/freewillai-1.1.tar.gz]
+[2023-07-19 01:22:05] INFO root fetch - main [MainThread]: End processing [freewillai]: success
+[2023-07-19 01:22:06] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-19 01:22:06] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307182214-py3-none-any.whl.zip tmp/kcli-99.0.202307182218-py3-none-any.whl.zip --markdown 20230719/k/kcli/99.0.202307182214-99.0.202307182218/diff.md --exclude *.pyd
+[2023-07-19 01:22:06] INFO root fetch - processPackages [aind-data-schema]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-schema-0.9.5.tar.gz]
+[2023-07-19 01:22:06] INFO root fetch - processPackages [aind-data-schema]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-schema-0.9.6.tar.gz]
+[2023-07-19 01:22:06] INFO root fetch - main [MainThread]: End processing [aind-data-schema]: success
+[2023-07-19 01:22:06] INFO root fetch - processPackages [shil]: Remove: archive file [/home/abi/fetcher/tmp/shil-2023.7.18.23.20.tar.gz]
+[2023-07-19 01:22:06] INFO root fetch - processPackages [shil]: Remove: archive file [/home/abi/fetcher/tmp/shil-2023.7.18.23.21.tar.gz]
+[2023-07-19 01:22:06] INFO root fetch - main [MainThread]: End processing [shil]: success
+[2023-07-19 01:22:06] INFO root fetch - main [MainThread]: End processing [shil]: success
+[2023-07-19 01:22:09] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307182214-py3-none-any.whl.zip]
+[2023-07-19 01:22:09] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307182218-py3-none-any.whl.zip]
+[2023-07-19 01:22:09] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-19 01:22:09] INFO root fetch - main [MainThread]: Store serial: [18941240]
