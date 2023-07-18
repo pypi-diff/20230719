@@ -510,3 +510,113 @@
 [2023-07-19 00:28:59] INFO root fetch - processPackages [universal-pathlib]: Remove: archive file [/home/abi/fetcher/tmp/universal_pathlib-0.0.9.tar.gz]
 [2023-07-19 00:28:59] INFO root fetch - main [MainThread]: End processing [universal-pathlib]: success
 [2023-07-19 00:28:59] INFO root fetch - main [MainThread]: Store serial: [18940722]
+[2023-07-19 00:34:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18940722]
+[2023-07-19 00:34:07] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-19 00:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abstra
+[2023-07-19 00:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mdformat_mkdocs
+[2023-07-19 00:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wai.pycocotools
+[2023-07-19 00:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: together
+[2023-07-19 00:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lsm-db
+[2023-07-19 00:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: metamaterailanalisiscode
+[2023-07-19 00:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gunfolds
+[2023-07-19 00:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cargo-lambda
+[2023-07-19 00:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fitsviz
+[2023-07-19 00:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qanom
+[2023-07-19 00:34:08] INFO root fetch - processPackages [fitsviz]: New version: [0.0.2] Old Version: [0.0.0]
+[2023-07-19 00:34:08] INFO root fetch - processPackages [mdformat_mkdocs]: New version: [1.0.3] Old Version: [1.0.2rc2]
+[2023-07-19 00:34:08] INFO root fetch - processPackages [abstra]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-07-19 00:34:08] INFO root fetch - processPackages [wai.pycocotools]: New version: [12.1] Old Version: [12.0]
+[2023-07-19 00:34:08] INFO root fetch - processPackages [fitsviz]: Downloading https://files.pythonhosted.org/packages/f3/0d/0338673053e89fc4d2b473dbc1506381c71fd33cd981a4307c61c86fe254/fitsviz-0.0.0.tar.gz
+[2023-07-19 00:34:08] INFO root fetch - processPackages [qanom]: New version: [0.0.9] Old Version: [0.0.6]
+[2023-07-19 00:34:08] INFO root fetch - processPackages [together]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-19 00:34:08] INFO root fetch - processPackages [lsm-db]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-19 00:34:08] INFO root fetch - processPackages [metamaterailanalisiscode]: New version: [1.0] Old Version: [0.1]
+[2023-07-19 00:34:08] WARNING root fetch - processPackages [gunfolds]: Skipping, unable to determine old version
+[2023-07-19 00:34:08] INFO root fetch - processPackages [gunfolds]: Start processing: Flask-BigApp
+[2023-07-19 00:34:08] INFO root fetch - main [MainThread]: End processing [gunfolds] error
+[2023-07-19 00:34:08] INFO root fetch - processPackages [cargo-lambda]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-07-19 00:34:08] INFO root fetch - processPackages [abstra]: Downloading https://files.pythonhosted.org/packages/ae/6b/286605a70fc8d0d10e715eec7670c78f82ce2a1869d657285c005b66cd82/abstra-1.5.0.tar.gz
+[2023-07-19 00:34:08] INFO root fetch - processPackages [mdformat_mkdocs]: Downloading https://files.pythonhosted.org/packages/a6/56/131b888afa47169bee9f250d4bd2a194087416f23fef31bbf3b7a3dc50ed/mdformat_mkdocs-1.0.2rc2.tar.gz
+[2023-07-19 00:34:08] INFO root fetch - processPackages [wai.pycocotools]: Downloading https://files.pythonhosted.org/packages/8e/c8/e4f0f45df9ba12e3d590f5a759df175ba62dc6f206b8529477c7d5368eba/wai.pycocotools-12.0.tar.gz
+[2023-07-19 00:34:08] WARNING root fetch - processPackages [abstra]: Skipping package: exceeds size limit 19505732>=10485760
+[2023-07-19 00:34:08] INFO root fetch - processPackages [abstra]: Start processing: django-url-tokenizer
+[2023-07-19 00:34:08] INFO root fetch - main [MainThread]: End processing [abstra] error
+[2023-07-19 00:34:08] INFO root fetch - processPackages [Flask-BigApp]: New version: [2023.1.9.7] Old Version: [2023.1.9.6]
+[2023-07-19 00:34:08] INFO root fetch - processPackages [qanom]: Downloading https://files.pythonhosted.org/packages/f7/c1/3101aadf2af4c571b17dba9050634e9f2fd10c8c8df1f4c2adff54e81490/qanom-0.0.6.tar.gz
+[2023-07-19 00:34:08] INFO root fetch - processPackages [django-url-tokenizer]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 00:34:08] INFO root fetch - processPackages [lsm-db]: Downloading https://files.pythonhosted.org/packages/27/d3/cae1e765e7337a961b39b98e345096f11544d5de601f7b8ca3691d602a14/lsm-db-0.7.0.tar.gz
+[2023-07-19 00:34:08] INFO root fetch - processPackages [fitsviz]: Downloading https://files.pythonhosted.org/packages/b9/6f/f608619d8d021f1618112cc0e3c1cbbbdf0663e70da9c37ff328e8d2efb4/fitsviz-0.0.2.tar.gz
+[2023-07-19 00:34:08] INFO root fetch - processPackages [together]: Downloading https://files.pythonhosted.org/packages/ac/22/5ca72caaf6f4913244cf820656473a545c49561695f0f656f0ab2337875a/together-0.0.7.tar.gz
+[2023-07-19 00:34:08] INFO root fetch - processPackages [metamaterailanalisiscode]: Downloading https://files.pythonhosted.org/packages/7a/79/0ba3403cd92d3ef51d870cbb9c0db9f9976a39731f097b42c53cbaacfa89/metamaterailanalisiscode-0.1.tar.gz
+[2023-07-19 00:34:08] INFO root fetch - processPackages [cargo-lambda]: Downloading https://files.pythonhosted.org/packages/de/6f/de700106a963b244008299c32f6339d4991a5148c8cd16cec9db723a50f5/cargo_lambda-0.8.3-py3-none-win_amd64.whl
+[2023-07-19 00:34:08] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/58/fc/c297e12ea86d40bc35c3034412e468c38bef18667e6adfe0b24802b0e417/django-url-tokenizer-0.0.8.tar.gz
+[2023-07-19 00:34:08] INFO root fetch - processPackages [Flask-BigApp]: Downloading https://files.pythonhosted.org/packages/58/cc/007d57aea8f41fe4fd50fa281c6b3d1c3d5c52cb742d97e5de043bafafe7/Flask-BigApp-2023.1.9.6.tar.gz
+[2023-07-19 00:34:08] INFO root fetch - processPackages [fitsviz]: executing diffoscope
+[2023-07-19 00:34:08] INFO root fetch - processPackages [fitsviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fitsviz-0.0.0.tar.gz tmp/fitsviz-0.0.2.tar.gz --markdown 20230719/f/fitsviz/0.0.0-0.0.2/diff.md --exclude *.pyd
+[2023-07-19 00:34:09] INFO root fetch - processPackages [wai.pycocotools]: Downloading https://files.pythonhosted.org/packages/78/dd/8521406f9d0d943ee81780004dc6f1263b6658ddb1dc6eb4dff3bbf06ea4/wai.pycocotools-12.1.tar.gz
+[2023-07-19 00:34:09] INFO root fetch - processPackages [mdformat_mkdocs]: Downloading https://files.pythonhosted.org/packages/a4/65/38ac40c7bfc9a63ae515c9324e1948c793e2db50c2a26557296c3107e2b6/mdformat_mkdocs-1.0.3.tar.gz
+[2023-07-19 00:34:09] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/c5/13/df27d1141ec44b1c35f247440fc5cb506efe40a15cbed84328a82cab2d67/django-url-tokenizer-0.0.9.tar.gz
+[2023-07-19 00:34:09] INFO root fetch - processPackages [wai.pycocotools]: executing diffoscope
+[2023-07-19 00:34:09] INFO root fetch - processPackages [wai.pycocotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wai.pycocotools-12.0.tar.gz tmp/wai.pycocotools-12.1.tar.gz --markdown 20230719/w/wai.pycocotools/12.0-12.1/diff.md --exclude *.pyd
+[2023-07-19 00:34:09] INFO root fetch - processPackages [together]: Downloading https://files.pythonhosted.org/packages/51/cd/5365d0e9b9118095019e08fa12f5ec5ddf5622a9d4a1bd951dc3e44e3923/together-0.0.8.tar.gz
+[2023-07-19 00:34:09] INFO root fetch - processPackages [mdformat_mkdocs]: executing diffoscope
+[2023-07-19 00:34:09] INFO root fetch - processPackages [mdformat_mkdocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdformat_mkdocs-1.0.2rc2.tar.gz tmp/mdformat_mkdocs-1.0.3.tar.gz --markdown 20230719/m/mdformat_mkdocs/1.0.2rc2-1.0.3/diff.md --exclude *.pyd
+[2023-07-19 00:34:09] INFO root fetch - processPackages [metamaterailanalisiscode]: Downloading https://files.pythonhosted.org/packages/53/c1/1d81dd44578b039d50560b96360cfad702df60cf0e9e43e030b21bf5e6fb/metamaterailanalisiscode-1.0.tar.gz
+[2023-07-19 00:34:09] INFO root fetch - processPackages [lsm-db]: Downloading https://files.pythonhosted.org/packages/d9/e5/adb0377b616ed7f5ccb0bf8c78c89e2ff16be971deb75b351d29700572aa/lsm-db-0.7.1.tar.gz
+[2023-07-19 00:34:09] INFO root fetch - processPackages [django-url-tokenizer]: executing diffoscope
+[2023-07-19 00:34:09] INFO root fetch - processPackages [django-url-tokenizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-url-tokenizer-0.0.8.tar.gz tmp/django-url-tokenizer-0.0.9.tar.gz --markdown 20230719/d/django-url-tokenizer/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 00:34:09] INFO root fetch - processPackages [together]: executing diffoscope
+[2023-07-19 00:34:09] INFO root fetch - processPackages [together]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/together-0.0.7.tar.gz tmp/together-0.0.8.tar.gz --markdown 20230719/t/together/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-19 00:34:09] INFO root fetch - processPackages [Flask-BigApp]: Downloading https://files.pythonhosted.org/packages/cb/3a/accc749cdcc8f7c16a691813ca2fdd800b935bac338bd299600ae1be1656/Flask-BigApp-2023.1.9.7.tar.gz
+[2023-07-19 00:34:09] INFO root fetch - processPackages [metamaterailanalisiscode]: executing diffoscope
+[2023-07-19 00:34:09] INFO root fetch - processPackages [metamaterailanalisiscode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metamaterailanalisiscode-0.1.tar.gz tmp/metamaterailanalisiscode-1.0.tar.gz --markdown 20230719/m/metamaterailanalisiscode/0.1-1.0/diff.md --exclude *.pyd
+[2023-07-19 00:34:09] INFO root fetch - processPackages [lsm-db]: executing diffoscope
+[2023-07-19 00:34:09] INFO root fetch - processPackages [lsm-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsm-db-0.7.0.tar.gz tmp/lsm-db-0.7.1.tar.gz --markdown 20230719/l/lsm-db/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-19 00:34:09] INFO root fetch - processPackages [Flask-BigApp]: executing diffoscope
+[2023-07-19 00:34:09] INFO root fetch - processPackages [Flask-BigApp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-BigApp-2023.1.9.6.tar.gz tmp/Flask-BigApp-2023.1.9.7.tar.gz --markdown 20230719/F/Flask-BigApp/2023.1.9.6-2023.1.9.7/diff.md --exclude *.pyd
+[2023-07-19 00:34:09] INFO root fetch - processPackages [qanom]: Downloading https://files.pythonhosted.org/packages/af/07/1687b9bd1332568ffede207bef65b1285eec17ea30b7ee895657698bc10a/qanom-0.0.9.tar.gz
+[2023-07-19 00:34:09] INFO root fetch - processPackages [qanom]: executing diffoscope
+[2023-07-19 00:34:09] INFO root fetch - processPackages [qanom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qanom-0.0.6.tar.gz tmp/qanom-0.0.9.tar.gz --markdown 20230719/q/qanom/0.0.6-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 00:34:10] INFO root fetch - processPackages [fitsviz]: Remove: archive file [/home/abi/fetcher/tmp/fitsviz-0.0.0.tar.gz]
+[2023-07-19 00:34:10] INFO root fetch - processPackages [fitsviz]: Remove: archive file [/home/abi/fetcher/tmp/fitsviz-0.0.2.tar.gz]
+[2023-07-19 00:34:10] INFO root fetch - processPackages [fitsviz]: Start processing: policyengine-us
+[2023-07-19 00:34:10] INFO root fetch - main [MainThread]: End processing [fitsviz]: success
+[2023-07-19 00:34:10] INFO root fetch - processPackages [policyengine-us]: New version: [0.369.0] Old Version: [0.368.1]
+[2023-07-19 00:34:10] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/44/58/30074a02e5439df3ebaa0303e96f84eea4eeb232c4796e51b215f254ae78/policyengine-us-0.368.1.tar.gz
+[2023-07-19 00:34:10] INFO root fetch - processPackages [cargo-lambda]: Downloading https://files.pythonhosted.org/packages/dc/c8/ac648132051a60e826bd95269e04382731351b8d7aca976817bb5b463767/cargo_lambda-0.9.0-py3-none-win_amd64.whl
+[2023-07-19 00:34:10] INFO root fetch - processPackages [wai.pycocotools]: Remove: archive file [/home/abi/fetcher/tmp/wai.pycocotools-12.0.tar.gz]
+[2023-07-19 00:34:10] INFO root fetch - processPackages [wai.pycocotools]: Remove: archive file [/home/abi/fetcher/tmp/wai.pycocotools-12.1.tar.gz]
+[2023-07-19 00:34:10] INFO root fetch - main [MainThread]: End processing [wai.pycocotools]: success
+[2023-07-19 00:34:10] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/e8/d2/985d075831a7e85b335de0f48a7107ac6660f899698dfaa3d44152779e62/policyengine-us-0.369.0.tar.gz
+[2023-07-19 00:34:10] INFO root fetch - processPackages [metamaterailanalisiscode]: Remove: archive file [/home/abi/fetcher/tmp/metamaterailanalisiscode-0.1.tar.gz]
+[2023-07-19 00:34:10] INFO root fetch - processPackages [metamaterailanalisiscode]: Remove: archive file [/home/abi/fetcher/tmp/metamaterailanalisiscode-1.0.tar.gz]
+[2023-07-19 00:34:10] INFO root fetch - main [MainThread]: End processing [metamaterailanalisiscode]: success
+[2023-07-19 00:34:10] INFO root fetch - processPackages [mdformat_mkdocs]: Remove: archive file [/home/abi/fetcher/tmp/mdformat_mkdocs-1.0.2rc2.tar.gz]
+[2023-07-19 00:34:10] INFO root fetch - processPackages [mdformat_mkdocs]: Remove: archive file [/home/abi/fetcher/tmp/mdformat_mkdocs-1.0.3.tar.gz]
+[2023-07-19 00:34:10] INFO root fetch - main [MainThread]: End processing [mdformat_mkdocs]: success
+[2023-07-19 00:34:10] INFO root fetch - processPackages [together]: Remove: archive file [/home/abi/fetcher/tmp/together-0.0.7.tar.gz]
+[2023-07-19 00:34:10] INFO root fetch - processPackages [together]: Remove: archive file [/home/abi/fetcher/tmp/together-0.0.8.tar.gz]
+[2023-07-19 00:34:10] INFO root fetch - main [MainThread]: End processing [together]: success
+[2023-07-19 00:34:10] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.8.tar.gz]
+[2023-07-19 00:34:10] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.9.tar.gz]
+[2023-07-19 00:34:10] INFO root fetch - main [MainThread]: End processing [django-url-tokenizer]: success
+[2023-07-19 00:34:10] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-07-19 00:34:10] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.368.1.tar.gz tmp/policyengine-us-0.369.0.tar.gz --markdown 20230719/p/policyengine-us/0.368.1-0.369.0/diff.md --exclude *.pyd
+[2023-07-19 00:34:10] INFO root fetch - processPackages [Flask-BigApp]: Remove: archive file [/home/abi/fetcher/tmp/Flask-BigApp-2023.1.9.6.tar.gz]
+[2023-07-19 00:34:10] INFO root fetch - processPackages [Flask-BigApp]: Remove: archive file [/home/abi/fetcher/tmp/Flask-BigApp-2023.1.9.7.tar.gz]
+[2023-07-19 00:34:11] INFO root fetch - main [MainThread]: End processing [Flask-BigApp]: success
+[2023-07-19 00:34:11] INFO root fetch - processPackages [lsm-db]: Remove: archive file [/home/abi/fetcher/tmp/lsm-db-0.7.0.tar.gz]
+[2023-07-19 00:34:11] INFO root fetch - processPackages [lsm-db]: Remove: archive file [/home/abi/fetcher/tmp/lsm-db-0.7.1.tar.gz]
+[2023-07-19 00:34:11] INFO root fetch - main [MainThread]: End processing [lsm-db]: success
+[2023-07-19 00:34:11] INFO root fetch - processPackages [qanom]: Remove: archive file [/home/abi/fetcher/tmp/qanom-0.0.6.tar.gz]
+[2023-07-19 00:34:11] INFO root fetch - processPackages [qanom]: Remove: archive file [/home/abi/fetcher/tmp/qanom-0.0.9.tar.gz]
+[2023-07-19 00:34:11] INFO root fetch - main [MainThread]: End processing [qanom]: success
+[2023-07-19 00:34:12] INFO root fetch - processPackages [cargo-lambda]: executing diffoscope
+[2023-07-19 00:34:12] INFO root fetch - processPackages [cargo-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cargo_lambda-0.8.3-py3-none-win_amd64.whl.zip tmp/cargo_lambda-0.9.0-py3-none-win_amd64.whl.zip --markdown 20230719/c/cargo-lambda/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-07-19 00:34:36] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.368.1.tar.gz]
+[2023-07-19 00:34:36] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.369.0.tar.gz]
+[2023-07-19 00:34:36] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-07-19 00:34:55] INFO root fetch - processPackages [cargo-lambda]: Remove: archive file [/home/abi/fetcher/tmp/cargo_lambda-0.8.3-py3-none-win_amd64.whl.zip]
+[2023-07-19 00:34:55] INFO root fetch - processPackages [cargo-lambda]: Remove: archive file [/home/abi/fetcher/tmp/cargo_lambda-0.9.0-py3-none-win_amd64.whl.zip]
+[2023-07-19 00:34:55] INFO root fetch - main [MainThread]: End processing [cargo-lambda]: success
+[2023-07-19 00:34:55] INFO root fetch - main [MainThread]: Store serial: [18940776]
