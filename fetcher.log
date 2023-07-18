@@ -163,3 +163,75 @@
 [2023-07-19 00:08:06] INFO root fetch - processPackages [lbt-ladybug]: Remove: archive file [/home/abi/fetcher/tmp/lbt-ladybug-0.9.0.tar.gz]
 [2023-07-19 00:08:06] INFO root fetch - main [MainThread]: End processing [lbt-ladybug]: success
 [2023-07-19 00:08:06] INFO root fetch - main [MainThread]: Store serial: [18940586]
+[2023-07-19 00:13:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18940586]
+[2023-07-19 00:13:15] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-19 00:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: honeybee-radiance-postprocess
+[2023-07-19 00:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crypto-screening
+[2023-07-19 00:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: candor-test
+[2023-07-19 00:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pipeln
+[2023-07-19 00:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iamlistening
+[2023-07-19 00:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: myco-ai
+[2023-07-19 00:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: roblox-pyc
+[2023-07-19 00:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dragonfly-radiance
+[2023-07-19 00:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: goxlr
+[2023-07-19 00:13:15] INFO root fetch - processPackages [iamlistening]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-19 00:13:15] WARNING root fetch - processPackages [candor-test]: Skipping, unable to determine old version
+[2023-07-19 00:13:15] INFO root fetch - main [MainThread]: End processing [candor-test] error
+[2023-07-19 00:13:15] INFO root fetch - processPackages [crypto-screening]: New version: [5.6.0] Old Version: [5.5.0]
+[2023-07-19 00:13:15] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-19 00:13:15] INFO root fetch - processPackages [pipeln]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-19 00:13:15] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/3d/22/cbe43f01d0954cbb4ab7000ef2c2d0f85ae10f2157f43665195f9e938a21/crypto-screening-5.5.0.tar.gz
+[2023-07-19 00:13:15] INFO root fetch - processPackages [honeybee-radiance-postprocess]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-07-19 00:13:15] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/ad/dd/85a6ef0636546cf1bc7172fe7d68b0436908a62be600e0ffa7667b62ed7c/iamlistening-1.1.0.tar.gz
+[2023-07-19 00:13:15] WARNING root fetch - processPackages [myco-ai]: Skipping, unable to determine old version
+[2023-07-19 00:13:15] INFO root fetch - main [MainThread]: End processing [myco-ai] error
+[2023-07-19 00:13:15] INFO root fetch - processPackages [goxlr]: New version: [1.4.6] Old Version: [1.4.5]
+[2023-07-19 00:13:15] INFO root fetch - processPackages [dragonfly-radiance]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-19 00:13:15] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-19 00:13:16] INFO root fetch - processPackages [pipeln]: Downloading https://files.pythonhosted.org/packages/d0/ca/1dae06bfbbd263c3fd93ec99c8516f3bee665a65657a4e242a889b30835d/pipeln-0.1.0.tar.gz
+[2023-07-19 00:13:16] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Downloading https://files.pythonhosted.org/packages/b6/91/e656cf214b08dde444b27576e74fc06004fa6bbc0d5f04f1d6514eb05429/honeybee-radiance-postprocess-0.4.98.tar.gz
+[2023-07-19 00:13:16] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/bf/f0/c99b0a95dda3908f540b09a5f30416286f32b4b00108e574357c67905f4e/iamlistening-1.1.1.tar.gz
+[2023-07-19 00:13:16] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/dd/6c/7d5ffb363ba985b326d3b266d8eaea74bc6cc890eb733cc9e0cc127ccc55/dragonfly-radiance-0.2.8.tar.gz
+[2023-07-19 00:13:16] INFO root fetch - processPackages [goxlr]: Downloading https://files.pythonhosted.org/packages/9b/ca/a8235b54851cdf1b388bcf41bd3e24d8cd05bcf9a3fcb0e7fa1c506d4d07/goxlr-1.4.5.tar.gz
+[2023-07-19 00:13:16] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-19 00:13:16] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/c5/6a/ebe243ba24894a3c7f8efe2bd2fd6f0f57eaab1d01299de7dd9f70bdd794/crypto-screening-5.6.0.tar.gz
+[2023-07-19 00:13:16] INFO root fetch - processPackages [iamlistening]: executing diffoscope
+[2023-07-19 00:13:16] INFO root fetch - processPackages [iamlistening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iamlistening-1.1.0.tar.gz tmp/iamlistening-1.1.1.tar.gz --markdown 20230719/i/iamlistening/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-19 00:13:16] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-19 00:13:16] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230719/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-19 00:13:16] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-19 00:13:16] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-5.5.0.tar.gz tmp/crypto-screening-5.6.0.tar.gz --markdown 20230719/c/crypto-screening/5.5.0-5.6.0/diff.md --exclude *.pyd
+[2023-07-19 00:13:16] INFO root fetch - processPackages [pipeln]: Downloading https://files.pythonhosted.org/packages/3a/f6/1f4f1cdb8309d8ab315d3fd6043e31ae11c4b752cf77adab019484c34862/pipeln-0.2.0.tar.gz
+[2023-07-19 00:13:16] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/e9/01/706de1a3d81bb520c7a73e10a084040d9e5f37ff57b7defd9715a2c4018e/dragonfly-radiance-0.2.9.tar.gz
+[2023-07-19 00:13:16] INFO root fetch - processPackages [goxlr]: Downloading https://files.pythonhosted.org/packages/e1/04/e32dc4a0f12c323b2757e2c100fd18faa6a8b200ad34984fa8c72657e5cb/goxlr-1.4.6.tar.gz
+[2023-07-19 00:13:16] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Downloading https://files.pythonhosted.org/packages/e0/41/5be881e0724bb4d271ee5bb707666eff4c4b9ca79bc8c67f7316687d2f67/honeybee-radiance-postprocess-0.4.99.tar.gz
+[2023-07-19 00:13:16] INFO root fetch - processPackages [pipeln]: executing diffoscope
+[2023-07-19 00:13:16] INFO root fetch - processPackages [pipeln]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeln-0.1.0.tar.gz tmp/pipeln-0.2.0.tar.gz --markdown 20230719/p/pipeln/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-19 00:13:16] INFO root fetch - processPackages [goxlr]: executing diffoscope
+[2023-07-19 00:13:16] INFO root fetch - processPackages [goxlr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goxlr-1.4.5.tar.gz tmp/goxlr-1.4.6.tar.gz --markdown 20230719/g/goxlr/1.4.5-1.4.6/diff.md --exclude *.pyd
+[2023-07-19 00:13:16] INFO root fetch - processPackages [dragonfly-radiance]: executing diffoscope
+[2023-07-19 00:13:16] INFO root fetch - processPackages [dragonfly-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-radiance-0.2.8.tar.gz tmp/dragonfly-radiance-0.2.9.tar.gz --markdown 20230719/d/dragonfly-radiance/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-19 00:13:17] INFO root fetch - processPackages [honeybee-radiance-postprocess]: executing diffoscope
+[2023-07-19 00:13:17] INFO root fetch - processPackages [honeybee-radiance-postprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-postprocess-0.4.98.tar.gz tmp/honeybee-radiance-postprocess-0.4.99.tar.gz --markdown 20230719/h/honeybee-radiance-postprocess/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-07-19 00:13:17] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-1.1.0.tar.gz]
+[2023-07-19 00:13:17] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-1.1.1.tar.gz]
+[2023-07-19 00:13:17] INFO root fetch - main [MainThread]: End processing [iamlistening]: success
+[2023-07-19 00:13:17] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-19 00:13:17] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-19 00:13:17] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-19 00:13:17] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-5.5.0.tar.gz]
+[2023-07-19 00:13:17] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-5.6.0.tar.gz]
+[2023-07-19 00:13:17] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-19 00:13:17] INFO root fetch - processPackages [pipeln]: Remove: archive file [/home/abi/fetcher/tmp/pipeln-0.1.0.tar.gz]
+[2023-07-19 00:13:17] INFO root fetch - processPackages [pipeln]: Remove: archive file [/home/abi/fetcher/tmp/pipeln-0.2.0.tar.gz]
+[2023-07-19 00:13:17] INFO root fetch - main [MainThread]: End processing [pipeln]: success
+[2023-07-19 00:13:17] INFO root fetch - processPackages [goxlr]: Remove: archive file [/home/abi/fetcher/tmp/goxlr-1.4.5.tar.gz]
+[2023-07-19 00:13:17] INFO root fetch - processPackages [goxlr]: Remove: archive file [/home/abi/fetcher/tmp/goxlr-1.4.6.tar.gz]
+[2023-07-19 00:13:17] INFO root fetch - main [MainThread]: End processing [goxlr]: success
+[2023-07-19 00:13:17] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.2.8.tar.gz]
+[2023-07-19 00:13:17] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.2.9.tar.gz]
+[2023-07-19 00:13:17] INFO root fetch - main [MainThread]: End processing [dragonfly-radiance]: success
+[2023-07-19 00:13:18] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-postprocess-0.4.98.tar.gz]
+[2023-07-19 00:13:18] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-postprocess-0.4.99.tar.gz]
+[2023-07-19 00:13:18] INFO root fetch - main [MainThread]: End processing [honeybee-radiance-postprocess]: success
+[2023-07-19 00:13:18] INFO root fetch - main [MainThread]: Store serial: [18940614]
