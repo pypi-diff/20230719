@@ -450,3 +450,63 @@
 [2023-07-19 00:23:48] INFO root fetch - processPackages [openram]: Remove: archive file [/home/abi/fetcher/tmp/openram-1.2.9.tar.gz]
 [2023-07-19 00:23:48] INFO root fetch - main [MainThread]: End processing [openram]: success
 [2023-07-19 00:23:48] INFO root fetch - main [MainThread]: Store serial: [18940697]
+[2023-07-19 00:28:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18940697]
+[2023-07-19 00:28:56] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-19 00:28:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vedis
+[2023-07-19 00:28:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: universal-pathlib
+[2023-07-19 00:28:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aioesphomeapi
+[2023-07-19 00:28:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: discovery-core
+[2023-07-19 00:28:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: escavador
+[2023-07-19 00:28:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Metamaterial-Analysis-Code
+[2023-07-19 00:28:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: garth
+[2023-07-19 00:28:57] INFO root fetch - processPackages [garth]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-19 00:28:57] INFO root fetch - processPackages [aioesphomeapi]: New version: [9.1.5] Old Version: [9.1.4]
+[2023-07-19 00:28:57] ERROR root fetch - processPackages [Metamaterial-Analysis-Code]: Unable to get metadata: No such project 'Metamaterial-Analysis-Code'
+[2023-07-19 00:28:57] INFO root fetch - main [MainThread]: End processing [Metamaterial-Analysis-Code] error
+[2023-07-19 00:28:57] INFO root fetch - processPackages [escavador]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-19 00:28:57] INFO root fetch - processPackages [vedis]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-07-19 00:28:57] INFO root fetch - processPackages [garth]: Downloading https://files.pythonhosted.org/packages/41/e4/5c761d7438ab1ac76dfbdcf8829323f3aff92edb58871f556db61c125a2c/garth-0.1.8.tar.gz
+[2023-07-19 00:28:57] INFO root fetch - processPackages [universal-pathlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 00:28:57] INFO root fetch - processPackages [discovery-core]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-19 00:28:57] INFO root fetch - processPackages [aioesphomeapi]: Downloading https://files.pythonhosted.org/packages/62/7f/d2cc3b95dfe936bbad8f3956f274147389d6625de031d1105261491bffd9/aioesphomeapi-9.1.4.tar.gz
+[2023-07-19 00:28:57] INFO root fetch - processPackages [discovery-core]: Downloading https://files.pythonhosted.org/packages/bd/81/c706d7a2a4cbf76d5f418906b3709c7a1739a66b636f07a7444790e474ed/discovery-core-0.2.8.tar.gz
+[2023-07-19 00:28:57] INFO root fetch - processPackages [escavador]: Downloading https://files.pythonhosted.org/packages/7f/78/dd73e29a4ac256cbb4ac6cbb1429dde46e3da2f3713e9f581987c85f131b/escavador-0.3.0.tar.gz
+[2023-07-19 00:28:57] INFO root fetch - processPackages [vedis]: Downloading https://files.pythonhosted.org/packages/22/85/9a2c7907199552bb65df944e7128aa7e2018fb3e77e7ad522c74c24137b8/vedis-0.7.1.tar.gz
+[2023-07-19 00:28:57] INFO root fetch - processPackages [universal-pathlib]: Downloading https://files.pythonhosted.org/packages/e9/8c/f752977bb15c83c5e4c21a05fed11968382d67cc127129a0c62f9d2b5769/universal_pathlib-0.0.8.tar.gz
+[2023-07-19 00:28:57] INFO root fetch - processPackages [aioesphomeapi]: Downloading https://files.pythonhosted.org/packages/95/57/381c894380ec58a8c891a923696dc0d97d7af266921f326f942ec3332685/aioesphomeapi-9.1.5.tar.gz
+[2023-07-19 00:28:57] INFO root fetch - processPackages [garth]: Downloading https://files.pythonhosted.org/packages/c4/87/dd51ac50e07f0c6aa28dd3c6a1612f7faeaa7c63d8ce1ae0dcc0efbd1fd0/garth-0.1.9.tar.gz
+[2023-07-19 00:28:57] INFO root fetch - processPackages [aioesphomeapi]: executing diffoscope
+[2023-07-19 00:28:57] INFO root fetch - processPackages [aioesphomeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioesphomeapi-9.1.4.tar.gz tmp/aioesphomeapi-9.1.5.tar.gz --markdown 20230719/a/aioesphomeapi/9.1.4-9.1.5/diff.md --exclude *.pyd
+[2023-07-19 00:28:57] INFO root fetch - processPackages [garth]: executing diffoscope
+[2023-07-19 00:28:57] INFO root fetch - processPackages [garth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garth-0.1.8.tar.gz tmp/garth-0.1.9.tar.gz --markdown 20230719/g/garth/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-19 00:28:57] INFO root fetch - processPackages [discovery-core]: Downloading https://files.pythonhosted.org/packages/45/88/f4d669c0a62d57bcc0678a9c41c8db1adfbb026cdc2047e64e45c7134fdf/discovery-core-0.2.9.tar.gz
+[2023-07-19 00:28:57] INFO root fetch - processPackages [escavador]: Downloading https://files.pythonhosted.org/packages/7e/6b/245496805db92d681cefb8dee626933cec98c9aa23a9a7e1df47466fc2d2/escavador-0.4.0.tar.gz
+[2023-07-19 00:28:57] INFO root fetch - processPackages [vedis]: Downloading https://files.pythonhosted.org/packages/08/63/2f7aa17e5348eb93cb359c4bd0b98e69fc85cf30c772d666368f2466b963/vedis-0.7.2.tar.gz
+[2023-07-19 00:28:57] INFO root fetch - processPackages [escavador]: executing diffoscope
+[2023-07-19 00:28:57] INFO root fetch - processPackages [escavador]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/escavador-0.3.0.tar.gz tmp/escavador-0.4.0.tar.gz --markdown 20230719/e/escavador/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-19 00:28:57] INFO root fetch - processPackages [discovery-core]: executing diffoscope
+[2023-07-19 00:28:57] INFO root fetch - processPackages [discovery-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-core-0.2.8.tar.gz tmp/discovery-core-0.2.9.tar.gz --markdown 20230719/d/discovery-core/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-19 00:28:57] INFO root fetch - processPackages [vedis]: executing diffoscope
+[2023-07-19 00:28:57] INFO root fetch - processPackages [vedis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vedis-0.7.1.tar.gz tmp/vedis-0.7.2.tar.gz --markdown 20230719/v/vedis/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-07-19 00:28:58] INFO root fetch - processPackages [universal-pathlib]: Downloading https://files.pythonhosted.org/packages/10/03/620a7d73eeffae1b374aef4e3de566085d878314b2cff2258935f5439320/universal_pathlib-0.0.9.tar.gz
+[2023-07-19 00:28:58] INFO root fetch - processPackages [aioesphomeapi]: Remove: archive file [/home/abi/fetcher/tmp/aioesphomeapi-9.1.4.tar.gz]
+[2023-07-19 00:28:58] INFO root fetch - processPackages [aioesphomeapi]: Remove: archive file [/home/abi/fetcher/tmp/aioesphomeapi-9.1.5.tar.gz]
+[2023-07-19 00:28:58] INFO root fetch - main [MainThread]: End processing [aioesphomeapi]: success
+[2023-07-19 00:28:58] INFO root fetch - processPackages [garth]: Remove: archive file [/home/abi/fetcher/tmp/garth-0.1.8.tar.gz]
+[2023-07-19 00:28:58] INFO root fetch - processPackages [garth]: Remove: archive file [/home/abi/fetcher/tmp/garth-0.1.9.tar.gz]
+[2023-07-19 00:28:58] INFO root fetch - main [MainThread]: End processing [garth]: success
+[2023-07-19 00:28:58] INFO root fetch - processPackages [universal-pathlib]: executing diffoscope
+[2023-07-19 00:28:58] INFO root fetch - processPackages [universal-pathlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/universal_pathlib-0.0.8.tar.gz tmp/universal_pathlib-0.0.9.tar.gz --markdown 20230719/u/universal-pathlib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 00:28:58] INFO root fetch - processPackages [discovery-core]: Remove: archive file [/home/abi/fetcher/tmp/discovery-core-0.2.8.tar.gz]
+[2023-07-19 00:28:58] INFO root fetch - processPackages [discovery-core]: Remove: archive file [/home/abi/fetcher/tmp/discovery-core-0.2.9.tar.gz]
+[2023-07-19 00:28:58] INFO root fetch - main [MainThread]: End processing [discovery-core]: success
+[2023-07-19 00:28:58] INFO root fetch - processPackages [escavador]: Remove: archive file [/home/abi/fetcher/tmp/escavador-0.3.0.tar.gz]
+[2023-07-19 00:28:58] INFO root fetch - processPackages [escavador]: Remove: archive file [/home/abi/fetcher/tmp/escavador-0.4.0.tar.gz]
+[2023-07-19 00:28:58] INFO root fetch - main [MainThread]: End processing [escavador]: success
+[2023-07-19 00:28:59] INFO root fetch - processPackages [vedis]: Remove: archive file [/home/abi/fetcher/tmp/vedis-0.7.1.tar.gz]
+[2023-07-19 00:28:59] INFO root fetch - processPackages [vedis]: Remove: archive file [/home/abi/fetcher/tmp/vedis-0.7.2.tar.gz]
+[2023-07-19 00:28:59] INFO root fetch - main [MainThread]: End processing [vedis]: success
+[2023-07-19 00:28:59] INFO root fetch - processPackages [universal-pathlib]: Remove: archive file [/home/abi/fetcher/tmp/universal_pathlib-0.0.8.tar.gz]
+[2023-07-19 00:28:59] INFO root fetch - processPackages [universal-pathlib]: Remove: archive file [/home/abi/fetcher/tmp/universal_pathlib-0.0.9.tar.gz]
+[2023-07-19 00:28:59] INFO root fetch - main [MainThread]: End processing [universal-pathlib]: success
+[2023-07-19 00:28:59] INFO root fetch - main [MainThread]: Store serial: [18940722]
