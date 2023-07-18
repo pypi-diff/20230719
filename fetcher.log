@@ -1868,3 +1868,69 @@
 [2023-07-19 01:43:01] INFO root fetch - processPackages [omigo-lokki]: Remove: archive file [/home/abi/fetcher/tmp/omigo_lokki-0.5.5.tar.gz]
 [2023-07-19 01:43:01] INFO root fetch - main [MainThread]: End processing [omigo-lokki]: success
 [2023-07-19 01:43:01] INFO root fetch - main [MainThread]: Store serial: [18941453]
+[2023-07-19 01:48:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18941453]
+[2023-07-19 01:48:10] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-19 01:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: omigo-arjun
+[2023-07-19 01:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: omigo-matel
+[2023-07-19 01:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qsharp_jupyterlab
+[2023-07-19 01:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qsharp_python
+[2023-07-19 01:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: skyplane-nightly
+[2023-07-19 01:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: burla
+[2023-07-19 01:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: khoj-assistant
+[2023-07-19 01:48:10] INFO root fetch - processPackages [qsharp_jupyterlab]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-19 01:48:10] INFO root fetch - processPackages [omigo-arjun]: New version: [0.5.5] Old Version: [0.5.2]
+[2023-07-19 01:48:10] INFO root fetch - processPackages [qsharp_python]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-19 01:48:10] INFO root fetch - processPackages [omigo-matel]: New version: [0.5.5] Old Version: [0.5.2]
+[2023-07-19 01:48:10] INFO root fetch - processPackages [burla]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 01:48:10] INFO root fetch - processPackages [khoj-assistant]: New version: [0.8.3.dev8] Old Version: [0.8.3.dev42]
+[2023-07-19 01:48:10] INFO root fetch - processPackages [skyplane-nightly]: New version: [0.3.2.dev20230718] Old Version: [0.3.2.dev20230717]
+[2023-07-19 01:48:11] INFO root fetch - processPackages [qsharp_jupyterlab]: Downloading https://files.pythonhosted.org/packages/fe/80/5be728835715a9e57eed29e7caf440cbcef562b60d317bfe90783e9aa763/qsharp_jupyterlab-0.0.4-py3-none-any.whl
+[2023-07-19 01:48:11] INFO root fetch - processPackages [qsharp_python]: Downloading https://files.pythonhosted.org/packages/22/31/1c459efccadc505c8c041d47b5f8c6d7e6f3e3a3de8e375047b85fc58a8b/qsharp_python-0.0.4-cp37-abi3-win_amd64.whl
+[2023-07-19 01:48:11] INFO root fetch - processPackages [omigo-arjun]: Downloading https://files.pythonhosted.org/packages/4e/9c/455f332609146eaa1025a2bba945f83487842d6d21f4d329dc1adb72ed3f/omigo_arjun-0.5.2.tar.gz
+[2023-07-19 01:48:11] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/11/b0/89f19bf5a9e5fc4a36de31f38f0b7abce911bf6f32a79fd5597acfd9fdf6/khoj_assistant-0.8.3.dev42.tar.gz
+[2023-07-19 01:48:11] INFO root fetch - processPackages [omigo-matel]: Downloading https://files.pythonhosted.org/packages/88/de/971e4bd7919749010089a3c8c354704d6dd80cca3d87fa75afd12c1e8cc4/omigo_matel-0.5.2.tar.gz
+[2023-07-19 01:48:11] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/2d/b4/fcb1e83d5d0feac23c1b68d32b98314130f48d91fc2374748b9ed7200194/skyplane_nightly-0.3.2.dev20230717.tar.gz
+[2023-07-19 01:48:11] INFO root fetch - processPackages [burla]: Downloading https://files.pythonhosted.org/packages/0d/9a/f623911bfcf8ff0551e7fc45c2e930f08436990123d49d270bd2050510d8/burla-0.0.8.tar.gz
+[2023-07-19 01:48:11] INFO root fetch - processPackages [qsharp_python]: Downloading https://files.pythonhosted.org/packages/39/fe/466beba679562b160d01916490062268841cec124bde17d0c2558cd32668/qsharp_python-0.0.5-cp37-abi3-win_amd64.whl
+[2023-07-19 01:48:11] INFO root fetch - processPackages [qsharp_jupyterlab]: Downloading https://files.pythonhosted.org/packages/84/8f/876541e53ee8d576d350968d0b4c6de59c5be947fde3840a047ebbc4037a/qsharp_jupyterlab-0.0.5-py3-none-any.whl
+[2023-07-19 01:48:11] INFO root fetch - processPackages [burla]: Downloading https://files.pythonhosted.org/packages/b8/b3/c71fc9515a02e97c94605e251e815d371e7fb51dd4579c9c9a7eb77d4881/burla-0.0.9.tar.gz
+[2023-07-19 01:48:11] INFO root fetch - processPackages [omigo-arjun]: Downloading https://files.pythonhosted.org/packages/0c/1d/d0b5a2225b2d9fd1c5ee14e587013f0293c56cebcc6b8e34881d0f987ca6/omigo_arjun-0.5.5.tar.gz
+[2023-07-19 01:48:11] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/c4/87/de099966a20895283d1e578150edbfe1a4237a588badcce0cecc5a3a02d8/skyplane_nightly-0.3.2.dev20230718.tar.gz
+[2023-07-19 01:48:11] INFO root fetch - processPackages [omigo-matel]: Downloading https://files.pythonhosted.org/packages/70/6f/e218294e3b0f9a22723451588b13efc176b08818498f7c3dd9ab546b8432/omigo_matel-0.5.5.tar.gz
+[2023-07-19 01:48:11] INFO root fetch - processPackages [qsharp_python]: executing diffoscope
+[2023-07-19 01:48:11] INFO root fetch - processPackages [qsharp_python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsharp_python-0.0.4-cp37-abi3-win_amd64.whl.zip tmp/qsharp_python-0.0.5-cp37-abi3-win_amd64.whl.zip --markdown 20230719/q/qsharp_python/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-19 01:48:11] INFO root fetch - processPackages [burla]: executing diffoscope
+[2023-07-19 01:48:11] INFO root fetch - processPackages [burla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/burla-0.0.8.tar.gz tmp/burla-0.0.9.tar.gz --markdown 20230719/b/burla/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 01:48:11] INFO root fetch - processPackages [qsharp_jupyterlab]: executing diffoscope
+[2023-07-19 01:48:11] INFO root fetch - processPackages [qsharp_jupyterlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsharp_jupyterlab-0.0.4-py3-none-any.whl.zip tmp/qsharp_jupyterlab-0.0.5-py3-none-any.whl.zip --markdown 20230719/q/qsharp_jupyterlab/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-19 01:48:11] INFO root fetch - processPackages [omigo-arjun]: executing diffoscope
+[2023-07-19 01:48:11] INFO root fetch - processPackages [omigo-arjun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omigo_arjun-0.5.2.tar.gz tmp/omigo_arjun-0.5.5.tar.gz --markdown 20230719/o/omigo-arjun/0.5.2-0.5.5/diff.md --exclude *.pyd
+[2023-07-19 01:48:12] INFO root fetch - processPackages [skyplane-nightly]: executing diffoscope
+[2023-07-19 01:48:12] INFO root fetch - processPackages [skyplane-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyplane_nightly-0.3.2.dev20230717.tar.gz tmp/skyplane_nightly-0.3.2.dev20230718.tar.gz --markdown 20230719/s/skyplane-nightly/0.3.2.dev20230717-0.3.2.dev20230718/diff.md --exclude *.pyd
+[2023-07-19 01:48:12] INFO root fetch - processPackages [omigo-matel]: executing diffoscope
+[2023-07-19 01:48:12] INFO root fetch - processPackages [omigo-matel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omigo_matel-0.5.2.tar.gz tmp/omigo_matel-0.5.5.tar.gz --markdown 20230719/o/omigo-matel/0.5.2-0.5.5/diff.md --exclude *.pyd
+[2023-07-19 01:48:12] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/b8/60/b33e303aad0d4d2b6c445eedd3c8f71117cf0cf14fed573f154571bb71e5/khoj_assistant-0.8.3.dev8.tar.gz
+[2023-07-19 01:48:12] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-07-19 01:48:12] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.8.3.dev42.tar.gz tmp/khoj_assistant-0.8.3.dev8.tar.gz --markdown 20230719/k/khoj-assistant/0.8.3.dev42-0.8.3.dev8/diff.md --exclude *.pyd
+[2023-07-19 01:48:12] INFO root fetch - processPackages [burla]: Remove: archive file [/home/abi/fetcher/tmp/burla-0.0.8.tar.gz]
+[2023-07-19 01:48:12] INFO root fetch - processPackages [burla]: Remove: archive file [/home/abi/fetcher/tmp/burla-0.0.9.tar.gz]
+[2023-07-19 01:48:12] INFO root fetch - main [MainThread]: End processing [burla]: success
+[2023-07-19 01:48:12] INFO root fetch - processPackages [qsharp_python]: Remove: archive file [/home/abi/fetcher/tmp/qsharp_python-0.0.4-cp37-abi3-win_amd64.whl.zip]
+[2023-07-19 01:48:12] INFO root fetch - processPackages [qsharp_python]: Remove: archive file [/home/abi/fetcher/tmp/qsharp_python-0.0.5-cp37-abi3-win_amd64.whl.zip]
+[2023-07-19 01:48:12] INFO root fetch - main [MainThread]: End processing [qsharp_python]: success
+[2023-07-19 01:48:13] INFO root fetch - processPackages [omigo-matel]: Remove: archive file [/home/abi/fetcher/tmp/omigo_matel-0.5.2.tar.gz]
+[2023-07-19 01:48:13] INFO root fetch - processPackages [omigo-matel]: Remove: archive file [/home/abi/fetcher/tmp/omigo_matel-0.5.5.tar.gz]
+[2023-07-19 01:48:13] INFO root fetch - main [MainThread]: End processing [omigo-matel]: success
+[2023-07-19 01:48:13] INFO root fetch - processPackages [omigo-arjun]: Remove: archive file [/home/abi/fetcher/tmp/omigo_arjun-0.5.2.tar.gz]
+[2023-07-19 01:48:13] INFO root fetch - processPackages [omigo-arjun]: Remove: archive file [/home/abi/fetcher/tmp/omigo_arjun-0.5.5.tar.gz]
+[2023-07-19 01:48:13] INFO root fetch - main [MainThread]: End processing [omigo-arjun]: success
+[2023-07-19 01:48:13] INFO root fetch - processPackages [qsharp_jupyterlab]: Remove: archive file [/home/abi/fetcher/tmp/qsharp_jupyterlab-0.0.4-py3-none-any.whl.zip]
+[2023-07-19 01:48:13] INFO root fetch - processPackages [qsharp_jupyterlab]: Remove: archive file [/home/abi/fetcher/tmp/qsharp_jupyterlab-0.0.5-py3-none-any.whl.zip]
+[2023-07-19 01:48:13] INFO root fetch - main [MainThread]: End processing [qsharp_jupyterlab]: success
+[2023-07-19 01:48:13] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230717.tar.gz]
+[2023-07-19 01:48:13] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230718.tar.gz]
+[2023-07-19 01:48:13] INFO root fetch - main [MainThread]: End processing [skyplane-nightly]: success
+[2023-07-19 01:48:14] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.8.3.dev42.tar.gz]
+[2023-07-19 01:48:14] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.8.3.dev8.tar.gz]
+[2023-07-19 01:48:14] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-07-19 01:48:14] INFO root fetch - main [MainThread]: Store serial: [18941473]
