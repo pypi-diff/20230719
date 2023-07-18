@@ -1964,3 +1964,33 @@
 [2023-07-19 01:53:24] INFO root fetch - processPackages [annieslasso]: Remove: archive file [/home/abi/fetcher/tmp/annieslasso-0.2.94.tar.gz]
 [2023-07-19 01:53:24] INFO root fetch - main [MainThread]: End processing [annieslasso]: success
 [2023-07-19 01:53:24] INFO root fetch - main [MainThread]: Store serial: [18941482]
+[2023-07-19 01:58:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18941482]
+[2023-07-19 01:58:32] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-19 01:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flowright
+[2023-07-19 01:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hat-drivers
+[2023-07-19 01:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: subtitle-parser
+[2023-07-19 01:58:32] INFO root fetch - processPackages [flowright]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-19 01:58:32] INFO root fetch - processPackages [hat-drivers]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-07-19 01:58:32] INFO root fetch - processPackages [hat-drivers]: Downloading https://files.pythonhosted.org/packages/8c/df/d0e27cc093d9a7b79c79177a4717012e69c3341fde7433bc0046df9feb99/hat_drivers-0.7.2-cp310.cp311-abi3-win_amd64.whl
+[2023-07-19 01:58:32] INFO root fetch - processPackages [flowright]: Downloading https://files.pythonhosted.org/packages/07/9d/14adfab5fb483c50854bb6f6a7db4069982de20c147649e3761c29eb7727/flowright-0.1.1.tar.gz
+[2023-07-19 01:58:32] INFO root fetch - processPackages [subtitle-parser]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-07-19 01:58:33] INFO root fetch - processPackages [subtitle-parser]: Downloading https://files.pythonhosted.org/packages/9d/c9/d80ebe909b0f55b4d66c7df8af40bfb89ee9c7ccd9e07145070c69a1649d/subtitle-parser-1.2.0.tar.gz
+[2023-07-19 01:58:33] INFO root fetch - processPackages [hat-drivers]: Downloading https://files.pythonhosted.org/packages/a0/8b/a5667b17ee328123b62cc9f4180205a9f77e66ba2ac5287e1a33b943ffc7/hat_drivers-0.7.3-cp310.cp311-abi3-win_amd64.whl
+[2023-07-19 01:58:33] INFO root fetch - processPackages [flowright]: Downloading https://files.pythonhosted.org/packages/26/59/c6bf8302237d6b3377abc71c3f6568f921cb3ecb102262e6e36cb234a3c0/flowright-0.1.2.tar.gz
+[2023-07-19 01:58:33] INFO root fetch - processPackages [hat-drivers]: executing diffoscope
+[2023-07-19 01:58:33] INFO root fetch - processPackages [hat-drivers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hat_drivers-0.7.2-cp310.cp311-abi3-win_amd64.whl.zip tmp/hat_drivers-0.7.3-cp310.cp311-abi3-win_amd64.whl.zip --markdown 20230719/h/hat-drivers/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-07-19 01:58:33] INFO root fetch - processPackages [flowright]: executing diffoscope
+[2023-07-19 01:58:33] INFO root fetch - processPackages [flowright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowright-0.1.1.tar.gz tmp/flowright-0.1.2.tar.gz --markdown 20230719/f/flowright/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-19 01:58:33] INFO root fetch - processPackages [subtitle-parser]: Downloading https://files.pythonhosted.org/packages/95/fb/f5d493a850d10d2e0beacb99277efe1b48c32d0e369361e1d27cc5390638/subtitle_parser-1.3.0.tar.gz
+[2023-07-19 01:58:33] INFO root fetch - processPackages [subtitle-parser]: executing diffoscope
+[2023-07-19 01:58:33] INFO root fetch - processPackages [subtitle-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/subtitle-parser-1.2.0.tar.gz tmp/subtitle_parser-1.3.0.tar.gz --markdown 20230719/s/subtitle-parser/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-07-19 01:58:34] INFO root fetch - processPackages [flowright]: Remove: archive file [/home/abi/fetcher/tmp/flowright-0.1.1.tar.gz]
+[2023-07-19 01:58:34] INFO root fetch - processPackages [flowright]: Remove: archive file [/home/abi/fetcher/tmp/flowright-0.1.2.tar.gz]
+[2023-07-19 01:58:34] INFO root fetch - main [MainThread]: End processing [flowright]: success
+[2023-07-19 01:58:34] INFO root fetch - processPackages [subtitle-parser]: Remove: archive file [/home/abi/fetcher/tmp/subtitle-parser-1.2.0.tar.gz]
+[2023-07-19 01:58:34] INFO root fetch - processPackages [subtitle-parser]: Remove: archive file [/home/abi/fetcher/tmp/subtitle_parser-1.3.0.tar.gz]
+[2023-07-19 01:58:34] INFO root fetch - main [MainThread]: End processing [subtitle-parser]: success
+[2023-07-19 01:58:34] INFO root fetch - processPackages [hat-drivers]: Remove: archive file [/home/abi/fetcher/tmp/hat_drivers-0.7.2-cp310.cp311-abi3-win_amd64.whl.zip]
+[2023-07-19 01:58:34] INFO root fetch - processPackages [hat-drivers]: Remove: archive file [/home/abi/fetcher/tmp/hat_drivers-0.7.3-cp310.cp311-abi3-win_amd64.whl.zip]
+[2023-07-19 01:58:34] INFO root fetch - main [MainThread]: End processing [hat-drivers]: success
+[2023-07-19 01:58:34] INFO root fetch - main [MainThread]: Store serial: [18941494]
