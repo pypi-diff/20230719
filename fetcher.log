@@ -1684,3 +1684,75 @@
 [2023-07-19 01:32:35] INFO root fetch - processPackages [myokit]: Remove: archive file [/home/abi/fetcher/tmp/myokit-1.35.1.tar.gz]
 [2023-07-19 01:32:35] INFO root fetch - main [MainThread]: End processing [myokit]: success
 [2023-07-19 01:32:35] INFO root fetch - main [MainThread]: Store serial: [18941314]
+[2023-07-19 01:37:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18941314]
+[2023-07-19 01:37:44] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-19 01:37:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chromadb
+[2023-07-19 01:37:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: omigo-core
+[2023-07-19 01:37:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lbt-dragonfly
+[2023-07-19 01:37:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gesichtfinder
+[2023-07-19 01:37:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: omigo-ext
+[2023-07-19 01:37:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nrf-pk
+[2023-07-19 01:37:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aiordr
+[2023-07-19 01:37:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: robust-laplacian
+[2023-07-19 01:37:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flowright
+[2023-07-19 01:37:44] INFO root fetch - processPackages [omigo-ext]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-07-19 01:37:44] INFO root fetch - processPackages [omigo-core]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-07-19 01:37:44] INFO root fetch - processPackages [flowright]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-19 01:37:44] INFO root fetch - processPackages [robust-laplacian]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-19 01:37:44] INFO root fetch - processPackages [chromadb]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-19 01:37:44] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-07-19 01:37:44] INFO root fetch - processPackages [aiordr]: New version: [0.1.0] Old Version: [0.0.5]
+[2023-07-19 01:37:44] WARNING root fetch - processPackages [gesichtfinder]: Skipping, unable to determine old version
+[2023-07-19 01:37:44] INFO root fetch - main [MainThread]: End processing [gesichtfinder] error
+[2023-07-19 01:37:44] WARNING root fetch - processPackages [nrf-pk]: Skipping, unable to determine old version
+[2023-07-19 01:37:44] INFO root fetch - main [MainThread]: End processing [nrf-pk] error
+[2023-07-19 01:37:44] INFO root fetch - processPackages [omigo-ext]: Downloading https://files.pythonhosted.org/packages/63/de/89939baf3019c417d10a91083fd7c988d3804ada249d10228f48517a56e6/omigo_ext-0.5.2.tar.gz
+[2023-07-19 01:37:44] INFO root fetch - processPackages [omigo-core]: Downloading https://files.pythonhosted.org/packages/c0/0a/bb976423625030688210ddd083a95401cc8a16d82ebf0b88bff6165997f7/omigo_core-0.5.2.tar.gz
+[2023-07-19 01:37:44] INFO root fetch - processPackages [robust-laplacian]: Downloading https://files.pythonhosted.org/packages/2d/de/fef7e899fb9416bdcba13af58ab8dd139e84abda02e0b037e3633bce1627/robust_laplacian-0.2.4.tar.gz
+[2023-07-19 01:37:44] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-07-19 01:37:44] INFO root fetch - processPackages [aiordr]: Downloading https://files.pythonhosted.org/packages/f8/ed/f7044f757060e04c9f83e59a37bc5c01aaf75659722faad216552cf23cc1/aiordr-0.0.5.tar.gz
+[2023-07-19 01:37:44] INFO root fetch - processPackages [flowright]: Downloading https://files.pythonhosted.org/packages/d6/cd/fa41e2f4ca475a86a11dedbb0d5b9644d2688d3d8e385e916310499327bb/flowright-0.1.0.tar.gz
+[2023-07-19 01:37:44] INFO root fetch - processPackages [chromadb]: Downloading https://files.pythonhosted.org/packages/2e/13/df8b113752fc3509647c34b7815fe84bdd849e336a41547d223004477918/chromadb-0.4.0.tar.gz
+[2023-07-19 01:37:45] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-07-19 01:37:45] INFO root fetch - processPackages [omigo-ext]: Downloading https://files.pythonhosted.org/packages/ad/c1/c0119c9e4473ee7d5bb919c1101f5a2b2e109a9847ae911e743cead4a021/omigo_ext-0.5.3.tar.gz
+[2023-07-19 01:37:45] INFO root fetch - processPackages [robust-laplacian]: Downloading https://files.pythonhosted.org/packages/67/95/2b2f0cfb923f5adc5f6ae3b87c4694528046ffbda7545e74e2fb30ae15f2/robust_laplacian-0.2.5.tar.gz
+[2023-07-19 01:37:45] INFO root fetch - processPackages [omigo-core]: Downloading https://files.pythonhosted.org/packages/df/1e/091e629649631e29fd2c9909ff8b5d1f05a787316e24002b034b606adef4/omigo_core-0.5.3.tar.gz
+[2023-07-19 01:37:45] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-07-19 01:37:45] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230719/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-07-19 01:37:45] INFO root fetch - processPackages [omigo-ext]: executing diffoscope
+[2023-07-19 01:37:45] INFO root fetch - processPackages [omigo-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omigo_ext-0.5.2.tar.gz tmp/omigo_ext-0.5.3.tar.gz --markdown 20230719/o/omigo-ext/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-07-19 01:37:45] INFO root fetch - processPackages [flowright]: Downloading https://files.pythonhosted.org/packages/07/9d/14adfab5fb483c50854bb6f6a7db4069982de20c147649e3761c29eb7727/flowright-0.1.1.tar.gz
+[2023-07-19 01:37:45] INFO root fetch - processPackages [omigo-core]: executing diffoscope
+[2023-07-19 01:37:45] INFO root fetch - processPackages [omigo-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omigo_core-0.5.2.tar.gz tmp/omigo_core-0.5.3.tar.gz --markdown 20230719/o/omigo-core/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-07-19 01:37:45] INFO root fetch - processPackages [aiordr]: Downloading https://files.pythonhosted.org/packages/40/fb/309bbd33695953a9848125cb9c5ca1f110aa9e5dda40e5ac1696c175c79a/aiordr-0.1.0.tar.gz
+[2023-07-19 01:37:45] INFO root fetch - processPackages [chromadb]: Downloading https://files.pythonhosted.org/packages/56/28/1e918a0a22bc676ab817edd333c8ad83e9010e0e30a4c3762d5cd045b7f2/chromadb-0.4.1.tar.gz
+[2023-07-19 01:37:45] INFO root fetch - processPackages [robust-laplacian]: executing diffoscope
+[2023-07-19 01:37:45] INFO root fetch - processPackages [robust-laplacian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robust_laplacian-0.2.4.tar.gz tmp/robust_laplacian-0.2.5.tar.gz --markdown 20230719/r/robust-laplacian/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-19 01:37:45] INFO root fetch - processPackages [flowright]: executing diffoscope
+[2023-07-19 01:37:45] INFO root fetch - processPackages [flowright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowright-0.1.0.tar.gz tmp/flowright-0.1.1.tar.gz --markdown 20230719/f/flowright/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-19 01:37:45] INFO root fetch - processPackages [aiordr]: executing diffoscope
+[2023-07-19 01:37:45] INFO root fetch - processPackages [aiordr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiordr-0.0.5.tar.gz tmp/aiordr-0.1.0.tar.gz --markdown 20230719/a/aiordr/0.0.5-0.1.0/diff.md --exclude *.pyd
+[2023-07-19 01:37:45] INFO root fetch - processPackages [chromadb]: executing diffoscope
+[2023-07-19 01:37:45] INFO root fetch - processPackages [chromadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromadb-0.4.0.tar.gz tmp/chromadb-0.4.1.tar.gz --markdown 20230719/c/chromadb/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-19 01:37:46] INFO root fetch - processPackages [omigo-ext]: Remove: archive file [/home/abi/fetcher/tmp/omigo_ext-0.5.2.tar.gz]
+[2023-07-19 01:37:46] INFO root fetch - processPackages [omigo-ext]: Remove: archive file [/home/abi/fetcher/tmp/omigo_ext-0.5.3.tar.gz]
+[2023-07-19 01:37:46] INFO root fetch - main [MainThread]: End processing [omigo-ext]: success
+[2023-07-19 01:37:46] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2023-07-19 01:37:46] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2023-07-19 01:37:46] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-07-19 01:37:46] INFO root fetch - processPackages [omigo-core]: Remove: archive file [/home/abi/fetcher/tmp/omigo_core-0.5.2.tar.gz]
+[2023-07-19 01:37:46] INFO root fetch - processPackages [omigo-core]: Remove: archive file [/home/abi/fetcher/tmp/omigo_core-0.5.3.tar.gz]
+[2023-07-19 01:37:46] INFO root fetch - main [MainThread]: End processing [omigo-core]: success
+[2023-07-19 01:37:46] INFO root fetch - processPackages [aiordr]: Remove: archive file [/home/abi/fetcher/tmp/aiordr-0.0.5.tar.gz]
+[2023-07-19 01:37:46] INFO root fetch - processPackages [aiordr]: Remove: archive file [/home/abi/fetcher/tmp/aiordr-0.1.0.tar.gz]
+[2023-07-19 01:37:46] INFO root fetch - main [MainThread]: End processing [aiordr]: success
+[2023-07-19 01:37:46] INFO root fetch - processPackages [flowright]: Remove: archive file [/home/abi/fetcher/tmp/flowright-0.1.0.tar.gz]
+[2023-07-19 01:37:46] INFO root fetch - processPackages [flowright]: Remove: archive file [/home/abi/fetcher/tmp/flowright-0.1.1.tar.gz]
+[2023-07-19 01:37:46] INFO root fetch - main [MainThread]: End processing [flowright]: success
+[2023-07-19 01:37:47] INFO root fetch - processPackages [chromadb]: Remove: archive file [/home/abi/fetcher/tmp/chromadb-0.4.0.tar.gz]
+[2023-07-19 01:37:47] INFO root fetch - processPackages [chromadb]: Remove: archive file [/home/abi/fetcher/tmp/chromadb-0.4.1.tar.gz]
+[2023-07-19 01:37:47] INFO root fetch - main [MainThread]: End processing [chromadb]: success
+[2023-07-19 01:37:49] INFO root fetch - processPackages [robust-laplacian]: Remove: archive file [/home/abi/fetcher/tmp/robust_laplacian-0.2.4.tar.gz]
+[2023-07-19 01:37:49] INFO root fetch - processPackages [robust-laplacian]: Remove: archive file [/home/abi/fetcher/tmp/robust_laplacian-0.2.5.tar.gz]
+[2023-07-19 01:37:49] INFO root fetch - main [MainThread]: End processing [robust-laplacian]: success
+[2023-07-19 01:37:49] INFO root fetch - main [MainThread]: Store serial: [18941376]
