@@ -1248,3 +1248,54 @@
 [2023-07-19 01:06:28] INFO root fetch - processPackages [aiosu]: Remove: archive file [/home/abi/fetcher/tmp/aiosu-2.0.0.tar.gz]
 [2023-07-19 01:06:28] INFO root fetch - main [MainThread]: End processing [aiosu]: success
 [2023-07-19 01:06:28] INFO root fetch - main [MainThread]: Store serial: [18941077]
+[2023-07-19 01:11:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18941077]
+[2023-07-19 01:11:37] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-19 01:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: orquesta-sdk
+[2023-07-19 01:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: webpagebp
+[2023-07-19 01:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Energon-Prometheus-exporter
+[2023-07-19 01:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flowright
+[2023-07-19 01:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: imjoy-rpc
+[2023-07-19 01:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: finqual
+[2023-07-19 01:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyeikonal
+[2023-07-19 01:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-07-19 01:11:37] WARNING root fetch - processPackages [flowright]: Skipping, unable to determine old version
+[2023-07-19 01:11:37] INFO root fetch - main [MainThread]: End processing [flowright] error
+[2023-07-19 01:11:37] INFO root fetch - processPackages [orquesta-sdk]: New version: [1.9] Old Version: [1.8]
+[2023-07-19 01:11:37] WARNING root fetch - processPackages [Energon-Prometheus-exporter]: Skipping, unable to determine old version
+[2023-07-19 01:11:37] INFO root fetch - main [MainThread]: End processing [Energon-Prometheus-exporter] error
+[2023-07-19 01:11:37] INFO root fetch - processPackages [finqual]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-19 01:11:37] INFO root fetch - processPackages [orquesta-sdk]: Downloading https://files.pythonhosted.org/packages/40/f3/11af71490f24ccad1c517ec2d9d68723986af161840bd982db300b8819fc/orquesta_sdk-1.8.tar.gz
+[2023-07-19 01:11:37] WARNING root fetch - processPackages [webpagebp]: Skipping, unable to determine old version
+[2023-07-19 01:11:37] INFO root fetch - main [MainThread]: End processing [webpagebp] error
+[2023-07-19 01:11:37] WARNING root fetch - processPackages [pyeikonal]: Skipping, unable to determine old version
+[2023-07-19 01:11:37] INFO root fetch - main [MainThread]: End processing [pyeikonal] error
+[2023-07-19 01:11:37] INFO root fetch - processPackages [finqual]: Downloading https://files.pythonhosted.org/packages/6d/fa/5fcc6a1001f7b558083758b31328e647a417ab6ef9b35104a3ca5ceb5b37/finqual-1.0.0.tar.gz
+[2023-07-19 01:11:37] INFO root fetch - processPackages [imjoy-rpc]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-19 01:11:37] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.401] Old Version: [0.3.400]
+[2023-07-19 01:11:38] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/a6/65/909ddc9ed8364319154d43c090fc356dde9e049e9fd168685704a785d29a/pepperize.cdk-ses-smtp-credentials-0.3.400.tar.gz
+[2023-07-19 01:11:38] INFO root fetch - processPackages [finqual]: Downloading https://files.pythonhosted.org/packages/13/70/5fab24375c22c59284748fdf1fe5ddd2b4069cd30b0ef1cb3e59e431971b/finqual-1.1.0.tar.gz
+[2023-07-19 01:11:38] INFO root fetch - processPackages [imjoy-rpc]: Downloading https://files.pythonhosted.org/packages/62/bf/e0cd8c6c4bfbc73547dd7a58b65fe8314743f962e1771888a1e6a088b01d/imjoy-rpc-0.5.8.tar.gz
+[2023-07-19 01:11:38] INFO root fetch - processPackages [orquesta-sdk]: Downloading https://files.pythonhosted.org/packages/4e/63/907393018239f035315960eeca44969da16e15a0f7d0706cb6e030f523a6/orquesta_sdk-1.9.tar.gz
+[2023-07-19 01:11:38] INFO root fetch - processPackages [finqual]: executing diffoscope
+[2023-07-19 01:11:38] INFO root fetch - processPackages [finqual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finqual-1.0.0.tar.gz tmp/finqual-1.1.0.tar.gz --markdown 20230719/f/finqual/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-19 01:11:38] INFO root fetch - processPackages [orquesta-sdk]: executing diffoscope
+[2023-07-19 01:11:38] INFO root fetch - processPackages [orquesta-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orquesta_sdk-1.8.tar.gz tmp/orquesta_sdk-1.9.tar.gz --markdown 20230719/o/orquesta-sdk/1.8-1.9/diff.md --exclude *.pyd
+[2023-07-19 01:11:38] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/2f/e7/e7bab0c09d2f5300a93f484ef7467e94430127e3e03d983f91b93dd8f687/pepperize.cdk-ses-smtp-credentials-0.3.401.tar.gz
+[2023-07-19 01:11:38] INFO root fetch - processPackages [imjoy-rpc]: Downloading https://files.pythonhosted.org/packages/32/2c/24a2fd77d69514d794a4e4c8db3307e0ef3e19e0338c3edb6bf7bdd4d021/imjoy-rpc-0.5.9.tar.gz
+[2023-07-19 01:11:38] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-07-19 01:11:38] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.400.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.401.tar.gz --markdown 20230719/p/pepperize.cdk-ses-smtp-credentials/0.3.400-0.3.401/diff.md --exclude *.pyd
+[2023-07-19 01:11:38] INFO root fetch - processPackages [imjoy-rpc]: executing diffoscope
+[2023-07-19 01:11:38] INFO root fetch - processPackages [imjoy-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imjoy-rpc-0.5.8.tar.gz tmp/imjoy-rpc-0.5.9.tar.gz --markdown 20230719/i/imjoy-rpc/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-19 01:11:39] INFO root fetch - processPackages [orquesta-sdk]: Remove: archive file [/home/abi/fetcher/tmp/orquesta_sdk-1.8.tar.gz]
+[2023-07-19 01:11:39] INFO root fetch - processPackages [orquesta-sdk]: Remove: archive file [/home/abi/fetcher/tmp/orquesta_sdk-1.9.tar.gz]
+[2023-07-19 01:11:39] INFO root fetch - main [MainThread]: End processing [orquesta-sdk]: success
+[2023-07-19 01:11:39] INFO root fetch - processPackages [finqual]: Remove: archive file [/home/abi/fetcher/tmp/finqual-1.0.0.tar.gz]
+[2023-07-19 01:11:39] INFO root fetch - processPackages [finqual]: Remove: archive file [/home/abi/fetcher/tmp/finqual-1.1.0.tar.gz]
+[2023-07-19 01:11:39] INFO root fetch - main [MainThread]: End processing [finqual]: success
+[2023-07-19 01:11:39] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.400.tar.gz]
+[2023-07-19 01:11:39] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.401.tar.gz]
+[2023-07-19 01:11:39] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-07-19 01:11:39] INFO root fetch - processPackages [imjoy-rpc]: Remove: archive file [/home/abi/fetcher/tmp/imjoy-rpc-0.5.8.tar.gz]
+[2023-07-19 01:11:39] INFO root fetch - processPackages [imjoy-rpc]: Remove: archive file [/home/abi/fetcher/tmp/imjoy-rpc-0.5.9.tar.gz]
+[2023-07-19 01:11:39] INFO root fetch - main [MainThread]: End processing [imjoy-rpc]: success
+[2023-07-19 01:11:39] INFO root fetch - main [MainThread]: Store serial: [18941112]
