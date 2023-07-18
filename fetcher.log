@@ -698,3 +698,159 @@
 [2023-07-19 00:40:23] INFO root fetch - processPackages [ci-cmg-mb-cruise-migration]: Remove: archive file [/home/abi/fetcher/tmp/ci_cmg_mb_cruise_migration-1.2.tar.gz]
 [2023-07-19 00:40:23] INFO root fetch - main [MainThread]: End processing [ci-cmg-mb-cruise-migration]: success
 [2023-07-19 00:40:23] INFO root fetch - main [MainThread]: Store serial: [18940803]
+[2023-07-19 00:45:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18940803]
+[2023-07-19 00:45:32] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-19 00:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: omigo-core
+[2023-07-19 00:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: omigo-ext
+[2023-07-19 00:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Probability-Surrogate-Learning
+[2023-07-19 00:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: roblox-pyc
+[2023-07-19 00:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sophy
+[2023-07-19 00:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: robust-laplacian
+[2023-07-19 00:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cz-gitmoji
+[2023-07-19 00:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torp
+[2023-07-19 00:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: escavador
+[2023-07-19 00:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: leadguru-jobs
+[2023-07-19 00:45:32] INFO root fetch - processPackages [escavador]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-19 00:45:32] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-19 00:45:32] INFO root fetch - processPackages [sophy]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-19 00:45:32] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-07-19 00:45:32] INFO root fetch - processPackages [omigo-ext]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-07-19 00:45:32] INFO root fetch - processPackages [omigo-core]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-07-19 00:45:32] INFO root fetch - processPackages [robust-laplacian]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-19 00:45:32] INFO root fetch - processPackages [torp]: New version: [0.0.3] Old Version: [0.0.0]
+[2023-07-19 00:45:32] INFO root fetch - processPackages [cz-gitmoji]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-19 00:45:32] INFO root fetch - processPackages [Probability-Surrogate-Learning]: New version: [1.0] Old Version: [0.1]
+[2023-07-19 00:45:32] INFO root fetch - processPackages [escavador]: Downloading https://files.pythonhosted.org/packages/7f/78/dd73e29a4ac256cbb4ac6cbb1429dde46e3da2f3713e9f581987c85f131b/escavador-0.3.0.tar.gz
+[2023-07-19 00:45:32] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-19 00:45:33] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2023-07-19 00:45:33] INFO root fetch - processPackages [sophy]: Downloading https://files.pythonhosted.org/packages/c9/7a/e9e45d765d9ec2fbb89bb75c0aa9b20b395dec122d82be2b5131a83a538d/sophy-0.6.2.tar.gz
+[2023-07-19 00:45:33] INFO root fetch - processPackages [omigo-ext]: Downloading https://files.pythonhosted.org/packages/63/de/89939baf3019c417d10a91083fd7c988d3804ada249d10228f48517a56e6/omigo_ext-0.5.2.tar.gz
+[2023-07-19 00:45:33] INFO root fetch - processPackages [omigo-core]: Downloading https://files.pythonhosted.org/packages/c0/0a/bb976423625030688210ddd083a95401cc8a16d82ebf0b88bff6165997f7/omigo_core-0.5.2.tar.gz
+[2023-07-19 00:45:33] INFO root fetch - processPackages [Probability-Surrogate-Learning]: Downloading https://files.pythonhosted.org/packages/6d/e8/f7410c0b5bd72aa7d19635957b1bbe1a1089d2d5960a59087867566e9788/Probability-Surrogate-Learning-0.1.tar.gz
+[2023-07-19 00:45:33] INFO root fetch - processPackages [cz-gitmoji]: Downloading https://files.pythonhosted.org/packages/7e/ef/9955a0b28b958746dbabc98783d2607430e7fef3bd7b653cdc0fe3714af3/cz-gitmoji-0.0.1.tar.gz
+[2023-07-19 00:45:33] INFO root fetch - processPackages [torp]: Downloading https://files.pythonhosted.org/packages/44/26/05bb409facdbbd57419068d89d3c34a1d8171e7d088431489d44ebd5b1b0/torp-0.0.0.tar.gz
+[2023-07-19 00:45:33] INFO root fetch - processPackages [robust-laplacian]: Downloading https://files.pythonhosted.org/packages/2d/de/fef7e899fb9416bdcba13af58ab8dd139e84abda02e0b037e3633bce1627/robust_laplacian-0.2.4.tar.gz
+[2023-07-19 00:45:33] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-19 00:45:33] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2023-07-19 00:45:33] INFO root fetch - processPackages [escavador]: Downloading https://files.pythonhosted.org/packages/7e/6b/245496805db92d681cefb8dee626933cec98c9aa23a9a7e1df47466fc2d2/escavador-0.4.0.tar.gz
+[2023-07-19 00:45:33] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-19 00:45:33] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230719/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-19 00:45:33] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-07-19 00:45:33] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230719/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-07-19 00:45:33] INFO root fetch - processPackages [sophy]: Downloading https://files.pythonhosted.org/packages/78/59/f1b82896f19b3c90f3c76b97238fd1e49eb5ced1a95735620cf2c6b4efed/sophy-0.6.3.tar.gz
+[2023-07-19 00:45:33] INFO root fetch - processPackages [omigo-ext]: Downloading https://files.pythonhosted.org/packages/ad/c1/c0119c9e4473ee7d5bb919c1101f5a2b2e109a9847ae911e743cead4a021/omigo_ext-0.5.3.tar.gz
+[2023-07-19 00:45:33] INFO root fetch - processPackages [escavador]: executing diffoscope
+[2023-07-19 00:45:33] INFO root fetch - processPackages [escavador]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/escavador-0.3.0.tar.gz tmp/escavador-0.4.0.tar.gz --markdown 20230719/e/escavador/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-19 00:45:33] INFO root fetch - processPackages [torp]: Downloading https://files.pythonhosted.org/packages/eb/e8/42fdd458d2991653e801e90a2ce0ee715840775ba6a5ccc768aae20e107f/torp-0.0.3.tar.gz
+[2023-07-19 00:45:33] INFO root fetch - processPackages [Probability-Surrogate-Learning]: Downloading https://files.pythonhosted.org/packages/d1/df/c5f60b0e58c5022473784cec1c33e16faf19fbd8c41d354944d3319abf05/Probability-Surrogate-Learning-1.0.tar.gz
+[2023-07-19 00:45:33] INFO root fetch - processPackages [omigo-core]: Downloading https://files.pythonhosted.org/packages/df/1e/091e629649631e29fd2c9909ff8b5d1f05a787316e24002b034b606adef4/omigo_core-0.5.3.tar.gz
+[2023-07-19 00:45:33] INFO root fetch - processPackages [cz-gitmoji]: Downloading https://files.pythonhosted.org/packages/5d/fc/1e1e73b32eb9a423237342dc41ad8899c72001cd859283d0fb7bfec37ea6/cz-gitmoji-0.0.2.tar.gz
+[2023-07-19 00:45:33] INFO root fetch - processPackages [omigo-ext]: executing diffoscope
+[2023-07-19 00:45:33] INFO root fetch - processPackages [omigo-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omigo_ext-0.5.2.tar.gz tmp/omigo_ext-0.5.3.tar.gz --markdown 20230719/o/omigo-ext/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-07-19 00:45:34] INFO root fetch - processPackages [robust-laplacian]: Downloading https://files.pythonhosted.org/packages/67/95/2b2f0cfb923f5adc5f6ae3b87c4694528046ffbda7545e74e2fb30ae15f2/robust_laplacian-0.2.5.tar.gz
+[2023-07-19 00:45:34] INFO root fetch - processPackages [torp]: executing diffoscope
+[2023-07-19 00:45:34] INFO root fetch - processPackages [torp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torp-0.0.0.tar.gz tmp/torp-0.0.3.tar.gz --markdown 20230719/t/torp/0.0.0-0.0.3/diff.md --exclude *.pyd
+[2023-07-19 00:45:34] INFO root fetch - processPackages [cz-gitmoji]: executing diffoscope
+[2023-07-19 00:45:34] INFO root fetch - processPackages [cz-gitmoji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cz-gitmoji-0.0.1.tar.gz tmp/cz-gitmoji-0.0.2.tar.gz --markdown 20230719/c/cz-gitmoji/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-19 00:45:34] INFO root fetch - processPackages [Probability-Surrogate-Learning]: executing diffoscope
+[2023-07-19 00:45:34] INFO root fetch - processPackages [Probability-Surrogate-Learning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Probability-Surrogate-Learning-0.1.tar.gz tmp/Probability-Surrogate-Learning-1.0.tar.gz --markdown 20230719/P/Probability-Surrogate-Learning/0.1-1.0/diff.md --exclude *.pyd
+[2023-07-19 00:45:34] INFO root fetch - processPackages [omigo-core]: executing diffoscope
+[2023-07-19 00:45:34] INFO root fetch - processPackages [omigo-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omigo_core-0.5.2.tar.gz tmp/omigo_core-0.5.3.tar.gz --markdown 20230719/o/omigo-core/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-07-19 00:45:34] INFO root fetch - processPackages [sophy]: executing diffoscope
+[2023-07-19 00:45:34] INFO root fetch - processPackages [sophy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sophy-0.6.2.tar.gz tmp/sophy-0.6.3.tar.gz --markdown 20230719/s/sophy/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-19 00:45:34] INFO root fetch - processPackages [robust-laplacian]: executing diffoscope
+[2023-07-19 00:45:34] INFO root fetch - processPackages [robust-laplacian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robust_laplacian-0.2.4.tar.gz tmp/robust_laplacian-0.2.5.tar.gz --markdown 20230719/r/robust-laplacian/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-19 00:45:34] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-19 00:45:34] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-19 00:45:34] INFO root fetch - processPackages [roblox-pyc]: Start processing: dapr-dev
+[2023-07-19 00:45:34] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-19 00:45:34] INFO root fetch - processPackages [dapr-dev]: New version: [1.9.0rc1.dev1636] Old Version: [1.9.0rc1.dev1627]
+[2023-07-19 00:45:34] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2023-07-19 00:45:34] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2023-07-19 00:45:34] INFO root fetch - processPackages [leadguru-jobs]: Start processing: dapr-ext-workflow-dev
+[2023-07-19 00:45:34] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-07-19 00:45:35] INFO root fetch - processPackages [dapr-ext-workflow-dev]: New version: [0.0.1rc1.dev1636] Old Version: [0.0.1rc1.dev1627]
+[2023-07-19 00:45:35] INFO root fetch - processPackages [dapr-dev]: Downloading https://files.pythonhosted.org/packages/b2/00/dc8bc574ddb5b3f8dae055931189fdbe470cf80fb8a70a79fba0df64f651/dapr-dev-1.9.0rc1.dev1627.tar.gz
+[2023-07-19 00:45:35] INFO root fetch - processPackages [escavador]: Remove: archive file [/home/abi/fetcher/tmp/escavador-0.3.0.tar.gz]
+[2023-07-19 00:45:35] INFO root fetch - processPackages [escavador]: Remove: archive file [/home/abi/fetcher/tmp/escavador-0.4.0.tar.gz]
+[2023-07-19 00:45:35] INFO root fetch - processPackages [escavador]: Start processing: Probability-Surrogate-Learning
+[2023-07-19 00:45:35] INFO root fetch - main [MainThread]: End processing [escavador]: success
+[2023-07-19 00:45:35] INFO root fetch - processPackages [dapr-ext-workflow-dev]: Downloading https://files.pythonhosted.org/packages/63/e8/4d2482365a51d9208d890d7bf252cbb1ca22986cb1847eebbcdcb1f9c13e/dapr-ext-workflow-dev-0.0.1rc1.dev1627.tar.gz
+[2023-07-19 00:45:35] INFO root fetch - processPackages [Probability-Surrogate-Learning]: New version: [1.0] Old Version: [0.1]
+[2023-07-19 00:45:35] INFO root fetch - processPackages [torp]: Remove: archive file [/home/abi/fetcher/tmp/torp-0.0.0.tar.gz]
+[2023-07-19 00:45:35] INFO root fetch - processPackages [torp]: Remove: archive file [/home/abi/fetcher/tmp/torp-0.0.3.tar.gz]
+[2023-07-19 00:45:35] INFO root fetch - processPackages [torp]: Start processing: flask-dapr-dev
+[2023-07-19 00:45:35] INFO root fetch - main [MainThread]: End processing [torp]: success
+[2023-07-19 00:45:35] INFO root fetch - processPackages [omigo-ext]: Remove: archive file [/home/abi/fetcher/tmp/omigo_ext-0.5.2.tar.gz]
+[2023-07-19 00:45:35] INFO root fetch - processPackages [omigo-ext]: Remove: archive file [/home/abi/fetcher/tmp/omigo_ext-0.5.3.tar.gz]
+[2023-07-19 00:45:35] INFO root fetch - processPackages [omigo-ext]: Start processing: dapr-ext-grpc-dev
+[2023-07-19 00:45:35] INFO root fetch - main [MainThread]: End processing [omigo-ext]: success
+[2023-07-19 00:45:35] INFO root fetch - processPackages [flask-dapr-dev]: New version: [1.9.0rc1.dev1636] Old Version: [1.9.0rc1.dev1627]
+[2023-07-19 00:45:35] INFO root fetch - processPackages [Probability-Surrogate-Learning]: Remove: archive file [/home/abi/fetcher/tmp/Probability-Surrogate-Learning-0.1.tar.gz]
+[2023-07-19 00:45:35] INFO root fetch - processPackages [Probability-Surrogate-Learning]: executing diffoscope
+[2023-07-19 00:45:35] INFO root fetch - processPackages [Probability-Surrogate-Learning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Probability-Surrogate-Learning-0.1.tar.gz tmp/Probability-Surrogate-Learning-1.0.tar.gz --markdown 20230719/P/Probability-Surrogate-Learning/0.1-1.0/diff.md --exclude *.pyd
+[2023-07-19 00:45:35] INFO root fetch - processPackages [Probability-Surrogate-Learning]: Remove: archive file [/home/abi/fetcher/tmp/Probability-Surrogate-Learning-1.0.tar.gz]
+[2023-07-19 00:45:35] INFO root fetch - processPackages [Probability-Surrogate-Learning]: Start processing: dapr-ext-fastapi-dev
+[2023-07-19 00:45:35] INFO root fetch - main [MainThread]: End processing [Probability-Surrogate-Learning]: success
+[2023-07-19 00:45:35] INFO root fetch - processPackages [dapr-dev]: Downloading https://files.pythonhosted.org/packages/b8/01/653476ccda947955f32b5de51cf251de14b9e3e67e002089e139592e0272/dapr-dev-1.9.0rc1.dev1636.tar.gz
+[2023-07-19 00:45:35] INFO root fetch - processPackages [omigo-core]: Remove: archive file [/home/abi/fetcher/tmp/omigo_core-0.5.2.tar.gz]
+[2023-07-19 00:45:35] INFO root fetch - processPackages [omigo-core]: Remove: archive file [/home/abi/fetcher/tmp/omigo_core-0.5.3.tar.gz]
+[2023-07-19 00:45:35] INFO root fetch - processPackages [omigo-core]: Start processing: TapisCL-ICICLE
+[2023-07-19 00:45:35] INFO root fetch - main [MainThread]: End processing [omigo-core]: success
+[2023-07-19 00:45:35] INFO root fetch - processPackages [cz-gitmoji]: Remove: archive file [/home/abi/fetcher/tmp/cz-gitmoji-0.0.1.tar.gz]
+[2023-07-19 00:45:35] INFO root fetch - processPackages [cz-gitmoji]: Remove: archive file [/home/abi/fetcher/tmp/cz-gitmoji-0.0.2.tar.gz]
+[2023-07-19 00:45:35] INFO root fetch - main [MainThread]: End processing [cz-gitmoji]: success
+[2023-07-19 00:45:35] INFO root fetch - processPackages [dapr-ext-grpc-dev]: New version: [1.9.0rc1.dev1636] Old Version: [1.9.0rc1.dev1627]
+[2023-07-19 00:45:35] INFO root fetch - processPackages [TapisCL-ICICLE]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-19 00:45:35] INFO root fetch - processPackages [dapr-ext-fastapi-dev]: New version: [1.9.0rc1.dev1636] Old Version: [1.9.0rc1.dev1627]
+[2023-07-19 00:45:35] INFO root fetch - processPackages [dapr-ext-workflow-dev]: Downloading https://files.pythonhosted.org/packages/af/ce/b19549c7d8575a021a0f9fe926d86fcc805d9a1a08dbb3b68c5577e36a4b/dapr-ext-workflow-dev-0.0.1rc1.dev1636.tar.gz
+[2023-07-19 00:45:35] INFO root fetch - processPackages [flask-dapr-dev]: Downloading https://files.pythonhosted.org/packages/09/dd/399aa9b15b6fd3d0bce579111be43159ca937e8e65d5a84488ab594d42ba/flask-dapr-dev-1.9.0rc1.dev1627.tar.gz
+[2023-07-19 00:45:35] INFO root fetch - processPackages [TapisCL-ICICLE]: Downloading https://files.pythonhosted.org/packages/46/a4/4eade339e167c3f505f813912a44daf2f73a58f63dcba420d8c3e79d9b03/TapisCL-ICICLE-1.0.0.tar.gz
+[2023-07-19 00:45:35] INFO root fetch - processPackages [dapr-dev]: executing diffoscope
+[2023-07-19 00:45:35] INFO root fetch - processPackages [dapr-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapr-dev-1.9.0rc1.dev1627.tar.gz tmp/dapr-dev-1.9.0rc1.dev1636.tar.gz --markdown 20230719/d/dapr-dev/1.9.0rc1.dev1627-1.9.0rc1.dev1636/diff.md --exclude *.pyd
+[2023-07-19 00:45:35] INFO root fetch - processPackages [dapr-ext-grpc-dev]: Downloading https://files.pythonhosted.org/packages/fa/4b/7db964570bdfb6243782ba114870c08a90f78a0a95bd4022bc7f8d27da2c/dapr-ext-grpc-dev-1.9.0rc1.dev1627.tar.gz
+[2023-07-19 00:45:36] INFO root fetch - processPackages [dapr-ext-workflow-dev]: executing diffoscope
+[2023-07-19 00:45:36] INFO root fetch - processPackages [dapr-ext-workflow-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapr-ext-workflow-dev-0.0.1rc1.dev1627.tar.gz tmp/dapr-ext-workflow-dev-0.0.1rc1.dev1636.tar.gz --markdown 20230719/d/dapr-ext-workflow-dev/0.0.1rc1.dev1627-0.0.1rc1.dev1636/diff.md --exclude *.pyd
+[2023-07-19 00:45:36] INFO root fetch - processPackages [dapr-ext-fastapi-dev]: Downloading https://files.pythonhosted.org/packages/40/4f/d1dfee9c612030d20b094efd248463ca809640350012a1a0df0152ab6c48/dapr-ext-fastapi-dev-1.9.0rc1.dev1627.tar.gz
+[2023-07-19 00:45:36] ERROR root fetch - processPackages [Probability-Surrogate-Learning]: Diffoscope failed: time="2023-07-19T00:45:35+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/Probability-Surrogate-Learning-0.1.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/Probability-Surrogate-Learning-1.0.tar.gz: No such file or directory
+
+[2023-07-19 00:45:36] INFO root fetch - main [MainThread]: End processing [Probability-Surrogate-Learning] error
+[2023-07-19 00:45:36] INFO root fetch - processPackages [flask-dapr-dev]: Downloading https://files.pythonhosted.org/packages/ab/36/2818610278557447d25a6f85787f27355d28147c376c19e288e0e6671aa7/flask-dapr-dev-1.9.0rc1.dev1636.tar.gz
+[2023-07-19 00:45:36] INFO root fetch - processPackages [sophy]: Remove: archive file [/home/abi/fetcher/tmp/sophy-0.6.2.tar.gz]
+[2023-07-19 00:45:36] INFO root fetch - processPackages [sophy]: Remove: archive file [/home/abi/fetcher/tmp/sophy-0.6.3.tar.gz]
+[2023-07-19 00:45:36] INFO root fetch - main [MainThread]: End processing [sophy]: success
+[2023-07-19 00:45:36] INFO root fetch - processPackages [TapisCL-ICICLE]: Downloading https://files.pythonhosted.org/packages/e2/45/10a1da88801c1ffc57a66385268a02e2d544674ae748e3cca31556bd7235/TapisCL-ICICLE-1.0.1.tar.gz
+[2023-07-19 00:45:36] INFO root fetch - processPackages [dapr-ext-grpc-dev]: Downloading https://files.pythonhosted.org/packages/5b/31/6069c4399b22b1b239ba8470c07cab3f6366568058554fac9d96da61015e/dapr-ext-grpc-dev-1.9.0rc1.dev1636.tar.gz
+[2023-07-19 00:45:36] INFO root fetch - processPackages [flask-dapr-dev]: executing diffoscope
+[2023-07-19 00:45:36] INFO root fetch - processPackages [flask-dapr-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-dapr-dev-1.9.0rc1.dev1627.tar.gz tmp/flask-dapr-dev-1.9.0rc1.dev1636.tar.gz --markdown 20230719/f/flask-dapr-dev/1.9.0rc1.dev1627-1.9.0rc1.dev1636/diff.md --exclude *.pyd
+[2023-07-19 00:45:36] INFO root fetch - processPackages [dapr-ext-fastapi-dev]: Downloading https://files.pythonhosted.org/packages/ca/1b/77fa1a5faeb60645a37fbeb997decb0fed641a0dfa2bcda0b8eedcf800ef/dapr-ext-fastapi-dev-1.9.0rc1.dev1636.tar.gz
+[2023-07-19 00:45:36] INFO root fetch - processPackages [dapr-ext-grpc-dev]: executing diffoscope
+[2023-07-19 00:45:36] INFO root fetch - processPackages [dapr-ext-grpc-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapr-ext-grpc-dev-1.9.0rc1.dev1627.tar.gz tmp/dapr-ext-grpc-dev-1.9.0rc1.dev1636.tar.gz --markdown 20230719/d/dapr-ext-grpc-dev/1.9.0rc1.dev1627-1.9.0rc1.dev1636/diff.md --exclude *.pyd
+[2023-07-19 00:45:36] INFO root fetch - processPackages [dapr-ext-fastapi-dev]: executing diffoscope
+[2023-07-19 00:45:36] INFO root fetch - processPackages [dapr-ext-fastapi-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapr-ext-fastapi-dev-1.9.0rc1.dev1627.tar.gz tmp/dapr-ext-fastapi-dev-1.9.0rc1.dev1636.tar.gz --markdown 20230719/d/dapr-ext-fastapi-dev/1.9.0rc1.dev1627-1.9.0rc1.dev1636/diff.md --exclude *.pyd
+[2023-07-19 00:45:36] INFO root fetch - processPackages [TapisCL-ICICLE]: executing diffoscope
+[2023-07-19 00:45:36] INFO root fetch - processPackages [TapisCL-ICICLE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TapisCL-ICICLE-1.0.0.tar.gz tmp/TapisCL-ICICLE-1.0.1.tar.gz --markdown 20230719/T/TapisCL-ICICLE/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-19 00:45:36] INFO root fetch - processPackages [dapr-ext-workflow-dev]: Remove: archive file [/home/abi/fetcher/tmp/dapr-ext-workflow-dev-0.0.1rc1.dev1627.tar.gz]
+[2023-07-19 00:45:36] INFO root fetch - processPackages [dapr-ext-workflow-dev]: Remove: archive file [/home/abi/fetcher/tmp/dapr-ext-workflow-dev-0.0.1rc1.dev1636.tar.gz]
+[2023-07-19 00:45:36] INFO root fetch - main [MainThread]: End processing [dapr-ext-workflow-dev]: success
+[2023-07-19 00:45:37] INFO root fetch - processPackages [dapr-dev]: Remove: archive file [/home/abi/fetcher/tmp/dapr-dev-1.9.0rc1.dev1627.tar.gz]
+[2023-07-19 00:45:37] INFO root fetch - processPackages [dapr-dev]: Remove: archive file [/home/abi/fetcher/tmp/dapr-dev-1.9.0rc1.dev1636.tar.gz]
+[2023-07-19 00:45:37] INFO root fetch - main [MainThread]: End processing [dapr-dev]: success
+[2023-07-19 00:45:37] INFO root fetch - processPackages [dapr-ext-grpc-dev]: Remove: archive file [/home/abi/fetcher/tmp/dapr-ext-grpc-dev-1.9.0rc1.dev1627.tar.gz]
+[2023-07-19 00:45:37] INFO root fetch - processPackages [dapr-ext-grpc-dev]: Remove: archive file [/home/abi/fetcher/tmp/dapr-ext-grpc-dev-1.9.0rc1.dev1636.tar.gz]
+[2023-07-19 00:45:37] INFO root fetch - main [MainThread]: End processing [dapr-ext-grpc-dev]: success
+[2023-07-19 00:45:37] INFO root fetch - processPackages [flask-dapr-dev]: Remove: archive file [/home/abi/fetcher/tmp/flask-dapr-dev-1.9.0rc1.dev1627.tar.gz]
+[2023-07-19 00:45:37] INFO root fetch - processPackages [flask-dapr-dev]: Remove: archive file [/home/abi/fetcher/tmp/flask-dapr-dev-1.9.0rc1.dev1636.tar.gz]
+[2023-07-19 00:45:37] INFO root fetch - main [MainThread]: End processing [flask-dapr-dev]: success
+[2023-07-19 00:45:37] INFO root fetch - processPackages [dapr-ext-fastapi-dev]: Remove: archive file [/home/abi/fetcher/tmp/dapr-ext-fastapi-dev-1.9.0rc1.dev1627.tar.gz]
+[2023-07-19 00:45:37] INFO root fetch - processPackages [dapr-ext-fastapi-dev]: Remove: archive file [/home/abi/fetcher/tmp/dapr-ext-fastapi-dev-1.9.0rc1.dev1636.tar.gz]
+[2023-07-19 00:45:37] INFO root fetch - main [MainThread]: End processing [dapr-ext-fastapi-dev]: success
+[2023-07-19 00:45:37] INFO root fetch - processPackages [TapisCL-ICICLE]: Remove: archive file [/home/abi/fetcher/tmp/TapisCL-ICICLE-1.0.0.tar.gz]
+[2023-07-19 00:45:37] INFO root fetch - processPackages [TapisCL-ICICLE]: Remove: archive file [/home/abi/fetcher/tmp/TapisCL-ICICLE-1.0.1.tar.gz]
+[2023-07-19 00:45:37] INFO root fetch - main [MainThread]: End processing [TapisCL-ICICLE]: success
+[2023-07-19 00:45:39] INFO root fetch - processPackages [robust-laplacian]: Remove: archive file [/home/abi/fetcher/tmp/robust_laplacian-0.2.4.tar.gz]
+[2023-07-19 00:45:39] INFO root fetch - processPackages [robust-laplacian]: Remove: archive file [/home/abi/fetcher/tmp/robust_laplacian-0.2.5.tar.gz]
+[2023-07-19 00:45:39] INFO root fetch - main [MainThread]: End processing [robust-laplacian]: success
+[2023-07-19 00:45:39] INFO root fetch - main [MainThread]: Store serial: [18940894]
