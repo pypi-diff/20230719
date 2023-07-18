@@ -1756,3 +1756,115 @@
 [2023-07-19 01:37:49] INFO root fetch - processPackages [robust-laplacian]: Remove: archive file [/home/abi/fetcher/tmp/robust_laplacian-0.2.5.tar.gz]
 [2023-07-19 01:37:49] INFO root fetch - main [MainThread]: End processing [robust-laplacian]: success
 [2023-07-19 01:37:49] INFO root fetch - main [MainThread]: Store serial: [18941376]
+[2023-07-19 01:42:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18941376]
+[2023-07-19 01:42:57] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-19 01:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: namespace-mahdimir
+[2023-07-19 01:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hat-drivers
+[2023-07-19 01:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kiam-astro
+[2023-07-19 01:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eef-data
+[2023-07-19 01:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aioworkers
+[2023-07-19 01:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openssm-dev
+[2023-07-19 01:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ak_selenium
+[2023-07-19 01:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyuvsim
+[2023-07-19 01:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: freewillai
+[2023-07-19 01:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: omigo-core
+[2023-07-19 01:42:58] INFO root fetch - processPackages [freewillai]: New version: [1.1] Old Version: [1.0]
+[2023-07-19 01:42:58] INFO root fetch - processPackages [omigo-core]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-07-19 01:42:58] INFO root fetch - processPackages [namespace-mahdimir]: New version: [2.5.0] Old Version: [2.4.1]
+[2023-07-19 01:42:58] INFO root fetch - processPackages [ak_selenium]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-19 01:42:58] INFO root fetch - processPackages [kiam-astro]: New version: [3.3.1] Old Version: [3.3.0]
+[2023-07-19 01:42:58] WARNING root fetch - processPackages [openssm-dev]: Skipping, unable to determine old version
+[2023-07-19 01:42:58] INFO root fetch - processPackages [openssm-dev]: Start processing: omigo-ext
+[2023-07-19 01:42:58] INFO root fetch - main [MainThread]: End processing [openssm-dev] error
+[2023-07-19 01:42:58] INFO root fetch - processPackages [hat-drivers]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-07-19 01:42:58] INFO root fetch - processPackages [pyuvsim]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-07-19 01:42:58] INFO root fetch - processPackages [eef-data]: New version: [0.50] Old Version: [0.49]
+[2023-07-19 01:42:58] INFO root fetch - processPackages [aioworkers]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-19 01:42:58] INFO root fetch - processPackages [omigo-core]: Downloading https://files.pythonhosted.org/packages/df/1e/091e629649631e29fd2c9909ff8b5d1f05a787316e24002b034b606adef4/omigo_core-0.5.3.tar.gz
+[2023-07-19 01:42:58] INFO root fetch - processPackages [omigo-ext]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-07-19 01:42:58] INFO root fetch - processPackages [freewillai]: Downloading https://files.pythonhosted.org/packages/09/e4/1f16ee9ea9e9a22296e1bcfec6e707d39221576812dfb60cf6c2bb52fe31/freewillai-1.0.tar.gz
+[2023-07-19 01:42:58] INFO root fetch - processPackages [namespace-mahdimir]: Downloading https://files.pythonhosted.org/packages/5e/fc/f7aed20eba542d2558aa118493320140274043e0d6ae97466bd09ad02dc9/namespace_mahdimir-2.4.1.tar.gz
+[2023-07-19 01:42:58] INFO root fetch - processPackages [hat-drivers]: Downloading https://files.pythonhosted.org/packages/8c/df/d0e27cc093d9a7b79c79177a4717012e69c3341fde7433bc0046df9feb99/hat_drivers-0.7.2-cp310.cp311-abi3-win_amd64.whl
+[2023-07-19 01:42:58] INFO root fetch - processPackages [ak_selenium]: Downloading https://files.pythonhosted.org/packages/8b/42/bb7122a7be9c9fd39dea926982d05e0ff5d25e98fc9cdbfa3e115fca431e/ak_selenium-0.0.2.tar.gz
+[2023-07-19 01:42:58] INFO root fetch - processPackages [pyuvsim]: Downloading https://files.pythonhosted.org/packages/75/bd/f7e1053af0a3c95c0ef5c98a3febe3eeaffcfe33861c29a794508c389e68/pyuvsim-1.2.5.tar.gz
+[2023-07-19 01:42:58] INFO root fetch - processPackages [kiam-astro]: Downloading https://files.pythonhosted.org/packages/0b/d5/d517db823e02527622099b69df2745caaea2f90c4925268efed851170de5/kiam_astro-3.3.0.tar.gz
+[2023-07-19 01:42:58] INFO root fetch - processPackages [omigo-ext]: Downloading https://files.pythonhosted.org/packages/ad/c1/c0119c9e4473ee7d5bb919c1101f5a2b2e109a9847ae911e743cead4a021/omigo_ext-0.5.3.tar.gz
+[2023-07-19 01:42:58] INFO root fetch - processPackages [aioworkers]: Downloading https://files.pythonhosted.org/packages/51/13/4f8acd78cd8ef30fb17e090e59a02c8737d16c94c010611c4d5347e24c76/aioworkers-0.9.2.tar.gz
+[2023-07-19 01:42:58] INFO root fetch - processPackages [eef-data]: Downloading https://files.pythonhosted.org/packages/62/ad/438e95a5bacfd187a4454526a7a1dbbf00ff0609541f9a733cac4ab81e98/eef-data-0.49.tar.gz
+[2023-07-19 01:42:58] INFO root fetch - processPackages [omigo-core]: Downloading https://files.pythonhosted.org/packages/65/33/1ac2d4d56d732114834a40b5d16c171fee43684067c9bf9145757cb684d6/omigo_core-0.5.4.tar.gz
+[2023-07-19 01:42:58] WARNING root fetch - processPackages [kiam-astro]: Skipping package: exceeds size limit 30756607>=10485760
+[2023-07-19 01:42:58] INFO root fetch - processPackages [kiam-astro]: Start processing: eef-data
+[2023-07-19 01:42:58] INFO root fetch - main [MainThread]: End processing [kiam-astro] error
+[2023-07-19 01:42:58] INFO root fetch - processPackages [freewillai]: Downloading https://files.pythonhosted.org/packages/65/2f/197a37d1b68670aae44811084f0d7c2232640e3c9a2fd09f09214b98a6e3/freewillai-1.1.tar.gz
+[2023-07-19 01:42:59] INFO root fetch - processPackages [eef-data]: New version: [0.50] Old Version: [0.49]
+[2023-07-19 01:42:59] INFO root fetch - processPackages [namespace-mahdimir]: Downloading https://files.pythonhosted.org/packages/f0/0a/d0101b957d05759fc77d5b30f5b5cfcc79b410b340df8b31fc0bf4f451de/namespace_mahdimir-2.5.0.tar.gz
+[2023-07-19 01:42:59] INFO root fetch - processPackages [omigo-core]: executing diffoscope
+[2023-07-19 01:42:59] INFO root fetch - processPackages [omigo-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omigo_core-0.5.3.tar.gz tmp/omigo_core-0.5.4.tar.gz --markdown 20230719/o/omigo-core/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-07-19 01:42:59] INFO root fetch - processPackages [freewillai]: executing diffoscope
+[2023-07-19 01:42:59] INFO root fetch - processPackages [freewillai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freewillai-1.0.tar.gz tmp/freewillai-1.1.tar.gz --markdown 20230719/f/freewillai/1.0-1.1/diff.md --exclude *.pyd
+[2023-07-19 01:42:59] INFO root fetch - processPackages [ak_selenium]: Downloading https://files.pythonhosted.org/packages/06/76/84681f4452d0dbfe3a184113005f95b7b7944fe89a57dbdc1728e10a7883/ak_selenium-0.0.3.tar.gz
+[2023-07-19 01:42:59] INFO root fetch - processPackages [omigo-ext]: Downloading https://files.pythonhosted.org/packages/66/3a/c1fb2ede3c34bc5d55c475fb5d51bbc1d600ba696c2311704919aa967a37/omigo_ext-0.5.4.tar.gz
+[2023-07-19 01:42:59] WARNING root fetch - processPackages [pyuvsim]: Skipping package: exceeds size limit 17500963>=10485760
+[2023-07-19 01:42:59] INFO root fetch - processPackages [pyuvsim]: Start processing: omigo-hydra
+[2023-07-19 01:42:59] INFO root fetch - main [MainThread]: End processing [pyuvsim] error
+[2023-07-19 01:42:59] INFO root fetch - processPackages [namespace-mahdimir]: executing diffoscope
+[2023-07-19 01:42:59] INFO root fetch - processPackages [namespace-mahdimir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namespace_mahdimir-2.4.1.tar.gz tmp/namespace_mahdimir-2.5.0.tar.gz --markdown 20230719/n/namespace-mahdimir/2.4.1-2.5.0/diff.md --exclude *.pyd
+[2023-07-19 01:42:59] INFO root fetch - processPackages [aioworkers]: Downloading https://files.pythonhosted.org/packages/3b/d7/3d647a5afd65c18e4efed2b8ffef65dc170d7749491f9fd3c93bd259e6b7/aioworkers-0.9.3.tar.gz
+[2023-07-19 01:42:59] INFO root fetch - processPackages [hat-drivers]: Downloading https://files.pythonhosted.org/packages/a0/8b/a5667b17ee328123b62cc9f4180205a9f77e66ba2ac5287e1a33b943ffc7/hat_drivers-0.7.3-cp310.cp311-abi3-win_amd64.whl
+[2023-07-19 01:42:59] INFO root fetch - processPackages [eef-data]: Downloading https://files.pythonhosted.org/packages/49/64/f154f53183f08b1b528a8f934e3b5086fba8bd4357067c8f225bbd10de6f/eef-data-0.50.tar.gz
+[2023-07-19 01:42:59] INFO root fetch - processPackages [eef-data]: Downloading https://files.pythonhosted.org/packages/49/64/f154f53183f08b1b528a8f934e3b5086fba8bd4357067c8f225bbd10de6f/eef-data-0.50.tar.gz
+[2023-07-19 01:42:59] INFO root fetch - processPackages [omigo-ext]: executing diffoscope
+[2023-07-19 01:42:59] INFO root fetch - processPackages [omigo-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omigo_ext-0.5.3.tar.gz tmp/omigo_ext-0.5.4.tar.gz --markdown 20230719/o/omigo-ext/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-07-19 01:42:59] INFO root fetch - processPackages [omigo-hydra]: New version: [0.5.5] Old Version: [0.5.2]
+[2023-07-19 01:42:59] INFO root fetch - processPackages [ak_selenium]: executing diffoscope
+[2023-07-19 01:42:59] INFO root fetch - processPackages [ak_selenium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ak_selenium-0.0.2.tar.gz tmp/ak_selenium-0.0.3.tar.gz --markdown 20230719/a/ak_selenium/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-19 01:42:59] INFO root fetch - processPackages [aioworkers]: executing diffoscope
+[2023-07-19 01:42:59] INFO root fetch - processPackages [aioworkers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioworkers-0.9.2.tar.gz tmp/aioworkers-0.9.3.tar.gz --markdown 20230719/a/aioworkers/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-19 01:42:59] INFO root fetch - processPackages [hat-drivers]: executing diffoscope
+[2023-07-19 01:42:59] INFO root fetch - processPackages [hat-drivers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hat_drivers-0.7.2-cp310.cp311-abi3-win_amd64.whl.zip tmp/hat_drivers-0.7.3-cp310.cp311-abi3-win_amd64.whl.zip --markdown 20230719/h/hat-drivers/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-07-19 01:42:59] INFO root fetch - processPackages [omigo-hydra]: Downloading https://files.pythonhosted.org/packages/de/3d/c99beecc896849b5da48da7e12f18f077e20c61f7f2dc59df21dc5bd7750/omigo_hydra-0.5.2.tar.gz
+[2023-07-19 01:42:59] INFO root fetch - processPackages [eef-data]: executing diffoscope
+[2023-07-19 01:42:59] INFO root fetch - processPackages [eef-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eef-data-0.49.tar.gz tmp/eef-data-0.50.tar.gz --markdown 20230719/e/eef-data/0.49-0.50/diff.md --exclude *.pyd
+[2023-07-19 01:42:59] INFO root fetch - processPackages [eef-data]: executing diffoscope
+[2023-07-19 01:42:59] INFO root fetch - processPackages [eef-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eef-data-0.49.tar.gz tmp/eef-data-0.50.tar.gz --markdown 20230719/e/eef-data/0.49-0.50/diff.md --exclude *.pyd
+[2023-07-19 01:43:00] INFO root fetch - processPackages [omigo-hydra]: Downloading https://files.pythonhosted.org/packages/4a/2a/61f23bc6710891dadac9d4e7b243dd6c1644000fcf2d041c8a0b43cc1d77/omigo_hydra-0.5.5.tar.gz
+[2023-07-19 01:43:00] INFO root fetch - processPackages [omigo-hydra]: executing diffoscope
+[2023-07-19 01:43:00] INFO root fetch - processPackages [omigo-hydra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omigo_hydra-0.5.2.tar.gz tmp/omigo_hydra-0.5.5.tar.gz --markdown 20230719/o/omigo-hydra/0.5.2-0.5.5/diff.md --exclude *.pyd
+[2023-07-19 01:43:00] INFO root fetch - processPackages [omigo-core]: Remove: archive file [/home/abi/fetcher/tmp/omigo_core-0.5.3.tar.gz]
+[2023-07-19 01:43:00] INFO root fetch - processPackages [omigo-core]: Remove: archive file [/home/abi/fetcher/tmp/omigo_core-0.5.4.tar.gz]
+[2023-07-19 01:43:00] INFO root fetch - processPackages [omigo-core]: Start processing: omigo-lokki
+[2023-07-19 01:43:00] INFO root fetch - main [MainThread]: End processing [omigo-core]: success
+[2023-07-19 01:43:00] INFO root fetch - processPackages [freewillai]: Remove: archive file [/home/abi/fetcher/tmp/freewillai-1.0.tar.gz]
+[2023-07-19 01:43:00] INFO root fetch - processPackages [omigo-lokki]: New version: [0.5.5] Old Version: [0.5.2]
+[2023-07-19 01:43:00] INFO root fetch - processPackages [freewillai]: Remove: archive file [/home/abi/fetcher/tmp/freewillai-1.1.tar.gz]
+[2023-07-19 01:43:00] INFO root fetch - main [MainThread]: End processing [freewillai]: success
+[2023-07-19 01:43:00] INFO root fetch - processPackages [omigo-lokki]: Downloading https://files.pythonhosted.org/packages/c9/88/263d4fec3a180c9d4a1c5f560fa3f5975051f18b75fc5308edccfda58498/omigo_lokki-0.5.2.tar.gz
+[2023-07-19 01:43:00] INFO root fetch - processPackages [namespace-mahdimir]: Remove: archive file [/home/abi/fetcher/tmp/namespace_mahdimir-2.4.1.tar.gz]
+[2023-07-19 01:43:00] INFO root fetch - processPackages [namespace-mahdimir]: Remove: archive file [/home/abi/fetcher/tmp/namespace_mahdimir-2.5.0.tar.gz]
+[2023-07-19 01:43:00] INFO root fetch - main [MainThread]: End processing [namespace-mahdimir]: success
+[2023-07-19 01:43:00] INFO root fetch - processPackages [ak_selenium]: Remove: archive file [/home/abi/fetcher/tmp/ak_selenium-0.0.2.tar.gz]
+[2023-07-19 01:43:00] INFO root fetch - processPackages [ak_selenium]: Remove: archive file [/home/abi/fetcher/tmp/ak_selenium-0.0.3.tar.gz]
+[2023-07-19 01:43:00] INFO root fetch - main [MainThread]: End processing [ak_selenium]: success
+[2023-07-19 01:43:00] INFO root fetch - processPackages [omigo-ext]: Remove: archive file [/home/abi/fetcher/tmp/omigo_ext-0.5.3.tar.gz]
+[2023-07-19 01:43:00] INFO root fetch - processPackages [omigo-ext]: Remove: archive file [/home/abi/fetcher/tmp/omigo_ext-0.5.4.tar.gz]
+[2023-07-19 01:43:00] INFO root fetch - main [MainThread]: End processing [omigo-ext]: success
+[2023-07-19 01:43:01] INFO root fetch - processPackages [eef-data]: Remove: archive file [/home/abi/fetcher/tmp/eef-data-0.49.tar.gz]
+[2023-07-19 01:43:01] INFO root fetch - processPackages [eef-data]: Remove: archive file [/home/abi/fetcher/tmp/eef-data-0.50.tar.gz]
+[2023-07-19 01:43:01] INFO root fetch - main [MainThread]: End processing [eef-data]: success
+[2023-07-19 01:43:01] INFO root fetch - main [MainThread]: End processing [eef-data]: success
+[2023-07-19 01:43:01] INFO root fetch - processPackages [aioworkers]: Remove: archive file [/home/abi/fetcher/tmp/aioworkers-0.9.2.tar.gz]
+[2023-07-19 01:43:01] INFO root fetch - processPackages [aioworkers]: Remove: archive file [/home/abi/fetcher/tmp/aioworkers-0.9.3.tar.gz]
+[2023-07-19 01:43:01] INFO root fetch - main [MainThread]: End processing [aioworkers]: success
+[2023-07-19 01:43:01] INFO root fetch - processPackages [omigo-lokki]: Downloading https://files.pythonhosted.org/packages/0e/b7/4a2ab4fe06fa12f405ad74bf60e5723f3b070dcae62e69ac7f5415ea3812/omigo_lokki-0.5.5.tar.gz
+[2023-07-19 01:43:01] INFO root fetch - processPackages [omigo-hydra]: Remove: archive file [/home/abi/fetcher/tmp/omigo_hydra-0.5.2.tar.gz]
+[2023-07-19 01:43:01] INFO root fetch - processPackages [omigo-hydra]: Remove: archive file [/home/abi/fetcher/tmp/omigo_hydra-0.5.5.tar.gz]
+[2023-07-19 01:43:01] INFO root fetch - main [MainThread]: End processing [omigo-hydra]: success
+[2023-07-19 01:43:01] INFO root fetch - processPackages [omigo-lokki]: executing diffoscope
+[2023-07-19 01:43:01] INFO root fetch - processPackages [omigo-lokki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omigo_lokki-0.5.2.tar.gz tmp/omigo_lokki-0.5.5.tar.gz --markdown 20230719/o/omigo-lokki/0.5.2-0.5.5/diff.md --exclude *.pyd
+[2023-07-19 01:43:01] INFO root fetch - processPackages [hat-drivers]: Remove: archive file [/home/abi/fetcher/tmp/hat_drivers-0.7.2-cp310.cp311-abi3-win_amd64.whl.zip]
+[2023-07-19 01:43:01] INFO root fetch - processPackages [hat-drivers]: Remove: archive file [/home/abi/fetcher/tmp/hat_drivers-0.7.3-cp310.cp311-abi3-win_amd64.whl.zip]
+[2023-07-19 01:43:01] INFO root fetch - main [MainThread]: End processing [hat-drivers]: success
+[2023-07-19 01:43:01] INFO root fetch - processPackages [omigo-lokki]: Remove: archive file [/home/abi/fetcher/tmp/omigo_lokki-0.5.2.tar.gz]
+[2023-07-19 01:43:01] INFO root fetch - processPackages [omigo-lokki]: Remove: archive file [/home/abi/fetcher/tmp/omigo_lokki-0.5.5.tar.gz]
+[2023-07-19 01:43:01] INFO root fetch - main [MainThread]: End processing [omigo-lokki]: success
+[2023-07-19 01:43:01] INFO root fetch - main [MainThread]: Store serial: [18941453]
