@@ -103,3 +103,63 @@
 [2023-07-19 00:02:54] INFO root fetch - processPackages [micrOSDevToolKit]: Remove: archive file [/home/abi/fetcher/tmp/micrOSDevToolKit-1.20.3.tar.gz]
 [2023-07-19 00:02:54] INFO root fetch - main [MainThread]: End processing [micrOSDevToolKit]: success
 [2023-07-19 00:02:54] INFO root fetch - main [MainThread]: Store serial: [18940558]
+[2023-07-19 00:07:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18940558]
+[2023-07-19 00:08:03] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-19 00:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mlservicewrapper-plugin-application-insights
+[2023-07-19 00:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lbt-ladybug
+[2023-07-19 00:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MEGNetSparse
+[2023-07-19 00:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: landingai
+[2023-07-19 00:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: AshCrypt
+[2023-07-19 00:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: candor-test
+[2023-07-19 00:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lbt-honeybee
+[2023-07-19 00:08:03] INFO root fetch - processPackages [MEGNetSparse]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-19 00:08:03] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-19 00:08:03] INFO root fetch - processPackages [lbt-ladybug]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-19 00:08:03] WARNING root fetch - processPackages [candor-test]: Skipping, unable to determine old version
+[2023-07-19 00:08:03] INFO root fetch - main [MainThread]: End processing [candor-test] error
+[2023-07-19 00:08:03] INFO root fetch - processPackages [mlservicewrapper-plugin-application-insights]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-19 00:08:03] INFO root fetch - processPackages [MEGNetSparse]: Downloading https://files.pythonhosted.org/packages/8a/53/3cf164d0e723a58b7cfa9d97b771ff4d7fbcd4095ffbe6e00dd04ac1b7d6/MEGNetSparse-0.0.4.tar.gz
+[2023-07-19 00:08:03] INFO root fetch - processPackages [AshCrypt]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-07-19 00:08:03] INFO root fetch - processPackages [landingai]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-19 00:08:04] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/19/59/4901be09b4bc6b97917c58bf3279cb373aa222989b9501e53b4c43213a9e/lbt-honeybee-0.7.98.tar.gz
+[2023-07-19 00:08:04] INFO root fetch - processPackages [lbt-ladybug]: Downloading https://files.pythonhosted.org/packages/e4/ac/474c600d6f495b8d63c49d7689b2b076f0c5f94c22728fe795233852a9e1/lbt-ladybug-0.8.1.tar.gz
+[2023-07-19 00:08:04] INFO root fetch - processPackages [AshCrypt]: Downloading https://files.pythonhosted.org/packages/51/8f/70f2ba642dd5408cbb18be333da30db08db40567b3dbfe4e7fc05357045f/AshCrypt-2.0.3.tar.gz
+[2023-07-19 00:08:04] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/de/c1/26b69575dca3280b4b53e4705a1c4aca5172af0eccf97ec85657939f3edb/landingai-0.2.6.tar.gz
+[2023-07-19 00:08:04] INFO root fetch - processPackages [mlservicewrapper-plugin-application-insights]: Downloading https://files.pythonhosted.org/packages/ed/78/f9f2cc635365aa86978d7fcc106650fcfcd65e9439f089e9646b5284e3b6/mlservicewrapper-plugin-application-insights-0.1.2.tar.gz
+[2023-07-19 00:08:04] INFO root fetch - processPackages [MEGNetSparse]: Downloading https://files.pythonhosted.org/packages/3c/ee/db2f028c7600f56f5d44a5925d6dc541d5ee0d8480f184aeb6571f4d26d0/MEGNetSparse-0.0.5.tar.gz
+[2023-07-19 00:08:04] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/a2/24/156ec161f44515db7966a68d9cc8aa62da7475128d138541e64b86dd4487/lbt-honeybee-0.7.99.tar.gz
+[2023-07-19 00:08:04] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-07-19 00:08:04] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230719/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-19 00:08:04] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/dc/62/f49a0ae92007f9e79785d9b99d59c33f5cb5ceac68196ddd5ddb7426956d/landingai-0.2.7.tar.gz
+[2023-07-19 00:08:04] INFO root fetch - processPackages [MEGNetSparse]: executing diffoscope
+[2023-07-19 00:08:04] INFO root fetch - processPackages [MEGNetSparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MEGNetSparse-0.0.4.tar.gz tmp/MEGNetSparse-0.0.5.tar.gz --markdown 20230719/M/MEGNetSparse/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-19 00:08:04] INFO root fetch - processPackages [AshCrypt]: Downloading https://files.pythonhosted.org/packages/c3/f2/e70f0e5d4656c76bae8cc44606832ff0112b313e5b47733cd622c8dccf62/AshCrypt-2.0.4.tar.gz
+[2023-07-19 00:08:04] INFO root fetch - processPackages [lbt-ladybug]: Downloading https://files.pythonhosted.org/packages/6e/e7/a4e6dcfc6b2750475acd6dee9e849a991053471ff22a90aa8f986eaef25b/lbt-ladybug-0.9.0.tar.gz
+[2023-07-19 00:08:04] INFO root fetch - processPackages [mlservicewrapper-plugin-application-insights]: Downloading https://files.pythonhosted.org/packages/8f/09/484949b950e63cc50e928c9f764fb412c9e3d35d266fa0b4cf1539c6eb6d/mlservicewrapper-plugin-application-insights-0.2.0.tar.gz
+[2023-07-19 00:08:04] INFO root fetch - processPackages [landingai]: executing diffoscope
+[2023-07-19 00:08:04] INFO root fetch - processPackages [landingai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landingai-0.2.6.tar.gz tmp/landingai-0.2.7.tar.gz --markdown 20230719/l/landingai/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-07-19 00:08:04] INFO root fetch - processPackages [AshCrypt]: executing diffoscope
+[2023-07-19 00:08:04] INFO root fetch - processPackages [AshCrypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AshCrypt-2.0.3.tar.gz tmp/AshCrypt-2.0.4.tar.gz --markdown 20230719/A/AshCrypt/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-07-19 00:08:04] INFO root fetch - processPackages [mlservicewrapper-plugin-application-insights]: executing diffoscope
+[2023-07-19 00:08:04] INFO root fetch - processPackages [mlservicewrapper-plugin-application-insights]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlservicewrapper-plugin-application-insights-0.1.2.tar.gz tmp/mlservicewrapper-plugin-application-insights-0.2.0.tar.gz --markdown 20230719/m/mlservicewrapper-plugin-application-insights/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-19 00:08:05] INFO root fetch - processPackages [lbt-ladybug]: executing diffoscope
+[2023-07-19 00:08:05] INFO root fetch - processPackages [lbt-ladybug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-ladybug-0.8.1.tar.gz tmp/lbt-ladybug-0.9.0.tar.gz --markdown 20230719/l/lbt-ladybug/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-19 00:08:05] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.98.tar.gz]
+[2023-07-19 00:08:05] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.99.tar.gz]
+[2023-07-19 00:08:05] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-07-19 00:08:05] INFO root fetch - processPackages [MEGNetSparse]: Remove: archive file [/home/abi/fetcher/tmp/MEGNetSparse-0.0.4.tar.gz]
+[2023-07-19 00:08:05] INFO root fetch - processPackages [MEGNetSparse]: Remove: archive file [/home/abi/fetcher/tmp/MEGNetSparse-0.0.5.tar.gz]
+[2023-07-19 00:08:05] INFO root fetch - main [MainThread]: End processing [MEGNetSparse]: success
+[2023-07-19 00:08:05] INFO root fetch - processPackages [AshCrypt]: Remove: archive file [/home/abi/fetcher/tmp/AshCrypt-2.0.3.tar.gz]
+[2023-07-19 00:08:05] INFO root fetch - processPackages [AshCrypt]: Remove: archive file [/home/abi/fetcher/tmp/AshCrypt-2.0.4.tar.gz]
+[2023-07-19 00:08:05] INFO root fetch - main [MainThread]: End processing [AshCrypt]: success
+[2023-07-19 00:08:05] INFO root fetch - processPackages [mlservicewrapper-plugin-application-insights]: Remove: archive file [/home/abi/fetcher/tmp/mlservicewrapper-plugin-application-insights-0.1.2.tar.gz]
+[2023-07-19 00:08:05] INFO root fetch - processPackages [mlservicewrapper-plugin-application-insights]: Remove: archive file [/home/abi/fetcher/tmp/mlservicewrapper-plugin-application-insights-0.2.0.tar.gz]
+[2023-07-19 00:08:05] INFO root fetch - main [MainThread]: End processing [mlservicewrapper-plugin-application-insights]: success
+[2023-07-19 00:08:06] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.2.6.tar.gz]
+[2023-07-19 00:08:06] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.2.7.tar.gz]
+[2023-07-19 00:08:06] INFO root fetch - main [MainThread]: End processing [landingai]: success
+[2023-07-19 00:08:06] INFO root fetch - processPackages [lbt-ladybug]: Remove: archive file [/home/abi/fetcher/tmp/lbt-ladybug-0.8.1.tar.gz]
+[2023-07-19 00:08:06] INFO root fetch - processPackages [lbt-ladybug]: Remove: archive file [/home/abi/fetcher/tmp/lbt-ladybug-0.9.0.tar.gz]
+[2023-07-19 00:08:06] INFO root fetch - main [MainThread]: End processing [lbt-ladybug]: success
+[2023-07-19 00:08:06] INFO root fetch - main [MainThread]: Store serial: [18940586]
