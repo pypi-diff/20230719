@@ -620,3 +620,81 @@
 [2023-07-19 00:34:55] INFO root fetch - processPackages [cargo-lambda]: Remove: archive file [/home/abi/fetcher/tmp/cargo_lambda-0.9.0-py3-none-win_amd64.whl.zip]
 [2023-07-19 00:34:55] INFO root fetch - main [MainThread]: End processing [cargo-lambda]: success
 [2023-07-19 00:34:55] INFO root fetch - main [MainThread]: Store serial: [18940776]
+[2023-07-19 00:40:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18940776]
+[2023-07-19 00:40:20] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-19 00:40:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: roblox-pyc
+[2023-07-19 00:40:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lithic
+[2023-07-19 00:40:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ci-cmg-mb-cruise-migration
+[2023-07-19 00:40:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: geonevados
+[2023-07-19 00:40:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Chromify
+[2023-07-19 00:40:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: finqual
+[2023-07-19 00:40:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sentry-kafka-schemas
+[2023-07-19 00:40:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: edgedb-orm
+[2023-07-19 00:40:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fitsviz
+[2023-07-19 00:40:20] INFO root fetch - processPackages [fitsviz]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-19 00:40:20] INFO root fetch - processPackages [fitsviz]: Downloading https://files.pythonhosted.org/packages/b9/6f/f608619d8d021f1618112cc0e3c1cbbbdf0663e70da9c37ff328e8d2efb4/fitsviz-0.0.2.tar.gz
+[2023-07-19 00:40:20] INFO root fetch - processPackages [lithic]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-19 00:40:20] INFO root fetch - processPackages [ci-cmg-mb-cruise-migration]: New version: [1.2] Old Version: [1.1]
+[2023-07-19 00:40:20] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-19 00:40:20] WARNING root fetch - processPackages [geonevados]: Skipping, unable to determine old version
+[2023-07-19 00:40:20] INFO root fetch - main [MainThread]: End processing [geonevados] error
+[2023-07-19 00:40:20] INFO root fetch - processPackages [Chromify]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-07-19 00:40:20] INFO root fetch - processPackages [finqual]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-19 00:40:20] INFO root fetch - processPackages [sentry-kafka-schemas]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-19 00:40:20] INFO root fetch - processPackages [edgedb-orm]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 00:40:20] INFO root fetch - processPackages [sentry-kafka-schemas]: Downloading https://files.pythonhosted.org/packages/2b/48/bbeeac72148365973154839f814e1ba50d53dc1cc3b85a44df13d7e96aea/sentry-kafka-schemas-0.1.8.tar.gz
+[2023-07-19 00:40:20] INFO root fetch - processPackages [Chromify]: Downloading https://files.pythonhosted.org/packages/79/95/94ebfe78f9b0dd539cef2439cfc067f4d7670f878ac7323fa040705ad66d/Chromify-1.1.5.tar.gz
+[2023-07-19 00:40:20] INFO root fetch - processPackages [ci-cmg-mb-cruise-migration]: Downloading https://files.pythonhosted.org/packages/6b/61/f647c47739756ec56c73e57a6e8c61a10c1099fc03d2d436c30213597e85/ci_cmg_mb_cruise_migration-1.1.tar.gz
+[2023-07-19 00:40:20] INFO root fetch - processPackages [lithic]: Downloading https://files.pythonhosted.org/packages/59/d1/4b77bd3d15afec27243035efe9cb7ec52264a7cdbb21b887c3336449dcc2/lithic-0.8.0.tar.gz
+[2023-07-19 00:40:20] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-19 00:40:20] INFO root fetch - processPackages [finqual]: Downloading https://files.pythonhosted.org/packages/6d/fa/5fcc6a1001f7b558083758b31328e647a417ab6ef9b35104a3ca5ceb5b37/finqual-1.0.0.tar.gz
+[2023-07-19 00:40:21] INFO root fetch - processPackages [fitsviz]: Downloading https://files.pythonhosted.org/packages/8e/87/76b330e2c640b56efff0a30833e5d7823dcbc9f5ccf74115053840e6dc03/fitsviz-0.0.3.tar.gz
+[2023-07-19 00:40:21] INFO root fetch - processPackages [edgedb-orm]: Downloading https://files.pythonhosted.org/packages/22/8c/151e55e715bf1eddb3f361685ea2d0c0a99c94f60dac158086cae619fb39/edgedb_orm-1.0.8.tar.gz
+[2023-07-19 00:40:21] INFO root fetch - processPackages [fitsviz]: executing diffoscope
+[2023-07-19 00:40:21] INFO root fetch - processPackages [fitsviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fitsviz-0.0.2.tar.gz tmp/fitsviz-0.0.3.tar.gz --markdown 20230719/f/fitsviz/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-19 00:40:21] INFO root fetch - processPackages [Chromify]: Downloading https://files.pythonhosted.org/packages/12/7b/f513dec7645a599ea29c81e9a03ee6258f1d85bcbb2cb8125fc59e27e18c/Chromify-1.1.6-py3-none-any.whl
+[2023-07-19 00:40:21] INFO root fetch - processPackages [sentry-kafka-schemas]: Downloading https://files.pythonhosted.org/packages/8c/08/409be3a73bf2aa8f7b06bf6ede1250b42df881c326dd39800fb5c7d79d1a/sentry-kafka-schemas-0.1.9.tar.gz
+[2023-07-19 00:40:21] INFO root fetch - processPackages [finqual]: Downloading https://files.pythonhosted.org/packages/13/70/5fab24375c22c59284748fdf1fe5ddd2b4069cd30b0ef1cb3e59e431971b/finqual-1.1.0.tar.gz
+[2023-07-19 00:40:21] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-19 00:40:21] INFO root fetch - processPackages [Chromify]: executing diffoscope
+[2023-07-19 00:40:21] INFO root fetch - processPackages [Chromify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Chromify-1.1.5.tar.gz tmp/Chromify-1.1.6-py3-none-any.whl.zip --markdown 20230719/C/Chromify/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-07-19 00:40:21] INFO root fetch - processPackages [ci-cmg-mb-cruise-migration]: Downloading https://files.pythonhosted.org/packages/57/d6/470e42729baa59890215ef2098ef68e47158ea70cd1e7070ec96374e9c73/ci_cmg_mb_cruise_migration-1.2.tar.gz
+[2023-07-19 00:40:21] INFO root fetch - processPackages [lithic]: Downloading https://files.pythonhosted.org/packages/11/8d/f3dce2caf53a5809b580f08cdad352d9a928b2cf614da9fac7cff2249f1c/lithic-0.9.0.tar.gz
+[2023-07-19 00:40:21] INFO root fetch - processPackages [sentry-kafka-schemas]: executing diffoscope
+[2023-07-19 00:40:21] INFO root fetch - processPackages [sentry-kafka-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-kafka-schemas-0.1.8.tar.gz tmp/sentry-kafka-schemas-0.1.9.tar.gz --markdown 20230719/s/sentry-kafka-schemas/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-19 00:40:21] INFO root fetch - processPackages [edgedb-orm]: Downloading https://files.pythonhosted.org/packages/ef/e6/28923949c7b56bf40a0d273ce28e74afd2443cd52d8ce522b86e4adb9d9b/edgedb_orm-1.0.9.tar.gz
+[2023-07-19 00:40:21] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-19 00:40:21] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230719/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-19 00:40:21] INFO root fetch - processPackages [finqual]: executing diffoscope
+[2023-07-19 00:40:21] INFO root fetch - processPackages [finqual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finqual-1.0.0.tar.gz tmp/finqual-1.1.0.tar.gz --markdown 20230719/f/finqual/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-19 00:40:21] INFO root fetch - processPackages [ci-cmg-mb-cruise-migration]: executing diffoscope
+[2023-07-19 00:40:21] INFO root fetch - processPackages [ci-cmg-mb-cruise-migration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ci_cmg_mb_cruise_migration-1.1.tar.gz tmp/ci_cmg_mb_cruise_migration-1.2.tar.gz --markdown 20230719/c/ci-cmg-mb-cruise-migration/1.1-1.2/diff.md --exclude *.pyd
+[2023-07-19 00:40:21] INFO root fetch - processPackages [lithic]: executing diffoscope
+[2023-07-19 00:40:21] INFO root fetch - processPackages [lithic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lithic-0.8.0.tar.gz tmp/lithic-0.9.0.tar.gz --markdown 20230719/l/lithic/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-19 00:40:21] INFO root fetch - processPackages [edgedb-orm]: executing diffoscope
+[2023-07-19 00:40:21] INFO root fetch - processPackages [edgedb-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgedb_orm-1.0.8.tar.gz tmp/edgedb_orm-1.0.9.tar.gz --markdown 20230719/e/edgedb-orm/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 00:40:22] INFO root fetch - processPackages [fitsviz]: Remove: archive file [/home/abi/fetcher/tmp/fitsviz-0.0.2.tar.gz]
+[2023-07-19 00:40:22] INFO root fetch - processPackages [fitsviz]: Remove: archive file [/home/abi/fetcher/tmp/fitsviz-0.0.3.tar.gz]
+[2023-07-19 00:40:22] INFO root fetch - main [MainThread]: End processing [fitsviz]: success
+[2023-07-19 00:40:22] INFO root fetch - processPackages [Chromify]: Remove: archive file [/home/abi/fetcher/tmp/Chromify-1.1.5.tar.gz]
+[2023-07-19 00:40:22] INFO root fetch - processPackages [Chromify]: Remove: archive file [/home/abi/fetcher/tmp/Chromify-1.1.6-py3-none-any.whl.zip]
+[2023-07-19 00:40:22] INFO root fetch - main [MainThread]: End processing [Chromify]: success
+[2023-07-19 00:40:22] INFO root fetch - processPackages [finqual]: Remove: archive file [/home/abi/fetcher/tmp/finqual-1.0.0.tar.gz]
+[2023-07-19 00:40:22] INFO root fetch - processPackages [finqual]: Remove: archive file [/home/abi/fetcher/tmp/finqual-1.1.0.tar.gz]
+[2023-07-19 00:40:22] INFO root fetch - main [MainThread]: End processing [finqual]: success
+[2023-07-19 00:40:22] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-19 00:40:22] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-19 00:40:22] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-19 00:40:22] INFO root fetch - processPackages [edgedb-orm]: Remove: archive file [/home/abi/fetcher/tmp/edgedb_orm-1.0.8.tar.gz]
+[2023-07-19 00:40:22] INFO root fetch - processPackages [edgedb-orm]: Remove: archive file [/home/abi/fetcher/tmp/edgedb_orm-1.0.9.tar.gz]
+[2023-07-19 00:40:22] INFO root fetch - main [MainThread]: End processing [edgedb-orm]: success
+[2023-07-19 00:40:23] INFO root fetch - processPackages [sentry-kafka-schemas]: Remove: archive file [/home/abi/fetcher/tmp/sentry-kafka-schemas-0.1.8.tar.gz]
+[2023-07-19 00:40:23] INFO root fetch - processPackages [sentry-kafka-schemas]: Remove: archive file [/home/abi/fetcher/tmp/sentry-kafka-schemas-0.1.9.tar.gz]
+[2023-07-19 00:40:23] INFO root fetch - main [MainThread]: End processing [sentry-kafka-schemas]: success
+[2023-07-19 00:40:23] INFO root fetch - processPackages [lithic]: Remove: archive file [/home/abi/fetcher/tmp/lithic-0.8.0.tar.gz]
+[2023-07-19 00:40:23] INFO root fetch - processPackages [lithic]: Remove: archive file [/home/abi/fetcher/tmp/lithic-0.9.0.tar.gz]
+[2023-07-19 00:40:23] INFO root fetch - main [MainThread]: End processing [lithic]: success
+[2023-07-19 00:40:23] INFO root fetch - processPackages [ci-cmg-mb-cruise-migration]: Remove: archive file [/home/abi/fetcher/tmp/ci_cmg_mb_cruise_migration-1.1.tar.gz]
+[2023-07-19 00:40:23] INFO root fetch - processPackages [ci-cmg-mb-cruise-migration]: Remove: archive file [/home/abi/fetcher/tmp/ci_cmg_mb_cruise_migration-1.2.tar.gz]
+[2023-07-19 00:40:23] INFO root fetch - main [MainThread]: End processing [ci-cmg-mb-cruise-migration]: success
+[2023-07-19 00:40:23] INFO root fetch - main [MainThread]: Store serial: [18940803]
