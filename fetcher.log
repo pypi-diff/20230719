@@ -1299,3 +1299,90 @@
 [2023-07-19 01:11:39] INFO root fetch - processPackages [imjoy-rpc]: Remove: archive file [/home/abi/fetcher/tmp/imjoy-rpc-0.5.9.tar.gz]
 [2023-07-19 01:11:39] INFO root fetch - main [MainThread]: End processing [imjoy-rpc]: success
 [2023-07-19 01:11:39] INFO root fetch - main [MainThread]: Store serial: [18941112]
+[2023-07-19 01:16:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18941112]
+[2023-07-19 01:16:50] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-19 01:16:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sardine-web
+[2023-07-19 01:16:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fitsviz
+[2023-07-19 01:16:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: starfyre
+[2023-07-19 01:16:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: biorosetta
+[2023-07-19 01:16:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Energon-Prometheus-exporter
+[2023-07-19 01:16:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iocextract
+[2023-07-19 01:16:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: medicc2
+[2023-07-19 01:16:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torp
+[2023-07-19 01:16:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: phaseflow
+[2023-07-19 01:16:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: seis-realtime
+[2023-07-19 01:16:50] INFO root fetch - processPackages [fitsviz]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-19 01:16:50] INFO root fetch - processPackages [biorosetta]: New version: [0.3.1] Old Version: [0.3]
+[2023-07-19 01:16:50] INFO root fetch - processPackages [iocextract]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-19 01:16:50] INFO root fetch - processPackages [starfyre]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-19 01:16:50] INFO root fetch - processPackages [fitsviz]: Downloading https://files.pythonhosted.org/packages/81/fc/8f90208ce4963f06bdbe06a0fd89337e92315171dfbb9d86e3465580eeb5/fitsviz-0.0.4.tar.gz
+[2023-07-19 01:16:50] INFO root fetch - processPackages [biorosetta]: Downloading https://files.pythonhosted.org/packages/9d/05/9ac0ae095f9da242130475b8428ee811097acd21fa80dd7ce181bf7037bb/biorosetta-0.3.tar.gz
+[2023-07-19 01:16:50] WARNING root fetch - processPackages [seis-realtime]: Skipping, unable to determine old version
+[2023-07-19 01:16:50] INFO root fetch - processPackages [seis-realtime]: Start processing: dragonfly-core
+[2023-07-19 01:16:50] INFO root fetch - main [MainThread]: End processing [seis-realtime] error
+[2023-07-19 01:16:50] INFO root fetch - processPackages [torp]: New version: [0.0.8] Old Version: [0.0.5]
+[2023-07-19 01:16:50] INFO root fetch - processPackages [sardine-web]: New version: [1.0.0.post1] Old Version: [1.0.0]
+[2023-07-19 01:16:50] WARNING root fetch - processPackages [phaseflow]: Skipping, unable to determine old version
+[2023-07-19 01:16:50] INFO root fetch - processPackages [phaseflow]: Start processing: seisopt
+[2023-07-19 01:16:50] INFO root fetch - main [MainThread]: End processing [phaseflow] error
+[2023-07-19 01:16:50] INFO root fetch - processPackages [medicc2]: New version: [1.0.2] Old Version: [1.0.0]
+[2023-07-19 01:16:50] WARNING root fetch - processPackages [Energon-Prometheus-exporter]: Skipping, unable to determine old version
+[2023-07-19 01:16:50] INFO root fetch - main [MainThread]: End processing [Energon-Prometheus-exporter] error
+[2023-07-19 01:16:50] INFO root fetch - processPackages [dragonfly-core]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-19 01:16:50] INFO root fetch - processPackages [sardine-web]: Downloading https://files.pythonhosted.org/packages/5c/46/3aabb7ca6fd928b0f587d85592e21560935207272c9aa686c585282421c1/sardine-web-1.0.0.tar.gz
+[2023-07-19 01:16:50] INFO root fetch - processPackages [torp]: Downloading https://files.pythonhosted.org/packages/64/0e/39f7f55b03cfbaa0aa07000fc2207a94a35c1ab1262f249b378fa0731a6c/torp-0.0.5.tar.gz
+[2023-07-19 01:16:50] INFO root fetch - processPackages [iocextract]: Downloading https://files.pythonhosted.org/packages/04/69/99b3a18adad813ee90cdc31df2412be97fa1519f82d417c688a5514f1681/iocextract-1.8.0.tar.gz
+[2023-07-19 01:16:50] WARNING root fetch - processPackages [seisopt]: Skipping, unable to determine old version
+[2023-07-19 01:16:50] INFO root fetch - main [MainThread]: End processing [seisopt] error
+[2023-07-19 01:16:50] INFO root fetch - processPackages [starfyre]: Downloading https://files.pythonhosted.org/packages/77/e7/5a308dfb385b6136fcb4985612d1070075b320763d2fda1bd5f5d208745c/starfyre-0.8.1.tar.gz
+[2023-07-19 01:16:50] INFO root fetch - processPackages [dragonfly-core]: Downloading https://files.pythonhosted.org/packages/93/fd/7cad9d4c9406e421f7ce31b725936bb32ec8a421f9b143e829c33cae55dd/dragonfly-core-1.8.1.tar.gz
+[2023-07-19 01:16:50] INFO root fetch - processPackages [medicc2]: Downloading https://files.pythonhosted.org/packages/9e/ad/1b23f6ce1d0c4e54e617f6a92e1905086de639178d2971c080f7242c9948/medicc2-1.0.0.tar.gz
+[2023-07-19 01:16:51] INFO root fetch - processPackages [biorosetta]: Downloading https://files.pythonhosted.org/packages/d6/09/c73e2786f684b0474102f9378d9e2ed04d1350549e8a51ae795c370cb4ff/biorosetta-0.3.1.tar.gz
+[2023-07-19 01:16:51] INFO root fetch - processPackages [fitsviz]: Downloading https://files.pythonhosted.org/packages/6c/89/f7a98a49c1fad7216181e3c6a97a437a796803a385472fe83f94f0ecdb19/fitsviz-0.0.5.tar.gz
+[2023-07-19 01:16:51] INFO root fetch - processPackages [biorosetta]: executing diffoscope
+[2023-07-19 01:16:51] INFO root fetch - processPackages [biorosetta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biorosetta-0.3.tar.gz tmp/biorosetta-0.3.1.tar.gz --markdown 20230719/b/biorosetta/0.3-0.3.1/diff.md --exclude *.pyd
+[2023-07-19 01:16:51] INFO root fetch - processPackages [torp]: Downloading https://files.pythonhosted.org/packages/f5/98/34f14bd87ffef876dd08a4bf47e51c5c81588fbd4d3119a9dd65c0391609/torp-0.0.8.tar.gz
+[2023-07-19 01:16:51] INFO root fetch - processPackages [fitsviz]: executing diffoscope
+[2023-07-19 01:16:51] INFO root fetch - processPackages [fitsviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fitsviz-0.0.4.tar.gz tmp/fitsviz-0.0.5.tar.gz --markdown 20230719/f/fitsviz/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-19 01:16:51] INFO root fetch - processPackages [dragonfly-core]: Downloading https://files.pythonhosted.org/packages/75/cb/4a1ce4726a070a188305b8d5343b4300bf24190845d85c8718cc31aa3e53/dragonfly-core-1.9.0.tar.gz
+[2023-07-19 01:16:51] INFO root fetch - processPackages [starfyre]: Downloading https://files.pythonhosted.org/packages/b7/1f/cfd175aaf58a44adff6adb13958a9f3baf173bb164dda943a99b2d73e9e4/starfyre-0.9.0.tar.gz
+[2023-07-19 01:16:51] INFO root fetch - processPackages [sardine-web]: Downloading https://files.pythonhosted.org/packages/02/98/7f71758fbf20bb2443dc094729484bf69cc51a35a6661233249d43b257e0/sardine-web-1.0.0.post1.tar.gz
+[2023-07-19 01:16:51] INFO root fetch - processPackages [iocextract]: Downloading https://files.pythonhosted.org/packages/d9/a3/458f753bc2bc5411d09d5d9e8f22e64f021d8c02e2fe8046533ee04893d7/iocextract-1.9.0.tar.gz
+[2023-07-19 01:16:51] INFO root fetch - processPackages [dragonfly-core]: executing diffoscope
+[2023-07-19 01:16:51] INFO root fetch - processPackages [dragonfly-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-core-1.8.1.tar.gz tmp/dragonfly-core-1.9.0.tar.gz --markdown 20230719/d/dragonfly-core/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-19 01:16:51] INFO root fetch - processPackages [medicc2]: Downloading https://files.pythonhosted.org/packages/27/69/03a7355cc165374ec2f59b4166b954ee3f2335e07a9e8926731f2c1e16e8/medicc2-1.0.2.tar.gz
+[2023-07-19 01:16:51] INFO root fetch - processPackages [starfyre]: executing diffoscope
+[2023-07-19 01:16:51] INFO root fetch - processPackages [starfyre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starfyre-0.8.1.tar.gz tmp/starfyre-0.9.0.tar.gz --markdown 20230719/s/starfyre/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-19 01:16:51] INFO root fetch - processPackages [torp]: executing diffoscope
+[2023-07-19 01:16:51] INFO root fetch - processPackages [torp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torp-0.0.5.tar.gz tmp/torp-0.0.8.tar.gz --markdown 20230719/t/torp/0.0.5-0.0.8/diff.md --exclude *.pyd
+[2023-07-19 01:16:51] INFO root fetch - processPackages [sardine-web]: executing diffoscope
+[2023-07-19 01:16:51] INFO root fetch - processPackages [sardine-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sardine-web-1.0.0.tar.gz tmp/sardine-web-1.0.0.post1.tar.gz --markdown 20230719/s/sardine-web/1.0.0-1.0.0.post1/diff.md --exclude *.pyd
+[2023-07-19 01:16:51] INFO root fetch - processPackages [iocextract]: executing diffoscope
+[2023-07-19 01:16:51] INFO root fetch - processPackages [iocextract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iocextract-1.8.0.tar.gz tmp/iocextract-1.9.0.tar.gz --markdown 20230719/i/iocextract/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-19 01:16:51] INFO root fetch - processPackages [medicc2]: executing diffoscope
+[2023-07-19 01:16:51] INFO root fetch - processPackages [medicc2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medicc2-1.0.0.tar.gz tmp/medicc2-1.0.2.tar.gz --markdown 20230719/m/medicc2/1.0.0-1.0.2/diff.md --exclude *.pyd
+[2023-07-19 01:16:52] INFO root fetch - processPackages [biorosetta]: Remove: archive file [/home/abi/fetcher/tmp/biorosetta-0.3.tar.gz]
+[2023-07-19 01:16:52] INFO root fetch - processPackages [biorosetta]: Remove: archive file [/home/abi/fetcher/tmp/biorosetta-0.3.1.tar.gz]
+[2023-07-19 01:16:52] INFO root fetch - main [MainThread]: End processing [biorosetta]: success
+[2023-07-19 01:16:52] INFO root fetch - processPackages [fitsviz]: Remove: archive file [/home/abi/fetcher/tmp/fitsviz-0.0.4.tar.gz]
+[2023-07-19 01:16:52] INFO root fetch - processPackages [fitsviz]: Remove: archive file [/home/abi/fetcher/tmp/fitsviz-0.0.5.tar.gz]
+[2023-07-19 01:16:52] INFO root fetch - main [MainThread]: End processing [fitsviz]: success
+[2023-07-19 01:16:52] INFO root fetch - processPackages [torp]: Remove: archive file [/home/abi/fetcher/tmp/torp-0.0.5.tar.gz]
+[2023-07-19 01:16:52] INFO root fetch - processPackages [torp]: Remove: archive file [/home/abi/fetcher/tmp/torp-0.0.8.tar.gz]
+[2023-07-19 01:16:52] INFO root fetch - main [MainThread]: End processing [torp]: success
+[2023-07-19 01:16:52] INFO root fetch - processPackages [starfyre]: Remove: archive file [/home/abi/fetcher/tmp/starfyre-0.8.1.tar.gz]
+[2023-07-19 01:16:52] INFO root fetch - processPackages [starfyre]: Remove: archive file [/home/abi/fetcher/tmp/starfyre-0.9.0.tar.gz]
+[2023-07-19 01:16:52] INFO root fetch - main [MainThread]: End processing [starfyre]: success
+[2023-07-19 01:16:52] INFO root fetch - processPackages [dragonfly-core]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-core-1.8.1.tar.gz]
+[2023-07-19 01:16:52] INFO root fetch - processPackages [dragonfly-core]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-core-1.9.0.tar.gz]
+[2023-07-19 01:16:52] INFO root fetch - processPackages [iocextract]: Remove: archive file [/home/abi/fetcher/tmp/iocextract-1.8.0.tar.gz]
+[2023-07-19 01:16:52] INFO root fetch - main [MainThread]: End processing [dragonfly-core]: success
+[2023-07-19 01:16:52] INFO root fetch - processPackages [iocextract]: Remove: archive file [/home/abi/fetcher/tmp/iocextract-1.9.0.tar.gz]
+[2023-07-19 01:16:52] INFO root fetch - main [MainThread]: End processing [iocextract]: success
+[2023-07-19 01:16:53] INFO root fetch - processPackages [sardine-web]: Remove: archive file [/home/abi/fetcher/tmp/sardine-web-1.0.0.tar.gz]
+[2023-07-19 01:16:53] INFO root fetch - processPackages [sardine-web]: Remove: archive file [/home/abi/fetcher/tmp/sardine-web-1.0.0.post1.tar.gz]
+[2023-07-19 01:16:53] INFO root fetch - main [MainThread]: End processing [sardine-web]: success
+[2023-07-19 01:16:53] INFO root fetch - processPackages [medicc2]: Remove: archive file [/home/abi/fetcher/tmp/medicc2-1.0.0.tar.gz]
+[2023-07-19 01:16:53] INFO root fetch - processPackages [medicc2]: Remove: archive file [/home/abi/fetcher/tmp/medicc2-1.0.2.tar.gz]
+[2023-07-19 01:16:53] INFO root fetch - main [MainThread]: End processing [medicc2]: success
+[2023-07-19 01:16:53] INFO root fetch - main [MainThread]: Store serial: [18941157]
