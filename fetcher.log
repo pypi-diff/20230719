@@ -16160,3 +16160,132 @@
 [2023-07-19 09:10:52] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
 [2023-07-19 09:10:52] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-07-19 09:10:52] INFO root fetch - main [MainThread]: Store serial: [18946484]
+[2023-07-19 09:15:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18946484]
+[2023-07-19 09:16:01] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-19 09:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydflow
+[2023-07-19 09:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: confattr
+[2023-07-19 09:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unitxt
+[2023-07-19 09:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tinybird-cli
+[2023-07-19 09:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ilsadvbisnvavojebaij
+[2023-07-19 09:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lark-oapi
+[2023-07-19 09:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mayfpayapi
+[2023-07-19 09:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sageintacctsdk
+[2023-07-19 09:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: irene-pro
+[2023-07-19 09:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bnlearn
+[2023-07-19 09:16:02] WARNING root fetch - processPackages [lark-oapi]: Skipping, unable to determine old version
+[2023-07-19 09:16:02] INFO root fetch - processPackages [lark-oapi]: Start processing: elefanto-webkassa
+[2023-07-19 09:16:02] INFO root fetch - main [MainThread]: End processing [lark-oapi] error
+[2023-07-19 09:16:02] INFO root fetch - processPackages [ilsadvbisnvavojebaij]: New version: [0.3.1] Old Version: [0.2.1]
+[2023-07-19 09:16:02] INFO root fetch - processPackages [irene-pro]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-19 09:16:02] INFO root fetch - processPackages [confattr]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-19 09:16:02] INFO root fetch - processPackages [tinybird-cli]: New version: [1.0.0b99] Old Version: [1.0.0b98]
+[2023-07-19 09:16:02] INFO root fetch - processPackages [ilsadvbisnvavojebaij]: Downloading https://files.pythonhosted.org/packages/0b/9b/8d153a042c77ea034363e2c6b775c3c7b0a3f3430e04333185f1bd2cc14b/ilsadvbisnvavojebaij-0.2.1.tar.gz
+[2023-07-19 09:16:02] INFO root fetch - processPackages [mayfpayapi]: New version: [1.5.1] Old Version: [1.4.6]
+[2023-07-19 09:16:02] INFO root fetch - processPackages [unitxt]: New version: [1.0.9] Old Version: [1.0.7]
+[2023-07-19 09:16:02] INFO root fetch - processPackages [pydflow]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-07-19 09:16:02] INFO root fetch - processPackages [bnlearn]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-19 09:16:02] INFO root fetch - processPackages [sageintacctsdk]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-07-19 09:16:02] WARNING root fetch - processPackages [elefanto-webkassa]: Skipping, unable to determine old version
+[2023-07-19 09:16:02] INFO root fetch - processPackages [elefanto-webkassa]: Start processing: z4d-certified-devices
+[2023-07-19 09:16:02] INFO root fetch - main [MainThread]: End processing [elefanto-webkassa] error
+[2023-07-19 09:16:02] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/fd/6d/890330e98017895f135ca7a924f03019cb5a821e28a2629ebd5273bc8be2/irene_pro-0.1.2.tar.gz
+[2023-07-19 09:16:02] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/cf/bc/f6fe2aa48ad97fc6f03b105a263497f0cc5d7173fa89703bbc609c18f13a/tinybird-cli-1.0.0b98.tar.gz
+[2023-07-19 09:16:02] INFO root fetch - processPackages [z4d-certified-devices]: New version: [2.77] Old Version: [2.76]
+[2023-07-19 09:16:02] INFO root fetch - processPackages [confattr]: Downloading https://files.pythonhosted.org/packages/e0/3d/676c9829500ccdbc350423ed2b5e28aba80e42d64a6226d75cca28e78178/confattr-0.9.0.tar.gz
+[2023-07-19 09:16:02] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/33/96/a989d9cfcdb5dcb43d60a72640c59e2efb7fd053182742205b332006f813/pydflow-1.7.8.tar.gz
+[2023-07-19 09:16:02] INFO root fetch - processPackages [mayfpayapi]: Downloading https://files.pythonhosted.org/packages/36/a7/3531eb7ea7227decde3434ce831096b470d8a9d1ba5a4880dcfbaed1fdfd/mayfpayapi-1.4.6.tar.gz
+[2023-07-19 09:16:02] INFO root fetch - processPackages [unitxt]: Downloading https://files.pythonhosted.org/packages/11/d1/d3b62f8baf803050688a5209b7a249f450e3b915906be3b8636049f44de2/unitxt-1.0.7.tar.gz
+[2023-07-19 09:16:02] INFO root fetch - processPackages [sageintacctsdk]: Downloading https://files.pythonhosted.org/packages/01/4e/267ea24dd957a0411483147331cca87466764344d8e2b2cae5037f321ce3/sageintacctsdk-1.9.5.tar.gz
+[2023-07-19 09:16:02] INFO root fetch - processPackages [bnlearn]: Downloading https://files.pythonhosted.org/packages/55/46/5331f0b8f633045f865b455838fcfdeef5f2dccf9efa5148069c319f85ba/bnlearn-0.8.0.tar.gz
+[2023-07-19 09:16:02] INFO root fetch - processPackages [ilsadvbisnvavojebaij]: Downloading https://files.pythonhosted.org/packages/a8/73/c0ee3f33f5c2be897ccb754d8c768812a1a04b97a6f9edb7acef15090a25/ilsadvbisnvavojebaij-0.3.1.tar.gz
+[2023-07-19 09:16:02] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/50/36/231674a5f6556c861aa1c3f6d9adcf2d8bada0b927d4cfd222ffa86ab620/irene_pro-0.1.3.tar.gz
+[2023-07-19 09:16:02] INFO root fetch - processPackages [z4d-certified-devices]: Downloading https://files.pythonhosted.org/packages/ac/5d/e63f8f3db6d7f2fa4b67a9465f5527e02c58bcf09f600af6116a4b398895/z4d-certified-devices-2.76.tar.gz
+[2023-07-19 09:16:02] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/6a/27/a5d411f1a02b44b9f386c7d18397784dcaa5fe1129d9a77e87a5e048edc5/tinybird-cli-1.0.0b99.tar.gz
+[2023-07-19 09:16:02] INFO root fetch - processPackages [ilsadvbisnvavojebaij]: executing diffoscope
+[2023-07-19 09:16:02] INFO root fetch - processPackages [ilsadvbisnvavojebaij]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ilsadvbisnvavojebaij-0.2.1.tar.gz tmp/ilsadvbisnvavojebaij-0.3.1.tar.gz --markdown 20230719/i/ilsadvbisnvavojebaij/0.2.1-0.3.1/diff.md --exclude *.pyd
+[2023-07-19 09:16:02] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-07-19 09:16:02] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.1.2.tar.gz tmp/irene_pro-0.1.3.tar.gz --markdown 20230719/i/irene-pro/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-19 09:16:03] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2023-07-19 09:16:03] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-1.0.0b98.tar.gz tmp/tinybird-cli-1.0.0b99.tar.gz --markdown 20230719/t/tinybird-cli/1.0.0b98-1.0.0b99/diff.md --exclude *.pyd
+[2023-07-19 09:16:03] INFO root fetch - processPackages [unitxt]: Downloading https://files.pythonhosted.org/packages/0e/ad/4d0c5d55831a7fd66fbaca1667f8f31321026e46d5f9444cb997646d2fe7/unitxt-1.0.9.tar.gz
+[2023-07-19 09:16:03] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/9c/41/6c9bc72fde943869899725f55fade9f850f62ecbc6fa31e53b8fa79ae5a3/pydflow-1.7.9.tar.gz
+[2023-07-19 09:16:03] INFO root fetch - processPackages [mayfpayapi]: Downloading https://files.pythonhosted.org/packages/49/af/f9658015964a0cbfbf9a8508ec0ddf72af6dff47869874cd4163be5296d6/mayfpayapi-1.5.1.tar.gz
+[2023-07-19 09:16:03] INFO root fetch - processPackages [bnlearn]: Downloading https://files.pythonhosted.org/packages/80/7b/7d87b3752a7a734d26d2826dc0b009950df06f3177a7ae5c7dbcd63d3327/bnlearn-0.8.1.tar.gz
+[2023-07-19 09:16:03] INFO root fetch - processPackages [sageintacctsdk]: Downloading https://files.pythonhosted.org/packages/35/ff/573d6a77bb5debcc7d21e4ade0260e9eed23fda653497d686f8b60a44263/sageintacctsdk-1.9.6.tar.gz
+[2023-07-19 09:16:03] INFO root fetch - processPackages [unitxt]: executing diffoscope
+[2023-07-19 09:16:03] INFO root fetch - processPackages [unitxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitxt-1.0.7.tar.gz tmp/unitxt-1.0.9.tar.gz --markdown 20230719/u/unitxt/1.0.7-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 09:16:03] INFO root fetch - processPackages [z4d-certified-devices]: Downloading https://files.pythonhosted.org/packages/67/67/d6b6727dfb20e2c3fd1059c4011c454d391de9a7ed5e21c9c2b3f6d734ca/z4d-certified-devices-2.77.tar.gz
+[2023-07-19 09:16:03] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-07-19 09:16:03] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.7.8.tar.gz tmp/pydflow-1.7.9.tar.gz --markdown 20230719/p/pydflow/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-07-19 09:16:03] INFO root fetch - processPackages [mayfpayapi]: executing diffoscope
+[2023-07-19 09:16:03] INFO root fetch - processPackages [mayfpayapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mayfpayapi-1.4.6.tar.gz tmp/mayfpayapi-1.5.1.tar.gz --markdown 20230719/m/mayfpayapi/1.4.6-1.5.1/diff.md --exclude *.pyd
+[2023-07-19 09:16:03] INFO root fetch - processPackages [bnlearn]: executing diffoscope
+[2023-07-19 09:16:03] INFO root fetch - processPackages [bnlearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bnlearn-0.8.0.tar.gz tmp/bnlearn-0.8.1.tar.gz --markdown 20230719/b/bnlearn/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-19 09:16:03] INFO root fetch - processPackages [z4d-certified-devices]: executing diffoscope
+[2023-07-19 09:16:03] INFO root fetch - processPackages [z4d-certified-devices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/z4d-certified-devices-2.76.tar.gz tmp/z4d-certified-devices-2.77.tar.gz --markdown 20230719/z/z4d-certified-devices/2.76-2.77/diff.md --exclude *.pyd
+[2023-07-19 09:16:03] INFO root fetch - processPackages [sageintacctsdk]: executing diffoscope
+[2023-07-19 09:16:03] INFO root fetch - processPackages [sageintacctsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sageintacctsdk-1.9.5.tar.gz tmp/sageintacctsdk-1.9.6.tar.gz --markdown 20230719/s/sageintacctsdk/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-07-19 09:16:04] INFO root fetch - processPackages [confattr]: Downloading https://files.pythonhosted.org/packages/a6/17/73ce7e383a16ae83a2768ebc6e64315ac4a7ece6c6cd12952e99e107efe8/confattr-0.9.1.tar.gz
+[2023-07-19 09:16:04] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.1.2.tar.gz]
+[2023-07-19 09:16:04] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.1.3.tar.gz]
+[2023-07-19 09:16:04] INFO root fetch - processPackages [irene-pro]: Start processing: aleksis-app-resint
+[2023-07-19 09:16:04] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-07-19 09:16:04] INFO root fetch - processPackages [ilsadvbisnvavojebaij]: Remove: archive file [/home/abi/fetcher/tmp/ilsadvbisnvavojebaij-0.2.1.tar.gz]
+[2023-07-19 09:16:04] INFO root fetch - processPackages [ilsadvbisnvavojebaij]: Remove: archive file [/home/abi/fetcher/tmp/ilsadvbisnvavojebaij-0.3.1.tar.gz]
+[2023-07-19 09:16:04] INFO root fetch - processPackages [ilsadvbisnvavojebaij]: Start processing: unitplus
+[2023-07-19 09:16:04] INFO root fetch - main [MainThread]: End processing [ilsadvbisnvavojebaij]: success
+[2023-07-19 09:16:04] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b98.tar.gz]
+[2023-07-19 09:16:04] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b99.tar.gz]
+[2023-07-19 09:16:04] INFO root fetch - processPackages [tinybird-cli]: Start processing: yxspkg
+[2023-07-19 09:16:04] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2023-07-19 09:16:04] WARNING root fetch - processPackages [unitplus]: Skipping, unable to determine old version
+[2023-07-19 09:16:04] INFO root fetch - processPackages [aleksis-app-resint]: New version: [3.1] Old Version: [3.0b2]
+[2023-07-19 09:16:04] INFO root fetch - processPackages [unitplus]: Start processing: unitxt
+[2023-07-19 09:16:04] INFO root fetch - main [MainThread]: End processing [unitplus] error
+[2023-07-19 09:16:04] INFO root fetch - processPackages [yxspkg]: New version: [6.9.8] Old Version: [6.9.7]
+[2023-07-19 09:16:04] INFO root fetch - processPackages [unitxt]: New version: [1.0.9] Old Version: [1.0.7]
+[2023-07-19 09:16:04] INFO root fetch - processPackages [mayfpayapi]: Remove: archive file [/home/abi/fetcher/tmp/mayfpayapi-1.4.6.tar.gz]
+[2023-07-19 09:16:04] INFO root fetch - processPackages [mayfpayapi]: Remove: archive file [/home/abi/fetcher/tmp/mayfpayapi-1.5.1.tar.gz]
+[2023-07-19 09:16:04] INFO root fetch - main [MainThread]: End processing [mayfpayapi]: success
+[2023-07-19 09:16:04] INFO root fetch - processPackages [yxspkg]: Downloading https://files.pythonhosted.org/packages/e9/00/1c979a6338313aa1384817dcfb17d78f225f07292739c9ace51701b7cc62/yxspkg-6.9.7-py3-none-any.whl
+[2023-07-19 09:16:04] INFO root fetch - processPackages [aleksis-app-resint]: Downloading https://files.pythonhosted.org/packages/51/96/7a5419d1ca8147a674731fa61f2efcc6ee3b6eff6247ed6781571e90625f/aleksis_app_resint-3.0b2.tar.gz
+[2023-07-19 09:16:04] INFO root fetch - processPackages [unitxt]: executing diffoscope
+[2023-07-19 09:16:04] INFO root fetch - processPackages [unitxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitxt-1.0.7.tar.gz tmp/unitxt-1.0.9.tar.gz --markdown 20230719/u/unitxt/1.0.7-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 09:16:04] INFO root fetch - processPackages [sageintacctsdk]: Remove: archive file [/home/abi/fetcher/tmp/sageintacctsdk-1.9.5.tar.gz]
+[2023-07-19 09:16:04] INFO root fetch - processPackages [sageintacctsdk]: Remove: archive file [/home/abi/fetcher/tmp/sageintacctsdk-1.9.6.tar.gz]
+[2023-07-19 09:16:04] INFO root fetch - main [MainThread]: End processing [sageintacctsdk]: success
+[2023-07-19 09:16:05] INFO root fetch - processPackages [unitxt]: Remove: archive file [/home/abi/fetcher/tmp/unitxt-1.0.7.tar.gz]
+[2023-07-19 09:16:05] INFO root fetch - processPackages [unitxt]: Remove: archive file [/home/abi/fetcher/tmp/unitxt-1.0.9.tar.gz]
+[2023-07-19 09:16:05] INFO root fetch - main [MainThread]: End processing [unitxt]: success
+[2023-07-19 09:16:05] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.8.tar.gz]
+[2023-07-19 09:16:05] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.9.tar.gz]
+[2023-07-19 09:16:05] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-07-19 09:16:05] INFO root fetch - processPackages [yxspkg]: Downloading https://files.pythonhosted.org/packages/7e/bf/a221195649dec2f4c5919f5d972d01beb568006bb8958fd387c423f1aaac/yxspkg-6.9.8-py3-none-any.whl
+[2023-07-19 09:16:05] INFO root fetch - processPackages [bnlearn]: Remove: archive file [/home/abi/fetcher/tmp/bnlearn-0.8.0.tar.gz]
+[2023-07-19 09:16:05] INFO root fetch - processPackages [bnlearn]: Remove: archive file [/home/abi/fetcher/tmp/bnlearn-0.8.1.tar.gz]
+[2023-07-19 09:16:05] INFO root fetch - main [MainThread]: End processing [bnlearn]: success
+[2023-07-19 09:16:05] INFO root fetch - processPackages [yxspkg]: executing diffoscope
+[2023-07-19 09:16:05] INFO root fetch - processPackages [yxspkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yxspkg-6.9.7-py3-none-any.whl.zip tmp/yxspkg-6.9.8-py3-none-any.whl.zip --markdown 20230719/y/yxspkg/6.9.7-6.9.8/diff.md --exclude *.pyd
+[2023-07-19 09:16:05] ERROR root fetch - processPackages [unitxt]: Diffoscope failed: time="2023-07-19T09:16:04+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/unitxt-1.0.7.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/unitxt-1.0.9.tar.gz: No such file or directory
+
+[2023-07-19 09:16:05] INFO root fetch - main [MainThread]: End processing [unitxt] error
+[2023-07-19 09:16:05] INFO root fetch - processPackages [confattr]: executing diffoscope
+[2023-07-19 09:16:05] INFO root fetch - processPackages [confattr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/confattr-0.9.0.tar.gz tmp/confattr-0.9.1.tar.gz --markdown 20230719/c/confattr/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-19 09:16:06] INFO root fetch - processPackages [aleksis-app-resint]: Downloading https://files.pythonhosted.org/packages/c0/f4/c346db50d6653605b8536fdfb3710cf68c09ed41dcc65480cd3e84ec2de7/aleksis_app_resint-3.1.tar.gz
+[2023-07-19 09:16:06] INFO root fetch - processPackages [aleksis-app-resint]: executing diffoscope
+[2023-07-19 09:16:06] INFO root fetch - processPackages [aleksis-app-resint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aleksis_app_resint-3.0b2.tar.gz tmp/aleksis_app_resint-3.1.tar.gz --markdown 20230719/a/aleksis-app-resint/3.0b2-3.1/diff.md --exclude *.pyd
+[2023-07-19 09:16:06] INFO root fetch - processPackages [z4d-certified-devices]: Remove: archive file [/home/abi/fetcher/tmp/z4d-certified-devices-2.76.tar.gz]
+[2023-07-19 09:16:06] INFO root fetch - processPackages [z4d-certified-devices]: Remove: archive file [/home/abi/fetcher/tmp/z4d-certified-devices-2.77.tar.gz]
+[2023-07-19 09:16:06] INFO root fetch - main [MainThread]: End processing [z4d-certified-devices]: success
+[2023-07-19 09:16:06] INFO root fetch - processPackages [yxspkg]: Remove: archive file [/home/abi/fetcher/tmp/yxspkg-6.9.7-py3-none-any.whl.zip]
+[2023-07-19 09:16:06] INFO root fetch - processPackages [yxspkg]: Remove: archive file [/home/abi/fetcher/tmp/yxspkg-6.9.8-py3-none-any.whl.zip]
+[2023-07-19 09:16:06] INFO root fetch - main [MainThread]: End processing [yxspkg]: success
+[2023-07-19 09:16:07] INFO root fetch - processPackages [aleksis-app-resint]: Remove: archive file [/home/abi/fetcher/tmp/aleksis_app_resint-3.0b2.tar.gz]
+[2023-07-19 09:16:07] INFO root fetch - processPackages [aleksis-app-resint]: Remove: archive file [/home/abi/fetcher/tmp/aleksis_app_resint-3.1.tar.gz]
+[2023-07-19 09:16:07] INFO root fetch - main [MainThread]: End processing [aleksis-app-resint]: success
+[2023-07-19 09:16:07] INFO root fetch - processPackages [confattr]: Remove: archive file [/home/abi/fetcher/tmp/confattr-0.9.0.tar.gz]
+[2023-07-19 09:16:07] INFO root fetch - processPackages [confattr]: Remove: archive file [/home/abi/fetcher/tmp/confattr-0.9.1.tar.gz]
+[2023-07-19 09:16:07] INFO root fetch - main [MainThread]: End processing [confattr]: success
+[2023-07-19 09:16:07] INFO root fetch - main [MainThread]: Store serial: [18946538]
