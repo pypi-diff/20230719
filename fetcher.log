@@ -11293,3 +11293,108 @@
 [2023-07-19 05:05:54] INFO root fetch - processPackages [omni-pro]: Remove: archive file [/home/abi/fetcher/tmp/omni-pro-0.1.14.tar.gz]
 [2023-07-19 05:05:54] INFO root fetch - main [MainThread]: End processing [omni-pro]: success
 [2023-07-19 05:05:54] INFO root fetch - main [MainThread]: Store serial: [18944763]
+[2023-07-19 05:10:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18944763]
+[2023-07-19 05:11:03] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-19 05:11:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: replize
+[2023-07-19 05:11:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-contract
+[2023-07-19 05:11:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-contract-sale
+[2023-07-19 05:11:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pysasl
+[2023-07-19 05:11:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-account-credit-control
+[2023-07-19 05:11:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kgraph
+[2023-07-19 05:11:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo13-addon-crm-salesperson-planner
+[2023-07-19 05:11:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk8s-plus-24
+[2023-07-19 05:11:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alibabacloud-dingtalk
+[2023-07-19 05:11:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-crm-salesperson-planner
+[2023-07-19 05:11:03] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.8.98] Old Version: [2.8.97]
+[2023-07-19 05:11:03] INFO root fetch - processPackages [odoo-addon-contract-sale]: New version: [16.0.1.1.0.1] Old Version: [16.0.1.1.0]
+[2023-07-19 05:11:03] INFO root fetch - processPackages [odoo-addon-contract]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-07-19 05:11:03] WARNING root fetch - processPackages [replize]: Skipping, unable to determine old version
+[2023-07-19 05:11:03] INFO root fetch - processPackages [odoo13-addon-crm-salesperson-planner]: New version: [13.0.1.0.1.dev7] Old Version: [13.0.1.0.1.dev6]
+[2023-07-19 05:11:03] INFO root fetch - processPackages [replize]: Start processing: air2phin
+[2023-07-19 05:11:03] INFO root fetch - main [MainThread]: End processing [replize] error
+[2023-07-19 05:11:03] INFO root fetch - processPackages [odoo14-addon-account-credit-control]: New version: [14.0.1.5.1.dev2] Old Version: [14.0.1.5.1.dev1]
+[2023-07-19 05:11:03] INFO root fetch - processPackages [kgraph]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-07-19 05:11:03] INFO root fetch - processPackages [pysasl]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-07-19 05:11:03] INFO root fetch - processPackages [odoo-addon-crm-salesperson-planner]: New version: [15.0.1.0.0.9] Old Version: [15.0.1.0.0.8]
+[2023-07-19 05:11:03] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/f1/3c/045bacb2cfb38f76e343acf88da4c0a1631df3288d3e232bcb03c55f25f6/cdk8s-plus-24-2.8.97.tar.gz
+[2023-07-19 05:11:03] INFO root fetch - processPackages [air2phin]: New version: [0.0.22a1] Old Version: [0.0.22a0]
+[2023-07-19 05:11:03] INFO root fetch - processPackages [alibabacloud-dingtalk]: New version: [2.0.25] Old Version: [2.0.24]
+[2023-07-19 05:11:03] INFO root fetch - processPackages [odoo-addon-contract-sale]: Downloading https://files.pythonhosted.org/packages/48/d2/eb8fcd8b5f222570da4b06f6158658bb50ec7c0cb594f23367d1a6fd0e8b/odoo_addon_contract_sale-16.0.1.1.0-py3-none-any.whl
+[2023-07-19 05:11:03] INFO root fetch - processPackages [air2phin]: Downloading https://files.pythonhosted.org/packages/f1/3a/dea07622d57bb10e1882c0b530f68901ea8230412d87d8d7b46d519d5e29/air2phin-0.0.22a0.tar.gz
+[2023-07-19 05:11:04] INFO root fetch - processPackages [odoo-addon-crm-salesperson-planner]: Downloading https://files.pythonhosted.org/packages/22/68/3d1a171cfebe1c63432eb533b5ebd2de81f241fa20185829d7df15e70ed8/odoo_addon_crm_salesperson_planner-15.0.1.0.0.8-py3-none-any.whl
+[2023-07-19 05:11:04] INFO root fetch - processPackages [odoo-addon-contract]: Downloading https://files.pythonhosted.org/packages/99/a7/03db30c0769c19c6dfb46f11bbab423f60bcb83d5fd0823556a674ce2b24/odoo_addon_contract-16.0.1.0.0.8-py3-none-any.whl
+[2023-07-19 05:11:04] INFO root fetch - processPackages [odoo14-addon-account-credit-control]: Downloading https://files.pythonhosted.org/packages/fc/6e/ff2251f01216d2e35ac71e3ca6ef0812789cc12a8f8f916c4cf1270861b4/odoo14_addon_account_credit_control-14.0.1.5.1.dev1-py3-none-any.whl
+[2023-07-19 05:11:04] INFO root fetch - processPackages [odoo13-addon-crm-salesperson-planner]: Downloading https://files.pythonhosted.org/packages/54/9f/76fd76a84a97632198b99028aa358207999865024d3c9cea62a30b3eb33a/odoo13_addon_crm_salesperson_planner-13.0.1.0.1.dev6-py3-none-any.whl
+[2023-07-19 05:11:04] INFO root fetch - processPackages [kgraph]: Downloading https://files.pythonhosted.org/packages/2b/4f/5d5ac84f6882da94860c982b14be102c0595a63e9ab33b69a5eb6a4932b5/kgraph-1.0.9.tar.gz
+[2023-07-19 05:11:04] INFO root fetch - processPackages [pysasl]: Downloading https://files.pythonhosted.org/packages/66/cd/9d8864829deed8b307af794239d11efc1fdc2b4f482d210cc1fd3595430d/pysasl-1.0.2.tar.gz
+[2023-07-19 05:11:04] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/b5/84/eab24dcba91a29694973ea732085c55bda27ab4ab240f0c440cbac253472/alibabacloud_dingtalk-2.0.24.tar.gz
+[2023-07-19 05:11:04] INFO root fetch - processPackages [odoo-addon-contract-sale]: Downloading https://files.pythonhosted.org/packages/e1/af/612ba9e759606ad571e2ef7b70631ffded20687333dec04987574f1d44a0/odoo_addon_contract_sale-16.0.1.1.0.1-py3-none-any.whl
+[2023-07-19 05:11:04] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/ff/fd/c0655e5dce5ef550c12fe80e2a9182b61148e9d2d389f7346f22717bbd29/cdk8s-plus-24-2.8.98.tar.gz
+[2023-07-19 05:11:04] INFO root fetch - processPackages [air2phin]: Downloading https://files.pythonhosted.org/packages/76/35/9ca5d247065543eea6813646fac8ed37d2d7ab1796a281ef6b0af2eb10da/air2phin-0.0.22a1.tar.gz
+[2023-07-19 05:11:04] INFO root fetch - processPackages [pysasl]: Downloading https://files.pythonhosted.org/packages/f5/62/67eb81312218df873557d0e10be01fe400c75c727446947f7738c593c7c3/pysasl-1.1.0.tar.gz
+[2023-07-19 05:11:04] INFO root fetch - processPackages [odoo-addon-contract-sale]: executing diffoscope
+[2023-07-19 05:11:04] INFO root fetch - processPackages [odoo-addon-contract-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_contract_sale-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_contract_sale-16.0.1.1.0.1-py3-none-any.whl.zip --markdown 20230719/o/odoo-addon-contract-sale/16.0.1.1.0-16.0.1.1.0.1/diff.md --exclude *.pyd
+[2023-07-19 05:11:04] INFO root fetch - processPackages [odoo-addon-crm-salesperson-planner]: Downloading https://files.pythonhosted.org/packages/db/19/04a44b3ea01bb9e3bb87da0091d4fac8beeae92d073eb4430514be340b27/odoo_addon_crm_salesperson_planner-15.0.1.0.0.9-py3-none-any.whl
+[2023-07-19 05:11:04] INFO root fetch - processPackages [odoo13-addon-crm-salesperson-planner]: Downloading https://files.pythonhosted.org/packages/25/8b/d10c93458adb86d2990168852ddf482afa827394e166d5d45814f5fea029/odoo13_addon_crm_salesperson_planner-13.0.1.0.1.dev7-py3-none-any.whl
+[2023-07-19 05:11:04] INFO root fetch - processPackages [kgraph]: Downloading https://files.pythonhosted.org/packages/09/7d/c6e368d166f2caa754cde994a372368a5b07cc8b315852e7654d9bf3b8a8/kgraph-1.1.0.tar.gz
+[2023-07-19 05:11:04] INFO root fetch - processPackages [pysasl]: executing diffoscope
+[2023-07-19 05:11:04] INFO root fetch - processPackages [odoo14-addon-account-credit-control]: Downloading https://files.pythonhosted.org/packages/df/7a/241473cedee18371ea73c14f60df7d12b26963931b8a764b8dc979f51214/odoo14_addon_account_credit_control-14.0.1.5.1.dev2-py3-none-any.whl
+[2023-07-19 05:11:04] INFO root fetch - processPackages [pysasl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysasl-1.0.2.tar.gz tmp/pysasl-1.1.0.tar.gz --markdown 20230719/p/pysasl/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-07-19 05:11:04] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-07-19 05:11:04] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.8.97.tar.gz tmp/cdk8s-plus-24-2.8.98.tar.gz --markdown 20230719/c/cdk8s-plus-24/2.8.97-2.8.98/diff.md --exclude *.pyd
+[2023-07-19 05:11:04] INFO root fetch - processPackages [air2phin]: executing diffoscope
+[2023-07-19 05:11:04] INFO root fetch - processPackages [air2phin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/air2phin-0.0.22a0.tar.gz tmp/air2phin-0.0.22a1.tar.gz --markdown 20230719/a/air2phin/0.0.22a0-0.0.22a1/diff.md --exclude *.pyd
+[2023-07-19 05:11:04] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/0d/3c/5f685588ed7b3fc73eba0e61913c79a4ba82056c49e2645b13661a3d909f/alibabacloud_dingtalk-2.0.25.tar.gz
+[2023-07-19 05:11:04] INFO root fetch - processPackages [odoo13-addon-crm-salesperson-planner]: executing diffoscope
+[2023-07-19 05:11:04] INFO root fetch - processPackages [odoo13-addon-crm-salesperson-planner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_crm_salesperson_planner-13.0.1.0.1.dev6-py3-none-any.whl.zip tmp/odoo13_addon_crm_salesperson_planner-13.0.1.0.1.dev7-py3-none-any.whl.zip --markdown 20230719/o/odoo13-addon-crm-salesperson-planner/13.0.1.0.1.dev6-13.0.1.0.1.dev7/diff.md --exclude *.pyd
+[2023-07-19 05:11:04] INFO root fetch - processPackages [odoo-addon-contract]: Downloading https://files.pythonhosted.org/packages/90/2c/1230fbbbdd02e659b7439af79d8c93c7a637da318a1f22af2a16d44bcdbf/odoo_addon_contract-16.0.1.0.0.9-py3-none-any.whl
+[2023-07-19 05:11:04] INFO root fetch - processPackages [odoo-addon-crm-salesperson-planner]: executing diffoscope
+[2023-07-19 05:11:04] INFO root fetch - processPackages [odoo-addon-crm-salesperson-planner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_crm_salesperson_planner-15.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_crm_salesperson_planner-15.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230719/o/odoo-addon-crm-salesperson-planner/15.0.1.0.0.8-15.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-07-19 05:11:04] INFO root fetch - processPackages [odoo14-addon-account-credit-control]: executing diffoscope
+[2023-07-19 05:11:05] INFO root fetch - processPackages [odoo14-addon-account-credit-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_credit_control-14.0.1.5.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_account_credit_control-14.0.1.5.1.dev2-py3-none-any.whl.zip --markdown 20230719/o/odoo14-addon-account-credit-control/14.0.1.5.1.dev1-14.0.1.5.1.dev2/diff.md --exclude *.pyd
+[2023-07-19 05:11:05] INFO root fetch - processPackages [kgraph]: executing diffoscope
+[2023-07-19 05:11:05] INFO root fetch - processPackages [kgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kgraph-1.0.9.tar.gz tmp/kgraph-1.1.0.tar.gz --markdown 20230719/k/kgraph/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-07-19 05:11:05] INFO root fetch - processPackages [alibabacloud-dingtalk]: executing diffoscope
+[2023-07-19 05:11:05] INFO root fetch - processPackages [alibabacloud-dingtalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dingtalk-2.0.24.tar.gz tmp/alibabacloud_dingtalk-2.0.25.tar.gz --markdown 20230719/a/alibabacloud-dingtalk/2.0.24-2.0.25/diff.md --exclude *.pyd
+[2023-07-19 05:11:05] INFO root fetch - processPackages [odoo-addon-contract]: executing diffoscope
+[2023-07-19 05:11:05] INFO root fetch - processPackages [odoo-addon-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_contract-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_contract-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230719/o/odoo-addon-contract/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-07-19 05:11:06] INFO root fetch - processPackages [odoo-addon-contract-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_contract_sale-16.0.1.1.0-py3-none-any.whl.zip]
+[2023-07-19 05:11:06] INFO root fetch - processPackages [odoo-addon-contract-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_contract_sale-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2023-07-19 05:11:06] INFO root fetch - processPackages [odoo-addon-contract-sale]: Start processing: khoj-assistant
+[2023-07-19 05:11:06] INFO root fetch - main [MainThread]: End processing [odoo-addon-contract-sale]: success
+[2023-07-19 05:11:06] INFO root fetch - processPackages [khoj-assistant]: New version: [0.8.3.dev8] Old Version: [0.8.3.dev48]
+[2023-07-19 05:11:06] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/30/6b/2176cc4f1c5825c389bf9bdbb5d4de7d907db7d7de3d9d15de865009411c/khoj_assistant-0.8.3.dev48.tar.gz
+[2023-07-19 05:11:06] INFO root fetch - processPackages [pysasl]: Remove: archive file [/home/abi/fetcher/tmp/pysasl-1.0.2.tar.gz]
+[2023-07-19 05:11:06] INFO root fetch - processPackages [pysasl]: Remove: archive file [/home/abi/fetcher/tmp/pysasl-1.1.0.tar.gz]
+[2023-07-19 05:11:06] INFO root fetch - main [MainThread]: End processing [pysasl]: success
+[2023-07-19 05:11:06] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.97.tar.gz]
+[2023-07-19 05:11:06] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.98.tar.gz]
+[2023-07-19 05:11:06] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-07-19 05:11:06] INFO root fetch - processPackages [odoo13-addon-crm-salesperson-planner]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_crm_salesperson_planner-13.0.1.0.1.dev6-py3-none-any.whl.zip]
+[2023-07-19 05:11:06] INFO root fetch - processPackages [odoo13-addon-crm-salesperson-planner]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_crm_salesperson_planner-13.0.1.0.1.dev7-py3-none-any.whl.zip]
+[2023-07-19 05:11:06] INFO root fetch - main [MainThread]: End processing [odoo13-addon-crm-salesperson-planner]: success
+[2023-07-19 05:11:06] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/b8/60/b33e303aad0d4d2b6c445eedd3c8f71117cf0cf14fed573f154571bb71e5/khoj_assistant-0.8.3.dev8.tar.gz
+[2023-07-19 05:11:06] INFO root fetch - processPackages [odoo-addon-crm-salesperson-planner]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_salesperson_planner-15.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-07-19 05:11:06] INFO root fetch - processPackages [odoo-addon-crm-salesperson-planner]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_salesperson_planner-15.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-07-19 05:11:06] INFO root fetch - main [MainThread]: End processing [odoo-addon-crm-salesperson-planner]: success
+[2023-07-19 05:11:06] INFO root fetch - processPackages [air2phin]: Remove: archive file [/home/abi/fetcher/tmp/air2phin-0.0.22a0.tar.gz]
+[2023-07-19 05:11:06] INFO root fetch - processPackages [air2phin]: Remove: archive file [/home/abi/fetcher/tmp/air2phin-0.0.22a1.tar.gz]
+[2023-07-19 05:11:06] INFO root fetch - main [MainThread]: End processing [air2phin]: success
+[2023-07-19 05:11:07] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-07-19 05:11:07] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.8.3.dev48.tar.gz tmp/khoj_assistant-0.8.3.dev8.tar.gz --markdown 20230719/k/khoj-assistant/0.8.3.dev48-0.8.3.dev8/diff.md --exclude *.pyd
+[2023-07-19 05:11:07] INFO root fetch - processPackages [odoo14-addon-account-credit-control]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_credit_control-14.0.1.5.1.dev1-py3-none-any.whl.zip]
+[2023-07-19 05:11:07] INFO root fetch - processPackages [odoo14-addon-account-credit-control]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_credit_control-14.0.1.5.1.dev2-py3-none-any.whl.zip]
+[2023-07-19 05:11:07] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-credit-control]: success
+[2023-07-19 05:11:07] INFO root fetch - processPackages [odoo-addon-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_contract-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-07-19 05:11:07] INFO root fetch - processPackages [odoo-addon-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_contract-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-07-19 05:11:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-contract]: success
+[2023-07-19 05:11:08] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.8.3.dev48.tar.gz]
+[2023-07-19 05:11:08] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.8.3.dev8.tar.gz]
+[2023-07-19 05:11:08] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-07-19 05:11:08] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.0.24.tar.gz]
+[2023-07-19 05:11:08] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.0.25.tar.gz]
+[2023-07-19 05:11:08] INFO root fetch - main [MainThread]: End processing [alibabacloud-dingtalk]: success
+[2023-07-19 05:11:09] INFO root fetch - processPackages [kgraph]: Remove: archive file [/home/abi/fetcher/tmp/kgraph-1.0.9.tar.gz]
+[2023-07-19 05:11:09] INFO root fetch - processPackages [kgraph]: Remove: archive file [/home/abi/fetcher/tmp/kgraph-1.1.0.tar.gz]
+[2023-07-19 05:11:09] INFO root fetch - main [MainThread]: End processing [kgraph]: success
+[2023-07-19 05:11:09] INFO root fetch - main [MainThread]: Store serial: [18944798]
