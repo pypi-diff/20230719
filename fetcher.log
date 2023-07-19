@@ -19261,3 +19261,114 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-19 11:12:55] INFO root fetch - processPackages [deepsearch-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/deepsearch_toolkit-0.9.0.tar.gz]
 [2023-07-19 11:12:55] INFO root fetch - main [MainThread]: End processing [deepsearch-toolkit]: success
 [2023-07-19 11:12:55] INFO root fetch - main [MainThread]: Store serial: [18947748]
+[2023-07-19 11:18:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18947748]
+[2023-07-19 11:18:05] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-19 11:18:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: volcengine-python-sdk
+[2023-07-19 11:18:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cosmicexcelchecker
+[2023-07-19 11:18:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fast-transfer
+[2023-07-19 11:18:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simpleflow
+[2023-07-19 11:18:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: assisted-service-client
+[2023-07-19 11:18:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: uncertainty-datatypes
+[2023-07-19 11:18:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tablate
+[2023-07-19 11:18:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: trainy
+[2023-07-19 11:18:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zebrazoom
+[2023-07-19 11:18:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: parallel-corpus-mnbvc
+[2023-07-19 11:18:05] INFO root fetch - processPackages [zebrazoom]: New version: [1.9] Old Version: [1.8]
+[2023-07-19 11:18:05] INFO root fetch - processPackages [simpleflow]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-07-19 11:18:05] INFO root fetch - processPackages [trainy]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-19 11:18:05] INFO root fetch - processPackages [volcengine-python-sdk]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 11:18:05] INFO root fetch - processPackages [uncertainty-datatypes]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-19 11:18:05] INFO root fetch - processPackages [fast-transfer]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-07-19 11:18:05] INFO root fetch - processPackages [cosmicexcelchecker]: New version: [0.2.2b0] Old Version: [0.2.2a0]
+[2023-07-19 11:18:05] INFO root fetch - processPackages [parallel-corpus-mnbvc]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-19 11:18:05] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-07-19 11:18:05] WARNING root fetch - processPackages [tablate]: Skipping, unable to determine old version
+[2023-07-19 11:18:05] INFO root fetch - processPackages [tablate]: Start processing: pistacchio-federated-dataset
+[2023-07-19 11:18:05] INFO root fetch - main [MainThread]: End processing [tablate] error
+[2023-07-19 11:18:05] INFO root fetch - processPackages [zebrazoom]: Downloading https://files.pythonhosted.org/packages/f8/26/fb333d50056298ab69d02c7c0e0fdaeae2e51fca825888178df88926b372/zebrazoom-1.8.tar.gz
+[2023-07-19 11:18:05] INFO root fetch - processPackages [fast-transfer]: Downloading https://files.pythonhosted.org/packages/ba/be/8de8b6e9caf3b25eaa5c3c1d25abb94744652aadaeb15a6bb9eeaa6c40ed/fast_transfer-0.1.3.tar.gz
+[2023-07-19 11:18:05] INFO root fetch - processPackages [parallel-corpus-mnbvc]: Downloading https://files.pythonhosted.org/packages/06/47/9e7b8ee8e42a71bfcb265d85c1b30e61f35ab09d6e6bf69d25cfd36dca28/parallel_corpus_mnbvc-1.0.3.tar.gz
+[2023-07-19 11:18:05] INFO root fetch - processPackages [uncertainty-datatypes]: Downloading https://files.pythonhosted.org/packages/09/64/ca12df1a6ab396b11871a65ca6763c652473683ab72be80602f7a5df685c/uncertainty-datatypes-1.0.3.tar.gz
+[2023-07-19 11:18:05] INFO root fetch - processPackages [volcengine-python-sdk]: Downloading https://files.pythonhosted.org/packages/ff/75/e607b174f4efc875809400aaf720dd84ad23c6cf463baaa0667f9f458263/volcengine-python-sdk-1.0.8.tar.gz
+[2023-07-19 11:18:05] INFO root fetch - processPackages [simpleflow]: Downloading https://files.pythonhosted.org/packages/8f/92/f959ab0a49ae67b4b4826ccb8898cd5e1be9fe11921b8ac4c930fb4eb0b9/simpleflow-0.9.6.tar.gz
+[2023-07-19 11:18:05] WARNING root fetch - processPackages [pistacchio-federated-dataset]: Skipping, unable to determine old version
+[2023-07-19 11:18:05] INFO root fetch - processPackages [pistacchio-federated-dataset]: Start processing: alchql
+[2023-07-19 11:18:05] INFO root fetch - main [MainThread]: End processing [pistacchio-federated-dataset] error
+[2023-07-19 11:18:05] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2023-07-19 11:18:05] INFO root fetch - processPackages [cosmicexcelchecker]: Downloading https://files.pythonhosted.org/packages/f9/de/b830773f66ed02c1f53514dd76bf37edb60f333fe3cc283c0a68f68253ce/cosmicexcelchecker-0.2.2a0.tar.gz
+[2023-07-19 11:18:05] INFO root fetch - processPackages [trainy]: Downloading https://files.pythonhosted.org/packages/a1/74/f7f3160df39f4ad014942d83ad782b9e23c5888ea33dc4979467640cb3fb/trainy-0.1.1.tar.gz
+[2023-07-19 11:18:05] INFO root fetch - processPackages [alchql]: New version: [3.3.1.28931672] Old Version: [3.3.1.28931664]
+[2023-07-19 11:18:06] INFO root fetch - processPackages [alchql]: Downloading https://files.pythonhosted.org/packages/bf/f3/adedfd6c6c806aa8825ff7499af48aa893d7e83808be3c380518c92ed63d/alchql-3.3.1.28931664.tar.gz
+[2023-07-19 11:18:06] INFO root fetch - processPackages [uncertainty-datatypes]: Downloading https://files.pythonhosted.org/packages/92/e5/5600645afee66d72ab0ca8e1843e0869f8a9b3e13a3573a382b39fc751d5/uncertainty-datatypes-1.0.4.tar.gz
+[2023-07-19 11:18:06] INFO root fetch - processPackages [fast-transfer]: Downloading https://files.pythonhosted.org/packages/cf/5a/3f97fa185ac948d7ad1a7bfe0b31850be4e3dbf78c51cc0c25af2baeeffc/fast_transfer-0.2.0.tar.gz
+[2023-07-19 11:18:06] INFO root fetch - processPackages [parallel-corpus-mnbvc]: Downloading https://files.pythonhosted.org/packages/75/8e/31f63c7335b47d46dd77afc6720630d253c7c23c979c28d46827ae93b35b/parallel_corpus_mnbvc-1.0.4.tar.gz
+[2023-07-19 11:18:06] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2023-07-19 11:18:06] INFO root fetch - processPackages [volcengine-python-sdk]: Downloading https://files.pythonhosted.org/packages/53/6e/bc2e8996b329c0459547989d687871830a3d17036f25d8455e66ffe3b1a8/volcengine-python-sdk-1.0.9.tar.gz
+[2023-07-19 11:18:06] INFO root fetch - processPackages [cosmicexcelchecker]: Downloading https://files.pythonhosted.org/packages/66/f1/ff1473c165e4eb2aa82a97198d031d40666c4e26926bff8d55ccafc1a89b/cosmicexcelchecker-0.2.2b0.tar.gz
+[2023-07-19 11:18:06] INFO root fetch - processPackages [simpleflow]: Downloading https://files.pythonhosted.org/packages/a0/79/de24855ad4b72a81b096f80770f29894c4d78acb0452fcd6b71e4fe700d3/simpleflow-0.9.7.tar.gz
+[2023-07-19 11:18:06] INFO root fetch - processPackages [zebrazoom]: Downloading https://files.pythonhosted.org/packages/29/37/9f2aaa64707bbcd24502e836857b6c572452e441dc5bb3229137d00bfa9b/zebrazoom-1.9.tar.gz
+[2023-07-19 11:18:06] INFO root fetch - processPackages [uncertainty-datatypes]: executing diffoscope
+[2023-07-19 11:18:06] INFO root fetch - processPackages [uncertainty-datatypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uncertainty-datatypes-1.0.3.tar.gz tmp/uncertainty-datatypes-1.0.4.tar.gz --markdown 20230719/u/uncertainty-datatypes/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-19 11:18:06] INFO root fetch - processPackages [parallel-corpus-mnbvc]: executing diffoscope
+[2023-07-19 11:18:06] INFO root fetch - processPackages [parallel-corpus-mnbvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parallel_corpus_mnbvc-1.0.3.tar.gz tmp/parallel_corpus_mnbvc-1.0.4.tar.gz --markdown 20230719/p/parallel-corpus-mnbvc/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-19 11:18:06] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-07-19 11:18:06] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230719/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-07-19 11:18:06] INFO root fetch - processPackages [trainy]: Downloading https://files.pythonhosted.org/packages/5f/c8/ca6026656d23fd1ed73ae8e2e63bcd46d1c22b86252283da56bc31cdcf69/trainy-0.1.2.tar.gz
+[2023-07-19 11:18:06] INFO root fetch - processPackages [fast-transfer]: executing diffoscope
+[2023-07-19 11:18:06] INFO root fetch - processPackages [fast-transfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_transfer-0.1.3.tar.gz tmp/fast_transfer-0.2.0.tar.gz --markdown 20230719/f/fast-transfer/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-07-19 11:18:06] INFO root fetch - processPackages [alchql]: Downloading https://files.pythonhosted.org/packages/ba/ae/392e64798f53e24469c8e723734ba1687f90d78d2e008604eb54961c704b/alchql-3.3.1.28931672-py2.py3-none-any.whl
+[2023-07-19 11:18:06] INFO root fetch - processPackages [volcengine-python-sdk]: executing diffoscope
+[2023-07-19 11:18:06] INFO root fetch - processPackages [volcengine-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volcengine-python-sdk-1.0.8.tar.gz tmp/volcengine-python-sdk-1.0.9.tar.gz --markdown 20230719/v/volcengine-python-sdk/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 11:18:06] INFO root fetch - processPackages [cosmicexcelchecker]: executing diffoscope
+[2023-07-19 11:18:06] INFO root fetch - processPackages [cosmicexcelchecker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cosmicexcelchecker-0.2.2a0.tar.gz tmp/cosmicexcelchecker-0.2.2b0.tar.gz --markdown 20230719/c/cosmicexcelchecker/0.2.2a0-0.2.2b0/diff.md --exclude *.pyd
+[2023-07-19 11:18:06] INFO root fetch - processPackages [alchql]: executing diffoscope
+[2023-07-19 11:18:06] INFO root fetch - processPackages [alchql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alchql-3.3.1.28931664.tar.gz tmp/alchql-3.3.1.28931672-py2.py3-none-any.whl.zip --markdown 20230719/a/alchql/3.3.1.28931664-3.3.1.28931672/diff.md --exclude *.pyd
+[2023-07-19 11:18:06] INFO root fetch - processPackages [trainy]: executing diffoscope
+[2023-07-19 11:18:06] INFO root fetch - processPackages [trainy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trainy-0.1.1.tar.gz tmp/trainy-0.1.2.tar.gz --markdown 20230719/t/trainy/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-19 11:18:06] INFO root fetch - processPackages [simpleflow]: executing diffoscope
+[2023-07-19 11:18:06] INFO root fetch - processPackages [simpleflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpleflow-0.9.6.tar.gz tmp/simpleflow-0.9.7.tar.gz --markdown 20230719/s/simpleflow/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-07-19 11:18:06] INFO root fetch - processPackages [zebrazoom]: executing diffoscope
+[2023-07-19 11:18:06] INFO root fetch - processPackages [zebrazoom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zebrazoom-1.8.tar.gz tmp/zebrazoom-1.9.tar.gz --markdown 20230719/z/zebrazoom/1.8-1.9/diff.md --exclude *.pyd
+[2023-07-19 11:18:09] INFO root fetch - processPackages [parallel-corpus-mnbvc]: Remove: archive file [/home/abi/fetcher/tmp/parallel_corpus_mnbvc-1.0.3.tar.gz]
+[2023-07-19 11:18:09] INFO root fetch - processPackages [parallel-corpus-mnbvc]: Remove: archive file [/home/abi/fetcher/tmp/parallel_corpus_mnbvc-1.0.4.tar.gz]
+[2023-07-19 11:18:09] INFO root fetch - processPackages [parallel-corpus-mnbvc]: Start processing: alchql
+[2023-07-19 11:18:09] INFO root fetch - main [MainThread]: End processing [parallel-corpus-mnbvc]: success
+[2023-07-19 11:18:09] INFO root fetch - processPackages [alchql]: New version: [3.3.2.28985942] Old Version: [3.3.2.28985935]
+[2023-07-19 11:18:10] INFO root fetch - processPackages [fast-transfer]: Remove: archive file [/home/abi/fetcher/tmp/fast_transfer-0.1.3.tar.gz]
+[2023-07-19 11:18:10] INFO root fetch - processPackages [fast-transfer]: Remove: archive file [/home/abi/fetcher/tmp/fast_transfer-0.2.0.tar.gz]
+[2023-07-19 11:18:10] INFO root fetch - processPackages [fast-transfer]: Start processing: khmernormalizer
+[2023-07-19 11:18:10] INFO root fetch - main [MainThread]: End processing [fast-transfer]: success
+[2023-07-19 11:18:10] WARNING root fetch - processPackages [khmernormalizer]: Skipping, unable to determine old version
+[2023-07-19 11:18:10] INFO root fetch - main [MainThread]: End processing [khmernormalizer] error
+[2023-07-19 11:18:10] INFO root fetch - processPackages [alchql]: Downloading https://files.pythonhosted.org/packages/e9/4c/ee57d7968dcabfa90c5d02e2cb7199d6eb98af61269c6bacf7d585f6dfef/alchql-3.3.2.28985935.tar.gz
+[2023-07-19 11:18:10] INFO root fetch - processPackages [trainy]: Remove: archive file [/home/abi/fetcher/tmp/trainy-0.1.1.tar.gz]
+[2023-07-19 11:18:10] INFO root fetch - processPackages [trainy]: Remove: archive file [/home/abi/fetcher/tmp/trainy-0.1.2.tar.gz]
+[2023-07-19 11:18:10] INFO root fetch - main [MainThread]: End processing [trainy]: success
+[2023-07-19 11:18:10] INFO root fetch - processPackages [alchql]: Remove: archive file [/home/abi/fetcher/tmp/alchql-3.3.1.28931664.tar.gz]
+[2023-07-19 11:18:10] INFO root fetch - processPackages [alchql]: Remove: archive file [/home/abi/fetcher/tmp/alchql-3.3.1.28931672-py2.py3-none-any.whl.zip]
+[2023-07-19 11:18:10] INFO root fetch - main [MainThread]: End processing [alchql]: success
+[2023-07-19 11:18:10] INFO root fetch - processPackages [uncertainty-datatypes]: Remove: archive file [/home/abi/fetcher/tmp/uncertainty-datatypes-1.0.3.tar.gz]
+[2023-07-19 11:18:10] INFO root fetch - processPackages [uncertainty-datatypes]: Remove: archive file [/home/abi/fetcher/tmp/uncertainty-datatypes-1.0.4.tar.gz]
+[2023-07-19 11:18:10] INFO root fetch - main [MainThread]: End processing [uncertainty-datatypes]: success
+[2023-07-19 11:18:10] INFO root fetch - processPackages [cosmicexcelchecker]: Remove: archive file [/home/abi/fetcher/tmp/cosmicexcelchecker-0.2.2a0.tar.gz]
+[2023-07-19 11:18:10] INFO root fetch - processPackages [cosmicexcelchecker]: Remove: archive file [/home/abi/fetcher/tmp/cosmicexcelchecker-0.2.2b0.tar.gz]
+[2023-07-19 11:18:10] INFO root fetch - main [MainThread]: End processing [cosmicexcelchecker]: success
+[2023-07-19 11:18:10] INFO root fetch - processPackages [simpleflow]: Remove: archive file [/home/abi/fetcher/tmp/simpleflow-0.9.6.tar.gz]
+[2023-07-19 11:18:10] INFO root fetch - processPackages [simpleflow]: Remove: archive file [/home/abi/fetcher/tmp/simpleflow-0.9.7.tar.gz]
+[2023-07-19 11:18:10] INFO root fetch - main [MainThread]: End processing [simpleflow]: success
+[2023-07-19 11:18:10] INFO root fetch - processPackages [alchql]: Downloading https://files.pythonhosted.org/packages/5d/79/ad9f13296bf578d649536c7a3dd8666ec03ffa1a3821df423a6145f88951/alchql-3.3.2.28985942-py2.py3-none-any.whl
+[2023-07-19 11:18:10] INFO root fetch - processPackages [alchql]: executing diffoscope
+[2023-07-19 11:18:10] INFO root fetch - processPackages [alchql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alchql-3.3.2.28985935.tar.gz tmp/alchql-3.3.2.28985942-py2.py3-none-any.whl.zip --markdown 20230719/a/alchql/3.3.2.28985935-3.3.2.28985942/diff.md --exclude *.pyd
+[2023-07-19 11:18:11] INFO root fetch - processPackages [zebrazoom]: Remove: archive file [/home/abi/fetcher/tmp/zebrazoom-1.8.tar.gz]
+[2023-07-19 11:18:11] INFO root fetch - processPackages [zebrazoom]: Remove: archive file [/home/abi/fetcher/tmp/zebrazoom-1.9.tar.gz]
+[2023-07-19 11:18:11] INFO root fetch - main [MainThread]: End processing [zebrazoom]: success
+[2023-07-19 11:18:11] INFO root fetch - processPackages [alchql]: Remove: archive file [/home/abi/fetcher/tmp/alchql-3.3.2.28985935.tar.gz]
+[2023-07-19 11:18:11] INFO root fetch - processPackages [alchql]: Remove: archive file [/home/abi/fetcher/tmp/alchql-3.3.2.28985942-py2.py3-none-any.whl.zip]
+[2023-07-19 11:18:11] INFO root fetch - main [MainThread]: End processing [alchql]: success
+[2023-07-19 11:18:12] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2023-07-19 11:18:12] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2023-07-19 11:18:12] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-07-19 11:18:21] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.8.tar.gz]
+[2023-07-19 11:18:21] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.9.tar.gz]
+[2023-07-19 11:18:21] INFO root fetch - main [MainThread]: End processing [volcengine-python-sdk]: success
+[2023-07-19 11:18:21] INFO root fetch - main [MainThread]: Store serial: [18947790]
