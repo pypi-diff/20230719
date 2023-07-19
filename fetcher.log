@@ -5300,3 +5300,87 @@
 [2023-07-19 02:57:36] INFO root fetch - processPackages [tccli-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tccli-intl-en-3.0.99.1.tar.gz]
 [2023-07-19 02:57:36] INFO root fetch - main [MainThread]: End processing [tccli-intl-en]: success
 [2023-07-19 02:57:36] INFO root fetch - main [MainThread]: Store serial: [18942644]
+[2023-07-19 03:02:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18942644]
+[2023-07-19 03:02:45] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-19 03:02:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: landingai
+[2023-07-19 03:02:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openla-feature-representation
+[2023-07-19 03:02:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: garth
+[2023-07-19 03:02:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tfds-nightly
+[2023-07-19 03:02:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fronts
+[2023-07-19 03:02:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-sdk-python-intl-en
+[2023-07-19 03:02:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sphinx-astrorefs
+[2023-07-19 03:02:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: brokersystem
+[2023-07-19 03:02:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aeppl-nightly
+[2023-07-19 03:02:46] INFO root fetch - processPackages [garth]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-19 03:02:46] INFO root fetch - processPackages [openla-feature-representation]: New version: [0.1.1a2] Old Version: [0.1.0a5]
+[2023-07-19 03:02:46] INFO root fetch - processPackages [fronts]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-19 03:02:46] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20230719] Old Version: [0.1.5.dev20230718]
+[2023-07-19 03:02:46] INFO root fetch - processPackages [openla-feature-representation]: Downloading https://files.pythonhosted.org/packages/48/ae/7fe65ca9f7c77cd6e97dc7b914a89e2720dd1ecf8a471baa04b4c2e00c9b/openla_feature_representation-0.1.0a5.tar.gz
+[2023-07-19 03:02:46] INFO root fetch - processPackages [brokersystem]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-19 03:02:46] INFO root fetch - processPackages [sphinx-astrorefs]: New version: [0.9] Old Version: [0.8]
+[2023-07-19 03:02:46] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: New version: [3.0.99] Old Version: [3.0.98]
+[2023-07-19 03:02:46] INFO root fetch - processPackages [landingai]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-19 03:02:46] INFO root fetch - processPackages [garth]: Downloading https://files.pythonhosted.org/packages/41/e4/5c761d7438ab1ac76dfbdcf8829323f3aff92edb58871f556db61c125a2c/garth-0.1.8.tar.gz
+[2023-07-19 03:02:46] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202307190059] Old Version: [4.9.2.dev202307180050]
+[2023-07-19 03:02:46] INFO root fetch - processPackages [fronts]: Downloading https://files.pythonhosted.org/packages/d2/32/fced7b17f68874c47e2427f41ac37139ef64cbcaa0b483b68a92e24c47a7/fronts-1.0.1.tar.gz
+[2023-07-19 03:02:46] INFO root fetch - processPackages [openla-feature-representation]: Downloading https://files.pythonhosted.org/packages/f4/71/cddfd9a86d0a2b40ecb88d8d6a2e0e2341ee516cb7c4215b65c82fc02037/openla_feature_representation-0.1.1a2.tar.gz
+[2023-07-19 03:02:46] INFO root fetch - processPackages [brokersystem]: Downloading https://files.pythonhosted.org/packages/2e/76/69370a01732f4c618ea71806094f26b6aa6a8a23ba797a88ec2334cb0599/brokersystem-0.2.4.tar.gz
+[2023-07-19 03:02:46] INFO root fetch - processPackages [sphinx-astrorefs]: Downloading https://files.pythonhosted.org/packages/73/22/a2cf8fe50d3d85e5900f25cabb9f7c1f2b757638ffcd1ec0785b88a76efe/sphinx-astrorefs-0.8.tar.gz
+[2023-07-19 03:02:46] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/47/ec/491739e9cb7da970b8f280ea2383dc94da0c3d39e938ac559e0f2e52aea8/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz
+[2023-07-19 03:02:46] INFO root fetch - processPackages [garth]: Downloading https://files.pythonhosted.org/packages/c4/87/dd51ac50e07f0c6aa28dd3c6a1612f7faeaa7c63d8ce1ae0dcc0efbd1fd0/garth-0.1.9.tar.gz
+[2023-07-19 03:02:46] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/dc/62/f49a0ae92007f9e79785d9b99d59c33f5cb5ceac68196ddd5ddb7426956d/landingai-0.2.7.tar.gz
+[2023-07-19 03:02:46] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/7a/dc/4d0526e03d0bd31e6198672e92104aef75d2b2131f50b1e1a24d18dc11b8/aeppl-nightly-0.1.5.dev20230718.tar.gz
+[2023-07-19 03:02:46] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/58/01/0cfe54773e42d89d36b85018128049eea2a364a75c8bc74fd3c9550e734b/tfds-nightly-4.9.2.dev202307180050.tar.gz
+[2023-07-19 03:02:46] INFO root fetch - processPackages [openla-feature-representation]: executing diffoscope
+[2023-07-19 03:02:46] INFO root fetch - processPackages [openla-feature-representation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openla_feature_representation-0.1.0a5.tar.gz tmp/openla_feature_representation-0.1.1a2.tar.gz --markdown 20230719/o/openla-feature-representation/0.1.0a5-0.1.1a2/diff.md --exclude *.pyd
+[2023-07-19 03:02:46] INFO root fetch - processPackages [garth]: executing diffoscope
+[2023-07-19 03:02:46] INFO root fetch - processPackages [garth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garth-0.1.8.tar.gz tmp/garth-0.1.9.tar.gz --markdown 20230719/g/garth/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-19 03:02:46] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/d4/e5/59748a6b15bee19a5935d0564dc96c349f80b0101c346fc469da7cc5c5d3/aeppl-nightly-0.1.5.dev20230719.tar.gz
+[2023-07-19 03:02:46] INFO root fetch - processPackages [fronts]: Downloading https://files.pythonhosted.org/packages/76/3f/2cce5df07217ab68ec08836673ff35f1b1f17528175dfa333383d429e1b3/fronts-1.0.2.tar.gz
+[2023-07-19 03:02:46] INFO root fetch - processPackages [sphinx-astrorefs]: Downloading https://files.pythonhosted.org/packages/61/c5/1175c63b94b4d978690210e69e148061e890cf083403a37dbf67c34b4de3/sphinx-astrorefs-0.9.tar.gz
+[2023-07-19 03:02:47] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/bc/c0/71eef7e0f41b4a8a1e9500693e4380635b9d17e959fbda8bd8ff906c519e/landingai-0.2.8.tar.gz
+[2023-07-19 03:02:47] INFO root fetch - processPackages [brokersystem]: Downloading https://files.pythonhosted.org/packages/c0/be/a7de8c9c568b1f3f1e5dc27a7185e69fecdc35ab439a80ffcf9e01a0bb89/brokersystem-0.2.5.tar.gz
+[2023-07-19 03:02:47] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/29/08/f6c83d9bfbd96b2488075a7e22f07fb621a533bd56f205e07dfaa2630af8/tfds-nightly-4.9.2.dev202307190059.tar.gz
+[2023-07-19 03:02:47] INFO root fetch - processPackages [fronts]: executing diffoscope
+[2023-07-19 03:02:47] INFO root fetch - processPackages [fronts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fronts-1.0.1.tar.gz tmp/fronts-1.0.2.tar.gz --markdown 20230719/f/fronts/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-19 03:02:47] INFO root fetch - processPackages [sphinx-astrorefs]: executing diffoscope
+[2023-07-19 03:02:47] INFO root fetch - processPackages [sphinx-astrorefs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx-astrorefs-0.8.tar.gz tmp/sphinx-astrorefs-0.9.tar.gz --markdown 20230719/s/sphinx-astrorefs/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-19 03:02:47] INFO root fetch - processPackages [brokersystem]: executing diffoscope
+[2023-07-19 03:02:47] INFO root fetch - processPackages [brokersystem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brokersystem-0.2.4.tar.gz tmp/brokersystem-0.2.5.tar.gz --markdown 20230719/b/brokersystem/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-19 03:02:47] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/ee/9c/2dcfed598218dfd2d81fa3078c736962b265e5ae724bec2686e853a74d71/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz
+[2023-07-19 03:02:47] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2023-07-19 03:02:47] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl-nightly-0.1.5.dev20230718.tar.gz tmp/aeppl-nightly-0.1.5.dev20230719.tar.gz --markdown 20230719/a/aeppl-nightly/0.1.5.dev20230718-0.1.5.dev20230719/diff.md --exclude *.pyd
+[2023-07-19 03:02:47] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-07-19 03:02:47] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202307180050.tar.gz tmp/tfds-nightly-4.9.2.dev202307190059.tar.gz --markdown 20230719/t/tfds-nightly/4.9.2.dev202307180050-4.9.2.dev202307190059/diff.md --exclude *.pyd
+[2023-07-19 03:02:47] INFO root fetch - processPackages [landingai]: executing diffoscope
+[2023-07-19 03:02:47] INFO root fetch - processPackages [landingai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landingai-0.2.7.tar.gz tmp/landingai-0.2.8.tar.gz --markdown 20230719/l/landingai/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-19 03:02:47] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: executing diffoscope
+[2023-07-19 03:02:47] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz --markdown 20230719/t/tencentcloud-sdk-python-intl-en/3.0.98-3.0.99/diff.md --exclude *.pyd
+[2023-07-19 03:02:47] INFO root fetch - processPackages [garth]: Remove: archive file [/home/abi/fetcher/tmp/garth-0.1.8.tar.gz]
+[2023-07-19 03:02:47] INFO root fetch - processPackages [garth]: Remove: archive file [/home/abi/fetcher/tmp/garth-0.1.9.tar.gz]
+[2023-07-19 03:02:47] INFO root fetch - main [MainThread]: End processing [garth]: success
+[2023-07-19 03:02:47] INFO root fetch - processPackages [openla-feature-representation]: Remove: archive file [/home/abi/fetcher/tmp/openla_feature_representation-0.1.0a5.tar.gz]
+[2023-07-19 03:02:47] INFO root fetch - processPackages [openla-feature-representation]: Remove: archive file [/home/abi/fetcher/tmp/openla_feature_representation-0.1.1a2.tar.gz]
+[2023-07-19 03:02:47] INFO root fetch - main [MainThread]: End processing [openla-feature-representation]: success
+[2023-07-19 03:02:48] INFO root fetch - processPackages [brokersystem]: Remove: archive file [/home/abi/fetcher/tmp/brokersystem-0.2.4.tar.gz]
+[2023-07-19 03:02:48] INFO root fetch - processPackages [brokersystem]: Remove: archive file [/home/abi/fetcher/tmp/brokersystem-0.2.5.tar.gz]
+[2023-07-19 03:02:48] INFO root fetch - main [MainThread]: End processing [brokersystem]: success
+[2023-07-19 03:02:48] INFO root fetch - processPackages [sphinx-astrorefs]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-astrorefs-0.8.tar.gz]
+[2023-07-19 03:02:48] INFO root fetch - processPackages [sphinx-astrorefs]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-astrorefs-0.9.tar.gz]
+[2023-07-19 03:02:48] INFO root fetch - main [MainThread]: End processing [sphinx-astrorefs]: success
+[2023-07-19 03:02:48] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20230718.tar.gz]
+[2023-07-19 03:02:48] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20230719.tar.gz]
+[2023-07-19 03:02:48] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2023-07-19 03:02:48] INFO root fetch - processPackages [fronts]: Remove: archive file [/home/abi/fetcher/tmp/fronts-1.0.1.tar.gz]
+[2023-07-19 03:02:48] INFO root fetch - processPackages [fronts]: Remove: archive file [/home/abi/fetcher/tmp/fronts-1.0.2.tar.gz]
+[2023-07-19 03:02:48] INFO root fetch - main [MainThread]: End processing [fronts]: success
+[2023-07-19 03:02:48] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.2.7.tar.gz]
+[2023-07-19 03:02:48] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.2.8.tar.gz]
+[2023-07-19 03:02:48] INFO root fetch - main [MainThread]: End processing [landingai]: success
+[2023-07-19 03:02:49] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz]
+[2023-07-19 03:02:49] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz]
+[2023-07-19 03:02:49] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-intl-en]: success
+[2023-07-19 03:02:53] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202307180050.tar.gz]
+[2023-07-19 03:02:53] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202307190059.tar.gz]
+[2023-07-19 03:02:53] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-07-19 03:02:53] INFO root fetch - main [MainThread]: Store serial: [18942669]
