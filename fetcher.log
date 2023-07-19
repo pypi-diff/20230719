@@ -13333,3 +13333,81 @@
 [2023-07-19 06:48:02] INFO root fetch - processPackages [odoo-addon-pos-payment-change]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_pos_payment_change-16.0.1.0.0.8-py3-none-any.whl.zip]
 [2023-07-19 06:48:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-pos-payment-change]: success
 [2023-07-19 06:48:02] INFO root fetch - main [MainThread]: Store serial: [18945457]
+[2023-07-19 06:53:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18945457]
+[2023-07-19 06:53:11] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-19 06:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: playgroundrl-envs
+[2023-07-19 06:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-url-tokenizer
+[2023-07-19 06:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hasso
+[2023-07-19 06:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vessl
+[2023-07-19 06:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sdbsxwf
+[2023-07-19 06:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-project-scrum
+[2023-07-19 06:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alibabacloud-pai-dlc20201203-py2
+[2023-07-19 06:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alibabacloud-pai-dlc20201203
+[2023-07-19 06:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: weba
+[2023-07-19 06:53:11] INFO root fetch - processPackages [django-url-tokenizer]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 06:53:11] INFO root fetch - processPackages [sdbsxwf]: New version: [20230718] Old Version: [20230713]
+[2023-07-19 06:53:11] INFO root fetch - processPackages [playgroundrl-envs]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-19 06:53:11] INFO root fetch - processPackages [odoo14-addon-project-scrum]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev8]
+[2023-07-19 06:53:11] INFO root fetch - processPackages [hasso]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-19 06:53:11] INFO root fetch - processPackages [alibabacloud-pai-dlc20201203]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-07-19 06:53:11] INFO root fetch - processPackages [alibabacloud-pai-dlc20201203-py2]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-07-19 06:53:11] INFO root fetch - processPackages [sdbsxwf]: Downloading https://files.pythonhosted.org/packages/8d/30/4b2bfe529611552144d633c2a040d36c79d495430ce260f45c5145162bbd/sdbsxwf-20230713.tar.gz
+[2023-07-19 06:53:11] WARNING root fetch - processPackages [weba]: Skipping, unable to determine old version
+[2023-07-19 06:53:11] INFO root fetch - main [MainThread]: End processing [weba] error
+[2023-07-19 06:53:11] INFO root fetch - processPackages [vessl]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-19 06:53:11] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/58/fc/c297e12ea86d40bc35c3034412e468c38bef18667e6adfe0b24802b0e417/django-url-tokenizer-0.0.8.tar.gz
+[2023-07-19 06:53:11] INFO root fetch - processPackages [playgroundrl-envs]: Downloading https://files.pythonhosted.org/packages/6e/85/23ce97fa41e4b21e2b05c93c4817690b828a9bfc35d6c38f4dc06f996748/playgroundrl_envs-0.0.6.tar.gz
+[2023-07-19 06:53:12] INFO root fetch - processPackages [hasso]: Downloading https://files.pythonhosted.org/packages/7d/94/dfb839dcc46f86f1722e83bf292ac4915d2eb31a4e2dec7fbcee96c5783f/hasso-0.0.2.tar.gz
+[2023-07-19 06:53:12] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/c5/13/df27d1141ec44b1c35f247440fc5cb506efe40a15cbed84328a82cab2d67/django-url-tokenizer-0.0.9.tar.gz
+[2023-07-19 06:53:12] INFO root fetch - processPackages [odoo14-addon-project-scrum]: Downloading https://files.pythonhosted.org/packages/b9/dc/63f8367ebefe40a901574746e2b0688d6004203e10453272a876b55baa90/odoo14_addon_project_scrum-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-07-19 06:53:12] INFO root fetch - processPackages [alibabacloud-pai-dlc20201203-py2]: Downloading https://files.pythonhosted.org/packages/d0/4f/c4c4add60ca0a3f60f57515f8ac0665113901d7d898f2b86630044ef450e/alibabacloud_pai-dlc20201203_py2-1.2.5.tar.gz
+[2023-07-19 06:53:12] INFO root fetch - processPackages [alibabacloud-pai-dlc20201203]: Downloading https://files.pythonhosted.org/packages/77/de/a8dc54b320daf2e10513ed9a425b41cbbbd4dceed1010393d9e9c3024e17/alibabacloud_pai-dlc20201203-1.2.6.tar.gz
+[2023-07-19 06:53:12] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/38/7d/1b2b94a1083188f3376a0af9cb2701abb4c084a8e0608a25f97e191ab3e7/vessl-0.1.98.tar.gz
+[2023-07-19 06:53:12] INFO root fetch - processPackages [django-url-tokenizer]: executing diffoscope
+[2023-07-19 06:53:12] INFO root fetch - processPackages [django-url-tokenizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-url-tokenizer-0.0.8.tar.gz tmp/django-url-tokenizer-0.0.9.tar.gz --markdown 20230719/d/django-url-tokenizer/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 06:53:12] INFO root fetch - processPackages [sdbsxwf]: Downloading https://files.pythonhosted.org/packages/cb/42/d97c1a1d2b6bb744581738e367156c0a712decdfba126d657acac6544513/sdbsxwf-20230718.tar.gz
+[2023-07-19 06:53:12] INFO root fetch - processPackages [playgroundrl-envs]: Downloading https://files.pythonhosted.org/packages/71/d1/527f0f89dcded24252eea52984c4b689675442f25045665140fee76ebc56/playgroundrl_envs-0.0.7.tar.gz
+[2023-07-19 06:53:12] INFO root fetch - processPackages [sdbsxwf]: executing diffoscope
+[2023-07-19 06:53:12] INFO root fetch - processPackages [sdbsxwf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdbsxwf-20230713.tar.gz tmp/sdbsxwf-20230718.tar.gz --markdown 20230719/s/sdbsxwf/20230713-20230718/diff.md --exclude *.pyd
+[2023-07-19 06:53:12] INFO root fetch - processPackages [playgroundrl-envs]: executing diffoscope
+[2023-07-19 06:53:12] INFO root fetch - processPackages [playgroundrl-envs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playgroundrl_envs-0.0.6.tar.gz tmp/playgroundrl_envs-0.0.7.tar.gz --markdown 20230719/p/playgroundrl-envs/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-19 06:53:12] INFO root fetch - processPackages [hasso]: Downloading https://files.pythonhosted.org/packages/e9/cb/62a87e7623be3ff9ba3e9bb91aa0d4da769158c8d2ed5d4c896d08e7b7e2/hasso-0.0.3.tar.gz
+[2023-07-19 06:53:12] INFO root fetch - processPackages [alibabacloud-pai-dlc20201203]: Downloading https://files.pythonhosted.org/packages/fc/76/a64f2daa47785904666d092026f7648a2873c597d6f26b9a6b9832f64d0a/alibabacloud_pai-dlc20201203-1.2.7.tar.gz
+[2023-07-19 06:53:12] INFO root fetch - processPackages [alibabacloud-pai-dlc20201203-py2]: Downloading https://files.pythonhosted.org/packages/88/38/4b082d25e11bd43bcc99a4ebae773eeb9fde6c44f91d0636f5c6032331e4/alibabacloud_pai-dlc20201203_py2-1.2.6.tar.gz
+[2023-07-19 06:53:12] INFO root fetch - processPackages [odoo14-addon-project-scrum]: Downloading https://files.pythonhosted.org/packages/f6/fb/9d2304aec76a914fbaebfc595a0cc31fa2e13884f8aa14119f06f242b37d/odoo14_addon_project_scrum-14.0.1.0.1.dev9-py3-none-any.whl
+[2023-07-19 06:53:12] INFO root fetch - processPackages [hasso]: executing diffoscope
+[2023-07-19 06:53:12] INFO root fetch - processPackages [hasso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hasso-0.0.2.tar.gz tmp/hasso-0.0.3.tar.gz --markdown 20230719/h/hasso/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-19 06:53:12] INFO root fetch - processPackages [alibabacloud-pai-dlc20201203]: executing diffoscope
+[2023-07-19 06:53:12] INFO root fetch - processPackages [alibabacloud-pai-dlc20201203]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_pai-dlc20201203-1.2.6.tar.gz tmp/alibabacloud_pai-dlc20201203-1.2.7.tar.gz --markdown 20230719/a/alibabacloud-pai-dlc20201203/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-07-19 06:53:12] INFO root fetch - processPackages [alibabacloud-pai-dlc20201203-py2]: executing diffoscope
+[2023-07-19 06:53:12] INFO root fetch - processPackages [alibabacloud-pai-dlc20201203-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_pai-dlc20201203_py2-1.2.5.tar.gz tmp/alibabacloud_pai-dlc20201203_py2-1.2.6.tar.gz --markdown 20230719/a/alibabacloud-pai-dlc20201203-py2/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-07-19 06:53:12] INFO root fetch - processPackages [odoo14-addon-project-scrum]: executing diffoscope
+[2023-07-19 06:53:12] INFO root fetch - processPackages [odoo14-addon-project-scrum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_project_scrum-14.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_project_scrum-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230719/o/odoo14-addon-project-scrum/14.0.1.0.1.dev8-14.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-07-19 06:53:13] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/21/b8/cbd9a61ba9f582b647d4ef42d4b54900e40293bc599bde0a7f1fe73974bc/vessl-0.1.99.tar.gz
+[2023-07-19 06:53:13] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.8.tar.gz]
+[2023-07-19 06:53:13] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.9.tar.gz]
+[2023-07-19 06:53:13] INFO root fetch - main [MainThread]: End processing [django-url-tokenizer]: success
+[2023-07-19 06:53:13] INFO root fetch - processPackages [vessl]: executing diffoscope
+[2023-07-19 06:53:13] INFO root fetch - processPackages [vessl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vessl-0.1.98.tar.gz tmp/vessl-0.1.99.tar.gz --markdown 20230719/v/vessl/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-19 06:53:13] INFO root fetch - processPackages [sdbsxwf]: Remove: archive file [/home/abi/fetcher/tmp/sdbsxwf-20230713.tar.gz]
+[2023-07-19 06:53:13] INFO root fetch - processPackages [sdbsxwf]: Remove: archive file [/home/abi/fetcher/tmp/sdbsxwf-20230718.tar.gz]
+[2023-07-19 06:53:13] INFO root fetch - main [MainThread]: End processing [sdbsxwf]: success
+[2023-07-19 06:53:13] INFO root fetch - processPackages [playgroundrl-envs]: Remove: archive file [/home/abi/fetcher/tmp/playgroundrl_envs-0.0.6.tar.gz]
+[2023-07-19 06:53:13] INFO root fetch - processPackages [playgroundrl-envs]: Remove: archive file [/home/abi/fetcher/tmp/playgroundrl_envs-0.0.7.tar.gz]
+[2023-07-19 06:53:13] INFO root fetch - main [MainThread]: End processing [playgroundrl-envs]: success
+[2023-07-19 06:53:13] INFO root fetch - processPackages [hasso]: Remove: archive file [/home/abi/fetcher/tmp/hasso-0.0.2.tar.gz]
+[2023-07-19 06:53:13] INFO root fetch - processPackages [hasso]: Remove: archive file [/home/abi/fetcher/tmp/hasso-0.0.3.tar.gz]
+[2023-07-19 06:53:13] INFO root fetch - main [MainThread]: End processing [hasso]: success
+[2023-07-19 06:53:14] INFO root fetch - processPackages [alibabacloud-pai-dlc20201203]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_pai-dlc20201203-1.2.6.tar.gz]
+[2023-07-19 06:53:14] INFO root fetch - processPackages [alibabacloud-pai-dlc20201203]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_pai-dlc20201203-1.2.7.tar.gz]
+[2023-07-19 06:53:14] INFO root fetch - main [MainThread]: End processing [alibabacloud-pai-dlc20201203]: success
+[2023-07-19 06:53:14] INFO root fetch - processPackages [alibabacloud-pai-dlc20201203-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_pai-dlc20201203_py2-1.2.5.tar.gz]
+[2023-07-19 06:53:14] INFO root fetch - processPackages [alibabacloud-pai-dlc20201203-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_pai-dlc20201203_py2-1.2.6.tar.gz]
+[2023-07-19 06:53:14] INFO root fetch - main [MainThread]: End processing [alibabacloud-pai-dlc20201203-py2]: success
+[2023-07-19 06:53:14] INFO root fetch - processPackages [odoo14-addon-project-scrum]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_project_scrum-14.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2023-07-19 06:53:14] INFO root fetch - processPackages [odoo14-addon-project-scrum]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_project_scrum-14.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2023-07-19 06:53:14] INFO root fetch - main [MainThread]: End processing [odoo14-addon-project-scrum]: success
+[2023-07-19 06:53:17] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.98.tar.gz]
+[2023-07-19 06:53:17] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.99.tar.gz]
+[2023-07-19 06:53:17] INFO root fetch - main [MainThread]: End processing [vessl]: success
+[2023-07-19 06:53:17] INFO root fetch - main [MainThread]: Store serial: [18945478]
