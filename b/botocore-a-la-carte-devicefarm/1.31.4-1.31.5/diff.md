@@ -1,4 +1,4 @@
-# Comparing `tmp/botocore-a-la-carte-devicefarm-1.31.4.tar.gz` & `tmp/botocore_a_la_carte_devicefarm-1.31.5-py3-none-any.whl.zip`
+# Comparing `tmp/botocore-a-la-carte-devicefarm-1.31.4.tar.gz` & `tmp/botocore-a-la-carte-devicefarm-1.31.5.tar.gz`
 
 ## filetype from file(1)
 
