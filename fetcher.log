@@ -5654,3 +5654,137 @@
 [2023-07-19 03:29:21] INFO root fetch - processPackages [wdmtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/wdmtoolbox-8.9.7.5.tar.gz]
 [2023-07-19 03:29:21] INFO root fetch - main [MainThread]: End processing [wdmtoolbox]: success
 [2023-07-19 03:29:21] INFO root fetch - main [MainThread]: Store serial: [18942811]
+[2023-07-19 03:34:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18942811]
+[2023-07-19 03:34:29] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-19 03:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zipline-tej
+[2023-07-19 03:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: carefree-toolkit
+[2023-07-19 03:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pose-analizer-util
+[2023-07-19 03:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rom
+[2023-07-19 03:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: namespace-mahdimir
+[2023-07-19 03:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cytomulate
+[2023-07-19 03:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-databrew-cicd
+[2023-07-19 03:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ckanext-nswdesignsystem
+[2023-07-19 03:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: awscrt
+[2023-07-19 03:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: toRST
+[2023-07-19 03:34:29] INFO root fetch - processPackages [namespace-mahdimir]: New version: [2.6.0] Old Version: [2.5.0]
+[2023-07-19 03:34:29] INFO root fetch - processPackages [zipline-tej]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 03:34:30] INFO root fetch - processPackages [toRST]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-19 03:34:30] INFO root fetch - processPackages [rom]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-19 03:34:30] INFO root fetch - processPackages [carefree-toolkit]: New version: [0.3.7] Old Version: [0.3.6.6]
+[2023-07-19 03:34:30] WARNING root fetch - processPackages [pose-analizer-util]: Skipping, unable to determine old version
+[2023-07-19 03:34:30] INFO root fetch - processPackages [pose-analizer-util]: Start processing: eyes-soatra
+[2023-07-19 03:34:30] INFO root fetch - main [MainThread]: End processing [pose-analizer-util] error
+[2023-07-19 03:34:30] WARNING root fetch - processPackages [ckanext-nswdesignsystem]: Skipping, unable to determine old version
+[2023-07-19 03:34:30] INFO root fetch - processPackages [ckanext-nswdesignsystem]: Start processing: nonebot-plugin-dall-e
+[2023-07-19 03:34:30] INFO root fetch - main [MainThread]: End processing [ckanext-nswdesignsystem] error
+[2023-07-19 03:34:30] INFO root fetch - processPackages [namespace-mahdimir]: Downloading https://files.pythonhosted.org/packages/f0/0a/d0101b957d05759fc77d5b30f5b5cfcc79b410b340df8b31fc0bf4f451de/namespace_mahdimir-2.5.0.tar.gz
+[2023-07-19 03:34:30] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/81/74/1c77fcc7996870f973250f70f5fd993fbdf66e25b3c8f01eb1d263d75c6a/zipline-tej-0.0.8.tar.gz
+[2023-07-19 03:34:30] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-19 03:34:30] INFO root fetch - processPackages [cytomulate]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-19 03:34:30] WARNING root fetch - processPackages [nonebot-plugin-dall-e]: Skipping, unable to determine old version
+[2023-07-19 03:34:30] INFO root fetch - processPackages [nonebot-plugin-dall-e]: Start processing: airbyte
+[2023-07-19 03:34:30] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-dall-e] error
+[2023-07-19 03:34:30] INFO root fetch - processPackages [awscrt]: New version: [0.9.7] Old Version: [0.9.4]
+[2023-07-19 03:34:30] INFO root fetch - processPackages [eyes-soatra]: New version: [0.0.31] Old Version: [0.0.30]
+[2023-07-19 03:34:30] INFO root fetch - processPackages [toRST]: Downloading https://files.pythonhosted.org/packages/5e/42/d7505a81d4b83d0a85b140d8ced54bc1924c5be62ff56ef284acf472ffe7/toRST-0.0.1.tar.gz
+[2023-07-19 03:34:30] INFO root fetch - processPackages [carefree-toolkit]: Downloading https://files.pythonhosted.org/packages/2c/b7/1791f095279028609bffaa18262f46966fa96bcbe1e3af536cc4d402379a/carefree-toolkit-0.3.6.6.tar.gz
+[2023-07-19 03:34:30] INFO root fetch - processPackages [airbyte]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-07-19 03:34:30] INFO root fetch - processPackages [namespace-mahdimir]: Downloading https://files.pythonhosted.org/packages/24/eb/62a8bae492cf5ae081524aa9baeb8b307c52a76a4e1744d79bc137de0bfd/namespace_mahdimir-2.6.0.tar.gz
+[2023-07-19 03:34:30] INFO root fetch - processPackages [cytomulate]: Downloading https://files.pythonhosted.org/packages/69/42/654d891fdfe0f07fd23cad7e396c3209a713ba21ce277d89df99bec87527/cytomulate-0.1.0.tar.gz
+[2023-07-19 03:34:30] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2023-07-19 03:34:30] INFO root fetch - processPackages [awscrt]: Downloading https://files.pythonhosted.org/packages/46/ab/3b367ec448a5241c543d4a096c957bc6d605ecb4f04eac8ea7f4e2281631/awscrt-0.9.4.tar.gz
+[2023-07-19 03:34:30] INFO root fetch - processPackages [rom]: Downloading https://files.pythonhosted.org/packages/1d/7b/a6122906ae7fa4ac829030c745803d9b7d092273dcecd82d980d0a58a1cb/rom-1.0.6.tar.gz
+[2023-07-19 03:34:30] INFO root fetch - processPackages [eyes-soatra]: Downloading https://files.pythonhosted.org/packages/2e/21/f87c7a826dee8f38af392349bebc886e317cd48936f7fa773bdab5683bcf/eyes_soatra-0.0.30.tar.gz
+[2023-07-19 03:34:30] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/84/15/b5579d7eb6cdb4cc9d6c22c0f36086080b26eabdda5b9d6a1f9a7f8f8df6/zipline-tej-0.0.9.tar.gz
+[2023-07-19 03:34:30] INFO root fetch - processPackages [namespace-mahdimir]: executing diffoscope
+[2023-07-19 03:34:30] INFO root fetch - processPackages [namespace-mahdimir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namespace_mahdimir-2.5.0.tar.gz tmp/namespace_mahdimir-2.6.0.tar.gz --markdown 20230719/n/namespace-mahdimir/2.5.0-2.6.0/diff.md --exclude *.pyd
+[2023-07-19 03:34:30] INFO root fetch - processPackages [airbyte]: Downloading https://files.pythonhosted.org/packages/95/09/eea230e893ab55370e867c76f081945c8f60016ebdb0b385d9f077a4fc0c/airbyte-1.9.2.tar.gz
+[2023-07-19 03:34:30] INFO root fetch - processPackages [toRST]: Downloading https://files.pythonhosted.org/packages/c5/5c/8d3227a2a76d23453377c154f806f3f788bb835fd3c409c1b538cf3ccf56/toRST-0.0.2.tar.gz
+[2023-07-19 03:34:30] INFO root fetch - processPackages [carefree-toolkit]: Downloading https://files.pythonhosted.org/packages/ae/14/9304961b3080ab10a4d5663c505929c8b0b2229c25eac647d7e4dae8b26f/carefree-toolkit-0.3.7.tar.gz
+[2023-07-19 03:34:30] INFO root fetch - processPackages [zipline-tej]: executing diffoscope
+[2023-07-19 03:34:30] INFO root fetch - processPackages [zipline-tej]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipline-tej-0.0.8.tar.gz tmp/zipline-tej-0.0.9.tar.gz --markdown 20230719/z/zipline-tej/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 03:34:30] INFO root fetch - processPackages [toRST]: executing diffoscope
+[2023-07-19 03:34:30] INFO root fetch - processPackages [toRST]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toRST-0.0.1.tar.gz tmp/toRST-0.0.2.tar.gz --markdown 20230719/t/toRST/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-19 03:34:30] INFO root fetch - processPackages [cytomulate]: Downloading https://files.pythonhosted.org/packages/d1/04/93556a5539b95cbeb8167605b3b5ef6f77fa133bc9d3435d91dc7b162b3e/cytomulate-0.2.0.tar.gz
+[2023-07-19 03:34:31] INFO root fetch - processPackages [carefree-toolkit]: executing diffoscope
+[2023-07-19 03:34:31] INFO root fetch - processPackages [carefree-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carefree-toolkit-0.3.6.6.tar.gz tmp/carefree-toolkit-0.3.7.tar.gz --markdown 20230719/c/carefree-toolkit/0.3.6.6-0.3.7/diff.md --exclude *.pyd
+[2023-07-19 03:34:31] INFO root fetch - processPackages [cytomulate]: executing diffoscope
+[2023-07-19 03:34:31] INFO root fetch - processPackages [cytomulate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cytomulate-0.1.0.tar.gz tmp/cytomulate-0.2.0.tar.gz --markdown 20230719/c/cytomulate/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-19 03:34:31] INFO root fetch - processPackages [eyes-soatra]: Downloading https://files.pythonhosted.org/packages/d1/eb/d0d99658853b44a22a9327f463c11ced244eb0160cfc46fb50842d23b669/eyes_soatra-0.0.31.tar.gz
+[2023-07-19 03:34:31] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2023-07-19 03:34:31] INFO root fetch - processPackages [rom]: Downloading https://files.pythonhosted.org/packages/9c/3e/20fb739f222e105e261f3d7e15dfaf5a30545c993c1fcab77507f3f3ece6/rom-1.0.7.tar.gz
+[2023-07-19 03:34:31] INFO root fetch - processPackages [eyes-soatra]: executing diffoscope
+[2023-07-19 03:34:31] INFO root fetch - processPackages [eyes-soatra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyes_soatra-0.0.30.tar.gz tmp/eyes_soatra-0.0.31.tar.gz --markdown 20230719/e/eyes-soatra/0.0.30-0.0.31/diff.md --exclude *.pyd
+[2023-07-19 03:34:31] INFO root fetch - processPackages [rom]: executing diffoscope
+[2023-07-19 03:34:31] INFO root fetch - processPackages [rom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rom-1.0.6.tar.gz tmp/rom-1.0.7.tar.gz --markdown 20230719/r/rom/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-19 03:34:31] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-07-19 03:34:31] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230719/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-19 03:34:31] INFO root fetch - processPackages [airbyte]: Downloading https://files.pythonhosted.org/packages/c8/0f/877b6add49894978bf75b52f0cac1579d618edd3403e2547fc5a23f4705e/airbyte-1.9.3.tar.gz
+[2023-07-19 03:34:31] INFO root fetch - processPackages [airbyte]: executing diffoscope
+[2023-07-19 03:34:31] INFO root fetch - processPackages [airbyte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-1.9.2.tar.gz tmp/airbyte-1.9.3.tar.gz --markdown 20230719/a/airbyte/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-07-19 03:34:31] INFO root fetch - processPackages [namespace-mahdimir]: Remove: archive file [/home/abi/fetcher/tmp/namespace_mahdimir-2.5.0.tar.gz]
+[2023-07-19 03:34:31] INFO root fetch - processPackages [namespace-mahdimir]: Remove: archive file [/home/abi/fetcher/tmp/namespace_mahdimir-2.6.0.tar.gz]
+[2023-07-19 03:34:31] INFO root fetch - processPackages [namespace-mahdimir]: Start processing: mypy-boto3
+[2023-07-19 03:34:31] INFO root fetch - main [MainThread]: End processing [namespace-mahdimir]: success
+[2023-07-19 03:34:31] INFO root fetch - processPackages [awscrt]: Downloading https://files.pythonhosted.org/packages/2d/10/34168b8c690dce4b17faad06ffe89dad923da028b93d8379c2b2eb8d6d0a/awscrt-0.9.7.tar.gz
+[2023-07-19 03:34:31] INFO root fetch - processPackages [mypy-boto3]: New version: [1.28.5] Old Version: [1.28.4]
+[2023-07-19 03:34:32] INFO root fetch - processPackages [toRST]: Remove: archive file [/home/abi/fetcher/tmp/toRST-0.0.1.tar.gz]
+[2023-07-19 03:34:32] INFO root fetch - processPackages [toRST]: Remove: archive file [/home/abi/fetcher/tmp/toRST-0.0.2.tar.gz]
+[2023-07-19 03:34:32] INFO root fetch - processPackages [toRST]: Start processing: duckdb
+[2023-07-19 03:34:32] INFO root fetch - main [MainThread]: End processing [toRST]: success
+[2023-07-19 03:34:32] INFO root fetch - processPackages [mypy-boto3]: Downloading https://files.pythonhosted.org/packages/48/e6/521f91b1fd24c87da478a3f58f26d064fd0fba40c6e2f5e254efd80c2cc0/mypy-boto3-1.28.4.tar.gz
+[2023-07-19 03:34:32] INFO root fetch - processPackages [duckdb]: New version: [0.8.2.dev1859] Old Version: [0.8.2.dev1791]
+[2023-07-19 03:34:32] INFO root fetch - processPackages [carefree-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/carefree-toolkit-0.3.6.6.tar.gz]
+[2023-07-19 03:34:32] INFO root fetch - processPackages [carefree-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/carefree-toolkit-0.3.7.tar.gz]
+[2023-07-19 03:34:32] INFO root fetch - processPackages [carefree-toolkit]: Start processing: boto3-stubs
+[2023-07-19 03:34:32] INFO root fetch - main [MainThread]: End processing [carefree-toolkit]: success
+[2023-07-19 03:34:32] INFO root fetch - processPackages [cytomulate]: Remove: archive file [/home/abi/fetcher/tmp/cytomulate-0.1.0.tar.gz]
+[2023-07-19 03:34:32] INFO root fetch - processPackages [cytomulate]: Remove: archive file [/home/abi/fetcher/tmp/cytomulate-0.2.0.tar.gz]
+[2023-07-19 03:34:32] INFO root fetch - processPackages [cytomulate]: Start processing: boto3-stubs-lite
+[2023-07-19 03:34:32] INFO root fetch - main [MainThread]: End processing [cytomulate]: success
+[2023-07-19 03:34:32] INFO root fetch - processPackages [mypy-boto3]: Downloading https://files.pythonhosted.org/packages/2f/68/c24f7895f2db0c30892c85a126075c84a788c604fab1495761f8cf026550/mypy-boto3-1.28.5.tar.gz
+[2023-07-19 03:34:32] INFO root fetch - processPackages [boto3-stubs]: New version: [1.28.5] Old Version: [1.28.4]
+[2023-07-19 03:34:32] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/04/2c/b83cee18f688fc3485e054993ba1636c53ed2d12568d33988bed2b3b2d00/duckdb-0.8.2.dev1791.tar.gz
+[2023-07-19 03:34:32] WARNING root fetch - processPackages [duckdb]: Skipping package: exceeds size limit 10490257>=10485760
+[2023-07-19 03:34:32] INFO root fetch - main [MainThread]: End processing [duckdb] error
+[2023-07-19 03:34:32] INFO root fetch - processPackages [boto3-stubs-lite]: New version: [1.28.5] Old Version: [1.28.4]
+[2023-07-19 03:34:32] INFO root fetch - processPackages [mypy-boto3]: executing diffoscope
+[2023-07-19 03:34:32] INFO root fetch - processPackages [mypy-boto3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-1.28.4.tar.gz tmp/mypy-boto3-1.28.5.tar.gz --markdown 20230719/m/mypy-boto3/1.28.4-1.28.5/diff.md --exclude *.pyd
+[2023-07-19 03:34:32] INFO root fetch - processPackages [rom]: Remove: archive file [/home/abi/fetcher/tmp/rom-1.0.6.tar.gz]
+[2023-07-19 03:34:32] INFO root fetch - processPackages [rom]: Remove: archive file [/home/abi/fetcher/tmp/rom-1.0.7.tar.gz]
+[2023-07-19 03:34:32] INFO root fetch - main [MainThread]: End processing [rom]: success
+[2023-07-19 03:34:32] INFO root fetch - processPackages [boto3-stubs]: Downloading https://files.pythonhosted.org/packages/c0/e5/4ac4bcaeaca11ed397829d47adec3ba61301b0175c8a9e6f8670ace5acea/boto3-stubs-1.28.4.tar.gz
+[2023-07-19 03:34:32] INFO root fetch - processPackages [eyes-soatra]: Remove: archive file [/home/abi/fetcher/tmp/eyes_soatra-0.0.30.tar.gz]
+[2023-07-19 03:34:32] INFO root fetch - processPackages [eyes-soatra]: Remove: archive file [/home/abi/fetcher/tmp/eyes_soatra-0.0.31.tar.gz]
+[2023-07-19 03:34:32] INFO root fetch - main [MainThread]: End processing [eyes-soatra]: success
+[2023-07-19 03:34:32] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2023-07-19 03:34:32] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2023-07-19 03:34:32] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-07-19 03:34:33] INFO root fetch - processPackages [boto3-stubs]: Downloading https://files.pythonhosted.org/packages/de/af/a4380968284cbb7e8893b2bb56b7f8797f3c19e9800cd1dfcbb2b91c3cf6/boto3-stubs-1.28.5.tar.gz
+[2023-07-19 03:34:33] INFO root fetch - processPackages [boto3-stubs-lite]: Downloading https://files.pythonhosted.org/packages/2e/fa/0c77b5d7ef2e30f0edcdb420aa68d0d5dc70e06de29c362481e2150a5475/boto3-stubs-lite-1.28.4.tar.gz
+[2023-07-19 03:34:33] INFO root fetch - processPackages [boto3-stubs]: executing diffoscope
+[2023-07-19 03:34:33] INFO root fetch - processPackages [boto3-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3-stubs-1.28.4.tar.gz tmp/boto3-stubs-1.28.5.tar.gz --markdown 20230719/b/boto3-stubs/1.28.4-1.28.5/diff.md --exclude *.pyd
+[2023-07-19 03:34:33] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.8.tar.gz]
+[2023-07-19 03:34:33] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.9.tar.gz]
+[2023-07-19 03:34:33] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
+[2023-07-19 03:34:33] INFO root fetch - processPackages [awscrt]: executing diffoscope
+[2023-07-19 03:34:33] INFO root fetch - processPackages [awscrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awscrt-0.9.4.tar.gz tmp/awscrt-0.9.7.tar.gz --markdown 20230719/a/awscrt/0.9.4-0.9.7/diff.md --exclude *.pyd
+[2023-07-19 03:34:33] INFO root fetch - processPackages [boto3-stubs-lite]: Downloading https://files.pythonhosted.org/packages/d8/24/369324571917d73960916dbe84be7ded70e3850892a4c0ab5164d2010d80/boto3-stubs-lite-1.28.5.tar.gz
+[2023-07-19 03:34:33] INFO root fetch - processPackages [boto3-stubs-lite]: executing diffoscope
+[2023-07-19 03:34:33] INFO root fetch - processPackages [boto3-stubs-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3-stubs-lite-1.28.4.tar.gz tmp/boto3-stubs-lite-1.28.5.tar.gz --markdown 20230719/b/boto3-stubs-lite/1.28.4-1.28.5/diff.md --exclude *.pyd
+[2023-07-19 03:34:33] INFO root fetch - processPackages [mypy-boto3]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-1.28.4.tar.gz]
+[2023-07-19 03:34:33] INFO root fetch - processPackages [mypy-boto3]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-1.28.5.tar.gz]
+[2023-07-19 03:34:33] INFO root fetch - main [MainThread]: End processing [mypy-boto3]: success
+[2023-07-19 03:34:33] INFO root fetch - processPackages [airbyte]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-1.9.2.tar.gz]
+[2023-07-19 03:34:33] INFO root fetch - processPackages [airbyte]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-1.9.3.tar.gz]
+[2023-07-19 03:34:33] INFO root fetch - main [MainThread]: End processing [airbyte]: success
+[2023-07-19 03:34:34] INFO root fetch - processPackages [boto3-stubs]: Remove: archive file [/home/abi/fetcher/tmp/boto3-stubs-1.28.4.tar.gz]
+[2023-07-19 03:34:34] INFO root fetch - processPackages [boto3-stubs]: Remove: archive file [/home/abi/fetcher/tmp/boto3-stubs-1.28.5.tar.gz]
+[2023-07-19 03:34:34] INFO root fetch - main [MainThread]: End processing [boto3-stubs]: success
+[2023-07-19 03:34:34] INFO root fetch - processPackages [boto3-stubs-lite]: Remove: archive file [/home/abi/fetcher/tmp/boto3-stubs-lite-1.28.4.tar.gz]
+[2023-07-19 03:34:34] INFO root fetch - processPackages [boto3-stubs-lite]: Remove: archive file [/home/abi/fetcher/tmp/boto3-stubs-lite-1.28.5.tar.gz]
+[2023-07-19 03:34:34] INFO root fetch - main [MainThread]: End processing [boto3-stubs-lite]: success
+[2023-07-19 03:34:50] INFO root fetch - processPackages [awscrt]: Remove: archive file [/home/abi/fetcher/tmp/awscrt-0.9.4.tar.gz]
+[2023-07-19 03:34:50] INFO root fetch - processPackages [awscrt]: Remove: archive file [/home/abi/fetcher/tmp/awscrt-0.9.7.tar.gz]
+[2023-07-19 03:34:50] INFO root fetch - main [MainThread]: End processing [awscrt]: success
+[2023-07-19 03:34:50] INFO root fetch - main [MainThread]: Store serial: [18942903]
