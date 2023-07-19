@@ -13967,3 +13967,80 @@
 [2023-07-19 07:14:19] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230716-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-07-19 07:14:19] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
 [2023-07-19 07:14:19] INFO root fetch - main [MainThread]: Store serial: [18945664]
+[2023-07-19 07:19:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18945664]
+[2023-07-19 07:19:27] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-19 07:19:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cyberdrop-dl
+[2023-07-19 07:19:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rapidpe-rift-pipe
+[2023-07-19 07:19:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fundialogues
+[2023-07-19 07:19:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torch-sconce
+[2023-07-19 07:19:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: circt
+[2023-07-19 07:19:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nics
+[2023-07-19 07:19:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-url-tokenizer
+[2023-07-19 07:19:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-vault
+[2023-07-19 07:19:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pypomes-core
+[2023-07-19 07:19:27] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.99] Old Version: [4.2.98]
+[2023-07-19 07:19:27] INFO root fetch - processPackages [pypomes-core]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-19 07:19:27] INFO root fetch - processPackages [fundialogues]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-19 07:19:27] WARNING root fetch - processPackages [torch-sconce]: Skipping, unable to determine old version
+[2023-07-19 07:19:27] INFO root fetch - main [MainThread]: End processing [torch-sconce] error
+[2023-07-19 07:19:27] INFO root fetch - processPackages [odoo-addon-vault]: New version: [15.0.2.0.0] Old Version: [15.0.1.6.4]
+[2023-07-19 07:19:27] INFO root fetch - processPackages [django-url-tokenizer]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 07:19:27] INFO root fetch - processPackages [nics]: New version: [3.0.0b9] Old Version: [3.0.0b8]
+[2023-07-19 07:19:27] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.5.4.dev20230718] Old Version: [0.5.4.dev20230717]
+[2023-07-19 07:19:28] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/1b/f8/0bf0ba2d44c54577234ba97b219752bdc63f63c54eddb613647161b06c5e/cyberdrop-dl-4.2.98.tar.gz
+[2023-07-19 07:19:28] INFO root fetch - processPackages [circt]: New version: [1.48.0] Old Version: [1.47.0]
+[2023-07-19 07:19:28] INFO root fetch - processPackages [odoo-addon-vault]: Downloading https://files.pythonhosted.org/packages/18/a1/3125a5ea8ec73e43572625dabfd55c13ca1a04e2484493c7736312fc588a/odoo_addon_vault-15.0.1.6.4-py3-none-any.whl
+[2023-07-19 07:19:28] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/58/fc/c297e12ea86d40bc35c3034412e468c38bef18667e6adfe0b24802b0e417/django-url-tokenizer-0.0.8.tar.gz
+[2023-07-19 07:19:28] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/f1/d9/d3c6315c313c7c0ed4f45f0f4f9844444f48f7b841135845d4567de1c12e/nics-3.0.0b8.tar.gz
+[2023-07-19 07:19:28] INFO root fetch - processPackages [pypomes-core]: Downloading https://files.pythonhosted.org/packages/17/f9/88ec7ec15475338a6a38247cc78d264c42c36c105cc2e06d0e154b8637fe/pypomes_core-0.1.8.tar.gz
+[2023-07-19 07:19:28] INFO root fetch - processPackages [fundialogues]: Downloading https://files.pythonhosted.org/packages/ae/52/d9dc88bc15d2dbe07e5dd8d91ae2fa0375019621ca73e94f4f9550819b36/fundialogues-0.0.6.tar.gz
+[2023-07-19 07:19:28] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/a2/41/d4d0ed0c2fa2070d5dd6d66f58eb4371fb88e58da3854424266c45b3c18c/rapidpe_rift_pipe-0.5.4.dev20230717.tar.gz
+[2023-07-19 07:19:28] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/cb/85/1082dbce7699795fa0752358803e2c52dedd79d14d96d728d35eae76c69a/cyberdrop-dl-4.2.99.tar.gz
+[2023-07-19 07:19:28] INFO root fetch - processPackages [pypomes-core]: Downloading https://files.pythonhosted.org/packages/99/44/af3ba2c10420f4262379ea5356fa837f78afcb23fabb363479ea0bf8611b/pypomes_core-0.1.9.tar.gz
+[2023-07-19 07:19:28] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/c5/13/df27d1141ec44b1c35f247440fc5cb506efe40a15cbed84328a82cab2d67/django-url-tokenizer-0.0.9.tar.gz
+[2023-07-19 07:19:28] INFO root fetch - processPackages [odoo-addon-vault]: Downloading https://files.pythonhosted.org/packages/03/a8/c95a5871aa579f1e57cb13b0521c49a5de2987c43126133b5f4cdc0f8367/odoo_addon_vault-15.0.2.0.0-py3-none-any.whl
+[2023-07-19 07:19:28] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-07-19 07:19:28] INFO root fetch - processPackages [fundialogues]: Downloading https://files.pythonhosted.org/packages/16/10/2a3bdc95e271ad78e8d6348c4808e749e58fb168a411f55b093667d99836/fundialogues-0.0.7.tar.gz
+[2023-07-19 07:19:28] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.98.tar.gz tmp/cyberdrop-dl-4.2.99.tar.gz --markdown 20230719/c/cyberdrop-dl/4.2.98-4.2.99/diff.md --exclude *.pyd
+[2023-07-19 07:19:28] INFO root fetch - processPackages [circt]: Downloading https://files.pythonhosted.org/packages/4a/dc/c8fb770c9fda5c900b1a4d52751e7f7633858bcb8d2700da166932aa5af1/circt-1.48.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-19 07:19:28] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/f8/7e/6c904517628a53cd275e4feadefd5f8a901829bbbb5137ce7c1ee2f09c14/nics-3.0.0b9.tar.gz
+[2023-07-19 07:19:28] INFO root fetch - processPackages [pypomes-core]: executing diffoscope
+[2023-07-19 07:19:28] INFO root fetch - processPackages [pypomes-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_core-0.1.8.tar.gz tmp/pypomes_core-0.1.9.tar.gz --markdown 20230719/p/pypomes-core/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-19 07:19:28] INFO root fetch - processPackages [django-url-tokenizer]: executing diffoscope
+[2023-07-19 07:19:28] INFO root fetch - processPackages [django-url-tokenizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-url-tokenizer-0.0.8.tar.gz tmp/django-url-tokenizer-0.0.9.tar.gz --markdown 20230719/d/django-url-tokenizer/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 07:19:28] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/c3/00/23cb781b0542f7a0a1269d4d71ab5f50541bca9a5e6327e5ba1d80d41810/rapidpe_rift_pipe-0.5.4.dev20230718.tar.gz
+[2023-07-19 07:19:28] INFO root fetch - processPackages [odoo-addon-vault]: executing diffoscope
+[2023-07-19 07:19:28] INFO root fetch - processPackages [odoo-addon-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_vault-15.0.1.6.4-py3-none-any.whl.zip tmp/odoo_addon_vault-15.0.2.0.0-py3-none-any.whl.zip --markdown 20230719/o/odoo-addon-vault/15.0.1.6.4-15.0.2.0.0/diff.md --exclude *.pyd
+[2023-07-19 07:19:28] INFO root fetch - processPackages [nics]: executing diffoscope
+[2023-07-19 07:19:28] INFO root fetch - processPackages [nics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nics-3.0.0b8.tar.gz tmp/nics-3.0.0b9.tar.gz --markdown 20230719/n/nics/3.0.0b8-3.0.0b9/diff.md --exclude *.pyd
+[2023-07-19 07:19:28] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2023-07-19 07:19:28] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.5.4.dev20230717.tar.gz tmp/rapidpe_rift_pipe-0.5.4.dev20230718.tar.gz --markdown 20230719/r/rapidpe-rift-pipe/0.5.4.dev20230717-0.5.4.dev20230718/diff.md --exclude *.pyd
+[2023-07-19 07:19:28] INFO root fetch - processPackages [fundialogues]: executing diffoscope
+[2023-07-19 07:19:28] INFO root fetch - processPackages [fundialogues]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fundialogues-0.0.6.tar.gz tmp/fundialogues-0.0.7.tar.gz --markdown 20230719/f/fundialogues/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-19 07:19:29] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-0.1.8.tar.gz]
+[2023-07-19 07:19:29] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-0.1.9.tar.gz]
+[2023-07-19 07:19:29] INFO root fetch - main [MainThread]: End processing [pypomes-core]: success
+[2023-07-19 07:19:30] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.8.tar.gz]
+[2023-07-19 07:19:30] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.9.tar.gz]
+[2023-07-19 07:19:30] INFO root fetch - main [MainThread]: End processing [django-url-tokenizer]: success
+[2023-07-19 07:19:30] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-3.0.0b8.tar.gz]
+[2023-07-19 07:19:30] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-3.0.0b9.tar.gz]
+[2023-07-19 07:19:30] INFO root fetch - main [MainThread]: End processing [nics]: success
+[2023-07-19 07:19:30] INFO root fetch - processPackages [fundialogues]: Remove: archive file [/home/abi/fetcher/tmp/fundialogues-0.0.6.tar.gz]
+[2023-07-19 07:19:30] INFO root fetch - processPackages [fundialogues]: Remove: archive file [/home/abi/fetcher/tmp/fundialogues-0.0.7.tar.gz]
+[2023-07-19 07:19:30] INFO root fetch - main [MainThread]: End processing [fundialogues]: success
+[2023-07-19 07:19:30] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.98.tar.gz]
+[2023-07-19 07:19:30] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.99.tar.gz]
+[2023-07-19 07:19:30] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-07-19 07:19:30] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.5.4.dev20230717.tar.gz]
+[2023-07-19 07:19:30] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.5.4.dev20230718.tar.gz]
+[2023-07-19 07:19:30] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2023-07-19 07:19:30] INFO root fetch - processPackages [circt]: executing diffoscope
+[2023-07-19 07:19:30] INFO root fetch - processPackages [circt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circt-1.47.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/circt-1.48.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230719/c/circt/1.47.0-1.48.0/diff.md --exclude *.pyd
+[2023-07-19 07:19:30] INFO root fetch - processPackages [odoo-addon-vault]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_vault-15.0.1.6.4-py3-none-any.whl.zip]
+[2023-07-19 07:19:30] INFO root fetch - processPackages [odoo-addon-vault]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_vault-15.0.2.0.0-py3-none-any.whl.zip]
+[2023-07-19 07:19:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-vault]: success
+[2023-07-19 07:22:24] INFO root fetch - processPackages [circt]: Remove: archive file [/home/abi/fetcher/tmp/circt-1.47.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-19 07:22:24] INFO root fetch - processPackages [circt]: Remove: archive file [/home/abi/fetcher/tmp/circt-1.48.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-19 07:22:24] INFO root fetch - main [MainThread]: End processing [circt]: success
+[2023-07-19 07:22:24] INFO root fetch - main [MainThread]: Store serial: [18945690]
