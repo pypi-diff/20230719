@@ -19851,3 +19851,159 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-19 11:39:28] INFO root fetch - processPackages [gsoup]: Remove: archive file [/home/abi/fetcher/tmp/gsoup-0.1.0.tar.gz]
 [2023-07-19 11:39:28] INFO root fetch - main [MainThread]: End processing [gsoup]: success
 [2023-07-19 11:39:28] INFO root fetch - main [MainThread]: Store serial: [18948023]
+[2023-07-19 11:44:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18948023]
+[2023-07-19 11:44:36] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-19 11:44:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oc-art-to-ftp
+[2023-07-19 11:44:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyjams
+[2023-07-19 11:44:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libjth
+[2023-07-19 11:44:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gmsaas
+[2023-07-19 11:44:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ms-marathon-api
+[2023-07-19 11:44:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: parallel-corpus-mnbvc
+[2023-07-19 11:44:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eosets
+[2023-07-19 11:44:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: TDCRPy
+[2023-07-19 11:44:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: webpy-cli
+[2023-07-19 11:44:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: BuoyantText
+[2023-07-19 11:44:36] WARNING root fetch - processPackages [libjth]: Skipping, unable to determine old version
+[2023-07-19 11:44:36] INFO root fetch - processPackages [libjth]: Start processing: pysui
+[2023-07-19 11:44:36] INFO root fetch - main [MainThread]: End processing [libjth] error
+[2023-07-19 11:44:36] INFO root fetch - processPackages [parallel-corpus-mnbvc]: New version: [1.0.6] Old Version: [1.0.4]
+[2023-07-19 11:44:36] INFO root fetch - processPackages [TDCRPy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 11:44:36] INFO root fetch - processPackages [pyjams]: New version: [1.9] Old Version: [1.8]
+[2023-07-19 11:44:37] WARNING root fetch - processPackages [eosets]: Skipping, unable to determine old version
+[2023-07-19 11:44:37] INFO root fetch - processPackages [eosets]: Start processing: VDBpy
+[2023-07-19 11:44:37] INFO root fetch - main [MainThread]: End processing [eosets] error
+[2023-07-19 11:44:37] WARNING root fetch - processPackages [BuoyantText]: Skipping, unable to determine old version
+[2023-07-19 11:44:37] INFO root fetch - processPackages [BuoyantText]: Start processing: runflare
+[2023-07-19 11:44:37] INFO root fetch - main [MainThread]: End processing [BuoyantText] error
+[2023-07-19 11:44:37] INFO root fetch - processPackages [ms-marathon-api]: New version: [0.1.0] Old Version: [0.0.13]
+[2023-07-19 11:44:37] INFO root fetch - processPackages [parallel-corpus-mnbvc]: Downloading https://files.pythonhosted.org/packages/75/8e/31f63c7335b47d46dd77afc6720630d253c7c23c979c28d46827ae93b35b/parallel_corpus_mnbvc-1.0.4.tar.gz
+[2023-07-19 11:44:37] WARNING root fetch - processPackages [oc-art-to-ftp]: Skipping, unable to determine old version
+[2023-07-19 11:44:37] INFO root fetch - processPackages [oc-art-to-ftp]: Start processing: faasmctl
+[2023-07-19 11:44:37] INFO root fetch - main [MainThread]: End processing [oc-art-to-ftp] error
+[2023-07-19 11:44:37] INFO root fetch - processPackages [gmsaas]: New version: [1.8.0] Old Version: [1.7.1]
+[2023-07-19 11:44:37] INFO root fetch - processPackages [VDBpy]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-19 11:44:37] WARNING root fetch - processPackages [webpy-cli]: Skipping, unable to determine old version
+[2023-07-19 11:44:37] INFO root fetch - processPackages [webpy-cli]: Start processing: Google-Ads-Transparency-Scraper
+[2023-07-19 11:44:37] INFO root fetch - main [MainThread]: End processing [webpy-cli] error
+[2023-07-19 11:44:37] INFO root fetch - processPackages [pysui]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-19 11:44:37] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/45/d1/26f2b4eb42e05416d7662d5fb8b6f31b59dee6421945806c7b7bfdfbfa94/TDCRPy-0.0.8.tar.gz
+[2023-07-19 11:44:37] INFO root fetch - processPackages [faasmctl]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-19 11:44:37] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-07-19 11:44:37] INFO root fetch - processPackages [runflare]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-07-19 11:44:37] INFO root fetch - processPackages [pyjams]: Downloading https://files.pythonhosted.org/packages/67/6c/21f660f3f163446b686d9bbd92500b735ed7d400e7452ca4e29436502bba/pyjams-1.8.tar.gz
+[2023-07-19 11:44:37] INFO root fetch - processPackages [ms-marathon-api]: Downloading https://files.pythonhosted.org/packages/65/05/eee429ac005e44deba0a215a365d75e5415aa431f9106bbca07dc192e60f/ms_marathon_api-0.0.13.tar.gz
+[2023-07-19 11:44:37] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/c3/95/208cc27fecf0f02e478e5de43da14514265c2841985803b40ebd9b1d6a31/faasmctl-0.6.1.tar.gz
+[2023-07-19 11:44:37] INFO root fetch - processPackages [VDBpy]: Downloading https://files.pythonhosted.org/packages/c0/f2/84ee8703387f255baf6d32b1e2621239ed43a7a79b5244067abcda53dd7b/VDBpy-0.1.1.tar.gz
+[2023-07-19 11:44:37] INFO root fetch - processPackages [gmsaas]: Downloading https://files.pythonhosted.org/packages/59/d8/a9bd7e1dbd96942566de6b408e0e7a2b67ee32cce776431bd40d8c86e8d4/gmsaas-1.7.1-py3-none-win_amd64.whl
+[2023-07-19 11:44:37] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: Downloading https://files.pythonhosted.org/packages/37/db/4d94ed6683b2d9676bc031e03bca278224e1cc855083acca27d1f0dcab6a/Google-Ads-Transparency-Scraper-1.5.2.tar.gz
+[2023-07-19 11:44:37] INFO root fetch - processPackages [runflare]: Downloading https://files.pythonhosted.org/packages/aa/b5/3e342503429cd27761a9d2e63379a5d269a29158e0c22ea77ea67acd91ae/runflare-1.1.4.tar.gz
+[2023-07-19 11:44:37] INFO root fetch - processPackages [pysui]: Downloading https://files.pythonhosted.org/packages/df/fd/8060c20cdf32607400911d43fc627a8bf48fe7571dc1992ab190b3274d7b/pysui-0.8.0-py3-none-any.whl
+[2023-07-19 11:44:37] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/58/f4/f09bcfbd9ef3b75b2932ba824304fc7e7bcee566e8570cb2d64f76eb9adc/TDCRPy-0.0.9.tar.gz
+[2023-07-19 11:44:37] INFO root fetch - processPackages [parallel-corpus-mnbvc]: Downloading https://files.pythonhosted.org/packages/5d/c4/9f1a317b1bf1491dc9dce456d835c5c21182a71d19681ab302f981ffa508/parallel_corpus_mnbvc-1.0.6.tar.gz
+[2023-07-19 11:44:38] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: Downloading https://files.pythonhosted.org/packages/1e/bd/c1134f889f95bd4cdb3d2aa75f1eb406aaf239044c65034a73bd0e1cbb47/Google-Ads-Transparency-Scraper-1.5.3.tar.gz
+[2023-07-19 11:44:38] INFO root fetch - processPackages [VDBpy]: Downloading https://files.pythonhosted.org/packages/6f/ef/29c06589317119c7d6ff08d639f512f9973a57a2902a3a0d03642511debf/VDBpy-0.1.2.tar.gz
+[2023-07-19 11:44:38] INFO root fetch - processPackages [ms-marathon-api]: Downloading https://files.pythonhosted.org/packages/c6/47/7c87ad660d2a8c37e16af522e4a20a2e9ace8ad4942f2ec217d71d197763/ms_marathon_api-0.1.0.tar.gz
+[2023-07-19 11:44:38] INFO root fetch - processPackages [TDCRPy]: executing diffoscope
+[2023-07-19 11:44:38] INFO root fetch - processPackages [TDCRPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDCRPy-0.0.8.tar.gz tmp/TDCRPy-0.0.9.tar.gz --markdown 20230719/T/TDCRPy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 11:44:38] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/21/91/1070c33506b39352079a3cb614e5598a08f552d12cef38b4247a5d1d2dbc/faasmctl-0.6.2.tar.gz
+[2023-07-19 11:44:38] INFO root fetch - processPackages [parallel-corpus-mnbvc]: executing diffoscope
+[2023-07-19 11:44:38] INFO root fetch - processPackages [parallel-corpus-mnbvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parallel_corpus_mnbvc-1.0.4.tar.gz tmp/parallel_corpus_mnbvc-1.0.6.tar.gz --markdown 20230719/p/parallel-corpus-mnbvc/1.0.4-1.0.6/diff.md --exclude *.pyd
+[2023-07-19 11:44:38] INFO root fetch - processPackages [pyjams]: Downloading https://files.pythonhosted.org/packages/98/de/8e45d79b96b918bfe235b86757c43c9405518afc9c46c1a703d81c81c4a9/pyjams-1.9.tar.gz
+[2023-07-19 11:44:38] INFO root fetch - processPackages [runflare]: Downloading https://files.pythonhosted.org/packages/73/20/ba7b0befdda0f4adb9bab383b42f77028dcecfbc053b900d8108210b4ceb/runflare-1.1.5.tar.gz
+[2023-07-19 11:44:38] INFO root fetch - processPackages [pysui]: Downloading https://files.pythonhosted.org/packages/d0/d5/e2108ab88d1f544ccab9554dcf4127133263950ae9c3e3912ab5bb6db12a/pysui-0.9.0-py3-none-any.whl
+[2023-07-19 11:44:38] INFO root fetch - processPackages [VDBpy]: executing diffoscope
+[2023-07-19 11:44:38] INFO root fetch - processPackages [VDBpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VDBpy-0.1.1.tar.gz tmp/VDBpy-0.1.2.tar.gz --markdown 20230719/V/VDBpy/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-19 11:44:38] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: executing diffoscope
+[2023-07-19 11:44:38] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Google-Ads-Transparency-Scraper-1.5.2.tar.gz tmp/Google-Ads-Transparency-Scraper-1.5.3.tar.gz --markdown 20230719/G/Google-Ads-Transparency-Scraper/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-07-19 11:44:38] INFO root fetch - processPackages [ms-marathon-api]: executing diffoscope
+[2023-07-19 11:44:38] INFO root fetch - processPackages [ms-marathon-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_marathon_api-0.0.13.tar.gz tmp/ms_marathon_api-0.1.0.tar.gz --markdown 20230719/m/ms-marathon-api/0.0.13-0.1.0/diff.md --exclude *.pyd
+[2023-07-19 11:44:38] INFO root fetch - processPackages [faasmctl]: executing diffoscope
+[2023-07-19 11:44:38] INFO root fetch - processPackages [faasmctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faasmctl-0.6.1.tar.gz tmp/faasmctl-0.6.2.tar.gz --markdown 20230719/f/faasmctl/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-19 11:44:38] INFO root fetch - processPackages [runflare]: executing diffoscope
+[2023-07-19 11:44:38] INFO root fetch - processPackages [runflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runflare-1.1.4.tar.gz tmp/runflare-1.1.5.tar.gz --markdown 20230719/r/runflare/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-07-19 11:44:38] INFO root fetch - processPackages [pysui]: executing diffoscope
+[2023-07-19 11:44:38] INFO root fetch - processPackages [pysui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysui-0.8.0-py3-none-any.whl.zip tmp/pysui-0.9.0-py3-none-any.whl.zip --markdown 20230719/p/pysui/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-19 11:44:38] INFO root fetch - processPackages [pyjams]: executing diffoscope
+[2023-07-19 11:44:38] INFO root fetch - processPackages [pyjams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjams-1.8.tar.gz tmp/pyjams-1.9.tar.gz --markdown 20230719/p/pyjams/1.8-1.9/diff.md --exclude *.pyd
+[2023-07-19 11:44:39] INFO root fetch - processPackages [parallel-corpus-mnbvc]: Remove: archive file [/home/abi/fetcher/tmp/parallel_corpus_mnbvc-1.0.4.tar.gz]
+[2023-07-19 11:44:39] INFO root fetch - processPackages [parallel-corpus-mnbvc]: Remove: archive file [/home/abi/fetcher/tmp/parallel_corpus_mnbvc-1.0.6.tar.gz]
+[2023-07-19 11:44:39] INFO root fetch - processPackages [parallel-corpus-mnbvc]: Start processing: elefanto-webkassa
+[2023-07-19 11:44:39] INFO root fetch - main [MainThread]: End processing [parallel-corpus-mnbvc]: success
+[2023-07-19 11:44:39] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.8.tar.gz]
+[2023-07-19 11:44:39] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.9.tar.gz]
+[2023-07-19 11:44:39] INFO root fetch - processPackages [TDCRPy]: Start processing: iimcsim
+[2023-07-19 11:44:39] INFO root fetch - main [MainThread]: End processing [TDCRPy]: success
+[2023-07-19 11:44:39] INFO root fetch - processPackages [elefanto-webkassa]: New version: [0.2.0] Old Version: [0.1.6]
+[2023-07-19 11:44:39] INFO root fetch - processPackages [iimcsim]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-19 11:44:39] INFO root fetch - processPackages [elefanto-webkassa]: Downloading https://files.pythonhosted.org/packages/ef/82/2dde7b4547d8302e8f551849d0abfa08afae8703d748f6a4087c0944258d/elefanto_webkassa-0.1.6.tar.gz
+[2023-07-19 11:44:39] INFO root fetch - processPackages [iimcsim]: Downloading https://files.pythonhosted.org/packages/37/6a/bd5acc4136b1ef1d4a3760126a7f83cebe3201e14b771ca5115a977c04cd/iimcsim-0.1.1.tar.gz
+[2023-07-19 11:44:39] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: Remove: archive file [/home/abi/fetcher/tmp/Google-Ads-Transparency-Scraper-1.5.2.tar.gz]
+[2023-07-19 11:44:39] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: Remove: archive file [/home/abi/fetcher/tmp/Google-Ads-Transparency-Scraper-1.5.3.tar.gz]
+[2023-07-19 11:44:39] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: Start processing: betabageldb
+[2023-07-19 11:44:39] INFO root fetch - main [MainThread]: End processing [Google-Ads-Transparency-Scraper]: success
+[2023-07-19 11:44:39] INFO root fetch - processPackages [betabageldb]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-19 11:44:39] INFO root fetch - processPackages [betabageldb]: Downloading https://files.pythonhosted.org/packages/f5/38/33e3070997a7ff74de97e44fc5ce75074c2366ec87ed5c3c5c1193c1c89a/betabageldb-0.1.6.tar.gz
+[2023-07-19 11:44:39] INFO root fetch - processPackages [VDBpy]: Remove: archive file [/home/abi/fetcher/tmp/VDBpy-0.1.1.tar.gz]
+[2023-07-19 11:44:39] INFO root fetch - processPackages [VDBpy]: Remove: archive file [/home/abi/fetcher/tmp/VDBpy-0.1.2.tar.gz]
+[2023-07-19 11:44:39] INFO root fetch - processPackages [VDBpy]: Start processing: sortinghat-openinfra
+[2023-07-19 11:44:39] INFO root fetch - main [MainThread]: End processing [VDBpy]: success
+[2023-07-19 11:44:39] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.6.1.tar.gz]
+[2023-07-19 11:44:39] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.6.2.tar.gz]
+[2023-07-19 11:44:39] INFO root fetch - processPackages [faasmctl]: Start processing: qingxun-openapi-python-sdk
+[2023-07-19 11:44:39] INFO root fetch - main [MainThread]: End processing [faasmctl]: success
+[2023-07-19 11:44:40] INFO root fetch - processPackages [ms-marathon-api]: Remove: archive file [/home/abi/fetcher/tmp/ms_marathon_api-0.0.13.tar.gz]
+[2023-07-19 11:44:40] INFO root fetch - processPackages [ms-marathon-api]: Remove: archive file [/home/abi/fetcher/tmp/ms_marathon_api-0.1.0.tar.gz]
+[2023-07-19 11:44:40] INFO root fetch - processPackages [ms-marathon-api]: Start processing: lumicks-doltcli
+[2023-07-19 11:44:40] INFO root fetch - main [MainThread]: End processing [ms-marathon-api]: success
+[2023-07-19 11:44:40] INFO root fetch - processPackages [elefanto-webkassa]: Downloading https://files.pythonhosted.org/packages/ea/41/8d6a9d20d44bf1e7cb8e951a562669f13b60ccd84447c3e70d67392fe5af/elefanto_webkassa-0.2.0.tar.gz
+[2023-07-19 11:44:40] INFO root fetch - processPackages [runflare]: Remove: archive file [/home/abi/fetcher/tmp/runflare-1.1.4.tar.gz]
+[2023-07-19 11:44:40] INFO root fetch - processPackages [runflare]: Remove: archive file [/home/abi/fetcher/tmp/runflare-1.1.5.tar.gz]
+[2023-07-19 11:44:40] INFO root fetch - main [MainThread]: End processing [runflare]: success
+[2023-07-19 11:44:40] INFO root fetch - processPackages [sortinghat-openinfra]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-19 11:44:40] INFO root fetch - processPackages [qingxun-openapi-python-sdk]: New version: [1.0] Old Version: [0.2.0]
+[2023-07-19 11:44:40] WARNING root fetch - processPackages [lumicks-doltcli]: Skipping, unable to determine old version
+[2023-07-19 11:44:40] INFO root fetch - main [MainThread]: End processing [lumicks-doltcli] error
+[2023-07-19 11:44:40] INFO root fetch - processPackages [iimcsim]: Downloading https://files.pythonhosted.org/packages/05/23/df8c74cfb48aea27a452cd8d4a81a41856663fe153c416820ef557ac5e70/iimcsim-0.1.2.tar.gz
+[2023-07-19 11:44:40] INFO root fetch - processPackages [betabageldb]: Downloading https://files.pythonhosted.org/packages/51/dc/10654b2eae3eb5adee476bde4331fbe4638dad4a810eb6621d4bdee88b4a/betabageldb-0.1.7.tar.gz
+[2023-07-19 11:44:40] INFO root fetch - processPackages [pysui]: Remove: archive file [/home/abi/fetcher/tmp/pysui-0.8.0-py3-none-any.whl.zip]
+[2023-07-19 11:44:40] INFO root fetch - processPackages [pysui]: Remove: archive file [/home/abi/fetcher/tmp/pysui-0.9.0-py3-none-any.whl.zip]
+[2023-07-19 11:44:40] INFO root fetch - main [MainThread]: End processing [pysui]: success
+[2023-07-19 11:44:40] INFO root fetch - processPackages [pyjams]: Remove: archive file [/home/abi/fetcher/tmp/pyjams-1.8.tar.gz]
+[2023-07-19 11:44:40] INFO root fetch - processPackages [pyjams]: Remove: archive file [/home/abi/fetcher/tmp/pyjams-1.9.tar.gz]
+[2023-07-19 11:44:40] INFO root fetch - main [MainThread]: End processing [pyjams]: success
+[2023-07-19 11:44:40] INFO root fetch - processPackages [iimcsim]: executing diffoscope
+[2023-07-19 11:44:40] INFO root fetch - processPackages [iimcsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iimcsim-0.1.1.tar.gz tmp/iimcsim-0.1.2.tar.gz --markdown 20230719/i/iimcsim/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-19 11:44:40] INFO root fetch - processPackages [elefanto-webkassa]: executing diffoscope
+[2023-07-19 11:44:40] INFO root fetch - processPackages [elefanto-webkassa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elefanto_webkassa-0.1.6.tar.gz tmp/elefanto_webkassa-0.2.0.tar.gz --markdown 20230719/e/elefanto-webkassa/0.1.6-0.2.0/diff.md --exclude *.pyd
+[2023-07-19 11:44:40] INFO root fetch - processPackages [betabageldb]: executing diffoscope
+[2023-07-19 11:44:40] INFO root fetch - processPackages [betabageldb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betabageldb-0.1.6.tar.gz tmp/betabageldb-0.1.7.tar.gz --markdown 20230719/b/betabageldb/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-19 11:44:40] INFO root fetch - processPackages [qingxun-openapi-python-sdk]: Downloading https://files.pythonhosted.org/packages/e0/aa/016274ea75f41f3c12a25843f8459f6829272b9e6c64aba1f56beb9f2fb7/qingxun-openapi-python-sdk-0.2.0.tar.gz
+[2023-07-19 11:44:40] INFO root fetch - processPackages [sortinghat-openinfra]: Downloading https://files.pythonhosted.org/packages/f1/5d/db283a403666591d189a23cdbcc624fd5a430fc5ffe00e6b95c4c425bff9/sortinghat_openinfra-0.1.7.tar.gz
+[2023-07-19 11:44:40] INFO root fetch - processPackages [gmsaas]: Downloading https://files.pythonhosted.org/packages/64/1c/1f3c54222ae7b8f6483bd035864123302c965ac9576e4d506f9cf47ef912/gmsaas-1.8.0-py3-none-win_amd64.whl
+[2023-07-19 11:44:40] INFO root fetch - processPackages [sortinghat-openinfra]: Downloading https://files.pythonhosted.org/packages/8a/6c/1c1e61c8d119ea0ebf70c6a41a0cd656d47d222d53e28cf7e6e99cedfdac/sortinghat_openinfra-0.1.8.tar.gz
+[2023-07-19 11:44:40] INFO root fetch - processPackages [qingxun-openapi-python-sdk]: Downloading https://files.pythonhosted.org/packages/7f/86/ca0e30fcb3ba5aa3090896fe69a078f67438bf147e04a41b8873a76dfb79/qingxun-openapi-python-sdk-1.0.tar.gz
+[2023-07-19 11:44:40] INFO root fetch - processPackages [sortinghat-openinfra]: executing diffoscope
+[2023-07-19 11:44:40] INFO root fetch - processPackages [sortinghat-openinfra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sortinghat_openinfra-0.1.7.tar.gz tmp/sortinghat_openinfra-0.1.8.tar.gz --markdown 20230719/s/sortinghat-openinfra/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-19 11:44:40] INFO root fetch - processPackages [qingxun-openapi-python-sdk]: executing diffoscope
+[2023-07-19 11:44:40] INFO root fetch - processPackages [qingxun-openapi-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qingxun-openapi-python-sdk-0.2.0.tar.gz tmp/qingxun-openapi-python-sdk-1.0.tar.gz --markdown 20230719/q/qingxun-openapi-python-sdk/0.2.0-1.0/diff.md --exclude *.pyd
+[2023-07-19 11:44:40] INFO root fetch - processPackages [gmsaas]: executing diffoscope
+[2023-07-19 11:44:40] INFO root fetch - processPackages [gmsaas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmsaas-1.7.1-py3-none-win_amd64.whl.zip tmp/gmsaas-1.8.0-py3-none-win_amd64.whl.zip --markdown 20230719/g/gmsaas/1.7.1-1.8.0/diff.md --exclude *.pyd
+[2023-07-19 11:44:41] INFO root fetch - processPackages [betabageldb]: Remove: archive file [/home/abi/fetcher/tmp/betabageldb-0.1.6.tar.gz]
+[2023-07-19 11:44:41] INFO root fetch - processPackages [betabageldb]: Remove: archive file [/home/abi/fetcher/tmp/betabageldb-0.1.7.tar.gz]
+[2023-07-19 11:44:41] INFO root fetch - main [MainThread]: End processing [betabageldb]: success
+[2023-07-19 11:44:41] INFO root fetch - processPackages [elefanto-webkassa]: Remove: archive file [/home/abi/fetcher/tmp/elefanto_webkassa-0.1.6.tar.gz]
+[2023-07-19 11:44:41] INFO root fetch - processPackages [elefanto-webkassa]: Remove: archive file [/home/abi/fetcher/tmp/elefanto_webkassa-0.2.0.tar.gz]
+[2023-07-19 11:44:41] INFO root fetch - main [MainThread]: End processing [elefanto-webkassa]: success
+[2023-07-19 11:44:41] INFO root fetch - processPackages [iimcsim]: Remove: archive file [/home/abi/fetcher/tmp/iimcsim-0.1.1.tar.gz]
+[2023-07-19 11:44:41] INFO root fetch - processPackages [iimcsim]: Remove: archive file [/home/abi/fetcher/tmp/iimcsim-0.1.2.tar.gz]
+[2023-07-19 11:44:41] INFO root fetch - main [MainThread]: End processing [iimcsim]: success
+[2023-07-19 11:44:41] INFO root fetch - processPackages [sortinghat-openinfra]: Remove: archive file [/home/abi/fetcher/tmp/sortinghat_openinfra-0.1.7.tar.gz]
+[2023-07-19 11:44:41] INFO root fetch - processPackages [sortinghat-openinfra]: Remove: archive file [/home/abi/fetcher/tmp/sortinghat_openinfra-0.1.8.tar.gz]
+[2023-07-19 11:44:41] INFO root fetch - main [MainThread]: End processing [sortinghat-openinfra]: success
+[2023-07-19 11:44:41] INFO root fetch - processPackages [qingxun-openapi-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/qingxun-openapi-python-sdk-0.2.0.tar.gz]
+[2023-07-19 11:44:41] INFO root fetch - processPackages [qingxun-openapi-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/qingxun-openapi-python-sdk-1.0.tar.gz]
+[2023-07-19 11:44:41] INFO root fetch - main [MainThread]: End processing [qingxun-openapi-python-sdk]: success
+[2023-07-19 11:44:42] INFO root fetch - processPackages [gmsaas]: Remove: archive file [/home/abi/fetcher/tmp/gmsaas-1.7.1-py3-none-win_amd64.whl.zip]
+[2023-07-19 11:44:42] INFO root fetch - processPackages [gmsaas]: Remove: archive file [/home/abi/fetcher/tmp/gmsaas-1.8.0-py3-none-win_amd64.whl.zip]
+[2023-07-19 11:44:42] INFO root fetch - main [MainThread]: End processing [gmsaas]: success
+[2023-07-19 11:44:42] INFO root fetch - main [MainThread]: Store serial: [18948094]
