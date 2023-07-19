@@ -21484,3 +21484,135 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-19 12:43:59] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230719.115042.tar.gz]
 [2023-07-19 12:43:59] INFO root fetch - main [MainThread]: End processing [returnn]: success
 [2023-07-19 12:43:59] INFO root fetch - main [MainThread]: Store serial: [18948724]
+[2023-07-19 12:49:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18948724]
+[2023-07-19 12:49:10] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-19 12:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ml-management
+[2023-07-19 12:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autotrain-advanced
+[2023-07-19 12:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: raga-testing-platform
+[2023-07-19 12:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dvag-mon-shared
+[2023-07-19 12:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bb-connector
+[2023-07-19 12:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: geopyv
+[2023-07-19 12:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo13-addon-account-banking-sepa-credit-transfer
+[2023-07-19 12:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nwebclient
+[2023-07-19 12:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PySocketLib
+[2023-07-19 12:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: capnpy
+[2023-07-19 12:49:10] INFO root fetch - processPackages [odoo13-addon-account-banking-sepa-credit-transfer]: New version: [13.0.1.1.2.dev1] Old Version: [13.0.1.1.2]
+[2023-07-19 12:49:10] INFO root fetch - processPackages [raga-testing-platform]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 12:49:10] INFO root fetch - processPackages [bb-connector]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-19 12:49:10] INFO root fetch - processPackages [PySocketLib]: New version: [0.3.1] Old Version: [0.3]
+[2023-07-19 12:49:10] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-19 12:49:10] WARNING root fetch - processPackages [dvag-mon-shared]: Skipping, unable to determine old version
+[2023-07-19 12:49:10] INFO root fetch - processPackages [dvag-mon-shared]: Start processing: sec-api
+[2023-07-19 12:49:10] INFO root fetch - main [MainThread]: End processing [dvag-mon-shared] error
+[2023-07-19 12:49:10] INFO root fetch - processPackages [ml-management]: New version: [0.0.43] Old Version: [0.0.42]
+[2023-07-19 12:49:10] INFO root fetch - processPackages [autotrain-advanced]: New version: [0.6.0] Old Version: [0.5.9]
+[2023-07-19 12:49:10] INFO root fetch - processPackages [odoo13-addon-account-banking-sepa-credit-transfer]: Downloading https://files.pythonhosted.org/packages/20/2f/79221328be3a5c2d9faeedf5432ee248aaa953114a889366869a5dd2919a/odoo13_addon_account_banking_sepa_credit_transfer-13.0.1.1.2-py3-none-any.whl
+[2023-07-19 12:49:10] INFO root fetch - processPackages [capnpy]: New version: [0.9.0rc2] Old Version: [0.9.0]
+[2023-07-19 12:49:10] INFO root fetch - processPackages [sec-api]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 12:49:10] INFO root fetch - processPackages [bb-connector]: Downloading https://files.pythonhosted.org/packages/a6/b5/704317ecf996b162f212d7047d0c854775e4eb30ce06127aa635e678626d/bb-connector-0.0.2.tar.gz
+[2023-07-19 12:49:10] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/cb/2b/5872c9c0e75b4ef4393e95963e7fa22ccf8c70b12d66a64c83dfec600b32/raga-testing-platform-1.0.8.tar.gz
+[2023-07-19 12:49:10] INFO root fetch - processPackages [geopyv]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 12:49:10] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-19 12:49:10] INFO root fetch - processPackages [PySocketLib]: Downloading https://files.pythonhosted.org/packages/0f/73/f9fe8231b7d91945cb70b84aea651da4e39dd1ff4b913cec8bc935f302e7/PySocketLib-0.3.tar.gz
+[2023-07-19 12:49:10] INFO root fetch - processPackages [ml-management]: Downloading https://files.pythonhosted.org/packages/86/b1/b43c09e7c1d4b2f3573b3008d1c560caf509308e978f760bc1821ec21ea7/ml-management-0.0.42.tar.gz
+[2023-07-19 12:49:10] INFO root fetch - processPackages [sec-api]: Downloading https://files.pythonhosted.org/packages/a6/46/7221a62ed4c983856d78a223cb6b0e58004eb919fbfa292bdfb40a13b703/sec-api-1.0.8.tar.gz
+[2023-07-19 12:49:10] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/24/66/746fcdef95ba98e96b50ef33f89f455d2001261450e40ff2569f91b2232f/autotrain-advanced-0.5.9.tar.gz
+[2023-07-19 12:49:11] INFO root fetch - processPackages [odoo13-addon-account-banking-sepa-credit-transfer]: Downloading https://files.pythonhosted.org/packages/10/a3/452eef4b89a64b433d30cf3b0db28f0d8a7a371b5ea3a54b1e627f5857d1/odoo13_addon_account_banking_sepa_credit_transfer-13.0.1.1.2.dev1-py3-none-any.whl
+[2023-07-19 12:49:11] INFO root fetch - processPackages [capnpy]: Downloading https://files.pythonhosted.org/packages/0d/e7/f142e3c5f9bdafec6a9aff388ad67a3015a1eb7eb88ff71cbff607984fe8/capnpy-0.9.0.tar.gz
+[2023-07-19 12:49:11] INFO root fetch - processPackages [geopyv]: Downloading https://files.pythonhosted.org/packages/59/cd/5c2cb6799fbf4df8b4ca611d25994ac3d2b2ef9ce0eb5cb7fe5555b1f774/geopyv-0.0.8.tar.gz
+[2023-07-19 12:49:11] INFO root fetch - processPackages [bb-connector]: Downloading https://files.pythonhosted.org/packages/13/e1/112e62c23c7052cf1f5fe9cf1651f0d94225e6d251977809ba3eb60e884e/bb-connector-0.0.3.tar.gz
+[2023-07-19 12:49:11] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-19 12:49:11] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/23/a1/3de642a69a0d1253446d4f7bd1dd9d074e3fe635e84f3d430d001424a072/raga-testing-platform-1.0.9.tar.gz
+[2023-07-19 12:49:11] INFO root fetch - processPackages [odoo13-addon-account-banking-sepa-credit-transfer]: executing diffoscope
+[2023-07-19 12:49:11] INFO root fetch - processPackages [odoo13-addon-account-banking-sepa-credit-transfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_account_banking_sepa_credit_transfer-13.0.1.1.2-py3-none-any.whl.zip tmp/odoo13_addon_account_banking_sepa_credit_transfer-13.0.1.1.2.dev1-py3-none-any.whl.zip --markdown 20230719/o/odoo13-addon-account-banking-sepa-credit-transfer/13.0.1.1.2-13.0.1.1.2.dev1/diff.md --exclude *.pyd
+[2023-07-19 12:49:11] INFO root fetch - processPackages [bb-connector]: executing diffoscope
+[2023-07-19 12:49:11] INFO root fetch - processPackages [bb-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bb-connector-0.0.2.tar.gz tmp/bb-connector-0.0.3.tar.gz --markdown 20230719/b/bb-connector/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-19 12:49:11] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-19 12:49:11] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230719/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-19 12:49:11] INFO root fetch - processPackages [PySocketLib]: Downloading https://files.pythonhosted.org/packages/c0/31/13e80e95eeb1b89fbc66d44c0022b42b1c9224d71a59366fdb5074bc1883/PySocketLib-0.3.1.tar.gz
+[2023-07-19 12:49:11] INFO root fetch - processPackages [raga-testing-platform]: executing diffoscope
+[2023-07-19 12:49:11] INFO root fetch - processPackages [raga-testing-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-testing-platform-1.0.8.tar.gz tmp/raga-testing-platform-1.0.9.tar.gz --markdown 20230719/r/raga-testing-platform/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 12:49:11] INFO root fetch - processPackages [ml-management]: Downloading https://files.pythonhosted.org/packages/e1/62/84c79e15f72b8ef412d65c6677cf3d0719eb5a1e8917c4bb36421073bdcb/ml-management-0.0.43.tar.gz
+[2023-07-19 12:49:11] INFO root fetch - processPackages [sec-api]: Downloading https://files.pythonhosted.org/packages/19/ad/f62d1e39d337d79eee5e43e00cffd816cd6be1cd6ef340c86a9a26163f52/sec-api-1.0.9.tar.gz
+[2023-07-19 12:49:11] INFO root fetch - processPackages [PySocketLib]: executing diffoscope
+[2023-07-19 12:49:11] INFO root fetch - processPackages [PySocketLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySocketLib-0.3.tar.gz tmp/PySocketLib-0.3.1.tar.gz --markdown 20230719/P/PySocketLib/0.3-0.3.1/diff.md --exclude *.pyd
+[2023-07-19 12:49:11] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/29/41/10720af8da8ea1c028cb9b80cb0255d7cca0430e220a49904e03d1d64678/autotrain-advanced-0.6.0.tar.gz
+[2023-07-19 12:49:11] INFO root fetch - processPackages [geopyv]: Downloading https://files.pythonhosted.org/packages/76/fd/888bc0b2bd9d5003b90a509494f1d527befc7101dc39ed5d07d6f7ba03d0/geopyv-0.0.9.tar.gz
+[2023-07-19 12:49:11] INFO root fetch - processPackages [ml-management]: executing diffoscope
+[2023-07-19 12:49:11] INFO root fetch - processPackages [ml-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-management-0.0.42.tar.gz tmp/ml-management-0.0.43.tar.gz --markdown 20230719/m/ml-management/0.0.42-0.0.43/diff.md --exclude *.pyd
+[2023-07-19 12:49:11] INFO root fetch - processPackages [autotrain-advanced]: executing diffoscope
+[2023-07-19 12:49:11] INFO root fetch - processPackages [autotrain-advanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotrain-advanced-0.5.9.tar.gz tmp/autotrain-advanced-0.6.0.tar.gz --markdown 20230719/a/autotrain-advanced/0.5.9-0.6.0/diff.md --exclude *.pyd
+[2023-07-19 12:49:11] INFO root fetch - processPackages [geopyv]: executing diffoscope
+[2023-07-19 12:49:11] INFO root fetch - processPackages [geopyv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geopyv-0.0.8.tar.gz tmp/geopyv-0.0.9.tar.gz --markdown 20230719/g/geopyv/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 12:49:11] INFO root fetch - processPackages [sec-api]: executing diffoscope
+[2023-07-19 12:49:11] INFO root fetch - processPackages [sec-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sec-api-1.0.8.tar.gz tmp/sec-api-1.0.9.tar.gz --markdown 20230719/s/sec-api/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 12:49:12] INFO root fetch - processPackages [capnpy]: Downloading https://files.pythonhosted.org/packages/81/e3/b59d3b23b5cb2eb0437e07ae38e6b9d692d492cad4da849e9ad25d2f25d5/capnpy-0.9.0rc2.tar.gz
+[2023-07-19 12:49:12] INFO root fetch - processPackages [capnpy]: executing diffoscope
+[2023-07-19 12:49:12] INFO root fetch - processPackages [capnpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capnpy-0.9.0.tar.gz tmp/capnpy-0.9.0rc2.tar.gz --markdown 20230719/c/capnpy/0.9.0-0.9.0rc2/diff.md --exclude *.pyd
+[2023-07-19 12:49:13] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-19 12:49:13] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-19 12:49:13] INFO root fetch - processPackages [nwebclient]: Start processing: checkov
+[2023-07-19 12:49:13] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-19 12:49:13] INFO root fetch - processPackages [bb-connector]: Remove: archive file [/home/abi/fetcher/tmp/bb-connector-0.0.2.tar.gz]
+[2023-07-19 12:49:13] INFO root fetch - processPackages [bb-connector]: Remove: archive file [/home/abi/fetcher/tmp/bb-connector-0.0.3.tar.gz]
+[2023-07-19 12:49:13] INFO root fetch - processPackages [bb-connector]: Start processing: pydantic-core
+[2023-07-19 12:49:13] INFO root fetch - main [MainThread]: End processing [bb-connector]: success
+[2023-07-19 12:49:13] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-19 12:49:13] INFO root fetch - processPackages [pydantic-core]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-07-19 12:49:13] INFO root fetch - processPackages [odoo13-addon-account-banking-sepa-credit-transfer]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_account_banking_sepa_credit_transfer-13.0.1.1.2-py3-none-any.whl.zip]
+[2023-07-19 12:49:13] INFO root fetch - processPackages [odoo13-addon-account-banking-sepa-credit-transfer]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_account_banking_sepa_credit_transfer-13.0.1.1.2.dev1-py3-none-any.whl.zip]
+[2023-07-19 12:49:13] INFO root fetch - processPackages [odoo13-addon-account-banking-sepa-credit-transfer]: Start processing: nwebclient
+[2023-07-19 12:49:13] INFO root fetch - main [MainThread]: End processing [odoo13-addon-account-banking-sepa-credit-transfer]: success
+[2023-07-19 12:49:13] INFO root fetch - processPackages [PySocketLib]: Remove: archive file [/home/abi/fetcher/tmp/PySocketLib-0.3.tar.gz]
+[2023-07-19 12:49:13] INFO root fetch - processPackages [PySocketLib]: Remove: archive file [/home/abi/fetcher/tmp/PySocketLib-0.3.1.tar.gz]
+[2023-07-19 12:49:13] INFO root fetch - processPackages [PySocketLib]: Start processing: kaiju-model
+[2023-07-19 12:49:13] INFO root fetch - main [MainThread]: End processing [PySocketLib]: success
+[2023-07-19 12:49:13] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-19 12:49:13] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8f/c0/b3713d4cbc03ff63d42af6bc96060bf07ac510f578af21d0beb23a58ebd5/checkov-2.3.98.tar.gz
+[2023-07-19 12:49:13] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-19 12:49:13] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.8.tar.gz]
+[2023-07-19 12:49:13] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.9.tar.gz]
+[2023-07-19 12:49:13] INFO root fetch - main [MainThread]: End processing [raga-testing-platform]: success
+[2023-07-19 12:49:13] INFO root fetch - processPackages [kaiju-model]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-07-19 12:49:13] INFO root fetch - processPackages [ml-management]: Remove: archive file [/home/abi/fetcher/tmp/ml-management-0.0.42.tar.gz]
+[2023-07-19 12:49:13] INFO root fetch - processPackages [ml-management]: Remove: archive file [/home/abi/fetcher/tmp/ml-management-0.0.43.tar.gz]
+[2023-07-19 12:49:13] INFO root fetch - main [MainThread]: End processing [ml-management]: success
+[2023-07-19 12:49:13] INFO root fetch - processPackages [pydantic-core]: Downloading https://files.pythonhosted.org/packages/f2/97/5cd58849a79277dceef161310b04fe266c3577ed01fda722ca0419ba6f9c/pydantic_core-2.2.0.tar.gz
+[2023-07-19 12:49:13] INFO root fetch - processPackages [sec-api]: Remove: archive file [/home/abi/fetcher/tmp/sec-api-1.0.8.tar.gz]
+[2023-07-19 12:49:13] INFO root fetch - processPackages [sec-api]: Remove: archive file [/home/abi/fetcher/tmp/sec-api-1.0.9.tar.gz]
+[2023-07-19 12:49:13] INFO root fetch - main [MainThread]: End processing [sec-api]: success
+[2023-07-19 12:49:13] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/36/b2/faea7cf4d04d72880327d7e73a0327922cb8cd1c61a51e8fd38f344e9f2f/checkov-2.3.99.tar.gz
+[2023-07-19 12:49:13] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.5.9.tar.gz]
+[2023-07-19 12:49:13] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.6.0.tar.gz]
+[2023-07-19 12:49:13] INFO root fetch - main [MainThread]: End processing [autotrain-advanced]: success
+[2023-07-19 12:49:13] INFO root fetch - processPackages [geopyv]: Remove: archive file [/home/abi/fetcher/tmp/geopyv-0.0.8.tar.gz]
+[2023-07-19 12:49:13] INFO root fetch - processPackages [geopyv]: Remove: archive file [/home/abi/fetcher/tmp/geopyv-0.0.9.tar.gz]
+[2023-07-19 12:49:13] INFO root fetch - main [MainThread]: End processing [geopyv]: success
+[2023-07-19 12:49:13] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-19 12:49:13] INFO root fetch - processPackages [kaiju-model]: Downloading https://files.pythonhosted.org/packages/37/9b/d94ee9a3a1bcd28bec551d05cdc3f58f325b32fbeb0c71869e7137a4f0b9/kaiju_model-2.0.2-py3-none-any.whl
+[2023-07-19 12:49:13] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-19 12:49:13] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230719/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-19 12:49:14] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-07-19 12:49:14] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230719/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-19 12:49:14] INFO root fetch - processPackages [pydantic-core]: Downloading https://files.pythonhosted.org/packages/57/ea/edff47ad42857534f3abcc87472802b3181041f4e4fbeac988a5ecfcffae/pydantic_core-2.3.0.tar.gz
+[2023-07-19 12:49:14] INFO root fetch - processPackages [kaiju-model]: Downloading https://files.pythonhosted.org/packages/ca/98/4eface1aedc8359d2974ec78ea32ab0d2554ab0732409a7c7223ba277f81/kaiju_model-2.0.3-py3-none-any.whl
+[2023-07-19 12:49:14] INFO root fetch - processPackages [kaiju-model]: executing diffoscope
+[2023-07-19 12:49:14] INFO root fetch - processPackages [kaiju-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaiju_model-2.0.2-py3-none-any.whl.zip tmp/kaiju_model-2.0.3-py3-none-any.whl.zip --markdown 20230719/k/kaiju-model/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-07-19 12:49:14] INFO root fetch - processPackages [pydantic-core]: executing diffoscope
+[2023-07-19 12:49:14] INFO root fetch - processPackages [pydantic-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_core-2.2.0.tar.gz tmp/pydantic_core-2.3.0.tar.gz --markdown 20230719/p/pydantic-core/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-07-19 12:49:14] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-19 12:49:14] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-19 12:49:14] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-19 12:49:15] INFO root fetch - processPackages [kaiju-model]: Remove: archive file [/home/abi/fetcher/tmp/kaiju_model-2.0.2-py3-none-any.whl.zip]
+[2023-07-19 12:49:15] INFO root fetch - processPackages [kaiju-model]: Remove: archive file [/home/abi/fetcher/tmp/kaiju_model-2.0.3-py3-none-any.whl.zip]
+[2023-07-19 12:49:15] INFO root fetch - main [MainThread]: End processing [kaiju-model]: success
+[2023-07-19 12:49:15] INFO root fetch - processPackages [capnpy]: Remove: archive file [/home/abi/fetcher/tmp/capnpy-0.9.0.tar.gz]
+[2023-07-19 12:49:15] INFO root fetch - processPackages [capnpy]: Remove: archive file [/home/abi/fetcher/tmp/capnpy-0.9.0rc2.tar.gz]
+[2023-07-19 12:49:15] INFO root fetch - main [MainThread]: End processing [capnpy]: success
+[2023-07-19 12:49:16] INFO root fetch - processPackages [pydantic-core]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_core-2.2.0.tar.gz]
+[2023-07-19 12:49:16] INFO root fetch - processPackages [pydantic-core]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_core-2.3.0.tar.gz]
+[2023-07-19 12:49:16] INFO root fetch - main [MainThread]: End processing [pydantic-core]: success
+[2023-07-19 12:49:29] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.98.tar.gz]
+[2023-07-19 12:49:29] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
+[2023-07-19 12:49:29] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-07-19 12:49:29] INFO root fetch - main [MainThread]: Store serial: [18948863]
