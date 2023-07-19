@@ -15293,3 +15293,117 @@
 [2023-07-19 08:41:25] INFO root fetch - processPackages [pyradiance]: Remove: archive file [/home/abi/fetcher/tmp/pyradiance-0.1.1-py3-none-macosx_11_0_arm64.whl.zip]
 [2023-07-19 08:41:25] INFO root fetch - main [MainThread]: End processing [pyradiance]: success
 [2023-07-19 08:41:25] INFO root fetch - main [MainThread]: Store serial: [18946164]
+[2023-07-19 08:46:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18946164]
+[2023-07-19 08:46:36] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-19 08:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pygod
+[2023-07-19 08:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: enocean-webthing
+[2023-07-19 08:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hatch-demo-changgeng
+[2023-07-19 08:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stigg-api-client
+[2023-07-19 08:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stigg-api-client-v2
+[2023-07-19 08:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: irene-pro
+[2023-07-19 08:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mpservice
+[2023-07-19 08:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: asana-preview
+[2023-07-19 08:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: easy-ernie
+[2023-07-19 08:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lmcloud
+[2023-07-19 08:46:36] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [0.492.0] Old Version: [0.491.9]
+[2023-07-19 08:46:36] INFO root fetch - processPackages [stigg-api-client]: New version: [0.5.0] Old Version: [0.492.0]
+[2023-07-19 08:46:36] INFO root fetch - processPackages [enocean-webthing]: New version: [1.0.0] Old Version: [0.1.4]
+[2023-07-19 08:46:36] INFO root fetch - processPackages [irene-pro]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-19 08:46:36] WARNING root fetch - processPackages [hatch-demo-changgeng]: Skipping, unable to determine old version
+[2023-07-19 08:46:36] INFO root fetch - processPackages [hatch-demo-changgeng]: Start processing: air2phin
+[2023-07-19 08:46:36] INFO root fetch - main [MainThread]: End processing [hatch-demo-changgeng] error
+[2023-07-19 08:46:36] INFO root fetch - processPackages [asana-preview]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 08:46:36] INFO root fetch - processPackages [easy-ernie]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-19 08:46:36] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/2c/2b/37dbf2e120f98ce9e6609a034ebfd8b6e8d3012c964df86d1558c249e1f0/stigg_api_client_v2-0.491.9.tar.gz
+[2023-07-19 08:46:36] INFO root fetch - processPackages [pygod]: New version: [1.0.0] Old Version: [0.4.0]
+[2023-07-19 08:46:36] INFO root fetch - processPackages [mpservice]: New version: [0.9.9.post1] Old Version: [0.9.9]
+[2023-07-19 08:46:36] INFO root fetch - processPackages [lmcloud]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-19 08:46:36] INFO root fetch - processPackages [enocean-webthing]: Downloading https://files.pythonhosted.org/packages/71/a9/93ea8af2854ab7a4ef7434724d5c38faeaf6d2f56cda23d382271d1edc5a/enocean_webthing-0.1.4.tar.gz
+[2023-07-19 08:46:36] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/87/fd/a507482a35ddffe32cd9ff0a43c7214e9a1fe6bcbe7db5568528afa277f9/irene_pro-0.1.1.tar.gz
+[2023-07-19 08:46:36] INFO root fetch - processPackages [air2phin]: New version: [0.0.22a4] Old Version: [0.0.22a3]
+[2023-07-19 08:46:37] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/0f/ae/964756b6a692ebc329021f9cbd1638e08fc5b8e096081e865e2287cfcd47/stigg_api_client-0.492.0.tar.gz
+[2023-07-19 08:46:37] INFO root fetch - processPackages [air2phin]: Downloading https://files.pythonhosted.org/packages/2b/a0/271b6b7bfd0ef7d59702cbb86aa99029fa960e27d54b7ff4d147815414b1/air2phin-0.0.22a3.tar.gz
+[2023-07-19 08:46:37] INFO root fetch - processPackages [asana-preview]: Downloading https://files.pythonhosted.org/packages/3a/3b/f1517b56e0b08628cdcf3b05fb7d690794e7ea0fb89e16b534d6e1a5f5c1/asana_preview-1.0.8.tar.gz
+[2023-07-19 08:46:37] INFO root fetch - processPackages [easy-ernie]: Downloading https://files.pythonhosted.org/packages/f0/38/64a07efdea64fce20c24c2370ee8e0c88374a904c831dcdc1cfd93ed2989/easy-ernie-0.1.5.tar.gz
+[2023-07-19 08:46:37] INFO root fetch - processPackages [pygod]: Downloading https://files.pythonhosted.org/packages/60/d3/da2add8bce793df50b28b795967565b2b53ce0e2c6db50785be8e3546c47/pygod-0.4.0.tar.gz
+[2023-07-19 08:46:37] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/a4/76/0caf3e54fc1b0c685c01abdb7deb283a4e0ab62467df218edf79256efe6d/mpservice-0.9.9.tar.gz
+[2023-07-19 08:46:37] INFO root fetch - processPackages [lmcloud]: Downloading https://files.pythonhosted.org/packages/46/20/dbfeccebfd72300edb21a9ac07bba12f45a17211279f8fd82be8560156de/lmcloud-0.3.8.tar.gz
+[2023-07-19 08:46:37] INFO root fetch - processPackages [enocean-webthing]: Downloading https://files.pythonhosted.org/packages/af/82/08d74862a965dc8f8adfef6e86d4a6009906de78d32c877a136e41fc9450/enocean_webthing-1.0.0.tar.gz
+[2023-07-19 08:46:37] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/29/bc/8683777160eb74d7f033f3e3b2cf5a8919afe0469e8fae9afb13fd151273/stigg_api_client_v2-0.492.0.tar.gz
+[2023-07-19 08:46:37] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/fd/6d/890330e98017895f135ca7a924f03019cb5a821e28a2629ebd5273bc8be2/irene_pro-0.1.2.tar.gz
+[2023-07-19 08:46:37] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/6f/d2/ae3138d8e73b06a33bdd8d29d234ac4387d7bf23217c13b557d497089bbf/stigg_api_client-0.5.0.tar.gz
+[2023-07-19 08:46:37] INFO root fetch - processPackages [enocean-webthing]: executing diffoscope
+[2023-07-19 08:46:37] INFO root fetch - processPackages [enocean-webthing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enocean_webthing-0.1.4.tar.gz tmp/enocean_webthing-1.0.0.tar.gz --markdown 20230719/e/enocean-webthing/0.1.4-1.0.0/diff.md --exclude *.pyd
+[2023-07-19 08:46:37] INFO root fetch - processPackages [air2phin]: Downloading https://files.pythonhosted.org/packages/1c/50/bc1cadab081c28d018d22ccc7c0c567dee54e7b506c58109af2d8275cbba/air2phin-0.0.22a4.tar.gz
+[2023-07-19 08:46:37] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-07-19 08:46:37] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.1.1.tar.gz tmp/irene_pro-0.1.2.tar.gz --markdown 20230719/i/irene-pro/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-19 08:46:37] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2023-07-19 08:46:37] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-0.491.9.tar.gz tmp/stigg_api_client_v2-0.492.0.tar.gz --markdown 20230719/s/stigg-api-client-v2/0.491.9-0.492.0/diff.md --exclude *.pyd
+[2023-07-19 08:46:37] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2023-07-19 08:46:37] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-0.492.0.tar.gz tmp/stigg_api_client-0.5.0.tar.gz --markdown 20230719/s/stigg-api-client/0.492.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-19 08:46:37] INFO root fetch - processPackages [pygod]: Downloading https://files.pythonhosted.org/packages/cb/42/a8ee68cc71518ef5b0f370819c569fdbe5b20c033df504f1e681d87e0169/pygod-1.0.0.tar.gz
+[2023-07-19 08:46:37] INFO root fetch - processPackages [easy-ernie]: Downloading https://files.pythonhosted.org/packages/29/6a/e105f9c4ae20f63c1ec810fcf82721ce5093eaabd77ea346d3ba7a7c5fb0/easy-ernie-0.1.6.tar.gz
+[2023-07-19 08:46:37] INFO root fetch - processPackages [air2phin]: executing diffoscope
+[2023-07-19 08:46:37] INFO root fetch - processPackages [air2phin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/air2phin-0.0.22a3.tar.gz tmp/air2phin-0.0.22a4.tar.gz --markdown 20230719/a/air2phin/0.0.22a3-0.0.22a4/diff.md --exclude *.pyd
+[2023-07-19 08:46:37] INFO root fetch - processPackages [asana-preview]: Downloading https://files.pythonhosted.org/packages/40/0c/73be80ef3493809a86453d7d59f33741d4521aa7e79b0326f6457cdad900/asana_preview-1.0.9.tar.gz
+[2023-07-19 08:46:37] INFO root fetch - processPackages [pygod]: executing diffoscope
+[2023-07-19 08:46:37] INFO root fetch - processPackages [pygod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygod-0.4.0.tar.gz tmp/pygod-1.0.0.tar.gz --markdown 20230719/p/pygod/0.4.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-19 08:46:37] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/62/83/992eb812676a1d5b8ffbc5c9ba7e1bd57f82c86ae5c8a0e509834c8df031/mpservice-0.9.9.post1.tar.gz
+[2023-07-19 08:46:37] INFO root fetch - processPackages [lmcloud]: Downloading https://files.pythonhosted.org/packages/6e/d2/638c9bce5b1bc60bac99065be03da54104fd4e94d026f74417cbb45dd33f/lmcloud-0.3.9.tar.gz
+[2023-07-19 08:46:37] INFO root fetch - processPackages [easy-ernie]: executing diffoscope
+[2023-07-19 08:46:37] INFO root fetch - processPackages [easy-ernie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy-ernie-0.1.5.tar.gz tmp/easy-ernie-0.1.6.tar.gz --markdown 20230719/e/easy-ernie/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-19 08:46:38] INFO root fetch - processPackages [lmcloud]: executing diffoscope
+[2023-07-19 08:46:38] INFO root fetch - processPackages [lmcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmcloud-0.3.8.tar.gz tmp/lmcloud-0.3.9.tar.gz --markdown 20230719/l/lmcloud/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-19 08:46:38] INFO root fetch - processPackages [asana-preview]: executing diffoscope
+[2023-07-19 08:46:38] INFO root fetch - processPackages [asana-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asana_preview-1.0.8.tar.gz tmp/asana_preview-1.0.9.tar.gz --markdown 20230719/a/asana-preview/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 08:46:38] INFO root fetch - processPackages [mpservice]: executing diffoscope
+[2023-07-19 08:46:38] INFO root fetch - processPackages [mpservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpservice-0.9.9.tar.gz tmp/mpservice-0.9.9.post1.tar.gz --markdown 20230719/m/mpservice/0.9.9-0.9.9.post1/diff.md --exclude *.pyd
+[2023-07-19 08:46:39] INFO root fetch - processPackages [enocean-webthing]: Remove: archive file [/home/abi/fetcher/tmp/enocean_webthing-0.1.4.tar.gz]
+[2023-07-19 08:46:39] INFO root fetch - processPackages [enocean-webthing]: Remove: archive file [/home/abi/fetcher/tmp/enocean_webthing-1.0.0.tar.gz]
+[2023-07-19 08:46:39] INFO root fetch - processPackages [enocean-webthing]: Start processing: zhousf-lib
+[2023-07-19 08:46:39] INFO root fetch - main [MainThread]: End processing [enocean-webthing]: success
+[2023-07-19 08:46:39] INFO root fetch - processPackages [zhousf-lib]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-07-19 08:46:39] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.492.0.tar.gz]
+[2023-07-19 08:46:39] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.5.0.tar.gz]
+[2023-07-19 08:46:39] INFO root fetch - processPackages [stigg-api-client]: Start processing: open-interpreter
+[2023-07-19 08:46:39] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2023-07-19 08:46:39] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.1.1.tar.gz]
+[2023-07-19 08:46:39] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.1.2.tar.gz]
+[2023-07-19 08:46:39] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-07-19 08:46:39] INFO root fetch - processPackages [open-interpreter]: New version: [0.0.231] Old Version: [0.0.230]
+[2023-07-19 08:46:39] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/8c/10/f2e41da1240d36a250de7f8e447ebe71cc206b0deca1e4a01e92fdb69e26/zhousf-lib-0.8.8.tar.gz
+[2023-07-19 08:46:39] INFO root fetch - processPackages [easy-ernie]: Remove: archive file [/home/abi/fetcher/tmp/easy-ernie-0.1.5.tar.gz]
+[2023-07-19 08:46:39] INFO root fetch - processPackages [easy-ernie]: Remove: archive file [/home/abi/fetcher/tmp/easy-ernie-0.1.6.tar.gz]
+[2023-07-19 08:46:39] INFO root fetch - main [MainThread]: End processing [easy-ernie]: success
+[2023-07-19 08:46:39] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/8d/0f/2670aa87737832e77fdcfd70e22fcb995404ff30a26e95a0a0c307e64096/open_interpreter-0.0.230.tar.gz
+[2023-07-19 08:46:39] INFO root fetch - processPackages [lmcloud]: Remove: archive file [/home/abi/fetcher/tmp/lmcloud-0.3.8.tar.gz]
+[2023-07-19 08:46:39] INFO root fetch - processPackages [lmcloud]: Remove: archive file [/home/abi/fetcher/tmp/lmcloud-0.3.9.tar.gz]
+[2023-07-19 08:46:39] INFO root fetch - main [MainThread]: End processing [lmcloud]: success
+[2023-07-19 08:46:39] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/75/15/bec88d60b13eab78cb7552590c4b251c0363e2c4e94f9d8cedc9790b7518/open_interpreter-0.0.231.tar.gz
+[2023-07-19 08:46:39] INFO root fetch - processPackages [air2phin]: Remove: archive file [/home/abi/fetcher/tmp/air2phin-0.0.22a3.tar.gz]
+[2023-07-19 08:46:39] INFO root fetch - processPackages [air2phin]: Remove: archive file [/home/abi/fetcher/tmp/air2phin-0.0.22a4.tar.gz]
+[2023-07-19 08:46:39] INFO root fetch - main [MainThread]: End processing [air2phin]: success
+[2023-07-19 08:46:39] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.491.9.tar.gz]
+[2023-07-19 08:46:39] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.492.0.tar.gz]
+[2023-07-19 08:46:39] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2023-07-19 08:46:39] INFO root fetch - processPackages [mpservice]: Remove: archive file [/home/abi/fetcher/tmp/mpservice-0.9.9.tar.gz]
+[2023-07-19 08:46:39] INFO root fetch - processPackages [mpservice]: Remove: archive file [/home/abi/fetcher/tmp/mpservice-0.9.9.post1.tar.gz]
+[2023-07-19 08:46:39] INFO root fetch - main [MainThread]: End processing [mpservice]: success
+[2023-07-19 08:46:39] INFO root fetch - processPackages [pygod]: Remove: archive file [/home/abi/fetcher/tmp/pygod-0.4.0.tar.gz]
+[2023-07-19 08:46:39] INFO root fetch - processPackages [pygod]: Remove: archive file [/home/abi/fetcher/tmp/pygod-1.0.0.tar.gz]
+[2023-07-19 08:46:39] INFO root fetch - main [MainThread]: End processing [pygod]: success
+[2023-07-19 08:46:39] INFO root fetch - processPackages [open-interpreter]: executing diffoscope
+[2023-07-19 08:46:39] INFO root fetch - processPackages [open-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_interpreter-0.0.230.tar.gz tmp/open_interpreter-0.0.231.tar.gz --markdown 20230719/o/open-interpreter/0.0.230-0.0.231/diff.md --exclude *.pyd
+[2023-07-19 08:46:40] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/e3/cf/50cf466043420679fe4d1c10b658d6d76bb5e5ca0096ec75729163d4fc9b/zhousf-lib-0.8.9.tar.gz
+[2023-07-19 08:46:40] INFO root fetch - processPackages [zhousf-lib]: executing diffoscope
+[2023-07-19 08:46:40] INFO root fetch - processPackages [zhousf-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhousf-lib-0.8.8.tar.gz tmp/zhousf-lib-0.8.9.tar.gz --markdown 20230719/z/zhousf-lib/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-07-19 08:46:40] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.230.tar.gz]
+[2023-07-19 08:46:40] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.231.tar.gz]
+[2023-07-19 08:46:40] INFO root fetch - main [MainThread]: End processing [open-interpreter]: success
+[2023-07-19 08:46:42] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-0.8.8.tar.gz]
+[2023-07-19 08:46:42] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-0.8.9.tar.gz]
+[2023-07-19 08:46:42] INFO root fetch - main [MainThread]: End processing [zhousf-lib]: success
+[2023-07-19 08:46:44] INFO root fetch - processPackages [asana-preview]: Remove: archive file [/home/abi/fetcher/tmp/asana_preview-1.0.8.tar.gz]
+[2023-07-19 08:46:44] INFO root fetch - processPackages [asana-preview]: Remove: archive file [/home/abi/fetcher/tmp/asana_preview-1.0.9.tar.gz]
+[2023-07-19 08:46:44] INFO root fetch - main [MainThread]: End processing [asana-preview]: success
+[2023-07-19 08:46:44] INFO root fetch - main [MainThread]: Store serial: [18946209]
