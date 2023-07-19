@@ -6279,3 +6279,165 @@
 [2023-07-19 03:55:45] INFO root fetch - processPackages [pur]: Remove: archive file [/home/abi/fetcher/tmp/pur-7.1.1.tar.gz]
 [2023-07-19 03:55:45] INFO root fetch - main [MainThread]: End processing [pur]: success
 [2023-07-19 03:55:45] INFO root fetch - main [MainThread]: Store serial: [18943072]
+[2023-07-19 04:00:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18943072]
+[2023-07-19 04:00:54] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-19 04:00:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ros-cdk-iot
+[2023-07-19 04:00:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nids-transformers
+[2023-07-19 04:00:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cachetoolz
+[2023-07-19 04:00:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ros-cdk-maxcompute
+[2023-07-19 04:00:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: StereoSiTE
+[2023-07-19 04:00:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: specklia
+[2023-07-19 04:00:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ros-cdk-bss
+[2023-07-19 04:00:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: coiled
+[2023-07-19 04:00:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: protoletariat
+[2023-07-19 04:00:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ros-cdk-kafka
+[2023-07-19 04:00:54] INFO root fetch - processPackages [specklia]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-19 04:00:54] INFO root fetch - processPackages [cachetoolz]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-07-19 04:00:54] INFO root fetch - processPackages [nids-transformers]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-19 04:00:54] WARNING root fetch - processPackages [StereoSiTE]: Skipping, unable to determine old version
+[2023-07-19 04:00:54] INFO root fetch - processPackages [StereoSiTE]: Start processing: ros-cdk-lindorm
+[2023-07-19 04:00:54] INFO root fetch - main [MainThread]: End processing [StereoSiTE] error
+[2023-07-19 04:00:54] INFO root fetch - processPackages [coiled]: New version: [0.8.9.dev9] Old Version: [0.8.9.dev6]
+[2023-07-19 04:00:54] INFO root fetch - processPackages [ros-cdk-maxcompute]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 04:00:54] INFO root fetch - processPackages [ros-cdk-iot]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 04:00:54] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/2a/bd/1379d90b6bd45442f7550556688400cbbbfc9ca64d3a7d78533565069eda/specklia-1.2.8.tar.gz
+[2023-07-19 04:00:54] INFO root fetch - processPackages [ros-cdk-bss]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 04:00:54] INFO root fetch - processPackages [protoletariat]: New version: [3.2.9] Old Version: [3.2.8]
+[2023-07-19 04:00:54] INFO root fetch - processPackages [nids-transformers]: Downloading https://files.pythonhosted.org/packages/3f/cc/77dee0ea1a62025f1b0ae7ebbab0a63de1209a23c5387b4aca128e736fdc/nids_transformers-0.0.2.tar.gz
+[2023-07-19 04:00:54] INFO root fetch - processPackages [ros-cdk-lindorm]: New version: [1.0.16] Old Version: [1.0.15]
+[2023-07-19 04:00:54] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/01/4b/38ee625e022b9045458352636265942fc0dd2c5373d6b88ca4415a39b230/coiled-0.8.9.dev6.tar.gz
+[2023-07-19 04:00:54] INFO root fetch - processPackages [cachetoolz]: Downloading https://files.pythonhosted.org/packages/49/54/f4de37c720d6986c248e1fc7f85cc0fb70ee441c956c2faff8492e141678/cachetoolz-0.0.1.tar.gz
+[2023-07-19 04:00:54] INFO root fetch - processPackages [ros-cdk-kafka]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 04:00:55] INFO root fetch - processPackages [ros-cdk-bss]: Downloading https://files.pythonhosted.org/packages/01/5d/7367ba097309c2cad4d93042e0b57559d3baca78f6413adfc0241c79ab5c/ros-cdk-bss-1.0.8.tar.gz
+[2023-07-19 04:00:55] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/82/ab/63cdd26880b2cbe03073ca9cb599a0ed43a52df679f722fa5d3eaab6c4c5/specklia-1.2.9.tar.gz
+[2023-07-19 04:00:55] INFO root fetch - processPackages [ros-cdk-iot]: Downloading https://files.pythonhosted.org/packages/9a/a7/afc8d729cf01f8e1c18e4ad0d7d2962c10f67b0f335e366caaef535df179/ros-cdk-iot-1.0.8.tar.gz
+[2023-07-19 04:00:55] INFO root fetch - processPackages [ros-cdk-maxcompute]: Downloading https://files.pythonhosted.org/packages/b2/bc/4a7b7fc2a1b0e702023e28c4af25ff30d9a517221ca40daca96f5ddb2582/ros-cdk-maxcompute-1.0.8.tar.gz
+[2023-07-19 04:00:55] INFO root fetch - processPackages [protoletariat]: Downloading https://files.pythonhosted.org/packages/3c/4c/d507b7e8533b71f281c3eacf73e3380d4de279088fc5e0f4af52704abec5/protoletariat-3.2.8.tar.gz
+[2023-07-19 04:00:55] INFO root fetch - processPackages [ros-cdk-lindorm]: Downloading https://files.pythonhosted.org/packages/8a/8e/9b01cc5966d4d3a6d7494488e633824666e3164160b5227f5f3b7fb37036/ros-cdk-lindorm-1.0.15.tar.gz
+[2023-07-19 04:00:55] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2023-07-19 04:00:55] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.2.8.tar.gz tmp/specklia-1.2.9.tar.gz --markdown 20230719/s/specklia/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-19 04:00:55] INFO root fetch - processPackages [ros-cdk-kafka]: Downloading https://files.pythonhosted.org/packages/a3/99/c40da094f8be49c3470e220bbe6f6af2a035df2d0cf91637a4591129356b/ros-cdk-kafka-1.0.8.tar.gz
+[2023-07-19 04:00:55] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/26/80/9e4bfeccf312016e825026ef4ffbc2321b3117d2572b720eaa72b12d9673/coiled-0.8.9.dev9.tar.gz
+[2023-07-19 04:00:55] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-19 04:00:55] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.8.9.dev6.tar.gz tmp/coiled-0.8.9.dev9.tar.gz --markdown 20230719/c/coiled/0.8.9.dev6-0.8.9.dev9/diff.md --exclude *.pyd
+[2023-07-19 04:00:55] INFO root fetch - processPackages [cachetoolz]: Downloading https://files.pythonhosted.org/packages/7d/b1/d0b33ef6d7fc1a096155a7cf8ddd8c8da51a6561b83dda8b689c30159680/cachetoolz-0.1.0.tar.gz
+[2023-07-19 04:00:55] INFO root fetch - processPackages [ros-cdk-bss]: Downloading https://files.pythonhosted.org/packages/3a/67/4f5261976d3d0ebbad88eead45b2e0cea6f54d974cab64d1e56e73d28912/ros-cdk-bss-1.0.9.tar.gz
+[2023-07-19 04:00:55] INFO root fetch - processPackages [ros-cdk-maxcompute]: Downloading https://files.pythonhosted.org/packages/cc/2c/bf8279ef66988d3e374281ed6efe68f210443379e9c02aaa15b0f74951ad/ros-cdk-maxcompute-1.0.9.tar.gz
+[2023-07-19 04:00:55] INFO root fetch - processPackages [ros-cdk-iot]: Downloading https://files.pythonhosted.org/packages/20/c3/9d1c46b23ce26ca76a9a8993273ec9f333655246a215eaec7452e417c917/ros-cdk-iot-1.0.9.tar.gz
+[2023-07-19 04:00:55] INFO root fetch - processPackages [protoletariat]: Downloading https://files.pythonhosted.org/packages/82/e9/8d4ccdda9f4ef2c3528285f9a792eedd538a2690ca7e808a885a3eb7116e/protoletariat-3.2.9.tar.gz
+[2023-07-19 04:00:55] INFO root fetch - processPackages [ros-cdk-lindorm]: Downloading https://files.pythonhosted.org/packages/3a/c3/0cd65cc5a4896204b3b216a5f8cced189b45aa0b4967e7238da60285daf8/ros-cdk-lindorm-1.0.16.tar.gz
+[2023-07-19 04:00:55] INFO root fetch - processPackages [cachetoolz]: executing diffoscope
+[2023-07-19 04:00:55] INFO root fetch - processPackages [cachetoolz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cachetoolz-0.0.1.tar.gz tmp/cachetoolz-0.1.0.tar.gz --markdown 20230719/c/cachetoolz/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-07-19 04:00:55] INFO root fetch - processPackages [protoletariat]: executing diffoscope
+[2023-07-19 04:00:55] INFO root fetch - processPackages [protoletariat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protoletariat-3.2.8.tar.gz tmp/protoletariat-3.2.9.tar.gz --markdown 20230719/p/protoletariat/3.2.8-3.2.9/diff.md --exclude *.pyd
+[2023-07-19 04:00:55] INFO root fetch - processPackages [ros-cdk-maxcompute]: executing diffoscope
+[2023-07-19 04:00:55] INFO root fetch - processPackages [ros-cdk-maxcompute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-maxcompute-1.0.8.tar.gz tmp/ros-cdk-maxcompute-1.0.9.tar.gz --markdown 20230719/r/ros-cdk-maxcompute/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 04:00:55] INFO root fetch - processPackages [ros-cdk-iot]: executing diffoscope
+[2023-07-19 04:00:55] INFO root fetch - processPackages [ros-cdk-iot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-iot-1.0.8.tar.gz tmp/ros-cdk-iot-1.0.9.tar.gz --markdown 20230719/r/ros-cdk-iot/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 04:00:55] INFO root fetch - processPackages [ros-cdk-lindorm]: executing diffoscope
+[2023-07-19 04:00:55] INFO root fetch - processPackages [ros-cdk-lindorm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-lindorm-1.0.15.tar.gz tmp/ros-cdk-lindorm-1.0.16.tar.gz --markdown 20230719/r/ros-cdk-lindorm/1.0.15-1.0.16/diff.md --exclude *.pyd
+[2023-07-19 04:00:56] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.2.8.tar.gz]
+[2023-07-19 04:00:56] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.2.9.tar.gz]
+[2023-07-19 04:00:56] INFO root fetch - processPackages [specklia]: Start processing: adafri
+[2023-07-19 04:00:56] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2023-07-19 04:00:56] INFO root fetch - processPackages [adafri]: New version: [0.0.22] Old Version: [0.0.21]
+[2023-07-19 04:00:56] INFO root fetch - processPackages [ros-cdk-bss]: executing diffoscope
+[2023-07-19 04:00:56] INFO root fetch - processPackages [ros-cdk-bss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-bss-1.0.8.tar.gz tmp/ros-cdk-bss-1.0.9.tar.gz --markdown 20230719/r/ros-cdk-bss/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 04:00:56] INFO root fetch - processPackages [ros-cdk-kafka]: Downloading https://files.pythonhosted.org/packages/c5/51/5727735ae9a6c3a2ec45a2f27a7668e524d6066953bd376dbfadea5eebd6/ros-cdk-kafka-1.0.9.tar.gz
+[2023-07-19 04:00:56] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/48/95/99cad20d3e60006a5cf1135db8480d544ba9a72a09b353bedc4611d8b05e/adafri-0.0.21.tar.gz
+[2023-07-19 04:00:56] INFO root fetch - processPackages [nids-transformers]: Downloading https://files.pythonhosted.org/packages/8e/42/9cd93c9a7793f2b152e5357de8bb383c15fe9b0bffbc0ac49f35abe83fa7/nids_transformers-0.0.3.tar.gz
+[2023-07-19 04:00:56] INFO root fetch - processPackages [ros-cdk-kafka]: executing diffoscope
+[2023-07-19 04:00:56] INFO root fetch - processPackages [ros-cdk-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-kafka-1.0.8.tar.gz tmp/ros-cdk-kafka-1.0.9.tar.gz --markdown 20230719/r/ros-cdk-kafka/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 04:00:56] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/a4/e4/281a8acf25ab54bcbcbd30e35e348e9be416a9717f4a0659d23123158074/adafri-0.0.22.tar.gz
+[2023-07-19 04:00:56] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.9.dev6.tar.gz]
+[2023-07-19 04:00:56] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.9.dev9.tar.gz]
+[2023-07-19 04:00:56] INFO root fetch - processPackages [coiled]: Start processing: pbs-builder
+[2023-07-19 04:00:56] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-19 04:00:56] WARNING root fetch - processPackages [pbs-builder]: Skipping, unable to determine old version
+[2023-07-19 04:00:56] INFO root fetch - processPackages [pbs-builder]: Start processing: reflex
+[2023-07-19 04:00:56] INFO root fetch - main [MainThread]: End processing [pbs-builder] error
+[2023-07-19 04:00:56] INFO root fetch - processPackages [cachetoolz]: Remove: archive file [/home/abi/fetcher/tmp/cachetoolz-0.0.1.tar.gz]
+[2023-07-19 04:00:56] INFO root fetch - processPackages [cachetoolz]: Remove: archive file [/home/abi/fetcher/tmp/cachetoolz-0.1.0.tar.gz]
+[2023-07-19 04:00:56] INFO root fetch - processPackages [cachetoolz]: Start processing: nids-transformers
+[2023-07-19 04:00:56] INFO root fetch - main [MainThread]: End processing [cachetoolz]: success
+[2023-07-19 04:00:56] INFO root fetch - processPackages [nids-transformers]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-19 04:00:56] INFO root fetch - processPackages [adafri]: executing diffoscope
+[2023-07-19 04:00:56] INFO root fetch - processPackages [adafri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafri-0.0.21.tar.gz tmp/adafri-0.0.22.tar.gz --markdown 20230719/a/adafri/0.0.21-0.0.22/diff.md --exclude *.pyd
+[2023-07-19 04:00:56] INFO root fetch - processPackages [reflex]: New version: [0.2.1a2] Old Version: [0.2.1a1]
+[2023-07-19 04:00:57] INFO root fetch - processPackages [nids-transformers]: Downloading https://files.pythonhosted.org/packages/8f/f3/a552c2f350bc8698b3ee7e22f565955ce06c264cea193688a11942b1381c/nids_transformers-0.0.4.tar.gz
+[2023-07-19 04:00:57] INFO root fetch - processPackages [protoletariat]: Remove: archive file [/home/abi/fetcher/tmp/protoletariat-3.2.8.tar.gz]
+[2023-07-19 04:00:57] INFO root fetch - processPackages [protoletariat]: Remove: archive file [/home/abi/fetcher/tmp/protoletariat-3.2.9.tar.gz]
+[2023-07-19 04:00:57] INFO root fetch - processPackages [protoletariat]: Start processing: ros-cdk-amqp
+[2023-07-19 04:00:57] INFO root fetch - main [MainThread]: End processing [protoletariat]: success
+[2023-07-19 04:00:57] INFO root fetch - processPackages [ros-cdk-maxcompute]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-maxcompute-1.0.8.tar.gz]
+[2023-07-19 04:00:57] INFO root fetch - processPackages [ros-cdk-maxcompute]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-maxcompute-1.0.9.tar.gz]
+[2023-07-19 04:00:57] INFO root fetch - processPackages [ros-cdk-maxcompute]: Start processing: airbyte-cdk
+[2023-07-19 04:00:57] INFO root fetch - main [MainThread]: End processing [ros-cdk-maxcompute]: success
+[2023-07-19 04:00:57] INFO root fetch - processPackages [nids-transformers]: executing diffoscope
+[2023-07-19 04:00:57] INFO root fetch - processPackages [nids-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nids_transformers-0.0.2.tar.gz tmp/nids_transformers-0.0.3.tar.gz --markdown 20230719/n/nids-transformers/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-19 04:00:57] INFO root fetch - processPackages [ros-cdk-amqp]: New version: [1.0.9] Old Version: [1.0.16]
+[2023-07-19 04:00:57] INFO root fetch - processPackages [reflex]: Downloading https://files.pythonhosted.org/packages/32/83/4ee876b00aedee212db39ade796be170e3593c03df1cc5484c01dc563458/reflex-0.2.1a1.tar.gz
+[2023-07-19 04:00:57] INFO root fetch - processPackages [ros-cdk-iot]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-iot-1.0.8.tar.gz]
+[2023-07-19 04:00:57] INFO root fetch - processPackages [ros-cdk-iot]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-iot-1.0.9.tar.gz]
+[2023-07-19 04:00:57] INFO root fetch - processPackages [ros-cdk-iot]: Start processing: ros-cdk-eci
+[2023-07-19 04:00:57] INFO root fetch - main [MainThread]: End processing [ros-cdk-iot]: success
+[2023-07-19 04:00:57] INFO root fetch - processPackages [airbyte-cdk]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-19 04:00:57] INFO root fetch - processPackages [airbyte-cdk]: Downloading https://files.pythonhosted.org/packages/a6/6c/5db8c1f4ef1f82d0d51a3df308363222107d0773276235a4acbc31f7f8dc/airbyte-cdk-0.9.4.tar.gz
+[2023-07-19 04:00:57] INFO root fetch - processPackages [ros-cdk-eci]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 04:00:57] INFO root fetch - processPackages [ros-cdk-bss]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-bss-1.0.8.tar.gz]
+[2023-07-19 04:00:57] INFO root fetch - processPackages [ros-cdk-bss]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-bss-1.0.9.tar.gz]
+[2023-07-19 04:00:57] INFO root fetch - processPackages [ros-cdk-bss]: Start processing: django-url-tokenizer
+[2023-07-19 04:00:57] INFO root fetch - main [MainThread]: End processing [ros-cdk-bss]: success
+[2023-07-19 04:00:57] INFO root fetch - processPackages [ros-cdk-amqp]: Downloading https://files.pythonhosted.org/packages/f4/b9/5e0e4a5455b84d7d01e5b8cb5d9a3f1ae857a979e11da73e573d4f4e5c4b/ros-cdk-amqp-1.0.16.tar.gz
+[2023-07-19 04:00:57] INFO root fetch - processPackages [ros-cdk-lindorm]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-lindorm-1.0.15.tar.gz]
+[2023-07-19 04:00:57] INFO root fetch - processPackages [ros-cdk-lindorm]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-lindorm-1.0.16.tar.gz]
+[2023-07-19 04:00:57] INFO root fetch - main [MainThread]: End processing [ros-cdk-lindorm]: success
+[2023-07-19 04:00:57] INFO root fetch - processPackages [django-url-tokenizer]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 04:00:57] INFO root fetch - processPackages [ros-cdk-kafka]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-kafka-1.0.8.tar.gz]
+[2023-07-19 04:00:57] INFO root fetch - processPackages [ros-cdk-kafka]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-kafka-1.0.9.tar.gz]
+[2023-07-19 04:00:57] INFO root fetch - main [MainThread]: End processing [ros-cdk-kafka]: success
+[2023-07-19 04:00:57] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/58/fc/c297e12ea86d40bc35c3034412e468c38bef18667e6adfe0b24802b0e417/django-url-tokenizer-0.0.8.tar.gz
+[2023-07-19 04:00:57] INFO root fetch - processPackages [airbyte-cdk]: Downloading https://files.pythonhosted.org/packages/9f/96/b471868d256cf73e3745675013847705a79a47e5a529e1c026d6032228bb/airbyte-cdk-0.9.5.tar.gz
+[2023-07-19 04:00:57] INFO root fetch - processPackages [ros-cdk-eci]: Downloading https://files.pythonhosted.org/packages/d2/fa/4b076e5e26015c9d43ceac696178e6aaf5780065b3aaac3c91259ba56fb5/ros-cdk-eci-1.0.8.tar.gz
+[2023-07-19 04:00:57] INFO root fetch - processPackages [reflex]: Downloading https://files.pythonhosted.org/packages/76/e8/525fe61095a67570e8fdf71e2b431056097580db753865a0edbf3e74315f/reflex-0.2.1a2.tar.gz
+[2023-07-19 04:00:57] INFO root fetch - processPackages [airbyte-cdk]: executing diffoscope
+[2023-07-19 04:00:57] INFO root fetch - processPackages [airbyte-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-cdk-0.9.4.tar.gz tmp/airbyte-cdk-0.9.5.tar.gz --markdown 20230719/a/airbyte-cdk/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-19 04:00:57] INFO root fetch - processPackages [reflex]: executing diffoscope
+[2023-07-19 04:00:57] INFO root fetch - processPackages [reflex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reflex-0.2.1a1.tar.gz tmp/reflex-0.2.1a2.tar.gz --markdown 20230719/r/reflex/0.2.1a1-0.2.1a2/diff.md --exclude *.pyd
+[2023-07-19 04:00:57] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.21.tar.gz]
+[2023-07-19 04:00:57] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.22.tar.gz]
+[2023-07-19 04:00:57] INFO root fetch - main [MainThread]: End processing [adafri]: success
+[2023-07-19 04:00:57] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/c5/13/df27d1141ec44b1c35f247440fc5cb506efe40a15cbed84328a82cab2d67/django-url-tokenizer-0.0.9.tar.gz
+[2023-07-19 04:00:57] INFO root fetch - processPackages [ros-cdk-amqp]: Downloading https://files.pythonhosted.org/packages/d7/ad/61d03bd408d928f74b9f6c370de5b6f4e36e5a47277670769bdd04a65ea8/ros-cdk-amqp-1.0.9.tar.gz
+[2023-07-19 04:00:58] INFO root fetch - processPackages [django-url-tokenizer]: executing diffoscope
+[2023-07-19 04:00:58] INFO root fetch - processPackages [django-url-tokenizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-url-tokenizer-0.0.8.tar.gz tmp/django-url-tokenizer-0.0.9.tar.gz --markdown 20230719/d/django-url-tokenizer/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 04:00:58] INFO root fetch - processPackages [nids-transformers]: Downloading https://files.pythonhosted.org/packages/06/79/b544326d41628bc6a43fecbeae02cee1a554f9e89668a20cf8a1608d591c/nids_transformers-0.0.5.tar.gz
+[2023-07-19 04:00:58] INFO root fetch - processPackages [ros-cdk-amqp]: executing diffoscope
+[2023-07-19 04:00:58] INFO root fetch - processPackages [ros-cdk-amqp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-amqp-1.0.16.tar.gz tmp/ros-cdk-amqp-1.0.9.tar.gz --markdown 20230719/r/ros-cdk-amqp/1.0.16-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 04:00:58] INFO root fetch - processPackages [ros-cdk-eci]: Downloading https://files.pythonhosted.org/packages/8e/c5/88a66c12bd5b01106bed9b20b61874d61d7ee10e54be84ec6b86e7b5000c/ros-cdk-eci-1.0.9.tar.gz
+[2023-07-19 04:00:58] INFO root fetch - processPackages [ros-cdk-eci]: executing diffoscope
+[2023-07-19 04:00:58] INFO root fetch - processPackages [ros-cdk-eci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-eci-1.0.8.tar.gz tmp/ros-cdk-eci-1.0.9.tar.gz --markdown 20230719/r/ros-cdk-eci/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 04:00:58] INFO root fetch - processPackages [nids-transformers]: Remove: archive file [/home/abi/fetcher/tmp/nids_transformers-0.0.2.tar.gz]
+[2023-07-19 04:00:58] INFO root fetch - processPackages [nids-transformers]: Remove: archive file [/home/abi/fetcher/tmp/nids_transformers-0.0.3.tar.gz]
+[2023-07-19 04:00:58] INFO root fetch - main [MainThread]: End processing [nids-transformers]: success
+[2023-07-19 04:00:59] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.8.tar.gz]
+[2023-07-19 04:00:59] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.9.tar.gz]
+[2023-07-19 04:00:59] INFO root fetch - main [MainThread]: End processing [django-url-tokenizer]: success
+[2023-07-19 04:00:59] INFO root fetch - processPackages [nids-transformers]: executing diffoscope
+[2023-07-19 04:00:59] INFO root fetch - processPackages [nids-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nids_transformers-0.0.4.tar.gz tmp/nids_transformers-0.0.5.tar.gz --markdown 20230719/n/nids-transformers/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-19 04:00:59] INFO root fetch - processPackages [ros-cdk-amqp]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-amqp-1.0.16.tar.gz]
+[2023-07-19 04:00:59] INFO root fetch - processPackages [ros-cdk-amqp]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-amqp-1.0.9.tar.gz]
+[2023-07-19 04:00:59] INFO root fetch - main [MainThread]: End processing [ros-cdk-amqp]: success
+[2023-07-19 04:00:59] INFO root fetch - processPackages [ros-cdk-eci]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-eci-1.0.8.tar.gz]
+[2023-07-19 04:00:59] INFO root fetch - processPackages [ros-cdk-eci]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-eci-1.0.9.tar.gz]
+[2023-07-19 04:00:59] INFO root fetch - main [MainThread]: End processing [ros-cdk-eci]: success
+[2023-07-19 04:00:59] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-cdk-0.9.4.tar.gz]
+[2023-07-19 04:00:59] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-cdk-0.9.5.tar.gz]
+[2023-07-19 04:00:59] INFO root fetch - main [MainThread]: End processing [airbyte-cdk]: success
+[2023-07-19 04:00:59] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.2.1a1.tar.gz]
+[2023-07-19 04:00:59] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.2.1a2.tar.gz]
+[2023-07-19 04:00:59] INFO root fetch - main [MainThread]: End processing [reflex]: success
+[2023-07-19 04:01:00] INFO root fetch - processPackages [nids-transformers]: Remove: archive file [/home/abi/fetcher/tmp/nids_transformers-0.0.4.tar.gz]
+[2023-07-19 04:01:00] INFO root fetch - processPackages [nids-transformers]: Remove: archive file [/home/abi/fetcher/tmp/nids_transformers-0.0.5.tar.gz]
+[2023-07-19 04:01:00] INFO root fetch - main [MainThread]: End processing [nids-transformers]: success
+[2023-07-19 04:01:00] INFO root fetch - main [MainThread]: Store serial: [18943124]
