@@ -16981,3 +16981,187 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-19 09:52:38] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
 [2023-07-19 09:52:38] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2023-07-19 09:52:38] INFO root fetch - main [MainThread]: Store serial: [18946777]
+[2023-07-19 09:57:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18946777]
+[2023-07-19 09:57:47] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-07-19 09:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lkfmt
+[2023-07-19 09:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: azure-mgmt-costmanagement
+[2023-07-19 09:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ImgTextClipboard-python
+[2023-07-19 09:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: imjoy-rpc
+[2023-07-19 09:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-antti-z3-lemmas-test
+[2023-07-19 09:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: osinfopkg
+[2023-07-19 09:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qontract-reconcile
+[2023-07-19 09:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jina
+[2023-07-19 09:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyreloader
+[2023-07-19 09:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: trainy
+[2023-07-19 09:57:47] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-07-19 09:57:47] WARNING root fetch - processPackages [osinfopkg]: Skipping, unable to determine old version
+[2023-07-19 09:57:47] INFO root fetch - processPackages [osinfopkg]: Start processing: pydflow
+[2023-07-19 09:57:47] INFO root fetch - main [MainThread]: End processing [osinfopkg] error
+[2023-07-19 09:57:47] INFO root fetch - processPackages [certora-cli-alpha-antti-z3-lemmas-test]: New version: [20230719.7.22.185265] Old Version: [20230704.15.27.233916]
+[2023-07-19 09:57:47] INFO root fetch - processPackages [pyreloader]: New version: [0.1.1] Old Version: [0.1]
+[2023-07-19 09:57:47] INFO root fetch - processPackages [imjoy-rpc]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-19 09:57:47] INFO root fetch - processPackages [ImgTextClipboard-python]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-19 09:57:47] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-07-19 09:57:47] INFO root fetch - processPackages [azure-mgmt-costmanagement]: New version: [4.0.1] Old Version: [4.0.0b1]
+[2023-07-19 09:57:47] WARNING root fetch - processPackages [lkfmt]: Skipping, unable to determine old version
+[2023-07-19 09:57:47] INFO root fetch - processPackages [lkfmt]: Start processing: htscf
+[2023-07-19 09:57:47] INFO root fetch - main [MainThread]: End processing [lkfmt] error
+[2023-07-19 09:57:47] INFO root fetch - processPackages [pydflow]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-07-19 09:57:47] WARNING root fetch - processPackages [trainy]: Skipping, unable to determine old version
+[2023-07-19 09:57:47] INFO root fetch - processPackages [trainy]: Start processing: fast-transfer
+[2023-07-19 09:57:47] INFO root fetch - main [MainThread]: End processing [trainy] error
+[2023-07-19 09:57:47] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-07-19 09:57:47] INFO root fetch - processPackages [htscf]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-19 09:57:47] INFO root fetch - processPackages [fast-transfer]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-19 09:57:47] INFO root fetch - processPackages [certora-cli-alpha-antti-z3-lemmas-test]: Downloading https://files.pythonhosted.org/packages/98/75/dced26aa7d4356ace1df453c94e0c661b4843351d516784566992c932be9/certora-cli-alpha-antti-z3-lemmas-test-20230704.15.27.233916.tar.gz
+[2023-07-19 09:57:47] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/33/96/a989d9cfcdb5dcb43d60a72640c59e2efb7fd053182742205b332006f813/pydflow-1.7.8.tar.gz
+[2023-07-19 09:57:47] INFO root fetch - processPackages [ImgTextClipboard-python]: Downloading https://files.pythonhosted.org/packages/43/50/278470a8b6021a5f197281a3783150aa47d75b91e548f16bea522ea51ad3/ImgTextClipboard-python-0.1.2.tar.gz
+[2023-07-19 09:57:47] INFO root fetch - processPackages [imjoy-rpc]: Downloading https://files.pythonhosted.org/packages/62/bf/e0cd8c6c4bfbc73547dd7a58b65fe8314743f962e1771888a1e6a088b01d/imjoy-rpc-0.5.8.tar.gz
+[2023-07-19 09:57:47] WARNING root fetch - processPackages [certora-cli-alpha-antti-z3-lemmas-test]: Skipping package: exceeds size limit 38782249>=10485760
+[2023-07-19 09:57:47] INFO root fetch - processPackages [certora-cli-alpha-antti-z3-lemmas-test]: Start processing: mcred
+[2023-07-19 09:57:47] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-antti-z3-lemmas-test] error
+[2023-07-19 09:57:47] INFO root fetch - processPackages [azure-mgmt-costmanagement]: Downloading https://files.pythonhosted.org/packages/8e/d3/7a97711be59fd378656ff78fc413a29babc5ffbf2835e4da8a411de5cca7/azure-mgmt-costmanagement-4.0.0b1.zip
+[2023-07-19 09:57:48] INFO root fetch - processPackages [pyreloader]: Downloading https://files.pythonhosted.org/packages/a2/0b/4ecb7d1ae11de5b8beeb010c3aa4fe932dc5263c69957748f6766f7c08e5/pyreloader-0.1.tar.gz
+[2023-07-19 09:57:48] INFO root fetch - processPackages [htscf]: Downloading https://files.pythonhosted.org/packages/c4/13/e227f1fc956aedddd47e611fb64508fdf09a91fd62b17c522d70b97bee07/htscf-0.0.3.tar.gz
+[2023-07-19 09:57:48] INFO root fetch - processPackages [fast-transfer]: Downloading https://files.pythonhosted.org/packages/50/9f/4f3ac293b06946f0025e7ee5c02b131409c0c4c4162781e15a05ee6176a0/fast_transfer-0.1.1.tar.gz
+[2023-07-19 09:57:48] INFO root fetch - processPackages [jina]: Downloading https://files.pythonhosted.org/packages/f0/3b/7e6b8b6de74c936b09ce9a4d7440511734efe64633b3418e61b667257994/jina-3.9.3.dev8.tar.gz
+[2023-07-19 09:57:48] INFO root fetch - processPackages [mcred]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-19 09:57:48] INFO root fetch - processPackages [ImgTextClipboard-python]: Downloading https://files.pythonhosted.org/packages/b1/68/ae04a4aaaa0fff9f0c2ea745254391ae68e39126bd3ffbd5a74a62ef097e/ImgTextClipboard-python-0.1.3.tar.gz
+[2023-07-19 09:57:48] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-07-19 09:57:48] INFO root fetch - processPackages [imjoy-rpc]: Downloading https://files.pythonhosted.org/packages/32/2c/24a2fd77d69514d794a4e4c8db3307e0ef3e19e0338c3edb6bf7bdd4d021/imjoy-rpc-0.5.9.tar.gz
+[2023-07-19 09:57:48] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/9c/41/6c9bc72fde943869899725f55fade9f850f62ecbc6fa31e53b8fa79ae5a3/pydflow-1.7.9.tar.gz
+[2023-07-19 09:57:48] ERROR root fetch - processPackages [pyreloader]: Unable to fetch info: No such project/version 'pyreloader' 0.1.1
+[2023-07-19 09:57:48] INFO root fetch - processPackages [pyreloader]: Start processing: chellow
+[2023-07-19 09:57:48] INFO root fetch - main [MainThread]: End processing [pyreloader] error
+[2023-07-19 09:57:48] INFO root fetch - processPackages [mcred]: Downloading https://files.pythonhosted.org/packages/5a/bf/30a6ff08242f89ff6101027e4e026a64dca54f305f681808b1e6ba557de3/mcred-1.0.1.tar.gz
+[2023-07-19 09:57:48] INFO root fetch - processPackages [ImgTextClipboard-python]: executing diffoscope
+[2023-07-19 09:57:48] INFO root fetch - processPackages [ImgTextClipboard-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ImgTextClipboard-python-0.1.2.tar.gz tmp/ImgTextClipboard-python-0.1.3.tar.gz --markdown 20230719/I/ImgTextClipboard-python/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-19 09:57:48] INFO root fetch - processPackages [imjoy-rpc]: executing diffoscope
+[2023-07-19 09:57:48] INFO root fetch - processPackages [imjoy-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imjoy-rpc-0.5.8.tar.gz tmp/imjoy-rpc-0.5.9.tar.gz --markdown 20230719/i/imjoy-rpc/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-19 09:57:48] INFO root fetch - processPackages [fast-transfer]: Downloading https://files.pythonhosted.org/packages/e7/1e/b9264e63a4494f5a815b75065e4e2160be0016653299f9c7753ab2cf491b/fast_transfer-0.1.2.tar.gz
+[2023-07-19 09:57:48] INFO root fetch - processPackages [htscf]: Downloading https://files.pythonhosted.org/packages/a2/e7/efd9a6697408a5ff6b17e0dc2aa6cb11275eebde90d56ce786650669dd08/htscf-0.0.4.tar.gz
+[2023-07-19 09:57:48] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-07-19 09:57:48] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.7.8.tar.gz tmp/pydflow-1.7.9.tar.gz --markdown 20230719/p/pydflow/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-07-19 09:57:48] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-07-19 09:57:48] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230719/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-07-19 09:57:48] INFO root fetch - processPackages [azure-mgmt-costmanagement]: Downloading https://files.pythonhosted.org/packages/45/0f/fca8cc1228c4d8acb7462b8cb7fb2bd68d7fa7dec3b13f1aaf6f612a9e89/azure-mgmt-costmanagement-4.0.1.zip
+[2023-07-19 09:57:48] INFO root fetch - processPackages [chellow]: New version: [2827] Old Version: [2826]
+[2023-07-19 09:57:48] INFO root fetch - processPackages [htscf]: executing diffoscope
+[2023-07-19 09:57:48] INFO root fetch - processPackages [htscf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htscf-0.0.3.tar.gz tmp/htscf-0.0.4.tar.gz --markdown 20230719/h/htscf/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-19 09:57:48] INFO root fetch - processPackages [jina]: Downloading https://files.pythonhosted.org/packages/89/60/0658aa50da9055ade2f42bd6cecdfa0abdf69ce7f7bd063c628105106538/jina-3.9.3.dev9.tar.gz
+[2023-07-19 09:57:48] INFO root fetch - processPackages [fast-transfer]: executing diffoscope
+[2023-07-19 09:57:48] INFO root fetch - processPackages [fast-transfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_transfer-0.1.1.tar.gz tmp/fast_transfer-0.1.2.tar.gz --markdown 20230719/f/fast-transfer/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-19 09:57:48] INFO root fetch - processPackages [azure-mgmt-costmanagement]: executing diffoscope
+[2023-07-19 09:57:48] INFO root fetch - processPackages [azure-mgmt-costmanagement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-costmanagement-4.0.0b1.zip tmp/azure-mgmt-costmanagement-4.0.1.zip --markdown 20230719/a/azure-mgmt-costmanagement/4.0.0b1-4.0.1/diff.md --exclude *.pyd
+[2023-07-19 09:57:48] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/53/7f/0c0b4c6862d01d54d05680973dafeac8063cadbc1558cc789060e11e064a/chellow-2826.tar.gz
+[2023-07-19 09:57:48] INFO root fetch - processPackages [mcred]: Downloading https://files.pythonhosted.org/packages/b4/fa/ebfae01275e2e581a88eaed525a423999fe2725cbe9046075d6dc2e4bab0/mcred-1.0.2.tar.gz
+[2023-07-19 09:57:49] INFO root fetch - processPackages [mcred]: executing diffoscope
+[2023-07-19 09:57:49] INFO root fetch - processPackages [mcred]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcred-1.0.1.tar.gz tmp/mcred-1.0.2.tar.gz --markdown 20230719/m/mcred/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-19 09:57:49] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/bc/64/ec72bd83957d5f6ad5cfc5f2b156b41dad4c98bee657040bbb6b98ac80b6/chellow-2827.tar.gz
+[2023-07-19 09:57:49] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-07-19 09:57:49] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230719/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-07-19 09:57:49] INFO root fetch - processPackages [chellow]: executing diffoscope
+[2023-07-19 09:57:49] INFO root fetch - processPackages [chellow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chellow-2826.tar.gz tmp/chellow-2827.tar.gz --markdown 20230719/c/chellow/2826-2827/diff.md --exclude *.pyd
+[2023-07-19 09:57:49] INFO root fetch - processPackages [ImgTextClipboard-python]: Remove: archive file [/home/abi/fetcher/tmp/ImgTextClipboard-python-0.1.2.tar.gz]
+[2023-07-19 09:57:49] INFO root fetch - processPackages [ImgTextClipboard-python]: Remove: archive file [/home/abi/fetcher/tmp/ImgTextClipboard-python-0.1.3.tar.gz]
+[2023-07-19 09:57:49] INFO root fetch - processPackages [ImgTextClipboard-python]: Start processing: terminal-manager
+[2023-07-19 09:57:49] INFO root fetch - main [MainThread]: End processing [ImgTextClipboard-python]: success
+[2023-07-19 09:57:50] INFO root fetch - processPackages [terminal-manager]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-07-19 09:57:50] INFO root fetch - processPackages [imjoy-rpc]: Remove: archive file [/home/abi/fetcher/tmp/imjoy-rpc-0.5.8.tar.gz]
+[2023-07-19 09:57:50] INFO root fetch - processPackages [imjoy-rpc]: Remove: archive file [/home/abi/fetcher/tmp/imjoy-rpc-0.5.9.tar.gz]
+[2023-07-19 09:57:50] INFO root fetch - processPackages [imjoy-rpc]: Start processing: jax-xc
+[2023-07-19 09:57:50] INFO root fetch - main [MainThread]: End processing [imjoy-rpc]: success
+[2023-07-19 09:57:50] INFO root fetch - processPackages [htscf]: Remove: archive file [/home/abi/fetcher/tmp/htscf-0.0.3.tar.gz]
+[2023-07-19 09:57:50] INFO root fetch - processPackages [htscf]: Remove: archive file [/home/abi/fetcher/tmp/htscf-0.0.4.tar.gz]
+[2023-07-19 09:57:50] INFO root fetch - processPackages [htscf]: Start processing: nwebclient
+[2023-07-19 09:57:50] INFO root fetch - main [MainThread]: End processing [htscf]: success
+[2023-07-19 09:57:50] INFO root fetch - processPackages [terminal-manager]: Downloading https://files.pythonhosted.org/packages/28/d4/7334ffc683ee983c908f25cb651636f7d1573a9accd2f0c7dcb91aed0e7a/terminal_manager-0.8.2.tar.gz
+[2023-07-19 09:57:50] INFO root fetch - processPackages [jax-xc]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-19 09:57:50] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-19 09:57:50] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.8.tar.gz]
+[2023-07-19 09:57:50] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.9.tar.gz]
+[2023-07-19 09:57:50] INFO root fetch - processPackages [pydflow]: Start processing: armonik
+[2023-07-19 09:57:50] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-07-19 09:57:50] INFO root fetch - processPackages [mcred]: Remove: archive file [/home/abi/fetcher/tmp/mcred-1.0.1.tar.gz]
+[2023-07-19 09:57:50] INFO root fetch - processPackages [mcred]: Remove: archive file [/home/abi/fetcher/tmp/mcred-1.0.2.tar.gz]
+[2023-07-19 09:57:50] INFO root fetch - processPackages [mcred]: Start processing: knowledge-graph
+[2023-07-19 09:57:50] INFO root fetch - main [MainThread]: End processing [mcred]: success
+[2023-07-19 09:57:50] INFO root fetch - processPackages [armonik]: New version: [3.9.3.dev630] Old Version: [3.9.3.dev627]
+[2023-07-19 09:57:50] INFO root fetch - processPackages [fast-transfer]: Remove: archive file [/home/abi/fetcher/tmp/fast_transfer-0.1.1.tar.gz]
+[2023-07-19 09:57:50] INFO root fetch - processPackages [fast-transfer]: Remove: archive file [/home/abi/fetcher/tmp/fast_transfer-0.1.2.tar.gz]
+[2023-07-19 09:57:50] INFO root fetch - processPackages [fast-transfer]: Start processing: fastapi-serve
+[2023-07-19 09:57:50] INFO root fetch - main [MainThread]: End processing [fast-transfer]: success
+[2023-07-19 09:57:50] INFO root fetch - processPackages [knowledge-graph]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 09:57:50] INFO root fetch - processPackages [jax-xc]: Downloading https://files.pythonhosted.org/packages/87/1f/11619df37db968ae4745e176645bd3139a12b1af792a4dc0253a6b44eecf/jax_xc-0.0.5-cp39-cp39-manylinux_2_17_x86_64.whl
+[2023-07-19 09:57:50] INFO root fetch - processPackages [terminal-manager]: Downloading https://files.pythonhosted.org/packages/b3/2a/df5c9d000e8fcbdd635725414c4ac1202b9379d0f044654bb2819c93d332/terminal_manager-0.8.3.tar.gz
+[2023-07-19 09:57:50] INFO root fetch - processPackages [fastapi-serve]: New version: [0.0.4.dev5] Old Version: [0.0.4.dev4]
+[2023-07-19 09:57:50] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/a3/db/468340c3e51513d2270b938c830901748ba3f03d05938557f70273672795/armonik-3.9.3.dev627.tar.gz
+[2023-07-19 09:57:50] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-19 09:57:50] INFO root fetch - processPackages [knowledge-graph]: Downloading https://files.pythonhosted.org/packages/47/90/475dd8feb480ff2b78563036de729dc01cbf5b25b2ac993862c1e62c8e47/knowledge-graph-0.0.8.tar.gz
+[2023-07-19 09:57:50] INFO root fetch - processPackages [terminal-manager]: executing diffoscope
+[2023-07-19 09:57:50] INFO root fetch - processPackages [terminal-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terminal_manager-0.8.2.tar.gz tmp/terminal_manager-0.8.3.tar.gz --markdown 20230719/t/terminal-manager/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-07-19 09:57:50] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/4e/23/fb586026e5d882096b3bbe2a4d7612314f34ce69c5cd3328fecd2488dd58/fastapi-serve-0.0.4.dev4.tar.gz
+[2023-07-19 09:57:51] INFO root fetch - processPackages [knowledge-graph]: Downloading https://files.pythonhosted.org/packages/9c/cf/8eb769891bf4b0813c7674ef29fbcd29b2c6cd65fec1ce5091bab2354116/knowledge-graph-0.0.9.tar.gz
+[2023-07-19 09:57:51] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/11/ad/4f1bc0423cfda7af28cb5dc84e1865bf90ef91df50054caabbc8de87872b/armonik-3.9.3.dev630.tar.gz
+[2023-07-19 09:57:51] INFO root fetch - processPackages [knowledge-graph]: executing diffoscope
+[2023-07-19 09:57:51] INFO root fetch - processPackages [knowledge-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knowledge-graph-0.0.8.tar.gz tmp/knowledge-graph-0.0.9.tar.gz --markdown 20230719/k/knowledge-graph/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 09:57:51] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-19 09:57:51] INFO root fetch - processPackages [azure-mgmt-costmanagement]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-costmanagement-4.0.0b1.zip]
+[2023-07-19 09:57:51] INFO root fetch - processPackages [azure-mgmt-costmanagement]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-costmanagement-4.0.1.zip]
+[2023-07-19 09:57:51] INFO root fetch - processPackages [azure-mgmt-costmanagement]: Start processing: gaohn-common-utils
+[2023-07-19 09:57:51] INFO root fetch - main [MainThread]: End processing [azure-mgmt-costmanagement]: success
+[2023-07-19 09:57:51] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/fa/21/6d42b6b7b3b21754de512fc5fdf92ad90f93706cdfd8b2cb82a15a75a2d2/fastapi-serve-0.0.4.dev5.tar.gz
+[2023-07-19 09:57:51] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-19 09:57:51] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230719/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-19 09:57:51] INFO root fetch - processPackages [gaohn-common-utils]: New version: [0.0.94] Old Version: [0.0.93]
+[2023-07-19 09:57:51] INFO root fetch - processPackages [fastapi-serve]: executing diffoscope
+[2023-07-19 09:57:51] INFO root fetch - processPackages [fastapi-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-serve-0.0.4.dev4.tar.gz tmp/fastapi-serve-0.0.4.dev5.tar.gz --markdown 20230719/f/fastapi-serve/0.0.4.dev4-0.0.4.dev5/diff.md --exclude *.pyd
+[2023-07-19 09:57:51] INFO root fetch - processPackages [armonik]: executing diffoscope
+[2023-07-19 09:57:51] INFO root fetch - processPackages [armonik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armonik-3.9.3.dev627.tar.gz tmp/armonik-3.9.3.dev630.tar.gz --markdown 20230719/a/armonik/3.9.3.dev627-3.9.3.dev630/diff.md --exclude *.pyd
+[2023-07-19 09:57:51] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/6e/4c/b992d47e4ad064f98448ed586f3af3d68978cd45df76bc2b27ed4458fda3/gaohn-common-utils-0.0.93.tar.gz
+[2023-07-19 09:57:52] INFO root fetch - processPackages [terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/terminal_manager-0.8.2.tar.gz]
+[2023-07-19 09:57:52] INFO root fetch - processPackages [terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/terminal_manager-0.8.3.tar.gz]
+[2023-07-19 09:57:52] INFO root fetch - processPackages [terminal-manager]: Start processing: timedctl
+[2023-07-19 09:57:52] INFO root fetch - main [MainThread]: End processing [terminal-manager]: success
+[2023-07-19 09:57:52] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/cd/1b/404daffbb19a9fda4c189b1a35d50d5182d23c8e06c1e0bd7bd7f531beba/gaohn-common-utils-0.0.94.tar.gz
+[2023-07-19 09:57:52] INFO root fetch - processPackages [jina]: Remove: archive file [/home/abi/fetcher/tmp/jina-3.9.3.dev8.tar.gz]
+[2023-07-19 09:57:52] INFO root fetch - processPackages [jina]: Remove: archive file [/home/abi/fetcher/tmp/jina-3.9.3.dev9.tar.gz]
+[2023-07-19 09:57:52] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-07-19 09:57:52] INFO root fetch - processPackages [timedctl]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-19 09:57:52] INFO root fetch - processPackages [jax-xc]: Downloading https://files.pythonhosted.org/packages/a0/9a/35e8e570d9c13dc46e478923823391784143446afcfa46e7b62756073c5d/jax_xc-0.0.6-cp39-cp39-manylinux_2_17_x86_64.whl
+[2023-07-19 09:57:52] INFO root fetch - processPackages [gaohn-common-utils]: executing diffoscope
+[2023-07-19 09:57:52] INFO root fetch - processPackages [gaohn-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaohn-common-utils-0.0.93.tar.gz tmp/gaohn-common-utils-0.0.94.tar.gz --markdown 20230719/g/gaohn-common-utils/0.0.93-0.0.94/diff.md --exclude *.pyd
+[2023-07-19 09:57:52] INFO root fetch - processPackages [timedctl]: Downloading https://files.pythonhosted.org/packages/4d/ee/a2636e3df4bb93bf1bec518a620d3bd488d01a5e4b5aa8b279d99cfe35af/timedctl-2.0.0.tar.gz
+[2023-07-19 09:57:52] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-19 09:57:52] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-19 09:57:52] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-19 09:57:52] INFO root fetch - processPackages [knowledge-graph]: Remove: archive file [/home/abi/fetcher/tmp/knowledge-graph-0.0.8.tar.gz]
+[2023-07-19 09:57:52] INFO root fetch - processPackages [knowledge-graph]: Remove: archive file [/home/abi/fetcher/tmp/knowledge-graph-0.0.9.tar.gz]
+[2023-07-19 09:57:52] INFO root fetch - main [MainThread]: End processing [knowledge-graph]: success
+[2023-07-19 09:57:52] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.4.dev4.tar.gz]
+[2023-07-19 09:57:52] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.4.dev5.tar.gz]
+[2023-07-19 09:57:52] INFO root fetch - main [MainThread]: End processing [fastapi-serve]: success
+[2023-07-19 09:57:52] INFO root fetch - processPackages [timedctl]: Downloading https://files.pythonhosted.org/packages/b6/f5/a83471b5e54edf619678a746d452fe4e3f07befde8ba7db3a09b40b45024/timedctl-2.0.1.tar.gz
+[2023-07-19 09:57:53] INFO root fetch - processPackages [timedctl]: executing diffoscope
+[2023-07-19 09:57:53] INFO root fetch - processPackages [timedctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timedctl-2.0.0.tar.gz tmp/timedctl-2.0.1.tar.gz --markdown 20230719/t/timedctl/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-19 09:57:53] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.3.dev627.tar.gz]
+[2023-07-19 09:57:53] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.3.dev630.tar.gz]
+[2023-07-19 09:57:53] INFO root fetch - main [MainThread]: End processing [armonik]: success
+[2023-07-19 09:57:53] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-07-19 09:57:53] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-07-19 09:57:53] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-07-19 09:57:53] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.93.tar.gz]
+[2023-07-19 09:57:53] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.94.tar.gz]
+[2023-07-19 09:57:53] INFO root fetch - main [MainThread]: End processing [gaohn-common-utils]: success
+[2023-07-19 09:57:53] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2826.tar.gz]
+[2023-07-19 09:57:53] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2827.tar.gz]
+[2023-07-19 09:57:53] INFO root fetch - main [MainThread]: End processing [chellow]: success
+[2023-07-19 09:57:53] INFO root fetch - processPackages [jax-xc]: executing diffoscope
+[2023-07-19 09:57:53] INFO root fetch - processPackages [jax-xc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax_xc-0.0.5-cp39-cp39-manylinux_2_17_x86_64.whl.zip tmp/jax_xc-0.0.6-cp39-cp39-manylinux_2_17_x86_64.whl.zip --markdown 20230719/j/jax-xc/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-19 09:57:53] INFO root fetch - processPackages [timedctl]: Remove: archive file [/home/abi/fetcher/tmp/timedctl-2.0.0.tar.gz]
+[2023-07-19 09:57:53] INFO root fetch - processPackages [timedctl]: Remove: archive file [/home/abi/fetcher/tmp/timedctl-2.0.1.tar.gz]
+[2023-07-19 09:57:53] INFO root fetch - main [MainThread]: End processing [timedctl]: success
+[2023-07-19 09:58:29] INFO root fetch - processPackages [jax-xc]: Remove: archive file [/home/abi/fetcher/tmp/jax_xc-0.0.5-cp39-cp39-manylinux_2_17_x86_64.whl.zip]
+[2023-07-19 09:58:29] INFO root fetch - processPackages [jax-xc]: Remove: archive file [/home/abi/fetcher/tmp/jax_xc-0.0.6-cp39-cp39-manylinux_2_17_x86_64.whl.zip]
+[2023-07-19 09:58:29] INFO root fetch - main [MainThread]: End processing [jax-xc]: success
+[2023-07-19 09:58:29] INFO root fetch - main [MainThread]: Store serial: [18946864]
