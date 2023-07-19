@@ -22258,3 +22258,162 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-19 13:15:58] INFO root fetch - processPackages [wok-code]: Remove: archive file [/home/abi/fetcher/tmp/wok_code-2.0.9.tar.gz]
 [2023-07-19 13:15:58] INFO root fetch - main [MainThread]: End processing [wok-code]: success
 [2023-07-19 13:15:58] INFO root fetch - main [MainThread]: Store serial: [18949169]
+[2023-07-19 13:21:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18949169]
+[2023-07-19 13:21:07] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-19 13:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hera
+[2023-07-19 13:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hera-workflows
+[2023-07-19 13:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: viur-core
+[2023-07-19 13:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dela
+[2023-07-19 13:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: huawei-solar
+[2023-07-19 13:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: docker-explorer
+[2023-07-19 13:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: result
+[2023-07-19 13:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sigtech
+[2023-07-19 13:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: prophecy-libs
+[2023-07-19 13:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: unitxt
+[2023-07-19 13:21:07] INFO root fetch - processPackages [unitxt]: New version: [1.0.9] Old Version: [1.0.7]
+[2023-07-19 13:21:07] INFO root fetch - processPackages [viur-core]: New version: [3.5.0b1] Old Version: [3.4.4]
+[2023-07-19 13:21:07] INFO root fetch - processPackages [prophecy-libs]: New version: [1.5.9.dev3] Old Version: [1.5.9.dev2]
+[2023-07-19 13:21:07] INFO root fetch - processPackages [hera]: New version: [5.6.0] Old Version: [5.5.2]
+[2023-07-19 13:21:07] INFO root fetch - processPackages [docker-explorer]: New version: [20230719] Old Version: [20220106]
+[2023-07-19 13:21:07] INFO root fetch - processPackages [unitxt]: Downloading https://files.pythonhosted.org/packages/11/d1/d3b62f8baf803050688a5209b7a249f450e3b915906be3b8636049f44de2/unitxt-1.0.7.tar.gz
+[2023-07-19 13:21:07] INFO root fetch - processPackages [sigtech]: New version: [0.1.0] Old Version: [0.0.39]
+[2023-07-19 13:21:07] INFO root fetch - processPackages [dela]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-07-19 13:21:07] INFO root fetch - processPackages [result]: New version: [0.9.0] Old Version: [0.8.0b1]
+[2023-07-19 13:21:07] INFO root fetch - processPackages [huawei-solar]: New version: [2.2.8b2] Old Version: [2.2.8b1]
+[2023-07-19 13:21:07] INFO root fetch - processPackages [prophecy-libs]: Downloading https://files.pythonhosted.org/packages/4a/b8/bf79479d4270c6451013e7bcb0ed8e54dc94173c438e0c96e493907926fd/prophecy-libs-1.5.9.dev2.tar.gz
+[2023-07-19 13:21:07] INFO root fetch - processPackages [hera-workflows]: New version: [5.6.0] Old Version: [5.5.2]
+[2023-07-19 13:21:07] INFO root fetch - processPackages [viur-core]: Downloading https://files.pythonhosted.org/packages/d3/a9/111ee8f7bc5d8c8da74cbb56cf992bbf97dac12d8cf1aa5f41740f27407c/viur_core-3.4.4-py3-none-any.whl
+[2023-07-19 13:21:07] INFO root fetch - processPackages [hera]: Downloading https://files.pythonhosted.org/packages/7c/6f/7721eff92f0b36974650fd78ba112c00594d9a433ce4794efef46094f1b3/hera-5.5.2.tar.gz
+[2023-07-19 13:21:07] INFO root fetch - processPackages [docker-explorer]: Downloading https://files.pythonhosted.org/packages/4f/58/9c68ed8337a22d3678f7e840405e46d0d5998bf607e70cdac41aeb1f27d3/docker_explorer-20220106.tar.gz
+[2023-07-19 13:21:07] INFO root fetch - processPackages [dela]: Downloading https://files.pythonhosted.org/packages/8c/14/2dadfd67621713fcc4dd88ea49137c08e2e65299a40961d9b01ff0ab5e09/dela-0.1.4.tar.gz
+[2023-07-19 13:21:07] INFO root fetch - processPackages [huawei-solar]: Downloading https://files.pythonhosted.org/packages/90/01/5d68a8952ae4b34c23c4c2e1e27ef5dec31d12445bed2a98dc65b4b7844d/huawei-solar-2.2.8b1.tar.gz
+[2023-07-19 13:21:08] INFO root fetch - processPackages [sigtech]: Downloading https://files.pythonhosted.org/packages/58/0a/bf0b3d5fa3c02ab32016498c2228a22979eb1c0e9aeba52ef40d3ab2d748/sigtech-0.0.39.tar.gz
+[2023-07-19 13:21:08] INFO root fetch - processPackages [unitxt]: Downloading https://files.pythonhosted.org/packages/0e/ad/4d0c5d55831a7fd66fbaca1667f8f31321026e46d5f9444cb997646d2fe7/unitxt-1.0.9.tar.gz
+[2023-07-19 13:21:08] INFO root fetch - processPackages [result]: Downloading https://files.pythonhosted.org/packages/7d/82/86e2b39e6c16e534e4f904f54e5f86c160ad29d6fc9a8a32bc3f5f4bb835/result-0.8.0b1.tar.gz
+[2023-07-19 13:21:08] INFO root fetch - processPackages [hera-workflows]: Downloading https://files.pythonhosted.org/packages/55/16/087f3fe11e4b246726c21330a6428b404a2bbb97993c13b2cb4cc41fa490/hera_workflows-5.5.2.tar.gz
+[2023-07-19 13:21:08] INFO root fetch - processPackages [prophecy-libs]: Downloading https://files.pythonhosted.org/packages/9d/c8/d1c13be84993497aaeefd283fdf5f6a3a2e354848eda8b0317ddfcca6ead/prophecy-libs-1.5.9.dev3.tar.gz
+[2023-07-19 13:21:08] INFO root fetch - processPackages [unitxt]: executing diffoscope
+[2023-07-19 13:21:08] INFO root fetch - processPackages [unitxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitxt-1.0.7.tar.gz tmp/unitxt-1.0.9.tar.gz --markdown 20230719/u/unitxt/1.0.7-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 13:21:08] INFO root fetch - processPackages [viur-core]: Downloading https://files.pythonhosted.org/packages/29/ab/ad96e697aa952c8c9f8782db681345e426b71b507a79cec9dd4cfc3c9abc/viur_core-3.5.0b1-py3-none-any.whl
+[2023-07-19 13:21:08] INFO root fetch - processPackages [hera]: Downloading https://files.pythonhosted.org/packages/41/49/6d9625d98f31285fda3239c6dbb06625644f2661d6d69701190683d35607/hera-5.6.0.tar.gz
+[2023-07-19 13:21:08] INFO root fetch - processPackages [prophecy-libs]: executing diffoscope
+[2023-07-19 13:21:08] INFO root fetch - processPackages [prophecy-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prophecy-libs-1.5.9.dev2.tar.gz tmp/prophecy-libs-1.5.9.dev3.tar.gz --markdown 20230719/p/prophecy-libs/1.5.9.dev2-1.5.9.dev3/diff.md --exclude *.pyd
+[2023-07-19 13:21:08] INFO root fetch - processPackages [sigtech]: Downloading https://files.pythonhosted.org/packages/82/fb/f0d2de8408174eb349bd40e6adc89eea77d2765cf3d65c243e366e2f091c/sigtech-0.1.0.tar.gz
+[2023-07-19 13:21:08] INFO root fetch - processPackages [dela]: Downloading https://files.pythonhosted.org/packages/c0/c6/2e8a505fd9a39829fe03376ba67340750c415d3e30e87abef4b71a79ece4/dela-0.2.0.tar.gz
+[2023-07-19 13:21:08] INFO root fetch - processPackages [huawei-solar]: Downloading https://files.pythonhosted.org/packages/c6/36/806c07994a33ff0099dc46c9e6a0cd76cb9fc8ae421e5ed9b5372c1d5763/huawei-solar-2.2.8b2.tar.gz
+[2023-07-19 13:21:08] INFO root fetch - processPackages [hera]: executing diffoscope
+[2023-07-19 13:21:08] INFO root fetch - processPackages [hera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hera-5.5.2.tar.gz tmp/hera-5.6.0.tar.gz --markdown 20230719/h/hera/5.5.2-5.6.0/diff.md --exclude *.pyd
+[2023-07-19 13:21:08] INFO root fetch - processPackages [viur-core]: executing diffoscope
+[2023-07-19 13:21:08] INFO root fetch - processPackages [viur-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viur_core-3.4.4-py3-none-any.whl.zip tmp/viur_core-3.5.0b1-py3-none-any.whl.zip --markdown 20230719/v/viur-core/3.4.4-3.5.0b1/diff.md --exclude *.pyd
+[2023-07-19 13:21:08] INFO root fetch - processPackages [sigtech]: executing diffoscope
+[2023-07-19 13:21:08] INFO root fetch - processPackages [sigtech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sigtech-0.0.39.tar.gz tmp/sigtech-0.1.0.tar.gz --markdown 20230719/s/sigtech/0.0.39-0.1.0/diff.md --exclude *.pyd
+[2023-07-19 13:21:08] INFO root fetch - processPackages [dela]: executing diffoscope
+[2023-07-19 13:21:08] INFO root fetch - processPackages [dela]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dela-0.1.4.tar.gz tmp/dela-0.2.0.tar.gz --markdown 20230719/d/dela/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-07-19 13:21:08] INFO root fetch - processPackages [huawei-solar]: executing diffoscope
+[2023-07-19 13:21:08] INFO root fetch - processPackages [huawei-solar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huawei-solar-2.2.8b1.tar.gz tmp/huawei-solar-2.2.8b2.tar.gz --markdown 20230719/h/huawei-solar/2.2.8b1-2.2.8b2/diff.md --exclude *.pyd
+[2023-07-19 13:21:08] INFO root fetch - processPackages [result]: Downloading https://files.pythonhosted.org/packages/e1/d2/a6ac37982c8e314f71acd5d4a509dfde718f0c0fc8590b35b7d64101097e/result-0.9.0.tar.gz
+[2023-07-19 13:21:08] INFO root fetch - processPackages [hera-workflows]: Downloading https://files.pythonhosted.org/packages/ea/8f/a848b255a1bf933e5d12ed171df5a4534f9c9fd388be777b09b4cee256a1/hera_workflows-5.6.0.tar.gz
+[2023-07-19 13:21:08] INFO root fetch - processPackages [docker-explorer]: Downloading https://files.pythonhosted.org/packages/3e/0e/f2a595b93b59ee394cad16b18c795d81577b81e96d0418dabf54c3d987d9/docker_explorer-20230719.tar.gz
+[2023-07-19 13:21:08] INFO root fetch - processPackages [result]: executing diffoscope
+[2023-07-19 13:21:08] INFO root fetch - processPackages [result]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/result-0.8.0b1.tar.gz tmp/result-0.9.0.tar.gz --markdown 20230719/r/result/0.8.0b1-0.9.0/diff.md --exclude *.pyd
+[2023-07-19 13:21:08] INFO root fetch - processPackages [docker-explorer]: executing diffoscope
+[2023-07-19 13:21:08] INFO root fetch - processPackages [docker-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docker_explorer-20220106.tar.gz tmp/docker_explorer-20230719.tar.gz --markdown 20230719/d/docker-explorer/20220106-20230719/diff.md --exclude *.pyd
+[2023-07-19 13:21:08] INFO root fetch - processPackages [hera-workflows]: executing diffoscope
+[2023-07-19 13:21:08] INFO root fetch - processPackages [hera-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hera_workflows-5.5.2.tar.gz tmp/hera_workflows-5.6.0.tar.gz --markdown 20230719/h/hera-workflows/5.5.2-5.6.0/diff.md --exclude *.pyd
+[2023-07-19 13:21:10] INFO root fetch - processPackages [prophecy-libs]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-libs-1.5.9.dev2.tar.gz]
+[2023-07-19 13:21:10] INFO root fetch - processPackages [prophecy-libs]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-libs-1.5.9.dev3.tar.gz]
+[2023-07-19 13:21:10] INFO root fetch - processPackages [prophecy-libs]: Start processing: ensure-import
+[2023-07-19 13:21:10] INFO root fetch - main [MainThread]: End processing [prophecy-libs]: success
+[2023-07-19 13:21:10] INFO root fetch - processPackages [unitxt]: Remove: archive file [/home/abi/fetcher/tmp/unitxt-1.0.7.tar.gz]
+[2023-07-19 13:21:10] INFO root fetch - processPackages [unitxt]: Remove: archive file [/home/abi/fetcher/tmp/unitxt-1.0.9.tar.gz]
+[2023-07-19 13:21:10] INFO root fetch - processPackages [unitxt]: Start processing: z0bug-odoo
+[2023-07-19 13:21:10] INFO root fetch - main [MainThread]: End processing [unitxt]: success
+[2023-07-19 13:21:10] WARNING root fetch - processPackages [ensure-import]: Skipping, unable to determine old version
+[2023-07-19 13:21:10] INFO root fetch - processPackages [ensure-import]: Start processing: gumpy
+[2023-07-19 13:21:10] INFO root fetch - main [MainThread]: End processing [ensure-import] error
+[2023-07-19 13:21:10] INFO root fetch - processPackages [z0bug-odoo]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-19 13:21:10] INFO root fetch - processPackages [gumpy]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-19 13:21:10] INFO root fetch - processPackages [dela]: Remove: archive file [/home/abi/fetcher/tmp/dela-0.1.4.tar.gz]
+[2023-07-19 13:21:10] INFO root fetch - processPackages [gumpy]: Downloading https://files.pythonhosted.org/packages/60/30/9d0b3f95ab76cf76fc0deb20eb05acc48224731b519c884ed68936c2c1ea/gumpy-1.2.1.tar.gz
+[2023-07-19 13:21:10] INFO root fetch - processPackages [dela]: Remove: archive file [/home/abi/fetcher/tmp/dela-0.2.0.tar.gz]
+[2023-07-19 13:21:10] INFO root fetch - processPackages [dela]: Start processing: piezo
+[2023-07-19 13:21:10] INFO root fetch - main [MainThread]: End processing [dela]: success
+[2023-07-19 13:21:10] INFO root fetch - processPackages [sigtech]: Remove: archive file [/home/abi/fetcher/tmp/sigtech-0.0.39.tar.gz]
+[2023-07-19 13:21:10] INFO root fetch - processPackages [sigtech]: Remove: archive file [/home/abi/fetcher/tmp/sigtech-0.1.0.tar.gz]
+[2023-07-19 13:21:10] INFO root fetch - processPackages [sigtech]: Start processing: SOMcreator
+[2023-07-19 13:21:10] INFO root fetch - main [MainThread]: End processing [sigtech]: success
+[2023-07-19 13:21:10] INFO root fetch - processPackages [z0bug-odoo]: Downloading https://files.pythonhosted.org/packages/e4/2f/0b9eec0797bb80e1e8d34c5d784d617de855baf5d6389f322077c9d609db/z0bug_odoo-2.0.8.tar.gz
+[2023-07-19 13:21:10] INFO root fetch - processPackages [piezo]: New version: [0.6] Old Version: [0.5]
+[2023-07-19 13:21:11] INFO root fetch - processPackages [SOMcreator]: New version: [1.1.7.2] Old Version: [1.1.7]
+[2023-07-19 13:21:11] INFO root fetch - processPackages [docker-explorer]: Remove: archive file [/home/abi/fetcher/tmp/docker_explorer-20220106.tar.gz]
+[2023-07-19 13:21:11] INFO root fetch - processPackages [docker-explorer]: Remove: archive file [/home/abi/fetcher/tmp/docker_explorer-20230719.tar.gz]
+[2023-07-19 13:21:11] INFO root fetch - processPackages [docker-explorer]: Start processing: py4web-debug-tools
+[2023-07-19 13:21:11] INFO root fetch - main [MainThread]: End processing [docker-explorer]: success
+[2023-07-19 13:21:11] INFO root fetch - processPackages [result]: Remove: archive file [/home/abi/fetcher/tmp/result-0.8.0b1.tar.gz]
+[2023-07-19 13:21:11] INFO root fetch - processPackages [result]: Remove: archive file [/home/abi/fetcher/tmp/result-0.9.0.tar.gz]
+[2023-07-19 13:21:11] INFO root fetch - processPackages [result]: Start processing: dploot
+[2023-07-19 13:21:11] INFO root fetch - main [MainThread]: End processing [result]: success
+[2023-07-19 13:21:11] INFO root fetch - processPackages [huawei-solar]: Remove: archive file [/home/abi/fetcher/tmp/huawei-solar-2.2.8b1.tar.gz]
+[2023-07-19 13:21:11] INFO root fetch - processPackages [huawei-solar]: Remove: archive file [/home/abi/fetcher/tmp/huawei-solar-2.2.8b2.tar.gz]
+[2023-07-19 13:21:11] INFO root fetch - processPackages [huawei-solar]: Start processing: klarf-reader
+[2023-07-19 13:21:11] INFO root fetch - main [MainThread]: End processing [huawei-solar]: success
+[2023-07-19 13:21:11] INFO root fetch - processPackages [gumpy]: Downloading https://files.pythonhosted.org/packages/84/60/f984c015b3ce53814a586594ea1b2961358ea7fde3254b8d962f3bb04509/gumpy-1.2.2.tar.gz
+[2023-07-19 13:21:11] INFO root fetch - processPackages [piezo]: Downloading https://files.pythonhosted.org/packages/6f/e7/1b33e2702f45fa38f2ca996b00fc74cc0bd5e2888d80cf1b286f9ae426f5/piezo-0.5.tar.gz
+[2023-07-19 13:21:11] INFO root fetch - processPackages [py4web-debug-tools]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-19 13:21:11] INFO root fetch - processPackages [dploot]: New version: [2.2.0] Old Version: [2.1.9]
+[2023-07-19 13:21:11] INFO root fetch - processPackages [SOMcreator]: Downloading https://files.pythonhosted.org/packages/3b/fd/e1b9d0f7bf87f2fae14b42a393ead93e96e60110de7b1032c4ac2ab8d4f6/SOMcreator-1.1.7.tar.gz
+[2023-07-19 13:21:11] INFO root fetch - processPackages [gumpy]: executing diffoscope
+[2023-07-19 13:21:11] INFO root fetch - processPackages [gumpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gumpy-1.2.1.tar.gz tmp/gumpy-1.2.2.tar.gz --markdown 20230719/g/gumpy/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-19 13:21:11] INFO root fetch - processPackages [klarf-reader]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-19 13:21:11] INFO root fetch - processPackages [z0bug-odoo]: Downloading https://files.pythonhosted.org/packages/7b/c1/53a7ca15118de5e64daf44746a6360b1ff4591f7522e12cd4da960b3603b/z0bug_odoo-2.0.9.tar.gz
+[2023-07-19 13:21:11] INFO root fetch - processPackages [py4web-debug-tools]: Downloading https://files.pythonhosted.org/packages/42/78/1d887a71a3913617e9423d4c6e583101bf1585204254ca2c89105d7de8df/py4web_debug_tools-1.0.0.tar.gz
+[2023-07-19 13:21:11] INFO root fetch - processPackages [dploot]: Downloading https://files.pythonhosted.org/packages/19/8b/3b53d843f3b826b011b67af3ccd8f0cc492c1bda9fbf2a42cd6e79ecb4e3/dploot-2.1.9.tar.gz
+[2023-07-19 13:21:11] INFO root fetch - processPackages [klarf-reader]: Downloading https://files.pythonhosted.org/packages/15/4a/2e1ad37a35ee9efda859e97c14f93e02a3b905ad2a350b98a23381f71875/klarf-reader-0.3.3.tar.gz
+[2023-07-19 13:21:11] INFO root fetch - processPackages [piezo]: Downloading https://files.pythonhosted.org/packages/1a/c9/a5127aecb5ad400b514663d675c9490da67e723f991b76f4549f3bf81dbc/piezo-0.6.tar.gz
+[2023-07-19 13:21:11] INFO root fetch - processPackages [z0bug-odoo]: executing diffoscope
+[2023-07-19 13:21:11] INFO root fetch - processPackages [z0bug-odoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/z0bug_odoo-2.0.8.tar.gz tmp/z0bug_odoo-2.0.9.tar.gz --markdown 20230719/z/z0bug-odoo/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-19 13:21:11] INFO root fetch - processPackages [SOMcreator]: Downloading https://files.pythonhosted.org/packages/be/72/bab0544883766052902f8b3bd0d47a923c37cc48472713ecb4dfef225b4e/SOMcreator-1.1.7.2.tar.gz
+[2023-07-19 13:21:11] INFO root fetch - processPackages [viur-core]: Remove: archive file [/home/abi/fetcher/tmp/viur_core-3.4.4-py3-none-any.whl.zip]
+[2023-07-19 13:21:11] INFO root fetch - processPackages [viur-core]: Remove: archive file [/home/abi/fetcher/tmp/viur_core-3.5.0b1-py3-none-any.whl.zip]
+[2023-07-19 13:21:11] INFO root fetch - main [MainThread]: End processing [viur-core]: success
+[2023-07-19 13:21:11] INFO root fetch - processPackages [piezo]: executing diffoscope
+[2023-07-19 13:21:11] INFO root fetch - processPackages [piezo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piezo-0.5.tar.gz tmp/piezo-0.6.tar.gz --markdown 20230719/p/piezo/0.5-0.6/diff.md --exclude *.pyd
+[2023-07-19 13:21:11] INFO root fetch - processPackages [SOMcreator]: executing diffoscope
+[2023-07-19 13:21:11] INFO root fetch - processPackages [SOMcreator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SOMcreator-1.1.7.tar.gz tmp/SOMcreator-1.1.7.2.tar.gz --markdown 20230719/S/SOMcreator/1.1.7-1.1.7.2/diff.md --exclude *.pyd
+[2023-07-19 13:21:11] INFO root fetch - processPackages [py4web-debug-tools]: Downloading https://files.pythonhosted.org/packages/e8/d9/90cd3e030790c1698dd61dc6434b68d3c4dca5ae4c13fa747717460fba44/py4web_debug_tools-1.1.0.tar.gz
+[2023-07-19 13:21:12] INFO root fetch - processPackages [hera]: Remove: archive file [/home/abi/fetcher/tmp/hera-5.5.2.tar.gz]
+[2023-07-19 13:21:12] INFO root fetch - processPackages [hera]: Remove: archive file [/home/abi/fetcher/tmp/hera-5.6.0.tar.gz]
+[2023-07-19 13:21:12] INFO root fetch - main [MainThread]: End processing [hera]: success
+[2023-07-19 13:21:12] INFO root fetch - processPackages [dploot]: Downloading https://files.pythonhosted.org/packages/6d/65/0ae4aa299bc0045aa43368408425115d50690aef03a25150969be0a10f7b/dploot-2.2.0.tar.gz
+[2023-07-19 13:21:12] INFO root fetch - processPackages [klarf-reader]: Downloading https://files.pythonhosted.org/packages/b5/5f/81ed03f42b6df1df8dcbdc3e5c6d79bf13f07245c198f29f7161224c9059/klarf-reader-0.3.4.tar.gz
+[2023-07-19 13:21:12] INFO root fetch - processPackages [py4web-debug-tools]: executing diffoscope
+[2023-07-19 13:21:12] INFO root fetch - processPackages [py4web-debug-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py4web_debug_tools-1.0.0.tar.gz tmp/py4web_debug_tools-1.1.0.tar.gz --markdown 20230719/p/py4web-debug-tools/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-19 13:21:12] INFO root fetch - processPackages [dploot]: executing diffoscope
+[2023-07-19 13:21:12] INFO root fetch - processPackages [dploot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dploot-2.1.9.tar.gz tmp/dploot-2.2.0.tar.gz --markdown 20230719/d/dploot/2.1.9-2.2.0/diff.md --exclude *.pyd
+[2023-07-19 13:21:12] INFO root fetch - processPackages [klarf-reader]: executing diffoscope
+[2023-07-19 13:21:12] INFO root fetch - processPackages [klarf-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klarf-reader-0.3.3.tar.gz tmp/klarf-reader-0.3.4.tar.gz --markdown 20230719/k/klarf-reader/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-19 13:21:12] INFO root fetch - processPackages [hera-workflows]: Remove: archive file [/home/abi/fetcher/tmp/hera_workflows-5.5.2.tar.gz]
+[2023-07-19 13:21:12] INFO root fetch - processPackages [hera-workflows]: Remove: archive file [/home/abi/fetcher/tmp/hera_workflows-5.6.0.tar.gz]
+[2023-07-19 13:21:12] INFO root fetch - main [MainThread]: End processing [hera-workflows]: success
+[2023-07-19 13:21:12] INFO root fetch - processPackages [gumpy]: Remove: archive file [/home/abi/fetcher/tmp/gumpy-1.2.1.tar.gz]
+[2023-07-19 13:21:12] INFO root fetch - processPackages [gumpy]: Remove: archive file [/home/abi/fetcher/tmp/gumpy-1.2.2.tar.gz]
+[2023-07-19 13:21:12] INFO root fetch - main [MainThread]: End processing [gumpy]: success
+[2023-07-19 13:21:13] INFO root fetch - processPackages [piezo]: Remove: archive file [/home/abi/fetcher/tmp/piezo-0.5.tar.gz]
+[2023-07-19 13:21:13] INFO root fetch - processPackages [piezo]: Remove: archive file [/home/abi/fetcher/tmp/piezo-0.6.tar.gz]
+[2023-07-19 13:21:13] INFO root fetch - main [MainThread]: End processing [piezo]: success
+[2023-07-19 13:21:13] INFO root fetch - processPackages [SOMcreator]: Remove: archive file [/home/abi/fetcher/tmp/SOMcreator-1.1.7.tar.gz]
+[2023-07-19 13:21:13] INFO root fetch - processPackages [SOMcreator]: Remove: archive file [/home/abi/fetcher/tmp/SOMcreator-1.1.7.2.tar.gz]
+[2023-07-19 13:21:13] INFO root fetch - main [MainThread]: End processing [SOMcreator]: success
+[2023-07-19 13:21:13] INFO root fetch - processPackages [py4web-debug-tools]: Remove: archive file [/home/abi/fetcher/tmp/py4web_debug_tools-1.0.0.tar.gz]
+[2023-07-19 13:21:13] INFO root fetch - processPackages [py4web-debug-tools]: Remove: archive file [/home/abi/fetcher/tmp/py4web_debug_tools-1.1.0.tar.gz]
+[2023-07-19 13:21:13] INFO root fetch - main [MainThread]: End processing [py4web-debug-tools]: success
+[2023-07-19 13:21:13] INFO root fetch - processPackages [klarf-reader]: Remove: archive file [/home/abi/fetcher/tmp/klarf-reader-0.3.3.tar.gz]
+[2023-07-19 13:21:13] INFO root fetch - processPackages [klarf-reader]: Remove: archive file [/home/abi/fetcher/tmp/klarf-reader-0.3.4.tar.gz]
+[2023-07-19 13:21:13] INFO root fetch - main [MainThread]: End processing [klarf-reader]: success
+[2023-07-19 13:21:14] INFO root fetch - processPackages [dploot]: Remove: archive file [/home/abi/fetcher/tmp/dploot-2.1.9.tar.gz]
+[2023-07-19 13:21:14] INFO root fetch - processPackages [dploot]: Remove: archive file [/home/abi/fetcher/tmp/dploot-2.2.0.tar.gz]
+[2023-07-19 13:21:14] INFO root fetch - main [MainThread]: End processing [dploot]: success
+[2023-07-19 13:21:14] INFO root fetch - processPackages [z0bug-odoo]: Remove: archive file [/home/abi/fetcher/tmp/z0bug_odoo-2.0.8.tar.gz]
+[2023-07-19 13:21:14] INFO root fetch - processPackages [z0bug-odoo]: Remove: archive file [/home/abi/fetcher/tmp/z0bug_odoo-2.0.9.tar.gz]
+[2023-07-19 13:21:14] INFO root fetch - main [MainThread]: End processing [z0bug-odoo]: success
+[2023-07-19 13:21:14] INFO root fetch - main [MainThread]: Store serial: [18949227]
