@@ -14952,3 +14952,96 @@
 [2023-07-19 08:20:22] INFO root fetch - processPackages [nids-transformers]: Remove: archive file [/home/abi/fetcher/tmp/nids_transformers-0.0.9.tar.gz]
 [2023-07-19 08:20:22] INFO root fetch - main [MainThread]: End processing [nids-transformers]: success
 [2023-07-19 08:20:22] INFO root fetch - main [MainThread]: Store serial: [18946024]
+[2023-07-19 08:25:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18946024]
+[2023-07-19 08:25:31] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-19 08:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: json2xml
+[2023-07-19 08:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dcg-service
+[2023-07-19 08:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: azure-speech-tools
+[2023-07-19 08:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qontract-reconcile
+[2023-07-19 08:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: z3c.form
+[2023-07-19 08:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DLMS-SPODES
+[2023-07-19 08:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: benchmark-runner
+[2023-07-19 08:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: webint-owner
+[2023-07-19 08:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: DateTime
+[2023-07-19 08:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fake-bpy-module-latest
+[2023-07-19 08:25:32] INFO root fetch - processPackages [webint-owner]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 08:25:32] INFO root fetch - processPackages [dcg-service]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 08:25:32] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-07-19 08:25:32] INFO root fetch - processPackages [azure-speech-tools]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-19 08:25:32] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-07-19 08:25:32] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230718] Old Version: [20230717]
+[2023-07-19 08:25:32] INFO root fetch - processPackages [json2xml]: New version: [4.0.0] Old Version: [3.9.0]
+[2023-07-19 08:25:32] INFO root fetch - processPackages [DateTime]: New version: [5.2] Old Version: [5.1]
+[2023-07-19 08:25:32] INFO root fetch - processPackages [z3c.form]: New version: [5.1] Old Version: [5.0]
+[2023-07-19 08:25:32] INFO root fetch - processPackages [benchmark-runner]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-19 08:25:32] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-07-19 08:25:32] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/97/e2/60be495fca055220080de90e294b2c16ad5a60ea6485cdee969131f05bf4/DLMS_SPODES-0.8.3.tar.gz
+[2023-07-19 08:25:32] INFO root fetch - processPackages [azure-speech-tools]: Downloading https://files.pythonhosted.org/packages/fa/fd/8bc3aa77a541f0b6cc55311f49910218f19e8eb31a72a24a5ed9a5c872db/azure_speech_tools-0.0.3.tar.gz
+[2023-07-19 08:25:32] INFO root fetch - processPackages [webint-owner]: Downloading https://files.pythonhosted.org/packages/82/c1/31c4478829f7d078a0f1163504234375abe6bd4fe8e96dfceecfead2e4dc/webint_owner-0.0.8.tar.gz
+[2023-07-19 08:25:32] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/cd/0a/17640b63bb956b979aaa27174072868ea810d2a97ad7eafb418c7d284d00/fake-bpy-module-latest-20230717.tar.gz
+[2023-07-19 08:25:32] INFO root fetch - processPackages [dcg-service]: Downloading https://files.pythonhosted.org/packages/d1/dc/af405ec9076cc9697a884a97435eec0c8320b3e5ec2228beccc508f6afef/dcg_service-0.0.8.tar.gz
+[2023-07-19 08:25:32] INFO root fetch - processPackages [DateTime]: Downloading https://files.pythonhosted.org/packages/0b/e0/803b837cbeaa04150eb434c4101b8e2ec047ec3e9ee9abd77d07cbafd6d6/DateTime-5.1.tar.gz
+[2023-07-19 08:25:32] INFO root fetch - processPackages [json2xml]: Downloading https://files.pythonhosted.org/packages/00/68/10dee5a54d46137854869da1376d142202153fc7ff2cd318c6726a481885/json2xml-3.9.0.tar.gz
+[2023-07-19 08:25:32] INFO root fetch - processPackages [benchmark-runner]: Downloading https://files.pythonhosted.org/packages/68/c2/3af8e8485f9abfd8f28512408ea35af542ce46eaf6c71c9da44e966b20f2/benchmark-runner-1.0.98.tar.gz
+[2023-07-19 08:25:32] INFO root fetch - processPackages [z3c.form]: Downloading https://files.pythonhosted.org/packages/88/6e/d29a2f8ac843698b01b4e156c1fd8c2f2e8d2faa80fcf336959f3999c5ec/z3c.form-5.0.tar.gz
+[2023-07-19 08:25:32] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/5c/44/0ffb5fba58367d07e19459c73b09c3bf347e1550b3a45da289dd5b7092ca/fake-bpy-module-latest-20230718.tar.gz
+[2023-07-19 08:25:32] INFO root fetch - processPackages [webint-owner]: Downloading https://files.pythonhosted.org/packages/bd/f2/dcc737828a71fdc4a1931b7f1529621c7eb808bcd092ffac16096a2be1cc/webint_owner-0.0.9.tar.gz
+[2023-07-19 08:25:32] INFO root fetch - processPackages [DateTime]: Downloading https://files.pythonhosted.org/packages/98/b9/36b541f6bf8955c1d9a8aabd83ec1543365deb79111c6b0b8e4ca6cec9c1/DateTime-5.2.tar.gz
+[2023-07-19 08:25:32] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-07-19 08:25:32] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/78/a8/0e1e9fd1aa9750b28e12462781d408863affaeb92dbdb8c020b6d3078e67/DLMS_SPODES-0.9.0.tar.gz
+[2023-07-19 08:25:32] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-07-19 08:25:32] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230717.tar.gz tmp/fake-bpy-module-latest-20230718.tar.gz --markdown 20230719/f/fake-bpy-module-latest/20230717-20230718/diff.md --exclude *.pyd
+[2023-07-19 08:25:32] INFO root fetch - processPackages [azure-speech-tools]: Downloading https://files.pythonhosted.org/packages/77/32/cd6d6c864c0c7a9d8832a9fc1fdf9feddf205fcae062baecac343f151e06/azure_speech_tools-0.0.4.tar.gz
+[2023-07-19 08:25:33] INFO root fetch - processPackages [dcg-service]: Downloading https://files.pythonhosted.org/packages/20/28/183b5115487ba663fb63f58c27f70c49f30d094377fc1acf77b836583bbf/dcg_service-0.0.9.tar.gz
+[2023-07-19 08:25:33] INFO root fetch - processPackages [json2xml]: Downloading https://files.pythonhosted.org/packages/37/54/b1acfff5831e10f807ebb2ef5b523175274018cf0c9c5c8c78a3650ce752/json2xml-4.0.0.tar.gz
+[2023-07-19 08:25:33] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2023-07-19 08:25:33] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20230719/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-07-19 08:25:33] INFO root fetch - processPackages [webint-owner]: executing diffoscope
+[2023-07-19 08:25:33] INFO root fetch - processPackages [webint-owner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webint_owner-0.0.8.tar.gz tmp/webint_owner-0.0.9.tar.gz --markdown 20230719/w/webint-owner/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 08:25:33] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-07-19 08:25:33] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230719/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-07-19 08:25:33] INFO root fetch - processPackages [DateTime]: executing diffoscope
+[2023-07-19 08:25:33] INFO root fetch - processPackages [DateTime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DateTime-5.1.tar.gz tmp/DateTime-5.2.tar.gz --markdown 20230719/D/DateTime/5.1-5.2/diff.md --exclude *.pyd
+[2023-07-19 08:25:33] INFO root fetch - processPackages [benchmark-runner]: Downloading https://files.pythonhosted.org/packages/aa/74/0b502ae8dc7d1ab19876f92da2d177323637092c1bc4f54ae1beac2c2f18/benchmark-runner-1.0.99.tar.gz
+[2023-07-19 08:25:33] INFO root fetch - processPackages [azure-speech-tools]: executing diffoscope
+[2023-07-19 08:25:33] INFO root fetch - processPackages [azure-speech-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure_speech_tools-0.0.3.tar.gz tmp/azure_speech_tools-0.0.4.tar.gz --markdown 20230719/a/azure-speech-tools/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-19 08:25:33] INFO root fetch - processPackages [z3c.form]: Downloading https://files.pythonhosted.org/packages/cd/3d/1df765a5a41dfa2387ce6061421fa6127c67d17c787d917b9a30d11de6ac/z3c.form-5.1.tar.gz
+[2023-07-19 08:25:33] INFO root fetch - processPackages [dcg-service]: executing diffoscope
+[2023-07-19 08:25:33] INFO root fetch - processPackages [dcg-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcg_service-0.0.8.tar.gz tmp/dcg_service-0.0.9.tar.gz --markdown 20230719/d/dcg-service/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 08:25:33] INFO root fetch - processPackages [json2xml]: executing diffoscope
+[2023-07-19 08:25:33] INFO root fetch - processPackages [json2xml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json2xml-3.9.0.tar.gz tmp/json2xml-4.0.0.tar.gz --markdown 20230719/j/json2xml/3.9.0-4.0.0/diff.md --exclude *.pyd
+[2023-07-19 08:25:33] INFO root fetch - processPackages [benchmark-runner]: executing diffoscope
+[2023-07-19 08:25:33] INFO root fetch - processPackages [benchmark-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchmark-runner-1.0.98.tar.gz tmp/benchmark-runner-1.0.99.tar.gz --markdown 20230719/b/benchmark-runner/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-19 08:25:33] INFO root fetch - processPackages [z3c.form]: executing diffoscope
+[2023-07-19 08:25:33] INFO root fetch - processPackages [z3c.form]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/z3c.form-5.0.tar.gz tmp/z3c.form-5.1.tar.gz --markdown 20230719/z/z3c.form/5.0-5.1/diff.md --exclude *.pyd
+[2023-07-19 08:25:34] INFO root fetch - processPackages [webint-owner]: Remove: archive file [/home/abi/fetcher/tmp/webint_owner-0.0.8.tar.gz]
+[2023-07-19 08:25:34] INFO root fetch - processPackages [webint-owner]: Remove: archive file [/home/abi/fetcher/tmp/webint_owner-0.0.9.tar.gz]
+[2023-07-19 08:25:34] INFO root fetch - main [MainThread]: End processing [webint-owner]: success
+[2023-07-19 08:25:34] INFO root fetch - processPackages [azure-speech-tools]: Remove: archive file [/home/abi/fetcher/tmp/azure_speech_tools-0.0.3.tar.gz]
+[2023-07-19 08:25:34] INFO root fetch - processPackages [azure-speech-tools]: Remove: archive file [/home/abi/fetcher/tmp/azure_speech_tools-0.0.4.tar.gz]
+[2023-07-19 08:25:34] INFO root fetch - main [MainThread]: End processing [azure-speech-tools]: success
+[2023-07-19 08:25:34] INFO root fetch - processPackages [DateTime]: Remove: archive file [/home/abi/fetcher/tmp/DateTime-5.1.tar.gz]
+[2023-07-19 08:25:34] INFO root fetch - processPackages [DateTime]: Remove: archive file [/home/abi/fetcher/tmp/DateTime-5.2.tar.gz]
+[2023-07-19 08:25:34] INFO root fetch - main [MainThread]: End processing [DateTime]: success
+[2023-07-19 08:25:34] INFO root fetch - processPackages [dcg-service]: Remove: archive file [/home/abi/fetcher/tmp/dcg_service-0.0.8.tar.gz]
+[2023-07-19 08:25:34] INFO root fetch - processPackages [dcg-service]: Remove: archive file [/home/abi/fetcher/tmp/dcg_service-0.0.9.tar.gz]
+[2023-07-19 08:25:34] INFO root fetch - main [MainThread]: End processing [dcg-service]: success
+[2023-07-19 08:25:35] INFO root fetch - processPackages [json2xml]: Remove: archive file [/home/abi/fetcher/tmp/json2xml-3.9.0.tar.gz]
+[2023-07-19 08:25:35] INFO root fetch - processPackages [json2xml]: Remove: archive file [/home/abi/fetcher/tmp/json2xml-4.0.0.tar.gz]
+[2023-07-19 08:25:35] INFO root fetch - main [MainThread]: End processing [json2xml]: success
+[2023-07-19 08:25:35] INFO root fetch - processPackages [benchmark-runner]: Remove: archive file [/home/abi/fetcher/tmp/benchmark-runner-1.0.98.tar.gz]
+[2023-07-19 08:25:35] INFO root fetch - processPackages [benchmark-runner]: Remove: archive file [/home/abi/fetcher/tmp/benchmark-runner-1.0.99.tar.gz]
+[2023-07-19 08:25:35] INFO root fetch - main [MainThread]: End processing [benchmark-runner]: success
+[2023-07-19 08:25:35] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.8.3.tar.gz]
+[2023-07-19 08:25:35] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.9.0.tar.gz]
+[2023-07-19 08:25:35] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2023-07-19 08:25:36] INFO root fetch - processPackages [z3c.form]: Remove: archive file [/home/abi/fetcher/tmp/z3c.form-5.0.tar.gz]
+[2023-07-19 08:25:36] INFO root fetch - processPackages [z3c.form]: Remove: archive file [/home/abi/fetcher/tmp/z3c.form-5.1.tar.gz]
+[2023-07-19 08:25:36] INFO root fetch - main [MainThread]: End processing [z3c.form]: success
+[2023-07-19 08:25:36] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-07-19 08:25:36] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-07-19 08:25:36] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-07-19 08:25:37] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230717.tar.gz]
+[2023-07-19 08:25:37] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230718.tar.gz]
+[2023-07-19 08:25:37] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-07-19 08:25:37] INFO root fetch - main [MainThread]: Store serial: [18946056]
