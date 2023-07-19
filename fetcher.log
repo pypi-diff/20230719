@@ -17678,3 +17678,92 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-19 10:14:34] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.98.tar.gz]
 [2023-07-19 10:14:34] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
 [2023-07-19 10:14:34] INFO root fetch - main [MainThread]: Store serial: [18947019]
+[2023-07-19 10:19:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18947019]
+[2023-07-19 10:19:43] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-19 10:19:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TDCRPy
+[2023-07-19 10:19:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: auto-test-common
+[2023-07-19 10:19:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: thug
+[2023-07-19 10:19:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: func-ai
+[2023-07-19 10:19:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nwebclient
+[2023-07-19 10:19:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: clickzetta-migration
+[2023-07-19 10:19:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: htscf
+[2023-07-19 10:19:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kingunit-inspector
+[2023-07-19 10:19:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cloudoll
+[2023-07-19 10:19:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tksel
+[2023-07-19 10:19:43] INFO root fetch - processPackages [kingunit-inspector]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-19 10:19:43] INFO root fetch - processPackages [clickzetta-migration]: New version: [0.0.0.4] Old Version: [0.0.0.3]
+[2023-07-19 10:19:43] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-19 10:19:43] INFO root fetch - processPackages [TDCRPy]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-19 10:19:43] INFO root fetch - processPackages [thug]: New version: [5.3] Old Version: [5.2]
+[2023-07-19 10:19:43] INFO root fetch - processPackages [htscf]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-19 10:19:43] INFO root fetch - processPackages [tksel]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-07-19 10:19:43] INFO root fetch - processPackages [func-ai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 10:19:43] INFO root fetch - processPackages [cloudoll]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-07-19 10:19:43] INFO root fetch - processPackages [auto-test-common]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 10:19:44] INFO root fetch - processPackages [clickzetta-migration]: Downloading https://files.pythonhosted.org/packages/15/c6/6f555b8ad34a98d6cf50de9d648ca3be039e7cee8387ae0a1b9edf368405/clickzetta-migration-0.0.0.3.tar.gz
+[2023-07-19 10:19:44] INFO root fetch - processPackages [kingunit-inspector]: Downloading https://files.pythonhosted.org/packages/ee/90/57e6de6ea8ff90152937e5fff7862598340644c9d0d3a164143027591917/kingunit_inspector-0.0.2.tar.gz
+[2023-07-19 10:19:44] INFO root fetch - processPackages [htscf]: Downloading https://files.pythonhosted.org/packages/89/2b/9073f3178ee5bf9a4dc3514b6e26ba6120c6021fae35119c0f7d2304926a/htscf-0.0.5.tar.gz
+[2023-07-19 10:19:44] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/32/5d/a940c7c89c47caa8d7d717ec993cadc32acaee6b8e51af4b6c99b06a303e/auto-test-common-1.0.8.tar.gz
+[2023-07-19 10:19:44] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/e8/e5/3e3bd3fed3b4e446d73def3a7d53997c20e1a1ce44b9a58b27c0a1ee7a50/TDCRPy-0.0.7.tar.gz
+[2023-07-19 10:19:44] INFO root fetch - processPackages [func-ai]: Downloading https://files.pythonhosted.org/packages/c0/f4/b23a9b786650ad0b3759f129c070e7d6f14a6df81520c1fd00cc9c5ca0ac/func_ai-0.0.8.tar.gz
+[2023-07-19 10:19:44] INFO root fetch - processPackages [cloudoll]: Downloading https://files.pythonhosted.org/packages/ad/41/43ef10e9d758b36c93c667283d51d37596d6d436060fc43eaa8ab7326729/cloudoll-2.0.5.tar.gz
+[2023-07-19 10:19:44] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-19 10:19:44] INFO root fetch - processPackages [tksel]: Downloading https://files.pythonhosted.org/packages/68/3e/76fb636c8989bcc163f10f7cee1b7aa4ed9a3f3261dacbcf893d7caf6dbf/tksel-0.0.1.tar.gz
+[2023-07-19 10:19:44] INFO root fetch - processPackages [thug]: Downloading https://files.pythonhosted.org/packages/dd/5f/833c7d325197f13f5de2f2c701c0f5073cfca91d55621680c8c61f74b923/thug-5.2.tar.gz
+[2023-07-19 10:19:44] WARNING root fetch - processPackages [tksel]: Skipping package: exceeds size limit 44318806>=10485760
+[2023-07-19 10:19:44] INFO root fetch - main [MainThread]: End processing [tksel] error
+[2023-07-19 10:19:44] INFO root fetch - processPackages [clickzetta-migration]: Downloading https://files.pythonhosted.org/packages/7a/26/46ba330f63049dcced01451611fadd4c8e1bedc7bdd853fe83a461f5f43c/clickzetta-migration-0.0.0.4.tar.gz
+[2023-07-19 10:19:44] INFO root fetch - processPackages [kingunit-inspector]: Downloading https://files.pythonhosted.org/packages/bd/cf/55146bf5e1638fb79579402fc055be6f2e6ca8ae091022bda7c40b5f0f78/kingunit_inspector-0.0.3.tar.gz
+[2023-07-19 10:19:44] INFO root fetch - processPackages [func-ai]: Downloading https://files.pythonhosted.org/packages/e1/77/244803e88aec0456ea39650555721c4921effbc09d40de9b2a4fd8299841/func_ai-0.0.9.tar.gz
+[2023-07-19 10:19:44] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-19 10:19:44] INFO root fetch - processPackages [cloudoll]: Downloading https://files.pythonhosted.org/packages/06/b3/2643e471e443116c95de0d0287850921b1db5283ab97564d931e252aa4ed/cloudoll-2.0.6.tar.gz
+[2023-07-19 10:19:44] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/02/72/7059e44b7cdcc0ef7e311e32e112b1bbc1c433726e8aba80f7591c6a5e89/auto-test-common-1.0.9.tar.gz
+[2023-07-19 10:19:44] INFO root fetch - processPackages [htscf]: Downloading https://files.pythonhosted.org/packages/79/61/5d180eb4765f1932f5d799632c66f08ef763735f711eca20b9600ae72659/htscf-0.0.6.tar.gz
+[2023-07-19 10:19:44] INFO root fetch - processPackages [clickzetta-migration]: executing diffoscope
+[2023-07-19 10:19:44] INFO root fetch - processPackages [clickzetta-migration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-migration-0.0.0.3.tar.gz tmp/clickzetta-migration-0.0.0.4.tar.gz --markdown 20230719/c/clickzetta-migration/0.0.0.3-0.0.0.4/diff.md --exclude *.pyd
+[2023-07-19 10:19:44] INFO root fetch - processPackages [thug]: Downloading https://files.pythonhosted.org/packages/7a/51/b2151ce40a4085d3d98baa431653958acba3d666316fb2792ba1365a2926/thug-5.3.tar.gz
+[2023-07-19 10:19:44] INFO root fetch - processPackages [kingunit-inspector]: executing diffoscope
+[2023-07-19 10:19:44] INFO root fetch - processPackages [kingunit-inspector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kingunit_inspector-0.0.2.tar.gz tmp/kingunit_inspector-0.0.3.tar.gz --markdown 20230719/k/kingunit-inspector/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-19 10:19:44] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-19 10:19:44] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230719/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-19 10:19:44] INFO root fetch - processPackages [cloudoll]: executing diffoscope
+[2023-07-19 10:19:44] INFO root fetch - processPackages [cloudoll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudoll-2.0.5.tar.gz tmp/cloudoll-2.0.6.tar.gz --markdown 20230719/c/cloudoll/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-07-19 10:19:44] INFO root fetch - processPackages [func-ai]: executing diffoscope
+[2023-07-19 10:19:44] INFO root fetch - processPackages [func-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/func_ai-0.0.8.tar.gz tmp/func_ai-0.0.9.tar.gz --markdown 20230719/f/func-ai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 10:19:44] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/45/d1/26f2b4eb42e05416d7662d5fb8b6f31b59dee6421945806c7b7bfdfbfa94/TDCRPy-0.0.8.tar.gz
+[2023-07-19 10:19:45] INFO root fetch - processPackages [htscf]: executing diffoscope
+[2023-07-19 10:19:45] INFO root fetch - processPackages [htscf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htscf-0.0.5.tar.gz tmp/htscf-0.0.6.tar.gz --markdown 20230719/h/htscf/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-19 10:19:45] INFO root fetch - processPackages [auto-test-common]: executing diffoscope
+[2023-07-19 10:19:45] INFO root fetch - processPackages [auto-test-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-test-common-1.0.8.tar.gz tmp/auto-test-common-1.0.9.tar.gz --markdown 20230719/a/auto-test-common/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 10:19:45] INFO root fetch - processPackages [TDCRPy]: executing diffoscope
+[2023-07-19 10:19:45] INFO root fetch - processPackages [TDCRPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDCRPy-0.0.7.tar.gz tmp/TDCRPy-0.0.8.tar.gz --markdown 20230719/T/TDCRPy/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-19 10:19:45] INFO root fetch - processPackages [thug]: executing diffoscope
+[2023-07-19 10:19:45] INFO root fetch - processPackages [thug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thug-5.2.tar.gz tmp/thug-5.3.tar.gz --markdown 20230719/t/thug/5.2-5.3/diff.md --exclude *.pyd
+[2023-07-19 10:19:46] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-19 10:19:46] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-19 10:19:46] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-19 10:19:46] INFO root fetch - processPackages [kingunit-inspector]: Remove: archive file [/home/abi/fetcher/tmp/kingunit_inspector-0.0.2.tar.gz]
+[2023-07-19 10:19:46] INFO root fetch - processPackages [kingunit-inspector]: Remove: archive file [/home/abi/fetcher/tmp/kingunit_inspector-0.0.3.tar.gz]
+[2023-07-19 10:19:46] INFO root fetch - main [MainThread]: End processing [kingunit-inspector]: success
+[2023-07-19 10:19:46] INFO root fetch - processPackages [func-ai]: Remove: archive file [/home/abi/fetcher/tmp/func_ai-0.0.8.tar.gz]
+[2023-07-19 10:19:46] INFO root fetch - processPackages [func-ai]: Remove: archive file [/home/abi/fetcher/tmp/func_ai-0.0.9.tar.gz]
+[2023-07-19 10:19:46] INFO root fetch - main [MainThread]: End processing [func-ai]: success
+[2023-07-19 10:19:46] INFO root fetch - processPackages [cloudoll]: Remove: archive file [/home/abi/fetcher/tmp/cloudoll-2.0.5.tar.gz]
+[2023-07-19 10:19:46] INFO root fetch - processPackages [cloudoll]: Remove: archive file [/home/abi/fetcher/tmp/cloudoll-2.0.6.tar.gz]
+[2023-07-19 10:19:46] INFO root fetch - main [MainThread]: End processing [cloudoll]: success
+[2023-07-19 10:19:46] INFO root fetch - processPackages [clickzetta-migration]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-migration-0.0.0.3.tar.gz]
+[2023-07-19 10:19:46] INFO root fetch - processPackages [clickzetta-migration]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-migration-0.0.0.4.tar.gz]
+[2023-07-19 10:19:46] INFO root fetch - main [MainThread]: End processing [clickzetta-migration]: success
+[2023-07-19 10:19:46] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.7.tar.gz]
+[2023-07-19 10:19:46] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.8.tar.gz]
+[2023-07-19 10:19:46] INFO root fetch - main [MainThread]: End processing [TDCRPy]: success
+[2023-07-19 10:19:46] INFO root fetch - processPackages [auto-test-common]: Remove: archive file [/home/abi/fetcher/tmp/auto-test-common-1.0.8.tar.gz]
+[2023-07-19 10:19:46] INFO root fetch - processPackages [auto-test-common]: Remove: archive file [/home/abi/fetcher/tmp/auto-test-common-1.0.9.tar.gz]
+[2023-07-19 10:19:46] INFO root fetch - main [MainThread]: End processing [auto-test-common]: success
+[2023-07-19 10:19:46] INFO root fetch - processPackages [htscf]: Remove: archive file [/home/abi/fetcher/tmp/htscf-0.0.5.tar.gz]
+[2023-07-19 10:19:46] INFO root fetch - processPackages [htscf]: Remove: archive file [/home/abi/fetcher/tmp/htscf-0.0.6.tar.gz]
+[2023-07-19 10:19:46] INFO root fetch - main [MainThread]: End processing [htscf]: success
+[2023-07-19 10:19:47] INFO root fetch - processPackages [thug]: Remove: archive file [/home/abi/fetcher/tmp/thug-5.2.tar.gz]
+[2023-07-19 10:19:47] INFO root fetch - processPackages [thug]: Remove: archive file [/home/abi/fetcher/tmp/thug-5.3.tar.gz]
+[2023-07-19 10:19:47] INFO root fetch - main [MainThread]: End processing [thug]: success
+[2023-07-19 10:19:47] INFO root fetch - main [MainThread]: Store serial: [18947048]
