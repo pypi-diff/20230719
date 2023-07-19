@@ -20768,3 +20768,96 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-19 12:11:34] INFO root fetch - processPackages [renumics-spotlight]: Remove: archive file [/home/abi/fetcher/tmp/renumics_spotlight-1.3.0rc6-py3-none-any.whl.zip]
 [2023-07-19 12:11:34] INFO root fetch - main [MainThread]: End processing [renumics-spotlight]: success
 [2023-07-19 12:11:34] INFO root fetch - main [MainThread]: Store serial: [18948396]
+[2023-07-19 12:16:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18948396]
+[2023-07-19 12:16:47] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-19 12:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dm-reverb-nightly
+[2023-07-19 12:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: starfall
+[2023-07-19 12:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: parallel-corpus-mnbvc
+[2023-07-19 12:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rekuest
+[2023-07-19 12:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neo-fairy-client
+[2023-07-19 12:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: h3daemon
+[2023-07-19 12:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyBIS
+[2023-07-19 12:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pc-ble-driver-py-com
+[2023-07-19 12:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: contactapi
+[2023-07-19 12:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hserv
+[2023-07-19 12:16:47] INFO root fetch - processPackages [h3daemon]: New version: [0.9.3] Old Version: [0.9.0]
+[2023-07-19 12:16:47] INFO root fetch - processPackages [rekuest]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-19 12:16:47] INFO root fetch - processPackages [hserv]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-19 12:16:47] INFO root fetch - processPackages [starfall]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-19 12:16:47] WARNING root fetch - processPackages [contactapi]: Skipping, unable to determine old version
+[2023-07-19 12:16:47] INFO root fetch - processPackages [contactapi]: Start processing: SupyCool
+[2023-07-19 12:16:47] INFO root fetch - main [MainThread]: End processing [contactapi] error
+[2023-07-19 12:16:47] WARNING root fetch - processPackages [pc-ble-driver-py-com]: Skipping, unable to determine old version
+[2023-07-19 12:16:47] INFO root fetch - processPackages [pc-ble-driver-py-com]: Start processing: lite-tools
+[2023-07-19 12:16:47] INFO root fetch - main [MainThread]: End processing [pc-ble-driver-py-com] error
+[2023-07-19 12:16:47] INFO root fetch - processPackages [parallel-corpus-mnbvc]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-19 12:16:47] INFO root fetch - processPackages [neo-fairy-client]: New version: [3.5.0.8] Old Version: [3.5.0.7]
+[2023-07-19 12:16:47] INFO root fetch - processPackages [PyBIS]: New version: [1.9.8] Old Version: [1.9.7]
+[2023-07-19 12:16:47] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-07-19 12:16:47] INFO root fetch - processPackages [hserv]: Downloading https://files.pythonhosted.org/packages/ab/79/152c99bb4da1cc973e5bbcbd4f49de9116e5149aa8c8421e5a06c25b6a0b/hserv-0.0.2.tar.gz
+[2023-07-19 12:16:47] INFO root fetch - processPackages [parallel-corpus-mnbvc]: Downloading https://files.pythonhosted.org/packages/12/63/47b348bd353e473d64b2911f21b925c26dec2de51591bb9531887c2b4c83/parallel_corpus_mnbvc-1.0.7.tar.gz
+[2023-07-19 12:16:47] WARNING root fetch - processPackages [SupyCool]: Skipping, unable to determine old version
+[2023-07-19 12:16:47] INFO root fetch - main [MainThread]: End processing [SupyCool] error
+[2023-07-19 12:16:47] INFO root fetch - processPackages [lite-tools]: New version: [0.4.9.9] Old Version: [0.4.9.8]
+[2023-07-19 12:16:47] INFO root fetch - processPackages [PyBIS]: Downloading https://files.pythonhosted.org/packages/0b/44/fe0231003ffc36a7b01dff7dcb46629cccf554473e121900d1388e6c6260/PyBIS-1.9.7.tar.gz
+[2023-07-19 12:16:47] INFO root fetch - processPackages [h3daemon]: Downloading https://files.pythonhosted.org/packages/df/3b/d69ef59c3761c991a40f1139de738bde9d4932626e0988670ed53dda3b23/h3daemon-0.9.0.tar.gz
+[2023-07-19 12:16:47] INFO root fetch - processPackages [starfall]: Downloading https://files.pythonhosted.org/packages/2a/74/b20f8b7aad5b78d01f30fc1715470fad884514f1280bd834185620872437/starfall-0.0.1.tar.gz
+[2023-07-19 12:16:47] INFO root fetch - processPackages [rekuest]: Downloading https://files.pythonhosted.org/packages/48/f2/3190b6c553e57d0d7cdd24d76862ef45faae7ac9eff40cae2c066106ab77/rekuest-0.1.8.tar.gz
+[2023-07-19 12:16:47] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/b4/60/e92fdb2c772dd865b56f7c50bfc1c4bffe5431b4007700cd760900e7aaf2/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-19 12:16:47] INFO root fetch - processPackages [neo-fairy-client]: Downloading https://files.pythonhosted.org/packages/bb/6c/41cb7cf782c173fba2f46d46f30c4a5aa1045263e7b21cb8eef77d0fd0ce/neo-fairy-client-3.5.0.7.tar.gz
+[2023-07-19 12:16:48] INFO root fetch - processPackages [lite-tools]: Downloading https://files.pythonhosted.org/packages/80/d5/d151970554e6582252b98c3108705d13085a7dc34245e27d8a84aa9dc7fb/lite_tools-0.4.9.8-py3-none-any.whl
+[2023-07-19 12:16:48] INFO root fetch - processPackages [hserv]: Downloading https://files.pythonhosted.org/packages/1d/b8/435d733e9abf3d20b90cd9b7262977768c6fc9ee53ec5033539aa6754ce6/hserv-0.0.3.tar.gz
+[2023-07-19 12:16:48] INFO root fetch - processPackages [parallel-corpus-mnbvc]: Downloading https://files.pythonhosted.org/packages/fb/b6/d80e1a52d0b9b5d576eefd6a873a1f3cdc2f9d22ef9fc4717de21d949501/parallel_corpus_mnbvc-1.0.8.tar.gz
+[2023-07-19 12:16:48] INFO root fetch - processPackages [starfall]: Downloading https://files.pythonhosted.org/packages/f5/65/a7a2b55f2506fbffc19fc04b69c07d814d3619a9af258b1a07a53088267d/starfall-0.0.2.tar.gz
+[2023-07-19 12:16:48] INFO root fetch - processPackages [PyBIS]: Downloading https://files.pythonhosted.org/packages/de/6a/e2fbd779a6f64422fe1720ef3dd721543ce07d5e1ea97c26bc9ff21ac882/PyBIS-1.9.8.tar.gz
+[2023-07-19 12:16:48] INFO root fetch - processPackages [h3daemon]: Downloading https://files.pythonhosted.org/packages/f1/76/cfca9c0a83d992fee13548490212c13e2b5cbfcb2501fbec9519f7b335cf/h3daemon-0.9.3.tar.gz
+[2023-07-19 12:16:48] INFO root fetch - processPackages [hserv]: executing diffoscope
+[2023-07-19 12:16:48] INFO root fetch - processPackages [hserv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hserv-0.0.2.tar.gz tmp/hserv-0.0.3.tar.gz --markdown 20230719/h/hserv/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-19 12:16:48] INFO root fetch - processPackages [starfall]: executing diffoscope
+[2023-07-19 12:16:48] INFO root fetch - processPackages [starfall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starfall-0.0.1.tar.gz tmp/starfall-0.0.2.tar.gz --markdown 20230719/s/starfall/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-19 12:16:48] INFO root fetch - processPackages [parallel-corpus-mnbvc]: executing diffoscope
+[2023-07-19 12:16:48] INFO root fetch - processPackages [parallel-corpus-mnbvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parallel_corpus_mnbvc-1.0.7.tar.gz tmp/parallel_corpus_mnbvc-1.0.8.tar.gz --markdown 20230719/p/parallel-corpus-mnbvc/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-19 12:16:48] INFO root fetch - processPackages [neo-fairy-client]: Downloading https://files.pythonhosted.org/packages/97/14/b41debe9a15f9878282971321363d7ddd12ecb8c4468d5b7f4cf94808f9e/neo-fairy-client-3.5.0.8.tar.gz
+[2023-07-19 12:16:48] INFO root fetch - processPackages [rekuest]: Downloading https://files.pythonhosted.org/packages/c7/6e/bcea729c864b4bbd4c9c26534b40f4ebed9f00eb63aeb606692eb0667517/rekuest-0.1.9.tar.gz
+[2023-07-19 12:16:48] INFO root fetch - processPackages [PyBIS]: executing diffoscope
+[2023-07-19 12:16:48] INFO root fetch - processPackages [PyBIS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyBIS-1.9.7.tar.gz tmp/PyBIS-1.9.8.tar.gz --markdown 20230719/P/PyBIS/1.9.7-1.9.8/diff.md --exclude *.pyd
+[2023-07-19 12:16:48] INFO root fetch - processPackages [lite-tools]: Downloading https://files.pythonhosted.org/packages/40/02/c8d1ce34f7fdcb6015276185ff6ef593475a639f13f131e8d0da62426dbc/lite_tools-0.4.9.9-py3-none-any.whl
+[2023-07-19 12:16:48] INFO root fetch - processPackages [h3daemon]: executing diffoscope
+[2023-07-19 12:16:48] INFO root fetch - processPackages [h3daemon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h3daemon-0.9.0.tar.gz tmp/h3daemon-0.9.3.tar.gz --markdown 20230719/h/h3daemon/0.9.0-0.9.3/diff.md --exclude *.pyd
+[2023-07-19 12:16:48] INFO root fetch - processPackages [neo-fairy-client]: executing diffoscope
+[2023-07-19 12:16:48] INFO root fetch - processPackages [neo-fairy-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neo-fairy-client-3.5.0.7.tar.gz tmp/neo-fairy-client-3.5.0.8.tar.gz --markdown 20230719/n/neo-fairy-client/3.5.0.7-3.5.0.8/diff.md --exclude *.pyd
+[2023-07-19 12:16:48] INFO root fetch - processPackages [rekuest]: executing diffoscope
+[2023-07-19 12:16:48] INFO root fetch - processPackages [rekuest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rekuest-0.1.8.tar.gz tmp/rekuest-0.1.9.tar.gz --markdown 20230719/r/rekuest/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-19 12:16:48] INFO root fetch - processPackages [lite-tools]: executing diffoscope
+[2023-07-19 12:16:48] INFO root fetch - processPackages [lite-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lite_tools-0.4.9.8-py3-none-any.whl.zip tmp/lite_tools-0.4.9.9-py3-none-any.whl.zip --markdown 20230719/l/lite-tools/0.4.9.8-0.4.9.9/diff.md --exclude *.pyd
+[2023-07-19 12:16:49] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/07/ba/e9ef4e61b606a17814023d4b0a99ebf04f48787449f89134eb770db70591/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-19 12:16:49] INFO root fetch - processPackages [hserv]: Remove: archive file [/home/abi/fetcher/tmp/hserv-0.0.2.tar.gz]
+[2023-07-19 12:16:49] INFO root fetch - processPackages [hserv]: Remove: archive file [/home/abi/fetcher/tmp/hserv-0.0.3.tar.gz]
+[2023-07-19 12:16:49] INFO root fetch - main [MainThread]: End processing [hserv]: success
+[2023-07-19 12:16:50] INFO root fetch - processPackages [h3daemon]: Remove: archive file [/home/abi/fetcher/tmp/h3daemon-0.9.0.tar.gz]
+[2023-07-19 12:16:50] INFO root fetch - processPackages [h3daemon]: Remove: archive file [/home/abi/fetcher/tmp/h3daemon-0.9.3.tar.gz]
+[2023-07-19 12:16:50] INFO root fetch - main [MainThread]: End processing [h3daemon]: success
+[2023-07-19 12:16:50] INFO root fetch - processPackages [parallel-corpus-mnbvc]: Remove: archive file [/home/abi/fetcher/tmp/parallel_corpus_mnbvc-1.0.7.tar.gz]
+[2023-07-19 12:16:50] INFO root fetch - processPackages [parallel-corpus-mnbvc]: Remove: archive file [/home/abi/fetcher/tmp/parallel_corpus_mnbvc-1.0.8.tar.gz]
+[2023-07-19 12:16:50] INFO root fetch - main [MainThread]: End processing [parallel-corpus-mnbvc]: success
+[2023-07-19 12:16:50] INFO root fetch - processPackages [neo-fairy-client]: Remove: archive file [/home/abi/fetcher/tmp/neo-fairy-client-3.5.0.7.tar.gz]
+[2023-07-19 12:16:50] INFO root fetch - processPackages [neo-fairy-client]: Remove: archive file [/home/abi/fetcher/tmp/neo-fairy-client-3.5.0.8.tar.gz]
+[2023-07-19 12:16:50] INFO root fetch - main [MainThread]: End processing [neo-fairy-client]: success
+[2023-07-19 12:16:50] INFO root fetch - processPackages [starfall]: Remove: archive file [/home/abi/fetcher/tmp/starfall-0.0.1.tar.gz]
+[2023-07-19 12:16:50] INFO root fetch - processPackages [starfall]: Remove: archive file [/home/abi/fetcher/tmp/starfall-0.0.2.tar.gz]
+[2023-07-19 12:16:50] INFO root fetch - main [MainThread]: End processing [starfall]: success
+[2023-07-19 12:16:50] INFO root fetch - processPackages [PyBIS]: Remove: archive file [/home/abi/fetcher/tmp/PyBIS-1.9.7.tar.gz]
+[2023-07-19 12:16:50] INFO root fetch - processPackages [PyBIS]: Remove: archive file [/home/abi/fetcher/tmp/PyBIS-1.9.8.tar.gz]
+[2023-07-19 12:16:50] INFO root fetch - main [MainThread]: End processing [PyBIS]: success
+[2023-07-19 12:16:50] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-07-19 12:16:50] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230719/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-07-19 12:16:50] INFO root fetch - processPackages [rekuest]: Remove: archive file [/home/abi/fetcher/tmp/rekuest-0.1.8.tar.gz]
+[2023-07-19 12:16:50] INFO root fetch - processPackages [rekuest]: Remove: archive file [/home/abi/fetcher/tmp/rekuest-0.1.9.tar.gz]
+[2023-07-19 12:16:50] INFO root fetch - main [MainThread]: End processing [rekuest]: success
+[2023-07-19 12:16:50] INFO root fetch - processPackages [lite-tools]: Remove: archive file [/home/abi/fetcher/tmp/lite_tools-0.4.9.8-py3-none-any.whl.zip]
+[2023-07-19 12:16:50] INFO root fetch - processPackages [lite-tools]: Remove: archive file [/home/abi/fetcher/tmp/lite_tools-0.4.9.9-py3-none-any.whl.zip]
+[2023-07-19 12:16:50] INFO root fetch - main [MainThread]: End processing [lite-tools]: success
+[2023-07-19 12:17:23] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-19 12:17:23] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-19 12:17:23] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-07-19 12:17:23] INFO root fetch - main [MainThread]: Store serial: [18948446]
