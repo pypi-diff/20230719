@@ -14414,3 +14414,90 @@
 [2023-07-19 07:43:39] INFO root fetch - processPackages [odoo8-addon-picking-dispatch]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_picking_dispatch-8.0.1.2.3.99.dev54-py2-none-any.whl.zip]
 [2023-07-19 07:43:39] INFO root fetch - main [MainThread]: End processing [odoo8-addon-picking-dispatch]: success
 [2023-07-19 07:43:39] INFO root fetch - main [MainThread]: Store serial: [18945821]
+[2023-07-19 07:48:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18945821]
+[2023-07-19 07:48:47] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-19 07:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iorclient
+[2023-07-19 07:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-stock-picking-back2draft
+[2023-07-19 07:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cmake-pre-commit-hooks
+[2023-07-19 07:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyautd3
+[2023-07-19 07:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: first-breaks-picking
+[2023-07-19 07:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-stock-picking-operation-quick-change
+[2023-07-19 07:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lino-react
+[2023-07-19 07:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: understar
+[2023-07-19 07:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: raga-testing-platform
+[2023-07-19 07:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: understar
+[2023-07-19 07:48:47] INFO root fetch - processPackages [understar]: New version: [2.33] Old Version: [2.32]
+[2023-07-19 07:48:47] INFO root fetch - processPackages [understar]: New version: [2.33] Old Version: [2.32]
+[2023-07-19 07:48:47] INFO root fetch - processPackages [iorclient]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-19 07:48:47] INFO root fetch - processPackages [pyautd3]: New version: [9.0.1] Old Version: [9.0.0]
+[2023-07-19 07:48:47] INFO root fetch - processPackages [odoo-addon-stock-picking-operation-quick-change]: New version: [15.0.1.1.1] Old Version: [15.0.1.1.0.3]
+[2023-07-19 07:48:47] INFO root fetch - processPackages [lino-react]: New version: [23.7.3] Old Version: [23.7.2]
+[2023-07-19 07:48:47] INFO root fetch - processPackages [odoo14-addon-stock-picking-back2draft]: New version: [14.0.1.0.1.dev6] Old Version: [14.0.1.0.1.dev5]
+[2023-07-19 07:48:47] INFO root fetch - processPackages [cmake-pre-commit-hooks]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-19 07:48:47] INFO root fetch - processPackages [raga-testing-platform]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 07:48:47] INFO root fetch - processPackages [understar]: Downloading https://files.pythonhosted.org/packages/f2/e4/f69eeb5a7c376ae72eba072ac3600bcda849f4001115d8115e1559e244f6/understar-2.32.tar.gz
+[2023-07-19 07:48:47] INFO root fetch - processPackages [first-breaks-picking]: New version: [0.3.0b0] Old Version: [0.2.0]
+[2023-07-19 07:48:47] INFO root fetch - processPackages [lino-react]: Downloading https://files.pythonhosted.org/packages/54/1f/d734d8434785318f2ccef85e7fe34ddbc4450cbbf73893a1794ece16cdef/lino_react-23.7.2.tar.gz
+[2023-07-19 07:48:48] INFO root fetch - processPackages [understar]: Downloading https://files.pythonhosted.org/packages/f2/e4/f69eeb5a7c376ae72eba072ac3600bcda849f4001115d8115e1559e244f6/understar-2.32.tar.gz
+[2023-07-19 07:48:48] INFO root fetch - processPackages [odoo-addon-stock-picking-operation-quick-change]: Downloading https://files.pythonhosted.org/packages/9c/ac/f9ad0f508c6f4c154b4fb9804b44fba08d9ba28bf631d8b503fec1d4e54a/odoo_addon_stock_picking_operation_quick_change-15.0.1.1.0.3-py3-none-any.whl
+[2023-07-19 07:48:48] INFO root fetch - processPackages [pyautd3]: Downloading https://files.pythonhosted.org/packages/e8/71/a7e782b3fd39d71bc7d9f5c5bc4c935f52b63b87e0680f3ec000d5ae1545/pyautd3-9.0.0.tar.gz
+[2023-07-19 07:48:48] INFO root fetch - processPackages [iorclient]: Downloading https://files.pythonhosted.org/packages/24/ed/619c1a468a385bbe6e45d8bcbc89e771d877fd4b285ee03dccfb4850b29d/iorclient-0.0.1.tar.gz
+[2023-07-19 07:48:48] WARNING root fetch - processPackages [pyautd3]: Skipping package: exceeds size limit 25360257>=10485760
+[2023-07-19 07:48:48] INFO root fetch - main [MainThread]: End processing [pyautd3] error
+[2023-07-19 07:48:48] INFO root fetch - processPackages [odoo14-addon-stock-picking-back2draft]: Downloading https://files.pythonhosted.org/packages/af/5a/6f43eca7224ee348d525b770ac87186490918aa39f250c54d7abfb3e2663/odoo14_addon_stock_picking_back2draft-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-07-19 07:48:48] INFO root fetch - processPackages [cmake-pre-commit-hooks]: Downloading https://files.pythonhosted.org/packages/af/97/fca8c51e61208f059f3cfffca9f11502ce4e1789c89b5c0241717bcc57f0/cmake_pre_commit_hooks-1.9.1.tar.gz
+[2023-07-19 07:48:48] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/cb/2b/5872c9c0e75b4ef4393e95963e7fa22ccf8c70b12d66a64c83dfec600b32/raga-testing-platform-1.0.8.tar.gz
+[2023-07-19 07:48:48] INFO root fetch - processPackages [first-breaks-picking]: Downloading https://files.pythonhosted.org/packages/ad/54/7af15f01d94e746953330754327dde846f55b2bb847895f8c0571de6f18c/first-breaks-picking-0.2.0.tar.gz
+[2023-07-19 07:48:48] INFO root fetch - processPackages [odoo-addon-stock-picking-operation-quick-change]: Downloading https://files.pythonhosted.org/packages/7d/77/f8b0c0bf917ba96f5838b32e36080e9aab801c27d366de46356f88b661eb/odoo_addon_stock_picking_operation_quick_change-15.0.1.1.1-py3-none-any.whl
+[2023-07-19 07:48:48] INFO root fetch - processPackages [understar]: Downloading https://files.pythonhosted.org/packages/e3/13/7daf08df59aa2a7d9c888c6d6bfbeeb5fda25d33c22937432f5dc12e9d9b/understar-2.33.tar.gz
+[2023-07-19 07:48:48] INFO root fetch - processPackages [understar]: Downloading https://files.pythonhosted.org/packages/e3/13/7daf08df59aa2a7d9c888c6d6bfbeeb5fda25d33c22937432f5dc12e9d9b/understar-2.33.tar.gz
+[2023-07-19 07:48:48] INFO root fetch - processPackages [odoo-addon-stock-picking-operation-quick-change]: executing diffoscope
+[2023-07-19 07:48:48] INFO root fetch - processPackages [odoo-addon-stock-picking-operation-quick-change]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_picking_operation_quick_change-15.0.1.1.0.3-py3-none-any.whl.zip tmp/odoo_addon_stock_picking_operation_quick_change-15.0.1.1.1-py3-none-any.whl.zip --markdown 20230719/o/odoo-addon-stock-picking-operation-quick-change/15.0.1.1.0.3-15.0.1.1.1/diff.md --exclude *.pyd
+[2023-07-19 07:48:48] INFO root fetch - processPackages [lino-react]: Downloading https://files.pythonhosted.org/packages/60/3d/062f4a7f7909a96ff61c93e2f79a0488aaba9b1157b2ce5d017fae20c564/lino_react-23.7.3.tar.gz
+[2023-07-19 07:48:48] INFO root fetch - processPackages [iorclient]: Downloading https://files.pythonhosted.org/packages/d6/91/ae57b5c35c594a744b210b594da629aa20929003e85088860b21a3fcbf82/iorclient-0.0.2.tar.gz
+[2023-07-19 07:48:48] INFO root fetch - processPackages [understar]: executing diffoscope
+[2023-07-19 07:48:48] INFO root fetch - processPackages [understar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/understar-2.32.tar.gz tmp/understar-2.33.tar.gz --markdown 20230719/u/understar/2.32-2.33/diff.md --exclude *.pyd
+[2023-07-19 07:48:48] INFO root fetch - processPackages [understar]: executing diffoscope
+[2023-07-19 07:48:48] INFO root fetch - processPackages [understar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/understar-2.32.tar.gz tmp/understar-2.33.tar.gz --markdown 20230719/u/understar/2.32-2.33/diff.md --exclude *.pyd
+[2023-07-19 07:48:48] INFO root fetch - processPackages [odoo14-addon-stock-picking-back2draft]: Downloading https://files.pythonhosted.org/packages/30/09/de894eb8bda15d3f98c5a2ad16462c0432a9a12eb29a7d035ab64f78cf2a/odoo14_addon_stock_picking_back2draft-14.0.1.0.1.dev6-py3-none-any.whl
+[2023-07-19 07:48:48] INFO root fetch - processPackages [cmake-pre-commit-hooks]: Downloading https://files.pythonhosted.org/packages/24/55/d74d3a542f743752d0291db5951ccd5e1fa13abaae408f6d0284cc81e305/cmake_pre_commit_hooks-1.9.2.tar.gz
+[2023-07-19 07:48:48] INFO root fetch - processPackages [first-breaks-picking]: Downloading https://files.pythonhosted.org/packages/e4/b7/3f0d40f4ffad013c6f4d772149916fd8534926742007bbd49227189f5e91/first-breaks-picking-0.3.0b0.tar.gz
+[2023-07-19 07:48:48] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/23/a1/3de642a69a0d1253446d4f7bd1dd9d074e3fe635e84f3d430d001424a072/raga-testing-platform-1.0.9.tar.gz
+[2023-07-19 07:48:48] INFO root fetch - processPackages [lino-react]: executing diffoscope
+[2023-07-19 07:48:48] INFO root fetch - processPackages [lino-react]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lino_react-23.7.2.tar.gz tmp/lino_react-23.7.3.tar.gz --markdown 20230719/l/lino-react/23.7.2-23.7.3/diff.md --exclude *.pyd
+[2023-07-19 07:48:48] INFO root fetch - processPackages [iorclient]: executing diffoscope
+[2023-07-19 07:48:48] INFO root fetch - processPackages [iorclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iorclient-0.0.1.tar.gz tmp/iorclient-0.0.2.tar.gz --markdown 20230719/i/iorclient/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-19 07:48:48] INFO root fetch - processPackages [odoo14-addon-stock-picking-back2draft]: executing diffoscope
+[2023-07-19 07:48:48] INFO root fetch - processPackages [odoo14-addon-stock-picking-back2draft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_picking_back2draft-14.0.1.0.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_stock_picking_back2draft-14.0.1.0.1.dev6-py3-none-any.whl.zip --markdown 20230719/o/odoo14-addon-stock-picking-back2draft/14.0.1.0.1.dev5-14.0.1.0.1.dev6/diff.md --exclude *.pyd
+[2023-07-19 07:48:48] INFO root fetch - processPackages [first-breaks-picking]: executing diffoscope
+[2023-07-19 07:48:48] INFO root fetch - processPackages [first-breaks-picking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/first-breaks-picking-0.2.0.tar.gz tmp/first-breaks-picking-0.3.0b0.tar.gz --markdown 20230719/f/first-breaks-picking/0.2.0-0.3.0b0/diff.md --exclude *.pyd
+[2023-07-19 07:48:48] INFO root fetch - processPackages [cmake-pre-commit-hooks]: executing diffoscope
+[2023-07-19 07:48:48] INFO root fetch - processPackages [cmake-pre-commit-hooks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmake_pre_commit_hooks-1.9.1.tar.gz tmp/cmake_pre_commit_hooks-1.9.2.tar.gz --markdown 20230719/c/cmake-pre-commit-hooks/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-19 07:48:49] INFO root fetch - processPackages [raga-testing-platform]: executing diffoscope
+[2023-07-19 07:48:49] INFO root fetch - processPackages [raga-testing-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-testing-platform-1.0.8.tar.gz tmp/raga-testing-platform-1.0.9.tar.gz --markdown 20230719/r/raga-testing-platform/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 07:48:51] INFO root fetch - processPackages [understar]: Remove: archive file [/home/abi/fetcher/tmp/understar-2.32.tar.gz]
+[2023-07-19 07:48:51] INFO root fetch - processPackages [understar]: Remove: archive file [/home/abi/fetcher/tmp/understar-2.33.tar.gz]
+[2023-07-19 07:48:51] INFO root fetch - main [MainThread]: End processing [understar]: success
+[2023-07-19 07:48:51] INFO root fetch - processPackages [odoo-addon-stock-picking-operation-quick-change]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_operation_quick_change-15.0.1.1.0.3-py3-none-any.whl.zip]
+[2023-07-19 07:48:51] INFO root fetch - processPackages [odoo-addon-stock-picking-operation-quick-change]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_operation_quick_change-15.0.1.1.1-py3-none-any.whl.zip]
+[2023-07-19 07:48:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-operation-quick-change]: success
+[2023-07-19 07:48:51] INFO root fetch - main [MainThread]: End processing [understar]: success
+[2023-07-19 07:48:51] INFO root fetch - processPackages [odoo14-addon-stock-picking-back2draft]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_picking_back2draft-14.0.1.0.1.dev5-py3-none-any.whl.zip]
+[2023-07-19 07:48:51] INFO root fetch - processPackages [odoo14-addon-stock-picking-back2draft]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_picking_back2draft-14.0.1.0.1.dev6-py3-none-any.whl.zip]
+[2023-07-19 07:48:51] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-picking-back2draft]: success
+[2023-07-19 07:48:51] INFO root fetch - processPackages [iorclient]: Remove: archive file [/home/abi/fetcher/tmp/iorclient-0.0.1.tar.gz]
+[2023-07-19 07:48:51] INFO root fetch - processPackages [iorclient]: Remove: archive file [/home/abi/fetcher/tmp/iorclient-0.0.2.tar.gz]
+[2023-07-19 07:48:51] INFO root fetch - main [MainThread]: End processing [iorclient]: success
+[2023-07-19 07:48:51] INFO root fetch - processPackages [first-breaks-picking]: Remove: archive file [/home/abi/fetcher/tmp/first-breaks-picking-0.2.0.tar.gz]
+[2023-07-19 07:48:51] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.8.tar.gz]
+[2023-07-19 07:48:51] INFO root fetch - processPackages [first-breaks-picking]: Remove: archive file [/home/abi/fetcher/tmp/first-breaks-picking-0.3.0b0.tar.gz]
+[2023-07-19 07:48:51] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.9.tar.gz]
+[2023-07-19 07:48:51] INFO root fetch - main [MainThread]: End processing [first-breaks-picking]: success
+[2023-07-19 07:48:51] INFO root fetch - main [MainThread]: End processing [raga-testing-platform]: success
+[2023-07-19 07:48:52] INFO root fetch - processPackages [cmake-pre-commit-hooks]: Remove: archive file [/home/abi/fetcher/tmp/cmake_pre_commit_hooks-1.9.1.tar.gz]
+[2023-07-19 07:48:52] INFO root fetch - processPackages [cmake-pre-commit-hooks]: Remove: archive file [/home/abi/fetcher/tmp/cmake_pre_commit_hooks-1.9.2.tar.gz]
+[2023-07-19 07:48:52] INFO root fetch - main [MainThread]: End processing [cmake-pre-commit-hooks]: success
+[2023-07-19 07:49:02] INFO root fetch - processPackages [lino-react]: Remove: archive file [/home/abi/fetcher/tmp/lino_react-23.7.2.tar.gz]
+[2023-07-19 07:49:02] INFO root fetch - processPackages [lino-react]: Remove: archive file [/home/abi/fetcher/tmp/lino_react-23.7.3.tar.gz]
+[2023-07-19 07:49:02] INFO root fetch - main [MainThread]: End processing [lino-react]: success
+[2023-07-19 07:49:02] INFO root fetch - main [MainThread]: Store serial: [18945853]
