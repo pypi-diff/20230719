@@ -22570,3 +22570,179 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-19 13:26:30] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip]
 [2023-07-19 13:26:30] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
 [2023-07-19 13:26:30] INFO root fetch - main [MainThread]: Store serial: [18949284]
+[2023-07-19 13:31:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18949284]
+[2023-07-19 13:31:39] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-19 13:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: auth-satvadev
+[2023-07-19 13:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: namekoplus
+[2023-07-19 13:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jinja2-shell-extension
+[2023-07-19 13:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: docarray
+[2023-07-19 13:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zonesmart-utils
+[2023-07-19 13:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: infoblox-discovery
+[2023-07-19 13:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: systembridgeshared
+[2023-07-19 13:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fitsviz
+[2023-07-19 13:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: langchain-plantuml
+[2023-07-19 13:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: asteroid
+[2023-07-19 13:31:39] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-07-19 13:31:39] INFO root fetch - processPackages [fitsviz]: New version: [1.0.0] Old Version: [0.0.8]
+[2023-07-19 13:31:39] INFO root fetch - processPackages [infoblox-discovery]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-19 13:31:39] INFO root fetch - processPackages [systembridgeshared]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-19 13:31:39] WARNING root fetch - processPackages [auth-satvadev]: Skipping, unable to determine old version
+[2023-07-19 13:31:39] INFO root fetch - processPackages [auth-satvadev]: Start processing: torchrec-nightly
+[2023-07-19 13:31:39] INFO root fetch - main [MainThread]: End processing [auth-satvadev] error
+[2023-07-19 13:31:39] INFO root fetch - processPackages [asteroid]: New version: [0.6.1rc0] Old Version: [0.6.0rc0]
+[2023-07-19 13:31:39] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/da/d0/4e039d9e7c4e19f30fbd831f0bd4670ae9aa6b5c8b29e21ed55f7886c9fe/docarray-0.9.9.dev4.tar.gz
+[2023-07-19 13:31:39] WARNING root fetch - processPackages [namekoplus]: Skipping, unable to determine old version
+[2023-07-19 13:31:39] INFO root fetch - processPackages [namekoplus]: Start processing: systembridgefrontend
+[2023-07-19 13:31:39] INFO root fetch - main [MainThread]: End processing [namekoplus] error
+[2023-07-19 13:31:39] INFO root fetch - processPackages [jinja2-shell-extension]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-19 13:31:39] INFO root fetch - processPackages [infoblox-discovery]: Downloading https://files.pythonhosted.org/packages/4e/27/9e78361f64d2ce08bf1f00d42737d7e5b37c2addd2323d31075981f6df3a/infoblox-discovery-0.1.1.tar.gz
+[2023-07-19 13:31:39] INFO root fetch - processPackages [langchain-plantuml]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-19 13:31:39] INFO root fetch - processPackages [zonesmart-utils]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-19 13:31:39] INFO root fetch - processPackages [fitsviz]: Downloading https://files.pythonhosted.org/packages/3a/82/3e1e498e18f2cb962b19d9ac6cf645faea5ccf07076aa2c8177342ef3725/fitsviz-0.0.8.tar.gz
+[2023-07-19 13:31:39] INFO root fetch - processPackages [systembridgefrontend]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-19 13:31:39] INFO root fetch - processPackages [torchrec-nightly]: New version: [2023.7.18] Old Version: [2023.7.17]
+[2023-07-19 13:31:39] INFO root fetch - processPackages [systembridgeshared]: Downloading https://files.pythonhosted.org/packages/c4/4c/519d5a7d7188e6cd9cbf6981f899ab0cf7059dacc39b0260be4dc941e78e/systembridgeshared-3.8.0.dev8.tar.gz
+[2023-07-19 13:31:40] INFO root fetch - processPackages [jinja2-shell-extension]: Downloading https://files.pythonhosted.org/packages/e8/bf/bea8f63f24f3bd8ac1ce31e79fad5e828c0bcfd6434445b7896ded935a30/jinja2_shell_extension-2.0.0.tar.gz
+[2023-07-19 13:31:40] INFO root fetch - processPackages [asteroid]: Downloading https://files.pythonhosted.org/packages/0d/15/0826bd143c59cc070dd259d8cf02aed82728b9d27c9c7f5c1329c57780f3/asteroid-0.6.0rc0.tar.gz
+[2023-07-19 13:31:40] INFO root fetch - processPackages [systembridgefrontend]: Downloading https://files.pythonhosted.org/packages/57/b3/050e9a7ff3adb63d1efc61115381d83b27eb28e65b4804113ac3308d3a0c/systembridgefrontend-3.8.0.dev8.tar.gz
+[2023-07-19 13:31:40] INFO root fetch - processPackages [torchrec-nightly]: Downloading https://files.pythonhosted.org/packages/9c/78/373ccac2e18671da3e405aee6ef91dfd8ed40679eff707833ad9bd106c12/torchrec_nightly-2023.7.17-py39-none-any.whl
+[2023-07-19 13:31:40] INFO root fetch - processPackages [langchain-plantuml]: Downloading https://files.pythonhosted.org/packages/0b/86/042e0915b8b6aff6f9e449fb39e4da0886b6ae30137b135e4effaf8724c6/langchain_plantuml-0.0.3.tar.gz
+[2023-07-19 13:31:40] INFO root fetch - processPackages [zonesmart-utils]: Downloading https://files.pythonhosted.org/packages/3c/f9/0404b3afd95ca9c794215da83ef0fe5b6586dd44f26600e5194e7ab32b3b/zonesmart-utils-0.3.4.tar.gz
+[2023-07-19 13:31:40] INFO root fetch - processPackages [infoblox-discovery]: Downloading https://files.pythonhosted.org/packages/b5/e8/afde50f1f83e297af065ad4dc82f6cc4bb19f5aea5dbe1ad8e0fe9a14361/infoblox-discovery-0.1.2.tar.gz
+[2023-07-19 13:31:40] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/2b/4f/53a641fcaefc8774128d5f48cb2a7b2e692c8adfce1e2afaf8d9260d8b2a/docarray-0.9.9.dev5.tar.gz
+[2023-07-19 13:31:40] INFO root fetch - processPackages [fitsviz]: Downloading https://files.pythonhosted.org/packages/14/98/ee02da735bdbd0978bde4fe02771819dde2d5aeadeb54ef6fbf1020d66a3/fitsviz-1.0.0.tar.gz
+[2023-07-19 13:31:40] INFO root fetch - processPackages [systembridgeshared]: Downloading https://files.pythonhosted.org/packages/34/db/8603b6ca893ab5a882e5d84c4459612589f1060c0b9b33af43467d87ef69/systembridgeshared-3.8.0.dev9.tar.gz
+[2023-07-19 13:31:40] INFO root fetch - processPackages [infoblox-discovery]: executing diffoscope
+[2023-07-19 13:31:40] INFO root fetch - processPackages [infoblox-discovery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infoblox-discovery-0.1.1.tar.gz tmp/infoblox-discovery-0.1.2.tar.gz --markdown 20230719/i/infoblox-discovery/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-19 13:31:40] INFO root fetch - processPackages [systembridgefrontend]: Downloading https://files.pythonhosted.org/packages/a7/bd/51ec0da5bcd5903b111736968abaaa3d5a5d6f77e9ccb9ece74f6bb92670/systembridgefrontend-3.8.0.dev9.tar.gz
+[2023-07-19 13:31:40] INFO root fetch - processPackages [fitsviz]: executing diffoscope
+[2023-07-19 13:31:40] INFO root fetch - processPackages [fitsviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fitsviz-0.0.8.tar.gz tmp/fitsviz-1.0.0.tar.gz --markdown 20230719/f/fitsviz/0.0.8-1.0.0/diff.md --exclude *.pyd
+[2023-07-19 13:31:40] INFO root fetch - processPackages [systembridgeshared]: executing diffoscope
+[2023-07-19 13:31:40] INFO root fetch - processPackages [systembridgeshared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgeshared-3.8.0.dev8.tar.gz tmp/systembridgeshared-3.8.0.dev9.tar.gz --markdown 20230719/s/systembridgeshared/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-19 13:31:40] INFO root fetch - processPackages [torchrec-nightly]: Downloading https://files.pythonhosted.org/packages/6e/6f/f638a3317d70d8ae4947bf38090ec4041edda82698554844fd2f5fb54533/torchrec_nightly-2023.7.18-py39-none-any.whl
+[2023-07-19 13:31:40] INFO root fetch - processPackages [asteroid]: Downloading https://files.pythonhosted.org/packages/03/7a/d3ede66eed761a99001e3ecb0bcc2b6ae0f44c67cd1efd8c9d3f5bab9384/asteroid-0.6.1rc0.tar.gz
+[2023-07-19 13:31:40] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-07-19 13:31:40] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230719/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-07-19 13:31:40] INFO root fetch - processPackages [jinja2-shell-extension]: Downloading https://files.pythonhosted.org/packages/8a/91/e5994701b927f9b55aa3d0ba11e7c9e15ff683c0796a63e1aa2b9342fbde/jinja2_shell_extension-2.0.1.tar.gz
+[2023-07-19 13:31:40] INFO root fetch - processPackages [langchain-plantuml]: Downloading https://files.pythonhosted.org/packages/a5/e6/b8c001c5f4f48b3649b231499c023dc8ce8bcefad4861879d17ef1daba2b/langchain_plantuml-0.0.4.tar.gz
+[2023-07-19 13:31:40] INFO root fetch - processPackages [systembridgefrontend]: executing diffoscope
+[2023-07-19 13:31:40] INFO root fetch - processPackages [systembridgefrontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgefrontend-3.8.0.dev8.tar.gz tmp/systembridgefrontend-3.8.0.dev9.tar.gz --markdown 20230719/s/systembridgefrontend/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-19 13:31:40] INFO root fetch - processPackages [zonesmart-utils]: Downloading https://files.pythonhosted.org/packages/b6/23/11d16e800fd7bfbc433916d1bd6b50185fb7f9f9aad0702216f6d5c57e4a/zonesmart-utils-0.3.5.tar.gz
+[2023-07-19 13:31:40] INFO root fetch - processPackages [jinja2-shell-extension]: executing diffoscope
+[2023-07-19 13:31:40] INFO root fetch - processPackages [jinja2-shell-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jinja2_shell_extension-2.0.0.tar.gz tmp/jinja2_shell_extension-2.0.1.tar.gz --markdown 20230719/j/jinja2-shell-extension/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-19 13:31:40] INFO root fetch - processPackages [asteroid]: executing diffoscope
+[2023-07-19 13:31:40] INFO root fetch - processPackages [asteroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asteroid-0.6.0rc0.tar.gz tmp/asteroid-0.6.1rc0.tar.gz --markdown 20230719/a/asteroid/0.6.0rc0-0.6.1rc0/diff.md --exclude *.pyd
+[2023-07-19 13:31:40] INFO root fetch - processPackages [langchain-plantuml]: executing diffoscope
+[2023-07-19 13:31:40] INFO root fetch - processPackages [langchain-plantuml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_plantuml-0.0.3.tar.gz tmp/langchain_plantuml-0.0.4.tar.gz --markdown 20230719/l/langchain-plantuml/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-19 13:31:40] INFO root fetch - processPackages [torchrec-nightly]: executing diffoscope
+[2023-07-19 13:31:40] INFO root fetch - processPackages [torchrec-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrec_nightly-2023.7.17-py39-none-any.whl.zip tmp/torchrec_nightly-2023.7.18-py39-none-any.whl.zip --markdown 20230719/t/torchrec-nightly/2023.7.17-2023.7.18/diff.md --exclude *.pyd
+[2023-07-19 13:31:41] INFO root fetch - processPackages [zonesmart-utils]: executing diffoscope
+[2023-07-19 13:31:41] INFO root fetch - processPackages [zonesmart-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zonesmart-utils-0.3.4.tar.gz tmp/zonesmart-utils-0.3.5.tar.gz --markdown 20230719/z/zonesmart-utils/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-19 13:31:42] INFO root fetch - processPackages [fitsviz]: Remove: archive file [/home/abi/fetcher/tmp/fitsviz-0.0.8.tar.gz]
+[2023-07-19 13:31:42] INFO root fetch - processPackages [fitsviz]: Remove: archive file [/home/abi/fetcher/tmp/fitsviz-1.0.0.tar.gz]
+[2023-07-19 13:31:42] INFO root fetch - processPackages [fitsviz]: Start processing: systembridgecli
+[2023-07-19 13:31:42] INFO root fetch - main [MainThread]: End processing [fitsviz]: success
+[2023-07-19 13:31:43] INFO root fetch - processPackages [systembridgecli]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-19 13:31:43] INFO root fetch - processPackages [systembridgeshared]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeshared-3.8.0.dev8.tar.gz]
+[2023-07-19 13:31:43] INFO root fetch - processPackages [systembridgeshared]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeshared-3.8.0.dev9.tar.gz]
+[2023-07-19 13:31:43] INFO root fetch - processPackages [systembridgeshared]: Start processing: FinQuant
+[2023-07-19 13:31:43] INFO root fetch - main [MainThread]: End processing [systembridgeshared]: success
+[2023-07-19 13:31:43] INFO root fetch - processPackages [systembridgecli]: Downloading https://files.pythonhosted.org/packages/ae/15/b0e4e3ea36a157948c44984c425eb8315e804af4006d932089217c2dfb3c/systembridgecli-3.8.0.dev8.tar.gz
+[2023-07-19 13:31:43] INFO root fetch - processPackages [infoblox-discovery]: Remove: archive file [/home/abi/fetcher/tmp/infoblox-discovery-0.1.1.tar.gz]
+[2023-07-19 13:31:43] INFO root fetch - processPackages [infoblox-discovery]: Remove: archive file [/home/abi/fetcher/tmp/infoblox-discovery-0.1.2.tar.gz]
+[2023-07-19 13:31:43] INFO root fetch - processPackages [infoblox-discovery]: Start processing: systembridgewindowssensors
+[2023-07-19 13:31:43] INFO root fetch - main [MainThread]: End processing [infoblox-discovery]: success
+[2023-07-19 13:31:43] INFO root fetch - processPackages [jinja2-shell-extension]: Remove: archive file [/home/abi/fetcher/tmp/jinja2_shell_extension-2.0.0.tar.gz]
+[2023-07-19 13:31:43] INFO root fetch - processPackages [jinja2-shell-extension]: Remove: archive file [/home/abi/fetcher/tmp/jinja2_shell_extension-2.0.1.tar.gz]
+[2023-07-19 13:31:43] INFO root fetch - processPackages [jinja2-shell-extension]: Start processing: systembridgegui
+[2023-07-19 13:31:43] INFO root fetch - main [MainThread]: End processing [jinja2-shell-extension]: success
+[2023-07-19 13:31:43] INFO root fetch - processPackages [FinQuant]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-19 13:31:43] INFO root fetch - processPackages [systembridgewindowssensors]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-19 13:31:43] INFO root fetch - processPackages [systembridgegui]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-19 13:31:43] INFO root fetch - processPackages [systembridgecli]: Downloading https://files.pythonhosted.org/packages/89/ae/89eef727af1dd3d408211f030a2e83b52d14162a07d9406e0234668c5ca8/systembridgecli-3.8.0.dev9.tar.gz
+[2023-07-19 13:31:43] INFO root fetch - processPackages [systembridgewindowssensors]: Downloading https://files.pythonhosted.org/packages/81/2c/02c0da61a4727fb73476c2fa38e036da03aeff26456262a663d075806564/systembridgewindowssensors-3.8.0.dev8.tar.gz
+[2023-07-19 13:31:43] INFO root fetch - processPackages [langchain-plantuml]: Remove: archive file [/home/abi/fetcher/tmp/langchain_plantuml-0.0.3.tar.gz]
+[2023-07-19 13:31:43] INFO root fetch - processPackages [langchain-plantuml]: Remove: archive file [/home/abi/fetcher/tmp/langchain_plantuml-0.0.4.tar.gz]
+[2023-07-19 13:31:43] INFO root fetch - processPackages [langchain-plantuml]: Start processing: pulumi-gcp
+[2023-07-19 13:31:43] INFO root fetch - main [MainThread]: End processing [langchain-plantuml]: success
+[2023-07-19 13:31:43] INFO root fetch - processPackages [FinQuant]: Downloading https://files.pythonhosted.org/packages/04/76/24969f256505491cf9190f20d2bb018d6005aa1d9f834a5830d46ea0c3f6/FinQuant-0.3.1.tar.gz
+[2023-07-19 13:31:43] INFO root fetch - processPackages [systembridgecli]: executing diffoscope
+[2023-07-19 13:31:43] INFO root fetch - processPackages [systembridgecli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgecli-3.8.0.dev8.tar.gz tmp/systembridgecli-3.8.0.dev9.tar.gz --markdown 20230719/s/systembridgecli/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-19 13:31:43] INFO root fetch - processPackages [systembridgegui]: Downloading https://files.pythonhosted.org/packages/98/49/bef46531661ec04b544df7f3ffbab389abc531ee388df6dfc36a86c0d4eb/systembridgegui-3.8.0.dev8.tar.gz
+[2023-07-19 13:31:43] INFO root fetch - processPackages [pulumi-gcp]: New version: [6.9.0a1643146354] Old Version: [6.9.0]
+[2023-07-19 13:31:43] INFO root fetch - processPackages [systembridgewindowssensors]: Downloading https://files.pythonhosted.org/packages/f8/3d/48f6ce73d6a6180d0f6f923ce1229918e40d9911473401454d592f621804/systembridgewindowssensors-3.8.0.dev9.tar.gz
+[2023-07-19 13:31:43] INFO root fetch - processPackages [systembridgegui]: Downloading https://files.pythonhosted.org/packages/36/f3/19c7098062820644426fb1b76f2b93a355ff1eb1c6741e392087ab4ee35f/systembridgegui-3.8.0.dev9.tar.gz
+[2023-07-19 13:31:44] INFO root fetch - processPackages [systembridgefrontend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgefrontend-3.8.0.dev8.tar.gz]
+[2023-07-19 13:31:44] INFO root fetch - processPackages [systembridgefrontend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgefrontend-3.8.0.dev9.tar.gz]
+[2023-07-19 13:31:44] INFO root fetch - processPackages [systembridgefrontend]: Start processing: docarray
+[2023-07-19 13:31:44] INFO root fetch - processPackages [systembridgewindowssensors]: executing diffoscope
+[2023-07-19 13:31:44] INFO root fetch - main [MainThread]: End processing [systembridgefrontend]: success
+[2023-07-19 13:31:44] INFO root fetch - processPackages [systembridgewindowssensors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgewindowssensors-3.8.0.dev8.tar.gz tmp/systembridgewindowssensors-3.8.0.dev9.tar.gz --markdown 20230719/s/systembridgewindowssensors/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-19 13:31:44] INFO root fetch - processPackages [systembridgegui]: executing diffoscope
+[2023-07-19 13:31:44] INFO root fetch - processPackages [systembridgegui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgegui-3.8.0.dev8.tar.gz tmp/systembridgegui-3.8.0.dev9.tar.gz --markdown 20230719/s/systembridgegui/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-19 13:31:44] INFO root fetch - processPackages [FinQuant]: Downloading https://files.pythonhosted.org/packages/37/c3/dad2247548bf5029bdfdb3e6edc645ea7e882a32d913d7cf1c76064c0b99/FinQuant-0.3.2.tar.gz
+[2023-07-19 13:31:44] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-07-19 13:31:44] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev4.tar.gz]
+[2023-07-19 13:31:44] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev5.tar.gz]
+[2023-07-19 13:31:44] INFO root fetch - processPackages [docarray]: Start processing: browniebroke-utils
+[2023-07-19 13:31:44] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-07-19 13:31:44] INFO root fetch - processPackages [pulumi-gcp]: Downloading https://files.pythonhosted.org/packages/03/9b/bb0c0f52cb17eac01abbac01348d951f12bac85014ab1d671932c5579a5b/pulumi_gcp-6.9.0.tar.gz
+[2023-07-19 13:31:44] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/da/d0/4e039d9e7c4e19f30fbd831f0bd4670ae9aa6b5c8b29e21ed55f7886c9fe/docarray-0.9.9.dev4.tar.gz
+[2023-07-19 13:31:44] INFO root fetch - processPackages [FinQuant]: executing diffoscope
+[2023-07-19 13:31:44] INFO root fetch - processPackages [FinQuant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FinQuant-0.3.1.tar.gz tmp/FinQuant-0.3.2.tar.gz --markdown 20230719/F/FinQuant/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-19 13:31:44] INFO root fetch - processPackages [browniebroke-utils]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-19 13:31:44] INFO root fetch - processPackages [asteroid]: Remove: archive file [/home/abi/fetcher/tmp/asteroid-0.6.0rc0.tar.gz]
+[2023-07-19 13:31:44] INFO root fetch - processPackages [asteroid]: Remove: archive file [/home/abi/fetcher/tmp/asteroid-0.6.1rc0.tar.gz]
+[2023-07-19 13:31:44] INFO root fetch - processPackages [asteroid]: Start processing: npu-compiler
+[2023-07-19 13:31:44] INFO root fetch - main [MainThread]: End processing [asteroid]: success
+[2023-07-19 13:31:44] INFO root fetch - processPackages [npu-compiler]: New version: [1.5.9rc0] Old Version: [1.5.9a2]
+[2023-07-19 13:31:44] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/2b/4f/53a641fcaefc8774128d5f48cb2a7b2e692c8adfce1e2afaf8d9260d8b2a/docarray-0.9.9.dev5.tar.gz
+[2023-07-19 13:31:44] INFO root fetch - processPackages [browniebroke-utils]: Downloading https://files.pythonhosted.org/packages/1e/7c/8023c7af0ff7efb01ae94f7bebb4bbd90301be40f124933ef9593495e5ff/browniebroke_utils-1.0.0.tar.gz
+[2023-07-19 13:31:44] INFO root fetch - processPackages [torchrec-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrec_nightly-2023.7.17-py39-none-any.whl.zip]
+[2023-07-19 13:31:44] INFO root fetch - processPackages [torchrec-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrec_nightly-2023.7.18-py39-none-any.whl.zip]
+[2023-07-19 13:31:44] INFO root fetch - processPackages [torchrec-nightly]: Start processing: stk
+[2023-07-19 13:31:44] INFO root fetch - main [MainThread]: End processing [torchrec-nightly]: success
+[2023-07-19 13:31:44] INFO root fetch - processPackages [stk]: New version: [2023.7.6.0] Old Version: [2023.7.5.3]
+[2023-07-19 13:31:44] INFO root fetch - processPackages [npu-compiler]: Downloading https://files.pythonhosted.org/packages/a0/d2/1e7fe9b9189d179f0ba7d5cb12d1feba27e5a38c5569a05350ecb514b067/npu_compiler-1.5.9a2-cp37-cp37m-manylinux_2_5_x86_64.whl
+[2023-07-19 13:31:44] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-07-19 13:31:44] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230719/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-07-19 13:31:44] WARNING root fetch - processPackages [npu-compiler]: Skipping package: exceeds size limit 33798388>=10485760
+[2023-07-19 13:31:44] INFO root fetch - main [MainThread]: End processing [npu-compiler] error
+[2023-07-19 13:31:44] INFO root fetch - processPackages [stk]: Downloading https://files.pythonhosted.org/packages/d4/8e/781175f315e29ceff7d17f667d43c97d20796bd0c345a29fae72af11d318/stk-2023.7.5.3.tar.gz
+[2023-07-19 13:31:45] INFO root fetch - processPackages [pulumi-gcp]: Downloading https://files.pythonhosted.org/packages/39/74/41d1cc3685622f458efd5675d5dac2a2be81a4c87627192c0fd616107756/pulumi_gcp-6.9.0a1643146354.tar.gz
+[2023-07-19 13:31:45] INFO root fetch - processPackages [browniebroke-utils]: Downloading https://files.pythonhosted.org/packages/25/8c/0a91f550080edcd9f1ca66263779acf0c7d50cf50acd8bdd43f4f678432a/browniebroke_utils-1.0.1.tar.gz
+[2023-07-19 13:31:45] INFO root fetch - processPackages [zonesmart-utils]: Remove: archive file [/home/abi/fetcher/tmp/zonesmart-utils-0.3.4.tar.gz]
+[2023-07-19 13:31:45] INFO root fetch - processPackages [zonesmart-utils]: Remove: archive file [/home/abi/fetcher/tmp/zonesmart-utils-0.3.5.tar.gz]
+[2023-07-19 13:31:45] INFO root fetch - main [MainThread]: End processing [zonesmart-utils]: success
+[2023-07-19 13:31:45] INFO root fetch - processPackages [stk]: Downloading https://files.pythonhosted.org/packages/b0/70/14782f819986e4029f424b1cc5a0db8ea560287e8b63c4a0a133fb6af39f/stk-2023.7.6.0.tar.gz
+[2023-07-19 13:31:45] INFO root fetch - processPackages [browniebroke-utils]: executing diffoscope
+[2023-07-19 13:31:45] INFO root fetch - processPackages [browniebroke-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browniebroke_utils-1.0.0.tar.gz tmp/browniebroke_utils-1.0.1.tar.gz --markdown 20230719/b/browniebroke-utils/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-19 13:31:45] INFO root fetch - processPackages [systembridgecli]: Remove: archive file [/home/abi/fetcher/tmp/systembridgecli-3.8.0.dev8.tar.gz]
+[2023-07-19 13:31:45] INFO root fetch - processPackages [systembridgecli]: Remove: archive file [/home/abi/fetcher/tmp/systembridgecli-3.8.0.dev9.tar.gz]
+[2023-07-19 13:31:45] INFO root fetch - main [MainThread]: End processing [systembridgecli]: success
+[2023-07-19 13:31:45] INFO root fetch - processPackages [stk]: executing diffoscope
+[2023-07-19 13:31:45] INFO root fetch - processPackages [stk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stk-2023.7.5.3.tar.gz tmp/stk-2023.7.6.0.tar.gz --markdown 20230719/s/stk/2023.7.5.3-2023.7.6.0/diff.md --exclude *.pyd
+[2023-07-19 13:31:45] INFO root fetch - processPackages [pulumi-gcp]: executing diffoscope
+[2023-07-19 13:31:45] INFO root fetch - processPackages [pulumi-gcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gcp-6.9.0.tar.gz tmp/pulumi_gcp-6.9.0a1643146354.tar.gz --markdown 20230719/p/pulumi-gcp/6.9.0-6.9.0a1643146354/diff.md --exclude *.pyd
+[2023-07-19 13:31:45] INFO root fetch - processPackages [systembridgegui]: Remove: archive file [/home/abi/fetcher/tmp/systembridgegui-3.8.0.dev8.tar.gz]
+[2023-07-19 13:31:45] INFO root fetch - processPackages [systembridgegui]: Remove: archive file [/home/abi/fetcher/tmp/systembridgegui-3.8.0.dev9.tar.gz]
+[2023-07-19 13:31:45] INFO root fetch - main [MainThread]: End processing [systembridgegui]: success
+[2023-07-19 13:31:46] INFO root fetch - processPackages [FinQuant]: Remove: archive file [/home/abi/fetcher/tmp/FinQuant-0.3.1.tar.gz]
+[2023-07-19 13:31:46] INFO root fetch - processPackages [FinQuant]: Remove: archive file [/home/abi/fetcher/tmp/FinQuant-0.3.2.tar.gz]
+[2023-07-19 13:31:46] INFO root fetch - main [MainThread]: End processing [FinQuant]: success
+[2023-07-19 13:31:46] INFO root fetch - processPackages [systembridgewindowssensors]: Remove: archive file [/home/abi/fetcher/tmp/systembridgewindowssensors-3.8.0.dev8.tar.gz]
+[2023-07-19 13:31:46] INFO root fetch - processPackages [systembridgewindowssensors]: Remove: archive file [/home/abi/fetcher/tmp/systembridgewindowssensors-3.8.0.dev9.tar.gz]
+[2023-07-19 13:31:46] INFO root fetch - main [MainThread]: End processing [systembridgewindowssensors]: success
+[2023-07-19 13:31:46] INFO root fetch - processPackages [browniebroke-utils]: Remove: archive file [/home/abi/fetcher/tmp/browniebroke_utils-1.0.0.tar.gz]
+[2023-07-19 13:31:46] INFO root fetch - processPackages [browniebroke-utils]: Remove: archive file [/home/abi/fetcher/tmp/browniebroke_utils-1.0.1.tar.gz]
+[2023-07-19 13:31:46] INFO root fetch - main [MainThread]: End processing [browniebroke-utils]: success
+[2023-07-19 13:31:47] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev4.tar.gz]
+[2023-07-19 13:31:47] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev5.tar.gz]
+[2023-07-19 13:31:47] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-07-19 13:31:49] INFO root fetch - processPackages [stk]: Remove: archive file [/home/abi/fetcher/tmp/stk-2023.7.5.3.tar.gz]
+[2023-07-19 13:31:49] INFO root fetch - processPackages [stk]: Remove: archive file [/home/abi/fetcher/tmp/stk-2023.7.6.0.tar.gz]
+[2023-07-19 13:31:49] INFO root fetch - main [MainThread]: End processing [stk]: success
+[2023-07-19 13:31:53] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-6.9.0.tar.gz]
+[2023-07-19 13:31:53] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-6.9.0a1643146354.tar.gz]
+[2023-07-19 13:31:53] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
+[2023-07-19 13:31:53] INFO root fetch - main [MainThread]: Store serial: [18949355]
