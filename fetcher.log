@@ -13909,3 +13909,61 @@
 [2023-07-19 07:09:07] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.9.tar.gz]
 [2023-07-19 07:09:07] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-07-19 07:09:07] INFO root fetch - main [MainThread]: Store serial: [18945624]
+[2023-07-19 07:14:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18945624]
+[2023-07-19 07:14:16] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-19 07:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fundialogues
+[2023-07-19 07:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: danbi
+[2023-07-19 07:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: poseutil
+[2023-07-19 07:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nics
+[2023-07-19 07:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tflite-runtime-nightly
+[2023-07-19 07:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torch-sconce
+[2023-07-19 07:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ezyquant
+[2023-07-19 07:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gw-remnant
+[2023-07-19 07:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: compose-go
+[2023-07-19 07:14:17] INFO root fetch - processPackages [poseutil]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-19 07:14:17] INFO root fetch - processPackages [nics]: New version: [3.0.0b8] Old Version: [3.0.0b7]
+[2023-07-19 07:14:17] WARNING root fetch - processPackages [fundialogues]: Skipping, unable to determine old version
+[2023-07-19 07:14:17] INFO root fetch - main [MainThread]: End processing [fundialogues] error
+[2023-07-19 07:14:17] WARNING root fetch - processPackages [torch-sconce]: Skipping, unable to determine old version
+[2023-07-19 07:14:17] INFO root fetch - main [MainThread]: End processing [torch-sconce] error
+[2023-07-19 07:14:17] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.14.0.dev20230716] Old Version: [2.14.0.dev20230715]
+[2023-07-19 07:14:17] INFO root fetch - processPackages [danbi]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-07-19 07:14:17] INFO root fetch - processPackages [compose-go]: New version: [2.20.1] Old Version: [2.18.1]
+[2023-07-19 07:14:17] INFO root fetch - processPackages [ezyquant]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-19 07:14:17] WARNING root fetch - processPackages [gw-remnant]: Skipping, unable to determine old version
+[2023-07-19 07:14:17] INFO root fetch - main [MainThread]: End processing [gw-remnant] error
+[2023-07-19 07:14:17] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/2d/4a/fae158724afcff99e57bf8a6f2e580912c6058d4c3098d7c4b883139ace8/nics-3.0.0b7.tar.gz
+[2023-07-19 07:14:17] INFO root fetch - processPackages [poseutil]: Downloading https://files.pythonhosted.org/packages/2a/79/30944d173b90cd5a66d53a02de21db2ba632d29bebc364dbd18add238b08/poseutil-0.0.7.tar.gz
+[2023-07-19 07:14:17] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/c2/72/22ba0c3509479f69f5ffc3941df78acc0abfcc40698187c42ce4a3ddcc73/danbi-0.2.98.tar.gz
+[2023-07-19 07:14:17] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/56/f7/1ae91b95ff72d03710e52a5bcddbd56695e74c5a49171915564248cfcdde/tflite_runtime_nightly-2.14.0.dev20230715-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-19 07:14:17] INFO root fetch - processPackages [ezyquant]: Downloading https://files.pythonhosted.org/packages/51/6f/062644a2ae3b8d174704bc363c9814466938bee4ebbecb72be7e1d53d229/ezyquant-0.9.4.tar.gz
+[2023-07-19 07:14:17] INFO root fetch - processPackages [compose-go]: Downloading https://files.pythonhosted.org/packages/e0/2b/244f9317414f7f6ac35ad124afd426a6d1d996b63188ae200f66573309a2/compose_go-2.18.1.tar.gz
+[2023-07-19 07:14:17] WARNING root fetch - processPackages [ezyquant]: Skipping package: exceeds size limit 14470370>=10485760
+[2023-07-19 07:14:17] INFO root fetch - main [MainThread]: End processing [ezyquant] error
+[2023-07-19 07:14:17] INFO root fetch - processPackages [poseutil]: Downloading https://files.pythonhosted.org/packages/85/3f/1450a0915fa3d753bbe0e9c319b2c10135ffd2ba6c0b58162c3b77264347/poseutil-0.0.8.tar.gz
+[2023-07-19 07:14:17] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/f1/d9/d3c6315c313c7c0ed4f45f0f4f9844444f48f7b841135845d4567de1c12e/nics-3.0.0b8.tar.gz
+[2023-07-19 07:14:17] WARNING root fetch - processPackages [compose-go]: Skipping package: exceeds size limit 15981726>=10485760
+[2023-07-19 07:14:17] INFO root fetch - main [MainThread]: End processing [compose-go] error
+[2023-07-19 07:14:17] INFO root fetch - processPackages [poseutil]: executing diffoscope
+[2023-07-19 07:14:17] INFO root fetch - processPackages [poseutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poseutil-0.0.7.tar.gz tmp/poseutil-0.0.8.tar.gz --markdown 20230719/p/poseutil/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-19 07:14:17] INFO root fetch - processPackages [nics]: executing diffoscope
+[2023-07-19 07:14:17] INFO root fetch - processPackages [nics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nics-3.0.0b7.tar.gz tmp/nics-3.0.0b8.tar.gz --markdown 20230719/n/nics/3.0.0b7-3.0.0b8/diff.md --exclude *.pyd
+[2023-07-19 07:14:17] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/08/67/6ca29911c73cded25c25e0725cecb295a7ffb7284383910591bbccccb9bf/danbi-0.2.99.tar.gz
+[2023-07-19 07:14:18] INFO root fetch - processPackages [danbi]: executing diffoscope
+[2023-07-19 07:14:18] INFO root fetch - processPackages [danbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danbi-0.2.98.tar.gz tmp/danbi-0.2.99.tar.gz --markdown 20230719/d/danbi/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-07-19 07:14:18] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/5a/df/3dc21a9b3ee7c742777f6a558cb688ab9ada19fac0c0fafcace925e36a0b/tflite_runtime_nightly-2.14.0.dev20230716-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-19 07:14:18] INFO root fetch - processPackages [poseutil]: Remove: archive file [/home/abi/fetcher/tmp/poseutil-0.0.7.tar.gz]
+[2023-07-19 07:14:18] INFO root fetch - processPackages [poseutil]: Remove: archive file [/home/abi/fetcher/tmp/poseutil-0.0.8.tar.gz]
+[2023-07-19 07:14:18] INFO root fetch - main [MainThread]: End processing [poseutil]: success
+[2023-07-19 07:14:18] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2023-07-19 07:14:18] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.14.0.dev20230715-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/tflite_runtime_nightly-2.14.0.dev20230716-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230719/t/tflite-runtime-nightly/2.14.0.dev20230715-2.14.0.dev20230716/diff.md --exclude *.pyd
+[2023-07-19 07:14:18] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-3.0.0b7.tar.gz]
+[2023-07-19 07:14:18] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-3.0.0b8.tar.gz]
+[2023-07-19 07:14:18] INFO root fetch - main [MainThread]: End processing [nics]: success
+[2023-07-19 07:14:18] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.98.tar.gz]
+[2023-07-19 07:14:18] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.99.tar.gz]
+[2023-07-19 07:14:18] INFO root fetch - main [MainThread]: End processing [danbi]: success
+[2023-07-19 07:14:19] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230715-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-19 07:14:19] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230716-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-19 07:14:19] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2023-07-19 07:14:19] INFO root fetch - main [MainThread]: Store serial: [18945664]
