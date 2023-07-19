@@ -14319,3 +14319,38 @@
 [2023-07-19 07:33:17] INFO root fetch - processPackages [red-utils]: Remove: archive file [/home/abi/fetcher/tmp/red_utils-0.1.4.tar.gz]
 [2023-07-19 07:33:17] INFO root fetch - main [MainThread]: End processing [red-utils]: success
 [2023-07-19 07:33:17] INFO root fetch - main [MainThread]: Store serial: [18945789]
+[2023-07-19 07:38:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18945789]
+[2023-07-19 07:38:25] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-19 07:38:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clams-python
+[2023-07-19 07:38:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fundialogues
+[2023-07-19 07:38:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xnatuploader
+[2023-07-19 07:38:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: azure-speech-tools
+[2023-07-19 07:38:26] INFO root fetch - processPackages [fundialogues]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-19 07:38:26] INFO root fetch - processPackages [azure-speech-tools]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-19 07:38:26] INFO root fetch - processPackages [xnatuploader]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-19 07:38:26] INFO root fetch - processPackages [clams-python]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-19 07:38:26] INFO root fetch - processPackages [fundialogues]: Downloading https://files.pythonhosted.org/packages/16/10/2a3bdc95e271ad78e8d6348c4808e749e58fb168a411f55b093667d99836/fundialogues-0.0.7.tar.gz
+[2023-07-19 07:38:26] INFO root fetch - processPackages [xnatuploader]: Downloading https://files.pythonhosted.org/packages/65/2b/3e53a4c6e26a67aa7fa6a56687f2ec2821fdf60d2ec4bf3abf156265b9ea/xnatuploader-1.1.2.tar.gz
+[2023-07-19 07:38:26] INFO root fetch - processPackages [azure-speech-tools]: Downloading https://files.pythonhosted.org/packages/36/53/dea25cb4b1991e88e046502e372937667dbddb9aec8bfada3a638afadeb1/azure_speech_tools-0.0.2.tar.gz
+[2023-07-19 07:38:26] INFO root fetch - processPackages [clams-python]: Downloading https://files.pythonhosted.org/packages/f9/6d/45f5dee14947cc1b84e42edf28edd1007659379cc314725e5f2b91be2636/clams-python-1.0.3.tar.gz
+[2023-07-19 07:38:26] ERROR root fetch - processPackages [fundialogues]: Unable to fetch info: No such project/version 'fundialogues' 0.0.8
+[2023-07-19 07:38:26] INFO root fetch - main [MainThread]: End processing [fundialogues] error
+[2023-07-19 07:38:26] INFO root fetch - processPackages [azure-speech-tools]: Downloading https://files.pythonhosted.org/packages/fa/fd/8bc3aa77a541f0b6cc55311f49910218f19e8eb31a72a24a5ed9a5c872db/azure_speech_tools-0.0.3.tar.gz
+[2023-07-19 07:38:26] INFO root fetch - processPackages [xnatuploader]: Downloading https://files.pythonhosted.org/packages/8c/95/32b79ae5272dfa7336c2077c52bc286c2f9c8fa6619492a67ed465d279e6/xnatuploader-1.1.3.tar.gz
+[2023-07-19 07:38:26] INFO root fetch - processPackages [clams-python]: Downloading https://files.pythonhosted.org/packages/7d/54/529601f5f18d051d476d29b814a056c0af788eaea5a05cc15d96e3440977/clams-python-1.0.4.tar.gz
+[2023-07-19 07:38:26] INFO root fetch - processPackages [azure-speech-tools]: executing diffoscope
+[2023-07-19 07:38:26] INFO root fetch - processPackages [azure-speech-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure_speech_tools-0.0.2.tar.gz tmp/azure_speech_tools-0.0.3.tar.gz --markdown 20230719/a/azure-speech-tools/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-19 07:38:26] INFO root fetch - processPackages [xnatuploader]: executing diffoscope
+[2023-07-19 07:38:26] INFO root fetch - processPackages [clams-python]: executing diffoscope
+[2023-07-19 07:38:26] INFO root fetch - processPackages [xnatuploader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xnatuploader-1.1.2.tar.gz tmp/xnatuploader-1.1.3.tar.gz --markdown 20230719/x/xnatuploader/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-19 07:38:26] INFO root fetch - processPackages [clams-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clams-python-1.0.3.tar.gz tmp/clams-python-1.0.4.tar.gz --markdown 20230719/c/clams-python/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-19 07:38:27] INFO root fetch - processPackages [azure-speech-tools]: Remove: archive file [/home/abi/fetcher/tmp/azure_speech_tools-0.0.2.tar.gz]
+[2023-07-19 07:38:27] INFO root fetch - processPackages [azure-speech-tools]: Remove: archive file [/home/abi/fetcher/tmp/azure_speech_tools-0.0.3.tar.gz]
+[2023-07-19 07:38:27] INFO root fetch - main [MainThread]: End processing [azure-speech-tools]: success
+[2023-07-19 07:38:27] INFO root fetch - processPackages [clams-python]: Remove: archive file [/home/abi/fetcher/tmp/clams-python-1.0.3.tar.gz]
+[2023-07-19 07:38:27] INFO root fetch - processPackages [clams-python]: Remove: archive file [/home/abi/fetcher/tmp/clams-python-1.0.4.tar.gz]
+[2023-07-19 07:38:27] INFO root fetch - main [MainThread]: End processing [clams-python]: success
+[2023-07-19 07:38:27] INFO root fetch - processPackages [xnatuploader]: Remove: archive file [/home/abi/fetcher/tmp/xnatuploader-1.1.2.tar.gz]
+[2023-07-19 07:38:27] INFO root fetch - processPackages [xnatuploader]: Remove: archive file [/home/abi/fetcher/tmp/xnatuploader-1.1.3.tar.gz]
+[2023-07-19 07:38:27] INFO root fetch - main [MainThread]: End processing [xnatuploader]: success
+[2023-07-19 07:38:27] INFO root fetch - main [MainThread]: Store serial: [18945802]
