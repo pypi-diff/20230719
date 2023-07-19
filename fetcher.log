@@ -11491,3 +11491,75 @@
 [2023-07-19 05:16:24] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.9.tar.gz]
 [2023-07-19 05:16:24] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
 [2023-07-19 05:16:24] INFO root fetch - main [MainThread]: Store serial: [18944835]
+[2023-07-19 05:21:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18944835]
+[2023-07-19 05:21:38] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-19 05:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stockpick
+[2023-07-19 05:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: air2phin
+[2023-07-19 05:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: replize
+[2023-07-19 05:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo12-addon-website-sale-secondary-unit
+[2023-07-19 05:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo13-addon-website-sale-secondary-unit
+[2023-07-19 05:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: textframe
+[2023-07-19 05:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-website-sale-product-brand
+[2023-07-19 05:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-website-sale-secondary-unit
+[2023-07-19 05:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: BHPTNRremnant
+[2023-07-19 05:21:39] WARNING root fetch - processPackages [replize]: Skipping, unable to determine old version
+[2023-07-19 05:21:39] INFO root fetch - main [MainThread]: End processing [replize] error
+[2023-07-19 05:21:39] INFO root fetch - processPackages [odoo12-addon-website-sale-secondary-unit]: New version: [12.0.1.2.0.99.dev2] Old Version: [12.0.1.2.0.99.dev1]
+[2023-07-19 05:21:39] INFO root fetch - processPackages [odoo13-addon-website-sale-secondary-unit]: New version: [13.0.1.3.1.dev3] Old Version: [13.0.1.3.1.dev2]
+[2023-07-19 05:21:39] INFO root fetch - processPackages [air2phin]: New version: [0.0.22a3] Old Version: [0.0.22a2]
+[2023-07-19 05:21:39] INFO root fetch - processPackages [stockpick]: New version: [1.4.1] Old Version: [1.3.2]
+[2023-07-19 05:21:39] INFO root fetch - processPackages [odoo14-addon-website-sale-product-brand]: New version: [14.0.1.1.1.dev6] Old Version: [14.0.1.1.1.dev5]
+[2023-07-19 05:21:39] INFO root fetch - processPackages [odoo-addon-website-sale-secondary-unit]: New version: [15.0.1.1.0.3] Old Version: [15.0.1.1.0.2]
+[2023-07-19 05:21:39] INFO root fetch - processPackages [textframe]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 05:21:39] INFO root fetch - processPackages [odoo13-addon-website-sale-secondary-unit]: Downloading https://files.pythonhosted.org/packages/21/9c/be08868bf5b928ded9d153013f908c9a1d5099bda63e1639caa7ad56b3ed/odoo13_addon_website_sale_secondary_unit-13.0.1.3.1.dev2-py3-none-any.whl
+[2023-07-19 05:21:39] WARNING root fetch - processPackages [BHPTNRremnant]: Skipping, unable to determine old version
+[2023-07-19 05:21:39] INFO root fetch - processPackages [air2phin]: Downloading https://files.pythonhosted.org/packages/d2/61/cf28c99d22a8fb5568a8c55bd847e476c61d1c6cb1ce75400f09f41a42da/air2phin-0.0.22a2.tar.gz
+[2023-07-19 05:21:39] INFO root fetch - main [MainThread]: End processing [BHPTNRremnant] error
+[2023-07-19 05:21:39] INFO root fetch - processPackages [odoo12-addon-website-sale-secondary-unit]: Downloading https://files.pythonhosted.org/packages/5d/26/b315e7e15b3dd39d0e4c3c06ab8cda7a0279d795e533ce3199ba6d7134ca/odoo12_addon_website_sale_secondary_unit-12.0.1.2.0.99.dev1-py3-none-any.whl
+[2023-07-19 05:21:39] INFO root fetch - processPackages [textframe]: Downloading https://files.pythonhosted.org/packages/f8/4c/e7b3fe1a6dbebe2712a6047f8bfa93cf2338751e5b2038a324984bdaf318/textframe-0.0.8.tar.gz
+[2023-07-19 05:21:39] INFO root fetch - processPackages [stockpick]: Downloading https://files.pythonhosted.org/packages/46/51/bfb6c34392d074caf0294439749e9dc79f73dce829daaefc6943be3c1fdb/stockpick-1.3.2-py3-none-any.whl
+[2023-07-19 05:21:39] INFO root fetch - processPackages [odoo14-addon-website-sale-product-brand]: Downloading https://files.pythonhosted.org/packages/9e/6b/878f60c7a3bf7fc59956b9bcb501ebb6c989a1dfbbc463d7ed376c2b0f3a/odoo14_addon_website_sale_product_brand-14.0.1.1.1.dev5-py3-none-any.whl
+[2023-07-19 05:21:39] INFO root fetch - processPackages [odoo-addon-website-sale-secondary-unit]: Downloading https://files.pythonhosted.org/packages/93/a3/ec214dd781225107d4b8b15662c6ba21971964e08496378306317bfbac2c/odoo_addon_website_sale_secondary_unit-15.0.1.1.0.2-py3-none-any.whl
+[2023-07-19 05:21:39] INFO root fetch - processPackages [air2phin]: Downloading https://files.pythonhosted.org/packages/2b/a0/271b6b7bfd0ef7d59702cbb86aa99029fa960e27d54b7ff4d147815414b1/air2phin-0.0.22a3.tar.gz
+[2023-07-19 05:21:39] INFO root fetch - processPackages [odoo13-addon-website-sale-secondary-unit]: Downloading https://files.pythonhosted.org/packages/a7/e3/e1648055c67e1b5d3f93ee80a348b2bc413d5825e65f41773061f08d4c4a/odoo13_addon_website_sale_secondary_unit-13.0.1.3.1.dev3-py3-none-any.whl
+[2023-07-19 05:21:39] INFO root fetch - processPackages [air2phin]: executing diffoscope
+[2023-07-19 05:21:39] INFO root fetch - processPackages [air2phin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/air2phin-0.0.22a2.tar.gz tmp/air2phin-0.0.22a3.tar.gz --markdown 20230719/a/air2phin/0.0.22a2-0.0.22a3/diff.md --exclude *.pyd
+[2023-07-19 05:21:39] INFO root fetch - processPackages [odoo12-addon-website-sale-secondary-unit]: Downloading https://files.pythonhosted.org/packages/c1/a0/b65dcad1e6bf229894fe7cf900dbed34f05feb70797bb8f7204704cd72ce/odoo12_addon_website_sale_secondary_unit-12.0.1.2.0.99.dev2-py3-none-any.whl
+[2023-07-19 05:21:39] INFO root fetch - processPackages [odoo13-addon-website-sale-secondary-unit]: executing diffoscope
+[2023-07-19 05:21:39] INFO root fetch - processPackages [odoo13-addon-website-sale-secondary-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_website_sale_secondary_unit-13.0.1.3.1.dev2-py3-none-any.whl.zip tmp/odoo13_addon_website_sale_secondary_unit-13.0.1.3.1.dev3-py3-none-any.whl.zip --markdown 20230719/o/odoo13-addon-website-sale-secondary-unit/13.0.1.3.1.dev2-13.0.1.3.1.dev3/diff.md --exclude *.pyd
+[2023-07-19 05:21:39] INFO root fetch - processPackages [textframe]: Downloading https://files.pythonhosted.org/packages/a1/5d/dfb6b5e0846545b4cdc898232d0a97157cba45efef8e64082908a4f406a9/textframe-0.0.9.tar.gz
+[2023-07-19 05:21:40] INFO root fetch - processPackages [odoo14-addon-website-sale-product-brand]: Downloading https://files.pythonhosted.org/packages/15/65/4805538217a4092aaf00d9a2f296dab5843c82b12bcfd388ea6f26a0e289/odoo14_addon_website_sale_product_brand-14.0.1.1.1.dev6-py3-none-any.whl
+[2023-07-19 05:21:40] INFO root fetch - processPackages [odoo-addon-website-sale-secondary-unit]: Downloading https://files.pythonhosted.org/packages/31/29/ced9c77779e16ed2a8531001cca49637e36d9c14e359bed84268ea52b575/odoo_addon_website_sale_secondary_unit-15.0.1.1.0.3-py3-none-any.whl
+[2023-07-19 05:21:40] INFO root fetch - processPackages [stockpick]: Downloading https://files.pythonhosted.org/packages/7c/94/c1fa8c680dc06aee86a12a6beea392375f878467fe6455ef985878a813dd/stockpick-1.4.1-py3-none-any.whl
+[2023-07-19 05:21:40] INFO root fetch - processPackages [odoo12-addon-website-sale-secondary-unit]: executing diffoscope
+[2023-07-19 05:21:40] INFO root fetch - processPackages [odoo12-addon-website-sale-secondary-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_website_sale_secondary_unit-12.0.1.2.0.99.dev1-py3-none-any.whl.zip tmp/odoo12_addon_website_sale_secondary_unit-12.0.1.2.0.99.dev2-py3-none-any.whl.zip --markdown 20230719/o/odoo12-addon-website-sale-secondary-unit/12.0.1.2.0.99.dev1-12.0.1.2.0.99.dev2/diff.md --exclude *.pyd
+[2023-07-19 05:21:40] INFO root fetch - processPackages [textframe]: executing diffoscope
+[2023-07-19 05:21:40] INFO root fetch - processPackages [textframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textframe-0.0.8.tar.gz tmp/textframe-0.0.9.tar.gz --markdown 20230719/t/textframe/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 05:21:40] INFO root fetch - processPackages [odoo-addon-website-sale-secondary-unit]: executing diffoscope
+[2023-07-19 05:21:40] INFO root fetch - processPackages [odoo-addon-website-sale-secondary-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_website_sale_secondary_unit-15.0.1.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_website_sale_secondary_unit-15.0.1.1.0.3-py3-none-any.whl.zip --markdown 20230719/o/odoo-addon-website-sale-secondary-unit/15.0.1.1.0.2-15.0.1.1.0.3/diff.md --exclude *.pyd
+[2023-07-19 05:21:40] INFO root fetch - processPackages [odoo14-addon-website-sale-product-brand]: executing diffoscope
+[2023-07-19 05:21:40] INFO root fetch - processPackages [odoo14-addon-website-sale-product-brand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_website_sale_product_brand-14.0.1.1.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_website_sale_product_brand-14.0.1.1.1.dev6-py3-none-any.whl.zip --markdown 20230719/o/odoo14-addon-website-sale-product-brand/14.0.1.1.1.dev5-14.0.1.1.1.dev6/diff.md --exclude *.pyd
+[2023-07-19 05:21:40] INFO root fetch - processPackages [stockpick]: executing diffoscope
+[2023-07-19 05:21:40] INFO root fetch - processPackages [stockpick]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stockpick-1.3.2-py3-none-any.whl.zip tmp/stockpick-1.4.1-py3-none-any.whl.zip --markdown 20230719/s/stockpick/1.3.2-1.4.1/diff.md --exclude *.pyd
+[2023-07-19 05:21:41] INFO root fetch - processPackages [odoo13-addon-website-sale-secondary-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_website_sale_secondary_unit-13.0.1.3.1.dev2-py3-none-any.whl.zip]
+[2023-07-19 05:21:41] INFO root fetch - processPackages [odoo13-addon-website-sale-secondary-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_website_sale_secondary_unit-13.0.1.3.1.dev3-py3-none-any.whl.zip]
+[2023-07-19 05:21:41] INFO root fetch - main [MainThread]: End processing [odoo13-addon-website-sale-secondary-unit]: success
+[2023-07-19 05:21:41] INFO root fetch - processPackages [odoo12-addon-website-sale-secondary-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_website_sale_secondary_unit-12.0.1.2.0.99.dev1-py3-none-any.whl.zip]
+[2023-07-19 05:21:41] INFO root fetch - processPackages [odoo12-addon-website-sale-secondary-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_website_sale_secondary_unit-12.0.1.2.0.99.dev2-py3-none-any.whl.zip]
+[2023-07-19 05:21:41] INFO root fetch - main [MainThread]: End processing [odoo12-addon-website-sale-secondary-unit]: success
+[2023-07-19 05:21:41] INFO root fetch - processPackages [air2phin]: Remove: archive file [/home/abi/fetcher/tmp/air2phin-0.0.22a2.tar.gz]
+[2023-07-19 05:21:41] INFO root fetch - processPackages [air2phin]: Remove: archive file [/home/abi/fetcher/tmp/air2phin-0.0.22a3.tar.gz]
+[2023-07-19 05:21:41] INFO root fetch - main [MainThread]: End processing [air2phin]: success
+[2023-07-19 05:21:41] INFO root fetch - processPackages [textframe]: Remove: archive file [/home/abi/fetcher/tmp/textframe-0.0.8.tar.gz]
+[2023-07-19 05:21:41] INFO root fetch - processPackages [textframe]: Remove: archive file [/home/abi/fetcher/tmp/textframe-0.0.9.tar.gz]
+[2023-07-19 05:21:41] INFO root fetch - main [MainThread]: End processing [textframe]: success
+[2023-07-19 05:21:41] INFO root fetch - processPackages [stockpick]: Remove: archive file [/home/abi/fetcher/tmp/stockpick-1.3.2-py3-none-any.whl.zip]
+[2023-07-19 05:21:41] INFO root fetch - processPackages [stockpick]: Remove: archive file [/home/abi/fetcher/tmp/stockpick-1.4.1-py3-none-any.whl.zip]
+[2023-07-19 05:21:41] INFO root fetch - main [MainThread]: End processing [stockpick]: success
+[2023-07-19 05:21:41] INFO root fetch - processPackages [odoo-addon-website-sale-secondary-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_sale_secondary_unit-15.0.1.1.0.2-py3-none-any.whl.zip]
+[2023-07-19 05:21:41] INFO root fetch - processPackages [odoo-addon-website-sale-secondary-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_sale_secondary_unit-15.0.1.1.0.3-py3-none-any.whl.zip]
+[2023-07-19 05:21:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-sale-secondary-unit]: success
+[2023-07-19 05:21:41] INFO root fetch - processPackages [odoo14-addon-website-sale-product-brand]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_website_sale_product_brand-14.0.1.1.1.dev5-py3-none-any.whl.zip]
+[2023-07-19 05:21:41] INFO root fetch - processPackages [odoo14-addon-website-sale-product-brand]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_website_sale_product_brand-14.0.1.1.1.dev6-py3-none-any.whl.zip]
+[2023-07-19 05:21:41] INFO root fetch - main [MainThread]: End processing [odoo14-addon-website-sale-product-brand]: success
+[2023-07-19 05:21:41] INFO root fetch - main [MainThread]: Store serial: [18944861]
