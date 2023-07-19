@@ -14154,3 +14154,168 @@
 [2023-07-19 07:27:57] INFO root fetch - processPackages [pip-tools]: Remove: archive file [/home/abi/fetcher/tmp/pip-tools-7.1.0.tar.gz]
 [2023-07-19 07:27:57] INFO root fetch - main [MainThread]: End processing [pip-tools]: success
 [2023-07-19 07:27:57] INFO root fetch - main [MainThread]: Store serial: [18945740]
+[2023-07-19 07:33:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18945740]
+[2023-07-19 07:33:06] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-19 07:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: everpay
+[2023-07-19 07:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: argil
+[2023-07-19 07:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crazy-thursday
+[2023-07-19 07:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: playgroundrl
+[2023-07-19 07:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: enocean-webthing
+[2023-07-19 07:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: red-utils
+[2023-07-19 07:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-mail-optional-autofollow
+[2023-07-19 07:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-mail-attach-existing-attachment
+[2023-07-19 07:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vessl
+[2023-07-19 07:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-mail-activity-team
+[2023-07-19 07:33:06] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.7.9.1] Old Version: [2023.7.9.0]
+[2023-07-19 07:33:06] INFO root fetch - processPackages [vessl]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-19 07:33:06] INFO root fetch - processPackages [argil]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-19 07:33:06] INFO root fetch - processPackages [everpay]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-19 07:33:06] INFO root fetch - processPackages [enocean-webthing]: New version: [1.0.0] Old Version: [0.1.4]
+[2023-07-19 07:33:06] INFO root fetch - processPackages [odoo-addon-mail-attach-existing-attachment]: New version: [16.0.1.0.1.1] Old Version: [16.0.1.0.1]
+[2023-07-19 07:33:06] INFO root fetch - processPackages [playgroundrl]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-19 07:33:06] INFO root fetch - processPackages [odoo-addon-mail-optional-autofollow]: New version: [16.0.1.0.0.2] Old Version: [16.0.1.0.0.1]
+[2023-07-19 07:33:06] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-07-19 07:33:06] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/38/7d/1b2b94a1083188f3376a0af9cb2701abb4c084a8e0608a25f97e191ab3e7/vessl-0.1.98.tar.gz
+[2023-07-19 07:33:06] INFO root fetch - processPackages [red-utils]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-19 07:33:06] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/6a/c9/15f9add630932cf1d361c73bada17a4fe2e962fe6ae5ac9e61297aedec22/crazy-thursday-2023.7.9.0.tar.gz
+[2023-07-19 07:33:06] INFO root fetch - processPackages [enocean-webthing]: Downloading https://files.pythonhosted.org/packages/71/a9/93ea8af2854ab7a4ef7434724d5c38faeaf6d2f56cda23d382271d1edc5a/enocean_webthing-0.1.4.tar.gz
+[2023-07-19 07:33:06] INFO root fetch - processPackages [everpay]: Downloading https://files.pythonhosted.org/packages/38/bd/dc29920e7790154ea371662657c71fdc8407a337cabe61b6cb194b0a28d8/everpay-0.2.6.tar.gz
+[2023-07-19 07:33:06] INFO root fetch - processPackages [argil]: Downloading https://files.pythonhosted.org/packages/7d/d1/1e56e6e6e005a3294ccab903932267c82276d3708df46d55beba2ddfc178/argil-0.0.4.tar.gz
+[2023-07-19 07:33:06] INFO root fetch - processPackages [playgroundrl]: Downloading https://files.pythonhosted.org/packages/aa/a8/fa0c649a729f0f44ede06c059ea6fb112a135bf99801661f50709f8633aa/playgroundrl-0.0.7.tar.gz
+[2023-07-19 07:33:06] INFO root fetch - processPackages [odoo-addon-mail-optional-autofollow]: Downloading https://files.pythonhosted.org/packages/9a/08/6f93b5acbe46daaa472e048a6e5bd6815d10f65cd2dfc6bfde57147785ab/odoo_addon_mail_optional_autofollow-16.0.1.0.0.1-py3-none-any.whl
+[2023-07-19 07:33:06] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: Downloading https://files.pythonhosted.org/packages/3f/20/90e069cac4c4e1a1d22747da6d7a4141986b70c6e2adf05b89f66398c16b/odoo_addon_mail_activity_team-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-19 07:33:06] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/8d/ea/65adb6d9f2ff058a84add9a25d8423ef870914ed904a071fcd26e8e9ba74/crazy-thursday-2023.7.9.1.tar.gz
+[2023-07-19 07:33:06] INFO root fetch - processPackages [red-utils]: Downloading https://files.pythonhosted.org/packages/c8/9e/6d5f90cb791ad44b5afb6d3d543dbbe214e1e633b6cf359e017098828e02/red_utils-0.1.3.tar.gz
+[2023-07-19 07:33:06] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/21/b8/cbd9a61ba9f582b647d4ef42d4b54900e40293bc599bde0a7f1fe73974bc/vessl-0.1.99.tar.gz
+[2023-07-19 07:33:06] INFO root fetch - processPackages [odoo-addon-mail-attach-existing-attachment]: Downloading https://files.pythonhosted.org/packages/8b/be/b4c114a51fdb5b24efb07bb750f0a49572f637903993d45d3f8fa242bb2d/odoo_addon_mail_attach_existing_attachment-16.0.1.0.1-py3-none-any.whl
+[2023-07-19 07:33:07] INFO root fetch - processPackages [enocean-webthing]: Downloading https://files.pythonhosted.org/packages/af/82/08d74862a965dc8f8adfef6e86d4a6009906de78d32c877a136e41fc9450/enocean_webthing-1.0.0.tar.gz
+[2023-07-19 07:33:07] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-07-19 07:33:07] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.7.9.0.tar.gz tmp/crazy-thursday-2023.7.9.1.tar.gz --markdown 20230719/c/crazy-thursday/2023.7.9.0-2023.7.9.1/diff.md --exclude *.pyd
+[2023-07-19 07:33:07] INFO root fetch - processPackages [vessl]: executing diffoscope
+[2023-07-19 07:33:07] INFO root fetch - processPackages [vessl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vessl-0.1.98.tar.gz tmp/vessl-0.1.99.tar.gz --markdown 20230719/v/vessl/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-19 07:33:07] INFO root fetch - processPackages [enocean-webthing]: executing diffoscope
+[2023-07-19 07:33:07] INFO root fetch - processPackages [enocean-webthing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enocean_webthing-0.1.4.tar.gz tmp/enocean_webthing-1.0.0.tar.gz --markdown 20230719/e/enocean-webthing/0.1.4-1.0.0/diff.md --exclude *.pyd
+[2023-07-19 07:33:07] INFO root fetch - processPackages [everpay]: Downloading https://files.pythonhosted.org/packages/5d/a5/bb7ad49d685f6a7d936e7979b0283d136db0d822dbf3c4263484188603ff/everpay-0.2.7.tar.gz
+[2023-07-19 07:33:07] INFO root fetch - processPackages [argil]: Downloading https://files.pythonhosted.org/packages/75/7f/d47e7501d6980cb603ddb13fc239b9559b611e951d6af93ac25aae4102b4/argil-0.0.5.tar.gz
+[2023-07-19 07:33:07] INFO root fetch - processPackages [everpay]: executing diffoscope
+[2023-07-19 07:33:07] INFO root fetch - processPackages [everpay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everpay-0.2.6.tar.gz tmp/everpay-0.2.7.tar.gz --markdown 20230719/e/everpay/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-07-19 07:33:07] INFO root fetch - processPackages [argil]: executing diffoscope
+[2023-07-19 07:33:07] INFO root fetch - processPackages [argil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argil-0.0.4.tar.gz tmp/argil-0.0.5.tar.gz --markdown 20230719/a/argil/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-19 07:33:07] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: Downloading https://files.pythonhosted.org/packages/c1/31/b7356a24fca1c251239dfdce908379fe74e6df9173d91e98ae256f5852dd/odoo_addon_mail_activity_team-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-19 07:33:07] INFO root fetch - processPackages [odoo-addon-mail-optional-autofollow]: Downloading https://files.pythonhosted.org/packages/e2/b7/847fd2637bafda140b80b84be952a1701e633d66b8a4e1ca2d770f325d4d/odoo_addon_mail_optional_autofollow-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-19 07:33:07] INFO root fetch - processPackages [playgroundrl]: Downloading https://files.pythonhosted.org/packages/e0/a1/8119120b75dcc8bb13f2eae252e7343d8e280ab3ac7c30fadbf52066b42e/playgroundrl-0.0.8.tar.gz
+[2023-07-19 07:33:07] INFO root fetch - processPackages [odoo-addon-mail-attach-existing-attachment]: Downloading https://files.pythonhosted.org/packages/d8/f3/69bc009f978e7b6a44ec2668ac5d61e91efa68cc2b3102ca6e045b62a10c/odoo_addon_mail_attach_existing_attachment-16.0.1.0.1.1-py3-none-any.whl
+[2023-07-19 07:33:07] INFO root fetch - processPackages [red-utils]: Downloading https://files.pythonhosted.org/packages/f6/99/9e5a65f6e52d1fc0c0128ded537d39f4fe2e9ca44ba396b16f86f0b8fdc7/red_utils-0.1.4.tar.gz
+[2023-07-19 07:33:07] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: executing diffoscope
+[2023-07-19 07:33:07] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_activity_team-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_mail_activity_team-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230719/o/odoo-addon-mail-activity-team/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-07-19 07:33:07] INFO root fetch - processPackages [playgroundrl]: executing diffoscope
+[2023-07-19 07:33:07] INFO root fetch - processPackages [playgroundrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playgroundrl-0.0.7.tar.gz tmp/playgroundrl-0.0.8.tar.gz --markdown 20230719/p/playgroundrl/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-19 07:33:07] INFO root fetch - processPackages [odoo-addon-mail-optional-autofollow]: executing diffoscope
+[2023-07-19 07:33:07] INFO root fetch - processPackages [odoo-addon-mail-optional-autofollow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_optional_autofollow-16.0.1.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_mail_optional_autofollow-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230719/o/odoo-addon-mail-optional-autofollow/16.0.1.0.0.1-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-07-19 07:33:07] INFO root fetch - processPackages [odoo-addon-mail-attach-existing-attachment]: executing diffoscope
+[2023-07-19 07:33:07] INFO root fetch - processPackages [odoo-addon-mail-attach-existing-attachment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_attach_existing_attachment-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_mail_attach_existing_attachment-16.0.1.0.1.1-py3-none-any.whl.zip --markdown 20230719/o/odoo-addon-mail-attach-existing-attachment/16.0.1.0.1-16.0.1.0.1.1/diff.md --exclude *.pyd
+[2023-07-19 07:33:08] INFO root fetch - processPackages [red-utils]: executing diffoscope
+[2023-07-19 07:33:08] INFO root fetch - processPackages [red-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/red_utils-0.1.3.tar.gz tmp/red_utils-0.1.4.tar.gz --markdown 20230719/r/red-utils/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-19 07:33:08] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.9.0.tar.gz]
+[2023-07-19 07:33:08] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.9.1.tar.gz]
+[2023-07-19 07:33:08] INFO root fetch - processPackages [crazy-thursday]: Start processing: odoo-addon-base-search-mail-content
+[2023-07-19 07:33:08] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-07-19 07:33:08] INFO root fetch - processPackages [odoo-addon-base-search-mail-content]: New version: [16.0.1.0.2.1] Old Version: [16.0.1.0.2]
+[2023-07-19 07:33:08] INFO root fetch - processPackages [enocean-webthing]: Remove: archive file [/home/abi/fetcher/tmp/enocean_webthing-0.1.4.tar.gz]
+[2023-07-19 07:33:08] INFO root fetch - processPackages [enocean-webthing]: Remove: archive file [/home/abi/fetcher/tmp/enocean_webthing-1.0.0.tar.gz]
+[2023-07-19 07:33:08] INFO root fetch - processPackages [enocean-webthing]: Start processing: odoo-addon-mail-optional-follower-notification
+[2023-07-19 07:33:08] INFO root fetch - main [MainThread]: End processing [enocean-webthing]: success
+[2023-07-19 07:33:08] INFO root fetch - processPackages [odoo-addon-base-search-mail-content]: Downloading https://files.pythonhosted.org/packages/a3/3f/6d6e3af5adc9013983e69d65dc4a66eb0b5cc97400d926bbac1c1a7dd40b/odoo_addon_base_search_mail_content-16.0.1.0.2-py3-none-any.whl
+[2023-07-19 07:33:08] INFO root fetch - processPackages [odoo-addon-mail-optional-follower-notification]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0]
+[2023-07-19 07:33:08] INFO root fetch - processPackages [argil]: Remove: archive file [/home/abi/fetcher/tmp/argil-0.0.4.tar.gz]
+[2023-07-19 07:33:08] INFO root fetch - processPackages [argil]: Remove: archive file [/home/abi/fetcher/tmp/argil-0.0.5.tar.gz]
+[2023-07-19 07:33:08] INFO root fetch - processPackages [argil]: Start processing: odoo-addon-mail-tracking
+[2023-07-19 07:33:08] INFO root fetch - main [MainThread]: End processing [argil]: success
+[2023-07-19 07:33:09] INFO root fetch - processPackages [everpay]: Remove: archive file [/home/abi/fetcher/tmp/everpay-0.2.6.tar.gz]
+[2023-07-19 07:33:09] INFO root fetch - processPackages [everpay]: Remove: archive file [/home/abi/fetcher/tmp/everpay-0.2.7.tar.gz]
+[2023-07-19 07:33:09] INFO root fetch - processPackages [everpay]: Start processing: odoo-addon-mail-activity-done
+[2023-07-19 07:33:09] INFO root fetch - main [MainThread]: End processing [everpay]: success
+[2023-07-19 07:33:09] INFO root fetch - processPackages [odoo-addon-mail-tracking]: New version: [15.0.3.0.1.2] Old Version: [15.0.3.0.1]
+[2023-07-19 07:33:09] INFO root fetch - processPackages [odoo-addon-mail-optional-follower-notification]: Downloading https://files.pythonhosted.org/packages/7e/f0/55b275f657848964ae6c3f51c87e2db443bbe680a4942567d07d25d60629/odoo_addon_mail_optional_follower_notification-16.0.1.0.0-py3-none-any.whl
+[2023-07-19 07:33:09] INFO root fetch - processPackages [playgroundrl]: Remove: archive file [/home/abi/fetcher/tmp/playgroundrl-0.0.7.tar.gz]
+[2023-07-19 07:33:09] INFO root fetch - processPackages [playgroundrl]: Remove: archive file [/home/abi/fetcher/tmp/playgroundrl-0.0.8.tar.gz]
+[2023-07-19 07:33:09] INFO root fetch - processPackages [playgroundrl]: Start processing: odoo-addons-oca-social
+[2023-07-19 07:33:09] INFO root fetch - main [MainThread]: End processing [playgroundrl]: success
+[2023-07-19 07:33:09] INFO root fetch - processPackages [odoo-addon-mail-activity-done]: New version: [15.0.1.0.1.5] Old Version: [15.0.1.0.1.3]
+[2023-07-19 07:33:09] INFO root fetch - processPackages [odoo-addons-oca-social]: New version: [16.0.20230717.0] Old Version: [16.0.20230614.0]
+[2023-07-19 07:33:09] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Downloading https://files.pythonhosted.org/packages/29/d8/36ec64f31bbea15975f51a172f04d1c1f3413348c1bd093c142e46880189/odoo_addon_mail_tracking-15.0.3.0.1-py3-none-any.whl
+[2023-07-19 07:33:09] INFO root fetch - processPackages [odoo-addons-oca-social]: Downloading https://files.pythonhosted.org/packages/b1/dd/9b4bdc117f952fc1c5e09549c8246461d980367c4a15221cdb4f3b5f1f1b/odoo_addons_oca_social-16.0.20230614.0-py3-none-any.whl
+[2023-07-19 07:33:09] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_activity_team-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-19 07:33:09] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_activity_team-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-19 07:33:09] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: Start processing: torch-sconce
+[2023-07-19 07:33:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-activity-team]: success
+[2023-07-19 07:33:09] INFO root fetch - processPackages [odoo-addon-mail-optional-autofollow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_optional_autofollow-16.0.1.0.0.1-py3-none-any.whl.zip]
+[2023-07-19 07:33:09] INFO root fetch - processPackages [odoo-addon-mail-optional-autofollow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_optional_autofollow-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-19 07:33:09] INFO root fetch - processPackages [odoo-addon-mail-optional-autofollow]: Start processing: pynamicui
+[2023-07-19 07:33:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-optional-autofollow]: success
+[2023-07-19 07:33:09] INFO root fetch - processPackages [odoo-addon-base-search-mail-content]: Downloading https://files.pythonhosted.org/packages/cf/c0/a1f0d9b5089d8d948c75fb60a17e434799842b54ee762a951e5294210f96/odoo_addon_base_search_mail_content-16.0.1.0.2.1-py3-none-any.whl
+[2023-07-19 07:33:09] INFO root fetch - processPackages [pynamicui]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-19 07:33:09] INFO root fetch - processPackages [odoo-addon-mail-activity-done]: Downloading https://files.pythonhosted.org/packages/03/1a/7f8edea9d4389fc6fc2201549fe07776ab3b0b2949af2219d653b05ada5b/odoo_addon_mail_activity_done-15.0.1.0.1.3-py3-none-any.whl
+[2023-07-19 07:33:09] INFO root fetch - processPackages [torch-sconce]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-07-19 07:33:09] INFO root fetch - processPackages [odoo-addon-mail-attach-existing-attachment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_attach_existing_attachment-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-19 07:33:09] INFO root fetch - processPackages [odoo-addon-mail-attach-existing-attachment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_attach_existing_attachment-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2023-07-19 07:33:09] INFO root fetch - processPackages [odoo-addon-mail-attach-existing-attachment]: Start processing: ppgee
+[2023-07-19 07:33:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-attach-existing-attachment]: success
+[2023-07-19 07:33:09] INFO root fetch - processPackages [pynamicui]: Downloading https://files.pythonhosted.org/packages/b5/c0/3d5891c6c4ce915c5666959a4bcca12fba37b1b1bec7c47be703946263b7/pynamicui-0.0.5.tar.gz
+[2023-07-19 07:33:09] INFO root fetch - processPackages [ppgee]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-19 07:33:09] INFO root fetch - processPackages [odoo-addon-base-search-mail-content]: executing diffoscope
+[2023-07-19 07:33:09] INFO root fetch - processPackages [odoo-addon-base-search-mail-content]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_search_mail_content-16.0.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_base_search_mail_content-16.0.1.0.2.1-py3-none-any.whl.zip --markdown 20230719/o/odoo-addon-base-search-mail-content/16.0.1.0.2-16.0.1.0.2.1/diff.md --exclude *.pyd
+[2023-07-19 07:33:09] INFO root fetch - processPackages [odoo-addons-oca-social]: Downloading https://files.pythonhosted.org/packages/5a/08/ccd385557c701a973345c113c1a24d4c500e02f852694b8f278f9c58df01/odoo_addons_oca_social-16.0.20230717.0-py3-none-any.whl
+[2023-07-19 07:33:09] INFO root fetch - processPackages [torch-sconce]: Downloading https://files.pythonhosted.org/packages/36/d6/7a3e03bbf016e8f57320ef023d2b4dd4a6eddc2217c6008592cbec98b629/torch-sconce-0.0.2.tar.gz
+[2023-07-19 07:33:09] INFO root fetch - processPackages [odoo-addon-mail-optional-follower-notification]: Downloading https://files.pythonhosted.org/packages/04/25/5937829e6b03e69c2426d15618144a7d98a69ba49edacc0a219577ea35d2/odoo_addon_mail_optional_follower_notification-16.0.1.0.1-py3-none-any.whl
+[2023-07-19 07:33:09] INFO root fetch - processPackages [odoo-addon-mail-activity-done]: Downloading https://files.pythonhosted.org/packages/c5/e8/85844f3efdb5217b533ef2a41112aefa23ff05c3180ebfaca2996b1a2e66/odoo_addon_mail_activity_done-15.0.1.0.1.5-py3-none-any.whl
+[2023-07-19 07:33:09] INFO root fetch - processPackages [odoo-addons-oca-social]: executing diffoscope
+[2023-07-19 07:33:09] INFO root fetch - processPackages [odoo-addons-oca-social]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_social-16.0.20230614.0-py3-none-any.whl.zip tmp/odoo_addons_oca_social-16.0.20230717.0-py3-none-any.whl.zip --markdown 20230719/o/odoo-addons-oca-social/16.0.20230614.0-16.0.20230717.0/diff.md --exclude *.pyd
+[2023-07-19 07:33:09] INFO root fetch - processPackages [ppgee]: Downloading https://files.pythonhosted.org/packages/cf/9f/6cabad64ecaf5b1d3effc8abe62c788b034b9f390d11231e67d7133accd2/ppgee-0.1.2.tar.gz
+[2023-07-19 07:33:10] INFO root fetch - processPackages [odoo-addon-mail-optional-follower-notification]: executing diffoscope
+[2023-07-19 07:33:10] INFO root fetch - processPackages [odoo-addon-mail-optional-follower-notification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_optional_follower_notification-16.0.1.0.0-py3-none-any.whl.zip tmp/odoo_addon_mail_optional_follower_notification-16.0.1.0.1-py3-none-any.whl.zip --markdown 20230719/o/odoo-addon-mail-optional-follower-notification/16.0.1.0.0-16.0.1.0.1/diff.md --exclude *.pyd
+[2023-07-19 07:33:10] INFO root fetch - processPackages [odoo-addon-mail-activity-done]: executing diffoscope
+[2023-07-19 07:33:10] INFO root fetch - processPackages [odoo-addon-mail-activity-done]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_activity_done-15.0.1.0.1.3-py3-none-any.whl.zip tmp/odoo_addon_mail_activity_done-15.0.1.0.1.5-py3-none-any.whl.zip --markdown 20230719/o/odoo-addon-mail-activity-done/15.0.1.0.1.3-15.0.1.0.1.5/diff.md --exclude *.pyd
+[2023-07-19 07:33:10] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Downloading https://files.pythonhosted.org/packages/cb/99/3f20c5c2c4d199d00868ed254b776c0e81774c8fd99f40343e4d30336d61/odoo_addon_mail_tracking-15.0.3.0.1.2-py3-none-any.whl
+[2023-07-19 07:33:10] INFO root fetch - processPackages [pynamicui]: Downloading https://files.pythonhosted.org/packages/bc/8c/61069f3843bc0ca54ca77eb6d05a18496ef46a6576783dd2777a1dfd54c2/pynamicui-0.0.6.tar.gz
+[2023-07-19 07:33:10] INFO root fetch - processPackages [torch-sconce]: Downloading https://files.pythonhosted.org/packages/f1/93/4611b63f7153c51520cff6f906243e92405172c9877a06fe548d1f3b3820/torch-sconce-0.0.4.tar.gz
+[2023-07-19 07:33:10] INFO root fetch - processPackages [pynamicui]: executing diffoscope
+[2023-07-19 07:33:10] INFO root fetch - processPackages [pynamicui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynamicui-0.0.5.tar.gz tmp/pynamicui-0.0.6.tar.gz --markdown 20230719/p/pynamicui/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-19 07:33:10] INFO root fetch - processPackages [odoo-addon-mail-tracking]: executing diffoscope
+[2023-07-19 07:33:10] INFO root fetch - processPackages [odoo-addon-mail-tracking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_tracking-15.0.3.0.1-py3-none-any.whl.zip tmp/odoo_addon_mail_tracking-15.0.3.0.1.2-py3-none-any.whl.zip --markdown 20230719/o/odoo-addon-mail-tracking/15.0.3.0.1-15.0.3.0.1.2/diff.md --exclude *.pyd
+[2023-07-19 07:33:10] INFO root fetch - processPackages [torch-sconce]: executing diffoscope
+[2023-07-19 07:33:10] INFO root fetch - processPackages [torch-sconce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch-sconce-0.0.2.tar.gz tmp/torch-sconce-0.0.4.tar.gz --markdown 20230719/t/torch-sconce/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-07-19 07:33:10] INFO root fetch - processPackages [ppgee]: Downloading https://files.pythonhosted.org/packages/72/16/470cf209892463fb4098c34cd280233046425a4dd2bc026ad5688e0061cc/ppgee-0.1.3.tar.gz
+[2023-07-19 07:33:10] INFO root fetch - processPackages [ppgee]: executing diffoscope
+[2023-07-19 07:33:10] INFO root fetch - processPackages [ppgee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ppgee-0.1.2.tar.gz tmp/ppgee-0.1.3.tar.gz --markdown 20230719/p/ppgee/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-19 07:33:11] INFO root fetch - processPackages [odoo-addons-oca-social]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_social-16.0.20230614.0-py3-none-any.whl.zip]
+[2023-07-19 07:33:11] INFO root fetch - processPackages [odoo-addons-oca-social]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_social-16.0.20230717.0-py3-none-any.whl.zip]
+[2023-07-19 07:33:11] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-social]: success
+[2023-07-19 07:33:11] INFO root fetch - processPackages [odoo-addon-mail-activity-done]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_activity_done-15.0.1.0.1.3-py3-none-any.whl.zip]
+[2023-07-19 07:33:11] INFO root fetch - processPackages [odoo-addon-mail-activity-done]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_activity_done-15.0.1.0.1.5-py3-none-any.whl.zip]
+[2023-07-19 07:33:11] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-activity-done]: success
+[2023-07-19 07:33:11] INFO root fetch - processPackages [odoo-addon-base-search-mail-content]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_search_mail_content-16.0.1.0.2-py3-none-any.whl.zip]
+[2023-07-19 07:33:11] INFO root fetch - processPackages [odoo-addon-base-search-mail-content]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_search_mail_content-16.0.1.0.2.1-py3-none-any.whl.zip]
+[2023-07-19 07:33:11] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-search-mail-content]: success
+[2023-07-19 07:33:11] INFO root fetch - processPackages [pynamicui]: Remove: archive file [/home/abi/fetcher/tmp/pynamicui-0.0.5.tar.gz]
+[2023-07-19 07:33:11] INFO root fetch - processPackages [pynamicui]: Remove: archive file [/home/abi/fetcher/tmp/pynamicui-0.0.6.tar.gz]
+[2023-07-19 07:33:11] INFO root fetch - main [MainThread]: End processing [pynamicui]: success
+[2023-07-19 07:33:11] INFO root fetch - processPackages [ppgee]: Remove: archive file [/home/abi/fetcher/tmp/ppgee-0.1.2.tar.gz]
+[2023-07-19 07:33:11] INFO root fetch - processPackages [ppgee]: Remove: archive file [/home/abi/fetcher/tmp/ppgee-0.1.3.tar.gz]
+[2023-07-19 07:33:11] INFO root fetch - main [MainThread]: End processing [ppgee]: success
+[2023-07-19 07:33:11] INFO root fetch - processPackages [odoo-addon-mail-optional-follower-notification]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_optional_follower_notification-16.0.1.0.0-py3-none-any.whl.zip]
+[2023-07-19 07:33:11] INFO root fetch - processPackages [odoo-addon-mail-optional-follower-notification]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_optional_follower_notification-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-19 07:33:11] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-optional-follower-notification]: success
+[2023-07-19 07:33:11] INFO root fetch - processPackages [torch-sconce]: Remove: archive file [/home/abi/fetcher/tmp/torch-sconce-0.0.2.tar.gz]
+[2023-07-19 07:33:11] INFO root fetch - processPackages [torch-sconce]: Remove: archive file [/home/abi/fetcher/tmp/torch-sconce-0.0.4.tar.gz]
+[2023-07-19 07:33:11] INFO root fetch - main [MainThread]: End processing [torch-sconce]: success
+[2023-07-19 07:33:12] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_tracking-15.0.3.0.1-py3-none-any.whl.zip]
+[2023-07-19 07:33:12] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_tracking-15.0.3.0.1.2-py3-none-any.whl.zip]
+[2023-07-19 07:33:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-tracking]: success
+[2023-07-19 07:33:13] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.98.tar.gz]
+[2023-07-19 07:33:13] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.99.tar.gz]
+[2023-07-19 07:33:13] INFO root fetch - main [MainThread]: End processing [vessl]: success
+[2023-07-19 07:33:17] INFO root fetch - processPackages [red-utils]: Remove: archive file [/home/abi/fetcher/tmp/red_utils-0.1.3.tar.gz]
+[2023-07-19 07:33:17] INFO root fetch - processPackages [red-utils]: Remove: archive file [/home/abi/fetcher/tmp/red_utils-0.1.4.tar.gz]
+[2023-07-19 07:33:17] INFO root fetch - main [MainThread]: End processing [red-utils]: success
+[2023-07-19 07:33:17] INFO root fetch - main [MainThread]: Store serial: [18945789]
