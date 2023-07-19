@@ -13069,3 +13069,65 @@
 [2023-07-19 06:27:16] INFO root fetch - processPackages [dpdispatcher]: Remove: archive file [/home/abi/fetcher/tmp/dpdispatcher-0.5.9.tar.gz]
 [2023-07-19 06:27:16] INFO root fetch - main [MainThread]: End processing [dpdispatcher]: success
 [2023-07-19 06:27:16] INFO root fetch - main [MainThread]: Store serial: [18945371]
+[2023-07-19 06:32:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18945371]
+[2023-07-19 06:32:25] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-19 06:32:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: carefree-learn
+[2023-07-19 06:32:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lbt-honeybee
+[2023-07-19 06:32:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dragonfly-energy
+[2023-07-19 06:32:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lbt-dragonfly
+[2023-07-19 06:32:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dragonfly-uwg
+[2023-07-19 06:32:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-dlc-provider
+[2023-07-19 06:32:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: launchable
+[2023-07-19 06:32:26] INFO root fetch - processPackages [launchable]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-19 06:32:26] INFO root fetch - processPackages [carefree-learn]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-07-19 06:32:26] INFO root fetch - processPackages [dragonfly-uwg]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-07-19 06:32:26] INFO root fetch - processPackages [dragonfly-energy]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-19 06:32:26] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-07-19 06:32:26] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-19 06:32:26] INFO root fetch - processPackages [tencentcloud-dlc-provider]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-19 06:32:26] INFO root fetch - processPackages [launchable]: Downloading https://files.pythonhosted.org/packages/2e/04/2169ed764cf3f5aadb8a30fda8dc6ede383388a7e3a7a47ed77123c89ddc/launchable-1.8.0.tar.gz
+[2023-07-19 06:32:26] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/a6/3c/7afbd082f170d8d51ed57abdf8bb67058ca404ede70f9d982fd95c8bb807/dragonfly-uwg-0.5.98.tar.gz
+[2023-07-19 06:32:26] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-07-19 06:32:26] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/20/4e/115840f938ee254b23bd515351ba786228441464717f8557431f914e75f4/dragonfly-energy-1.9.8.tar.gz
+[2023-07-19 06:32:26] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/19/59/4901be09b4bc6b97917c58bf3279cb373aa222989b9501e53b4c43213a9e/lbt-honeybee-0.7.98.tar.gz
+[2023-07-19 06:32:26] WARNING root fetch - processPackages [launchable]: Skipping package: exceeds size limit 18312374>=10485760
+[2023-07-19 06:32:26] INFO root fetch - main [MainThread]: End processing [launchable] error
+[2023-07-19 06:32:26] INFO root fetch - processPackages [carefree-learn]: Downloading https://files.pythonhosted.org/packages/c5/53/bd15e956110b6e1ee1cdc228e0814024ae9dd6ff9b03da6b26b3a0b49fb7/carefree-learn-0.4.5.tar.gz
+[2023-07-19 06:32:26] INFO root fetch - processPackages [tencentcloud-dlc-provider]: Downloading https://files.pythonhosted.org/packages/45/15/8c3009a3bd4ba7e65a75a3d18a10a131107be9e4a446a1ed8a5de5acd8c0/tencentcloud-dlc-provider-0.0.2.tar.gz
+[2023-07-19 06:32:26] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-07-19 06:32:26] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/a2/24/156ec161f44515db7966a68d9cc8aa62da7475128d138541e64b86dd4487/lbt-honeybee-0.7.99.tar.gz
+[2023-07-19 06:32:26] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/55/b3/3f9a36d82b87f343d4e196e93a8cf3e838b9c80b0849f927d4f3505355af/dragonfly-uwg-0.5.99.tar.gz
+[2023-07-19 06:32:26] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/09/b6/c12f13159c5beb3b855a32f792faef162ad37358d2e0d3311cbd68a969db/dragonfly-energy-1.9.9.tar.gz
+[2023-07-19 06:32:26] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-07-19 06:32:26] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230719/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-07-19 06:32:26] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-07-19 06:32:26] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230719/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-19 06:32:26] INFO root fetch - processPackages [carefree-learn]: Downloading https://files.pythonhosted.org/packages/8a/f8/420da98ba2a88b853c1c70695a3a867dbdf0f6b4f240c55b0e10156cf2ec/carefree-learn-0.4.6.tar.gz
+[2023-07-19 06:32:26] INFO root fetch - processPackages [tencentcloud-dlc-provider]: Downloading https://files.pythonhosted.org/packages/86/6b/55fdbc5b53a9176dd83c450981a2a968f2debd621c630cbe4e4d6f1fbb2d/tencentcloud-dlc-provider-0.0.3.tar.gz
+[2023-07-19 06:32:26] INFO root fetch - processPackages [dragonfly-energy]: executing diffoscope
+[2023-07-19 06:32:26] INFO root fetch - processPackages [dragonfly-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-energy-1.9.8.tar.gz tmp/dragonfly-energy-1.9.9.tar.gz --markdown 20230719/d/dragonfly-energy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-19 06:32:27] INFO root fetch - processPackages [dragonfly-uwg]: executing diffoscope
+[2023-07-19 06:32:27] INFO root fetch - processPackages [dragonfly-uwg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-uwg-0.5.98.tar.gz tmp/dragonfly-uwg-0.5.99.tar.gz --markdown 20230719/d/dragonfly-uwg/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-07-19 06:32:27] INFO root fetch - processPackages [tencentcloud-dlc-provider]: executing diffoscope
+[2023-07-19 06:32:27] INFO root fetch - processPackages [tencentcloud-dlc-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-dlc-provider-0.0.2.tar.gz tmp/tencentcloud-dlc-provider-0.0.3.tar.gz --markdown 20230719/t/tencentcloud-dlc-provider/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-19 06:32:27] INFO root fetch - processPackages [carefree-learn]: executing diffoscope
+[2023-07-19 06:32:27] INFO root fetch - processPackages [carefree-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carefree-learn-0.4.5.tar.gz tmp/carefree-learn-0.4.6.tar.gz --markdown 20230719/c/carefree-learn/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-07-19 06:32:27] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.98.tar.gz]
+[2023-07-19 06:32:27] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.99.tar.gz]
+[2023-07-19 06:32:27] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-07-19 06:32:27] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2023-07-19 06:32:27] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2023-07-19 06:32:27] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-07-19 06:32:28] INFO root fetch - processPackages [tencentcloud-dlc-provider]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-dlc-provider-0.0.2.tar.gz]
+[2023-07-19 06:32:28] INFO root fetch - processPackages [tencentcloud-dlc-provider]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-dlc-provider-0.0.3.tar.gz]
+[2023-07-19 06:32:28] INFO root fetch - main [MainThread]: End processing [tencentcloud-dlc-provider]: success
+[2023-07-19 06:32:28] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.8.tar.gz]
+[2023-07-19 06:32:28] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.9.tar.gz]
+[2023-07-19 06:32:28] INFO root fetch - main [MainThread]: End processing [dragonfly-energy]: success
+[2023-07-19 06:32:28] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.98.tar.gz]
+[2023-07-19 06:32:28] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.99.tar.gz]
+[2023-07-19 06:32:28] INFO root fetch - main [MainThread]: End processing [dragonfly-uwg]: success
+[2023-07-19 06:32:28] INFO root fetch - processPackages [carefree-learn]: Remove: archive file [/home/abi/fetcher/tmp/carefree-learn-0.4.5.tar.gz]
+[2023-07-19 06:32:28] INFO root fetch - processPackages [carefree-learn]: Remove: archive file [/home/abi/fetcher/tmp/carefree-learn-0.4.6.tar.gz]
+[2023-07-19 06:32:28] INFO root fetch - main [MainThread]: End processing [carefree-learn]: success
+[2023-07-19 06:32:28] INFO root fetch - main [MainThread]: Store serial: [18945391]
