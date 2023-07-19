@@ -7123,3 +7123,198 @@
 [2023-07-19 04:27:56] INFO root fetch - processPackages [ros-cdk-config]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-config-1.0.9.tar.gz]
 [2023-07-19 04:27:56] INFO root fetch - main [MainThread]: End processing [ros-cdk-config]: success
 [2023-07-19 04:27:56] INFO root fetch - main [MainThread]: Store serial: [18943364]
+[2023-07-19 04:33:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18943364]
+[2023-07-19 04:33:05] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-07-19 04:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cachetoolz
+[2023-07-19 04:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aify
+[2023-07-19 04:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ros-cdk-dbs
+[2023-07-19 04:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ros-cdk-oss
+[2023-07-19 04:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cleanlab-studio
+[2023-07-19 04:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jaseci
+[2023-07-19 04:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jac-misc
+[2023-07-19 04:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jac-nlp
+[2023-07-19 04:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jac-vision
+[2023-07-19 04:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jac-speech
+[2023-07-19 04:33:05] INFO root fetch - processPackages [aify]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-19 04:33:05] INFO root fetch - processPackages [ros-cdk-dbs]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 04:33:05] INFO root fetch - processPackages [jac-misc]: New version: [1.4.1.6] Old Version: [1.4.1.5]
+[2023-07-19 04:33:05] INFO root fetch - processPackages [cachetoolz]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-19 04:33:05] INFO root fetch - processPackages [jac-speech]: New version: [1.4.1.6] Old Version: [1.4.1.5]
+[2023-07-19 04:33:05] INFO root fetch - processPackages [cleanlab-studio]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 04:33:05] INFO root fetch - processPackages [jac-nlp]: New version: [1.4.1.6] Old Version: [1.4.1.5]
+[2023-07-19 04:33:05] INFO root fetch - processPackages [ros-cdk-oss]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 04:33:05] INFO root fetch - processPackages [jaseci]: New version: [1.4.1.6] Old Version: [1.4.1.5]
+[2023-07-19 04:33:06] INFO root fetch - processPackages [jac-vision]: New version: [1.4.1.6] Old Version: [1.4.1.5]
+[2023-07-19 04:33:06] INFO root fetch - processPackages [aify]: Downloading https://files.pythonhosted.org/packages/f8/25/27d63c6c3e2a73a93c52f401b3dc2f93de3105aab15ac6394818e78bfc75/aify-0.1.0-py3-none-any.whl
+[2023-07-19 04:33:06] INFO root fetch - processPackages [cachetoolz]: Downloading https://files.pythonhosted.org/packages/f6/b7/dc3118071d9bdeddf11699dc2cab89ab09fc979af4abeaf50f0bec8fb616/cachetoolz-0.1.2.tar.gz
+[2023-07-19 04:33:06] INFO root fetch - processPackages [ros-cdk-dbs]: Downloading https://files.pythonhosted.org/packages/57/fe/e179faef107e3a29dc75b5f95336d4decf4211b595c13708f7fd03a5d4ad/ros-cdk-dbs-1.0.8.tar.gz
+[2023-07-19 04:33:06] INFO root fetch - processPackages [ros-cdk-oss]: Downloading https://files.pythonhosted.org/packages/a5/b8/c2ac5419e05c9605d2cae551c93f7db8cc980bbbcc901875c2bf6217ee41/ros-cdk-oss-1.0.8.tar.gz
+[2023-07-19 04:33:06] INFO root fetch - processPackages [jac-misc]: Downloading https://files.pythonhosted.org/packages/b1/6a/a3426eb4aa745996167795dde88c470b52e1341ede368fd4dd89fb72003e/jac_misc-1.4.1.5.tar.gz
+[2023-07-19 04:33:06] INFO root fetch - processPackages [jac-speech]: Downloading https://files.pythonhosted.org/packages/72/ef/f843efa9c6b6a81e59af5d5f78aa8aed9b4ce3a55fe3af11d994f5bca75c/jac_speech-1.4.1.5.tar.gz
+[2023-07-19 04:33:06] INFO root fetch - processPackages [cleanlab-studio]: Downloading https://files.pythonhosted.org/packages/eb/0e/c12a2ce4f9876b07ff77b367a018025495674a258d19f2188e65f655d352/cleanlab-studio-1.0.8.tar.gz
+[2023-07-19 04:33:06] INFO root fetch - processPackages [jac-vision]: Downloading https://files.pythonhosted.org/packages/35/36/8e1298cd810784dc5abe925a30bd72e7ae953f1a9e53bf1b9d32cc33849e/jac_vision-1.4.1.5.tar.gz
+[2023-07-19 04:33:06] INFO root fetch - processPackages [jac-nlp]: Downloading https://files.pythonhosted.org/packages/8f/ff/5dff8c5cdba01e049dcca5bbc66266b4acf7faee13150c8ac34c72cc5430/jac_nlp-1.4.1.5.tar.gz
+[2023-07-19 04:33:06] INFO root fetch - processPackages [jaseci]: Downloading https://files.pythonhosted.org/packages/65/62/08ba83fef90ccbeef34bdb72b8579eb287d313b3d386aaa6ad5e9eed693c/jaseci-1.4.1.5.tar.gz
+[2023-07-19 04:33:06] INFO root fetch - processPackages [aify]: Downloading https://files.pythonhosted.org/packages/16/77/3af94aa9c76da429b46e3c38485a83d7ce8d29266f2797a3d6c964dc6723/aify-0.1.1-py3-none-any.whl
+[2023-07-19 04:33:06] INFO root fetch - processPackages [cachetoolz]: Downloading https://files.pythonhosted.org/packages/34/ed/b98f31051feb79f2eb1f204e59e2b4ce9eb5264ea5563cfc2ee12249ec3a/cachetoolz-0.1.3.tar.gz
+[2023-07-19 04:33:06] INFO root fetch - processPackages [aify]: executing diffoscope
+[2023-07-19 04:33:06] INFO root fetch - processPackages [aify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aify-0.1.0-py3-none-any.whl.zip tmp/aify-0.1.1-py3-none-any.whl.zip --markdown 20230719/a/aify/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-19 04:33:06] INFO root fetch - processPackages [jac-nlp]: Downloading https://files.pythonhosted.org/packages/7a/23/41aae439fd871d3c4d5441b23afda49e5af8da02010e282c99fcc0922404/jac_nlp-1.4.1.6.tar.gz
+[2023-07-19 04:33:06] INFO root fetch - processPackages [jac-misc]: Downloading https://files.pythonhosted.org/packages/90/0b/a8c0589c002733d75e86549f9f60a55347d58000559c00d9f5925de52a33/jac_misc-1.4.1.6.tar.gz
+[2023-07-19 04:33:06] INFO root fetch - processPackages [jac-vision]: Downloading https://files.pythonhosted.org/packages/39/c2/36981d9199caf2fb9c5cf1f44260b499b4a9db18fbfc32617ba326c1e964/jac_vision-1.4.1.6.tar.gz
+[2023-07-19 04:33:06] INFO root fetch - processPackages [ros-cdk-dbs]: Downloading https://files.pythonhosted.org/packages/ed/5a/b4ecfe8b5a977efa7685dc14bb3de40caff977257e8a71efc22414fab9d2/ros-cdk-dbs-1.0.9.tar.gz
+[2023-07-19 04:33:06] INFO root fetch - processPackages [cleanlab-studio]: Downloading https://files.pythonhosted.org/packages/ae/39/22640d9d32e28918b21d4c882a1fa692bc08fb6fa199085a1432593f580e/cleanlab-studio-1.0.9.tar.gz
+[2023-07-19 04:33:06] INFO root fetch - processPackages [cachetoolz]: executing diffoscope
+[2023-07-19 04:33:06] INFO root fetch - processPackages [cachetoolz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cachetoolz-0.1.2.tar.gz tmp/cachetoolz-0.1.3.tar.gz --markdown 20230719/c/cachetoolz/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-19 04:33:06] INFO root fetch - processPackages [jac-speech]: Downloading https://files.pythonhosted.org/packages/6a/af/e4aec951024528966881aa09cca36c63ca27c405fe7aa3eba643c832937a/jac_speech-1.4.1.6.tar.gz
+[2023-07-19 04:33:06] INFO root fetch - processPackages [jac-misc]: executing diffoscope
+[2023-07-19 04:33:06] INFO root fetch - processPackages [jac-misc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jac_misc-1.4.1.5.tar.gz tmp/jac_misc-1.4.1.6.tar.gz --markdown 20230719/j/jac-misc/1.4.1.5-1.4.1.6/diff.md --exclude *.pyd
+[2023-07-19 04:33:06] INFO root fetch - processPackages [jac-nlp]: executing diffoscope
+[2023-07-19 04:33:06] INFO root fetch - processPackages [jac-nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jac_nlp-1.4.1.5.tar.gz tmp/jac_nlp-1.4.1.6.tar.gz --markdown 20230719/j/jac-nlp/1.4.1.5-1.4.1.6/diff.md --exclude *.pyd
+[2023-07-19 04:33:07] INFO root fetch - processPackages [jac-vision]: executing diffoscope
+[2023-07-19 04:33:07] INFO root fetch - processPackages [jac-vision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jac_vision-1.4.1.5.tar.gz tmp/jac_vision-1.4.1.6.tar.gz --markdown 20230719/j/jac-vision/1.4.1.5-1.4.1.6/diff.md --exclude *.pyd
+[2023-07-19 04:33:07] INFO root fetch - processPackages [ros-cdk-dbs]: executing diffoscope
+[2023-07-19 04:33:07] INFO root fetch - processPackages [ros-cdk-dbs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-dbs-1.0.8.tar.gz tmp/ros-cdk-dbs-1.0.9.tar.gz --markdown 20230719/r/ros-cdk-dbs/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 04:33:07] INFO root fetch - processPackages [cleanlab-studio]: executing diffoscope
+[2023-07-19 04:33:07] INFO root fetch - processPackages [cleanlab-studio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cleanlab-studio-1.0.8.tar.gz tmp/cleanlab-studio-1.0.9.tar.gz --markdown 20230719/c/cleanlab-studio/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 04:33:07] INFO root fetch - processPackages [jaseci]: Downloading https://files.pythonhosted.org/packages/91/99/2cd8bd5f69704181bd5de024f14e239c1e28c81adca3655b429b0109c2f2/jaseci-1.4.1.6.tar.gz
+[2023-07-19 04:33:07] INFO root fetch - processPackages [jac-speech]: executing diffoscope
+[2023-07-19 04:33:07] INFO root fetch - processPackages [jac-speech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jac_speech-1.4.1.5.tar.gz tmp/jac_speech-1.4.1.6.tar.gz --markdown 20230719/j/jac-speech/1.4.1.5-1.4.1.6/diff.md --exclude *.pyd
+[2023-07-19 04:33:07] INFO root fetch - processPackages [jaseci]: executing diffoscope
+[2023-07-19 04:33:07] INFO root fetch - processPackages [jaseci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaseci-1.4.1.5.tar.gz tmp/jaseci-1.4.1.6.tar.gz --markdown 20230719/j/jaseci/1.4.1.5-1.4.1.6/diff.md --exclude *.pyd
+[2023-07-19 04:33:07] INFO root fetch - processPackages [ros-cdk-oss]: Downloading https://files.pythonhosted.org/packages/97/44/a47ac5301ba96430211be492cdcc79a0e95bf88b5fd492d06266fe025f2b/ros-cdk-oss-1.0.9.tar.gz
+[2023-07-19 04:33:08] INFO root fetch - processPackages [ros-cdk-oss]: executing diffoscope
+[2023-07-19 04:33:08] INFO root fetch - processPackages [ros-cdk-oss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-oss-1.0.8.tar.gz tmp/ros-cdk-oss-1.0.9.tar.gz --markdown 20230719/r/ros-cdk-oss/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 04:33:08] INFO root fetch - processPackages [cachetoolz]: Remove: archive file [/home/abi/fetcher/tmp/cachetoolz-0.1.2.tar.gz]
+[2023-07-19 04:33:08] INFO root fetch - processPackages [cachetoolz]: Remove: archive file [/home/abi/fetcher/tmp/cachetoolz-0.1.3.tar.gz]
+[2023-07-19 04:33:08] INFO root fetch - processPackages [cachetoolz]: Start processing: ros-cdk-sls
+[2023-07-19 04:33:08] INFO root fetch - main [MainThread]: End processing [cachetoolz]: success
+[2023-07-19 04:33:08] INFO root fetch - processPackages [ros-cdk-sls]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 04:33:08] INFO root fetch - processPackages [ros-cdk-dbs]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dbs-1.0.8.tar.gz]
+[2023-07-19 04:33:08] INFO root fetch - processPackages [ros-cdk-dbs]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dbs-1.0.9.tar.gz]
+[2023-07-19 04:33:08] INFO root fetch - processPackages [ros-cdk-dbs]: Start processing: ros-cdk-privatelink
+[2023-07-19 04:33:08] INFO root fetch - main [MainThread]: End processing [ros-cdk-dbs]: success
+[2023-07-19 04:33:08] INFO root fetch - processPackages [jac-speech]: Remove: archive file [/home/abi/fetcher/tmp/jac_speech-1.4.1.5.tar.gz]
+[2023-07-19 04:33:08] INFO root fetch - processPackages [jac-speech]: Remove: archive file [/home/abi/fetcher/tmp/jac_speech-1.4.1.6.tar.gz]
+[2023-07-19 04:33:08] INFO root fetch - processPackages [jac-speech]: Start processing: herta-villa-sdk
+[2023-07-19 04:33:08] INFO root fetch - main [MainThread]: End processing [jac-speech]: success
+[2023-07-19 04:33:08] INFO root fetch - processPackages [jac-vision]: Remove: archive file [/home/abi/fetcher/tmp/jac_vision-1.4.1.5.tar.gz]
+[2023-07-19 04:33:08] INFO root fetch - processPackages [jac-vision]: Remove: archive file [/home/abi/fetcher/tmp/jac_vision-1.4.1.6.tar.gz]
+[2023-07-19 04:33:08] INFO root fetch - processPackages [jac-vision]: Start processing: Alphakit
+[2023-07-19 04:33:08] INFO root fetch - main [MainThread]: End processing [jac-vision]: success
+[2023-07-19 04:33:08] INFO root fetch - processPackages [ros-cdk-privatelink]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 04:33:08] INFO root fetch - processPackages [herta-villa-sdk]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-19 04:33:08] INFO root fetch - processPackages [jac-misc]: Remove: archive file [/home/abi/fetcher/tmp/jac_misc-1.4.1.5.tar.gz]
+[2023-07-19 04:33:08] INFO root fetch - processPackages [jac-misc]: Remove: archive file [/home/abi/fetcher/tmp/jac_misc-1.4.1.6.tar.gz]
+[2023-07-19 04:33:08] INFO root fetch - processPackages [jac-misc]: Start processing: singlefactortest
+[2023-07-19 04:33:08] INFO root fetch - main [MainThread]: End processing [jac-misc]: success
+[2023-07-19 04:33:08] INFO root fetch - processPackages [cleanlab-studio]: Remove: archive file [/home/abi/fetcher/tmp/cleanlab-studio-1.0.8.tar.gz]
+[2023-07-19 04:33:08] INFO root fetch - processPackages [cleanlab-studio]: Remove: archive file [/home/abi/fetcher/tmp/cleanlab-studio-1.0.9.tar.gz]
+[2023-07-19 04:33:08] INFO root fetch - processPackages [cleanlab-studio]: Start processing: jaseci-serv
+[2023-07-19 04:33:08] INFO root fetch - main [MainThread]: End processing [cleanlab-studio]: success
+[2023-07-19 04:33:08] INFO root fetch - processPackages [ros-cdk-sls]: Downloading https://files.pythonhosted.org/packages/43/82/7794729e60d5790b0ce831d9b6a58b58e38c91ff00b8d49f29eb06032b32/ros-cdk-sls-1.0.8.tar.gz
+[2023-07-19 04:33:08] WARNING root fetch - processPackages [singlefactortest]: Skipping, unable to determine old version
+[2023-07-19 04:33:08] INFO root fetch - processPackages [singlefactortest]: Start processing: ros-cdk-vod
+[2023-07-19 04:33:08] INFO root fetch - main [MainThread]: End processing [singlefactortest] error
+[2023-07-19 04:33:08] INFO root fetch - processPackages [jaseci-serv]: New version: [1.4.1.6] Old Version: [1.4.1.5]
+[2023-07-19 04:33:08] INFO root fetch - processPackages [jac-nlp]: Remove: archive file [/home/abi/fetcher/tmp/jac_nlp-1.4.1.5.tar.gz]
+[2023-07-19 04:33:08] INFO root fetch - processPackages [jac-nlp]: Remove: archive file [/home/abi/fetcher/tmp/jac_nlp-1.4.1.6.tar.gz]
+[2023-07-19 04:33:08] INFO root fetch - processPackages [jac-nlp]: Start processing: ros-cdk-ecs
+[2023-07-19 04:33:08] INFO root fetch - main [MainThread]: End processing [jac-nlp]: success
+[2023-07-19 04:33:08] INFO root fetch - processPackages [ros-cdk-privatelink]: Downloading https://files.pythonhosted.org/packages/f1/cc/2c082bbb93cb9856c65637cbe2361b71bc21a1bceef61319c59c79800795/ros-cdk-privatelink-1.0.8.tar.gz
+[2023-07-19 04:33:08] INFO root fetch - processPackages [herta-villa-sdk]: Downloading https://files.pythonhosted.org/packages/8a/63/588201289354a5384522a15d45bbb8c57a852f2092e37c8c479316aebb9b/herta_villa_sdk-0.6.0.tar.gz
+[2023-07-19 04:33:08] INFO root fetch - processPackages [Alphakit]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-07-19 04:33:09] INFO root fetch - processPackages [ros-cdk-vod]: New version: [1.0.16] Old Version: [1.0.15]
+[2023-07-19 04:33:09] INFO root fetch - processPackages [ros-cdk-ecs]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 04:33:09] INFO root fetch - processPackages [ros-cdk-oss]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-oss-1.0.8.tar.gz]
+[2023-07-19 04:33:09] INFO root fetch - processPackages [ros-cdk-oss]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-oss-1.0.9.tar.gz]
+[2023-07-19 04:33:09] INFO root fetch - processPackages [ros-cdk-oss]: Start processing: nonebot-plugin-dall-e
+[2023-07-19 04:33:09] INFO root fetch - main [MainThread]: End processing [ros-cdk-oss]: success
+[2023-07-19 04:33:09] INFO root fetch - processPackages [jaseci-serv]: Downloading https://files.pythonhosted.org/packages/4c/44/ff61e5a4dc4fdc921280df2f529ec3daf8228cd733686f749dd36b7d5c4e/jaseci_serv-1.4.1.5.tar.gz
+[2023-07-19 04:33:09] INFO root fetch - processPackages [Alphakit]: Downloading https://files.pythonhosted.org/packages/57/93/e414460631933e40882e5ece7788db9c52e807988e277da26d3f504f6f4f/Alphakit-1.2.3.tar.gz
+[2023-07-19 04:33:09] INFO root fetch - processPackages [nonebot-plugin-dall-e]: New version: [0.4] Old Version: [0.3]
+[2023-07-19 04:33:09] INFO root fetch - processPackages [ros-cdk-vod]: Downloading https://files.pythonhosted.org/packages/b9/a3/ff16984b8e572c6786f4dae26ef72fd403c7b1633bd515afabc2061b850c/ros-cdk-vod-1.0.15.tar.gz
+[2023-07-19 04:33:09] INFO root fetch - processPackages [ros-cdk-ecs]: Downloading https://files.pythonhosted.org/packages/b8/dc/4d8f536da0ccdadad4e0b61144a3c22557401b784fd85b11f4e99134ce4c/ros-cdk-ecs-1.0.8.tar.gz
+[2023-07-19 04:33:09] INFO root fetch - processPackages [ros-cdk-sls]: Downloading https://files.pythonhosted.org/packages/df/d3/f86784db438f6b60ee4de02bc0e96c9cdaf841b69851cf4f7f1dece80591/ros-cdk-sls-1.0.9.tar.gz
+[2023-07-19 04:33:09] INFO root fetch - processPackages [jaseci]: Remove: archive file [/home/abi/fetcher/tmp/jaseci-1.4.1.5.tar.gz]
+[2023-07-19 04:33:09] INFO root fetch - processPackages [jaseci]: Remove: archive file [/home/abi/fetcher/tmp/jaseci-1.4.1.6.tar.gz]
+[2023-07-19 04:33:09] INFO root fetch - processPackages [jaseci]: Start processing: sphinxcontrib-moderncmakedomain
+[2023-07-19 04:33:09] INFO root fetch - main [MainThread]: End processing [jaseci]: success
+[2023-07-19 04:33:09] INFO root fetch - processPackages [ros-cdk-privatelink]: Downloading https://files.pythonhosted.org/packages/d2/74/5f0b9dfdf8f29683f485682ed3cf1414974936e669f394a649d975714e0e/ros-cdk-privatelink-1.0.9.tar.gz
+[2023-07-19 04:33:09] INFO root fetch - processPackages [herta-villa-sdk]: Downloading https://files.pythonhosted.org/packages/40/01/165479681bf61f2760464c06c00ed2a554d3af9cee714662457feba9efae/herta_villa_sdk-0.6.1.tar.gz
+[2023-07-19 04:33:09] INFO root fetch - processPackages [nonebot-plugin-dall-e]: Downloading https://files.pythonhosted.org/packages/f2/6f/378ef612d7b43f1caff055613a8fcc1aaefd6edcc8fe33989d2bcd38da89/nonebot_plugin_dall-e-0.3.tar.gz
+[2023-07-19 04:33:09] INFO root fetch - processPackages [ros-cdk-sls]: executing diffoscope
+[2023-07-19 04:33:09] INFO root fetch - processPackages [ros-cdk-sls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-sls-1.0.8.tar.gz tmp/ros-cdk-sls-1.0.9.tar.gz --markdown 20230719/r/ros-cdk-sls/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 04:33:09] INFO root fetch - processPackages [sphinxcontrib-moderncmakedomain]: New version: [3.27.0] Old Version: [3.26.4]
+[2023-07-19 04:33:09] INFO root fetch - processPackages [Alphakit]: Downloading https://files.pythonhosted.org/packages/b0/35/a5d4310c368773fc0d290b7622ad2266a7f4d6b9a247523b46966700bade/Alphakit-1.2.4.tar.gz
+[2023-07-19 04:33:09] INFO root fetch - processPackages [jaseci-serv]: Downloading https://files.pythonhosted.org/packages/3e/7f/b0d91c1993fffa0059aa680354714604b4d662f2e814a0e2779c015836b8/jaseci_serv-1.4.1.6.tar.gz
+[2023-07-19 04:33:09] INFO root fetch - processPackages [herta-villa-sdk]: executing diffoscope
+[2023-07-19 04:33:09] INFO root fetch - processPackages [herta-villa-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/herta_villa_sdk-0.6.0.tar.gz tmp/herta_villa_sdk-0.6.1.tar.gz --markdown 20230719/h/herta-villa-sdk/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-19 04:33:09] INFO root fetch - processPackages [ros-cdk-privatelink]: executing diffoscope
+[2023-07-19 04:33:09] INFO root fetch - processPackages [ros-cdk-privatelink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-privatelink-1.0.8.tar.gz tmp/ros-cdk-privatelink-1.0.9.tar.gz --markdown 20230719/r/ros-cdk-privatelink/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 04:33:09] INFO root fetch - processPackages [ros-cdk-vod]: Downloading https://files.pythonhosted.org/packages/9c/6d/a54ad29830ba74d5a3b937de28cd45fade8e20bdcb54b0db3533f58cc698/ros-cdk-vod-1.0.16.tar.gz
+[2023-07-19 04:33:09] INFO root fetch - processPackages [Alphakit]: executing diffoscope
+[2023-07-19 04:33:09] INFO root fetch - processPackages [Alphakit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Alphakit-1.2.3.tar.gz tmp/Alphakit-1.2.4.tar.gz --markdown 20230719/A/Alphakit/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-07-19 04:33:09] INFO root fetch - processPackages [sphinxcontrib-moderncmakedomain]: Downloading https://files.pythonhosted.org/packages/cc/68/2287c700e37887bb0f3b06a88e1d2a27f5bf522d3c4de18c5160935b5450/sphinxcontrib_moderncmakedomain-3.26.4.tar.gz
+[2023-07-19 04:33:09] INFO root fetch - processPackages [nonebot-plugin-dall-e]: Downloading https://files.pythonhosted.org/packages/25/b9/e508fa270382f36221e4791b75b6aea4490f4efb063a671801478b430cdd/nonebot_plugin_dall-e-0.4.tar.gz
+[2023-07-19 04:33:09] INFO root fetch - processPackages [jaseci-serv]: executing diffoscope
+[2023-07-19 04:33:09] INFO root fetch - processPackages [jaseci-serv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaseci_serv-1.4.1.5.tar.gz tmp/jaseci_serv-1.4.1.6.tar.gz --markdown 20230719/j/jaseci-serv/1.4.1.5-1.4.1.6/diff.md --exclude *.pyd
+[2023-07-19 04:33:09] INFO root fetch - processPackages [ros-cdk-vod]: executing diffoscope
+[2023-07-19 04:33:09] INFO root fetch - processPackages [ros-cdk-vod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-vod-1.0.15.tar.gz tmp/ros-cdk-vod-1.0.16.tar.gz --markdown 20230719/r/ros-cdk-vod/1.0.15-1.0.16/diff.md --exclude *.pyd
+[2023-07-19 04:33:09] INFO root fetch - processPackages [ros-cdk-ecs]: Downloading https://files.pythonhosted.org/packages/3a/15/8d8cb5408298eea80071698c66dd31874bf70897a42bf316f9575236aa30/ros-cdk-ecs-1.0.9.tar.gz
+[2023-07-19 04:33:10] INFO root fetch - processPackages [nonebot-plugin-dall-e]: executing diffoscope
+[2023-07-19 04:33:10] INFO root fetch - processPackages [nonebot-plugin-dall-e]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_dall-e-0.3.tar.gz tmp/nonebot_plugin_dall-e-0.4.tar.gz --markdown 20230719/n/nonebot-plugin-dall-e/0.3-0.4/diff.md --exclude *.pyd
+[2023-07-19 04:33:10] INFO root fetch - processPackages [ros-cdk-ecs]: executing diffoscope
+[2023-07-19 04:33:10] INFO root fetch - processPackages [ros-cdk-ecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-ecs-1.0.8.tar.gz tmp/ros-cdk-ecs-1.0.9.tar.gz --markdown 20230719/r/ros-cdk-ecs/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 04:33:10] INFO root fetch - processPackages [sphinxcontrib-moderncmakedomain]: Downloading https://files.pythonhosted.org/packages/f7/3a/336fab1fe68263cbc4d9c832e3bf5e410315167091ca124fc6a889d1f96a/sphinxcontrib_moderncmakedomain-3.27.0.tar.gz
+[2023-07-19 04:33:10] INFO root fetch - processPackages [sphinxcontrib-moderncmakedomain]: executing diffoscope
+[2023-07-19 04:33:10] INFO root fetch - processPackages [sphinxcontrib-moderncmakedomain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinxcontrib_moderncmakedomain-3.26.4.tar.gz tmp/sphinxcontrib_moderncmakedomain-3.27.0.tar.gz --markdown 20230719/s/sphinxcontrib-moderncmakedomain/3.26.4-3.27.0/diff.md --exclude *.pyd
+[2023-07-19 04:33:11] INFO root fetch - processPackages [ros-cdk-sls]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-sls-1.0.8.tar.gz]
+[2023-07-19 04:33:11] INFO root fetch - processPackages [ros-cdk-sls]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-sls-1.0.9.tar.gz]
+[2023-07-19 04:33:11] INFO root fetch - processPackages [ros-cdk-sls]: Start processing: trackplot
+[2023-07-19 04:33:11] INFO root fetch - main [MainThread]: End processing [ros-cdk-sls]: success
+[2023-07-19 04:33:11] INFO root fetch - processPackages [ros-cdk-privatelink]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-privatelink-1.0.8.tar.gz]
+[2023-07-19 04:33:11] INFO root fetch - processPackages [ros-cdk-privatelink]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-privatelink-1.0.9.tar.gz]
+[2023-07-19 04:33:11] INFO root fetch - processPackages [ros-cdk-privatelink]: Start processing: bioregistry
+[2023-07-19 04:33:11] INFO root fetch - main [MainThread]: End processing [ros-cdk-privatelink]: success
+[2023-07-19 04:33:11] INFO root fetch - processPackages [trackplot]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-19 04:33:11] INFO root fetch - processPackages [herta-villa-sdk]: Remove: archive file [/home/abi/fetcher/tmp/herta_villa_sdk-0.6.0.tar.gz]
+[2023-07-19 04:33:11] INFO root fetch - processPackages [herta-villa-sdk]: Remove: archive file [/home/abi/fetcher/tmp/herta_villa_sdk-0.6.1.tar.gz]
+[2023-07-19 04:33:11] INFO root fetch - main [MainThread]: End processing [herta-villa-sdk]: success
+[2023-07-19 04:33:11] INFO root fetch - processPackages [ros-cdk-vod]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-vod-1.0.15.tar.gz]
+[2023-07-19 04:33:11] INFO root fetch - processPackages [ros-cdk-vod]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-vod-1.0.16.tar.gz]
+[2023-07-19 04:33:11] INFO root fetch - main [MainThread]: End processing [ros-cdk-vod]: success
+[2023-07-19 04:33:11] INFO root fetch - processPackages [bioregistry]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-19 04:33:11] INFO root fetch - processPackages [nonebot-plugin-dall-e]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_dall-e-0.3.tar.gz]
+[2023-07-19 04:33:11] INFO root fetch - processPackages [nonebot-plugin-dall-e]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_dall-e-0.4.tar.gz]
+[2023-07-19 04:33:11] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-dall-e]: success
+[2023-07-19 04:33:11] INFO root fetch - processPackages [trackplot]: Downloading https://files.pythonhosted.org/packages/db/a3/e1a4c45225518714449c074abde232a32595839f81d490873e0f8a7ea3f9/trackplot-0.2.7.tar.gz
+[2023-07-19 04:33:11] INFO root fetch - processPackages [Alphakit]: Remove: archive file [/home/abi/fetcher/tmp/Alphakit-1.2.3.tar.gz]
+[2023-07-19 04:33:11] INFO root fetch - processPackages [Alphakit]: Remove: archive file [/home/abi/fetcher/tmp/Alphakit-1.2.4.tar.gz]
+[2023-07-19 04:33:11] INFO root fetch - main [MainThread]: End processing [Alphakit]: success
+[2023-07-19 04:33:11] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/4e/f6/973ccd4316a05888c3eb85264c9bad233e8f486e3bd1d3ed06d5c5e3504c/bioregistry-0.9.8.tar.gz
+[2023-07-19 04:33:11] INFO root fetch - processPackages [sphinxcontrib-moderncmakedomain]: Remove: archive file [/home/abi/fetcher/tmp/sphinxcontrib_moderncmakedomain-3.26.4.tar.gz]
+[2023-07-19 04:33:11] INFO root fetch - processPackages [sphinxcontrib-moderncmakedomain]: Remove: archive file [/home/abi/fetcher/tmp/sphinxcontrib_moderncmakedomain-3.27.0.tar.gz]
+[2023-07-19 04:33:11] INFO root fetch - main [MainThread]: End processing [sphinxcontrib-moderncmakedomain]: success
+[2023-07-19 04:33:11] INFO root fetch - processPackages [trackplot]: Downloading https://files.pythonhosted.org/packages/69/5c/f82adba27a84896603e99e4086aea366d3d33f85aeba3a5a2193cdb6d3cb/trackplot-0.2.8.tar.gz
+[2023-07-19 04:33:11] INFO root fetch - processPackages [ros-cdk-ecs]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ecs-1.0.8.tar.gz]
+[2023-07-19 04:33:11] INFO root fetch - processPackages [ros-cdk-ecs]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ecs-1.0.9.tar.gz]
+[2023-07-19 04:33:11] INFO root fetch - main [MainThread]: End processing [ros-cdk-ecs]: success
+[2023-07-19 04:33:12] INFO root fetch - processPackages [trackplot]: executing diffoscope
+[2023-07-19 04:33:12] INFO root fetch - processPackages [trackplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trackplot-0.2.7.tar.gz tmp/trackplot-0.2.8.tar.gz --markdown 20230719/t/trackplot/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-19 04:33:12] INFO root fetch - processPackages [jaseci-serv]: Remove: archive file [/home/abi/fetcher/tmp/jaseci_serv-1.4.1.5.tar.gz]
+[2023-07-19 04:33:12] INFO root fetch - processPackages [jaseci-serv]: Remove: archive file [/home/abi/fetcher/tmp/jaseci_serv-1.4.1.6.tar.gz]
+[2023-07-19 04:33:12] INFO root fetch - main [MainThread]: End processing [jaseci-serv]: success
+[2023-07-19 04:33:12] INFO root fetch - processPackages [trackplot]: Remove: archive file [/home/abi/fetcher/tmp/trackplot-0.2.7.tar.gz]
+[2023-07-19 04:33:12] INFO root fetch - processPackages [trackplot]: Remove: archive file [/home/abi/fetcher/tmp/trackplot-0.2.8.tar.gz]
+[2023-07-19 04:33:12] INFO root fetch - main [MainThread]: End processing [trackplot]: success
+[2023-07-19 04:33:13] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/5b/a2/66d69f3acb3d998356aaa7ccffe5395fb3221c2f99dd12100c6abf1826b4/bioregistry-0.9.9.tar.gz
+[2023-07-19 04:33:15] INFO root fetch - processPackages [bioregistry]: executing diffoscope
+[2023-07-19 04:33:15] INFO root fetch - processPackages [bioregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioregistry-0.9.8.tar.gz tmp/bioregistry-0.9.9.tar.gz --markdown 20230719/b/bioregistry/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-19 04:33:15] INFO root fetch - processPackages [aify]: Remove: archive file [/home/abi/fetcher/tmp/aify-0.1.0-py3-none-any.whl.zip]
+[2023-07-19 04:33:15] INFO root fetch - processPackages [aify]: Remove: archive file [/home/abi/fetcher/tmp/aify-0.1.1-py3-none-any.whl.zip]
+[2023-07-19 04:33:15] INFO root fetch - main [MainThread]: End processing [aify]: success
+[2023-07-19 04:35:11] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.8.tar.gz]
+[2023-07-19 04:35:11] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.9.tar.gz]
+[2023-07-19 04:35:11] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
+[2023-07-19 04:35:11] INFO root fetch - main [MainThread]: Store serial: [18943424]
