@@ -14354,3 +14354,63 @@
 [2023-07-19 07:38:27] INFO root fetch - processPackages [xnatuploader]: Remove: archive file [/home/abi/fetcher/tmp/xnatuploader-1.1.3.tar.gz]
 [2023-07-19 07:38:27] INFO root fetch - main [MainThread]: End processing [xnatuploader]: success
 [2023-07-19 07:38:27] INFO root fetch - main [MainThread]: Store serial: [18945802]
+[2023-07-19 07:43:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18945802]
+[2023-07-19 07:43:36] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-19 07:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FiveMCipherFinder
+[2023-07-19 07:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-stock-reserve-rule
+[2023-07-19 07:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-url-tokenizer
+[2023-07-19 07:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: auto-test-common
+[2023-07-19 07:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo8-addon-picking-dispatch
+[2023-07-19 07:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: passwgeneration
+[2023-07-19 07:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pymycobot
+[2023-07-19 07:43:36] INFO root fetch - processPackages [django-url-tokenizer]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 07:43:36] INFO root fetch - processPackages [auto-test-common]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 07:43:36] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/58/fc/c297e12ea86d40bc35c3034412e468c38bef18667e6adfe0b24802b0e417/django-url-tokenizer-0.0.8.tar.gz
+[2023-07-19 07:43:36] INFO root fetch - processPackages [odoo8-addon-picking-dispatch]: New version: [8.0.1.2.3.99.dev54] Old Version: [8.0.1.2.3.99.dev53]
+[2023-07-19 07:43:36] INFO root fetch - processPackages [FiveMCipherFinder]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-07-19 07:43:36] INFO root fetch - processPackages [odoo14-addon-stock-reserve-rule]: New version: [14.0.1.2.1.dev3] Old Version: [14.0.1.2.1.dev2]
+[2023-07-19 07:43:36] INFO root fetch - processPackages [pymycobot]: New version: [3.1.6b3] Old Version: [3.1.6b2]
+[2023-07-19 07:43:36] WARNING root fetch - processPackages [passwgeneration]: Skipping, unable to determine old version
+[2023-07-19 07:43:36] INFO root fetch - main [MainThread]: End processing [passwgeneration] error
+[2023-07-19 07:43:36] INFO root fetch - processPackages [odoo14-addon-stock-reserve-rule]: Downloading https://files.pythonhosted.org/packages/d6/28/466c61ce49b120c3f86dd2c9bf2e5ea8e87847c4748486722528787ceb09/odoo14_addon_stock_reserve_rule-14.0.1.2.1.dev2-py3-none-any.whl
+[2023-07-19 07:43:37] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/32/5d/a940c7c89c47caa8d7d717ec993cadc32acaee6b8e51af4b6c99b06a303e/auto-test-common-1.0.8.tar.gz
+[2023-07-19 07:43:37] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/c5/13/df27d1141ec44b1c35f247440fc5cb506efe40a15cbed84328a82cab2d67/django-url-tokenizer-0.0.9.tar.gz
+[2023-07-19 07:43:37] INFO root fetch - processPackages [odoo8-addon-picking-dispatch]: Downloading https://files.pythonhosted.org/packages/48/3d/bb8c059e1691c297521bc0511e0307d041e69b98a38cf52a7a5b79322d9f/odoo8_addon_picking_dispatch-8.0.1.2.3.99.dev53-py2-none-any.whl
+[2023-07-19 07:43:37] INFO root fetch - processPackages [FiveMCipherFinder]: Downloading https://files.pythonhosted.org/packages/59/01/8fd98837b2d15711444a941c14ef559b1858fa018f2d3543af1b8b35e0d0/FiveMCipherFinder-2.2.0.tar.gz
+[2023-07-19 07:43:37] INFO root fetch - processPackages [pymycobot]: Downloading https://files.pythonhosted.org/packages/b9/7f/17f62b506ee789b94289ec18d6aa2aaf5982e43aff0e75cb5f08d4516e40/pymycobot-3.1.6b2.tar.gz
+[2023-07-19 07:43:37] INFO root fetch - processPackages [django-url-tokenizer]: executing diffoscope
+[2023-07-19 07:43:37] INFO root fetch - processPackages [django-url-tokenizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-url-tokenizer-0.0.8.tar.gz tmp/django-url-tokenizer-0.0.9.tar.gz --markdown 20230719/d/django-url-tokenizer/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 07:43:37] INFO root fetch - processPackages [odoo14-addon-stock-reserve-rule]: Downloading https://files.pythonhosted.org/packages/e0/85/a1f620884d7b87045ba6e3b8fb85aec42e8dc757799e3c27d4d67bda6728/odoo14_addon_stock_reserve_rule-14.0.1.2.1.dev3-py3-none-any.whl
+[2023-07-19 07:43:37] INFO root fetch - processPackages [odoo14-addon-stock-reserve-rule]: executing diffoscope
+[2023-07-19 07:43:37] INFO root fetch - processPackages [odoo14-addon-stock-reserve-rule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_reserve_rule-14.0.1.2.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_stock_reserve_rule-14.0.1.2.1.dev3-py3-none-any.whl.zip --markdown 20230719/o/odoo14-addon-stock-reserve-rule/14.0.1.2.1.dev2-14.0.1.2.1.dev3/diff.md --exclude *.pyd
+[2023-07-19 07:43:37] INFO root fetch - processPackages [FiveMCipherFinder]: Downloading https://files.pythonhosted.org/packages/06/48/1703ec8a661108748d7fa30f496e2e4ef20181cc2ca44e4cb4dd52ca373d/FiveMCipherFinder-2.3.0.tar.gz
+[2023-07-19 07:43:37] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/02/72/7059e44b7cdcc0ef7e311e32e112b1bbc1c433726e8aba80f7591c6a5e89/auto-test-common-1.0.9.tar.gz
+[2023-07-19 07:43:37] INFO root fetch - processPackages [FiveMCipherFinder]: executing diffoscope
+[2023-07-19 07:43:37] INFO root fetch - processPackages [FiveMCipherFinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FiveMCipherFinder-2.2.0.tar.gz tmp/FiveMCipherFinder-2.3.0.tar.gz --markdown 20230719/F/FiveMCipherFinder/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-07-19 07:43:37] INFO root fetch - processPackages [pymycobot]: Downloading https://files.pythonhosted.org/packages/1e/00/68278c8e48d007afd1a6722d53782fa106dc312d4e3a420bdd46842ac929/pymycobot-3.1.6b3.tar.gz
+[2023-07-19 07:43:37] INFO root fetch - processPackages [odoo8-addon-picking-dispatch]: Downloading https://files.pythonhosted.org/packages/18/48/75f5fa799917f6abb062b93c17e9a9ae6828dd2a71d50c1aa652f5bb1563/odoo8_addon_picking_dispatch-8.0.1.2.3.99.dev54-py2-none-any.whl
+[2023-07-19 07:43:37] INFO root fetch - processPackages [auto-test-common]: executing diffoscope
+[2023-07-19 07:43:37] INFO root fetch - processPackages [auto-test-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-test-common-1.0.8.tar.gz tmp/auto-test-common-1.0.9.tar.gz --markdown 20230719/a/auto-test-common/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 07:43:37] INFO root fetch - processPackages [pymycobot]: executing diffoscope
+[2023-07-19 07:43:37] INFO root fetch - processPackages [pymycobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymycobot-3.1.6b2.tar.gz tmp/pymycobot-3.1.6b3.tar.gz --markdown 20230719/p/pymycobot/3.1.6b2-3.1.6b3/diff.md --exclude *.pyd
+[2023-07-19 07:43:37] INFO root fetch - processPackages [odoo8-addon-picking-dispatch]: executing diffoscope
+[2023-07-19 07:43:37] INFO root fetch - processPackages [odoo8-addon-picking-dispatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_picking_dispatch-8.0.1.2.3.99.dev53-py2-none-any.whl.zip tmp/odoo8_addon_picking_dispatch-8.0.1.2.3.99.dev54-py2-none-any.whl.zip --markdown 20230719/o/odoo8-addon-picking-dispatch/8.0.1.2.3.99.dev53-8.0.1.2.3.99.dev54/diff.md --exclude *.pyd
+[2023-07-19 07:43:38] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.8.tar.gz]
+[2023-07-19 07:43:38] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.9.tar.gz]
+[2023-07-19 07:43:38] INFO root fetch - main [MainThread]: End processing [django-url-tokenizer]: success
+[2023-07-19 07:43:38] INFO root fetch - processPackages [odoo14-addon-stock-reserve-rule]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_reserve_rule-14.0.1.2.1.dev2-py3-none-any.whl.zip]
+[2023-07-19 07:43:38] INFO root fetch - processPackages [odoo14-addon-stock-reserve-rule]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_reserve_rule-14.0.1.2.1.dev3-py3-none-any.whl.zip]
+[2023-07-19 07:43:38] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-reserve-rule]: success
+[2023-07-19 07:43:38] INFO root fetch - processPackages [FiveMCipherFinder]: Remove: archive file [/home/abi/fetcher/tmp/FiveMCipherFinder-2.2.0.tar.gz]
+[2023-07-19 07:43:38] INFO root fetch - processPackages [FiveMCipherFinder]: Remove: archive file [/home/abi/fetcher/tmp/FiveMCipherFinder-2.3.0.tar.gz]
+[2023-07-19 07:43:38] INFO root fetch - main [MainThread]: End processing [FiveMCipherFinder]: success
+[2023-07-19 07:43:38] INFO root fetch - processPackages [auto-test-common]: Remove: archive file [/home/abi/fetcher/tmp/auto-test-common-1.0.8.tar.gz]
+[2023-07-19 07:43:38] INFO root fetch - processPackages [auto-test-common]: Remove: archive file [/home/abi/fetcher/tmp/auto-test-common-1.0.9.tar.gz]
+[2023-07-19 07:43:38] INFO root fetch - main [MainThread]: End processing [auto-test-common]: success
+[2023-07-19 07:43:38] INFO root fetch - processPackages [pymycobot]: Remove: archive file [/home/abi/fetcher/tmp/pymycobot-3.1.6b2.tar.gz]
+[2023-07-19 07:43:38] INFO root fetch - processPackages [pymycobot]: Remove: archive file [/home/abi/fetcher/tmp/pymycobot-3.1.6b3.tar.gz]
+[2023-07-19 07:43:38] INFO root fetch - main [MainThread]: End processing [pymycobot]: success
+[2023-07-19 07:43:39] INFO root fetch - processPackages [odoo8-addon-picking-dispatch]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_picking_dispatch-8.0.1.2.3.99.dev53-py2-none-any.whl.zip]
+[2023-07-19 07:43:39] INFO root fetch - processPackages [odoo8-addon-picking-dispatch]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_picking_dispatch-8.0.1.2.3.99.dev54-py2-none-any.whl.zip]
+[2023-07-19 07:43:39] INFO root fetch - main [MainThread]: End processing [odoo8-addon-picking-dispatch]: success
+[2023-07-19 07:43:39] INFO root fetch - main [MainThread]: Store serial: [18945821]
