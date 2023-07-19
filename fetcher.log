@@ -16572,3 +16572,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-19 09:26:34] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9224103679317.tar.gz]
 [2023-07-19 09:26:34] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
 [2023-07-19 09:26:34] INFO root fetch - main [MainThread]: Store serial: [18946617]
+[2023-07-19 09:31:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18946617]
+[2023-07-19 09:31:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-19 09:31:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: secret-checker
+[2023-07-19 09:31:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yxspkg
+[2023-07-19 09:31:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: portion
+[2023-07-19 09:31:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mutual
+[2023-07-19 09:31:43] INFO root fetch - processPackages [yxspkg]: New version: [6.9.8] Old Version: [6.9.7]
+[2023-07-19 09:31:43] INFO root fetch - processPackages [mutual]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-19 09:31:43] INFO root fetch - processPackages [yxspkg]: Downloading https://files.pythonhosted.org/packages/e9/00/1c979a6338313aa1384817dcfb17d78f225f07292739c9ace51701b7cc62/yxspkg-6.9.7-py3-none-any.whl
+[2023-07-19 09:31:43] INFO root fetch - processPackages [portion]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-07-19 09:31:43] INFO root fetch - processPackages [secret-checker]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-19 09:31:44] INFO root fetch - processPackages [mutual]: Downloading https://files.pythonhosted.org/packages/d7/28/2de401e5b776bbcb909a08f60f48a5deea6cbcd1ef4bf4a1c3a8bc384f31/mutual-0.1.1.tar.gz
+[2023-07-19 09:31:44] INFO root fetch - processPackages [secret-checker]: Downloading https://files.pythonhosted.org/packages/02/a4/5073c8f29f4022b411ec31a0750c5d11231127ada92cfd579cd3bfe8a70f/secret_checker-1.0.3.tar.gz
+[2023-07-19 09:31:44] INFO root fetch - processPackages [portion]: Downloading https://files.pythonhosted.org/packages/c7/fb/a7472bbd59b208a34fdc53ed258550354dfa1092f1d672f30aee49031ff8/portion-2.4.0.tar.gz
+[2023-07-19 09:31:44] INFO root fetch - processPackages [yxspkg]: Downloading https://files.pythonhosted.org/packages/7e/bf/a221195649dec2f4c5919f5d972d01beb568006bb8958fd387c423f1aaac/yxspkg-6.9.8-py3-none-any.whl
+[2023-07-19 09:31:44] INFO root fetch - processPackages [secret-checker]: Downloading https://files.pythonhosted.org/packages/e1/43/3b7ee9ff90f6e500193b7395c943996f7a7b1bed1fdf82be1663ba7f0dd6/secret_checker-1.0.4.tar.gz
+[2023-07-19 09:31:44] INFO root fetch - processPackages [mutual]: Downloading https://files.pythonhosted.org/packages/0c/03/778bf350936dd6042d19ca3ccfa5d5d65c2cd3d06ee4b1a815be2bbe2ee0/mutual-0.1.2.tar.gz
+[2023-07-19 09:31:44] INFO root fetch - processPackages [yxspkg]: executing diffoscope
+[2023-07-19 09:31:44] INFO root fetch - processPackages [yxspkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yxspkg-6.9.7-py3-none-any.whl.zip tmp/yxspkg-6.9.8-py3-none-any.whl.zip --markdown 20230719/y/yxspkg/6.9.7-6.9.8/diff.md --exclude *.pyd
+[2023-07-19 09:31:44] INFO root fetch - processPackages [secret-checker]: executing diffoscope
+[2023-07-19 09:31:44] INFO root fetch - processPackages [secret-checker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secret_checker-1.0.3.tar.gz tmp/secret_checker-1.0.4.tar.gz --markdown 20230719/s/secret-checker/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-19 09:31:44] INFO root fetch - processPackages [mutual]: executing diffoscope
+[2023-07-19 09:31:44] INFO root fetch - processPackages [mutual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mutual-0.1.1.tar.gz tmp/mutual-0.1.2.tar.gz --markdown 20230719/m/mutual/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-19 09:31:44] INFO root fetch - processPackages [portion]: Downloading https://files.pythonhosted.org/packages/b6/0f/faa9d3c302996b5cd93237d16f354c654c656962c761c699dd078793a5ce/portion-2.4.1.tar.gz
+[2023-07-19 09:31:44] INFO root fetch - processPackages [portion]: executing diffoscope
+[2023-07-19 09:31:44] INFO root fetch - processPackages [portion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/portion-2.4.0.tar.gz tmp/portion-2.4.1.tar.gz --markdown 20230719/p/portion/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-07-19 09:31:45] INFO root fetch - processPackages [secret-checker]: Remove: archive file [/home/abi/fetcher/tmp/secret_checker-1.0.3.tar.gz]
+[2023-07-19 09:31:45] INFO root fetch - processPackages [secret-checker]: Remove: archive file [/home/abi/fetcher/tmp/secret_checker-1.0.4.tar.gz]
+[2023-07-19 09:31:45] INFO root fetch - main [MainThread]: End processing [secret-checker]: success
+[2023-07-19 09:31:45] INFO root fetch - processPackages [mutual]: Remove: archive file [/home/abi/fetcher/tmp/mutual-0.1.1.tar.gz]
+[2023-07-19 09:31:45] INFO root fetch - processPackages [mutual]: Remove: archive file [/home/abi/fetcher/tmp/mutual-0.1.2.tar.gz]
+[2023-07-19 09:31:45] INFO root fetch - main [MainThread]: End processing [mutual]: success
+[2023-07-19 09:31:45] INFO root fetch - processPackages [portion]: Remove: archive file [/home/abi/fetcher/tmp/portion-2.4.0.tar.gz]
+[2023-07-19 09:31:45] INFO root fetch - processPackages [portion]: Remove: archive file [/home/abi/fetcher/tmp/portion-2.4.1.tar.gz]
+[2023-07-19 09:31:45] INFO root fetch - main [MainThread]: End processing [portion]: success
+[2023-07-19 09:31:46] INFO root fetch - processPackages [yxspkg]: Remove: archive file [/home/abi/fetcher/tmp/yxspkg-6.9.7-py3-none-any.whl.zip]
+[2023-07-19 09:31:46] INFO root fetch - processPackages [yxspkg]: Remove: archive file [/home/abi/fetcher/tmp/yxspkg-6.9.8-py3-none-any.whl.zip]
+[2023-07-19 09:31:46] INFO root fetch - main [MainThread]: End processing [yxspkg]: success
+[2023-07-19 09:31:46] INFO root fetch - main [MainThread]: Store serial: [18946628]
