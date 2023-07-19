@@ -14844,3 +14844,54 @@
 [2023-07-19 08:09:55] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-0.8.8.tar.gz]
 [2023-07-19 08:09:55] INFO root fetch - main [MainThread]: End processing [zhousf-lib]: success
 [2023-07-19 08:09:55] INFO root fetch - main [MainThread]: Store serial: [18945975]
+[2023-07-19 08:14:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18945975]
+[2023-07-19 08:15:04] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-19 08:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ebbs
+[2023-07-19 08:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Flask-Uploads-WCL
+[2023-07-19 08:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plugwise
+[2023-07-19 08:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-sso-client-manager
+[2023-07-19 08:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vessl
+[2023-07-19 08:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyg-nightly
+[2023-07-19 08:15:05] INFO root fetch - processPackages [vessl]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-19 08:15:05] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230718] Old Version: [2.4.0.dev20230717]
+[2023-07-19 08:15:05] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/38/7d/1b2b94a1083188f3376a0af9cb2701abb4c084a8e0608a25f97e191ab3e7/vessl-0.1.98.tar.gz
+[2023-07-19 08:15:05] INFO root fetch - processPackages [plugwise]: New version: [0.9.4a9] Old Version: [0.9.4a8]
+[2023-07-19 08:15:05] WARNING root fetch - processPackages [Flask-Uploads-WCL]: Skipping, unable to determine old version
+[2023-07-19 08:15:05] INFO root fetch - main [MainThread]: End processing [Flask-Uploads-WCL] error
+[2023-07-19 08:15:05] INFO root fetch - processPackages [django-sso-client-manager]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-19 08:15:05] INFO root fetch - processPackages [ebbs]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-19 08:15:05] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/36/bd/1dc0d56d15af90874705a45d0118c6c52a796bbe86f8983f6116b353423d/pyg_nightly-2.4.0.dev20230717.tar.gz
+[2023-07-19 08:15:05] INFO root fetch - processPackages [plugwise]: Downloading https://files.pythonhosted.org/packages/9f/eb/88773e492984c980bc342942239d3bd6eee77c3dc052d35d25e42e2137a6/plugwise-0.9.4a8.tar.gz
+[2023-07-19 08:15:05] INFO root fetch - processPackages [django-sso-client-manager]: Downloading https://files.pythonhosted.org/packages/b9/02/1e99b01035227d63779a143c00f71bb2f79396b7913e6b5a29ba65e95c10/django-sso-client-manager-0.0.2.tar.gz
+[2023-07-19 08:15:05] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/21/b8/cbd9a61ba9f582b647d4ef42d4b54900e40293bc599bde0a7f1fe73974bc/vessl-0.1.99.tar.gz
+[2023-07-19 08:15:05] INFO root fetch - processPackages [ebbs]: Downloading https://files.pythonhosted.org/packages/e4/4d/600e9b8522cb5e4288fadbaae0e9d2b951d0b79be24416d8b78414a5efb6/ebbs-2.2.8.tar.gz
+[2023-07-19 08:15:05] INFO root fetch - processPackages [vessl]: executing diffoscope
+[2023-07-19 08:15:05] INFO root fetch - processPackages [vessl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vessl-0.1.98.tar.gz tmp/vessl-0.1.99.tar.gz --markdown 20230719/v/vessl/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-19 08:15:05] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/1c/04/ac0dc378548017e96989e753a81ef77c333df8e58310695118e0c1cf72e4/pyg_nightly-2.4.0.dev20230718.tar.gz
+[2023-07-19 08:15:05] INFO root fetch - processPackages [plugwise]: Downloading https://files.pythonhosted.org/packages/ec/fd/45b5a2ee424806593e900234e26bf62ae0c3582ac99cadfa9477e6719004/plugwise-0.9.4a9.tar.gz
+[2023-07-19 08:15:05] INFO root fetch - processPackages [django-sso-client-manager]: Downloading https://files.pythonhosted.org/packages/fe/bc/b65cdef892b6155d5c8115313757d2c9bd5375f7bd494f43c0f5a30710c7/django-sso-client-manager-0.0.3.tar.gz
+[2023-07-19 08:15:05] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-07-19 08:15:05] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230717.tar.gz tmp/pyg_nightly-2.4.0.dev20230718.tar.gz --markdown 20230719/p/pyg-nightly/2.4.0.dev20230717-2.4.0.dev20230718/diff.md --exclude *.pyd
+[2023-07-19 08:15:05] INFO root fetch - processPackages [ebbs]: Downloading https://files.pythonhosted.org/packages/a1/17/09488d6e7c260166edfebc9cb5a173db17c6d6a621677ea3280cda9da438/ebbs-2.2.9.tar.gz
+[2023-07-19 08:15:05] INFO root fetch - processPackages [django-sso-client-manager]: executing diffoscope
+[2023-07-19 08:15:05] INFO root fetch - processPackages [django-sso-client-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-sso-client-manager-0.0.2.tar.gz tmp/django-sso-client-manager-0.0.3.tar.gz --markdown 20230719/d/django-sso-client-manager/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-19 08:15:06] INFO root fetch - processPackages [plugwise]: executing diffoscope
+[2023-07-19 08:15:06] INFO root fetch - processPackages [plugwise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plugwise-0.9.4a8.tar.gz tmp/plugwise-0.9.4a9.tar.gz --markdown 20230719/p/plugwise/0.9.4a8-0.9.4a9/diff.md --exclude *.pyd
+[2023-07-19 08:15:06] INFO root fetch - processPackages [ebbs]: executing diffoscope
+[2023-07-19 08:15:06] INFO root fetch - processPackages [ebbs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebbs-2.2.8.tar.gz tmp/ebbs-2.2.9.tar.gz --markdown 20230719/e/ebbs/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-19 08:15:06] INFO root fetch - processPackages [django-sso-client-manager]: Remove: archive file [/home/abi/fetcher/tmp/django-sso-client-manager-0.0.2.tar.gz]
+[2023-07-19 08:15:06] INFO root fetch - processPackages [django-sso-client-manager]: Remove: archive file [/home/abi/fetcher/tmp/django-sso-client-manager-0.0.3.tar.gz]
+[2023-07-19 08:15:06] INFO root fetch - main [MainThread]: End processing [django-sso-client-manager]: success
+[2023-07-19 08:15:07] INFO root fetch - processPackages [plugwise]: Remove: archive file [/home/abi/fetcher/tmp/plugwise-0.9.4a8.tar.gz]
+[2023-07-19 08:15:07] INFO root fetch - processPackages [plugwise]: Remove: archive file [/home/abi/fetcher/tmp/plugwise-0.9.4a9.tar.gz]
+[2023-07-19 08:15:07] INFO root fetch - main [MainThread]: End processing [plugwise]: success
+[2023-07-19 08:15:07] INFO root fetch - processPackages [ebbs]: Remove: archive file [/home/abi/fetcher/tmp/ebbs-2.2.8.tar.gz]
+[2023-07-19 08:15:07] INFO root fetch - processPackages [ebbs]: Remove: archive file [/home/abi/fetcher/tmp/ebbs-2.2.9.tar.gz]
+[2023-07-19 08:15:07] INFO root fetch - main [MainThread]: End processing [ebbs]: success
+[2023-07-19 08:15:09] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230717.tar.gz]
+[2023-07-19 08:15:09] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230718.tar.gz]
+[2023-07-19 08:15:09] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-07-19 08:15:10] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.98.tar.gz]
+[2023-07-19 08:15:10] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.99.tar.gz]
+[2023-07-19 08:15:10] INFO root fetch - main [MainThread]: End processing [vessl]: success
+[2023-07-19 08:15:10] INFO root fetch - main [MainThread]: Store serial: [18945993]
