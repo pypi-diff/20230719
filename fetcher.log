@@ -14895,3 +14895,60 @@
 [2023-07-19 08:15:10] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.99.tar.gz]
 [2023-07-19 08:15:10] INFO root fetch - main [MainThread]: End processing [vessl]: success
 [2023-07-19 08:15:10] INFO root fetch - main [MainThread]: Store serial: [18945993]
+[2023-07-19 08:20:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18945993]
+[2023-07-19 08:20:19] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-19 08:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tair-haystack
+[2023-07-19 08:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-cloudauth-intl20220809
+[2023-07-19 08:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stigg-api-client
+[2023-07-19 08:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stigg-api-client-v2
+[2023-07-19 08:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nids-transformers
+[2023-07-19 08:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lark-oapi
+[2023-07-19 08:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fast-transfer
+[2023-07-19 08:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dj-beatcloud
+[2023-07-19 08:20:19] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [0.491.9] Old Version: [0.491.8]
+[2023-07-19 08:20:19] INFO root fetch - processPackages [nids-transformers]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 08:20:19] INFO root fetch - processPackages [dj-beatcloud]: New version: [2.6.0b3] Old Version: [2.6.0b2]
+[2023-07-19 08:20:19] INFO root fetch - processPackages [stigg-api-client]: New version: [0.5.0] Old Version: [0.491.9]
+[2023-07-19 08:20:19] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/0d/02/5e1cb3f943107b471b65486869e52922e552b587c05bc82e5fc8e13988fc/stigg_api_client_v2-0.491.8.tar.gz
+[2023-07-19 08:20:19] WARNING root fetch - processPackages [fast-transfer]: Skipping, unable to determine old version
+[2023-07-19 08:20:19] INFO root fetch - main [MainThread]: End processing [fast-transfer] error
+[2023-07-19 08:20:19] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 08:20:19] WARNING root fetch - processPackages [lark-oapi]: Skipping, unable to determine old version
+[2023-07-19 08:20:19] INFO root fetch - main [MainThread]: End processing [lark-oapi] error
+[2023-07-19 08:20:19] WARNING root fetch - processPackages [tair-haystack]: Skipping, unable to determine old version
+[2023-07-19 08:20:19] INFO root fetch - main [MainThread]: End processing [tair-haystack] error
+[2023-07-19 08:20:19] INFO root fetch - processPackages [dj-beatcloud]: Downloading https://files.pythonhosted.org/packages/41/87/a0f6b86f268512c0ca4ce9ff73c6fcf1a0c18310eb72492d172df6e5db0c/dj_beatcloud-2.6.0b2.tar.gz
+[2023-07-19 08:20:19] INFO root fetch - processPackages [nids-transformers]: Downloading https://files.pythonhosted.org/packages/37/56/ff85ab4dda8adb22bc1ad076a4de5f7e02f7d614293b9884a84e234f0400/nids_transformers-0.0.8.tar.gz
+[2023-07-19 08:20:19] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/55/4d/7f0045a66518143ff0cef90c14ba17c694d224663148db44d2c12cdd169e/stigg_api_client-0.491.9.tar.gz
+[2023-07-19 08:20:19] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809]: Downloading https://files.pythonhosted.org/packages/37/35/259c3aa555207e4d91b23968971272c6ea56a80fc524d28cbb85ce6eb7f7/alibabacloud_cloudauth-intl20220809-1.0.8.tar.gz
+[2023-07-19 08:20:19] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/2c/2b/37dbf2e120f98ce9e6609a034ebfd8b6e8d3012c964df86d1558c249e1f0/stigg_api_client_v2-0.491.9.tar.gz
+[2023-07-19 08:20:19] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/6f/d2/ae3138d8e73b06a33bdd8d29d234ac4387d7bf23217c13b557d497089bbf/stigg_api_client-0.5.0.tar.gz
+[2023-07-19 08:20:19] INFO root fetch - processPackages [dj-beatcloud]: Downloading https://files.pythonhosted.org/packages/63/6a/2d38037184318e49624f7efac6198b54efb64a4ef260de6518506077faf0/dj_beatcloud-2.6.0b3.tar.gz
+[2023-07-19 08:20:20] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809]: Downloading https://files.pythonhosted.org/packages/ad/36/84c60dbc4bd71732b1f42a730f927c0bebb5c4901567505c35110c65639f/alibabacloud_cloudauth-intl20220809-1.0.9.tar.gz
+[2023-07-19 08:20:20] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2023-07-19 08:20:20] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-0.491.8.tar.gz tmp/stigg_api_client_v2-0.491.9.tar.gz --markdown 20230719/s/stigg-api-client-v2/0.491.8-0.491.9/diff.md --exclude *.pyd
+[2023-07-19 08:20:20] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2023-07-19 08:20:20] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-0.491.9.tar.gz tmp/stigg_api_client-0.5.0.tar.gz --markdown 20230719/s/stigg-api-client/0.491.9-0.5.0/diff.md --exclude *.pyd
+[2023-07-19 08:20:20] INFO root fetch - processPackages [dj-beatcloud]: executing diffoscope
+[2023-07-19 08:20:20] INFO root fetch - processPackages [dj-beatcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj_beatcloud-2.6.0b2.tar.gz tmp/dj_beatcloud-2.6.0b3.tar.gz --markdown 20230719/d/dj-beatcloud/2.6.0b2-2.6.0b3/diff.md --exclude *.pyd
+[2023-07-19 08:20:20] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809]: executing diffoscope
+[2023-07-19 08:20:20] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cloudauth-intl20220809-1.0.8.tar.gz tmp/alibabacloud_cloudauth-intl20220809-1.0.9.tar.gz --markdown 20230719/a/alibabacloud-cloudauth-intl20220809/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 08:20:20] INFO root fetch - processPackages [nids-transformers]: Downloading https://files.pythonhosted.org/packages/aa/b9/c2b41377a46c00ee400b0ba975f801b4fb3c078e889a2e4aaa05364bab68/nids_transformers-0.0.9.tar.gz
+[2023-07-19 08:20:21] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.491.9.tar.gz]
+[2023-07-19 08:20:21] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.5.0.tar.gz]
+[2023-07-19 08:20:21] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2023-07-19 08:20:21] INFO root fetch - processPackages [dj-beatcloud]: Remove: archive file [/home/abi/fetcher/tmp/dj_beatcloud-2.6.0b2.tar.gz]
+[2023-07-19 08:20:21] INFO root fetch - processPackages [dj-beatcloud]: Remove: archive file [/home/abi/fetcher/tmp/dj_beatcloud-2.6.0b3.tar.gz]
+[2023-07-19 08:20:21] INFO root fetch - main [MainThread]: End processing [dj-beatcloud]: success
+[2023-07-19 08:20:21] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudauth-intl20220809-1.0.8.tar.gz]
+[2023-07-19 08:20:21] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudauth-intl20220809-1.0.9.tar.gz]
+[2023-07-19 08:20:21] INFO root fetch - main [MainThread]: End processing [alibabacloud-cloudauth-intl20220809]: success
+[2023-07-19 08:20:21] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.491.8.tar.gz]
+[2023-07-19 08:20:21] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.491.9.tar.gz]
+[2023-07-19 08:20:21] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2023-07-19 08:20:21] INFO root fetch - processPackages [nids-transformers]: executing diffoscope
+[2023-07-19 08:20:21] INFO root fetch - processPackages [nids-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nids_transformers-0.0.8.tar.gz tmp/nids_transformers-0.0.9.tar.gz --markdown 20230719/n/nids-transformers/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 08:20:22] INFO root fetch - processPackages [nids-transformers]: Remove: archive file [/home/abi/fetcher/tmp/nids_transformers-0.0.8.tar.gz]
+[2023-07-19 08:20:22] INFO root fetch - processPackages [nids-transformers]: Remove: archive file [/home/abi/fetcher/tmp/nids_transformers-0.0.9.tar.gz]
+[2023-07-19 08:20:22] INFO root fetch - main [MainThread]: End processing [nids-transformers]: success
+[2023-07-19 08:20:22] INFO root fetch - main [MainThread]: Store serial: [18946024]
