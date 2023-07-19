@@ -6441,3 +6441,150 @@
 [2023-07-19 04:01:00] INFO root fetch - processPackages [nids-transformers]: Remove: archive file [/home/abi/fetcher/tmp/nids_transformers-0.0.5.tar.gz]
 [2023-07-19 04:01:00] INFO root fetch - main [MainThread]: End processing [nids-transformers]: success
 [2023-07-19 04:01:00] INFO root fetch - main [MainThread]: Store serial: [18943124]
+[2023-07-19 04:06:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18943124]
+[2023-07-19 04:06:09] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-19 04:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bioversions
+[2023-07-19 04:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ros-cdk-vpc
+[2023-07-19 04:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: parserito
+[2023-07-19 04:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: capsula
+[2023-07-19 04:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ros-cdk-sag
+[2023-07-19 04:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: expiringsqlitedict
+[2023-07-19 04:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ros-cdk-nlpautoml
+[2023-07-19 04:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ros-cdk-eais
+[2023-07-19 04:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: KwoksTool
+[2023-07-19 04:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cade-task
+[2023-07-19 04:06:09] INFO root fetch - processPackages [expiringsqlitedict]: New version: [7.0.0] Old Version: [6.2.0]
+[2023-07-19 04:06:09] INFO root fetch - processPackages [capsula]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-07-19 04:06:09] INFO root fetch - processPackages [ros-cdk-vpc]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 04:06:09] INFO root fetch - processPackages [ros-cdk-nlpautoml]: New version: [1.0.16] Old Version: [1.0.15]
+[2023-07-19 04:06:10] INFO root fetch - processPackages [KwoksTool]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 04:06:10] INFO root fetch - processPackages [expiringsqlitedict]: Downloading https://files.pythonhosted.org/packages/37/ed/5c9a555afad7afc997558b9625d907fb08a84bf88ccebdd6e51fe249eb7a/expiringsqlitedict-6.2.0.tar.gz
+[2023-07-19 04:06:10] WARNING root fetch - processPackages [parserito]: Skipping, unable to determine old version
+[2023-07-19 04:06:10] INFO root fetch - processPackages [parserito]: Start processing: ros-cdk-ros
+[2023-07-19 04:06:10] INFO root fetch - main [MainThread]: End processing [parserito] error
+[2023-07-19 04:06:10] INFO root fetch - processPackages [ros-cdk-sag]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 04:06:10] INFO root fetch - processPackages [ros-cdk-eais]: New version: [1.0.16] Old Version: [1.0.15]
+[2023-07-19 04:06:10] WARNING root fetch - processPackages [cade-task]: Skipping, unable to determine old version
+[2023-07-19 04:06:10] INFO root fetch - processPackages [cade-task]: Start processing: nids-transformers
+[2023-07-19 04:06:10] INFO root fetch - main [MainThread]: End processing [cade-task] error
+[2023-07-19 04:06:10] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-07-19 04:06:10] INFO root fetch - processPackages [nids-transformers]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-19 04:06:10] INFO root fetch - processPackages [ros-cdk-ros]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 04:06:10] INFO root fetch - processPackages [nids-transformers]: Downloading https://files.pythonhosted.org/packages/8f/f3/a552c2f350bc8698b3ee7e22f565955ce06c264cea193688a11942b1381c/nids_transformers-0.0.4.tar.gz
+[2023-07-19 04:06:10] INFO root fetch - processPackages [capsula]: Downloading https://files.pythonhosted.org/packages/c0/f9/bed403d3aff35a1e6a9a8c1ab9d94b2e53054af370e15362dd7ec5d2ed12/capsula-0.0.7.tar.gz
+[2023-07-19 04:06:10] INFO root fetch - processPackages [ros-cdk-vpc]: Downloading https://files.pythonhosted.org/packages/2a/ad/d0d06a54ba7604e46fde3002486578ba382de631594e5357e1548f9b8f48/ros-cdk-vpc-1.0.8.tar.gz
+[2023-07-19 04:06:10] INFO root fetch - processPackages [KwoksTool]: Downloading https://files.pythonhosted.org/packages/4d/62/b8062e2d0e7e46a125eeb147fca72b2340c91ba05712969399d33aaffe40/KwoksTool-0.0.8.tar.gz
+[2023-07-19 04:06:10] INFO root fetch - processPackages [ros-cdk-nlpautoml]: Downloading https://files.pythonhosted.org/packages/04/cf/dc77278279b128fa4e031b79f485c81c156db22fb4e6e402abb2cf930762/ros-cdk-nlpautoml-1.0.15.tar.gz
+[2023-07-19 04:06:10] INFO root fetch - processPackages [ros-cdk-sag]: Downloading https://files.pythonhosted.org/packages/a4/cf/1f2f8df6724976c41029e16f8ad223e35d1d77ad6d91af18b3836483b763/ros-cdk-sag-1.0.8.tar.gz
+[2023-07-19 04:06:10] INFO root fetch - processPackages [expiringsqlitedict]: Downloading https://files.pythonhosted.org/packages/64/86/03aa7949e0d07f85c30bf8019ed0048636b75e560400940eb3e1ab0cb7d7/expiringsqlitedict-7.0.0.tar.gz
+[2023-07-19 04:06:10] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/e6/34/7c40209c13edc9fe7c611a00fd4b0d6e59d501613427ed6713ad6398b655/bioversions-0.5.98.tar.gz
+[2023-07-19 04:06:10] INFO root fetch - processPackages [ros-cdk-eais]: Downloading https://files.pythonhosted.org/packages/c3/8d/fed97e45d000cfe244bd0a40f372b8a8705921c12b038332cec8b3b98340/ros-cdk-eais-1.0.15.tar.gz
+[2023-07-19 04:06:10] INFO root fetch - processPackages [ros-cdk-ros]: Downloading https://files.pythonhosted.org/packages/fe/16/3541a9dcba437e9cafd5c436b98b068d92debe86fd83d92ad7e19f6023d9/ros-cdk-ros-1.0.8.tar.gz
+[2023-07-19 04:06:10] INFO root fetch - processPackages [expiringsqlitedict]: executing diffoscope
+[2023-07-19 04:06:10] INFO root fetch - processPackages [expiringsqlitedict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expiringsqlitedict-6.2.0.tar.gz tmp/expiringsqlitedict-7.0.0.tar.gz --markdown 20230719/e/expiringsqlitedict/6.2.0-7.0.0/diff.md --exclude *.pyd
+[2023-07-19 04:06:10] INFO root fetch - processPackages [capsula]: Downloading https://files.pythonhosted.org/packages/7d/c4/def8d08198b8a888674c564686a8cf42a4d81fc38235562ed7e76b8ca787/capsula-0.0.9.tar.gz
+[2023-07-19 04:06:10] INFO root fetch - processPackages [ros-cdk-eais]: Downloading https://files.pythonhosted.org/packages/21/d3/b002697fc46d5577dc9de546eff3bbc071a8eb675d33e234146e031e3968/ros-cdk-eais-1.0.16.tar.gz
+[2023-07-19 04:06:10] INFO root fetch - processPackages [ros-cdk-nlpautoml]: Downloading https://files.pythonhosted.org/packages/ab/31/a6b3075add6684a37b8ff0443fb56cce5e50eecebfc4c35562e2edac50d3/ros-cdk-nlpautoml-1.0.16.tar.gz
+[2023-07-19 04:06:10] INFO root fetch - processPackages [ros-cdk-vpc]: Downloading https://files.pythonhosted.org/packages/39/46/58d02ac69ba57d2061af4ef44d7a49177d8962ad9258e13504f121205f0a/ros-cdk-vpc-1.0.9.tar.gz
+[2023-07-19 04:06:10] INFO root fetch - processPackages [KwoksTool]: Downloading https://files.pythonhosted.org/packages/40/2a/186961002de94906ba3ac3c2024713dddfc5fad59b3fce0803fee593d9b2/KwoksTool-0.0.9.tar.gz
+[2023-07-19 04:06:10] INFO root fetch - processPackages [ros-cdk-sag]: Downloading https://files.pythonhosted.org/packages/f1/a2/17222b86429962a14aa6fa255dd53af222cd467cb5733dc5b29058ef12e0/ros-cdk-sag-1.0.9.tar.gz
+[2023-07-19 04:06:10] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/0d/f5/5956eccd9643084cc5f7aba6325ec9de1ed3a2bb3568a8ee7ab88d0eac77/bioversions-0.5.99.tar.gz
+[2023-07-19 04:06:10] INFO root fetch - processPackages [capsula]: executing diffoscope
+[2023-07-19 04:06:10] INFO root fetch - processPackages [capsula]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capsula-0.0.7.tar.gz tmp/capsula-0.0.9.tar.gz --markdown 20230719/c/capsula/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 04:06:11] INFO root fetch - processPackages [ros-cdk-eais]: executing diffoscope
+[2023-07-19 04:06:11] INFO root fetch - processPackages [ros-cdk-eais]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-eais-1.0.15.tar.gz tmp/ros-cdk-eais-1.0.16.tar.gz --markdown 20230719/r/ros-cdk-eais/1.0.15-1.0.16/diff.md --exclude *.pyd
+[2023-07-19 04:06:11] INFO root fetch - processPackages [ros-cdk-nlpautoml]: executing diffoscope
+[2023-07-19 04:06:11] INFO root fetch - processPackages [ros-cdk-nlpautoml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-nlpautoml-1.0.15.tar.gz tmp/ros-cdk-nlpautoml-1.0.16.tar.gz --markdown 20230719/r/ros-cdk-nlpautoml/1.0.15-1.0.16/diff.md --exclude *.pyd
+[2023-07-19 04:06:11] INFO root fetch - processPackages [KwoksTool]: executing diffoscope
+[2023-07-19 04:06:11] INFO root fetch - processPackages [KwoksTool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KwoksTool-0.0.8.tar.gz tmp/KwoksTool-0.0.9.tar.gz --markdown 20230719/K/KwoksTool/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 04:06:11] INFO root fetch - processPackages [ros-cdk-ros]: Downloading https://files.pythonhosted.org/packages/29/3a/415feed176461f1bdd0022d594fe89eca09769f1755fe0752ac62bdb6c58/ros-cdk-ros-1.0.9.tar.gz
+[2023-07-19 04:06:11] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2023-07-19 04:06:11] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20230719/b/bioversions/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-07-19 04:06:11] INFO root fetch - processPackages [ros-cdk-vpc]: executing diffoscope
+[2023-07-19 04:06:11] INFO root fetch - processPackages [ros-cdk-vpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-vpc-1.0.8.tar.gz tmp/ros-cdk-vpc-1.0.9.tar.gz --markdown 20230719/r/ros-cdk-vpc/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 04:06:11] INFO root fetch - processPackages [ros-cdk-sag]: executing diffoscope
+[2023-07-19 04:06:11] INFO root fetch - processPackages [ros-cdk-sag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-sag-1.0.8.tar.gz tmp/ros-cdk-sag-1.0.9.tar.gz --markdown 20230719/r/ros-cdk-sag/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 04:06:11] INFO root fetch - processPackages [nids-transformers]: Downloading https://files.pythonhosted.org/packages/06/79/b544326d41628bc6a43fecbeae02cee1a554f9e89668a20cf8a1608d591c/nids_transformers-0.0.5.tar.gz
+[2023-07-19 04:06:11] INFO root fetch - processPackages [ros-cdk-ros]: executing diffoscope
+[2023-07-19 04:06:11] INFO root fetch - processPackages [ros-cdk-ros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-ros-1.0.8.tar.gz tmp/ros-cdk-ros-1.0.9.tar.gz --markdown 20230719/r/ros-cdk-ros/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 04:06:11] INFO root fetch - processPackages [expiringsqlitedict]: Remove: archive file [/home/abi/fetcher/tmp/expiringsqlitedict-6.2.0.tar.gz]
+[2023-07-19 04:06:11] INFO root fetch - processPackages [expiringsqlitedict]: Remove: archive file [/home/abi/fetcher/tmp/expiringsqlitedict-7.0.0.tar.gz]
+[2023-07-19 04:06:11] INFO root fetch - processPackages [expiringsqlitedict]: Start processing: ros-cdk-dlf
+[2023-07-19 04:06:11] INFO root fetch - main [MainThread]: End processing [expiringsqlitedict]: success
+[2023-07-19 04:06:11] INFO root fetch - processPackages [nids-transformers]: executing diffoscope
+[2023-07-19 04:06:11] INFO root fetch - processPackages [nids-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nids_transformers-0.0.4.tar.gz tmp/nids_transformers-0.0.5.tar.gz --markdown 20230719/n/nids-transformers/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-19 04:06:11] INFO root fetch - processPackages [ros-cdk-dlf]: New version: [1.0.16] Old Version: [1.0.15]
+[2023-07-19 04:06:11] INFO root fetch - processPackages [ros-cdk-dlf]: Downloading https://files.pythonhosted.org/packages/e1/c4/00ece9e2c1e339a20197669f17f0dbb3c40d52888e1739ec9b31f44d3235/ros-cdk-dlf-1.0.15.tar.gz
+[2023-07-19 04:06:12] INFO root fetch - processPackages [ros-cdk-dlf]: Downloading https://files.pythonhosted.org/packages/90/b7/4daa2bd488379e99a3f36f3a5cc3c65ca8e9b9efb6909c264abc910d84c1/ros-cdk-dlf-1.0.16.tar.gz
+[2023-07-19 04:06:12] INFO root fetch - processPackages [ros-cdk-dlf]: executing diffoscope
+[2023-07-19 04:06:12] INFO root fetch - processPackages [ros-cdk-dlf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-dlf-1.0.15.tar.gz tmp/ros-cdk-dlf-1.0.16.tar.gz --markdown 20230719/r/ros-cdk-dlf/1.0.15-1.0.16/diff.md --exclude *.pyd
+[2023-07-19 04:06:12] INFO root fetch - processPackages [KwoksTool]: Remove: archive file [/home/abi/fetcher/tmp/KwoksTool-0.0.8.tar.gz]
+[2023-07-19 04:06:12] INFO root fetch - processPackages [KwoksTool]: Remove: archive file [/home/abi/fetcher/tmp/KwoksTool-0.0.9.tar.gz]
+[2023-07-19 04:06:12] INFO root fetch - processPackages [KwoksTool]: Start processing: event-dic
+[2023-07-19 04:06:12] INFO root fetch - main [MainThread]: End processing [KwoksTool]: success
+[2023-07-19 04:06:12] WARNING root fetch - processPackages [event-dic]: Skipping, unable to determine old version
+[2023-07-19 04:06:12] INFO root fetch - processPackages [event-dic]: Start processing: lancedb
+[2023-07-19 04:06:12] INFO root fetch - main [MainThread]: End processing [event-dic] error
+[2023-07-19 04:06:12] INFO root fetch - processPackages [ros-cdk-eais]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-eais-1.0.15.tar.gz]
+[2023-07-19 04:06:12] INFO root fetch - processPackages [ros-cdk-eais]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-eais-1.0.16.tar.gz]
+[2023-07-19 04:06:12] INFO root fetch - processPackages [ros-cdk-eais]: Start processing: t8s
+[2023-07-19 04:06:12] INFO root fetch - main [MainThread]: End processing [ros-cdk-eais]: success
+[2023-07-19 04:06:12] INFO root fetch - processPackages [lancedb]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-19 04:06:12] INFO root fetch - processPackages [capsula]: Remove: archive file [/home/abi/fetcher/tmp/capsula-0.0.7.tar.gz]
+[2023-07-19 04:06:12] INFO root fetch - processPackages [capsula]: Remove: archive file [/home/abi/fetcher/tmp/capsula-0.0.9.tar.gz]
+[2023-07-19 04:06:12] INFO root fetch - processPackages [capsula]: Start processing: ros-cdk-bastionhost
+[2023-07-19 04:06:12] INFO root fetch - main [MainThread]: End processing [capsula]: success
+[2023-07-19 04:06:12] INFO root fetch - processPackages [ros-cdk-nlpautoml]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-nlpautoml-1.0.15.tar.gz]
+[2023-07-19 04:06:12] INFO root fetch - processPackages [ros-cdk-nlpautoml]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-nlpautoml-1.0.16.tar.gz]
+[2023-07-19 04:06:12] INFO root fetch - processPackages [ros-cdk-nlpautoml]: Start processing: cdk-lambda-layer-curl
+[2023-07-19 04:06:12] INFO root fetch - main [MainThread]: End processing [ros-cdk-nlpautoml]: success
+[2023-07-19 04:06:12] INFO root fetch - processPackages [t8s]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-19 04:06:12] INFO root fetch - processPackages [ros-cdk-sag]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-sag-1.0.8.tar.gz]
+[2023-07-19 04:06:12] INFO root fetch - processPackages [ros-cdk-sag]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-sag-1.0.9.tar.gz]
+[2023-07-19 04:06:12] INFO root fetch - main [MainThread]: End processing [ros-cdk-sag]: success
+[2023-07-19 04:06:12] INFO root fetch - processPackages [ros-cdk-vpc]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-vpc-1.0.8.tar.gz]
+[2023-07-19 04:06:12] INFO root fetch - processPackages [ros-cdk-vpc]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-vpc-1.0.9.tar.gz]
+[2023-07-19 04:06:12] INFO root fetch - main [MainThread]: End processing [ros-cdk-vpc]: success
+[2023-07-19 04:06:12] INFO root fetch - processPackages [ros-cdk-bastionhost]: New version: [1.0.16] Old Version: [1.0.15]
+[2023-07-19 04:06:12] INFO root fetch - processPackages [lancedb]: Downloading https://files.pythonhosted.org/packages/3c/d6/efb0ca55e0b3cd024e23b27597b1f248bb3e6e960c96ae5d4ba4b1dbda1c/lancedb-0.1.8.tar.gz
+[2023-07-19 04:06:12] INFO root fetch - processPackages [ros-cdk-ros]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ros-1.0.8.tar.gz]
+[2023-07-19 04:06:12] INFO root fetch - processPackages [ros-cdk-ros]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ros-1.0.9.tar.gz]
+[2023-07-19 04:06:12] INFO root fetch - main [MainThread]: End processing [ros-cdk-ros]: success
+[2023-07-19 04:06:12] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-19 04:06:13] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-07-19 04:06:13] INFO root fetch - processPackages [ros-cdk-bastionhost]: Downloading https://files.pythonhosted.org/packages/8c/cb/ae1143168c3c2eec96674252456995371e28ac8b09099235e22080535ac5/ros-cdk-bastionhost-1.0.15.tar.gz
+[2023-07-19 04:06:13] INFO root fetch - processPackages [t8s]: Downloading https://files.pythonhosted.org/packages/b7/70/10f05eb411362b5a243d802de719121e3a2497f99b782cb6e6931d36de5c/t8s-0.1.8.tar.gz
+[2023-07-19 04:06:13] INFO root fetch - processPackages [lancedb]: Downloading https://files.pythonhosted.org/packages/c7/28/57475fd76b4d2e319857bcb2776a299b06694faf92c20d385c6b027e3567/lancedb-0.1.9.tar.gz
+[2023-07-19 04:06:13] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-07-19 04:06:13] INFO root fetch - processPackages [ros-cdk-bastionhost]: Downloading https://files.pythonhosted.org/packages/c2/a6/354cf5e7e10cf9486494d95a873eaff07466cfdb317564a490f5a4815da5/ros-cdk-bastionhost-1.0.16.tar.gz
+[2023-07-19 04:06:13] INFO root fetch - processPackages [nids-transformers]: Remove: archive file [/home/abi/fetcher/tmp/nids_transformers-0.0.4.tar.gz]
+[2023-07-19 04:06:13] INFO root fetch - processPackages [nids-transformers]: Remove: archive file [/home/abi/fetcher/tmp/nids_transformers-0.0.5.tar.gz]
+[2023-07-19 04:06:13] INFO root fetch - main [MainThread]: End processing [nids-transformers]: success
+[2023-07-19 04:06:13] INFO root fetch - processPackages [t8s]: Downloading https://files.pythonhosted.org/packages/c7/0b/595844163fcc3d47af7b0e05c304678dd4f361e3eaba27110329a30a8287/t8s-0.1.9.tar.gz
+[2023-07-19 04:06:13] INFO root fetch - processPackages [ros-cdk-dlf]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dlf-1.0.15.tar.gz]
+[2023-07-19 04:06:13] INFO root fetch - processPackages [ros-cdk-dlf]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dlf-1.0.16.tar.gz]
+[2023-07-19 04:06:13] INFO root fetch - main [MainThread]: End processing [ros-cdk-dlf]: success
+[2023-07-19 04:06:13] INFO root fetch - processPackages [lancedb]: executing diffoscope
+[2023-07-19 04:06:13] INFO root fetch - processPackages [lancedb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lancedb-0.1.8.tar.gz tmp/lancedb-0.1.9.tar.gz --markdown 20230719/l/lancedb/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-19 04:06:13] INFO root fetch - processPackages [t8s]: executing diffoscope
+[2023-07-19 04:06:13] INFO root fetch - processPackages [t8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t8s-0.1.8.tar.gz tmp/t8s-0.1.9.tar.gz --markdown 20230719/t/t8s/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-19 04:06:13] INFO root fetch - processPackages [ros-cdk-bastionhost]: executing diffoscope
+[2023-07-19 04:06:13] INFO root fetch - processPackages [ros-cdk-bastionhost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-bastionhost-1.0.15.tar.gz tmp/ros-cdk-bastionhost-1.0.16.tar.gz --markdown 20230719/r/ros-cdk-bastionhost/1.0.15-1.0.16/diff.md --exclude *.pyd
+[2023-07-19 04:06:14] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-07-19 04:06:14] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230719/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-19 04:06:14] INFO root fetch - processPackages [ros-cdk-bastionhost]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-bastionhost-1.0.15.tar.gz]
+[2023-07-19 04:06:14] INFO root fetch - processPackages [ros-cdk-bastionhost]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-bastionhost-1.0.16.tar.gz]
+[2023-07-19 04:06:14] INFO root fetch - main [MainThread]: End processing [ros-cdk-bastionhost]: success
+[2023-07-19 04:06:14] INFO root fetch - processPackages [lancedb]: Remove: archive file [/home/abi/fetcher/tmp/lancedb-0.1.8.tar.gz]
+[2023-07-19 04:06:14] INFO root fetch - processPackages [lancedb]: Remove: archive file [/home/abi/fetcher/tmp/lancedb-0.1.9.tar.gz]
+[2023-07-19 04:06:14] INFO root fetch - main [MainThread]: End processing [lancedb]: success
+[2023-07-19 04:06:14] INFO root fetch - processPackages [t8s]: Remove: archive file [/home/abi/fetcher/tmp/t8s-0.1.8.tar.gz]
+[2023-07-19 04:06:14] INFO root fetch - processPackages [t8s]: Remove: archive file [/home/abi/fetcher/tmp/t8s-0.1.9.tar.gz]
+[2023-07-19 04:06:14] INFO root fetch - main [MainThread]: End processing [t8s]: success
+[2023-07-19 04:06:15] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-07-19 04:06:15] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-07-19 04:06:15] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-07-19 04:06:31] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.98.tar.gz]
+[2023-07-19 04:06:31] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
+[2023-07-19 04:06:31] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2023-07-19 04:06:31] INFO root fetch - main [MainThread]: Store serial: [18943188]
