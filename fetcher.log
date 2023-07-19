@@ -7006,3 +7006,120 @@
 [2023-07-19 04:22:41] INFO root fetch - processPackages [yowasp-yosys]: Remove: archive file [/home/abi/fetcher/tmp/yowasp_yosys-0.9.post5623.dev231-py3-none-any.whl.zip]
 [2023-07-19 04:22:41] INFO root fetch - main [MainThread]: End processing [yowasp-yosys]: success
 [2023-07-19 04:22:41] INFO root fetch - main [MainThread]: Store serial: [18943323]
+[2023-07-19 04:27:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18943323]
+[2023-07-19 04:27:51] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-19 04:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zhijian
+[2023-07-19 04:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-hugo-deploy
+[2023-07-19 04:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ros-cdk-redis
+[2023-07-19 04:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ros-cdk-rocketmq
+[2023-07-19 04:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: claude-api
+[2023-07-19 04:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edman-cli
+[2023-07-19 04:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ros-cdk-dcdn
+[2023-07-19 04:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cachetoolz
+[2023-07-19 04:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ros-cdk-memcache
+[2023-07-19 04:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ros-cdk-datahub
+[2023-07-19 04:27:52] INFO root fetch - processPackages [cachetoolz]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-19 04:27:52] INFO root fetch - processPackages [ros-cdk-rocketmq]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 04:27:52] INFO root fetch - processPackages [ros-cdk-memcache]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 04:27:52] INFO root fetch - processPackages [ros-cdk-dcdn]: New version: [1.0.16] Old Version: [1.0.15]
+[2023-07-19 04:27:52] INFO root fetch - processPackages [ros-cdk-redis]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 04:27:52] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-19 04:27:52] INFO root fetch - processPackages [edman-cli]: New version: [2023.7.19] Old Version: [2023.5.24]
+[2023-07-19 04:27:52] WARNING root fetch - processPackages [zhijian]: Skipping, unable to determine old version
+[2023-07-19 04:27:52] INFO root fetch - processPackages [zhijian]: Start processing: vsc-ed
+[2023-07-19 04:27:52] INFO root fetch - main [MainThread]: End processing [zhijian] error
+[2023-07-19 04:27:52] INFO root fetch - processPackages [ros-cdk-datahub]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 04:27:52] INFO root fetch - processPackages [claude-api]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-19 04:27:52] INFO root fetch - processPackages [cachetoolz]: Downloading https://files.pythonhosted.org/packages/7d/b1/d0b33ef6d7fc1a096155a7cf8ddd8c8da51a6561b83dda8b689c30159680/cachetoolz-0.1.0.tar.gz
+[2023-07-19 04:27:52] INFO root fetch - processPackages [claude-api]: Downloading https://files.pythonhosted.org/packages/80/2b/7e1bead11da4b8b469f348cf4ee7cd1406e390e823753975f29539a38c1a/claude-api-1.0.5.tar.gz
+[2023-07-19 04:27:52] INFO root fetch - processPackages [ros-cdk-redis]: Downloading https://files.pythonhosted.org/packages/f9/37/c2f9452820ea9aab67f2a26c2746578c4eaaf5843fe0960caa257ea0861d/ros-cdk-redis-1.0.8.tar.gz
+[2023-07-19 04:27:52] WARNING root fetch - processPackages [vsc-ed]: Skipping, unable to determine old version
+[2023-07-19 04:27:52] INFO root fetch - processPackages [vsc-ed]: Start processing: ros-cdk-ram
+[2023-07-19 04:27:52] INFO root fetch - main [MainThread]: End processing [vsc-ed] error
+[2023-07-19 04:27:52] INFO root fetch - processPackages [ros-cdk-rocketmq]: Downloading https://files.pythonhosted.org/packages/88/5e/16d18709c1269ddf859c9ccbc945824451982b6c51d066a47d9655547955/ros-cdk-rocketmq-1.0.8.tar.gz
+[2023-07-19 04:27:52] INFO root fetch - processPackages [ros-cdk-memcache]: Downloading https://files.pythonhosted.org/packages/a4/87/eba13b9af02a957d7160fc2bc3e6c2232fd6206eb6866c6a49e8077ab5ef/ros-cdk-memcache-1.0.8.tar.gz
+[2023-07-19 04:27:52] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/33/a0/02c1c61c08488072b10045f13351cac91a6dc5b3b289a3a38fb162ac9cfa/cdk-hugo-deploy-0.0.98.tar.gz
+[2023-07-19 04:27:52] INFO root fetch - processPackages [edman-cli]: Downloading https://files.pythonhosted.org/packages/77/6a/4149cf3fba683322cecdeaa48800bb1fcd580c53aa0186a9a794f60b7a64/edman_cli-2023.5.24.tar.gz
+[2023-07-19 04:27:52] INFO root fetch - processPackages [ros-cdk-datahub]: Downloading https://files.pythonhosted.org/packages/0d/9f/705aca609a7929f26bc84bfc4beab6b3584948fbb18ac974c9549a445311/ros-cdk-datahub-1.0.8.tar.gz
+[2023-07-19 04:27:52] INFO root fetch - processPackages [ros-cdk-dcdn]: Downloading https://files.pythonhosted.org/packages/f4/e6/5770a2ac55bb24c62ec8f7fcd93102a2f0915f53ceb4318ff5b4cc29e8d2/ros-cdk-dcdn-1.0.15.tar.gz
+[2023-07-19 04:27:52] INFO root fetch - processPackages [cachetoolz]: Downloading https://files.pythonhosted.org/packages/08/52/f1e7d7763f0c640509630f304f788460a5d1b49845ec0a8129d090bc22f0/cachetoolz-0.1.1.tar.gz
+[2023-07-19 04:27:52] INFO root fetch - processPackages [ros-cdk-ram]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 04:27:52] INFO root fetch - processPackages [claude-api]: Downloading https://files.pythonhosted.org/packages/cc/86/13a0ac49d565a66a8b35f6aa829792860efd26d2cb0f1cee664edf9f0025/claude-api-1.0.6.tar.gz
+[2023-07-19 04:27:52] INFO root fetch - processPackages [cachetoolz]: executing diffoscope
+[2023-07-19 04:27:52] INFO root fetch - processPackages [cachetoolz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cachetoolz-0.1.0.tar.gz tmp/cachetoolz-0.1.1.tar.gz --markdown 20230719/c/cachetoolz/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-19 04:27:52] INFO root fetch - processPackages [ros-cdk-ram]: Downloading https://files.pythonhosted.org/packages/72/1c/1dd143ca0b5dbde3c0227f0effa0e20ec8e19e4d87115a3c00dd4fff8639/ros-cdk-ram-1.0.8.tar.gz
+[2023-07-19 04:27:52] INFO root fetch - processPackages [claude-api]: executing diffoscope
+[2023-07-19 04:27:52] INFO root fetch - processPackages [claude-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/claude-api-1.0.5.tar.gz tmp/claude-api-1.0.6.tar.gz --markdown 20230719/c/claude-api/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-19 04:27:52] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/69/65/61cf4e2d01ce9f811649f2d5a9b579e9603a4b6257774c90a60bc13109ee/cdk-hugo-deploy-0.0.99.tar.gz
+[2023-07-19 04:27:52] INFO root fetch - processPackages [edman-cli]: Downloading https://files.pythonhosted.org/packages/1c/21/55d4500fb385aded02741abf8992588ff2188318bf1593d9782838b91361/edman_cli-2023.7.19.tar.gz
+[2023-07-19 04:27:52] INFO root fetch - processPackages [ros-cdk-dcdn]: Downloading https://files.pythonhosted.org/packages/59/20/2e5afa1a6023dd8346729fa26cd02be199ba1fd8a38b2eba5d6468b982b8/ros-cdk-dcdn-1.0.16.tar.gz
+[2023-07-19 04:27:52] INFO root fetch - processPackages [ros-cdk-memcache]: Downloading https://files.pythonhosted.org/packages/8f/53/6ddb0fd72d796a0560bd5e0e81926aafb56011ec006ded043aed4cb1a427/ros-cdk-memcache-1.0.9.tar.gz
+[2023-07-19 04:27:53] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-07-19 04:27:53] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230719/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-19 04:27:53] INFO root fetch - processPackages [edman-cli]: executing diffoscope
+[2023-07-19 04:27:53] INFO root fetch - processPackages [edman-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edman_cli-2023.5.24.tar.gz tmp/edman_cli-2023.7.19.tar.gz --markdown 20230719/e/edman-cli/2023.5.24-2023.7.19/diff.md --exclude *.pyd
+[2023-07-19 04:27:53] INFO root fetch - processPackages [ros-cdk-datahub]: Downloading https://files.pythonhosted.org/packages/16/c6/6f134333f25cc6ea51fa6375b0ba68d4776625d7f5a089646c1e3a3e8148/ros-cdk-datahub-1.0.9.tar.gz
+[2023-07-19 04:27:53] INFO root fetch - processPackages [ros-cdk-dcdn]: executing diffoscope
+[2023-07-19 04:27:53] INFO root fetch - processPackages [ros-cdk-dcdn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-dcdn-1.0.15.tar.gz tmp/ros-cdk-dcdn-1.0.16.tar.gz --markdown 20230719/r/ros-cdk-dcdn/1.0.15-1.0.16/diff.md --exclude *.pyd
+[2023-07-19 04:27:53] INFO root fetch - processPackages [ros-cdk-memcache]: executing diffoscope
+[2023-07-19 04:27:53] INFO root fetch - processPackages [ros-cdk-memcache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-memcache-1.0.8.tar.gz tmp/ros-cdk-memcache-1.0.9.tar.gz --markdown 20230719/r/ros-cdk-memcache/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 04:27:53] INFO root fetch - processPackages [ros-cdk-rocketmq]: Downloading https://files.pythonhosted.org/packages/61/cd/467d0c00a5d11269809fbd0c9699e7c95b96ce902cc841ac369be1d9272c/ros-cdk-rocketmq-1.0.9.tar.gz
+[2023-07-19 04:27:53] INFO root fetch - processPackages [ros-cdk-datahub]: executing diffoscope
+[2023-07-19 04:27:53] INFO root fetch - processPackages [ros-cdk-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-datahub-1.0.8.tar.gz tmp/ros-cdk-datahub-1.0.9.tar.gz --markdown 20230719/r/ros-cdk-datahub/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 04:27:53] INFO root fetch - processPackages [ros-cdk-ram]: Downloading https://files.pythonhosted.org/packages/01/77/29a2ece550d18a242fa77432a9ade1af180f7a002d1dd1548235638e66b7/ros-cdk-ram-1.0.9.tar.gz
+[2023-07-19 04:27:53] INFO root fetch - processPackages [ros-cdk-rocketmq]: executing diffoscope
+[2023-07-19 04:27:53] INFO root fetch - processPackages [ros-cdk-rocketmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-rocketmq-1.0.8.tar.gz tmp/ros-cdk-rocketmq-1.0.9.tar.gz --markdown 20230719/r/ros-cdk-rocketmq/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 04:27:53] INFO root fetch - processPackages [ros-cdk-redis]: Downloading https://files.pythonhosted.org/packages/07/d9/77b4deeeee6a1c77a1424293bb0d34996cb37198c52ac49b073910e25642/ros-cdk-redis-1.0.9.tar.gz
+[2023-07-19 04:27:53] INFO root fetch - processPackages [ros-cdk-ram]: executing diffoscope
+[2023-07-19 04:27:53] INFO root fetch - processPackages [ros-cdk-ram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-ram-1.0.8.tar.gz tmp/ros-cdk-ram-1.0.9.tar.gz --markdown 20230719/r/ros-cdk-ram/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 04:27:54] INFO root fetch - processPackages [claude-api]: Remove: archive file [/home/abi/fetcher/tmp/claude-api-1.0.5.tar.gz]
+[2023-07-19 04:27:54] INFO root fetch - processPackages [claude-api]: Remove: archive file [/home/abi/fetcher/tmp/claude-api-1.0.6.tar.gz]
+[2023-07-19 04:27:54] INFO root fetch - processPackages [claude-api]: Start processing: pydoclint
+[2023-07-19 04:27:54] INFO root fetch - main [MainThread]: End processing [claude-api]: success
+[2023-07-19 04:27:54] INFO root fetch - processPackages [ros-cdk-redis]: executing diffoscope
+[2023-07-19 04:27:54] INFO root fetch - processPackages [ros-cdk-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-redis-1.0.8.tar.gz tmp/ros-cdk-redis-1.0.9.tar.gz --markdown 20230719/r/ros-cdk-redis/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 04:27:54] INFO root fetch - processPackages [pydoclint]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-19 04:27:54] INFO root fetch - processPackages [cachetoolz]: Remove: archive file [/home/abi/fetcher/tmp/cachetoolz-0.1.0.tar.gz]
+[2023-07-19 04:27:54] INFO root fetch - processPackages [cachetoolz]: Remove: archive file [/home/abi/fetcher/tmp/cachetoolz-0.1.1.tar.gz]
+[2023-07-19 04:27:54] INFO root fetch - processPackages [cachetoolz]: Start processing: ros-cdk-config
+[2023-07-19 04:27:54] INFO root fetch - main [MainThread]: End processing [cachetoolz]: success
+[2023-07-19 04:27:54] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.98.tar.gz]
+[2023-07-19 04:27:54] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.99.tar.gz]
+[2023-07-19 04:27:54] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-07-19 04:27:54] INFO root fetch - processPackages [ros-cdk-config]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 04:27:54] INFO root fetch - processPackages [ros-cdk-dcdn]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dcdn-1.0.15.tar.gz]
+[2023-07-19 04:27:54] INFO root fetch - processPackages [ros-cdk-dcdn]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dcdn-1.0.16.tar.gz]
+[2023-07-19 04:27:54] INFO root fetch - main [MainThread]: End processing [ros-cdk-dcdn]: success
+[2023-07-19 04:27:54] INFO root fetch - processPackages [pydoclint]: Downloading https://files.pythonhosted.org/packages/c9/02/e905e48bb2f77c64cd305ad675d063c8e6da3172357e04040ca8f26956c5/pydoclint-0.1.0.tar.gz
+[2023-07-19 04:27:54] INFO root fetch - processPackages [ros-cdk-config]: Downloading https://files.pythonhosted.org/packages/d4/5a/f8765303b2fd1da8b35930f4447d67f950df629159ed5c2af871ec27d784/ros-cdk-config-1.0.8.tar.gz
+[2023-07-19 04:27:54] INFO root fetch - processPackages [edman-cli]: Remove: archive file [/home/abi/fetcher/tmp/edman_cli-2023.5.24.tar.gz]
+[2023-07-19 04:27:54] INFO root fetch - processPackages [edman-cli]: Remove: archive file [/home/abi/fetcher/tmp/edman_cli-2023.7.19.tar.gz]
+[2023-07-19 04:27:54] INFO root fetch - main [MainThread]: End processing [edman-cli]: success
+[2023-07-19 04:27:54] INFO root fetch - processPackages [ros-cdk-datahub]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-datahub-1.0.8.tar.gz]
+[2023-07-19 04:27:54] INFO root fetch - processPackages [ros-cdk-datahub]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-datahub-1.0.9.tar.gz]
+[2023-07-19 04:27:54] INFO root fetch - main [MainThread]: End processing [ros-cdk-datahub]: success
+[2023-07-19 04:27:54] INFO root fetch - processPackages [ros-cdk-memcache]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-memcache-1.0.8.tar.gz]
+[2023-07-19 04:27:54] INFO root fetch - processPackages [ros-cdk-memcache]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-memcache-1.0.9.tar.gz]
+[2023-07-19 04:27:54] INFO root fetch - main [MainThread]: End processing [ros-cdk-memcache]: success
+[2023-07-19 04:27:54] INFO root fetch - processPackages [pydoclint]: Downloading https://files.pythonhosted.org/packages/02/c3/e2aac65619e11b4cf8666e7b43b903681d52e62f0090ac33881df20f1689/pydoclint-0.1.1.tar.gz
+[2023-07-19 04:27:54] INFO root fetch - processPackages [ros-cdk-rocketmq]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-rocketmq-1.0.8.tar.gz]
+[2023-07-19 04:27:54] INFO root fetch - processPackages [ros-cdk-rocketmq]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-rocketmq-1.0.9.tar.gz]
+[2023-07-19 04:27:54] INFO root fetch - main [MainThread]: End processing [ros-cdk-rocketmq]: success
+[2023-07-19 04:27:54] INFO root fetch - processPackages [pydoclint]: executing diffoscope
+[2023-07-19 04:27:54] INFO root fetch - processPackages [pydoclint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydoclint-0.1.0.tar.gz tmp/pydoclint-0.1.1.tar.gz --markdown 20230719/p/pydoclint/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-19 04:27:55] INFO root fetch - processPackages [ros-cdk-ram]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ram-1.0.8.tar.gz]
+[2023-07-19 04:27:55] INFO root fetch - processPackages [ros-cdk-ram]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ram-1.0.9.tar.gz]
+[2023-07-19 04:27:55] INFO root fetch - main [MainThread]: End processing [ros-cdk-ram]: success
+[2023-07-19 04:27:55] INFO root fetch - processPackages [ros-cdk-config]: Downloading https://files.pythonhosted.org/packages/b9/53/464bc068dd4407a594e2d5ee0e12ad8b54d6123aaf91c2ac9c7b5b848947/ros-cdk-config-1.0.9.tar.gz
+[2023-07-19 04:27:55] INFO root fetch - processPackages [ros-cdk-redis]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-redis-1.0.8.tar.gz]
+[2023-07-19 04:27:55] INFO root fetch - processPackages [ros-cdk-redis]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-redis-1.0.9.tar.gz]
+[2023-07-19 04:27:55] INFO root fetch - main [MainThread]: End processing [ros-cdk-redis]: success
+[2023-07-19 04:27:55] INFO root fetch - processPackages [pydoclint]: Remove: archive file [/home/abi/fetcher/tmp/pydoclint-0.1.0.tar.gz]
+[2023-07-19 04:27:55] INFO root fetch - processPackages [pydoclint]: Remove: archive file [/home/abi/fetcher/tmp/pydoclint-0.1.1.tar.gz]
+[2023-07-19 04:27:55] INFO root fetch - main [MainThread]: End processing [pydoclint]: success
+[2023-07-19 04:27:55] INFO root fetch - processPackages [ros-cdk-config]: executing diffoscope
+[2023-07-19 04:27:55] INFO root fetch - processPackages [ros-cdk-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-config-1.0.8.tar.gz tmp/ros-cdk-config-1.0.9.tar.gz --markdown 20230719/r/ros-cdk-config/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 04:27:56] INFO root fetch - processPackages [ros-cdk-config]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-config-1.0.8.tar.gz]
+[2023-07-19 04:27:56] INFO root fetch - processPackages [ros-cdk-config]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-config-1.0.9.tar.gz]
+[2023-07-19 04:27:56] INFO root fetch - main [MainThread]: End processing [ros-cdk-config]: success
+[2023-07-19 04:27:56] INFO root fetch - main [MainThread]: Store serial: [18943364]
