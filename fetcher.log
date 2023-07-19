@@ -12985,3 +12985,87 @@
 [2023-07-19 06:22:04] INFO root fetch - processPackages [keras-core]: Remove: archive file [/home/abi/fetcher/tmp/keras-core-0.1.1.tar.gz]
 [2023-07-19 06:22:04] INFO root fetch - main [MainThread]: End processing [keras-core]: success
 [2023-07-19 06:22:04] INFO root fetch - main [MainThread]: Store serial: [18945346]
+[2023-07-19 06:27:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18945346]
+[2023-07-19 06:27:13] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-19 06:27:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo12-addon-mrp-production-request
+[2023-07-19 06:27:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: genevector
+[2023-07-19 06:27:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CalSim
+[2023-07-19 06:27:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dpdispatcher
+[2023-07-19 06:27:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-seasnake
+[2023-07-19 06:27:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-mrp-bom-hierarchy
+[2023-07-19 06:27:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lbt-honeybee
+[2023-07-19 06:27:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dragonfly-radiance
+[2023-07-19 06:27:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fiddler-client
+[2023-07-19 06:27:13] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-19 06:27:13] INFO root fetch - processPackages [fiddler-client]: New version: [2.0.0.dev6] Old Version: [2.0.0.dev5]
+[2023-07-19 06:27:13] INFO root fetch - processPackages [dragonfly-radiance]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-19 06:27:13] INFO root fetch - processPackages [odoo14-addon-mrp-bom-hierarchy]: New version: [14.0.1.0.1.dev6] Old Version: [14.0.1.0.1.dev5]
+[2023-07-19 06:27:13] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/19/59/4901be09b4bc6b97917c58bf3279cb373aa222989b9501e53b4c43213a9e/lbt-honeybee-0.7.98.tar.gz
+[2023-07-19 06:27:13] INFO root fetch - processPackages [odoo12-addon-mrp-production-request]: New version: [12.0.1.0.1.99.dev9] Old Version: [12.0.1.0.1.99.dev8]
+[2023-07-19 06:27:13] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/a6/89/a05235ced8375ca35530ed2660fe44e6699c6d36879bc64f39eb9c4e9a1a/fiddler-client-2.0.0.dev5.tar.gz
+[2023-07-19 06:27:13] INFO root fetch - processPackages [py-seasnake]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-19 06:27:13] INFO root fetch - processPackages [CalSim]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 06:27:13] INFO root fetch - processPackages [genevector]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-19 06:27:13] INFO root fetch - processPackages [dpdispatcher]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-19 06:27:13] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/dd/6c/7d5ffb363ba985b326d3b266d8eaea74bc6cc890eb733cc9e0cc127ccc55/dragonfly-radiance-0.2.8.tar.gz
+[2023-07-19 06:27:13] INFO root fetch - processPackages [odoo12-addon-mrp-production-request]: Downloading https://files.pythonhosted.org/packages/b3/e1/6e9c13b18b486e988c9fd5327d89bd93de9a090cf0579b2c59888e2755ea/odoo12_addon_mrp_production_request-12.0.1.0.1.99.dev8-py3-none-any.whl
+[2023-07-19 06:27:13] INFO root fetch - processPackages [odoo14-addon-mrp-bom-hierarchy]: Downloading https://files.pythonhosted.org/packages/41/a7/2581332e547e33ef0510b9248379504eb035a0e18aab12756fd4fa5029d7/odoo14_addon_mrp_bom_hierarchy-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-07-19 06:27:13] INFO root fetch - processPackages [py-seasnake]: Downloading https://files.pythonhosted.org/packages/29/08/67c5dd2a23592ae0211a4179637331fc4a0a4eacd84f44b06975bfb34be5/py_seasnake-0.3.2.tar.gz
+[2023-07-19 06:27:14] INFO root fetch - processPackages [genevector]: Downloading https://files.pythonhosted.org/packages/dc/57/d42b33df453e3771c74eb3d7e3560293048ae90118a1fd719e777f5d25b8/genevector-0.1.0-py3.9.egg
+[2023-07-19 06:27:14] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/b0/e4/ecf99f1e991407e1a8eaaefe0ff7fb583e361bad1c0dbc070e4df60d3c0b/fiddler-client-2.0.0.dev6.tar.gz
+[2023-07-19 06:27:14] INFO root fetch - processPackages [CalSim]: Downloading https://files.pythonhosted.org/packages/9c/ee/10ee1f0aac4cceb86a1b873cf16fb9b223bd38be45cc04d38f07d7d0b40c/calsim-0.0.8.tar.gz
+[2023-07-19 06:27:14] INFO root fetch - processPackages [dpdispatcher]: Downloading https://files.pythonhosted.org/packages/dd/4a/7dcd74097970bfaa64783aeff6f963714c5e1a91abd30156e36d83bcec2d/dpdispatcher-0.5.8.tar.gz
+[2023-07-19 06:27:14] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/e9/01/706de1a3d81bb520c7a73e10a084040d9e5f37ff57b7defd9715a2c4018e/dragonfly-radiance-0.2.9.tar.gz
+[2023-07-19 06:27:14] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/a2/24/156ec161f44515db7966a68d9cc8aa62da7475128d138541e64b86dd4487/lbt-honeybee-0.7.99.tar.gz
+[2023-07-19 06:27:14] INFO root fetch - processPackages [odoo12-addon-mrp-production-request]: Downloading https://files.pythonhosted.org/packages/5a/b6/24fe8bef9c6a87dec00e1ece7e35e1df228849e7c47b9cc36a207c5ab672/odoo12_addon_mrp_production_request-12.0.1.0.1.99.dev9-py3-none-any.whl
+[2023-07-19 06:27:14] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-07-19 06:27:14] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230719/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-19 06:27:14] INFO root fetch - processPackages [dragonfly-radiance]: executing diffoscope
+[2023-07-19 06:27:14] INFO root fetch - processPackages [dragonfly-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-radiance-0.2.8.tar.gz tmp/dragonfly-radiance-0.2.9.tar.gz --markdown 20230719/d/dragonfly-radiance/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-19 06:27:14] INFO root fetch - processPackages [fiddler-client]: executing diffoscope
+[2023-07-19 06:27:14] INFO root fetch - processPackages [fiddler-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiddler-client-2.0.0.dev5.tar.gz tmp/fiddler-client-2.0.0.dev6.tar.gz --markdown 20230719/f/fiddler-client/2.0.0.dev5-2.0.0.dev6/diff.md --exclude *.pyd
+[2023-07-19 06:27:14] INFO root fetch - processPackages [odoo14-addon-mrp-bom-hierarchy]: Downloading https://files.pythonhosted.org/packages/ca/eb/86298222b3f151a1e2e86589fa8262806d6019285edec8aa2ad379ef1a59/odoo14_addon_mrp_bom_hierarchy-14.0.1.0.1.dev6-py3-none-any.whl
+[2023-07-19 06:27:14] INFO root fetch - processPackages [genevector]: Downloading https://files.pythonhosted.org/packages/08/32/3ee9815e0b3a2829e96e77fb40ccafb109766aef44739df001171256ae40/genevector-0.2.0.tar.gz
+[2023-07-19 06:27:14] INFO root fetch - processPackages [py-seasnake]: Downloading https://files.pythonhosted.org/packages/61/9d/d4b7d955680e686874b81f19f24ac0a78d5dc14284267be1c4975f650822/py_seasnake-0.3.3.tar.gz
+[2023-07-19 06:27:14] INFO root fetch - processPackages [dpdispatcher]: Downloading https://files.pythonhosted.org/packages/32/6d/6ce26b2fa8a32c3ad1317b75f7ca7bcc25d477b5f981230329dc12c02b20/dpdispatcher-0.5.9.tar.gz
+[2023-07-19 06:27:14] INFO root fetch - processPackages [odoo12-addon-mrp-production-request]: executing diffoscope
+[2023-07-19 06:27:14] INFO root fetch - processPackages [odoo12-addon-mrp-production-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_mrp_production_request-12.0.1.0.1.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_mrp_production_request-12.0.1.0.1.99.dev9-py3-none-any.whl.zip --markdown 20230719/o/odoo12-addon-mrp-production-request/12.0.1.0.1.99.dev8-12.0.1.0.1.99.dev9/diff.md --exclude *.pyd
+[2023-07-19 06:27:14] INFO root fetch - processPackages [CalSim]: Downloading https://files.pythonhosted.org/packages/65/a1/95437c20af234eb1ed67c5cd349670e67df09bd27fafd7f248f5f12a3045/calsim-0.0.9.tar.gz
+[2023-07-19 06:27:14] INFO root fetch - processPackages [genevector]: executing diffoscope
+[2023-07-19 06:27:14] INFO root fetch - processPackages [genevector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genevector-0.1.0-py3.9.egg tmp/genevector-0.2.0.tar.gz --markdown 20230719/g/genevector/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-19 06:27:14] INFO root fetch - processPackages [odoo14-addon-mrp-bom-hierarchy]: executing diffoscope
+[2023-07-19 06:27:14] INFO root fetch - processPackages [odoo14-addon-mrp-bom-hierarchy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_mrp_bom_hierarchy-14.0.1.0.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_mrp_bom_hierarchy-14.0.1.0.1.dev6-py3-none-any.whl.zip --markdown 20230719/o/odoo14-addon-mrp-bom-hierarchy/14.0.1.0.1.dev5-14.0.1.0.1.dev6/diff.md --exclude *.pyd
+[2023-07-19 06:27:14] INFO root fetch - processPackages [py-seasnake]: executing diffoscope
+[2023-07-19 06:27:14] INFO root fetch - processPackages [py-seasnake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_seasnake-0.3.2.tar.gz tmp/py_seasnake-0.3.3.tar.gz --markdown 20230719/p/py-seasnake/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-19 06:27:14] INFO root fetch - processPackages [CalSim]: executing diffoscope
+[2023-07-19 06:27:14] INFO root fetch - processPackages [CalSim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calsim-0.0.8.tar.gz tmp/calsim-0.0.9.tar.gz --markdown 20230719/C/CalSim/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 06:27:14] INFO root fetch - processPackages [dpdispatcher]: executing diffoscope
+[2023-07-19 06:27:14] INFO root fetch - processPackages [dpdispatcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dpdispatcher-0.5.8.tar.gz tmp/dpdispatcher-0.5.9.tar.gz --markdown 20230719/d/dpdispatcher/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-19 06:27:15] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.98.tar.gz]
+[2023-07-19 06:27:15] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.99.tar.gz]
+[2023-07-19 06:27:15] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-07-19 06:27:15] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.2.8.tar.gz]
+[2023-07-19 06:27:15] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.2.9.tar.gz]
+[2023-07-19 06:27:15] INFO root fetch - main [MainThread]: End processing [dragonfly-radiance]: success
+[2023-07-19 06:27:15] INFO root fetch - processPackages [genevector]: Remove: archive file [/home/abi/fetcher/tmp/genevector-0.1.0-py3.9.egg]
+[2023-07-19 06:27:15] INFO root fetch - processPackages [genevector]: Remove: archive file [/home/abi/fetcher/tmp/genevector-0.2.0.tar.gz]
+[2023-07-19 06:27:15] INFO root fetch - main [MainThread]: End processing [genevector]: success
+[2023-07-19 06:27:16] INFO root fetch - processPackages [odoo14-addon-mrp-bom-hierarchy]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mrp_bom_hierarchy-14.0.1.0.1.dev5-py3-none-any.whl.zip]
+[2023-07-19 06:27:16] INFO root fetch - processPackages [odoo14-addon-mrp-bom-hierarchy]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mrp_bom_hierarchy-14.0.1.0.1.dev6-py3-none-any.whl.zip]
+[2023-07-19 06:27:16] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mrp-bom-hierarchy]: success
+[2023-07-19 06:27:16] INFO root fetch - processPackages [py-seasnake]: Remove: archive file [/home/abi/fetcher/tmp/py_seasnake-0.3.2.tar.gz]
+[2023-07-19 06:27:16] INFO root fetch - processPackages [py-seasnake]: Remove: archive file [/home/abi/fetcher/tmp/py_seasnake-0.3.3.tar.gz]
+[2023-07-19 06:27:16] INFO root fetch - main [MainThread]: End processing [py-seasnake]: success
+[2023-07-19 06:27:16] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler-client-2.0.0.dev5.tar.gz]
+[2023-07-19 06:27:16] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler-client-2.0.0.dev6.tar.gz]
+[2023-07-19 06:27:16] INFO root fetch - main [MainThread]: End processing [fiddler-client]: success
+[2023-07-19 06:27:16] INFO root fetch - processPackages [CalSim]: Remove: archive file [/home/abi/fetcher/tmp/calsim-0.0.8.tar.gz]
+[2023-07-19 06:27:16] INFO root fetch - processPackages [CalSim]: Remove: archive file [/home/abi/fetcher/tmp/calsim-0.0.9.tar.gz]
+[2023-07-19 06:27:16] INFO root fetch - main [MainThread]: End processing [CalSim]: success
+[2023-07-19 06:27:16] INFO root fetch - processPackages [odoo12-addon-mrp-production-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_mrp_production_request-12.0.1.0.1.99.dev8-py3-none-any.whl.zip]
+[2023-07-19 06:27:16] INFO root fetch - processPackages [odoo12-addon-mrp-production-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_mrp_production_request-12.0.1.0.1.99.dev9-py3-none-any.whl.zip]
+[2023-07-19 06:27:16] INFO root fetch - main [MainThread]: End processing [odoo12-addon-mrp-production-request]: success
+[2023-07-19 06:27:16] INFO root fetch - processPackages [dpdispatcher]: Remove: archive file [/home/abi/fetcher/tmp/dpdispatcher-0.5.8.tar.gz]
+[2023-07-19 06:27:16] INFO root fetch - processPackages [dpdispatcher]: Remove: archive file [/home/abi/fetcher/tmp/dpdispatcher-0.5.9.tar.gz]
+[2023-07-19 06:27:16] INFO root fetch - main [MainThread]: End processing [dpdispatcher]: success
+[2023-07-19 06:27:16] INFO root fetch - main [MainThread]: Store serial: [18945371]
