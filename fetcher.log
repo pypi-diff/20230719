@@ -15203,3 +15203,93 @@
 [2023-07-19 08:36:09] INFO root fetch - processPackages [elementary-data]: Remove: archive file [/home/abi/fetcher/tmp/elementary-data-0.8.2.tar.gz]
 [2023-07-19 08:36:09] INFO root fetch - main [MainThread]: End processing [elementary-data]: success
 [2023-07-19 08:36:09] INFO root fetch - main [MainThread]: Store serial: [18946128]
+[2023-07-19 08:41:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18946128]
+[2023-07-19 08:41:20] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-19 08:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: minddatapack
+[2023-07-19 08:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: readyocr
+[2023-07-19 08:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openssm-dev
+[2023-07-19 08:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyradiance
+[2023-07-19 08:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: plothist
+[2023-07-19 08:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ustcjwxt
+[2023-07-19 08:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hserv
+[2023-07-19 08:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: irene-pro
+[2023-07-19 08:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alibabacloud-cloudauth20221125
+[2023-07-19 08:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chonkify
+[2023-07-19 08:41:20] INFO root fetch - processPackages [plothist]: New version: [0.5] Old Version: [0.4]
+[2023-07-19 08:41:20] INFO root fetch - processPackages [readyocr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 08:41:20] INFO root fetch - processPackages [minddatapack]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-19 08:41:20] INFO root fetch - processPackages [irene-pro]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-19 08:41:20] INFO root fetch - processPackages [openssm-dev]: New version: [0.1.6.dev0] Old Version: [0.1.5]
+[2023-07-19 08:41:20] WARNING root fetch - processPackages [chonkify]: Skipping, unable to determine old version
+[2023-07-19 08:41:20] INFO root fetch - processPackages [chonkify]: Start processing: ezplotly
+[2023-07-19 08:41:20] INFO root fetch - main [MainThread]: End processing [chonkify] error
+[2023-07-19 08:41:20] INFO root fetch - processPackages [hserv]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-19 08:41:21] INFO root fetch - processPackages [plothist]: Downloading https://files.pythonhosted.org/packages/7e/cb/9ee232d5f1e1cba452104626f06de09f4008e5e0b4175bf029169fa86a19/plothist-0.4.tar.gz
+[2023-07-19 08:41:21] INFO root fetch - processPackages [alibabacloud-cloudauth20221125]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-19 08:41:21] WARNING root fetch - processPackages [ustcjwxt]: Skipping, unable to determine old version
+[2023-07-19 08:41:21] INFO root fetch - main [MainThread]: End processing [ustcjwxt] error
+[2023-07-19 08:41:21] INFO root fetch - processPackages [pyradiance]: New version: [0.1.1] Old Version: [0.1.0b1]
+[2023-07-19 08:41:21] INFO root fetch - processPackages [minddatapack]: Downloading https://files.pythonhosted.org/packages/88/74/5c349381ed20351cf0116612c8830a943ee3aded5df6f0f2cef2592ddee9/minddatapack-0.9.0.tar.gz
+[2023-07-19 08:41:21] INFO root fetch - processPackages [readyocr]: Downloading https://files.pythonhosted.org/packages/c0/29/14e71ef7cbc2bb63eb3a7dde19b1d0261a548da80fc6f233f4cdf0b5ee8c/readyocr-0.0.8.tar.gz
+[2023-07-19 08:41:21] INFO root fetch - processPackages [ezplotly]: New version: [0.1.3.0.7] Old Version: [0.1.3.0.6]
+[2023-07-19 08:41:21] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/95/e1/5be3d3d5529a04be44908ccfc42c41fcd53985c12f6fbe4213de119c92de/irene_pro-0.1.0.tar.gz
+[2023-07-19 08:41:21] INFO root fetch - processPackages [openssm-dev]: Downloading https://files.pythonhosted.org/packages/36/dd/0f7edfe5d94e0587569d8b29946056162e505235b4aec9e25c3b8fc0ccb4/openssm_dev-0.1.5.tar.gz
+[2023-07-19 08:41:21] INFO root fetch - processPackages [alibabacloud-cloudauth20221125]: Downloading https://files.pythonhosted.org/packages/11/82/c7931ac66aa49c2a910fd9445b07ff6300a776bfc7985805983e9a1709d3/alibabacloud_cloudauth20221125-1.0.7.tar.gz
+[2023-07-19 08:41:21] INFO root fetch - processPackages [hserv]: Downloading https://files.pythonhosted.org/packages/d0/a4/38e5dc74da4c845bdbaf24272b42dac25c6d39cdb2bb60570a3565d43942/hserv-0.0.1.tar.gz
+[2023-07-19 08:41:21] INFO root fetch - processPackages [pyradiance]: Downloading https://files.pythonhosted.org/packages/0a/c7/d8a38e4eeec536bfd193f6b3123b0a3b70457a2d0013d5f6833535356cc5/pyradiance-0.1.0b1-py3-none-win_amd64.whl
+[2023-07-19 08:41:21] INFO root fetch - processPackages [minddatapack]: Downloading https://files.pythonhosted.org/packages/40/08/4e3cbe51408cc09fb054fbf78c5fe8427cc1cff1ffe6ff2d9daed0c3e81c/minddatapack-0.9.1.tar.gz
+[2023-07-19 08:41:21] INFO root fetch - processPackages [ezplotly]: Downloading https://files.pythonhosted.org/packages/20/14/25edd9c305f05340bb729128d97649d7fabbc833758adf132593e15d9e2f/ezplotly-0.1.3.0.6.tar.gz
+[2023-07-19 08:41:21] INFO root fetch - processPackages [plothist]: Downloading https://files.pythonhosted.org/packages/84/ba/77463847526afa2d5aa59438919b91a9bd509ace61f05a40d9242df214a3/plothist-0.5.tar.gz
+[2023-07-19 08:41:21] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/87/fd/a507482a35ddffe32cd9ff0a43c7214e9a1fe6bcbe7db5568528afa277f9/irene_pro-0.1.1.tar.gz
+[2023-07-19 08:41:21] INFO root fetch - processPackages [readyocr]: Downloading https://files.pythonhosted.org/packages/67/b0/34662554637d50f73b74973afb6ddfb4d9895b1fafbfa36c16d5764321fa/readyocr-0.0.9.tar.gz
+[2023-07-19 08:41:21] INFO root fetch - processPackages [minddatapack]: executing diffoscope
+[2023-07-19 08:41:21] INFO root fetch - processPackages [minddatapack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minddatapack-0.9.0.tar.gz tmp/minddatapack-0.9.1.tar.gz --markdown 20230719/m/minddatapack/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-19 08:41:21] INFO root fetch - processPackages [openssm-dev]: Downloading https://files.pythonhosted.org/packages/98/cd/ef0cbdb0e63123dff8fe36cd93ad8f4e4e0ed4aef6d5a4c1f3f0d3f6be1f/openssm_dev-0.1.6.dev0.tar.gz
+[2023-07-19 08:41:21] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-07-19 08:41:21] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.1.0.tar.gz tmp/irene_pro-0.1.1.tar.gz --markdown 20230719/i/irene-pro/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-19 08:41:21] INFO root fetch - processPackages [readyocr]: executing diffoscope
+[2023-07-19 08:41:21] INFO root fetch - processPackages [readyocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readyocr-0.0.8.tar.gz tmp/readyocr-0.0.9.tar.gz --markdown 20230719/r/readyocr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 08:41:21] INFO root fetch - processPackages [plothist]: executing diffoscope
+[2023-07-19 08:41:21] INFO root fetch - processPackages [plothist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plothist-0.4.tar.gz tmp/plothist-0.5.tar.gz --markdown 20230719/p/plothist/0.4-0.5/diff.md --exclude *.pyd
+[2023-07-19 08:41:21] INFO root fetch - processPackages [openssm-dev]: executing diffoscope
+[2023-07-19 08:41:21] INFO root fetch - processPackages [openssm-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openssm_dev-0.1.5.tar.gz tmp/openssm_dev-0.1.6.dev0.tar.gz --markdown 20230719/o/openssm-dev/0.1.5-0.1.6.dev0/diff.md --exclude *.pyd
+[2023-07-19 08:41:21] INFO root fetch - processPackages [hserv]: Downloading https://files.pythonhosted.org/packages/ab/79/152c99bb4da1cc973e5bbcbd4f49de9116e5149aa8c8421e5a06c25b6a0b/hserv-0.0.2.tar.gz
+[2023-07-19 08:41:21] INFO root fetch - processPackages [ezplotly]: Downloading https://files.pythonhosted.org/packages/ae/95/9a37bf3cfb15ed2311e5ef3c75145a496ca7283e701ee3b458c29b8cb610/ezplotly-0.1.3.0.7.tar.gz
+[2023-07-19 08:41:21] INFO root fetch - processPackages [alibabacloud-cloudauth20221125]: Downloading https://files.pythonhosted.org/packages/da/00/aa5199e586987b075ce21dee0ff26f533c72039a404c1ecc27a4dbfa39f4/alibabacloud_cloudauth20221125-1.0.8.tar.gz
+[2023-07-19 08:41:21] INFO root fetch - processPackages [hserv]: executing diffoscope
+[2023-07-19 08:41:21] INFO root fetch - processPackages [hserv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hserv-0.0.1.tar.gz tmp/hserv-0.0.2.tar.gz --markdown 20230719/h/hserv/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-19 08:41:22] INFO root fetch - processPackages [ezplotly]: executing diffoscope
+[2023-07-19 08:41:22] INFO root fetch - processPackages [ezplotly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezplotly-0.1.3.0.6.tar.gz tmp/ezplotly-0.1.3.0.7.tar.gz --markdown 20230719/e/ezplotly/0.1.3.0.6-0.1.3.0.7/diff.md --exclude *.pyd
+[2023-07-19 08:41:22] INFO root fetch - processPackages [alibabacloud-cloudauth20221125]: executing diffoscope
+[2023-07-19 08:41:22] INFO root fetch - processPackages [alibabacloud-cloudauth20221125]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cloudauth20221125-1.0.7.tar.gz tmp/alibabacloud_cloudauth20221125-1.0.8.tar.gz --markdown 20230719/a/alibabacloud-cloudauth20221125/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-19 08:41:22] INFO root fetch - processPackages [pyradiance]: Downloading https://files.pythonhosted.org/packages/a6/49/c55503920e7668f5ccb05dd5ba90339b2b1208e4817aeae93576f44342eb/pyradiance-0.1.1-py3-none-macosx_11_0_arm64.whl
+[2023-07-19 08:41:22] INFO root fetch - processPackages [pyradiance]: executing diffoscope
+[2023-07-19 08:41:22] INFO root fetch - processPackages [pyradiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyradiance-0.1.0b1-py3-none-win_amd64.whl.zip tmp/pyradiance-0.1.1-py3-none-macosx_11_0_arm64.whl.zip --markdown 20230719/p/pyradiance/0.1.0b1-0.1.1/diff.md --exclude *.pyd
+[2023-07-19 08:41:23] INFO root fetch - processPackages [minddatapack]: Remove: archive file [/home/abi/fetcher/tmp/minddatapack-0.9.0.tar.gz]
+[2023-07-19 08:41:23] INFO root fetch - processPackages [minddatapack]: Remove: archive file [/home/abi/fetcher/tmp/minddatapack-0.9.1.tar.gz]
+[2023-07-19 08:41:23] INFO root fetch - main [MainThread]: End processing [minddatapack]: success
+[2023-07-19 08:41:23] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.1.0.tar.gz]
+[2023-07-19 08:41:23] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.1.1.tar.gz]
+[2023-07-19 08:41:23] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-07-19 08:41:23] INFO root fetch - processPackages [readyocr]: Remove: archive file [/home/abi/fetcher/tmp/readyocr-0.0.8.tar.gz]
+[2023-07-19 08:41:23] INFO root fetch - processPackages [readyocr]: Remove: archive file [/home/abi/fetcher/tmp/readyocr-0.0.9.tar.gz]
+[2023-07-19 08:41:23] INFO root fetch - main [MainThread]: End processing [readyocr]: success
+[2023-07-19 08:41:23] INFO root fetch - processPackages [hserv]: Remove: archive file [/home/abi/fetcher/tmp/hserv-0.0.1.tar.gz]
+[2023-07-19 08:41:23] INFO root fetch - processPackages [hserv]: Remove: archive file [/home/abi/fetcher/tmp/hserv-0.0.2.tar.gz]
+[2023-07-19 08:41:23] INFO root fetch - main [MainThread]: End processing [hserv]: success
+[2023-07-19 08:41:23] INFO root fetch - processPackages [ezplotly]: Remove: archive file [/home/abi/fetcher/tmp/ezplotly-0.1.3.0.6.tar.gz]
+[2023-07-19 08:41:23] INFO root fetch - processPackages [ezplotly]: Remove: archive file [/home/abi/fetcher/tmp/ezplotly-0.1.3.0.7.tar.gz]
+[2023-07-19 08:41:23] INFO root fetch - main [MainThread]: End processing [ezplotly]: success
+[2023-07-19 08:41:23] INFO root fetch - processPackages [alibabacloud-cloudauth20221125]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudauth20221125-1.0.7.tar.gz]
+[2023-07-19 08:41:23] INFO root fetch - processPackages [alibabacloud-cloudauth20221125]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudauth20221125-1.0.8.tar.gz]
+[2023-07-19 08:41:23] INFO root fetch - main [MainThread]: End processing [alibabacloud-cloudauth20221125]: success
+[2023-07-19 08:41:23] INFO root fetch - processPackages [openssm-dev]: Remove: archive file [/home/abi/fetcher/tmp/openssm_dev-0.1.5.tar.gz]
+[2023-07-19 08:41:23] INFO root fetch - processPackages [openssm-dev]: Remove: archive file [/home/abi/fetcher/tmp/openssm_dev-0.1.6.dev0.tar.gz]
+[2023-07-19 08:41:23] INFO root fetch - main [MainThread]: End processing [openssm-dev]: success
+[2023-07-19 08:41:24] INFO root fetch - processPackages [plothist]: Remove: archive file [/home/abi/fetcher/tmp/plothist-0.4.tar.gz]
+[2023-07-19 08:41:24] INFO root fetch - processPackages [plothist]: Remove: archive file [/home/abi/fetcher/tmp/plothist-0.5.tar.gz]
+[2023-07-19 08:41:24] INFO root fetch - main [MainThread]: End processing [plothist]: success
+[2023-07-19 08:41:25] INFO root fetch - processPackages [pyradiance]: Remove: archive file [/home/abi/fetcher/tmp/pyradiance-0.1.0b1-py3-none-win_amd64.whl.zip]
+[2023-07-19 08:41:25] INFO root fetch - processPackages [pyradiance]: Remove: archive file [/home/abi/fetcher/tmp/pyradiance-0.1.1-py3-none-macosx_11_0_arm64.whl.zip]
+[2023-07-19 08:41:25] INFO root fetch - main [MainThread]: End processing [pyradiance]: success
+[2023-07-19 08:41:25] INFO root fetch - main [MainThread]: Store serial: [18946164]
