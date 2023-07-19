@@ -12319,3 +12319,134 @@
 [2023-07-19 05:45:06] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230719.tar.gz]
 [2023-07-19 05:45:06] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2023-07-19 05:45:06] INFO root fetch - main [MainThread]: Store serial: [18945109]
+[2023-07-19 05:50:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18945109]
+[2023-07-19 05:50:15] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-19 05:50:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wordx
+[2023-07-19 05:50:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-ndb
+[2023-07-19 05:50:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdktf-cdktf-provider-postgresql
+[2023-07-19 05:50:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neurondm
+[2023-07-19 05:50:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyezQ
+[2023-07-19 05:50:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: better-rtplot
+[2023-07-19 05:50:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-l10n-br-account
+[2023-07-19 05:50:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdktf-cdktf-provider-spotinst
+[2023-07-19 05:50:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sourcery-nightly
+[2023-07-19 05:50:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: esphome
+[2023-07-19 05:50:15] INFO root fetch - processPackages [better-rtplot]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-19 05:50:15] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: New version: [14.0.9.0.1.dev3] Old Version: [14.0.9.0.1.dev2]
+[2023-07-19 05:50:15] INFO root fetch - processPackages [better-rtplot]: Downloading https://files.pythonhosted.org/packages/b3/1f/859338d4f0a4df9ad63234b811f378f713cb2b06e90990f95ef7df42a44f/better_rtplot-0.1.1.tar.gz
+[2023-07-19 05:50:15] INFO root fetch - processPackages [neurondm]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-19 05:50:15] INFO root fetch - processPackages [esphome]: New version: [2023.7.0b3] Old Version: [2023.7.0b2]
+[2023-07-19 05:50:15] INFO root fetch - processPackages [pyezQ]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-19 05:50:15] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Downloading https://files.pythonhosted.org/packages/fa/29/36c779defb9f3fe8a932d7a6afcced6e0e82c0a60031b892ab85e014dd40/odoo14_addon_l10n_br_account-14.0.9.0.1.dev2-py3-none-any.whl
+[2023-07-19 05:50:15] INFO root fetch - processPackages [wordx]: New version: [0.2.9.1] Old Version: [0.2.9]
+[2023-07-19 05:50:15] WARNING root fetch - processPackages [pytest-ndb]: Skipping, unable to determine old version
+[2023-07-19 05:50:15] INFO root fetch - processPackages [pytest-ndb]: Start processing: cdktf-cdktf-provider-pagerduty
+[2023-07-19 05:50:15] INFO root fetch - main [MainThread]: End processing [pytest-ndb] error
+[2023-07-19 05:50:15] INFO root fetch - processPackages [sourcery-nightly]: New version: [1.6.1b7] Old Version: [1.6.1b6]
+[2023-07-19 05:50:16] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: New version: [9.0.3] Old Version: [9.0.2]
+[2023-07-19 05:50:16] INFO root fetch - processPackages [cdktf-cdktf-provider-postgresql]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-07-19 05:50:16] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/ce/c3/81c4b984c050fcf4d7551df0bf8f96db81e364a65bd109ad048e2e7d40c5/esphome-2023.7.0b2.tar.gz
+[2023-07-19 05:50:16] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: New version: [9.0.0] Old Version: [8.0.0]
+[2023-07-19 05:50:16] INFO root fetch - processPackages [wordx]: Downloading https://files.pythonhosted.org/packages/75/69/580fb09dda5c5131ebae6f849273f6559fdf2e6169871e4ddb27db7c92a6/wordx-0.2.9.tar.gz
+[2023-07-19 05:50:16] INFO root fetch - processPackages [neurondm]: Downloading https://files.pythonhosted.org/packages/48/e6/ea8d9c8db6da288b774dfaa2dea1db261b55673b83100420e271008ccffd/neurondm-0.1.5.tar.gz
+[2023-07-19 05:50:16] INFO root fetch - processPackages [sourcery-nightly]: Downloading https://files.pythonhosted.org/packages/ba/ec/2623f0fa5efc21c1aa55dd943cdbf4ceca32024f8fa8ee1188303ca6fe7c/sourcery_nightly-1.6.1b6-py2.py3-none-win_amd64.whl
+[2023-07-19 05:50:16] INFO root fetch - processPackages [pyezQ]: Downloading https://files.pythonhosted.org/packages/b9/dc/86fdd60cca377f544290e42473e92fdf4f84f7cc7149f701897033b7d949/pyezQ-1.0.0-py3-none-any.whl
+[2023-07-19 05:50:16] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Downloading https://files.pythonhosted.org/packages/58/84/0f55e4f2ace137a0fca0bc8148592bb4237215dca4c2dbeba19a845540d2/cdktf-cdktf-provider-spotinst-9.0.2.tar.gz
+[2023-07-19 05:50:16] INFO root fetch - processPackages [cdktf-cdktf-provider-postgresql]: Downloading https://files.pythonhosted.org/packages/c1/d5/8ed43c70568362f04f267255c8267745cd81dbc7a0d1c4d8799d1308e503/cdktf-cdktf-provider-postgresql-7.0.0.tar.gz
+[2023-07-19 05:50:16] INFO root fetch - processPackages [better-rtplot]: Downloading https://files.pythonhosted.org/packages/74/3d/c44d6909c36d079e42f92d9208e13a43b0fd9dd61d94f5130fbedff81209/better_rtplot-0.1.2.tar.gz
+[2023-07-19 05:50:16] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Downloading https://files.pythonhosted.org/packages/b6/5a/c918eba3ef6d0f71194c5b26ac59cb0377a74bcf323812ea2a41badfaef7/odoo14_addon_l10n_br_account-14.0.9.0.1.dev3-py3-none-any.whl
+[2023-07-19 05:50:16] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 66130211>=10485760
+[2023-07-19 05:50:16] INFO root fetch - processPackages [sourcery-nightly]: Start processing: foo-devup-hungbd
+[2023-07-19 05:50:16] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
+[2023-07-19 05:50:16] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: Downloading https://files.pythonhosted.org/packages/dc/39/9376d1efdc0009e0a3731309685a7632304bc5ec0d129fb3548afc8609c5/cdktf-cdktf-provider-pagerduty-8.0.0.tar.gz
+[2023-07-19 05:50:16] INFO root fetch - processPackages [better-rtplot]: executing diffoscope
+[2023-07-19 05:50:16] INFO root fetch - processPackages [better-rtplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/better_rtplot-0.1.1.tar.gz tmp/better_rtplot-0.1.2.tar.gz --markdown 20230719/b/better-rtplot/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-19 05:50:16] WARNING root fetch - processPackages [foo-devup-hungbd]: Skipping, unable to determine old version
+[2023-07-19 05:50:16] INFO root fetch - processPackages [foo-devup-hungbd]: Start processing: cdktf-cdktf-provider-cloudflare
+[2023-07-19 05:50:16] INFO root fetch - main [MainThread]: End processing [foo-devup-hungbd] error
+[2023-07-19 05:50:16] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/a1/2f/65df74aa3b330e9279576d83da02eb98db402e44bbb396bdccf9cfd37d89/esphome-2023.7.0b3.tar.gz
+[2023-07-19 05:50:16] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: executing diffoscope
+[2023-07-19 05:50:16] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_account-14.0.9.0.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_account-14.0.9.0.1.dev3-py3-none-any.whl.zip --markdown 20230719/o/odoo14-addon-l10n-br-account/14.0.9.0.1.dev2-14.0.9.0.1.dev3/diff.md --exclude *.pyd
+[2023-07-19 05:50:16] INFO root fetch - processPackages [pyezQ]: Downloading https://files.pythonhosted.org/packages/c7/69/eb16a40e7dd6fa92649ed2b5d137745aaee576638e9b27aa8b8f9b32cded/pyezQ-1.0.1-py3-none-any.whl
+[2023-07-19 05:50:16] INFO root fetch - processPackages [neurondm]: Downloading https://files.pythonhosted.org/packages/43/52/e8e41a32b80ecc884a1e58e6385ebae5f1161e104e589b1be9931f910a6c/neurondm-0.1.6.tar.gz
+[2023-07-19 05:50:16] INFO root fetch - processPackages [wordx]: Downloading https://files.pythonhosted.org/packages/ad/55/492ef1ef662e88ad7a4951f1f2ea7ea5d32acd442255585600ada1ed0482/wordx-0.2.9.1.tar.gz
+[2023-07-19 05:50:16] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: New version: [8.0.1] Old Version: [8.0.0]
+[2023-07-19 05:50:17] INFO root fetch - processPackages [pyezQ]: executing diffoscope
+[2023-07-19 05:50:17] INFO root fetch - processPackages [pyezQ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyezQ-1.0.0-py3-none-any.whl.zip tmp/pyezQ-1.0.1-py3-none-any.whl.zip --markdown 20230719/p/pyezQ/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-19 05:50:17] INFO root fetch - processPackages [cdktf-cdktf-provider-postgresql]: Downloading https://files.pythonhosted.org/packages/16/df/e530ddb835e5b0e1e8ff742eb5c15aaacc81711a28dd78e40ce4f7eef229/cdktf-cdktf-provider-postgresql-8.0.0.tar.gz
+[2023-07-19 05:50:17] INFO root fetch - processPackages [neurondm]: executing diffoscope
+[2023-07-19 05:50:17] INFO root fetch - processPackages [neurondm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurondm-0.1.5.tar.gz tmp/neurondm-0.1.6.tar.gz --markdown 20230719/n/neurondm/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-19 05:50:17] INFO root fetch - processPackages [esphome]: executing diffoscope
+[2023-07-19 05:50:17] INFO root fetch - processPackages [esphome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esphome-2023.7.0b2.tar.gz tmp/esphome-2023.7.0b3.tar.gz --markdown 20230719/e/esphome/2023.7.0b2-2023.7.0b3/diff.md --exclude *.pyd
+[2023-07-19 05:50:17] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: Downloading https://files.pythonhosted.org/packages/4d/4a/00d789632c9b44abab99998bcdbb066f3bd3859136bc013b2e31fc33e1fd/cdktf-cdktf-provider-pagerduty-9.0.0.tar.gz
+[2023-07-19 05:50:17] INFO root fetch - processPackages [wordx]: executing diffoscope
+[2023-07-19 05:50:17] INFO root fetch - processPackages [wordx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wordx-0.2.9.tar.gz tmp/wordx-0.2.9.1.tar.gz --markdown 20230719/w/wordx/0.2.9-0.2.9.1/diff.md --exclude *.pyd
+[2023-07-19 05:50:17] INFO root fetch - processPackages [cdktf-cdktf-provider-postgresql]: executing diffoscope
+[2023-07-19 05:50:17] INFO root fetch - processPackages [cdktf-cdktf-provider-postgresql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-postgresql-7.0.0.tar.gz tmp/cdktf-cdktf-provider-postgresql-8.0.0.tar.gz --markdown 20230719/c/cdktf-cdktf-provider-postgresql/7.0.0-8.0.0/diff.md --exclude *.pyd
+[2023-07-19 05:50:17] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: Downloading https://files.pythonhosted.org/packages/78/96/c876ed8af55abcc341e8e1600fb448be696ddfc714b2ae4a8aca3e85c1bd/cdktf-cdktf-provider-cloudflare-8.0.0.tar.gz
+[2023-07-19 05:50:17] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Downloading https://files.pythonhosted.org/packages/ff/7b/16e554717945d4ebbb24af70141c4345ebb9ed054089dbeae004626c581f/cdktf-cdktf-provider-spotinst-9.0.3.tar.gz
+[2023-07-19 05:50:17] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: executing diffoscope
+[2023-07-19 05:50:17] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-pagerduty-8.0.0.tar.gz tmp/cdktf-cdktf-provider-pagerduty-9.0.0.tar.gz --markdown 20230719/c/cdktf-cdktf-provider-pagerduty/8.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-07-19 05:50:17] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: executing diffoscope
+[2023-07-19 05:50:17] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-spotinst-9.0.2.tar.gz tmp/cdktf-cdktf-provider-spotinst-9.0.3.tar.gz --markdown 20230719/c/cdktf-cdktf-provider-spotinst/9.0.2-9.0.3/diff.md --exclude *.pyd
+[2023-07-19 05:50:17] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: Downloading https://files.pythonhosted.org/packages/43/91/85be9f0d848b77236e1dcdbb42c14b691a4c0071045636f76d1d5433d800/cdktf-cdktf-provider-cloudflare-8.0.1.tar.gz
+[2023-07-19 05:50:17] INFO root fetch - processPackages [better-rtplot]: Remove: archive file [/home/abi/fetcher/tmp/better_rtplot-0.1.1.tar.gz]
+[2023-07-19 05:50:17] INFO root fetch - processPackages [better-rtplot]: Remove: archive file [/home/abi/fetcher/tmp/better_rtplot-0.1.2.tar.gz]
+[2023-07-19 05:50:17] INFO root fetch - processPackages [better-rtplot]: Start processing: lancedb
+[2023-07-19 05:50:17] INFO root fetch - main [MainThread]: End processing [better-rtplot]: success
+[2023-07-19 05:50:18] INFO root fetch - processPackages [lancedb]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-19 05:50:18] INFO root fetch - processPackages [lancedb]: Downloading https://files.pythonhosted.org/packages/3c/d6/efb0ca55e0b3cd024e23b27597b1f248bb3e6e960c96ae5d4ba4b1dbda1c/lancedb-0.1.8.tar.gz
+[2023-07-19 05:50:18] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: executing diffoscope
+[2023-07-19 05:50:18] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-cloudflare-8.0.0.tar.gz tmp/cdktf-cdktf-provider-cloudflare-8.0.1.tar.gz --markdown 20230719/c/cdktf-cdktf-provider-cloudflare/8.0.0-8.0.1/diff.md --exclude *.pyd
+[2023-07-19 05:50:18] INFO root fetch - processPackages [lancedb]: Downloading https://files.pythonhosted.org/packages/c7/28/57475fd76b4d2e319857bcb2776a299b06694faf92c20d385c6b027e3567/lancedb-0.1.9.tar.gz
+[2023-07-19 05:50:18] INFO root fetch - processPackages [lancedb]: executing diffoscope
+[2023-07-19 05:50:18] INFO root fetch - processPackages [lancedb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lancedb-0.1.8.tar.gz tmp/lancedb-0.1.9.tar.gz --markdown 20230719/l/lancedb/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-19 05:50:18] INFO root fetch - processPackages [wordx]: Remove: archive file [/home/abi/fetcher/tmp/wordx-0.2.9.tar.gz]
+[2023-07-19 05:50:18] INFO root fetch - processPackages [wordx]: Remove: archive file [/home/abi/fetcher/tmp/wordx-0.2.9.1.tar.gz]
+[2023-07-19 05:50:18] INFO root fetch - processPackages [wordx]: Start processing: cdktf-cdktf-provider-digitalocean
+[2023-07-19 05:50:18] INFO root fetch - processPackages [pyezQ]: Remove: archive file [/home/abi/fetcher/tmp/pyezQ-1.0.0-py3-none-any.whl.zip]
+[2023-07-19 05:50:18] INFO root fetch - main [MainThread]: End processing [wordx]: success
+[2023-07-19 05:50:18] INFO root fetch - processPackages [pyezQ]: Remove: archive file [/home/abi/fetcher/tmp/pyezQ-1.0.1-py3-none-any.whl.zip]
+[2023-07-19 05:50:18] INFO root fetch - processPackages [pyezQ]: Start processing: cdktf-cdktf-provider-azuread
+[2023-07-19 05:50:18] INFO root fetch - main [MainThread]: End processing [pyezQ]: success
+[2023-07-19 05:50:18] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_account-14.0.9.0.1.dev2-py3-none-any.whl.zip]
+[2023-07-19 05:50:18] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_account-14.0.9.0.1.dev3-py3-none-any.whl.zip]
+[2023-07-19 05:50:18] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-account]: success
+[2023-07-19 05:50:18] INFO root fetch - processPackages [cdktf-cdktf-provider-digitalocean]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-07-19 05:50:18] INFO root fetch - processPackages [cdktf-cdktf-provider-azuread]: New version: [9.0.0] Old Version: [8.0.0]
+[2023-07-19 05:50:19] INFO root fetch - processPackages [cdktf-cdktf-provider-digitalocean]: Downloading https://files.pythonhosted.org/packages/38/a0/46171dd42eef5ab27bd1ce7d7fe7e46e619aa7ec2332cfe57b5891a19f64/cdktf-cdktf-provider-digitalocean-7.0.0.tar.gz
+[2023-07-19 05:50:19] INFO root fetch - processPackages [neurondm]: Remove: archive file [/home/abi/fetcher/tmp/neurondm-0.1.5.tar.gz]
+[2023-07-19 05:50:19] INFO root fetch - processPackages [neurondm]: Remove: archive file [/home/abi/fetcher/tmp/neurondm-0.1.6.tar.gz]
+[2023-07-19 05:50:19] INFO root fetch - main [MainThread]: End processing [neurondm]: success
+[2023-07-19 05:50:19] INFO root fetch - processPackages [cdktf-cdktf-provider-azuread]: Downloading https://files.pythonhosted.org/packages/da/63/268c9c1afe90c5c4a1a954a24cea1e86969103ce157e8753abab01b6cfa6/cdktf-cdktf-provider-azuread-8.0.0.tar.gz
+[2023-07-19 05:50:19] INFO root fetch - processPackages [cdktf-cdktf-provider-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-postgresql-7.0.0.tar.gz]
+[2023-07-19 05:50:19] INFO root fetch - processPackages [cdktf-cdktf-provider-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-postgresql-8.0.0.tar.gz]
+[2023-07-19 05:50:19] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-postgresql]: success
+[2023-07-19 05:50:19] INFO root fetch - processPackages [cdktf-cdktf-provider-digitalocean]: Downloading https://files.pythonhosted.org/packages/05/9e/9fd5961d6aacde23c7d376656fd6fadd32579e1716806c95b625347e41b7/cdktf-cdktf-provider-digitalocean-8.0.0.tar.gz
+[2023-07-19 05:50:19] INFO root fetch - processPackages [cdktf-cdktf-provider-azuread]: Downloading https://files.pythonhosted.org/packages/88/be/02d6ea320d798503db50a8f378e071a0eec764c5f82f4542e0a22c80c814/cdktf-cdktf-provider-azuread-9.0.0.tar.gz
+[2023-07-19 05:50:19] INFO root fetch - processPackages [cdktf-cdktf-provider-digitalocean]: executing diffoscope
+[2023-07-19 05:50:19] INFO root fetch - processPackages [cdktf-cdktf-provider-digitalocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-digitalocean-7.0.0.tar.gz tmp/cdktf-cdktf-provider-digitalocean-8.0.0.tar.gz --markdown 20230719/c/cdktf-cdktf-provider-digitalocean/7.0.0-8.0.0/diff.md --exclude *.pyd
+[2023-07-19 05:50:19] INFO root fetch - processPackages [lancedb]: Remove: archive file [/home/abi/fetcher/tmp/lancedb-0.1.8.tar.gz]
+[2023-07-19 05:50:19] INFO root fetch - processPackages [lancedb]: Remove: archive file [/home/abi/fetcher/tmp/lancedb-0.1.9.tar.gz]
+[2023-07-19 05:50:19] INFO root fetch - main [MainThread]: End processing [lancedb]: success
+[2023-07-19 05:50:19] INFO root fetch - processPackages [cdktf-cdktf-provider-azuread]: executing diffoscope
+[2023-07-19 05:50:19] INFO root fetch - processPackages [cdktf-cdktf-provider-azuread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-azuread-8.0.0.tar.gz tmp/cdktf-cdktf-provider-azuread-9.0.0.tar.gz --markdown 20230719/c/cdktf-cdktf-provider-azuread/8.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-07-19 05:50:20] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-pagerduty-8.0.0.tar.gz]
+[2023-07-19 05:50:20] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-pagerduty-9.0.0.tar.gz]
+[2023-07-19 05:50:20] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-pagerduty]: success
+[2023-07-19 05:50:21] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-spotinst-9.0.2.tar.gz]
+[2023-07-19 05:50:21] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-spotinst-9.0.3.tar.gz]
+[2023-07-19 05:50:21] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-spotinst]: success
+[2023-07-19 05:50:22] INFO root fetch - processPackages [cdktf-cdktf-provider-azuread]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-azuread-8.0.0.tar.gz]
+[2023-07-19 05:50:22] INFO root fetch - processPackages [cdktf-cdktf-provider-azuread]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-azuread-9.0.0.tar.gz]
+[2023-07-19 05:50:22] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-azuread]: success
+[2023-07-19 05:50:22] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-cloudflare-8.0.0.tar.gz]
+[2023-07-19 05:50:22] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-cloudflare-8.0.1.tar.gz]
+[2023-07-19 05:50:22] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-cloudflare]: success
+[2023-07-19 05:50:22] INFO root fetch - processPackages [cdktf-cdktf-provider-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-digitalocean-7.0.0.tar.gz]
+[2023-07-19 05:50:22] INFO root fetch - processPackages [cdktf-cdktf-provider-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-digitalocean-8.0.0.tar.gz]
+[2023-07-19 05:50:22] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-digitalocean]: success
+[2023-07-19 05:50:36] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2023.7.0b2.tar.gz]
+[2023-07-19 05:50:36] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2023.7.0b3.tar.gz]
+[2023-07-19 05:50:36] INFO root fetch - main [MainThread]: End processing [esphome]: success
+[2023-07-19 05:50:36] INFO root fetch - main [MainThread]: Store serial: [18945163]
