@@ -12543,3 +12543,117 @@
 [2023-07-19 05:55:53] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-vault-9.0.1.tar.gz]
 [2023-07-19 05:55:53] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-vault]: success
 [2023-07-19 05:55:53] INFO root fetch - main [MainThread]: Store serial: [18945195]
+[2023-07-19 06:00:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18945195]
+[2023-07-19 06:01:03] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-19 06:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-sayoroll
+[2023-07-19 06:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-cdktf-provider-gitlab
+[2023-07-19 06:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mpr
+[2023-07-19 06:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymap
+[2023-07-19 06:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypomes-scheduling
+[2023-07-19 06:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-url-tokenizer
+[2023-07-19 06:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: honeybee-core
+[2023-07-19 06:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: finance-scrapers
+[2023-07-19 06:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: publicsuffixlist
+[2023-07-19 06:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wordx
+[2023-07-19 06:01:04] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: New version: [0.3.0] Old Version: [0.2.5]
+[2023-07-19 06:01:04] INFO root fetch - processPackages [finance-scrapers]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-19 06:01:04] INFO root fetch - processPackages [django-url-tokenizer]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 06:01:04] INFO root fetch - processPackages [wordx]: New version: [0.2.9.1] Old Version: [0.2.9]
+[2023-07-19 06:01:04] INFO root fetch - processPackages [publicsuffixlist]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-19 06:01:04] INFO root fetch - processPackages [mpr]: New version: [1.9] Old Version: [1.8]
+[2023-07-19 06:01:04] INFO root fetch - processPackages [honeybee-core]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-19 06:01:04] INFO root fetch - processPackages [pypomes-scheduling]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-19 06:01:04] INFO root fetch - processPackages [pymap]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-07-19 06:01:04] INFO root fetch - processPackages [cdktf-cdktf-provider-gitlab]: New version: [9.0.1] Old Version: [9.0.0]
+[2023-07-19 06:01:04] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: Downloading https://files.pythonhosted.org/packages/bc/41/84abd75d9f1c46a16fe72f442fa82d04df3dd0396458204043158ab03625/nonebot-plugin-sayoroll-0.2.5.tar.gz
+[2023-07-19 06:01:04] INFO root fetch - processPackages [finance-scrapers]: Downloading https://files.pythonhosted.org/packages/0a/fe/48401c8b2fee721dddd8532b464868ee716f9a137110395c5c2107bfd1d6/finance-scrapers-0.0.3.tar.gz
+[2023-07-19 06:01:04] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/58/fc/c297e12ea86d40bc35c3034412e468c38bef18667e6adfe0b24802b0e417/django-url-tokenizer-0.0.8.tar.gz
+[2023-07-19 06:01:04] INFO root fetch - processPackages [wordx]: Downloading https://files.pythonhosted.org/packages/75/69/580fb09dda5c5131ebae6f849273f6559fdf2e6169871e4ddb27db7c92a6/wordx-0.2.9.tar.gz
+[2023-07-19 06:01:04] INFO root fetch - processPackages [honeybee-core]: Downloading https://files.pythonhosted.org/packages/25/88/7ed0aeb6b1cf0d4f003a3d3e96312cea0aff67017d50c5c9cd245c04f048/honeybee-core-1.8.1.tar.gz
+[2023-07-19 06:01:04] INFO root fetch - processPackages [publicsuffixlist]: Downloading https://files.pythonhosted.org/packages/e9/d3/789ccc7b502183c3ca52f463a65a341194fd8caf884d33f4eedf4ae8f390/publicsuffixlist-0.9.3.tar.gz
+[2023-07-19 06:01:04] INFO root fetch - processPackages [mpr]: Downloading https://files.pythonhosted.org/packages/bf/03/9690610fceb379b216f608dd9a57ea27d291ac2f1c585f98e2f11837ffa4/mpr-1.8.tar.gz
+[2023-07-19 06:01:04] INFO root fetch - processPackages [pypomes-scheduling]: Downloading https://files.pythonhosted.org/packages/ac/4f/7be973774abc594d07d20a1c1fa06f8abe071083f3b229e984b9679c2ce7/pypomes_scheduling-0.1.8.tar.gz
+[2023-07-19 06:01:04] INFO root fetch - processPackages [cdktf-cdktf-provider-gitlab]: Downloading https://files.pythonhosted.org/packages/c9/bb/69678c56cefb507c119dedd6e2077f6c25331b651c3ec9b94303911db466/cdktf-cdktf-provider-gitlab-9.0.0.tar.gz
+[2023-07-19 06:01:04] INFO root fetch - processPackages [pymap]: Downloading https://files.pythonhosted.org/packages/2a/5a/5f6cd5528d334cc9d4bef58ab2008b92d3ea2677f433cc2750f52df784c3/pymap-0.9.6.tar.gz
+[2023-07-19 06:01:04] INFO root fetch - processPackages [finance-scrapers]: Downloading https://files.pythonhosted.org/packages/6c/95/e6a8340f1c0264dffe25c2706af7ccb0416fdf5c54733220867bb4af7a32/finance-scrapers-0.0.4.tar.gz
+[2023-07-19 06:01:04] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/c5/13/df27d1141ec44b1c35f247440fc5cb506efe40a15cbed84328a82cab2d67/django-url-tokenizer-0.0.9.tar.gz
+[2023-07-19 06:01:04] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: Downloading https://files.pythonhosted.org/packages/e4/2e/9e9b6b9415e5b9eaaff09b23182e6be51fc5e95708ab0c800eec1a32299d/nonebot-plugin-sayoroll-0.3.0.tar.gz
+[2023-07-19 06:01:04] INFO root fetch - processPackages [wordx]: Downloading https://files.pythonhosted.org/packages/ad/55/492ef1ef662e88ad7a4951f1f2ea7ea5d32acd442255585600ada1ed0482/wordx-0.2.9.1.tar.gz
+[2023-07-19 06:01:04] INFO root fetch - processPackages [honeybee-core]: Downloading https://files.pythonhosted.org/packages/d8/9b/f2a81f9cdf6c2556a083efabd9c0d69bdf3eb0acefed3b55c9d5ed1bcb15/honeybee-core-1.9.0.tar.gz
+[2023-07-19 06:01:05] INFO root fetch - processPackages [finance-scrapers]: executing diffoscope
+[2023-07-19 06:01:05] INFO root fetch - processPackages [finance-scrapers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finance-scrapers-0.0.3.tar.gz tmp/finance-scrapers-0.0.4.tar.gz --markdown 20230719/f/finance-scrapers/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-19 06:01:05] INFO root fetch - processPackages [django-url-tokenizer]: executing diffoscope
+[2023-07-19 06:01:05] INFO root fetch - processPackages [django-url-tokenizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-url-tokenizer-0.0.8.tar.gz tmp/django-url-tokenizer-0.0.9.tar.gz --markdown 20230719/d/django-url-tokenizer/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 06:01:05] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: executing diffoscope
+[2023-07-19 06:01:05] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-sayoroll-0.2.5.tar.gz tmp/nonebot-plugin-sayoroll-0.3.0.tar.gz --markdown 20230719/n/nonebot-plugin-sayoroll/0.2.5-0.3.0/diff.md --exclude *.pyd
+[2023-07-19 06:01:05] INFO root fetch - processPackages [honeybee-core]: executing diffoscope
+[2023-07-19 06:01:05] INFO root fetch - processPackages [honeybee-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-core-1.8.1.tar.gz tmp/honeybee-core-1.9.0.tar.gz --markdown 20230719/h/honeybee-core/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-19 06:01:05] INFO root fetch - processPackages [wordx]: executing diffoscope
+[2023-07-19 06:01:05] INFO root fetch - processPackages [wordx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wordx-0.2.9.tar.gz tmp/wordx-0.2.9.1.tar.gz --markdown 20230719/w/wordx/0.2.9-0.2.9.1/diff.md --exclude *.pyd
+[2023-07-19 06:01:05] INFO root fetch - processPackages [pypomes-scheduling]: Downloading https://files.pythonhosted.org/packages/90/5c/45127aa492aa8267d3a116aac24261d2c00adfbb465fe3c3206597ed6c4f/pypomes_scheduling-0.1.9.tar.gz
+[2023-07-19 06:01:05] INFO root fetch - processPackages [mpr]: Downloading https://files.pythonhosted.org/packages/a7/8a/b94d939dea9ad85362278b9646d0be69f0e0f1fa9331c1f164c4d2526957/mpr-1.9.tar.gz
+[2023-07-19 06:01:05] INFO root fetch - processPackages [pymap]: Downloading https://files.pythonhosted.org/packages/99/7c/f35c4b4960d80c3cf6279248e6d0b2ab6874188d4f955c4089d7905c8e31/pymap-0.9.7.tar.gz
+[2023-07-19 06:01:05] INFO root fetch - processPackages [publicsuffixlist]: Downloading https://files.pythonhosted.org/packages/3c/09/9dc48e18dc8c917eb66fe2caef48273e4f55dea0f8d56f9f6a427373c08b/publicsuffixlist-0.9.4.tar.gz
+[2023-07-19 06:01:05] INFO root fetch - processPackages [pypomes-scheduling]: executing diffoscope
+[2023-07-19 06:01:05] INFO root fetch - processPackages [pypomes-scheduling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_scheduling-0.1.8.tar.gz tmp/pypomes_scheduling-0.1.9.tar.gz --markdown 20230719/p/pypomes-scheduling/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-19 06:01:05] INFO root fetch - processPackages [mpr]: executing diffoscope
+[2023-07-19 06:01:05] INFO root fetch - processPackages [mpr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpr-1.8.tar.gz tmp/mpr-1.9.tar.gz --markdown 20230719/m/mpr/1.8-1.9/diff.md --exclude *.pyd
+[2023-07-19 06:01:05] INFO root fetch - processPackages [cdktf-cdktf-provider-gitlab]: Downloading https://files.pythonhosted.org/packages/68/4d/bb441911dac576f8b8af3b0054dba464c56827076ee4306adfbf8d5342b2/cdktf-cdktf-provider-gitlab-9.0.1.tar.gz
+[2023-07-19 06:01:05] INFO root fetch - processPackages [pymap]: executing diffoscope
+[2023-07-19 06:01:05] INFO root fetch - processPackages [pymap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymap-0.9.6.tar.gz tmp/pymap-0.9.7.tar.gz --markdown 20230719/p/pymap/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-07-19 06:01:05] INFO root fetch - processPackages [publicsuffixlist]: executing diffoscope
+[2023-07-19 06:01:05] INFO root fetch - processPackages [publicsuffixlist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/publicsuffixlist-0.9.3.tar.gz tmp/publicsuffixlist-0.9.4.tar.gz --markdown 20230719/p/publicsuffixlist/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-19 06:01:05] INFO root fetch - processPackages [cdktf-cdktf-provider-gitlab]: executing diffoscope
+[2023-07-19 06:01:05] INFO root fetch - processPackages [cdktf-cdktf-provider-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-gitlab-9.0.0.tar.gz tmp/cdktf-cdktf-provider-gitlab-9.0.1.tar.gz --markdown 20230719/c/cdktf-cdktf-provider-gitlab/9.0.0-9.0.1/diff.md --exclude *.pyd
+[2023-07-19 06:01:06] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.8.tar.gz]
+[2023-07-19 06:01:06] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.9.tar.gz]
+[2023-07-19 06:01:06] INFO root fetch - processPackages [django-url-tokenizer]: Start processing: cdktf-cdktf-provider-opentelekomcloud
+[2023-07-19 06:01:06] INFO root fetch - main [MainThread]: End processing [django-url-tokenizer]: success
+[2023-07-19 06:01:06] INFO root fetch - processPackages [finance-scrapers]: Remove: archive file [/home/abi/fetcher/tmp/finance-scrapers-0.0.3.tar.gz]
+[2023-07-19 06:01:06] INFO root fetch - processPackages [finance-scrapers]: Remove: archive file [/home/abi/fetcher/tmp/finance-scrapers-0.0.4.tar.gz]
+[2023-07-19 06:01:06] INFO root fetch - processPackages [finance-scrapers]: Start processing: evals-nightly
+[2023-07-19 06:01:06] INFO root fetch - main [MainThread]: End processing [finance-scrapers]: success
+[2023-07-19 06:01:06] INFO root fetch - processPackages [evals-nightly]: New version: [1.0.3.dev20230717] Old Version: [1.0.3.dev20230716]
+[2023-07-19 06:01:06] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-sayoroll-0.2.5.tar.gz]
+[2023-07-19 06:01:06] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-sayoroll-0.3.0.tar.gz]
+[2023-07-19 06:01:06] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: Start processing: vsc-ed
+[2023-07-19 06:01:06] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-sayoroll]: success
+[2023-07-19 06:01:06] INFO root fetch - processPackages [cdktf-cdktf-provider-opentelekomcloud]: New version: [8.0.1] Old Version: [8.0.0]
+[2023-07-19 06:01:06] WARNING root fetch - processPackages [vsc-ed]: Skipping, unable to determine old version
+[2023-07-19 06:01:06] INFO root fetch - main [MainThread]: End processing [vsc-ed] error
+[2023-07-19 06:01:06] INFO root fetch - processPackages [wordx]: Remove: archive file [/home/abi/fetcher/tmp/wordx-0.2.9.tar.gz]
+[2023-07-19 06:01:06] INFO root fetch - processPackages [wordx]: Remove: archive file [/home/abi/fetcher/tmp/wordx-0.2.9.1.tar.gz]
+[2023-07-19 06:01:06] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/99/a8/b6ab4fbae549e9821a2051a51f1bb9c00dc72684f14250031a7c5ec2f1c0/evals-nightly-1.0.3.dev20230716.tar.gz
+[2023-07-19 06:01:06] INFO root fetch - main [MainThread]: End processing [wordx]: success
+[2023-07-19 06:01:06] INFO root fetch - processPackages [pypomes-scheduling]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_scheduling-0.1.8.tar.gz]
+[2023-07-19 06:01:06] INFO root fetch - processPackages [pypomes-scheduling]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_scheduling-0.1.9.tar.gz]
+[2023-07-19 06:01:06] INFO root fetch - main [MainThread]: End processing [pypomes-scheduling]: success
+[2023-07-19 06:01:06] INFO root fetch - processPackages [mpr]: Remove: archive file [/home/abi/fetcher/tmp/mpr-1.8.tar.gz]
+[2023-07-19 06:01:06] INFO root fetch - processPackages [mpr]: Remove: archive file [/home/abi/fetcher/tmp/mpr-1.9.tar.gz]
+[2023-07-19 06:01:06] INFO root fetch - main [MainThread]: End processing [mpr]: success
+[2023-07-19 06:01:06] INFO root fetch - processPackages [cdktf-cdktf-provider-opentelekomcloud]: Downloading https://files.pythonhosted.org/packages/c1/68/8446c9d9b70d8a469b480ea8a63154e2b0757a3cf3d5e8bf4c3393537de1/cdktf-cdktf-provider-opentelekomcloud-8.0.0.tar.gz
+[2023-07-19 06:01:07] INFO root fetch - processPackages [publicsuffixlist]: Remove: archive file [/home/abi/fetcher/tmp/publicsuffixlist-0.9.3.tar.gz]
+[2023-07-19 06:01:07] INFO root fetch - processPackages [publicsuffixlist]: Remove: archive file [/home/abi/fetcher/tmp/publicsuffixlist-0.9.4.tar.gz]
+[2023-07-19 06:01:07] INFO root fetch - main [MainThread]: End processing [publicsuffixlist]: success
+[2023-07-19 06:01:07] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/5f/63/1d010926555e24828d2671a1ef650e725d1f5e8e0fb2ec6b5cf2a4efc451/evals-nightly-1.0.3.dev20230717.tar.gz
+[2023-07-19 06:01:07] INFO root fetch - processPackages [honeybee-core]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-core-1.8.1.tar.gz]
+[2023-07-19 06:01:07] INFO root fetch - processPackages [honeybee-core]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-core-1.9.0.tar.gz]
+[2023-07-19 06:01:07] INFO root fetch - main [MainThread]: End processing [honeybee-core]: success
+[2023-07-19 06:01:07] INFO root fetch - processPackages [evals-nightly]: executing diffoscope
+[2023-07-19 06:01:07] INFO root fetch - processPackages [evals-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals-nightly-1.0.3.dev20230716.tar.gz tmp/evals-nightly-1.0.3.dev20230717.tar.gz --markdown 20230719/e/evals-nightly/1.0.3.dev20230716-1.0.3.dev20230717/diff.md --exclude *.pyd
+[2023-07-19 06:01:07] INFO root fetch - processPackages [pymap]: Remove: archive file [/home/abi/fetcher/tmp/pymap-0.9.6.tar.gz]
+[2023-07-19 06:01:07] INFO root fetch - processPackages [pymap]: Remove: archive file [/home/abi/fetcher/tmp/pymap-0.9.7.tar.gz]
+[2023-07-19 06:01:07] INFO root fetch - main [MainThread]: End processing [pymap]: success
+[2023-07-19 06:01:07] INFO root fetch - processPackages [cdktf-cdktf-provider-opentelekomcloud]: Downloading https://files.pythonhosted.org/packages/e3/04/4037e53962c6f571797aaa1801e3a21fb4a423fddf12b0be580ef5918b43/cdktf-cdktf-provider-opentelekomcloud-8.0.1.tar.gz
+[2023-07-19 06:01:08] INFO root fetch - processPackages [cdktf-cdktf-provider-opentelekomcloud]: executing diffoscope
+[2023-07-19 06:01:08] INFO root fetch - processPackages [cdktf-cdktf-provider-opentelekomcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-opentelekomcloud-8.0.0.tar.gz tmp/cdktf-cdktf-provider-opentelekomcloud-8.0.1.tar.gz --markdown 20230719/c/cdktf-cdktf-provider-opentelekomcloud/8.0.0-8.0.1/diff.md --exclude *.pyd
+[2023-07-19 06:01:08] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230716.tar.gz]
+[2023-07-19 06:01:08] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230717.tar.gz]
+[2023-07-19 06:01:08] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
+[2023-07-19 06:01:09] INFO root fetch - processPackages [cdktf-cdktf-provider-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-gitlab-9.0.0.tar.gz]
+[2023-07-19 06:01:09] INFO root fetch - processPackages [cdktf-cdktf-provider-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-gitlab-9.0.1.tar.gz]
+[2023-07-19 06:01:09] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-gitlab]: success
+[2023-07-19 06:01:13] INFO root fetch - processPackages [cdktf-cdktf-provider-opentelekomcloud]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-opentelekomcloud-8.0.0.tar.gz]
+[2023-07-19 06:01:13] INFO root fetch - processPackages [cdktf-cdktf-provider-opentelekomcloud]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-opentelekomcloud-8.0.1.tar.gz]
+[2023-07-19 06:01:13] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-opentelekomcloud]: success
+[2023-07-19 06:01:13] INFO root fetch - main [MainThread]: Store serial: [18945239]
