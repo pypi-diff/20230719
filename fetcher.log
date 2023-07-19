@@ -5860,3 +5860,161 @@
 [2023-07-19 03:40:02] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.2.9.tar.gz]
 [2023-07-19 03:40:02] INFO root fetch - main [MainThread]: End processing [specklia]: success
 [2023-07-19 03:40:02] INFO root fetch - main [MainThread]: Store serial: [18942941]
+[2023-07-19 03:45:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18942941]
+[2023-07-19 03:45:11] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-19 03:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: npn
+[2023-07-19 03:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-stdlib
+[2023-07-19 03:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ros-cdk-core
+[2023-07-19 03:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flux-led
+[2023-07-19 03:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nids-transformers
+[2023-07-19 03:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ros-cdk-tsdb
+[2023-07-19 03:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ros-cdk-cdn
+[2023-07-19 03:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-numpy
+[2023-07-19 03:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: osintbuddy
+[2023-07-19 03:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hbshare
+[2023-07-19 03:45:11] WARNING root fetch - processPackages [nids-transformers]: Skipping, unable to determine old version
+[2023-07-19 03:45:11] INFO root fetch - processPackages [nids-transformers]: Start processing: proactive
+[2023-07-19 03:45:11] INFO root fetch - main [MainThread]: End processing [nids-transformers] error
+[2023-07-19 03:45:11] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-19 03:45:11] INFO root fetch - processPackages [hbshare]: New version: [3.7.9] Old Version: [3.7.8]
+[2023-07-19 03:45:11] INFO root fetch - processPackages [flux-led]: New version: [0.28.9] Old Version: [0.28.8]
+[2023-07-19 03:45:11] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-07-19 03:45:11] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-19 03:45:11] INFO root fetch - processPackages [npn]: New version: [1.2] Old Version: [1.1]
+[2023-07-19 03:45:11] INFO root fetch - processPackages [ros-cdk-tsdb]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 03:45:11] INFO root fetch - processPackages [ros-cdk-core]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 03:45:11] INFO root fetch - processPackages [ros-cdk-cdn]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 03:45:11] INFO root fetch - processPackages [osintbuddy]: New version: [0.0.4rc45.post1] Old Version: [0.0.4rc44.post1]
+[2023-07-19 03:45:11] INFO root fetch - processPackages [hbshare]: Downloading https://files.pythonhosted.org/packages/a5/a4/499d23d74887ffd4ef67553315658f683be836712d76c2899658261b95c7/hbshare-3.7.8.tar.gz
+[2023-07-19 03:45:11] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-07-19 03:45:11] INFO root fetch - processPackages [flux-led]: Downloading https://files.pythonhosted.org/packages/5f/c9/d20cc8bb09d86f4fae6d469240dddb1b3b21bf433913e426698cca1a71b2/flux_led-0.28.8.tar.gz
+[2023-07-19 03:45:11] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-07-19 03:45:11] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-07-19 03:45:11] INFO root fetch - processPackages [ros-cdk-tsdb]: Downloading https://files.pythonhosted.org/packages/eb/c2/34f6dfd8efae18144240c9dac84855f301b5e0608d47c9e22a28dbae9952/ros-cdk-tsdb-1.0.8.tar.gz
+[2023-07-19 03:45:11] INFO root fetch - processPackages [npn]: Downloading https://files.pythonhosted.org/packages/6d/5e/bc26406a2f4b52082b586cfc9447a5c07c995122260aadbf9d46d5d04bb8/npn-1.1.tar.gz
+[2023-07-19 03:45:11] INFO root fetch - processPackages [osintbuddy]: Downloading https://files.pythonhosted.org/packages/23/e9/698ab927678360ab1600e5ed7dddfd864befa0959d9a49d5566ea30b9d8b/osintbuddy-0.0.4rc44.post1.tar.gz
+[2023-07-19 03:45:11] INFO root fetch - processPackages [ros-cdk-core]: Downloading https://files.pythonhosted.org/packages/8e/b2/5b8e95b2e309ee94dc0d4001ae038e4d33f467a99ee7cd5607248d0f7b9e/ros-cdk-core-1.0.8.tar.gz
+[2023-07-19 03:45:11] INFO root fetch - processPackages [ros-cdk-cdn]: Downloading https://files.pythonhosted.org/packages/75/8a/4c0915519cd54a8f6ff7c027146ee58512c68a78509bf3bf3c2d4d996b82/ros-cdk-cdn-1.0.8.tar.gz
+[2023-07-19 03:45:11] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-07-19 03:45:11] INFO root fetch - processPackages [proactive]: Start processing: ros-cdk-foas
+[2023-07-19 03:45:11] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-07-19 03:45:12] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-07-19 03:45:12] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-07-19 03:45:12] INFO root fetch - processPackages [hbshare]: Downloading https://files.pythonhosted.org/packages/3b/cf/d495e4794562827ff7bdac1372ab526c4beca5fa1b11cbb802d837fd27de/hbshare-3.7.9.tar.gz
+[2023-07-19 03:45:12] INFO root fetch - processPackages [ros-cdk-foas]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 03:45:12] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-07-19 03:45:12] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230719/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-19 03:45:12] INFO root fetch - processPackages [npn]: Downloading https://files.pythonhosted.org/packages/bd/30/35ed8e3e8fda5eca883fa2467a18782e69ab4c56ef1787eeec53566e2378/npn-1.2.tar.gz
+[2023-07-19 03:45:12] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-07-19 03:45:12] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230719/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-19 03:45:12] INFO root fetch - processPackages [flux-led]: Downloading https://files.pythonhosted.org/packages/a3/ad/5e1551154211f4ff23dd100d276e9a2eac4d0de01c296e87a46baf708b23/flux_led-0.28.9.tar.gz
+[2023-07-19 03:45:12] INFO root fetch - processPackages [osintbuddy]: Downloading https://files.pythonhosted.org/packages/3e/89/1389bf6191b23fb0813cbab134105921f8c9ed01fa7f58127cd9d7efc1e3/osintbuddy-0.0.4rc45.post1.tar.gz
+[2023-07-19 03:45:12] INFO root fetch - processPackages [ros-cdk-foas]: Downloading https://files.pythonhosted.org/packages/b8/e1/989059c1864ec5f1e58e12d7bf8dae409109e8253a654d29c827caf921b2/ros-cdk-foas-1.0.8.tar.gz
+[2023-07-19 03:45:12] INFO root fetch - processPackages [hbshare]: executing diffoscope
+[2023-07-19 03:45:12] INFO root fetch - processPackages [hbshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hbshare-3.7.8.tar.gz tmp/hbshare-3.7.9.tar.gz --markdown 20230719/h/hbshare/3.7.8-3.7.9/diff.md --exclude *.pyd
+[2023-07-19 03:45:12] INFO root fetch - processPackages [ros-cdk-tsdb]: Downloading https://files.pythonhosted.org/packages/43/c9/d7659fe9753705a1bf3500dcd487bfed127a8f2eac71ce04b2e70a503a66/ros-cdk-tsdb-1.0.9.tar.gz
+[2023-07-19 03:45:12] INFO root fetch - processPackages [npn]: executing diffoscope
+[2023-07-19 03:45:12] INFO root fetch - processPackages [npn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npn-1.1.tar.gz tmp/npn-1.2.tar.gz --markdown 20230719/n/npn/1.1-1.2/diff.md --exclude *.pyd
+[2023-07-19 03:45:12] INFO root fetch - processPackages [ros-cdk-core]: Downloading https://files.pythonhosted.org/packages/3b/0f/07a63c14f29091bf122a8f24d6cca124f8b20a91fce17451b0ef6cd7b85b/ros-cdk-core-1.0.9.tar.gz
+[2023-07-19 03:45:12] INFO root fetch - processPackages [ros-cdk-cdn]: Downloading https://files.pythonhosted.org/packages/02/9b/9180dd4f5bb8d70cad58e1954218be77776bce87367bc613d3757833cec6/ros-cdk-cdn-1.0.9.tar.gz
+[2023-07-19 03:45:12] INFO root fetch - processPackages [osintbuddy]: executing diffoscope
+[2023-07-19 03:45:12] INFO root fetch - processPackages [osintbuddy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osintbuddy-0.0.4rc44.post1.tar.gz tmp/osintbuddy-0.0.4rc45.post1.tar.gz --markdown 20230719/o/osintbuddy/0.0.4rc44.post1-0.0.4rc45.post1/diff.md --exclude *.pyd
+[2023-07-19 03:45:12] INFO root fetch - processPackages [flux-led]: executing diffoscope
+[2023-07-19 03:45:12] INFO root fetch - processPackages [flux-led]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flux_led-0.28.8.tar.gz tmp/flux_led-0.28.9.tar.gz --markdown 20230719/f/flux-led/0.28.8-0.28.9/diff.md --exclude *.pyd
+[2023-07-19 03:45:12] INFO root fetch - processPackages [ros-cdk-tsdb]: executing diffoscope
+[2023-07-19 03:45:12] INFO root fetch - processPackages [ros-cdk-tsdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-tsdb-1.0.8.tar.gz tmp/ros-cdk-tsdb-1.0.9.tar.gz --markdown 20230719/r/ros-cdk-tsdb/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 03:45:12] INFO root fetch - processPackages [ros-cdk-cdn]: executing diffoscope
+[2023-07-19 03:45:12] INFO root fetch - processPackages [ros-cdk-cdn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-cdn-1.0.8.tar.gz tmp/ros-cdk-cdn-1.0.9.tar.gz --markdown 20230719/r/ros-cdk-cdn/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 03:45:12] INFO root fetch - processPackages [ros-cdk-core]: executing diffoscope
+[2023-07-19 03:45:12] INFO root fetch - processPackages [ros-cdk-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-core-1.0.8.tar.gz tmp/ros-cdk-core-1.0.9.tar.gz --markdown 20230719/r/ros-cdk-core/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 03:45:13] INFO root fetch - processPackages [ros-cdk-foas]: Downloading https://files.pythonhosted.org/packages/c6/50/4566dd1e811e0a3002608281c71f9610ca18261b2344d01f265f35a26ff0/ros-cdk-foas-1.0.9.tar.gz
+[2023-07-19 03:45:13] INFO root fetch - processPackages [ros-cdk-foas]: executing diffoscope
+[2023-07-19 03:45:13] INFO root fetch - processPackages [ros-cdk-foas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-foas-1.0.8.tar.gz tmp/ros-cdk-foas-1.0.9.tar.gz --markdown 20230719/r/ros-cdk-foas/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 03:45:13] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-07-19 03:45:13] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-07-19 03:45:13] INFO root fetch - processPackages [nbdev-stdlib]: Start processing: pycolorpkgsV2
+[2023-07-19 03:45:13] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-07-19 03:45:13] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-07-19 03:45:13] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-07-19 03:45:13] INFO root fetch - processPackages [nbdev-numpy]: Start processing: ros-cdk-gpdb
+[2023-07-19 03:45:13] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-07-19 03:45:13] INFO root fetch - processPackages [npn]: Remove: archive file [/home/abi/fetcher/tmp/npn-1.1.tar.gz]
+[2023-07-19 03:45:13] INFO root fetch - processPackages [npn]: Remove: archive file [/home/abi/fetcher/tmp/npn-1.2.tar.gz]
+[2023-07-19 03:45:13] INFO root fetch - processPackages [npn]: Start processing: nbdev-pandas
+[2023-07-19 03:45:13] INFO root fetch - main [MainThread]: End processing [npn]: success
+[2023-07-19 03:45:13] WARNING root fetch - processPackages [pycolorpkgsV2]: Skipping, unable to determine old version
+[2023-07-19 03:45:13] INFO root fetch - processPackages [pycolorpkgsV2]: Start processing: proactive-jupyter-kernel
+[2023-07-19 03:45:13] INFO root fetch - main [MainThread]: End processing [pycolorpkgsV2] error
+[2023-07-19 03:45:13] INFO root fetch - processPackages [ros-cdk-gpdb]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 03:45:14] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-07-19 03:45:14] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-19 03:45:14] INFO root fetch - processPackages [osintbuddy]: Remove: archive file [/home/abi/fetcher/tmp/osintbuddy-0.0.4rc44.post1.tar.gz]
+[2023-07-19 03:45:14] INFO root fetch - processPackages [osintbuddy]: Remove: archive file [/home/abi/fetcher/tmp/osintbuddy-0.0.4rc45.post1.tar.gz]
+[2023-07-19 03:45:14] INFO root fetch - processPackages [osintbuddy]: Start processing: omni-pro
+[2023-07-19 03:45:14] INFO root fetch - main [MainThread]: End processing [osintbuddy]: success
+[2023-07-19 03:45:14] INFO root fetch - processPackages [omni-pro]: New version: [0.1.11] Old Version: [0.1.10]
+[2023-07-19 03:45:14] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/2f/bc/886004d2f6edca874f61f16aaba9985e6b38f5c62e3a9638165dad1ae89e/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip
+[2023-07-19 03:45:14] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-07-19 03:45:14] INFO root fetch - processPackages [ros-cdk-gpdb]: Downloading https://files.pythonhosted.org/packages/0d/55/52a8a0970bce608e95a31412a886c5a4255f6399d6abbd92076b383c87e6/ros-cdk-gpdb-1.0.8.tar.gz
+[2023-07-19 03:45:14] INFO root fetch - processPackages [omni-pro]: Downloading https://files.pythonhosted.org/packages/61/ac/4091cb13fc712454d3dd61f565953ea4cec9dbc8a41184c6a644cbf6d175/omni-pro-0.1.10.tar.gz
+[2023-07-19 03:45:14] INFO root fetch - processPackages [flux-led]: Remove: archive file [/home/abi/fetcher/tmp/flux_led-0.28.8.tar.gz]
+[2023-07-19 03:45:14] INFO root fetch - processPackages [flux-led]: Remove: archive file [/home/abi/fetcher/tmp/flux_led-0.28.9.tar.gz]
+[2023-07-19 03:45:14] INFO root fetch - processPackages [flux-led]: Start processing: panos-upgrade-assurance
+[2023-07-19 03:45:14] INFO root fetch - main [MainThread]: End processing [flux-led]: success
+[2023-07-19 03:45:14] INFO root fetch - processPackages [ros-cdk-core]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-core-1.0.8.tar.gz]
+[2023-07-19 03:45:14] INFO root fetch - processPackages [ros-cdk-core]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-core-1.0.9.tar.gz]
+[2023-07-19 03:45:14] INFO root fetch - processPackages [ros-cdk-core]: Start processing: ros-cdk-cms
+[2023-07-19 03:45:14] INFO root fetch - main [MainThread]: End processing [ros-cdk-core]: success
+[2023-07-19 03:45:14] INFO root fetch - processPackages [ros-cdk-tsdb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-tsdb-1.0.8.tar.gz]
+[2023-07-19 03:45:14] INFO root fetch - processPackages [ros-cdk-tsdb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-tsdb-1.0.9.tar.gz]
+[2023-07-19 03:45:14] INFO root fetch - main [MainThread]: End processing [ros-cdk-tsdb]: success
+[2023-07-19 03:45:14] INFO root fetch - processPackages [ros-cdk-cdn]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cdn-1.0.8.tar.gz]
+[2023-07-19 03:45:14] INFO root fetch - processPackages [ros-cdk-cdn]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cdn-1.0.9.tar.gz]
+[2023-07-19 03:45:14] INFO root fetch - main [MainThread]: End processing [ros-cdk-cdn]: success
+[2023-07-19 03:45:14] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-07-19 03:45:14] INFO root fetch - processPackages [panos-upgrade-assurance]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-19 03:45:14] INFO root fetch - processPackages [ros-cdk-cms]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 03:45:14] INFO root fetch - processPackages [ros-cdk-foas]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-foas-1.0.8.tar.gz]
+[2023-07-19 03:45:14] INFO root fetch - processPackages [ros-cdk-foas]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-foas-1.0.9.tar.gz]
+[2023-07-19 03:45:14] INFO root fetch - main [MainThread]: End processing [ros-cdk-foas]: success
+[2023-07-19 03:45:14] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-07-19 03:45:14] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230719/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-19 03:45:14] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/b1/93/020f781eacfc72831423f0159f4e4e5afdb02a21db391853b68ce7631de6/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip
+[2023-07-19 03:45:14] INFO root fetch - processPackages [ros-cdk-gpdb]: Downloading https://files.pythonhosted.org/packages/e0/8f/37ee614c35ae949ef462e9673f2af4b97c34e35457de9b877a6dbccabd58/ros-cdk-gpdb-1.0.9.tar.gz
+[2023-07-19 03:45:14] INFO root fetch - processPackages [omni-pro]: Downloading https://files.pythonhosted.org/packages/68/74/bd71843dcda95914554165f39f60a2e8b8c3652c7829fb2cc28ef4b8bf21/omni-pro-0.1.11.tar.gz
+[2023-07-19 03:45:14] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-07-19 03:45:14] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230719/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-07-19 03:45:14] INFO root fetch - processPackages [panos-upgrade-assurance]: Downloading https://files.pythonhosted.org/packages/12/f5/8a0ed91e05d53f452442e7aa1c0eea79cb01c6f39c0aca86dca662eb4bf1/panos_upgrade_assurance-0.1.1.tar.gz
+[2023-07-19 03:45:14] INFO root fetch - processPackages [ros-cdk-cms]: Downloading https://files.pythonhosted.org/packages/17/80/086a1bf95e4ba13c316fbcdc70533d8b8f133ff6f82a8626afff82eec572/ros-cdk-cms-1.0.8.tar.gz
+[2023-07-19 03:45:14] INFO root fetch - processPackages [omni-pro]: executing diffoscope
+[2023-07-19 03:45:14] INFO root fetch - processPackages [omni-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omni-pro-0.1.10.tar.gz tmp/omni-pro-0.1.11.tar.gz --markdown 20230719/o/omni-pro/0.1.10-0.1.11/diff.md --exclude *.pyd
+[2023-07-19 03:45:14] INFO root fetch - processPackages [ros-cdk-gpdb]: executing diffoscope
+[2023-07-19 03:45:14] INFO root fetch - processPackages [ros-cdk-gpdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-gpdb-1.0.8.tar.gz tmp/ros-cdk-gpdb-1.0.9.tar.gz --markdown 20230719/r/ros-cdk-gpdb/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 03:45:15] INFO root fetch - processPackages [panos-upgrade-assurance]: Downloading https://files.pythonhosted.org/packages/d9/f5/128f630763afbe20743202b670e9c0af21af7a6209211a8cb4ef089f73d6/panos_upgrade_assurance-0.1.2.tar.gz
+[2023-07-19 03:45:15] INFO root fetch - processPackages [ros-cdk-cms]: Downloading https://files.pythonhosted.org/packages/9b/42/378ce1abf11de31005aee8a49715db281e4424ac3ddfa3ee5635dc2df741/ros-cdk-cms-1.0.9.tar.gz
+[2023-07-19 03:45:15] INFO root fetch - processPackages [panos-upgrade-assurance]: executing diffoscope
+[2023-07-19 03:45:15] INFO root fetch - processPackages [panos-upgrade-assurance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panos_upgrade_assurance-0.1.1.tar.gz tmp/panos_upgrade_assurance-0.1.2.tar.gz --markdown 20230719/p/panos-upgrade-assurance/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-19 03:45:15] INFO root fetch - processPackages [ros-cdk-cms]: executing diffoscope
+[2023-07-19 03:45:15] INFO root fetch - processPackages [ros-cdk-cms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-cms-1.0.8.tar.gz tmp/ros-cdk-cms-1.0.9.tar.gz --markdown 20230719/r/ros-cdk-cms/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 03:45:15] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-07-19 03:45:15] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-07-19 03:45:15] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-07-19 03:45:15] INFO root fetch - processPackages [hbshare]: Remove: archive file [/home/abi/fetcher/tmp/hbshare-3.7.8.tar.gz]
+[2023-07-19 03:45:15] INFO root fetch - processPackages [hbshare]: Remove: archive file [/home/abi/fetcher/tmp/hbshare-3.7.9.tar.gz]
+[2023-07-19 03:45:15] INFO root fetch - main [MainThread]: End processing [hbshare]: success
+[2023-07-19 03:45:15] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip]
+[2023-07-19 03:45:15] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip]
+[2023-07-19 03:45:15] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-07-19 03:45:15] INFO root fetch - processPackages [ros-cdk-gpdb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-gpdb-1.0.8.tar.gz]
+[2023-07-19 03:45:15] INFO root fetch - processPackages [ros-cdk-gpdb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-gpdb-1.0.9.tar.gz]
+[2023-07-19 03:45:15] INFO root fetch - main [MainThread]: End processing [ros-cdk-gpdb]: success
+[2023-07-19 03:45:16] INFO root fetch - processPackages [ros-cdk-cms]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cms-1.0.8.tar.gz]
+[2023-07-19 03:45:16] INFO root fetch - processPackages [ros-cdk-cms]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cms-1.0.9.tar.gz]
+[2023-07-19 03:45:16] INFO root fetch - main [MainThread]: End processing [ros-cdk-cms]: success
+[2023-07-19 03:45:16] INFO root fetch - processPackages [panos-upgrade-assurance]: Remove: archive file [/home/abi/fetcher/tmp/panos_upgrade_assurance-0.1.1.tar.gz]
+[2023-07-19 03:45:16] INFO root fetch - processPackages [panos-upgrade-assurance]: Remove: archive file [/home/abi/fetcher/tmp/panos_upgrade_assurance-0.1.2.tar.gz]
+[2023-07-19 03:45:16] INFO root fetch - main [MainThread]: End processing [panos-upgrade-assurance]: success
+[2023-07-19 03:45:16] INFO root fetch - processPackages [omni-pro]: Remove: archive file [/home/abi/fetcher/tmp/omni-pro-0.1.10.tar.gz]
+[2023-07-19 03:45:16] INFO root fetch - processPackages [omni-pro]: Remove: archive file [/home/abi/fetcher/tmp/omni-pro-0.1.11.tar.gz]
+[2023-07-19 03:45:16] INFO root fetch - main [MainThread]: End processing [omni-pro]: success
+[2023-07-19 03:45:16] INFO root fetch - main [MainThread]: Store serial: [18942990]
