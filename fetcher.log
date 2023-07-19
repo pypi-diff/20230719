@@ -19484,3 +19484,131 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-19 11:23:36] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
 [2023-07-19 11:23:36] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
 [2023-07-19 11:23:36] INFO root fetch - main [MainThread]: Store serial: [18947853]
+[2023-07-19 11:28:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18947853]
+[2023-07-19 11:28:45] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-19 11:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mess_server_belyakovroman
+[2023-07-19 11:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: speedtab
+[2023-07-19 11:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dct-package
+[2023-07-19 11:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edge-tts-ext
+[2023-07-19 11:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: OpenAIAuth
+[2023-07-19 11:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MetaFEDOT
+[2023-07-19 11:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: khmernormalizer
+[2023-07-19 11:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dct-package
+[2023-07-19 11:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bitscreen-cli
+[2023-07-19 11:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: revChatGPT
+[2023-07-19 11:28:45] INFO root fetch - processPackages [khmernormalizer]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-19 11:28:45] WARNING root fetch - processPackages [edge-tts-ext]: Skipping, unable to determine old version
+[2023-07-19 11:28:45] INFO root fetch - processPackages [edge-tts-ext]: Start processing: dct-package
+[2023-07-19 11:28:45] INFO root fetch - main [MainThread]: End processing [edge-tts-ext] error
+[2023-07-19 11:28:45] WARNING root fetch - processPackages [mess_server_belyakovroman]: Skipping, unable to determine old version
+[2023-07-19 11:28:45] INFO root fetch - processPackages [mess_server_belyakovroman]: Start processing: gc-google-services-api
+[2023-07-19 11:28:45] INFO root fetch - main [MainThread]: End processing [mess_server_belyakovroman] error
+[2023-07-19 11:28:45] INFO root fetch - processPackages [dct-package]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-19 11:28:45] INFO root fetch - processPackages [dct-package]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-19 11:28:45] INFO root fetch - processPackages [dct-package]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-19 11:28:45] INFO root fetch - processPackages [bitscreen-cli]: New version: [0.1.9] Old Version: [0.1.22]
+[2023-07-19 11:28:45] INFO root fetch - processPackages [OpenAIAuth]: New version: [3.0.0] Old Version: [2.0.0]
+[2023-07-19 11:28:45] INFO root fetch - processPackages [speedtab]: New version: [0.1.5.1] Old Version: [0.1.5.0]
+[2023-07-19 11:28:45] WARNING root fetch - processPackages [MetaFEDOT]: Skipping, unable to determine old version
+[2023-07-19 11:28:45] INFO root fetch - processPackages [MetaFEDOT]: Start processing: tair
+[2023-07-19 11:28:45] INFO root fetch - main [MainThread]: End processing [MetaFEDOT] error
+[2023-07-19 11:28:46] INFO root fetch - processPackages [revChatGPT]: New version: [6.8.2] Old Version: [6.8.1]
+[2023-07-19 11:28:46] INFO root fetch - processPackages [gc-google-services-api]: New version: [1.3.0] Old Version: [1.2.9]
+[2023-07-19 11:28:46] INFO root fetch - processPackages [dct-package]: Downloading https://files.pythonhosted.org/packages/f2/2b/03ce05ecda18f33d64006d717d341a1b48fac9962d4b16acb61cfff79ca4/dct_package-0.1.1.tar.gz
+[2023-07-19 11:28:46] INFO root fetch - processPackages [dct-package]: Downloading https://files.pythonhosted.org/packages/f2/2b/03ce05ecda18f33d64006d717d341a1b48fac9962d4b16acb61cfff79ca4/dct_package-0.1.1.tar.gz
+[2023-07-19 11:28:46] INFO root fetch - processPackages [dct-package]: Downloading https://files.pythonhosted.org/packages/f2/2b/03ce05ecda18f33d64006d717d341a1b48fac9962d4b16acb61cfff79ca4/dct_package-0.1.1.tar.gz
+[2023-07-19 11:28:46] INFO root fetch - processPackages [tair]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-07-19 11:28:46] INFO root fetch - processPackages [bitscreen-cli]: Downloading https://files.pythonhosted.org/packages/f0/c0/f1a5e7419513e1f80a51777053a9755f84c3df8ad9bd4cd7e52a03322df9/bitscreen-cli-0.1.22.tar.gz
+[2023-07-19 11:28:46] INFO root fetch - processPackages [speedtab]: Downloading https://files.pythonhosted.org/packages/57/c3/4e4fd0a3d3ac116ef30bc41dde9991a2513f2df8cc4cfd5261c69071ba14/speedtab-0.1.5.0.tar.gz
+[2023-07-19 11:28:46] INFO root fetch - processPackages [OpenAIAuth]: Downloading https://files.pythonhosted.org/packages/41/2e/3fe3b2a43e7a38250e53a40bf0a3a422e31e44c6b4a3baeffecf57311697/OpenAIAuth-2.0.0.tar.gz
+[2023-07-19 11:28:46] INFO root fetch - processPackages [khmernormalizer]: Downloading https://files.pythonhosted.org/packages/e4/08/987cec0cabc3ff45ee241e98720df96b70ec366d2d36fd5e6e00a91df9fe/khmernormalizer-0.0.1.tar.gz
+[2023-07-19 11:28:46] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/66/d7/5e1b35b3fd000c13d6b6fd3d5d701b35632f0292d09ab64877885e154346/revChatGPT-6.8.1.tar.gz
+[2023-07-19 11:28:46] INFO root fetch - processPackages [gc-google-services-api]: Downloading https://files.pythonhosted.org/packages/70/ca/38ac8f2061615afa8f6d6e345298b97737a307dd4e9c0bf1c76d0630b1c7/gc_google_services_api-1.2.9.tar.gz
+[2023-07-19 11:28:46] INFO root fetch - processPackages [tair]: Downloading https://files.pythonhosted.org/packages/84/47/0a71d54f4f177b89f929e9687d05fb872987d9b57f0c03ab3b6f8672d6e5/tair-1.3.4.tar.gz
+[2023-07-19 11:28:46] INFO root fetch - processPackages [dct-package]: Downloading https://files.pythonhosted.org/packages/15/17/83de36135e56af96630e9074e7f6a4ef8d211ffeda74e96b8eae7eec53ce/dct_package-0.2.0.tar.gz
+[2023-07-19 11:28:46] INFO root fetch - processPackages [dct-package]: Downloading https://files.pythonhosted.org/packages/15/17/83de36135e56af96630e9074e7f6a4ef8d211ffeda74e96b8eae7eec53ce/dct_package-0.2.0.tar.gz
+[2023-07-19 11:28:46] INFO root fetch - processPackages [dct-package]: Downloading https://files.pythonhosted.org/packages/15/17/83de36135e56af96630e9074e7f6a4ef8d211ffeda74e96b8eae7eec53ce/dct_package-0.2.0.tar.gz
+[2023-07-19 11:28:46] INFO root fetch - processPackages [OpenAIAuth]: Downloading https://files.pythonhosted.org/packages/1b/a0/01c339fe5132c3a4d54b0553b0100b6e84c342ae0e1e24b9175ba56a9f68/OpenAIAuth-3.0.0.tar.gz
+[2023-07-19 11:28:46] INFO root fetch - processPackages [khmernormalizer]: Downloading https://files.pythonhosted.org/packages/4e/b6/8d6562d769f4ff36ece4c0a38bf4bff99d40b38b554767209c078a6f41ec/khmernormalizer-0.0.2.tar.gz
+[2023-07-19 11:28:46] INFO root fetch - processPackages [bitscreen-cli]: Downloading https://files.pythonhosted.org/packages/3b/e0/b887551ae59bd05b5dc3a3f594c414290341d17e19f224a0dc411135378b/bitscreen-cli-0.1.9.tar.gz
+[2023-07-19 11:28:46] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/38/48/fe07245c5ecb9199462ad16873c1a675fee59f1339e71505253565ecf7c4/revChatGPT-6.8.2.tar.gz
+[2023-07-19 11:28:46] INFO root fetch - processPackages [speedtab]: Downloading https://files.pythonhosted.org/packages/35/84/d685f3a47b789ba5db60c4124b9726a29e4e1a372b2a60d050e997046edc/speedtab-0.1.5.1.tar.gz
+[2023-07-19 11:28:47] INFO root fetch - processPackages [dct-package]: executing diffoscope
+[2023-07-19 11:28:47] INFO root fetch - processPackages [dct-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dct_package-0.1.1.tar.gz tmp/dct_package-0.2.0.tar.gz --markdown 20230719/d/dct-package/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-19 11:28:47] INFO root fetch - processPackages [dct-package]: executing diffoscope
+[2023-07-19 11:28:47] INFO root fetch - processPackages [dct-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dct_package-0.1.1.tar.gz tmp/dct_package-0.2.0.tar.gz --markdown 20230719/d/dct-package/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-19 11:28:47] INFO root fetch - processPackages [dct-package]: executing diffoscope
+[2023-07-19 11:28:47] INFO root fetch - processPackages [dct-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dct_package-0.1.1.tar.gz tmp/dct_package-0.2.0.tar.gz --markdown 20230719/d/dct-package/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-19 11:28:47] INFO root fetch - processPackages [OpenAIAuth]: executing diffoscope
+[2023-07-19 11:28:47] INFO root fetch - processPackages [OpenAIAuth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenAIAuth-2.0.0.tar.gz tmp/OpenAIAuth-3.0.0.tar.gz --markdown 20230719/O/OpenAIAuth/2.0.0-3.0.0/diff.md --exclude *.pyd
+[2023-07-19 11:28:47] INFO root fetch - processPackages [tair]: Downloading https://files.pythonhosted.org/packages/d1/50/762d6dd9e86a0776013dedcbd87fcda63bf8e482e053a4d23302a2a60eb8/tair-1.3.5.tar.gz
+[2023-07-19 11:28:47] INFO root fetch - processPackages [gc-google-services-api]: Downloading https://files.pythonhosted.org/packages/8e/eb/e16401d37cb016f920f7c931c34eee43a77d34c6b39ca8ed303ce0f02bfb/gc_google_services_api-1.3.0.tar.gz
+[2023-07-19 11:28:47] INFO root fetch - processPackages [khmernormalizer]: executing diffoscope
+[2023-07-19 11:28:47] INFO root fetch - processPackages [khmernormalizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khmernormalizer-0.0.1.tar.gz tmp/khmernormalizer-0.0.2.tar.gz --markdown 20230719/k/khmernormalizer/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-19 11:28:47] INFO root fetch - processPackages [speedtab]: executing diffoscope
+[2023-07-19 11:28:47] INFO root fetch - processPackages [speedtab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speedtab-0.1.5.0.tar.gz tmp/speedtab-0.1.5.1.tar.gz --markdown 20230719/s/speedtab/0.1.5.0-0.1.5.1/diff.md --exclude *.pyd
+[2023-07-19 11:28:47] INFO root fetch - processPackages [revChatGPT]: executing diffoscope
+[2023-07-19 11:28:47] INFO root fetch - processPackages [revChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revChatGPT-6.8.1.tar.gz tmp/revChatGPT-6.8.2.tar.gz --markdown 20230719/r/revChatGPT/6.8.1-6.8.2/diff.md --exclude *.pyd
+[2023-07-19 11:28:47] INFO root fetch - processPackages [bitscreen-cli]: executing diffoscope
+[2023-07-19 11:28:47] INFO root fetch - processPackages [bitscreen-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitscreen-cli-0.1.22.tar.gz tmp/bitscreen-cli-0.1.9.tar.gz --markdown 20230719/b/bitscreen-cli/0.1.22-0.1.9/diff.md --exclude *.pyd
+[2023-07-19 11:28:47] INFO root fetch - processPackages [gc-google-services-api]: executing diffoscope
+[2023-07-19 11:28:47] INFO root fetch - processPackages [gc-google-services-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gc_google_services_api-1.2.9.tar.gz tmp/gc_google_services_api-1.3.0.tar.gz --markdown 20230719/g/gc-google-services-api/1.2.9-1.3.0/diff.md --exclude *.pyd
+[2023-07-19 11:28:47] INFO root fetch - processPackages [tair]: executing diffoscope
+[2023-07-19 11:28:47] INFO root fetch - processPackages [tair]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tair-1.3.4.tar.gz tmp/tair-1.3.5.tar.gz --markdown 20230719/t/tair/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-07-19 11:28:48] INFO root fetch - processPackages [dct-package]: Remove: archive file [/home/abi/fetcher/tmp/dct_package-0.1.1.tar.gz]
+[2023-07-19 11:28:48] INFO root fetch - processPackages [dct-package]: Remove: archive file [/home/abi/fetcher/tmp/dct_package-0.2.0.tar.gz]
+[2023-07-19 11:28:48] INFO root fetch - processPackages [dct-package]: Start processing: alchemite-apiclient
+[2023-07-19 11:28:48] INFO root fetch - main [MainThread]: End processing [dct-package]: success
+[2023-07-19 11:28:48] INFO root fetch - processPackages [dct-package]: Start processing: minetcookies
+[2023-07-19 11:28:48] INFO root fetch - main [MainThread]: End processing [dct-package]: success
+[2023-07-19 11:28:48] INFO root fetch - processPackages [alchemite-apiclient]: New version: [0.58.0] Old Version: [0.57.0]
+[2023-07-19 11:28:48] INFO root fetch - processPackages [OpenAIAuth]: Remove: archive file [/home/abi/fetcher/tmp/OpenAIAuth-2.0.0.tar.gz]
+[2023-07-19 11:28:48] INFO root fetch - processPackages [OpenAIAuth]: Remove: archive file [/home/abi/fetcher/tmp/OpenAIAuth-3.0.0.tar.gz]
+[2023-07-19 11:28:48] INFO root fetch - processPackages [OpenAIAuth]: Start processing: mess_client_belyakovroman
+[2023-07-19 11:28:48] INFO root fetch - main [MainThread]: End processing [OpenAIAuth]: success
+[2023-07-19 11:28:48] INFO root fetch - processPackages [minetcookies]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-19 11:28:48] INFO root fetch - processPackages [speedtab]: Remove: archive file [/home/abi/fetcher/tmp/speedtab-0.1.5.0.tar.gz]
+[2023-07-19 11:28:48] INFO root fetch - processPackages [speedtab]: Remove: archive file [/home/abi/fetcher/tmp/speedtab-0.1.5.1.tar.gz]
+[2023-07-19 11:28:48] INFO root fetch - processPackages [speedtab]: Start processing: chrisbase
+[2023-07-19 11:28:48] INFO root fetch - main [MainThread]: End processing [speedtab]: success
+[2023-07-19 11:28:48] WARNING root fetch - processPackages [mess_client_belyakovroman]: Skipping, unable to determine old version
+[2023-07-19 11:28:48] INFO root fetch - main [MainThread]: End processing [mess_client_belyakovroman] error
+[2023-07-19 11:28:48] INFO root fetch - main [MainThread]: End processing [dct-package]: success
+[2023-07-19 11:28:48] INFO root fetch - processPackages [alchemite-apiclient]: Downloading https://files.pythonhosted.org/packages/de/c0/8fee841e23c6db1db6d1dfc1b9297b01a82ed293df5b33060c023254cd06/alchemite_apiclient-0.57.0.tar.gz
+[2023-07-19 11:28:48] INFO root fetch - processPackages [revChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/revChatGPT-6.8.1.tar.gz]
+[2023-07-19 11:28:48] INFO root fetch - processPackages [revChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/revChatGPT-6.8.2.tar.gz]
+[2023-07-19 11:28:48] INFO root fetch - main [MainThread]: End processing [revChatGPT]: success
+[2023-07-19 11:28:48] INFO root fetch - processPackages [khmernormalizer]: Remove: archive file [/home/abi/fetcher/tmp/khmernormalizer-0.0.1.tar.gz]
+[2023-07-19 11:28:48] INFO root fetch - processPackages [khmernormalizer]: Remove: archive file [/home/abi/fetcher/tmp/khmernormalizer-0.0.2.tar.gz]
+[2023-07-19 11:28:48] INFO root fetch - main [MainThread]: End processing [khmernormalizer]: success
+[2023-07-19 11:28:48] INFO root fetch - processPackages [minetcookies]: Downloading https://files.pythonhosted.org/packages/3d/80/717e28483ae4ea24e7c863b4cc86a8961942382dbcf3bd883db3b5423b93/minetcookies-0.3.8.tar.gz
+[2023-07-19 11:28:48] INFO root fetch - processPackages [bitscreen-cli]: Remove: archive file [/home/abi/fetcher/tmp/bitscreen-cli-0.1.22.tar.gz]
+[2023-07-19 11:28:48] INFO root fetch - processPackages [bitscreen-cli]: Remove: archive file [/home/abi/fetcher/tmp/bitscreen-cli-0.1.9.tar.gz]
+[2023-07-19 11:28:48] INFO root fetch - main [MainThread]: End processing [bitscreen-cli]: success
+[2023-07-19 11:28:48] INFO root fetch - processPackages [chrisbase]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-19 11:28:48] INFO root fetch - processPackages [gc-google-services-api]: Remove: archive file [/home/abi/fetcher/tmp/gc_google_services_api-1.2.9.tar.gz]
+[2023-07-19 11:28:48] INFO root fetch - processPackages [gc-google-services-api]: Remove: archive file [/home/abi/fetcher/tmp/gc_google_services_api-1.3.0.tar.gz]
+[2023-07-19 11:28:48] INFO root fetch - main [MainThread]: End processing [gc-google-services-api]: success
+[2023-07-19 11:28:48] INFO root fetch - processPackages [tair]: Remove: archive file [/home/abi/fetcher/tmp/tair-1.3.4.tar.gz]
+[2023-07-19 11:28:48] INFO root fetch - processPackages [tair]: Remove: archive file [/home/abi/fetcher/tmp/tair-1.3.5.tar.gz]
+[2023-07-19 11:28:48] INFO root fetch - main [MainThread]: End processing [tair]: success
+[2023-07-19 11:28:49] INFO root fetch - processPackages [chrisbase]: Downloading https://files.pythonhosted.org/packages/cc/f8/b5002b3ba7a1d9ea17e8b34a20e5cf02a63d7bc287352412c0b92a3c2c32/chrisbase-0.4.0.tar.gz
+[2023-07-19 11:28:49] INFO root fetch - processPackages [minetcookies]: Downloading https://files.pythonhosted.org/packages/ba/17/5cddf5bb83a5f4349bc9b0550ae5b52a49bd52bdabd97c0e6737e020a3d4/minetcookies-0.3.9.tar.gz
+[2023-07-19 11:28:49] INFO root fetch - processPackages [alchemite-apiclient]: Downloading https://files.pythonhosted.org/packages/11/04/4bd954d4f37e04b40d9780d02c3971e8670822eaaccb1fc1d0bc52b0ba09/alchemite_apiclient-0.58.0.tar.gz
+[2023-07-19 11:28:49] INFO root fetch - processPackages [minetcookies]: executing diffoscope
+[2023-07-19 11:28:49] INFO root fetch - processPackages [minetcookies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minetcookies-0.3.8.tar.gz tmp/minetcookies-0.3.9.tar.gz --markdown 20230719/m/minetcookies/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-19 11:28:49] INFO root fetch - processPackages [chrisbase]: Downloading https://files.pythonhosted.org/packages/d5/ed/28288c7c085d503fb09a88291a5c40619c59840274a1859aa278caced86a/chrisbase-0.4.1.tar.gz
+[2023-07-19 11:28:49] INFO root fetch - processPackages [alchemite-apiclient]: executing diffoscope
+[2023-07-19 11:28:49] INFO root fetch - processPackages [alchemite-apiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alchemite_apiclient-0.57.0.tar.gz tmp/alchemite_apiclient-0.58.0.tar.gz --markdown 20230719/a/alchemite-apiclient/0.57.0-0.58.0/diff.md --exclude *.pyd
+[2023-07-19 11:28:49] INFO root fetch - processPackages [chrisbase]: executing diffoscope
+[2023-07-19 11:28:49] INFO root fetch - processPackages [chrisbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chrisbase-0.4.0.tar.gz tmp/chrisbase-0.4.1.tar.gz --markdown 20230719/c/chrisbase/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-19 11:28:50] INFO root fetch - processPackages [minetcookies]: Remove: archive file [/home/abi/fetcher/tmp/minetcookies-0.3.8.tar.gz]
+[2023-07-19 11:28:50] INFO root fetch - processPackages [minetcookies]: Remove: archive file [/home/abi/fetcher/tmp/minetcookies-0.3.9.tar.gz]
+[2023-07-19 11:28:50] INFO root fetch - main [MainThread]: End processing [minetcookies]: success
+[2023-07-19 11:28:50] INFO root fetch - processPackages [chrisbase]: Remove: archive file [/home/abi/fetcher/tmp/chrisbase-0.4.0.tar.gz]
+[2023-07-19 11:28:50] INFO root fetch - processPackages [chrisbase]: Remove: archive file [/home/abi/fetcher/tmp/chrisbase-0.4.1.tar.gz]
+[2023-07-19 11:28:50] INFO root fetch - main [MainThread]: End processing [chrisbase]: success
+[2023-07-19 11:28:53] INFO root fetch - processPackages [alchemite-apiclient]: Remove: archive file [/home/abi/fetcher/tmp/alchemite_apiclient-0.57.0.tar.gz]
+[2023-07-19 11:28:53] INFO root fetch - processPackages [alchemite-apiclient]: Remove: archive file [/home/abi/fetcher/tmp/alchemite_apiclient-0.58.0.tar.gz]
+[2023-07-19 11:28:53] INFO root fetch - main [MainThread]: End processing [alchemite-apiclient]: success
+[2023-07-19 11:28:53] INFO root fetch - main [MainThread]: Store serial: [18947911]
