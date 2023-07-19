@@ -15679,3 +15679,267 @@
 [2023-07-19 08:54:54] ERROR root fetch - processPackages [aws-flask-swagger-ui]: Timeout during execution of pkgdiff
 [2023-07-19 08:54:54] INFO root fetch - main [MainThread]: End processing [aws-flask-swagger-ui] error
 [2023-07-19 08:54:54] INFO root fetch - main [MainThread]: Store serial: [18946276]
+[2023-07-19 08:59:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18946276]
+[2023-07-19 09:00:03] INFO root fetch - main [MainThread]: Found 31 changed packages
+[2023-07-19 09:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: peek-storage-service
+[2023-07-19 09:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: peek-worker-service
+[2023-07-19 09:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: synerty-peek
+[2023-07-19 09:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-bunny
+[2023-07-19 09:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: peek-plugin-branch
+[2023-07-19 09:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: peek-plugin-chat
+[2023-07-19 09:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: peek-plugin-diagram
+[2023-07-19 09:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: understar
+[2023-07-19 09:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vdk-jupyterlab-extension
+[2023-07-19 09:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: peek-plugin-diagram-trace
+[2023-07-19 09:00:03] INFO root fetch - processPackages [peek-storage-service]: New version: [3.4.9] Old Version: [3.4.8]
+[2023-07-19 09:00:03] INFO root fetch - processPackages [peek-plugin-diagram]: New version: [3.4.9] Old Version: [3.4.8]
+[2023-07-19 09:00:03] INFO root fetch - processPackages [peek-plugin-chat]: New version: [3.4.9] Old Version: [3.4.8]
+[2023-07-19 09:00:03] INFO root fetch - processPackages [peek-storage-service]: Downloading https://files.pythonhosted.org/packages/12/01/0c6040999c37abbada07f87b149a471c3d293d7f319a1492ceee0034a107/peek-storage-service-3.4.8.tar.gz
+[2023-07-19 09:00:03] INFO root fetch - processPackages [peek-worker-service]: New version: [3.4.9] Old Version: [3.4.8]
+[2023-07-19 09:00:03] INFO root fetch - processPackages [vdk-jupyterlab-extension]: New version: [0.1.936279136] Old Version: [0.1.931147919]
+[2023-07-19 09:00:03] INFO root fetch - processPackages [django-bunny]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-19 09:00:03] INFO root fetch - processPackages [peek-plugin-branch]: New version: [3.4.9] Old Version: [3.4.8]
+[2023-07-19 09:00:03] INFO root fetch - processPackages [understar]: New version: [2.42] Old Version: [2.41]
+[2023-07-19 09:00:03] INFO root fetch - processPackages [synerty-peek]: New version: [3.4.9] Old Version: [3.4.8]
+[2023-07-19 09:00:03] INFO root fetch - processPackages [peek-plugin-diagram-trace]: New version: [3.4.9] Old Version: [3.4.8]
+[2023-07-19 09:00:04] INFO root fetch - processPackages [peek-plugin-diagram]: Downloading https://files.pythonhosted.org/packages/3e/25/6273e41be74ad839dc93d88cc8512eb79a0f9b4eb7d3c1c4f36afc0eb06f/peek-plugin-diagram-3.4.8.tar.gz
+[2023-07-19 09:00:04] INFO root fetch - processPackages [peek-storage-service]: Downloading https://files.pythonhosted.org/packages/91/df/54ec0592c7df452a71ab7b0995c33cc41e92aac813f0b391c98c1c207505/peek-storage-service-3.4.9.tar.gz
+[2023-07-19 09:00:04] INFO root fetch - processPackages [vdk-jupyterlab-extension]: Downloading https://files.pythonhosted.org/packages/7c/31/91241b1cbfdfb252f65a2094d7289fd81381fa5f9574019605e7eee14623/vdk_jupyterlab_extension-0.1.931147919.tar.gz
+[2023-07-19 09:00:04] INFO root fetch - processPackages [peek-plugin-diagram-trace]: Downloading https://files.pythonhosted.org/packages/37/ba/fc49eb02bfcdc068c6718350c98d74eded3e6e7bd0e43472f3e80791817d/peek-plugin-diagram-trace-3.4.8.tar.gz
+[2023-07-19 09:00:04] INFO root fetch - processPackages [understar]: Downloading https://files.pythonhosted.org/packages/d6/a4/6b78dfbb20fbf54aa364c65372eab6126b2a15b49edb1dc773025c13d7cc/understar-2.41.tar.gz
+[2023-07-19 09:00:04] INFO root fetch - processPackages [django-bunny]: Downloading https://files.pythonhosted.org/packages/98/e3/9dbd50a607fb57dcdb4942931e049902e0ac662358a27192430e0a7d900e/django_bunny-1.1.2.tar.gz
+[2023-07-19 09:00:04] INFO root fetch - processPackages [peek-plugin-chat]: Downloading https://files.pythonhosted.org/packages/8e/09/762b4525b43d23810c9ff1c23ef67442b3d8a551f98bb7e80d1a7c7a5529/peek-plugin-chat-3.4.8.tar.gz
+[2023-07-19 09:00:04] INFO root fetch - processPackages [peek-worker-service]: Downloading https://files.pythonhosted.org/packages/d3/fe/b65089b2e89d16ea9996de66d9cf75ff0c4f910f386c1550b7f83c0ebe3b/peek-worker-service-3.4.8.tar.gz
+[2023-07-19 09:00:04] INFO root fetch - processPackages [peek-plugin-branch]: Downloading https://files.pythonhosted.org/packages/f5/e5/3812929674e73835a9a9329f93446885792c661e6f0ae5d4233586458e3c/peek-plugin-branch-3.4.8.tar.gz
+[2023-07-19 09:00:04] INFO root fetch - processPackages [peek-storage-service]: executing diffoscope
+[2023-07-19 09:00:04] INFO root fetch - processPackages [peek-storage-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peek-storage-service-3.4.8.tar.gz tmp/peek-storage-service-3.4.9.tar.gz --markdown 20230719/p/peek-storage-service/3.4.8-3.4.9/diff.md --exclude *.pyd
+[2023-07-19 09:00:04] INFO root fetch - processPackages [synerty-peek]: Downloading https://files.pythonhosted.org/packages/72/a3/d1cea48aaf1839f274d44f6ddf8bb9e716a21ef2c331938757e4dcdef7b4/synerty-peek-3.4.8.tar.gz
+[2023-07-19 09:00:04] INFO root fetch - processPackages [peek-plugin-diagram-trace]: Downloading https://files.pythonhosted.org/packages/a8/b0/27ae0f2274c2f9ef84836d328a2fc8a3e65a2412aac3d761f89522f9b78a/peek-plugin-diagram-trace-3.4.9.tar.gz
+[2023-07-19 09:00:04] INFO root fetch - processPackages [understar]: Downloading https://files.pythonhosted.org/packages/a9/ab/97306d746ddbc6442bc30b423987a64ee980be37f013d586030868942fed/understar-2.42.tar.gz
+[2023-07-19 09:00:04] INFO root fetch - processPackages [peek-worker-service]: Downloading https://files.pythonhosted.org/packages/a9/a0/66cc4b86c122112a637b334865436f97bb2d3b07c047dd41125aabc95790/peek-worker-service-3.4.9.tar.gz
+[2023-07-19 09:00:04] INFO root fetch - processPackages [django-bunny]: Downloading https://files.pythonhosted.org/packages/0d/4c/c6832785f187d79f7d776212bf62ab56ca2b32f8e7405b410fd4686a23a6/django_bunny-1.1.3.tar.gz
+[2023-07-19 09:00:04] INFO root fetch - processPackages [vdk-jupyterlab-extension]: Downloading https://files.pythonhosted.org/packages/e1/bd/1733d683f41344bc1cfb8b10a09560728cdbfa5e8858ec8b9c60a69c9989/vdk_jupyterlab_extension-0.1.936279136.tar.gz
+[2023-07-19 09:00:04] INFO root fetch - processPackages [peek-plugin-branch]: Downloading https://files.pythonhosted.org/packages/fa/73/11806338bdac54eeeb77f7208a8300317d537ed0cdf9daaed9da60ac8690/peek-plugin-branch-3.4.9.tar.gz
+[2023-07-19 09:00:04] INFO root fetch - processPackages [synerty-peek]: Downloading https://files.pythonhosted.org/packages/b1/0b/bd2fce48bce1a1c6503406382a62b3eb2710f71415829251098ee7271949/synerty-peek-3.4.9.tar.gz
+[2023-07-19 09:00:04] INFO root fetch - processPackages [peek-plugin-chat]: Downloading https://files.pythonhosted.org/packages/63/12/023dae8890b4284fbedb56637c5f1febfe3cb3bdf43cd122ca2bc9565940/peek-plugin-chat-3.4.9.tar.gz
+[2023-07-19 09:00:05] INFO root fetch - processPackages [peek-worker-service]: executing diffoscope
+[2023-07-19 09:00:05] INFO root fetch - processPackages [peek-worker-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peek-worker-service-3.4.8.tar.gz tmp/peek-worker-service-3.4.9.tar.gz --markdown 20230719/p/peek-worker-service/3.4.8-3.4.9/diff.md --exclude *.pyd
+[2023-07-19 09:00:05] INFO root fetch - processPackages [peek-plugin-diagram]: Downloading https://files.pythonhosted.org/packages/aa/0b/99a536be6debab752a449f90e5e6122f6b3fbbcb727d71168cfaa25e79d3/peek-plugin-diagram-3.4.9.tar.gz
+[2023-07-19 09:00:05] INFO root fetch - processPackages [understar]: executing diffoscope
+[2023-07-19 09:00:05] INFO root fetch - processPackages [understar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/understar-2.41.tar.gz tmp/understar-2.42.tar.gz --markdown 20230719/u/understar/2.41-2.42/diff.md --exclude *.pyd
+[2023-07-19 09:00:05] INFO root fetch - processPackages [peek-plugin-diagram-trace]: executing diffoscope
+[2023-07-19 09:00:05] INFO root fetch - processPackages [peek-plugin-diagram-trace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peek-plugin-diagram-trace-3.4.8.tar.gz tmp/peek-plugin-diagram-trace-3.4.9.tar.gz --markdown 20230719/p/peek-plugin-diagram-trace/3.4.8-3.4.9/diff.md --exclude *.pyd
+[2023-07-19 09:00:05] INFO root fetch - processPackages [peek-plugin-branch]: executing diffoscope
+[2023-07-19 09:00:05] INFO root fetch - processPackages [peek-plugin-branch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peek-plugin-branch-3.4.8.tar.gz tmp/peek-plugin-branch-3.4.9.tar.gz --markdown 20230719/p/peek-plugin-branch/3.4.8-3.4.9/diff.md --exclude *.pyd
+[2023-07-19 09:00:05] INFO root fetch - processPackages [synerty-peek]: executing diffoscope
+[2023-07-19 09:00:05] INFO root fetch - processPackages [synerty-peek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synerty-peek-3.4.8.tar.gz tmp/synerty-peek-3.4.9.tar.gz --markdown 20230719/s/synerty-peek/3.4.8-3.4.9/diff.md --exclude *.pyd
+[2023-07-19 09:00:05] INFO root fetch - processPackages [django-bunny]: executing diffoscope
+[2023-07-19 09:00:05] INFO root fetch - processPackages [django-bunny]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_bunny-1.1.2.tar.gz tmp/django_bunny-1.1.3.tar.gz --markdown 20230719/d/django-bunny/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-19 09:00:05] INFO root fetch - processPackages [vdk-jupyterlab-extension]: executing diffoscope
+[2023-07-19 09:00:05] INFO root fetch - processPackages [vdk-jupyterlab-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk_jupyterlab_extension-0.1.931147919.tar.gz tmp/vdk_jupyterlab_extension-0.1.936279136.tar.gz --markdown 20230719/v/vdk-jupyterlab-extension/0.1.931147919-0.1.936279136/diff.md --exclude *.pyd
+[2023-07-19 09:00:05] INFO root fetch - processPackages [peek-plugin-chat]: executing diffoscope
+[2023-07-19 09:00:05] INFO root fetch - processPackages [peek-plugin-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peek-plugin-chat-3.4.8.tar.gz tmp/peek-plugin-chat-3.4.9.tar.gz --markdown 20230719/p/peek-plugin-chat/3.4.8-3.4.9/diff.md --exclude *.pyd
+[2023-07-19 09:00:05] INFO root fetch - processPackages [peek-plugin-diagram]: executing diffoscope
+[2023-07-19 09:00:05] INFO root fetch - processPackages [peek-plugin-diagram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peek-plugin-diagram-3.4.8.tar.gz tmp/peek-plugin-diagram-3.4.9.tar.gz --markdown 20230719/p/peek-plugin-diagram/3.4.8-3.4.9/diff.md --exclude *.pyd
+[2023-07-19 09:00:05] INFO root fetch - processPackages [peek-storage-service]: Remove: archive file [/home/abi/fetcher/tmp/peek-storage-service-3.4.8.tar.gz]
+[2023-07-19 09:00:05] INFO root fetch - processPackages [peek-storage-service]: Remove: archive file [/home/abi/fetcher/tmp/peek-storage-service-3.4.9.tar.gz]
+[2023-07-19 09:00:05] INFO root fetch - processPackages [peek-storage-service]: Start processing: peek-plugin-docdb-generic-menu
+[2023-07-19 09:00:05] INFO root fetch - main [MainThread]: End processing [peek-storage-service]: success
+[2023-07-19 09:00:05] INFO root fetch - processPackages [peek-plugin-docdb-generic-menu]: New version: [3.4.9] Old Version: [3.4.8]
+[2023-07-19 09:00:06] INFO root fetch - processPackages [peek-plugin-docdb-generic-menu]: Downloading https://files.pythonhosted.org/packages/21/d9/1d123d8864cee7525019706a1f4c857a040f7cc79b176601f8c94fb085cc/peek-plugin-docdb-generic-menu-3.4.8.tar.gz
+[2023-07-19 09:00:06] INFO root fetch - processPackages [peek-plugin-docdb-generic-menu]: Downloading https://files.pythonhosted.org/packages/4f/6b/984d8f268fe39e2ed16eb8ba0ce0bffd55e5ed4411c1f6988c3a7271771a/peek-plugin-docdb-generic-menu-3.4.9.tar.gz
+[2023-07-19 09:00:06] INFO root fetch - processPackages [peek-worker-service]: Remove: archive file [/home/abi/fetcher/tmp/peek-worker-service-3.4.8.tar.gz]
+[2023-07-19 09:00:06] INFO root fetch - processPackages [peek-worker-service]: Remove: archive file [/home/abi/fetcher/tmp/peek-worker-service-3.4.9.tar.gz]
+[2023-07-19 09:00:06] INFO root fetch - processPackages [peek-worker-service]: Start processing: peek-plugin-eventdb
+[2023-07-19 09:00:06] INFO root fetch - main [MainThread]: End processing [peek-worker-service]: success
+[2023-07-19 09:00:06] INFO root fetch - processPackages [peek-plugin-docdb-generic-menu]: executing diffoscope
+[2023-07-19 09:00:06] INFO root fetch - processPackages [peek-plugin-docdb-generic-menu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peek-plugin-docdb-generic-menu-3.4.8.tar.gz tmp/peek-plugin-docdb-generic-menu-3.4.9.tar.gz --markdown 20230719/p/peek-plugin-docdb-generic-menu/3.4.8-3.4.9/diff.md --exclude *.pyd
+[2023-07-19 09:00:06] INFO root fetch - processPackages [synerty-peek]: Remove: archive file [/home/abi/fetcher/tmp/synerty-peek-3.4.8.tar.gz]
+[2023-07-19 09:00:06] INFO root fetch - processPackages [synerty-peek]: Remove: archive file [/home/abi/fetcher/tmp/synerty-peek-3.4.9.tar.gz]
+[2023-07-19 09:00:06] INFO root fetch - processPackages [synerty-peek]: Start processing: peek-plugin-gis-diagram
+[2023-07-19 09:00:06] INFO root fetch - main [MainThread]: End processing [synerty-peek]: success
+[2023-07-19 09:00:06] INFO root fetch - processPackages [peek-plugin-diagram-trace]: Remove: archive file [/home/abi/fetcher/tmp/peek-plugin-diagram-trace-3.4.8.tar.gz]
+[2023-07-19 09:00:06] INFO root fetch - processPackages [peek-plugin-diagram-trace]: Remove: archive file [/home/abi/fetcher/tmp/peek-plugin-diagram-trace-3.4.9.tar.gz]
+[2023-07-19 09:00:06] INFO root fetch - processPackages [peek-plugin-diagram-trace]: Start processing: yxspkg
+[2023-07-19 09:00:06] INFO root fetch - main [MainThread]: End processing [peek-plugin-diagram-trace]: success
+[2023-07-19 09:00:06] INFO root fetch - processPackages [peek-plugin-eventdb]: New version: [3.4.9] Old Version: [3.4.8]
+[2023-07-19 09:00:06] INFO root fetch - processPackages [django-bunny]: Remove: archive file [/home/abi/fetcher/tmp/django_bunny-1.1.2.tar.gz]
+[2023-07-19 09:00:06] INFO root fetch - processPackages [django-bunny]: Remove: archive file [/home/abi/fetcher/tmp/django_bunny-1.1.3.tar.gz]
+[2023-07-19 09:00:06] INFO root fetch - processPackages [django-bunny]: Start processing: peek-plugin-graphdb
+[2023-07-19 09:00:06] INFO root fetch - main [MainThread]: End processing [django-bunny]: success
+[2023-07-19 09:00:06] INFO root fetch - processPackages [understar]: Remove: archive file [/home/abi/fetcher/tmp/understar-2.41.tar.gz]
+[2023-07-19 09:00:06] INFO root fetch - processPackages [understar]: Remove: archive file [/home/abi/fetcher/tmp/understar-2.42.tar.gz]
+[2023-07-19 09:00:06] INFO root fetch - processPackages [understar]: Start processing: peek-plugin-inbox
+[2023-07-19 09:00:06] INFO root fetch - main [MainThread]: End processing [understar]: success
+[2023-07-19 09:00:06] INFO root fetch - processPackages [peek-plugin-gis-diagram]: New version: [3.4.9] Old Version: [3.4.8]
+[2023-07-19 09:00:06] INFO root fetch - processPackages [yxspkg]: New version: [6.9.8] Old Version: [6.9.7]
+[2023-07-19 09:00:06] INFO root fetch - processPackages [peek-plugin-chat]: Remove: archive file [/home/abi/fetcher/tmp/peek-plugin-chat-3.4.8.tar.gz]
+[2023-07-19 09:00:06] INFO root fetch - processPackages [peek-plugin-chat]: Remove: archive file [/home/abi/fetcher/tmp/peek-plugin-chat-3.4.9.tar.gz]
+[2023-07-19 09:00:06] INFO root fetch - processPackages [peek-plugin-chat]: Start processing: peek-plugin-livedb
+[2023-07-19 09:00:06] INFO root fetch - main [MainThread]: End processing [peek-plugin-chat]: success
+[2023-07-19 09:00:06] INFO root fetch - processPackages [peek-plugin-graphdb]: New version: [3.4.9] Old Version: [3.4.8]
+[2023-07-19 09:00:07] INFO root fetch - processPackages [peek-plugin-branch]: Remove: archive file [/home/abi/fetcher/tmp/peek-plugin-branch-3.4.8.tar.gz]
+[2023-07-19 09:00:07] INFO root fetch - processPackages [peek-plugin-branch]: Remove: archive file [/home/abi/fetcher/tmp/peek-plugin-branch-3.4.9.tar.gz]
+[2023-07-19 09:00:07] INFO root fetch - processPackages [peek-plugin-branch]: Start processing: aiworkflows
+[2023-07-19 09:00:07] INFO root fetch - main [MainThread]: End processing [peek-plugin-branch]: success
+[2023-07-19 09:00:07] INFO root fetch - processPackages [peek-plugin-inbox]: New version: [3.4.9] Old Version: [3.4.8]
+[2023-07-19 09:00:07] INFO root fetch - processPackages [peek-plugin-eventdb]: Downloading https://files.pythonhosted.org/packages/f0/4e/635dd3f320a1b2a83441e8f830c8749cacea4e1d1add0e9e9de9a35e71e1/peek-plugin-eventdb-3.4.8.tar.gz
+[2023-07-19 09:00:07] INFO root fetch - processPackages [peek-plugin-livedb]: New version: [3.4.9] Old Version: [3.4.8]
+[2023-07-19 09:00:07] INFO root fetch - processPackages [peek-plugin-gis-diagram]: Downloading https://files.pythonhosted.org/packages/8d/5f/1fcacd93ccc8aa4947eb7db3cd0269b337e41e5eb5cc61c275259728cf7a/peek-plugin-gis-diagram-3.4.8.tar.gz
+[2023-07-19 09:00:07] INFO root fetch - processPackages [yxspkg]: Downloading https://files.pythonhosted.org/packages/e9/00/1c979a6338313aa1384817dcfb17d78f225f07292739c9ace51701b7cc62/yxspkg-6.9.7-py3-none-any.whl
+[2023-07-19 09:00:07] INFO root fetch - processPackages [aiworkflows]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-19 09:00:07] INFO root fetch - processPackages [peek-plugin-graphdb]: Downloading https://files.pythonhosted.org/packages/b9/bf/7aab1ba4790fa3da8b2b9957f2ef77704a13b1e23e074d4e2a00d854f159/peek-plugin-graphdb-3.4.8.tar.gz
+[2023-07-19 09:00:07] INFO root fetch - processPackages [peek-plugin-inbox]: Downloading https://files.pythonhosted.org/packages/9e/95/d5afd99f9314c8d35b09ea40beea4b89fefdb8a73f23c467869a110f3bc1/peek-plugin-inbox-3.4.8.tar.gz
+[2023-07-19 09:00:07] INFO root fetch - processPackages [peek-plugin-livedb]: Downloading https://files.pythonhosted.org/packages/ac/2a/dd9dadf74559ad8d6594f5265c3d096b18290b5439ad68531c315c6b1b4b/peek-plugin-livedb-3.4.8.tar.gz
+[2023-07-19 09:00:07] INFO root fetch - processPackages [aiworkflows]: Downloading https://files.pythonhosted.org/packages/68/4e/f1f54914731cfa6cf3cacabd6e4c3aef62432ec15be593b7b54913bea2ee/aiworkflows-0.0.1.tar.gz
+[2023-07-19 09:00:07] INFO root fetch - processPackages [peek-plugin-gis-diagram]: Downloading https://files.pythonhosted.org/packages/ce/c7/5bea491d9092b8f3e9c2d7e9eaaadefad6a15c82a265d57174008a84cb08/peek-plugin-gis-diagram-3.4.9.tar.gz
+[2023-07-19 09:00:07] INFO root fetch - processPackages [peek-plugin-eventdb]: Downloading https://files.pythonhosted.org/packages/e6/aa/5a4ba79c71e849c14565ff23e900dfaf4dcb246cceca0727838163f5f7a5/peek-plugin-eventdb-3.4.9.tar.gz
+[2023-07-19 09:00:07] INFO root fetch - processPackages [peek-plugin-gis-diagram]: executing diffoscope
+[2023-07-19 09:00:07] INFO root fetch - processPackages [peek-plugin-gis-diagram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peek-plugin-gis-diagram-3.4.8.tar.gz tmp/peek-plugin-gis-diagram-3.4.9.tar.gz --markdown 20230719/p/peek-plugin-gis-diagram/3.4.8-3.4.9/diff.md --exclude *.pyd
+[2023-07-19 09:00:07] INFO root fetch - processPackages [peek-plugin-graphdb]: Downloading https://files.pythonhosted.org/packages/d7/4d/68f3a59d1589655a5efb5c073adf4b485e8d85e09d711cda4c74151d1f4e/peek-plugin-graphdb-3.4.9.tar.gz
+[2023-07-19 09:00:07] INFO root fetch - processPackages [peek-plugin-inbox]: Downloading https://files.pythonhosted.org/packages/9b/26/b8a5882afc52474ec90763801e65939b78ab1ee2d7b92041d82d0b4db680/peek-plugin-inbox-3.4.9.tar.gz
+[2023-07-19 09:00:07] INFO root fetch - processPackages [peek-plugin-eventdb]: executing diffoscope
+[2023-07-19 09:00:07] INFO root fetch - processPackages [peek-plugin-eventdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peek-plugin-eventdb-3.4.8.tar.gz tmp/peek-plugin-eventdb-3.4.9.tar.gz --markdown 20230719/p/peek-plugin-eventdb/3.4.8-3.4.9/diff.md --exclude *.pyd
+[2023-07-19 09:00:07] INFO root fetch - processPackages [aiworkflows]: Downloading https://files.pythonhosted.org/packages/79/cd/365b9bedb0fcec4562e4e66e1081d9d874036930212b71ab71d0ace3ce1c/aiworkflows-0.0.2.tar.gz
+[2023-07-19 09:00:07] INFO root fetch - processPackages [peek-plugin-livedb]: Downloading https://files.pythonhosted.org/packages/92/4b/dcab4faa2337e27df9bb70aa221180b7d01c2f9eceba1619a7f4082c921f/peek-plugin-livedb-3.4.9.tar.gz
+[2023-07-19 09:00:07] INFO root fetch - processPackages [peek-plugin-graphdb]: executing diffoscope
+[2023-07-19 09:00:07] INFO root fetch - processPackages [peek-plugin-graphdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peek-plugin-graphdb-3.4.8.tar.gz tmp/peek-plugin-graphdb-3.4.9.tar.gz --markdown 20230719/p/peek-plugin-graphdb/3.4.8-3.4.9/diff.md --exclude *.pyd
+[2023-07-19 09:00:07] INFO root fetch - processPackages [peek-plugin-inbox]: executing diffoscope
+[2023-07-19 09:00:07] INFO root fetch - processPackages [peek-plugin-inbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peek-plugin-inbox-3.4.8.tar.gz tmp/peek-plugin-inbox-3.4.9.tar.gz --markdown 20230719/p/peek-plugin-inbox/3.4.8-3.4.9/diff.md --exclude *.pyd
+[2023-07-19 09:00:07] INFO root fetch - processPackages [aiworkflows]: executing diffoscope
+[2023-07-19 09:00:07] INFO root fetch - processPackages [aiworkflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiworkflows-0.0.1.tar.gz tmp/aiworkflows-0.0.2.tar.gz --markdown 20230719/a/aiworkflows/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-19 09:00:07] INFO root fetch - processPackages [vdk-jupyterlab-extension]: Remove: archive file [/home/abi/fetcher/tmp/vdk_jupyterlab_extension-0.1.931147919.tar.gz]
+[2023-07-19 09:00:07] INFO root fetch - processPackages [vdk-jupyterlab-extension]: Remove: archive file [/home/abi/fetcher/tmp/vdk_jupyterlab_extension-0.1.936279136.tar.gz]
+[2023-07-19 09:00:07] INFO root fetch - processPackages [vdk-jupyterlab-extension]: Start processing: fenicsx-plotly
+[2023-07-19 09:00:07] INFO root fetch - main [MainThread]: End processing [vdk-jupyterlab-extension]: success
+[2023-07-19 09:00:07] INFO root fetch - processPackages [peek-plugin-livedb]: executing diffoscope
+[2023-07-19 09:00:07] INFO root fetch - processPackages [peek-plugin-livedb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peek-plugin-livedb-3.4.8.tar.gz tmp/peek-plugin-livedb-3.4.9.tar.gz --markdown 20230719/p/peek-plugin-livedb/3.4.8-3.4.9/diff.md --exclude *.pyd
+[2023-07-19 09:00:07] INFO root fetch - processPackages [peek-plugin-docdb-generic-menu]: Remove: archive file [/home/abi/fetcher/tmp/peek-plugin-docdb-generic-menu-3.4.8.tar.gz]
+[2023-07-19 09:00:07] INFO root fetch - processPackages [peek-plugin-docdb-generic-menu]: Remove: archive file [/home/abi/fetcher/tmp/peek-plugin-docdb-generic-menu-3.4.9.tar.gz]
+[2023-07-19 09:00:07] INFO root fetch - processPackages [peek-plugin-docdb-generic-menu]: Start processing: pgsqlx
+[2023-07-19 09:00:07] INFO root fetch - main [MainThread]: End processing [peek-plugin-docdb-generic-menu]: success
+[2023-07-19 09:00:08] INFO root fetch - processPackages [fenicsx-plotly]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-19 09:00:08] INFO root fetch - processPackages [fenicsx-plotly]: Downloading https://files.pythonhosted.org/packages/00/3e/6849d37eb5da501dc3aff7c0e5299adae4f673fc1f34b764d73fb3285efb/fenicsx_plotly-0.2.0.tar.gz
+[2023-07-19 09:00:08] INFO root fetch - processPackages [pgsqlx]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-19 09:00:08] INFO root fetch - processPackages [pgsqlx]: Downloading https://files.pythonhosted.org/packages/26/b6/563412d53627a6292b3455f70aa1f965fe72452a3f163a7a1987ba0ef165/pgsqlx-1.0.7.tar.gz
+[2023-07-19 09:00:08] INFO root fetch - processPackages [fenicsx-plotly]: Downloading https://files.pythonhosted.org/packages/22/cd/587acf3eacd2f692457d276f01ae6824e1685d5f4b37738d2534e6869793/fenicsx_plotly-0.3.0.tar.gz
+[2023-07-19 09:00:08] INFO root fetch - processPackages [fenicsx-plotly]: executing diffoscope
+[2023-07-19 09:00:08] INFO root fetch - processPackages [fenicsx-plotly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fenicsx_plotly-0.2.0.tar.gz tmp/fenicsx_plotly-0.3.0.tar.gz --markdown 20230719/f/fenicsx-plotly/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-19 09:00:08] INFO root fetch - processPackages [pgsqlx]: Downloading https://files.pythonhosted.org/packages/bc/3a/8b875c881edf91a0909e224033f2ac2ade98bddc54c6af290542fd6b5155/pgsqlx-1.0.8.tar.gz
+[2023-07-19 09:00:08] INFO root fetch - processPackages [peek-plugin-gis-diagram]: Remove: archive file [/home/abi/fetcher/tmp/peek-plugin-gis-diagram-3.4.8.tar.gz]
+[2023-07-19 09:00:08] INFO root fetch - processPackages [peek-plugin-gis-diagram]: Remove: archive file [/home/abi/fetcher/tmp/peek-plugin-gis-diagram-3.4.9.tar.gz]
+[2023-07-19 09:00:08] INFO root fetch - processPackages [peek-plugin-gis-diagram]: Start processing: bb-connector
+[2023-07-19 09:00:08] INFO root fetch - main [MainThread]: End processing [peek-plugin-gis-diagram]: success
+[2023-07-19 09:00:08] INFO root fetch - processPackages [yxspkg]: Downloading https://files.pythonhosted.org/packages/7e/bf/a221195649dec2f4c5919f5d972d01beb568006bb8958fd387c423f1aaac/yxspkg-6.9.8-py3-none-any.whl
+[2023-07-19 09:00:09] WARNING root fetch - processPackages [bb-connector]: Skipping, unable to determine old version
+[2023-07-19 09:00:09] INFO root fetch - processPackages [bb-connector]: Start processing: pangolier
+[2023-07-19 09:00:09] INFO root fetch - main [MainThread]: End processing [bb-connector] error
+[2023-07-19 09:00:09] INFO root fetch - processPackages [pgsqlx]: executing diffoscope
+[2023-07-19 09:00:09] INFO root fetch - processPackages [pgsqlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgsqlx-1.0.7.tar.gz tmp/pgsqlx-1.0.8.tar.gz --markdown 20230719/p/pgsqlx/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-19 09:00:09] INFO root fetch - processPackages [pangolier]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-19 09:00:09] INFO root fetch - processPackages [aiworkflows]: Remove: archive file [/home/abi/fetcher/tmp/aiworkflows-0.0.1.tar.gz]
+[2023-07-19 09:00:09] INFO root fetch - processPackages [aiworkflows]: Remove: archive file [/home/abi/fetcher/tmp/aiworkflows-0.0.2.tar.gz]
+[2023-07-19 09:00:09] INFO root fetch - processPackages [aiworkflows]: Start processing: qontract-reconcile
+[2023-07-19 09:00:09] INFO root fetch - main [MainThread]: End processing [aiworkflows]: success
+[2023-07-19 09:00:09] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-07-19 09:00:09] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-07-19 09:00:09] INFO root fetch - processPackages [pangolier]: Downloading https://files.pythonhosted.org/packages/e3/c5/93f2cae71bf0fc2738f91d20aea4f5f17321d33ebe39f10eba580f5d2175/pangolier-0.1.2-py3-none-any.whl
+[2023-07-19 09:00:09] INFO root fetch - processPackages [peek-plugin-inbox]: Remove: archive file [/home/abi/fetcher/tmp/peek-plugin-inbox-3.4.8.tar.gz]
+[2023-07-19 09:00:09] INFO root fetch - processPackages [peek-plugin-inbox]: Remove: archive file [/home/abi/fetcher/tmp/peek-plugin-inbox-3.4.9.tar.gz]
+[2023-07-19 09:00:09] INFO root fetch - processPackages [peek-plugin-inbox]: Start processing: tigeropen
+[2023-07-19 09:00:09] INFO root fetch - main [MainThread]: End processing [peek-plugin-inbox]: success
+[2023-07-19 09:00:09] INFO root fetch - processPackages [peek-plugin-livedb]: Remove: archive file [/home/abi/fetcher/tmp/peek-plugin-livedb-3.4.8.tar.gz]
+[2023-07-19 09:00:09] INFO root fetch - processPackages [peek-plugin-livedb]: Remove: archive file [/home/abi/fetcher/tmp/peek-plugin-livedb-3.4.9.tar.gz]
+[2023-07-19 09:00:09] INFO root fetch - processPackages [peek-plugin-livedb]: Start processing: libKareem
+[2023-07-19 09:00:09] INFO root fetch - main [MainThread]: End processing [peek-plugin-livedb]: success
+[2023-07-19 09:00:09] INFO root fetch - processPackages [peek-plugin-eventdb]: Remove: archive file [/home/abi/fetcher/tmp/peek-plugin-eventdb-3.4.8.tar.gz]
+[2023-07-19 09:00:09] INFO root fetch - processPackages [peek-plugin-eventdb]: Remove: archive file [/home/abi/fetcher/tmp/peek-plugin-eventdb-3.4.9.tar.gz]
+[2023-07-19 09:00:09] INFO root fetch - processPackages [peek-plugin-eventdb]: Start processing: databutton
+[2023-07-19 09:00:09] INFO root fetch - main [MainThread]: End processing [peek-plugin-eventdb]: success
+[2023-07-19 09:00:09] INFO root fetch - processPackages [peek-plugin-diagram]: Remove: archive file [/home/abi/fetcher/tmp/peek-plugin-diagram-3.4.8.tar.gz]
+[2023-07-19 09:00:09] INFO root fetch - processPackages [peek-plugin-diagram]: Remove: archive file [/home/abi/fetcher/tmp/peek-plugin-diagram-3.4.9.tar.gz]
+[2023-07-19 09:00:09] INFO root fetch - processPackages [peek-plugin-diagram]: Start processing: kingunit-inspector
+[2023-07-19 09:00:09] INFO root fetch - main [MainThread]: End processing [peek-plugin-diagram]: success
+[2023-07-19 09:00:09] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-07-19 09:00:09] WARNING root fetch - processPackages [libKareem]: Skipping, unable to determine old version
+[2023-07-19 09:00:09] INFO root fetch - processPackages [libKareem]: Start processing: mysqlx
+[2023-07-19 09:00:09] INFO root fetch - main [MainThread]: End processing [libKareem] error
+[2023-07-19 09:00:09] INFO root fetch - processPackages [tigeropen]: New version: [3.0.4] Old Version: [3.0.3]
+[2023-07-19 09:00:09] INFO root fetch - processPackages [peek-plugin-graphdb]: Remove: archive file [/home/abi/fetcher/tmp/peek-plugin-graphdb-3.4.8.tar.gz]
+[2023-07-19 09:00:09] INFO root fetch - processPackages [peek-plugin-graphdb]: Remove: archive file [/home/abi/fetcher/tmp/peek-plugin-graphdb-3.4.9.tar.gz]
+[2023-07-19 09:00:09] INFO root fetch - processPackages [yxspkg]: executing diffoscope
+[2023-07-19 09:00:09] INFO root fetch - processPackages [peek-plugin-graphdb]: Start processing: readyocr
+[2023-07-19 09:00:09] INFO root fetch - main [MainThread]: End processing [peek-plugin-graphdb]: success
+[2023-07-19 09:00:09] INFO root fetch - processPackages [yxspkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yxspkg-6.9.7-py3-none-any.whl.zip tmp/yxspkg-6.9.8-py3-none-any.whl.zip --markdown 20230719/y/yxspkg/6.9.7-6.9.8/diff.md --exclude *.pyd
+[2023-07-19 09:00:09] INFO root fetch - processPackages [databutton]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-19 09:00:09] WARNING root fetch - processPackages [kingunit-inspector]: Skipping, unable to determine old version
+[2023-07-19 09:00:09] INFO root fetch - processPackages [kingunit-inspector]: Start processing: dbt-osmosis
+[2023-07-19 09:00:09] INFO root fetch - main [MainThread]: End processing [kingunit-inspector] error
+[2023-07-19 09:00:09] INFO root fetch - processPackages [mysqlx]: New version: [1.5.5] Old Version: [1.5.4]
+[2023-07-19 09:00:09] INFO root fetch - processPackages [readyocr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 09:00:09] INFO root fetch - processPackages [pangolier]: Downloading https://files.pythonhosted.org/packages/8f/65/9d4957aa8182bedffe1a10fe3625f2b7d2950941012d57deed91dae13a50/pangolier-0.2.0-py3-none-any.whl
+[2023-07-19 09:00:09] INFO root fetch - processPackages [mysqlx]: Downloading https://files.pythonhosted.org/packages/dd/cb/59ad5edeb58f9795fb2d0f0f74ecb27b96fcb841bf2249f4d67fcc84422a/mysqlx-1.5.4.tar.gz
+[2023-07-19 09:00:09] INFO root fetch - processPackages [fenicsx-plotly]: Remove: archive file [/home/abi/fetcher/tmp/fenicsx_plotly-0.2.0.tar.gz]
+[2023-07-19 09:00:09] INFO root fetch - processPackages [fenicsx-plotly]: Remove: archive file [/home/abi/fetcher/tmp/fenicsx_plotly-0.3.0.tar.gz]
+[2023-07-19 09:00:09] INFO root fetch - processPackages [fenicsx-plotly]: Start processing: netbluemind4
+[2023-07-19 09:00:09] INFO root fetch - main [MainThread]: End processing [fenicsx-plotly]: success
+[2023-07-19 09:00:09] INFO root fetch - processPackages [readyocr]: Downloading https://files.pythonhosted.org/packages/c0/29/14e71ef7cbc2bb63eb3a7dde19b1d0261a548da80fc6f233f4cdf0b5ee8c/readyocr-0.0.8.tar.gz
+[2023-07-19 09:00:09] INFO root fetch - processPackages [dbt-osmosis]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-07-19 09:00:09] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-07-19 09:00:09] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230719/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-07-19 09:00:09] INFO root fetch - processPackages [pangolier]: executing diffoscope
+[2023-07-19 09:00:09] INFO root fetch - processPackages [pangolier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pangolier-0.1.2-py3-none-any.whl.zip tmp/pangolier-0.2.0-py3-none-any.whl.zip --markdown 20230719/p/pangolier/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-19 09:00:10] INFO root fetch - processPackages [tigeropen]: Downloading https://files.pythonhosted.org/packages/2c/48/92a1741f2017101c734ac9ccd0cd50fb6c5a9dd99f8718470f4ff3ded4bd/tigeropen-3.0.3.tar.gz
+[2023-07-19 09:00:10] INFO root fetch - processPackages [databutton]: Downloading https://files.pythonhosted.org/packages/97/e4/e81aa45e6614cc27e77afdc05bda0df053f47af67b7f10dd3fa7e90977bf/databutton-0.9.1.tar.gz
+[2023-07-19 09:00:10] INFO root fetch - processPackages [netbluemind4]: New version: [4.9.2928] Old Version: [4.9.2894]
+[2023-07-19 09:00:10] INFO root fetch - processPackages [pgsqlx]: Remove: archive file [/home/abi/fetcher/tmp/pgsqlx-1.0.7.tar.gz]
+[2023-07-19 09:00:10] INFO root fetch - processPackages [pgsqlx]: Remove: archive file [/home/abi/fetcher/tmp/pgsqlx-1.0.8.tar.gz]
+[2023-07-19 09:00:10] INFO root fetch - main [MainThread]: End processing [pgsqlx]: success
+[2023-07-19 09:00:10] INFO root fetch - processPackages [dbt-osmosis]: Downloading https://files.pythonhosted.org/packages/58/6d/6065b954fa2e9197c6c66eda6a5f68a925bfd3e928477828ce1bb1396a6f/dbt-osmosis-0.9.7.tar.gz
+[2023-07-19 09:00:10] INFO root fetch - processPackages [mysqlx]: Downloading https://files.pythonhosted.org/packages/de/b0/9be10397cb6ea97c246af481b042df3a8ac346b9fd8e425ed14fd09bea79/mysqlx-1.5.5.tar.gz
+[2023-07-19 09:00:10] INFO root fetch - processPackages [readyocr]: Downloading https://files.pythonhosted.org/packages/67/b0/34662554637d50f73b74973afb6ddfb4d9895b1fafbfa36c16d5764321fa/readyocr-0.0.9.tar.gz
+[2023-07-19 09:00:10] INFO root fetch - processPackages [netbluemind4]: Downloading https://files.pythonhosted.org/packages/ac/62/b28b8066a40e0d066fbf78a7eed00e14a1641979823a976bd173866c1049/netbluemind4-4.9.2894.tar.gz
+[2023-07-19 09:00:10] INFO root fetch - processPackages [mysqlx]: executing diffoscope
+[2023-07-19 09:00:10] INFO root fetch - processPackages [mysqlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqlx-1.5.4.tar.gz tmp/mysqlx-1.5.5.tar.gz --markdown 20230719/m/mysqlx/1.5.4-1.5.5/diff.md --exclude *.pyd
+[2023-07-19 09:00:10] INFO root fetch - processPackages [readyocr]: executing diffoscope
+[2023-07-19 09:00:10] INFO root fetch - processPackages [readyocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readyocr-0.0.8.tar.gz tmp/readyocr-0.0.9.tar.gz --markdown 20230719/r/readyocr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 09:00:10] INFO root fetch - processPackages [tigeropen]: Downloading https://files.pythonhosted.org/packages/e8/d5/b1d887b432c0d6d8b7d8cdab4fa0870bedaceb1360697dceda40dee372d8/tigeropen-3.0.4.tar.gz
+[2023-07-19 09:00:10] INFO root fetch - processPackages [databutton]: Downloading https://files.pythonhosted.org/packages/5c/59/3ecc3881c8c0088b35a444d0208f992442d429068966d08be417ede43a72/databutton-0.9.2.tar.gz
+[2023-07-19 09:00:10] INFO root fetch - processPackages [tigeropen]: executing diffoscope
+[2023-07-19 09:00:10] INFO root fetch - processPackages [tigeropen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tigeropen-3.0.3.tar.gz tmp/tigeropen-3.0.4.tar.gz --markdown 20230719/t/tigeropen/3.0.3-3.0.4/diff.md --exclude *.pyd
+[2023-07-19 09:00:10] INFO root fetch - processPackages [netbluemind4]: Downloading https://files.pythonhosted.org/packages/17/cb/134dd0c6dd00f7a671e8c380de5c0bb90633bafcc7e06c943728c3303585/netbluemind4-4.9.2928.tar.gz
+[2023-07-19 09:00:10] INFO root fetch - processPackages [databutton]: executing diffoscope
+[2023-07-19 09:00:10] INFO root fetch - processPackages [databutton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databutton-0.9.1.tar.gz tmp/databutton-0.9.2.tar.gz --markdown 20230719/d/databutton/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-19 09:00:10] INFO root fetch - processPackages [netbluemind4]: executing diffoscope
+[2023-07-19 09:00:10] INFO root fetch - processPackages [netbluemind4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbluemind4-4.9.2894.tar.gz tmp/netbluemind4-4.9.2928.tar.gz --markdown 20230719/n/netbluemind4/4.9.2894-4.9.2928/diff.md --exclude *.pyd
+[2023-07-19 09:00:11] INFO root fetch - processPackages [pangolier]: Remove: archive file [/home/abi/fetcher/tmp/pangolier-0.1.2-py3-none-any.whl.zip]
+[2023-07-19 09:00:11] INFO root fetch - processPackages [pangolier]: Remove: archive file [/home/abi/fetcher/tmp/pangolier-0.2.0-py3-none-any.whl.zip]
+[2023-07-19 09:00:11] INFO root fetch - main [MainThread]: End processing [pangolier]: success
+[2023-07-19 09:00:11] INFO root fetch - processPackages [dbt-osmosis]: Downloading https://files.pythonhosted.org/packages/a5/6a/58a5f5250da317c29d672ba44dbcfeb2f99247daff9259c3be659f9bbd6e/dbt_osmosis-0.9.8.tar.gz
+[2023-07-19 09:00:11] INFO root fetch - processPackages [yxspkg]: Remove: archive file [/home/abi/fetcher/tmp/yxspkg-6.9.7-py3-none-any.whl.zip]
+[2023-07-19 09:00:11] INFO root fetch - processPackages [yxspkg]: Remove: archive file [/home/abi/fetcher/tmp/yxspkg-6.9.8-py3-none-any.whl.zip]
+[2023-07-19 09:00:11] INFO root fetch - main [MainThread]: End processing [yxspkg]: success
+[2023-07-19 09:00:11] INFO root fetch - processPackages [dbt-osmosis]: executing diffoscope
+[2023-07-19 09:00:11] INFO root fetch - processPackages [dbt-osmosis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-osmosis-0.9.7.tar.gz tmp/dbt_osmosis-0.9.8.tar.gz --markdown 20230719/d/dbt-osmosis/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-07-19 09:00:11] INFO root fetch - processPackages [readyocr]: Remove: archive file [/home/abi/fetcher/tmp/readyocr-0.0.8.tar.gz]
+[2023-07-19 09:00:11] INFO root fetch - processPackages [readyocr]: Remove: archive file [/home/abi/fetcher/tmp/readyocr-0.0.9.tar.gz]
+[2023-07-19 09:00:11] INFO root fetch - main [MainThread]: End processing [readyocr]: success
+[2023-07-19 09:00:11] INFO root fetch - processPackages [mysqlx]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-1.5.4.tar.gz]
+[2023-07-19 09:00:11] INFO root fetch - processPackages [mysqlx]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-1.5.5.tar.gz]
+[2023-07-19 09:00:11] INFO root fetch - main [MainThread]: End processing [mysqlx]: success
+[2023-07-19 09:00:12] INFO root fetch - processPackages [databutton]: Remove: archive file [/home/abi/fetcher/tmp/databutton-0.9.1.tar.gz]
+[2023-07-19 09:00:12] INFO root fetch - processPackages [databutton]: Remove: archive file [/home/abi/fetcher/tmp/databutton-0.9.2.tar.gz]
+[2023-07-19 09:00:12] INFO root fetch - main [MainThread]: End processing [databutton]: success
+[2023-07-19 09:00:12] INFO root fetch - processPackages [dbt-osmosis]: Remove: archive file [/home/abi/fetcher/tmp/dbt-osmosis-0.9.7.tar.gz]
+[2023-07-19 09:00:12] INFO root fetch - processPackages [dbt-osmosis]: Remove: archive file [/home/abi/fetcher/tmp/dbt_osmosis-0.9.8.tar.gz]
+[2023-07-19 09:00:12] INFO root fetch - main [MainThread]: End processing [dbt-osmosis]: success
+[2023-07-19 09:00:12] INFO root fetch - processPackages [tigeropen]: Remove: archive file [/home/abi/fetcher/tmp/tigeropen-3.0.3.tar.gz]
+[2023-07-19 09:00:12] INFO root fetch - processPackages [tigeropen]: Remove: archive file [/home/abi/fetcher/tmp/tigeropen-3.0.4.tar.gz]
+[2023-07-19 09:00:12] INFO root fetch - main [MainThread]: End processing [tigeropen]: success
+[2023-07-19 09:00:13] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-07-19 09:00:13] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-07-19 09:00:13] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-07-19 09:00:14] INFO root fetch - processPackages [netbluemind4]: Remove: archive file [/home/abi/fetcher/tmp/netbluemind4-4.9.2894.tar.gz]
+[2023-07-19 09:00:14] INFO root fetch - processPackages [netbluemind4]: Remove: archive file [/home/abi/fetcher/tmp/netbluemind4-4.9.2928.tar.gz]
+[2023-07-19 09:00:14] INFO root fetch - main [MainThread]: End processing [netbluemind4]: success
+[2023-07-19 09:00:14] INFO root fetch - main [MainThread]: Store serial: [18946371]
