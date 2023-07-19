@@ -17165,3 +17165,274 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-19 09:58:29] INFO root fetch - processPackages [jax-xc]: Remove: archive file [/home/abi/fetcher/tmp/jax_xc-0.0.6-cp39-cp39-manylinux_2_17_x86_64.whl.zip]
 [2023-07-19 09:58:29] INFO root fetch - main [MainThread]: End processing [jax-xc]: success
 [2023-07-19 09:58:29] INFO root fetch - main [MainThread]: Store serial: [18946864]
+[2023-07-19 10:03:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18946864]
+[2023-07-19 10:03:42] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-19 10:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py3seed
+[2023-07-19 10:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: generalkit
+[2023-07-19 10:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastapi-serve
+[2023-07-19 10:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cm-two
+[2023-07-19 10:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ssh-terminal-manager
+[2023-07-19 10:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mctech-actuator
+[2023-07-19 10:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mctech-cloud
+[2023-07-19 10:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yyperf
+[2023-07-19 10:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mctech-discovery
+[2023-07-19 10:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: elefanto-webkassa
+[2023-07-19 10:03:42] INFO root fetch - processPackages [cm-two]: New version: [2.3.5] Old Version: [2.3.41]
+[2023-07-19 10:03:42] INFO root fetch - processPackages [fastapi-serve]: New version: [0.0.4.dev6] Old Version: [0.0.4.dev5]
+[2023-07-19 10:03:42] INFO root fetch - processPackages [elefanto-webkassa]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-19 10:03:42] INFO root fetch - processPackages [generalkit]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-19 10:03:42] INFO root fetch - processPackages [mctech-discovery]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-19 10:03:42] INFO root fetch - processPackages [mctech-actuator]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-19 10:03:42] INFO root fetch - processPackages [ssh-terminal-manager]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-07-19 10:03:42] INFO root fetch - processPackages [yyperf]: New version: [0.6.9.dev2] Old Version: [0.6.9]
+[2023-07-19 10:03:42] INFO root fetch - processPackages [py3seed]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-19 10:03:42] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/fa/21/6d42b6b7b3b21754de512fc5fdf92ad90f93706cdfd8b2cb82a15a75a2d2/fastapi-serve-0.0.4.dev5.tar.gz
+[2023-07-19 10:03:42] INFO root fetch - processPackages [mctech-cloud]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-19 10:03:42] INFO root fetch - processPackages [elefanto-webkassa]: Downloading https://files.pythonhosted.org/packages/25/02/c141322a7aa76b967ace4da99a2aabbcac58a77e526a0b6edfa7132eec8c/elefanto_webkassa-0.1.2.tar.gz
+[2023-07-19 10:03:43] INFO root fetch - processPackages [generalkit]: Downloading https://files.pythonhosted.org/packages/aa/a9/bf55fab337e2d6fd87eb8b25fb5f19bdb94e1fa71548cbe3c2ffbae3b4b8/generalkit-0.0.1.tar.gz
+[2023-07-19 10:03:43] INFO root fetch - processPackages [mctech-discovery]: Downloading https://files.pythonhosted.org/packages/b8/fc/4638a007eebccdb7717d5a0d1908d26786ff94068a311d499c163269e35e/mctech_discovery-1.0.4.tar.gz
+[2023-07-19 10:03:43] INFO root fetch - processPackages [ssh-terminal-manager]: Downloading https://files.pythonhosted.org/packages/61/1a/fdd54e1865394a2da6afb16f07494f1c34dffe877b634d319d5a605ed1fb/ssh_terminal_manager-0.8.2.tar.gz
+[2023-07-19 10:03:43] INFO root fetch - processPackages [mctech-actuator]: Downloading https://files.pythonhosted.org/packages/4c/12/175c0a458999ce90c7b7a4bf7a07ace97a37d5652653cbb374db83bfa8c9/mctech_actuator-1.0.3.tar.gz
+[2023-07-19 10:03:43] INFO root fetch - processPackages [cm-two]: executing diffoscope
+[2023-07-19 10:03:43] INFO root fetch - processPackages [cm-two]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cm_two-2.3.41-py3-none-any.whl.zip tmp/cm_two-2.3.5-py3-none-any.whl.zip --markdown 20230719/c/cm-two/2.3.41-2.3.5/diff.md --exclude *.pyd
+[2023-07-19 10:03:43] INFO root fetch - processPackages [py3seed]: Downloading https://files.pythonhosted.org/packages/58/bb/0cff8ea4660172a6ab78dd0258182a1012138227ce99d5fb1fbbc5d74827/py3seed-0.2.0.tar.gz
+[2023-07-19 10:03:43] INFO root fetch - processPackages [mctech-cloud]: Downloading https://files.pythonhosted.org/packages/fa/b3/e2c3a61e383b3161eceb20ff6a62db16a4bdc36d63f5b02e22635d923234/mctech_cloud-1.0.1.tar.gz
+[2023-07-19 10:03:43] INFO root fetch - processPackages [yyperf]: Downloading https://files.pythonhosted.org/packages/01/56/8d1cfb1ce995c585d9c70c5a9b7760fbdefdbec743e277a0d10d1c706e26/yyperf-0.6.9.tar.gz
+[2023-07-19 10:03:43] INFO root fetch - processPackages [generalkit]: Downloading https://files.pythonhosted.org/packages/0b/e4/b3b47baadac51f8fa1cea691c7be02e24db7a10bb7d89933bade53d5ab0a/generalkit-0.0.2.tar.gz
+[2023-07-19 10:03:43] INFO root fetch - processPackages [elefanto-webkassa]: Downloading https://files.pythonhosted.org/packages/73/cd/fd711e6bcbebaa07f464194619aae88a3ec9cd64d0754ecfb99b2cdb6a06/elefanto_webkassa-0.1.3.tar.gz
+[2023-07-19 10:03:43] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/49/52/9deaa60f36bdf47ba47934d86b7c52834565b49914478fb3f898d388f33a/fastapi-serve-0.0.4.dev6.tar.gz
+[2023-07-19 10:03:43] INFO root fetch - processPackages [ssh-terminal-manager]: Downloading https://files.pythonhosted.org/packages/df/11/76b01e64bd4ca5a900d22bddb6d277f6dd9f8b3a46e236921fa58018e14b/ssh_terminal_manager-0.8.3.tar.gz
+[2023-07-19 10:03:43] INFO root fetch - processPackages [mctech-discovery]: Downloading https://files.pythonhosted.org/packages/12/7e/9923d968230b01cc56452ef441e0f247bca323a03670bf8db8868db58767/mctech_discovery-1.0.5.tar.gz
+[2023-07-19 10:03:43] INFO root fetch - processPackages [generalkit]: executing diffoscope
+[2023-07-19 10:03:43] INFO root fetch - processPackages [generalkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/generalkit-0.0.1.tar.gz tmp/generalkit-0.0.2.tar.gz --markdown 20230719/g/generalkit/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-19 10:03:43] INFO root fetch - processPackages [mctech-actuator]: Downloading https://files.pythonhosted.org/packages/7c/c9/151b93ec8fa53589d82f09610c96497b7edba8fd47f434e4853b9d21c203/mctech_actuator-1.0.4.tar.gz
+[2023-07-19 10:03:43] INFO root fetch - processPackages [mctech-cloud]: Downloading https://files.pythonhosted.org/packages/ad/d8/7eceb4222e008963506c7a9670f47175eebc2f443d1cbb917f3e0e995e31/mctech_cloud-1.0.2.tar.gz
+[2023-07-19 10:03:43] INFO root fetch - processPackages [elefanto-webkassa]: executing diffoscope
+[2023-07-19 10:03:43] INFO root fetch - processPackages [elefanto-webkassa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elefanto_webkassa-0.1.2.tar.gz tmp/elefanto_webkassa-0.1.3.tar.gz --markdown 20230719/e/elefanto-webkassa/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-19 10:03:43] INFO root fetch - processPackages [py3seed]: Downloading https://files.pythonhosted.org/packages/ed/ae/8ef80091d40354df214522a1813a94d5d6e986c94c5c3462a067aa2c21d3/py3seed-0.2.1.tar.gz
+[2023-07-19 10:03:43] INFO root fetch - processPackages [fastapi-serve]: executing diffoscope
+[2023-07-19 10:03:43] INFO root fetch - processPackages [fastapi-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-serve-0.0.4.dev5.tar.gz tmp/fastapi-serve-0.0.4.dev6.tar.gz --markdown 20230719/f/fastapi-serve/0.0.4.dev5-0.0.4.dev6/diff.md --exclude *.pyd
+[2023-07-19 10:03:43] INFO root fetch - processPackages [ssh-terminal-manager]: executing diffoscope
+[2023-07-19 10:03:43] INFO root fetch - processPackages [ssh-terminal-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssh_terminal_manager-0.8.2.tar.gz tmp/ssh_terminal_manager-0.8.3.tar.gz --markdown 20230719/s/ssh-terminal-manager/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-07-19 10:03:43] INFO root fetch - processPackages [mctech-discovery]: executing diffoscope
+[2023-07-19 10:03:43] INFO root fetch - processPackages [mctech-discovery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mctech_discovery-1.0.4.tar.gz tmp/mctech_discovery-1.0.5.tar.gz --markdown 20230719/m/mctech-discovery/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-19 10:03:43] INFO root fetch - processPackages [mctech-actuator]: executing diffoscope
+[2023-07-19 10:03:43] INFO root fetch - processPackages [mctech-actuator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mctech_actuator-1.0.3.tar.gz tmp/mctech_actuator-1.0.4.tar.gz --markdown 20230719/m/mctech-actuator/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-19 10:03:43] INFO root fetch - processPackages [mctech-cloud]: executing diffoscope
+[2023-07-19 10:03:43] INFO root fetch - processPackages [mctech-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mctech_cloud-1.0.1.tar.gz tmp/mctech_cloud-1.0.2.tar.gz --markdown 20230719/m/mctech-cloud/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-19 10:03:44] INFO root fetch - processPackages [py3seed]: executing diffoscope
+[2023-07-19 10:03:44] INFO root fetch - processPackages [py3seed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3seed-0.2.0.tar.gz tmp/py3seed-0.2.1.tar.gz --markdown 20230719/p/py3seed/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-19 10:03:44] WARNING root fetch - processPackages [yyperf]: Skipping package: exceeds size limit 15809435>=10485760
+[2023-07-19 10:03:44] INFO root fetch - processPackages [yyperf]: Start processing: django-excel-response2
+[2023-07-19 10:03:44] INFO root fetch - main [MainThread]: End processing [yyperf] error
+[2023-07-19 10:03:44] INFO root fetch - processPackages [django-excel-response2]: New version: [3.0.6] Old Version: [3.0.5]
+[2023-07-19 10:03:44] ERROR root fetch - processPackages [cm-two]: Diffoscope failed: time="2023-07-19T10:03:43+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+[2023-07-19 10:03:44] INFO root fetch - processPackages [cm-two]: Start processing: lycoris-lora
+[2023-07-19 10:03:44] INFO root fetch - main [MainThread]: End processing [cm-two] error
+[2023-07-19 10:03:44] INFO root fetch - processPackages [lycoris-lora]: New version: [1.8.0.dev9] Old Version: [1.8.0.dev8]
+[2023-07-19 10:03:44] INFO root fetch - processPackages [django-excel-response2]: Downloading https://files.pythonhosted.org/packages/11/d4/f2e476c172adbdf5b560f91453f3a3c993172237e78797f74ceb5a3b1c58/django-excel-response2-3.0.5.tar.gz
+[2023-07-19 10:03:44] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/de/80/86773036f7f51825e38b128d2eb02f8b4a73bd937ef34e8ec0fffdea719e/lycoris_lora-1.8.0.dev8.tar.gz
+[2023-07-19 10:03:44] INFO root fetch - processPackages [django-excel-response2]: Downloading https://files.pythonhosted.org/packages/cb/e0/e1745ca77f776f330bb0417f2c1f3a90047ab4a55a21b3dbf391562e0e08/django-excel-response2-3.0.6.tar.gz
+[2023-07-19 10:03:44] INFO root fetch - processPackages [generalkit]: Remove: archive file [/home/abi/fetcher/tmp/generalkit-0.0.1.tar.gz]
+[2023-07-19 10:03:44] INFO root fetch - processPackages [generalkit]: Remove: archive file [/home/abi/fetcher/tmp/generalkit-0.0.2.tar.gz]
+[2023-07-19 10:03:44] INFO root fetch - processPackages [generalkit]: Start processing: openeo
+[2023-07-19 10:03:44] INFO root fetch - main [MainThread]: End processing [generalkit]: success
+[2023-07-19 10:03:45] INFO root fetch - processPackages [elefanto-webkassa]: Remove: archive file [/home/abi/fetcher/tmp/elefanto_webkassa-0.1.2.tar.gz]
+[2023-07-19 10:03:45] INFO root fetch - processPackages [elefanto-webkassa]: Remove: archive file [/home/abi/fetcher/tmp/elefanto_webkassa-0.1.3.tar.gz]
+[2023-07-19 10:03:45] INFO root fetch - processPackages [elefanto-webkassa]: Start processing: metdig
+[2023-07-19 10:03:45] INFO root fetch - main [MainThread]: End processing [elefanto-webkassa]: success
+[2023-07-19 10:03:45] INFO root fetch - processPackages [django-excel-response2]: executing diffoscope
+[2023-07-19 10:03:45] INFO root fetch - processPackages [django-excel-response2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-excel-response2-3.0.5.tar.gz tmp/django-excel-response2-3.0.6.tar.gz --markdown 20230719/d/django-excel-response2/3.0.5-3.0.6/diff.md --exclude *.pyd
+[2023-07-19 10:03:45] INFO root fetch - processPackages [metdig]: New version: [0.1.9.9.9] Old Version: [0.1.9.9.8]
+[2023-07-19 10:03:45] INFO root fetch - processPackages [openeo]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-19 10:03:45] INFO root fetch - processPackages [ssh-terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/ssh_terminal_manager-0.8.2.tar.gz]
+[2023-07-19 10:03:45] INFO root fetch - processPackages [ssh-terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/ssh_terminal_manager-0.8.3.tar.gz]
+[2023-07-19 10:03:45] INFO root fetch - processPackages [ssh-terminal-manager]: Start processing: elefanto-webkassa
+[2023-07-19 10:03:45] INFO root fetch - main [MainThread]: End processing [ssh-terminal-manager]: success
+[2023-07-19 10:03:45] INFO root fetch - processPackages [elefanto-webkassa]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-19 10:03:45] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/33/f8/dbedfb5d14ce42cc250e4b1bd8edc9b569669b04696eeb887792654467d4/lycoris_lora-1.8.0.dev9.tar.gz
+[2023-07-19 10:03:45] INFO root fetch - processPackages [metdig]: Downloading https://files.pythonhosted.org/packages/b1/3c/6f99d5b25b3bfab92bfe158379ff91e93f0226f0cfce9bfadd9bd77189e5/metdig-0.1.9.9.8-py3-none-any.whl
+[2023-07-19 10:03:45] INFO root fetch - processPackages [lycoris-lora]: executing diffoscope
+[2023-07-19 10:03:45] INFO root fetch - processPackages [lycoris-lora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lycoris_lora-1.8.0.dev8.tar.gz tmp/lycoris_lora-1.8.0.dev9.tar.gz --markdown 20230719/l/lycoris-lora/1.8.0.dev8-1.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-19 10:03:45] INFO root fetch - processPackages [openeo]: Downloading https://files.pythonhosted.org/packages/1d/c6/cdbb6d178b5569bf3413f228e8651f9eb8d82779c40ecece036392bf1f0c/openeo-0.9.1-py3-none-any.whl
+[2023-07-19 10:03:45] INFO root fetch - processPackages [elefanto-webkassa]: Downloading https://files.pythonhosted.org/packages/8c/ba/ef694edd579fb6942bb107de59516512b222234a0c9b2caa90612a0c9d51/elefanto_webkassa-0.1.4.tar.gz
+[2023-07-19 10:03:45] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.4.dev5.tar.gz]
+[2023-07-19 10:03:45] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.4.dev6.tar.gz]
+[2023-07-19 10:03:45] INFO root fetch - processPackages [fastapi-serve]: Start processing: aioworkers
+[2023-07-19 10:03:45] INFO root fetch - main [MainThread]: End processing [fastapi-serve]: success
+[2023-07-19 10:03:45] INFO root fetch - processPackages [mctech-actuator]: Remove: archive file [/home/abi/fetcher/tmp/mctech_actuator-1.0.3.tar.gz]
+[2023-07-19 10:03:45] INFO root fetch - processPackages [mctech-actuator]: Remove: archive file [/home/abi/fetcher/tmp/mctech_actuator-1.0.4.tar.gz]
+[2023-07-19 10:03:45] INFO root fetch - processPackages [mctech-actuator]: Start processing: fastapi-serve
+[2023-07-19 10:03:45] INFO root fetch - main [MainThread]: End processing [mctech-actuator]: success
+[2023-07-19 10:03:45] INFO root fetch - processPackages [aioworkers]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-19 10:03:45] INFO root fetch - processPackages [mctech-discovery]: Remove: archive file [/home/abi/fetcher/tmp/mctech_discovery-1.0.4.tar.gz]
+[2023-07-19 10:03:45] INFO root fetch - processPackages [mctech-discovery]: Remove: archive file [/home/abi/fetcher/tmp/mctech_discovery-1.0.5.tar.gz]
+[2023-07-19 10:03:45] INFO root fetch - processPackages [mctech-discovery]: Start processing: polyanalyst6api
+[2023-07-19 10:03:45] INFO root fetch - main [MainThread]: End processing [mctech-discovery]: success
+[2023-07-19 10:03:45] INFO root fetch - processPackages [fastapi-serve]: New version: [0.0.4.dev8] Old Version: [0.0.4.dev7]
+[2023-07-19 10:03:45] INFO root fetch - processPackages [py3seed]: Remove: archive file [/home/abi/fetcher/tmp/py3seed-0.2.0.tar.gz]
+[2023-07-19 10:03:45] INFO root fetch - processPackages [mctech-cloud]: Remove: archive file [/home/abi/fetcher/tmp/mctech_cloud-1.0.1.tar.gz]
+[2023-07-19 10:03:45] INFO root fetch - processPackages [mctech-cloud]: Remove: archive file [/home/abi/fetcher/tmp/mctech_cloud-1.0.2.tar.gz]
+[2023-07-19 10:03:45] INFO root fetch - processPackages [py3seed]: Remove: archive file [/home/abi/fetcher/tmp/py3seed-0.2.1.tar.gz]
+[2023-07-19 10:03:45] INFO root fetch - processPackages [mctech-cloud]: Start processing: gdata-vaas
+[2023-07-19 10:03:45] INFO root fetch - main [MainThread]: End processing [mctech-cloud]: success
+[2023-07-19 10:03:45] INFO root fetch - processPackages [py3seed]: Start processing: unitxt
+[2023-07-19 10:03:45] INFO root fetch - main [MainThread]: End processing [py3seed]: success
+[2023-07-19 10:03:45] INFO root fetch - processPackages [polyanalyst6api]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-19 10:03:45] INFO root fetch - processPackages [aioworkers]: Downloading https://files.pythonhosted.org/packages/51/13/4f8acd78cd8ef30fb17e090e59a02c8737d16c94c010611c4d5347e24c76/aioworkers-0.9.2.tar.gz
+[2023-07-19 10:03:45] INFO root fetch - processPackages [unitxt]: New version: [1.0.9] Old Version: [1.0.7]
+[2023-07-19 10:03:45] INFO root fetch - processPackages [polyanalyst6api]: Downloading https://files.pythonhosted.org/packages/c0/dd/d9fd9b67d3672437074bc56caa6873c4fc8a8fee1fe9dbb46ebca207a701/polyanalyst6api-0.9.1.tar.gz
+[2023-07-19 10:03:45] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/f6/50/c1b92dfd7e3332906f199fe75e221db3f24b9aacce77cda0d5cf2e71e642/fastapi-serve-0.0.4.dev7.tar.gz
+[2023-07-19 10:03:45] INFO root fetch - processPackages [gdata-vaas]: New version: [3.2.1] Old Version: [3.2.0]
+[2023-07-19 10:03:45] INFO root fetch - processPackages [unitxt]: Downloading https://files.pythonhosted.org/packages/11/d1/d3b62f8baf803050688a5209b7a249f450e3b915906be3b8636049f44de2/unitxt-1.0.7.tar.gz
+[2023-07-19 10:03:45] INFO root fetch - processPackages [elefanto-webkassa]: Downloading https://files.pythonhosted.org/packages/8b/5a/bbf932227fcf59d507c4e2893c5dab67ea090c016e6e9862a5e9ad993c8b/elefanto_webkassa-0.1.5.tar.gz
+[2023-07-19 10:03:45] INFO root fetch - processPackages [openeo]: Downloading https://files.pythonhosted.org/packages/9e/26/79a23eafc556905fcb0509a1f1ba6ca15917dd65b0bf9f9d21c474707af0/openeo-0.9.2-py3-none-any.whl
+[2023-07-19 10:03:46] INFO root fetch - processPackages [polyanalyst6api]: Downloading https://files.pythonhosted.org/packages/30/3e/6a817ee43d40818af50c4e8c49731b99308b3a95e6e5925b01db14a75ad9/polyanalyst6api-0.9.2.tar.gz
+[2023-07-19 10:03:46] INFO root fetch - processPackages [gdata-vaas]: Downloading https://files.pythonhosted.org/packages/04/8e/f39ca703c05b2d69655228eb27b21d3c72e499265521151e146c80fd9d0d/gdata-vaas-3.2.0.tar.gz
+[2023-07-19 10:03:46] INFO root fetch - processPackages [elefanto-webkassa]: executing diffoscope
+[2023-07-19 10:03:46] INFO root fetch - processPackages [elefanto-webkassa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elefanto_webkassa-0.1.4.tar.gz tmp/elefanto_webkassa-0.1.5.tar.gz --markdown 20230719/e/elefanto-webkassa/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-19 10:03:46] INFO root fetch - processPackages [aioworkers]: Downloading https://files.pythonhosted.org/packages/3b/d7/3d647a5afd65c18e4efed2b8ffef65dc170d7749491f9fd3c93bd259e6b7/aioworkers-0.9.3.tar.gz
+[2023-07-19 10:03:46] INFO root fetch - processPackages [django-excel-response2]: Remove: archive file [/home/abi/fetcher/tmp/django-excel-response2-3.0.5.tar.gz]
+[2023-07-19 10:03:46] INFO root fetch - processPackages [django-excel-response2]: Remove: archive file [/home/abi/fetcher/tmp/django-excel-response2-3.0.6.tar.gz]
+[2023-07-19 10:03:46] INFO root fetch - processPackages [django-excel-response2]: Start processing: satip
+[2023-07-19 10:03:46] INFO root fetch - main [MainThread]: End processing [django-excel-response2]: success
+[2023-07-19 10:03:46] INFO root fetch - processPackages [openeo]: executing diffoscope
+[2023-07-19 10:03:46] INFO root fetch - processPackages [openeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openeo-0.9.1-py3-none-any.whl.zip tmp/openeo-0.9.2-py3-none-any.whl.zip --markdown 20230719/o/openeo/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-19 10:03:46] INFO root fetch - processPackages [unitxt]: Downloading https://files.pythonhosted.org/packages/0e/ad/4d0c5d55831a7fd66fbaca1667f8f31321026e46d5f9444cb997646d2fe7/unitxt-1.0.9.tar.gz
+[2023-07-19 10:03:46] INFO root fetch - processPackages [polyanalyst6api]: executing diffoscope
+[2023-07-19 10:03:46] INFO root fetch - processPackages [polyanalyst6api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polyanalyst6api-0.9.1.tar.gz tmp/polyanalyst6api-0.9.2.tar.gz --markdown 20230719/p/polyanalyst6api/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-19 10:03:46] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/a9/a1/dd8a2910d18bbb81d0937e00c72060c1c5ba0f29245e90e01d0b97c6b397/fastapi-serve-0.0.4.dev8.tar.gz
+[2023-07-19 10:03:46] INFO root fetch - processPackages [unitxt]: executing diffoscope
+[2023-07-19 10:03:46] INFO root fetch - processPackages [unitxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitxt-1.0.7.tar.gz tmp/unitxt-1.0.9.tar.gz --markdown 20230719/u/unitxt/1.0.7-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 10:03:46] INFO root fetch - processPackages [aioworkers]: executing diffoscope
+[2023-07-19 10:03:46] INFO root fetch - processPackages [aioworkers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioworkers-0.9.2.tar.gz tmp/aioworkers-0.9.3.tar.gz --markdown 20230719/a/aioworkers/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-19 10:03:46] INFO root fetch - processPackages [satip]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-07-19 10:03:46] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-1.8.0.dev8.tar.gz]
+[2023-07-19 10:03:46] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-1.8.0.dev9.tar.gz]
+[2023-07-19 10:03:46] INFO root fetch - main [MainThread]: End processing [lycoris-lora]: success
+[2023-07-19 10:03:46] INFO root fetch - processPackages [fastapi-serve]: executing diffoscope
+[2023-07-19 10:03:46] INFO root fetch - processPackages [fastapi-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-serve-0.0.4.dev7.tar.gz tmp/fastapi-serve-0.0.4.dev8.tar.gz --markdown 20230719/f/fastapi-serve/0.0.4.dev7-0.0.4.dev8/diff.md --exclude *.pyd
+[2023-07-19 10:03:46] INFO root fetch - processPackages [gdata-vaas]: Downloading https://files.pythonhosted.org/packages/59/9e/323a195a8626323652d4ad2dcb4f4b34ca28099e04de0f56de849f2bbe44/gdata-vaas-3.2.1.tar.gz
+[2023-07-19 10:03:46] INFO root fetch - processPackages [satip]: Downloading https://files.pythonhosted.org/packages/c3/e8/b3c5caf4db2b47fab258763e006a81315f49cf587e12e65aa7025968b03f/satip-2.9.8.tar.gz
+[2023-07-19 10:03:46] INFO root fetch - processPackages [gdata-vaas]: executing diffoscope
+[2023-07-19 10:03:46] INFO root fetch - processPackages [gdata-vaas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdata-vaas-3.2.0.tar.gz tmp/gdata-vaas-3.2.1.tar.gz --markdown 20230719/g/gdata-vaas/3.2.0-3.2.1/diff.md --exclude *.pyd
+[2023-07-19 10:03:46] INFO root fetch - processPackages [metdig]: Downloading https://files.pythonhosted.org/packages/96/6e/1c393cb969c82fe1c39fc922d6de4aedb7830f5ce13e7be8c7ac41f5115f/metdig-0.1.9.9.9-py3-none-any.whl
+[2023-07-19 10:03:47] INFO root fetch - processPackages [satip]: Downloading https://files.pythonhosted.org/packages/06/5b/8bd6eec7428e98b330d6546e21261944d9361dcedd4e96b25bee4a5ee145/satip-2.9.9.tar.gz
+[2023-07-19 10:03:47] INFO root fetch - processPackages [elefanto-webkassa]: Remove: archive file [/home/abi/fetcher/tmp/elefanto_webkassa-0.1.4.tar.gz]
+[2023-07-19 10:03:47] INFO root fetch - processPackages [elefanto-webkassa]: Remove: archive file [/home/abi/fetcher/tmp/elefanto_webkassa-0.1.5.tar.gz]
+[2023-07-19 10:03:47] INFO root fetch - main [MainThread]: End processing [elefanto-webkassa]: success
+[2023-07-19 10:03:47] INFO root fetch - processPackages [polyanalyst6api]: Remove: archive file [/home/abi/fetcher/tmp/polyanalyst6api-0.9.1.tar.gz]
+[2023-07-19 10:03:47] INFO root fetch - processPackages [polyanalyst6api]: Remove: archive file [/home/abi/fetcher/tmp/polyanalyst6api-0.9.2.tar.gz]
+[2023-07-19 10:03:47] INFO root fetch - main [MainThread]: End processing [polyanalyst6api]: success
+[2023-07-19 10:03:47] INFO root fetch - processPackages [satip]: executing diffoscope
+[2023-07-19 10:03:47] INFO root fetch - processPackages [satip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satip-2.9.8.tar.gz tmp/satip-2.9.9.tar.gz --markdown 20230719/s/satip/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-07-19 10:03:47] INFO root fetch - processPackages [gdata-vaas]: Remove: archive file [/home/abi/fetcher/tmp/gdata-vaas-3.2.0.tar.gz]
+[2023-07-19 10:03:47] INFO root fetch - processPackages [gdata-vaas]: Remove: archive file [/home/abi/fetcher/tmp/gdata-vaas-3.2.1.tar.gz]
+[2023-07-19 10:03:47] INFO root fetch - main [MainThread]: End processing [gdata-vaas]: success
+[2023-07-19 10:03:47] INFO root fetch - processPackages [openeo]: Remove: archive file [/home/abi/fetcher/tmp/openeo-0.9.1-py3-none-any.whl.zip]
+[2023-07-19 10:03:47] INFO root fetch - processPackages [openeo]: Remove: archive file [/home/abi/fetcher/tmp/openeo-0.9.2-py3-none-any.whl.zip]
+[2023-07-19 10:03:47] INFO root fetch - main [MainThread]: End processing [openeo]: success
+[2023-07-19 10:03:47] INFO root fetch - processPackages [unitxt]: Remove: archive file [/home/abi/fetcher/tmp/unitxt-1.0.7.tar.gz]
+[2023-07-19 10:03:47] INFO root fetch - processPackages [unitxt]: Remove: archive file [/home/abi/fetcher/tmp/unitxt-1.0.9.tar.gz]
+[2023-07-19 10:03:47] INFO root fetch - main [MainThread]: End processing [unitxt]: success
+[2023-07-19 10:03:47] INFO root fetch - processPackages [aioworkers]: Remove: archive file [/home/abi/fetcher/tmp/aioworkers-0.9.2.tar.gz]
+[2023-07-19 10:03:47] INFO root fetch - processPackages [aioworkers]: Remove: archive file [/home/abi/fetcher/tmp/aioworkers-0.9.3.tar.gz]
+[2023-07-19 10:03:48] INFO root fetch - main [MainThread]: End processing [aioworkers]: success
+[2023-07-19 10:03:48] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.4.dev7.tar.gz]
+[2023-07-19 10:03:48] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.4.dev8.tar.gz]
+[2023-07-19 10:03:48] INFO root fetch - main [MainThread]: End processing [fastapi-serve]: success
+[2023-07-19 10:03:48] INFO root fetch - processPackages [satip]: Remove: archive file [/home/abi/fetcher/tmp/satip-2.9.8.tar.gz]
+[2023-07-19 10:03:48] INFO root fetch - processPackages [satip]: Remove: archive file [/home/abi/fetcher/tmp/satip-2.9.9.tar.gz]
+[2023-07-19 10:03:48] INFO root fetch - main [MainThread]: End processing [satip]: success
+[2023-07-19 10:03:48] INFO root fetch - processPackages [metdig]: executing diffoscope
+[2023-07-19 10:03:48] INFO root fetch - processPackages [metdig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metdig-0.1.9.9.8-py3-none-any.whl.zip tmp/metdig-0.1.9.9.9-py3-none-any.whl.zip --markdown 20230719/m/metdig/0.1.9.9.8-0.1.9.9.9/diff.md --exclude *.pyd
+[2023-07-19 10:03:52] INFO root fetch - processPackages [metdig]: Remove: archive file [/home/abi/fetcher/tmp/metdig-0.1.9.9.8-py3-none-any.whl.zip]
+[2023-07-19 10:03:52] INFO root fetch - processPackages [metdig]: Remove: archive file [/home/abi/fetcher/tmp/metdig-0.1.9.9.9-py3-none-any.whl.zip]
+[2023-07-19 10:03:52] INFO root fetch - main [MainThread]: End processing [metdig]: success
+[2023-07-19 10:03:52] INFO root fetch - main [MainThread]: Store serial: [18946923]
