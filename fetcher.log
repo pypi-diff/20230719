@@ -20492,3 +20492,141 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-19 12:00:38] INFO root fetch - processPackages [pybenutils]: Remove: archive file [/home/abi/fetcher/tmp/pybenutils-3.3.0.tar.gz]
 [2023-07-19 12:00:38] INFO root fetch - main [MainThread]: End processing [pybenutils]: success
 [2023-07-19 12:00:38] INFO root fetch - main [MainThread]: Store serial: [18948284]
+[2023-07-19 12:05:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18948284]
+[2023-07-19 12:05:47] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-19 12:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iflytekspark
+[2023-07-19 12:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bitfount
+[2023-07-19 12:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ipysnowball
+[2023-07-19 12:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: n2t-hardware-tester
+[2023-07-19 12:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: antigranular
+[2023-07-19 12:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: litechain
+[2023-07-19 12:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: soapcw
+[2023-07-19 12:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: markdown-toc-creator
+[2023-07-19 12:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: streamingcli
+[2023-07-19 12:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: unified-planning
+[2023-07-19 12:05:48] INFO root fetch - processPackages [antigranular]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-19 12:05:48] INFO root fetch - processPackages [markdown-toc-creator]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-19 12:05:48] INFO root fetch - processPackages [ipysnowball]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-19 12:05:48] INFO root fetch - processPackages [streamingcli]: New version: [2.0.0] Old Version: [1.9.1]
+[2023-07-19 12:05:48] INFO root fetch - processPackages [litechain]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-19 12:05:48] INFO root fetch - processPackages [soapcw]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-19 12:05:48] WARNING root fetch - processPackages [n2t-hardware-tester]: Skipping, unable to determine old version
+[2023-07-19 12:05:48] INFO root fetch - processPackages [n2t-hardware-tester]: Start processing: scargo
+[2023-07-19 12:05:48] INFO root fetch - main [MainThread]: End processing [n2t-hardware-tester] error
+[2023-07-19 12:05:48] WARNING root fetch - processPackages [iflytekspark]: Skipping, unable to determine old version
+[2023-07-19 12:05:48] INFO root fetch - processPackages [iflytekspark]: Start processing: timedctl
+[2023-07-19 12:05:48] INFO root fetch - main [MainThread]: End processing [iflytekspark] error
+[2023-07-19 12:05:48] INFO root fetch - processPackages [antigranular]: Downloading https://files.pythonhosted.org/packages/3d/92/9a956c20e77bffeab3915bf00ea950e4c37d92f9c1e084b8e93770044ac2/antigranular-0.1.0.tar.gz
+[2023-07-19 12:05:48] INFO root fetch - processPackages [bitfount]: New version: [0.5.9] Old Version: [0.5.84]
+[2023-07-19 12:05:48] INFO root fetch - processPackages [markdown-toc-creator]: Downloading https://files.pythonhosted.org/packages/d0/b2/daaacec9b97f11ab7aebfcee8bf73016085e22f1566ba7f3e9ee49695a1f/markdown_toc_creator-0.0.1.tar.gz
+[2023-07-19 12:05:48] INFO root fetch - processPackages [streamingcli]: Downloading https://files.pythonhosted.org/packages/3a/19/206b09882e99925a6617ce21445352b0f94813f6cf30a684c07d7a632c76/streamingcli-1.9.1.tar.gz
+[2023-07-19 12:05:48] INFO root fetch - processPackages [ipysnowball]: Downloading https://files.pythonhosted.org/packages/2b/e4/baf1fc5ea4127bcb3b7d5f30461005d81251eb2d41b310b4bbfe448d15b2/ipysnowball-1.0.1.tar.gz
+[2023-07-19 12:05:48] INFO root fetch - processPackages [unified-planning]: New version: [1.0.0.6.dev1] Old Version: [1.0.0.2.dev1]
+[2023-07-19 12:05:48] INFO root fetch - processPackages [timedctl]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-19 12:05:48] INFO root fetch - processPackages [scargo]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-07-19 12:05:48] INFO root fetch - processPackages [timedctl]: Downloading https://files.pythonhosted.org/packages/4d/ee/a2636e3df4bb93bf1bec518a620d3bd488d01a5e4b5aa8b279d99cfe35af/timedctl-2.0.0.tar.gz
+[2023-07-19 12:05:48] INFO root fetch - processPackages [litechain]: Downloading https://files.pythonhosted.org/packages/56/35/8c3a25fd37e21b8b94c563fa47639b1c2372a98feac0211f6f74d68d8632/litechain-0.1.2.tar.gz
+[2023-07-19 12:05:48] INFO root fetch - processPackages [bitfount]: Downloading https://files.pythonhosted.org/packages/27/ab/9f34b514d02f08e592a40b6727983ee4dc84c014cdab85e1f1e706cbf112/bitfount-0.5.84.tar.gz
+[2023-07-19 12:05:48] INFO root fetch - processPackages [soapcw]: Downloading https://files.pythonhosted.org/packages/0a/f1/9812c0c64038be1acfde19f4e2e2f831a16b36d85799d164242f2bb269fe/soapcw-0.2.2.tar.gz
+[2023-07-19 12:05:48] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/dd/65/577d81f52f4fc6c631d7cea19752fa71759ac01c492326f04677b3fc4710/unified_planning-1.0.0.2.dev1.tar.gz
+[2023-07-19 12:05:48] INFO root fetch - processPackages [markdown-toc-creator]: Downloading https://files.pythonhosted.org/packages/64/4c/86e67769ae1387271576f44e6ab9e7f796a75afa7147662ca1fba584ff37/markdown_toc_creator-0.0.2.tar.gz
+[2023-07-19 12:05:48] INFO root fetch - processPackages [ipysnowball]: Downloading https://files.pythonhosted.org/packages/f8/3d/09275f5294c60491754666de4342f3ac3923e1c557181324ca329f5a904c/ipysnowball-1.0.2.tar.gz
+[2023-07-19 12:05:48] INFO root fetch - processPackages [streamingcli]: Downloading https://files.pythonhosted.org/packages/e6/b0/2bfa70dd279f3af69279e45be2c1f5aae2c7ea3ac6a1f801edb9fdeb880a/streamingcli-2.0.0.tar.gz
+[2023-07-19 12:05:48] INFO root fetch - processPackages [scargo]: Downloading https://files.pythonhosted.org/packages/a0/3e/5d659d8bf9983e5618e00d4fd32b0602e43396750138bf68a0c2fd8ac579/scargo-1.6.0.tar.gz
+[2023-07-19 12:05:48] INFO root fetch - processPackages [antigranular]: Downloading https://files.pythonhosted.org/packages/b3/95/697fe829c14cb584ae86cddaaf756b486d5d4e12fa88786fc848313e6d07/antigranular-0.2.0.tar.gz
+[2023-07-19 12:05:48] INFO root fetch - processPackages [markdown-toc-creator]: executing diffoscope
+[2023-07-19 12:05:48] INFO root fetch - processPackages [markdown-toc-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdown_toc_creator-0.0.1.tar.gz tmp/markdown_toc_creator-0.0.2.tar.gz --markdown 20230719/m/markdown-toc-creator/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-19 12:05:49] INFO root fetch - processPackages [timedctl]: Downloading https://files.pythonhosted.org/packages/b6/f5/a83471b5e54edf619678a746d452fe4e3f07befde8ba7db3a09b40b45024/timedctl-2.0.1.tar.gz
+[2023-07-19 12:05:49] INFO root fetch - processPackages [ipysnowball]: executing diffoscope
+[2023-07-19 12:05:49] INFO root fetch - processPackages [ipysnowball]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipysnowball-1.0.1.tar.gz tmp/ipysnowball-1.0.2.tar.gz --markdown 20230719/i/ipysnowball/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-19 12:05:49] INFO root fetch - processPackages [antigranular]: executing diffoscope
+[2023-07-19 12:05:49] INFO root fetch - processPackages [antigranular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antigranular-0.1.0.tar.gz tmp/antigranular-0.2.0.tar.gz --markdown 20230719/a/antigranular/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-19 12:05:49] INFO root fetch - processPackages [streamingcli]: executing diffoscope
+[2023-07-19 12:05:49] INFO root fetch - processPackages [streamingcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamingcli-1.9.1.tar.gz tmp/streamingcli-2.0.0.tar.gz --markdown 20230719/s/streamingcli/1.9.1-2.0.0/diff.md --exclude *.pyd
+[2023-07-19 12:05:49] INFO root fetch - processPackages [litechain]: Downloading https://files.pythonhosted.org/packages/d5/06/02d5e0da04e95a19709c79ccd1cc2dae3fc3ebafb78d06a1d00f8f3623e9/litechain-0.1.3.tar.gz
+[2023-07-19 12:05:49] INFO root fetch - processPackages [timedctl]: executing diffoscope
+[2023-07-19 12:05:49] INFO root fetch - processPackages [timedctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timedctl-2.0.0.tar.gz tmp/timedctl-2.0.1.tar.gz --markdown 20230719/t/timedctl/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-19 12:05:49] INFO root fetch - processPackages [soapcw]: Downloading https://files.pythonhosted.org/packages/c2/89/b8e61cb32031ecce2b6f823f9fc22fc5c71f9cad123b71709e4d04738550/soapcw-0.2.3.tar.gz
+[2023-07-19 12:05:49] INFO root fetch - processPackages [litechain]: executing diffoscope
+[2023-07-19 12:05:49] INFO root fetch - processPackages [litechain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litechain-0.1.2.tar.gz tmp/litechain-0.1.3.tar.gz --markdown 20230719/l/litechain/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-19 12:05:49] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/4b/89/1a7921a8b2b4f3dc61cc55714316c320e1ee5c16f956a55ccb771ecf1d28/unified_planning-1.0.0.6.dev1.tar.gz
+[2023-07-19 12:05:49] INFO root fetch - processPackages [bitfount]: Downloading https://files.pythonhosted.org/packages/6f/29/8f4206e615fc20a41a45ee646f360c3c10572297cf6c08f1b52fcab30b97/bitfount-0.5.9.tar.gz
+[2023-07-19 12:05:49] INFO root fetch - processPackages [scargo]: Downloading https://files.pythonhosted.org/packages/b9/a6/57dca20306cb945b55267832a24f0ba66a437b840fdfb18633ce9de867c4/scargo-1.6.1.tar.gz
+[2023-07-19 12:05:49] INFO root fetch - processPackages [soapcw]: executing diffoscope
+[2023-07-19 12:05:49] INFO root fetch - processPackages [soapcw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soapcw-0.2.2.tar.gz tmp/soapcw-0.2.3.tar.gz --markdown 20230719/s/soapcw/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-19 12:05:49] INFO root fetch - processPackages [unified-planning]: executing diffoscope
+[2023-07-19 12:05:49] INFO root fetch - processPackages [unified-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unified_planning-1.0.0.2.dev1.tar.gz tmp/unified_planning-1.0.0.6.dev1.tar.gz --markdown 20230719/u/unified-planning/1.0.0.2.dev1-1.0.0.6.dev1/diff.md --exclude *.pyd
+[2023-07-19 12:05:49] INFO root fetch - processPackages [scargo]: executing diffoscope
+[2023-07-19 12:05:49] INFO root fetch - processPackages [scargo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scargo-1.6.0.tar.gz tmp/scargo-1.6.1.tar.gz --markdown 20230719/s/scargo/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-07-19 12:05:49] INFO root fetch - processPackages [bitfount]: executing diffoscope
+[2023-07-19 12:05:49] INFO root fetch - processPackages [bitfount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitfount-0.5.84.tar.gz tmp/bitfount-0.5.9.tar.gz --markdown 20230719/b/bitfount/0.5.84-0.5.9/diff.md --exclude *.pyd
+[2023-07-19 12:05:50] INFO root fetch - processPackages [markdown-toc-creator]: Remove: archive file [/home/abi/fetcher/tmp/markdown_toc_creator-0.0.1.tar.gz]
+[2023-07-19 12:05:50] INFO root fetch - processPackages [markdown-toc-creator]: Remove: archive file [/home/abi/fetcher/tmp/markdown_toc_creator-0.0.2.tar.gz]
+[2023-07-19 12:05:50] INFO root fetch - processPackages [markdown-toc-creator]: Start processing: remotivelabs-cli
+[2023-07-19 12:05:50] INFO root fetch - main [MainThread]: End processing [markdown-toc-creator]: success
+[2023-07-19 12:05:50] INFO root fetch - processPackages [antigranular]: Remove: archive file [/home/abi/fetcher/tmp/antigranular-0.1.0.tar.gz]
+[2023-07-19 12:05:50] INFO root fetch - processPackages [antigranular]: Remove: archive file [/home/abi/fetcher/tmp/antigranular-0.2.0.tar.gz]
+[2023-07-19 12:05:50] INFO root fetch - processPackages [antigranular]: Start processing: wedeliver-core-plus
+[2023-07-19 12:05:50] INFO root fetch - main [MainThread]: End processing [antigranular]: success
+[2023-07-19 12:05:50] INFO root fetch - processPackages [remotivelabs-cli]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-07-19 12:05:50] INFO root fetch - processPackages [ipysnowball]: Remove: archive file [/home/abi/fetcher/tmp/ipysnowball-1.0.1.tar.gz]
+[2023-07-19 12:05:50] INFO root fetch - processPackages [ipysnowball]: Remove: archive file [/home/abi/fetcher/tmp/ipysnowball-1.0.2.tar.gz]
+[2023-07-19 12:05:50] INFO root fetch - processPackages [ipysnowball]: Start processing: elefanto-webkassa
+[2023-07-19 12:05:50] INFO root fetch - main [MainThread]: End processing [ipysnowball]: success
+[2023-07-19 12:05:50] INFO root fetch - processPackages [wedeliver-core-plus]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-19 12:05:50] INFO root fetch - processPackages [elefanto-webkassa]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-19 12:05:50] INFO root fetch - processPackages [timedctl]: Remove: archive file [/home/abi/fetcher/tmp/timedctl-2.0.0.tar.gz]
+[2023-07-19 12:05:50] INFO root fetch - processPackages [timedctl]: Remove: archive file [/home/abi/fetcher/tmp/timedctl-2.0.1.tar.gz]
+[2023-07-19 12:05:50] INFO root fetch - processPackages [timedctl]: Start processing: hil-general-test
+[2023-07-19 12:05:50] INFO root fetch - main [MainThread]: End processing [timedctl]: success
+[2023-07-19 12:05:50] INFO root fetch - processPackages [elefanto-webkassa]: Downloading https://files.pythonhosted.org/packages/03/2f/ed8429af0832ce35f2137dbf202a6ab204a53c60ce48fc423185f5f58a1e/elefanto_webkassa-0.2.2.tar.gz
+[2023-07-19 12:05:50] INFO root fetch - processPackages [remotivelabs-cli]: Downloading https://files.pythonhosted.org/packages/9e/af/b85d4ab12b3ff8b26eeb84f5748bf68a170ccb0483ce464fbc14dfacaa8e/remotivelabs_cli-0.0.1a8.tar.gz
+[2023-07-19 12:05:50] INFO root fetch - processPackages [litechain]: Remove: archive file [/home/abi/fetcher/tmp/litechain-0.1.2.tar.gz]
+[2023-07-19 12:05:50] INFO root fetch - processPackages [litechain]: Remove: archive file [/home/abi/fetcher/tmp/litechain-0.1.3.tar.gz]
+[2023-07-19 12:05:50] INFO root fetch - processPackages [litechain]: Start processing: akshare
+[2023-07-19 12:05:50] INFO root fetch - main [MainThread]: End processing [litechain]: success
+[2023-07-19 12:05:50] WARNING root fetch - processPackages [hil-general-test]: Skipping, unable to determine old version
+[2023-07-19 12:05:50] INFO root fetch - main [MainThread]: End processing [hil-general-test] error
+[2023-07-19 12:05:50] INFO root fetch - processPackages [wedeliver-core-plus]: Downloading https://files.pythonhosted.org/packages/6d/2e/ca763d19af643bdcdb338f65d59f6051872978499ab2fd51f8bae21cb99c/wedeliver_core_plus-0.0.9.tar.gz
+[2023-07-19 12:05:51] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-07-19 12:05:51] INFO root fetch - processPackages [streamingcli]: Remove: archive file [/home/abi/fetcher/tmp/streamingcli-1.9.1.tar.gz]
+[2023-07-19 12:05:51] INFO root fetch - processPackages [streamingcli]: Remove: archive file [/home/abi/fetcher/tmp/streamingcli-2.0.0.tar.gz]
+[2023-07-19 12:05:51] INFO root fetch - main [MainThread]: End processing [streamingcli]: success
+[2023-07-19 12:05:51] INFO root fetch - processPackages [elefanto-webkassa]: Downloading https://files.pythonhosted.org/packages/ec/59/a6d9ba15933df5c741eb618485450c8ced07f2b3e35ba870d9994124d3e7/elefanto_webkassa-0.2.3.tar.gz
+[2023-07-19 12:05:51] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2023-07-19 12:05:51] INFO root fetch - processPackages [elefanto-webkassa]: executing diffoscope
+[2023-07-19 12:05:51] INFO root fetch - processPackages [elefanto-webkassa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elefanto_webkassa-0.2.2.tar.gz tmp/elefanto_webkassa-0.2.3.tar.gz --markdown 20230719/e/elefanto-webkassa/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-19 12:05:51] INFO root fetch - processPackages [wedeliver-core-plus]: Downloading https://files.pythonhosted.org/packages/2d/46/75fd447f65584dbf6334730b685e8bbf5a46d37a891db9e0cee697ede46e/wedeliver_core_plus-0.1.0.tar.gz
+[2023-07-19 12:05:51] INFO root fetch - processPackages [remotivelabs-cli]: Downloading https://files.pythonhosted.org/packages/6e/ec/8b4e17df12c5a2d39a005264591da395be8eae3517772654316d89e40301/remotivelabs_cli-0.0.1a9.tar.gz
+[2023-07-19 12:05:51] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2023-07-19 12:05:51] INFO root fetch - processPackages [wedeliver-core-plus]: executing diffoscope
+[2023-07-19 12:05:51] INFO root fetch - processPackages [wedeliver-core-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wedeliver_core_plus-0.0.9.tar.gz tmp/wedeliver_core_plus-0.1.0.tar.gz --markdown 20230719/w/wedeliver-core-plus/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-07-19 12:05:51] INFO root fetch - processPackages [remotivelabs-cli]: executing diffoscope
+[2023-07-19 12:05:51] INFO root fetch - processPackages [remotivelabs-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotivelabs_cli-0.0.1a8.tar.gz tmp/remotivelabs_cli-0.0.1a9.tar.gz --markdown 20230719/r/remotivelabs-cli/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-07-19 12:05:51] INFO root fetch - processPackages [scargo]: Remove: archive file [/home/abi/fetcher/tmp/scargo-1.6.0.tar.gz]
+[2023-07-19 12:05:51] INFO root fetch - processPackages [scargo]: Remove: archive file [/home/abi/fetcher/tmp/scargo-1.6.1.tar.gz]
+[2023-07-19 12:05:51] INFO root fetch - main [MainThread]: End processing [scargo]: success
+[2023-07-19 12:05:51] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-07-19 12:05:51] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20230719/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-07-19 12:05:52] INFO root fetch - processPackages [elefanto-webkassa]: Remove: archive file [/home/abi/fetcher/tmp/elefanto_webkassa-0.2.2.tar.gz]
+[2023-07-19 12:05:52] INFO root fetch - processPackages [elefanto-webkassa]: Remove: archive file [/home/abi/fetcher/tmp/elefanto_webkassa-0.2.3.tar.gz]
+[2023-07-19 12:05:52] INFO root fetch - main [MainThread]: End processing [elefanto-webkassa]: success
+[2023-07-19 12:05:52] INFO root fetch - processPackages [remotivelabs-cli]: Remove: archive file [/home/abi/fetcher/tmp/remotivelabs_cli-0.0.1a8.tar.gz]
+[2023-07-19 12:05:52] INFO root fetch - processPackages [remotivelabs-cli]: Remove: archive file [/home/abi/fetcher/tmp/remotivelabs_cli-0.0.1a9.tar.gz]
+[2023-07-19 12:05:52] INFO root fetch - main [MainThread]: End processing [remotivelabs-cli]: success
+[2023-07-19 12:05:52] INFO root fetch - processPackages [wedeliver-core-plus]: Remove: archive file [/home/abi/fetcher/tmp/wedeliver_core_plus-0.0.9.tar.gz]
+[2023-07-19 12:05:52] INFO root fetch - processPackages [wedeliver-core-plus]: Remove: archive file [/home/abi/fetcher/tmp/wedeliver_core_plus-0.1.0.tar.gz]
+[2023-07-19 12:05:52] INFO root fetch - main [MainThread]: End processing [wedeliver-core-plus]: success
+[2023-07-19 12:05:52] INFO root fetch - processPackages [soapcw]: Remove: archive file [/home/abi/fetcher/tmp/soapcw-0.2.2.tar.gz]
+[2023-07-19 12:05:52] INFO root fetch - processPackages [soapcw]: Remove: archive file [/home/abi/fetcher/tmp/soapcw-0.2.3.tar.gz]
+[2023-07-19 12:05:52] INFO root fetch - main [MainThread]: End processing [soapcw]: success
+[2023-07-19 12:05:53] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-1.0.0.2.dev1.tar.gz]
+[2023-07-19 12:05:53] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-1.0.0.6.dev1.tar.gz]
+[2023-07-19 12:05:53] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
+[2023-07-19 12:05:53] INFO root fetch - processPackages [bitfount]: Remove: archive file [/home/abi/fetcher/tmp/bitfount-0.5.84.tar.gz]
+[2023-07-19 12:05:53] INFO root fetch - processPackages [bitfount]: Remove: archive file [/home/abi/fetcher/tmp/bitfount-0.5.9.tar.gz]
+[2023-07-19 12:05:53] INFO root fetch - main [MainThread]: End processing [bitfount]: success
+[2023-07-19 12:05:54] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2023-07-19 12:05:54] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2023-07-19 12:05:55] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-07-19 12:05:55] INFO root fetch - main [MainThread]: Store serial: [18948344]
