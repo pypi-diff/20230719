@@ -16450,3 +16450,125 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-19 09:21:20] INFO root fetch - processPackages [z4d-certified-devices]: Remove: archive file [/home/abi/fetcher/tmp/z4d-certified-devices-2.77.tar.gz]
 [2023-07-19 09:21:20] INFO root fetch - main [MainThread]: End processing [z4d-certified-devices]: success
 [2023-07-19 09:21:20] INFO root fetch - main [MainThread]: Store serial: [18946568]
+[2023-07-19 09:26:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18946568]
+[2023-07-19 09:26:29] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-19 09:26:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gmcapsule
+[2023-07-19 09:26:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fdk
+[2023-07-19 09:26:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unitxt
+[2023-07-19 09:26:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: djangocms-aldryn-translation-tools
+[2023-07-19 09:26:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bagbag
+[2023-07-19 09:26:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: easylaser
+[2023-07-19 09:26:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-antti-z3-lemmas-test
+[2023-07-19 09:26:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ImgTextClipboard-python
+[2023-07-19 09:26:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cell-value
+[2023-07-19 09:26:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Navix
+[2023-07-19 09:26:29] INFO root fetch - processPackages [unitxt]: New version: [1.0.9] Old Version: [1.0.7]
+[2023-07-19 09:26:29] INFO root fetch - processPackages [djangocms-aldryn-translation-tools]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-19 09:26:29] INFO root fetch - processPackages [easylaser]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-19 09:26:29] WARNING root fetch - processPackages [cell-value]: Skipping, unable to determine old version
+[2023-07-19 09:26:29] INFO root fetch - processPackages [cell-value]: Start processing: uagents-twilio
+[2023-07-19 09:26:29] INFO root fetch - main [MainThread]: End processing [cell-value] error
+[2023-07-19 09:26:29] INFO root fetch - processPackages [bagbag]: New version: [0.60.9] Old Version: [0.60.8]
+[2023-07-19 09:26:29] WARNING root fetch - processPackages [uagents-twilio]: Skipping, unable to determine old version
+[2023-07-19 09:26:29] INFO root fetch - processPackages [uagents-twilio]: Start processing: power-grid-model
+[2023-07-19 09:26:29] INFO root fetch - main [MainThread]: End processing [uagents-twilio] error
+[2023-07-19 09:26:29] INFO root fetch - processPackages [gmcapsule]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-07-19 09:26:29] INFO root fetch - processPackages [unitxt]: Downloading https://files.pythonhosted.org/packages/11/d1/d3b62f8baf803050688a5209b7a249f450e3b915906be3b8636049f44de2/unitxt-1.0.7.tar.gz
+[2023-07-19 09:26:29] INFO root fetch - processPackages [ImgTextClipboard-python]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-19 09:26:29] INFO root fetch - processPackages [certora-cli-alpha-antti-z3-lemmas-test]: New version: [20230719.7.22.185265] Old Version: [20230704.15.27.233916]
+[2023-07-19 09:26:29] INFO root fetch - processPackages [fdk]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-19 09:26:29] INFO root fetch - processPackages [Navix]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-07-19 09:26:29] INFO root fetch - processPackages [easylaser]: Downloading https://files.pythonhosted.org/packages/9d/dd/7bc26aa73601f9a6e8a0d6c16cfd0f46127c6d03875fe9982f98eff0c575/easylaser-0.1.3.tar.gz
+[2023-07-19 09:26:29] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/9c/d9/18fcc3667854a152644716d257d55e30c5845485e0c8c0086d1449f5fca5/bagbag-0.60.8.tar.gz
+[2023-07-19 09:26:29] INFO root fetch - processPackages [djangocms-aldryn-translation-tools]: Downloading https://files.pythonhosted.org/packages/b8/3f/d3e8cc676a41c95cae463026519f5c9d318f07d98f59433fb9e049bcc768/djangocms-aldryn-translation-tools-1.0.0.tar.gz
+[2023-07-19 09:26:30] INFO root fetch - processPackages [power-grid-model]: New version: [1.5.0rc9224103679317] Old Version: [1.5.0rc9220010604950]
+[2023-07-19 09:26:30] INFO root fetch - processPackages [gmcapsule]: Downloading https://files.pythonhosted.org/packages/0a/c4/7eea3e69a281b82fabd16134eeba930e423b0f199efb649641fa03d2d66b/gmcapsule-0.5.2.tar.gz
+[2023-07-19 09:26:30] INFO root fetch - processPackages [ImgTextClipboard-python]: Downloading https://files.pythonhosted.org/packages/43/50/278470a8b6021a5f197281a3783150aa47d75b91e548f16bea522ea51ad3/ImgTextClipboard-python-0.1.2.tar.gz
+[2023-07-19 09:26:30] INFO root fetch - processPackages [certora-cli-alpha-antti-z3-lemmas-test]: Downloading https://files.pythonhosted.org/packages/98/75/dced26aa7d4356ace1df453c94e0c661b4843351d516784566992c932be9/certora-cli-alpha-antti-z3-lemmas-test-20230704.15.27.233916.tar.gz
+[2023-07-19 09:26:30] INFO root fetch - processPackages [Navix]: Downloading https://files.pythonhosted.org/packages/66/5f/33e3ce8891d987a6e0c388d065879d0b0a1db7c137661bd65b81f72c5627/Navix-0.3.7.tar.gz
+[2023-07-19 09:26:30] INFO root fetch - processPackages [unitxt]: Downloading https://files.pythonhosted.org/packages/0e/ad/4d0c5d55831a7fd66fbaca1667f8f31321026e46d5f9444cb997646d2fe7/unitxt-1.0.9.tar.gz
+[2023-07-19 09:26:30] INFO root fetch - processPackages [fdk]: Downloading https://files.pythonhosted.org/packages/10/7f/f459d5a81d6d9ddbb07271dd0458bf3e0b1bd812bb9f40b6c8112a96cc47/fdk-0.1.6.tar.gz
+[2023-07-19 09:26:30] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/20/1a/e10102e51209d06e54c321f153716c1001b3732c4bbce803c2aaa383bc5d/power-grid-model-1.5.0rc9220010604950.tar.gz
+[2023-07-19 09:26:30] INFO root fetch - processPackages [easylaser]: Downloading https://files.pythonhosted.org/packages/f7/d5/2c5a1616934a9beff0ee9789e6eefe9714c987823222bff22c8d4f2b8d04/easylaser-0.1.4.tar.gz
+[2023-07-19 09:26:30] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/c5/51/7ae0a1a526da702787345e0082bd8b3269a7b0c64300d0b309a215fbe724/bagbag-0.60.9.tar.gz
+[2023-07-19 09:26:30] WARNING root fetch - processPackages [certora-cli-alpha-antti-z3-lemmas-test]: Skipping package: exceeds size limit 38782249>=10485760
+[2023-07-19 09:26:30] INFO root fetch - processPackages [certora-cli-alpha-antti-z3-lemmas-test]: Start processing: Spider-Toolkit
+[2023-07-19 09:26:30] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-antti-z3-lemmas-test] error
+[2023-07-19 09:26:30] INFO root fetch - processPackages [djangocms-aldryn-translation-tools]: Downloading https://files.pythonhosted.org/packages/b2/b6/70d3a1058f43bc00ca7a8e167d0ef2874a575fef049f4b2e1f0b26b4f353/djangocms-aldryn-translation-tools-1.0.1.tar.gz
+[2023-07-19 09:26:30] INFO root fetch - processPackages [unitxt]: executing diffoscope
+[2023-07-19 09:26:30] INFO root fetch - processPackages [unitxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitxt-1.0.7.tar.gz tmp/unitxt-1.0.9.tar.gz --markdown 20230719/u/unitxt/1.0.7-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 09:26:30] INFO root fetch - processPackages [gmcapsule]: Downloading https://files.pythonhosted.org/packages/04/ec/9eab1655959a83913a082856bc31d06ab676fc89d4ec688c9c8daf871480/gmcapsule-0.5.3.tar.gz
+[2023-07-19 09:26:30] INFO root fetch - processPackages [Spider-Toolkit]: New version: [23.0.5] Old Version: [23.0.4]
+[2023-07-19 09:26:30] INFO root fetch - processPackages [easylaser]: executing diffoscope
+[2023-07-19 09:26:30] INFO root fetch - processPackages [easylaser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easylaser-0.1.3.tar.gz tmp/easylaser-0.1.4.tar.gz --markdown 20230719/e/easylaser/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-19 09:26:30] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-07-19 09:26:30] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.60.8.tar.gz tmp/bagbag-0.60.9.tar.gz --markdown 20230719/b/bagbag/0.60.8-0.60.9/diff.md --exclude *.pyd
+[2023-07-19 09:26:30] INFO root fetch - processPackages [djangocms-aldryn-translation-tools]: executing diffoscope
+[2023-07-19 09:26:30] INFO root fetch - processPackages [djangocms-aldryn-translation-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangocms-aldryn-translation-tools-1.0.0.tar.gz tmp/djangocms-aldryn-translation-tools-1.0.1.tar.gz --markdown 20230719/d/djangocms-aldryn-translation-tools/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-19 09:26:30] INFO root fetch - processPackages [ImgTextClipboard-python]: Downloading https://files.pythonhosted.org/packages/b1/68/ae04a4aaaa0fff9f0c2ea745254391ae68e39126bd3ffbd5a74a62ef097e/ImgTextClipboard-python-0.1.3.tar.gz
+[2023-07-19 09:26:30] INFO root fetch - processPackages [gmcapsule]: executing diffoscope
+[2023-07-19 09:26:30] INFO root fetch - processPackages [gmcapsule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmcapsule-0.5.2.tar.gz tmp/gmcapsule-0.5.3.tar.gz --markdown 20230719/g/gmcapsule/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-07-19 09:26:30] INFO root fetch - processPackages [Navix]: Downloading https://files.pythonhosted.org/packages/cc/c5/7358ab7c8eda99dfb2849d7524f1179d5f6277192a394bca66f14f715d80/Navix-0.3.8.tar.gz
+[2023-07-19 09:26:30] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/bf/19/1031de9688a57a8114e2e26a254345caaa202f5b8b8c86d180e664909483/power-grid-model-1.5.0rc9224103679317.tar.gz
+[2023-07-19 09:26:30] INFO root fetch - processPackages [Spider-Toolkit]: Downloading https://files.pythonhosted.org/packages/7a/04/8270195599f2008c6b49a371ebba052326f96c449e407f6ac49fc28c1d4a/Spider_Toolkit-23.0.4.tar.gz
+[2023-07-19 09:26:30] INFO root fetch - processPackages [fdk]: Downloading https://files.pythonhosted.org/packages/74/b2/ab2c7f832a93a09451a20012dd2e52b5b30bc10a46e67390e01ddf7a4918/fdk-0.1.7.tar.gz
+[2023-07-19 09:26:30] INFO root fetch - processPackages [ImgTextClipboard-python]: executing diffoscope
+[2023-07-19 09:26:30] INFO root fetch - processPackages [ImgTextClipboard-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ImgTextClipboard-python-0.1.2.tar.gz tmp/ImgTextClipboard-python-0.1.3.tar.gz --markdown 20230719/I/ImgTextClipboard-python/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-19 09:26:30] INFO root fetch - processPackages [Navix]: executing diffoscope
+[2023-07-19 09:26:30] INFO root fetch - processPackages [Navix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Navix-0.3.7.tar.gz tmp/Navix-0.3.8.tar.gz --markdown 20230719/N/Navix/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-07-19 09:26:31] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2023-07-19 09:26:31] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.5.0rc9220010604950.tar.gz tmp/power-grid-model-1.5.0rc9224103679317.tar.gz --markdown 20230719/p/power-grid-model/1.5.0rc9220010604950-1.5.0rc9224103679317/diff.md --exclude *.pyd
+[2023-07-19 09:26:31] INFO root fetch - processPackages [Spider-Toolkit]: Downloading https://files.pythonhosted.org/packages/b7/0b/944d88375c33106fbaf0dbb4a3ea0e33e42bcd2abb9fd5716aec6ae9eed1/Spider_Toolkit-23.0.5.tar.gz
+[2023-07-19 09:26:31] INFO root fetch - processPackages [Spider-Toolkit]: executing diffoscope
+[2023-07-19 09:26:31] INFO root fetch - processPackages [Spider-Toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Spider_Toolkit-23.0.4.tar.gz tmp/Spider_Toolkit-23.0.5.tar.gz --markdown 20230719/S/Spider-Toolkit/23.0.4-23.0.5/diff.md --exclude *.pyd
+[2023-07-19 09:26:31] INFO root fetch - processPackages [fdk]: executing diffoscope
+[2023-07-19 09:26:31] INFO root fetch - processPackages [fdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdk-0.1.6.tar.gz tmp/fdk-0.1.7.tar.gz --markdown 20230719/f/fdk/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-19 09:26:32] INFO root fetch - processPackages [djangocms-aldryn-translation-tools]: Remove: archive file [/home/abi/fetcher/tmp/djangocms-aldryn-translation-tools-1.0.0.tar.gz]
+[2023-07-19 09:26:32] INFO root fetch - processPackages [djangocms-aldryn-translation-tools]: Remove: archive file [/home/abi/fetcher/tmp/djangocms-aldryn-translation-tools-1.0.1.tar.gz]
+[2023-07-19 09:26:32] INFO root fetch - processPackages [djangocms-aldryn-translation-tools]: Start processing: fast-transfer
+[2023-07-19 09:26:32] INFO root fetch - main [MainThread]: End processing [djangocms-aldryn-translation-tools]: success
+[2023-07-19 09:26:32] INFO root fetch - processPackages [fast-transfer]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-19 09:26:32] INFO root fetch - processPackages [unitxt]: Remove: archive file [/home/abi/fetcher/tmp/unitxt-1.0.7.tar.gz]
+[2023-07-19 09:26:32] INFO root fetch - processPackages [unitxt]: Remove: archive file [/home/abi/fetcher/tmp/unitxt-1.0.9.tar.gz]
+[2023-07-19 09:26:32] INFO root fetch - processPackages [gmcapsule]: Remove: archive file [/home/abi/fetcher/tmp/gmcapsule-0.5.2.tar.gz]
+[2023-07-19 09:26:32] INFO root fetch - processPackages [gmcapsule]: Remove: archive file [/home/abi/fetcher/tmp/gmcapsule-0.5.3.tar.gz]
+[2023-07-19 09:26:32] INFO root fetch - processPackages [unitxt]: Start processing: ImgTextClipboard-python
+[2023-07-19 09:26:32] INFO root fetch - main [MainThread]: End processing [unitxt]: success
+[2023-07-19 09:26:32] INFO root fetch - main [MainThread]: End processing [gmcapsule]: success
+[2023-07-19 09:26:32] INFO root fetch - processPackages [ImgTextClipboard-python]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-19 09:26:32] INFO root fetch - processPackages [ImgTextClipboard-python]: Remove: archive file [/home/abi/fetcher/tmp/ImgTextClipboard-python-0.1.2.tar.gz]
+[2023-07-19 09:26:32] INFO root fetch - processPackages [ImgTextClipboard-python]: Remove: archive file [/home/abi/fetcher/tmp/ImgTextClipboard-python-0.1.3.tar.gz]
+[2023-07-19 09:26:32] INFO root fetch - main [MainThread]: End processing [ImgTextClipboard-python]: success
+[2023-07-19 09:26:32] INFO root fetch - processPackages [fast-transfer]: Downloading https://files.pythonhosted.org/packages/80/34/b023e95c8b67ded5b095d4f0722dc60c8e39a078721f5c964e8597a408c7/fast-transfer-0.0.1.tar.gz
+[2023-07-19 09:26:32] INFO root fetch - processPackages [ImgTextClipboard-python]: Downloading https://files.pythonhosted.org/packages/43/50/278470a8b6021a5f197281a3783150aa47d75b91e548f16bea522ea51ad3/ImgTextClipboard-python-0.1.2.tar.gz
+[2023-07-19 09:26:32] INFO root fetch - processPackages [easylaser]: Remove: archive file [/home/abi/fetcher/tmp/easylaser-0.1.3.tar.gz]
+[2023-07-19 09:26:32] INFO root fetch - processPackages [easylaser]: Remove: archive file [/home/abi/fetcher/tmp/easylaser-0.1.4.tar.gz]
+[2023-07-19 09:26:32] INFO root fetch - main [MainThread]: End processing [easylaser]: success
+[2023-07-19 09:26:33] INFO root fetch - processPackages [ImgTextClipboard-python]: Downloading https://files.pythonhosted.org/packages/b1/68/ae04a4aaaa0fff9f0c2ea745254391ae68e39126bd3ffbd5a74a62ef097e/ImgTextClipboard-python-0.1.3.tar.gz
+[2023-07-19 09:26:33] INFO root fetch - processPackages [Navix]: Remove: archive file [/home/abi/fetcher/tmp/Navix-0.3.7.tar.gz]
+[2023-07-19 09:26:33] INFO root fetch - processPackages [Navix]: Remove: archive file [/home/abi/fetcher/tmp/Navix-0.3.8.tar.gz]
+[2023-07-19 09:26:33] INFO root fetch - main [MainThread]: End processing [Navix]: success
+[2023-07-19 09:26:33] INFO root fetch - processPackages [fast-transfer]: Downloading https://files.pythonhosted.org/packages/e7/b4/2da539d3b93897fdafa61542347bf99db04db8adf274023e560c9fe0eefa/fast_transfer-0.0.2.tar.gz
+[2023-07-19 09:26:33] INFO root fetch - processPackages [ImgTextClipboard-python]: executing diffoscope
+[2023-07-19 09:26:33] INFO root fetch - processPackages [ImgTextClipboard-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ImgTextClipboard-python-0.1.2.tar.gz tmp/ImgTextClipboard-python-0.1.3.tar.gz --markdown 20230719/I/ImgTextClipboard-python/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-19 09:26:33] INFO root fetch - processPackages [fast-transfer]: executing diffoscope
+[2023-07-19 09:26:33] INFO root fetch - processPackages [fast-transfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast-transfer-0.0.1.tar.gz tmp/fast_transfer-0.0.2.tar.gz --markdown 20230719/f/fast-transfer/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-19 09:26:33] INFO root fetch - processPackages [Spider-Toolkit]: Remove: archive file [/home/abi/fetcher/tmp/Spider_Toolkit-23.0.4.tar.gz]
+[2023-07-19 09:26:33] INFO root fetch - processPackages [Spider-Toolkit]: Remove: archive file [/home/abi/fetcher/tmp/Spider_Toolkit-23.0.5.tar.gz]
+[2023-07-19 09:26:33] INFO root fetch - main [MainThread]: End processing [Spider-Toolkit]: success
+[2023-07-19 09:26:33] INFO root fetch - processPackages [fdk]: Remove: archive file [/home/abi/fetcher/tmp/fdk-0.1.6.tar.gz]
+[2023-07-19 09:26:33] INFO root fetch - processPackages [fdk]: Remove: archive file [/home/abi/fetcher/tmp/fdk-0.1.7.tar.gz]
+[2023-07-19 09:26:33] INFO root fetch - main [MainThread]: End processing [fdk]: success
+[2023-07-19 09:26:33] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.8.tar.gz]
+[2023-07-19 09:26:33] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.9.tar.gz]
+[2023-07-19 09:26:33] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-07-19 09:26:34] INFO root fetch - processPackages [fast-transfer]: Remove: archive file [/home/abi/fetcher/tmp/fast-transfer-0.0.1.tar.gz]
+[2023-07-19 09:26:34] INFO root fetch - processPackages [fast-transfer]: Remove: archive file [/home/abi/fetcher/tmp/fast_transfer-0.0.2.tar.gz]
+[2023-07-19 09:26:34] INFO root fetch - main [MainThread]: End processing [fast-transfer]: success
+[2023-07-19 09:26:34] INFO root fetch - processPackages [ImgTextClipboard-python]: Remove: archive file [/home/abi/fetcher/tmp/ImgTextClipboard-python-0.1.2.tar.gz]
+[2023-07-19 09:26:34] INFO root fetch - processPackages [ImgTextClipboard-python]: Remove: archive file [/home/abi/fetcher/tmp/ImgTextClipboard-python-0.1.3.tar.gz]
+[2023-07-19 09:26:34] INFO root fetch - main [MainThread]: End processing [ImgTextClipboard-python]: success
+[2023-07-19 09:26:34] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9220010604950.tar.gz]
+[2023-07-19 09:26:34] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9224103679317.tar.gz]
+[2023-07-19 09:26:34] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2023-07-19 09:26:34] INFO root fetch - main [MainThread]: Store serial: [18946617]
