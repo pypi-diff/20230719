@@ -16289,3 +16289,164 @@
 [2023-07-19 09:16:07] INFO root fetch - processPackages [confattr]: Remove: archive file [/home/abi/fetcher/tmp/confattr-0.9.1.tar.gz]
 [2023-07-19 09:16:07] INFO root fetch - main [MainThread]: End processing [confattr]: success
 [2023-07-19 09:16:07] INFO root fetch - main [MainThread]: Store serial: [18946538]
+[2023-07-19 09:21:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18946538]
+[2023-07-19 09:21:16] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-19 09:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-07-19 09:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kiki-utils
+[2023-07-19 09:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloudoll
+[2023-07-19 09:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: elefanto-webkassa
+[2023-07-19 09:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chatglm-llm
+[2023-07-19 09:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tfq-nightly
+[2023-07-19 09:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: djangocms-aldryn-translation-tools
+[2023-07-19 09:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-serverless-clamscan
+[2023-07-19 09:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: z4d-certified-devices
+[2023-07-19 09:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cm-two
+[2023-07-19 09:21:17] WARNING root fetch - processPackages [djangocms-aldryn-translation-tools]: Skipping, unable to determine old version
+[2023-07-19 09:21:17] INFO root fetch - main [MainThread]: End processing [djangocms-aldryn-translation-tools] error
+[2023-07-19 09:21:17] WARNING root fetch - processPackages [elefanto-webkassa]: Skipping, unable to determine old version
+[2023-07-19 09:21:17] INFO root fetch - main [MainThread]: End processing [elefanto-webkassa] error
+[2023-07-19 09:21:17] INFO root fetch - processPackages [chatglm-llm]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-07-19 09:21:17] INFO root fetch - processPackages [z4d-certified-devices]: New version: [2.77] Old Version: [2.76]
+[2023-07-19 09:21:17] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230718] Old Version: [0.7.3.dev20230717]
+[2023-07-19 09:21:17] INFO root fetch - processPackages [cm-two]: New version: [2.3.5] Old Version: [2.3.41]
+[2023-07-19 09:21:17] INFO root fetch - processPackages [cloudoll]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-07-19 09:21:17] INFO root fetch - processPackages [chatglm-llm]: Downloading https://files.pythonhosted.org/packages/26/c9/78e21f4ddf6352bf58591ca2bf4dc2049bb2576c1d9b8b65f034daea4fde/chatglm-llm-1.4.4.tar.gz
+[2023-07-19 09:21:17] INFO root fetch - processPackages [kiki-utils]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-19 09:21:17] INFO root fetch - processPackages [z4d-certified-devices]: Downloading https://files.pythonhosted.org/packages/ac/5d/e63f8f3db6d7f2fa4b67a9465f5527e02c58bcf09f600af6116a4b398895/z4d-certified-devices-2.76.tar.gz
+[2023-07-19 09:21:17] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-07-19 09:21:17] INFO root fetch - processPackages [cdk-serverless-clamscan]: New version: [2.5.9] Old Version: [2.5.8]
+[2023-07-19 09:21:17] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/d1/41/506fc4ae559cfd3c52d00a8201c996687e195373acb0f13a8bf2b53e55b4/tfq_nightly-0.7.3.dev20230717-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-19 09:21:17] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10807264>=10485760
+[2023-07-19 09:21:17] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-07-19 09:21:17] INFO root fetch - processPackages [cloudoll]: Downloading https://files.pythonhosted.org/packages/ad/41/43ef10e9d758b36c93c667283d51d37596d6d436060fc43eaa8ab7326729/cloudoll-2.0.5.tar.gz
+[2023-07-19 09:21:17] INFO root fetch - processPackages [kiki-utils]: Downloading https://files.pythonhosted.org/packages/e6/22/b646858e64a1d67b49084add663b491865fc4bcdddce13c7d7d164a59be5/kiki_utils-1.3.0.tar.gz
+[2023-07-19 09:21:17] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/f1/94/234c7859ea38bf3bfd719842cb9ba335317746c85e3d6ea2c21db624c3c9/cdk-serverless-clamscan-2.5.8.tar.gz
+[2023-07-19 09:21:17] INFO root fetch - processPackages [z4d-certified-devices]: Downloading https://files.pythonhosted.org/packages/67/67/d6b6727dfb20e2c3fd1059c4011c454d391de9a7ed5e21c9c2b3f6d734ca/z4d-certified-devices-2.77.tar.gz
+[2023-07-19 09:21:17] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-07-19 09:21:17] INFO root fetch - processPackages [chatglm-llm]: Downloading https://files.pythonhosted.org/packages/d0/90/e3a4ebf66a40587d5031d9367cd6c12f479db64d38fc682253bac6868cc5/chatglm-llm-1.4.5.tar.gz
+[2023-07-19 09:21:17] INFO root fetch - processPackages [cm-two]: Downloading https://files.pythonhosted.org/packages/2f/6a/a856e75b54ce0660def00ccfa91dc60424d15d639868385f8c41efc55201/cm_two-2.3.5-py3-none-any.whl
+[2023-07-19 09:21:17] INFO root fetch - processPackages [chatglm-llm]: executing diffoscope
+[2023-07-19 09:21:17] INFO root fetch - processPackages [chatglm-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatglm-llm-1.4.4.tar.gz tmp/chatglm-llm-1.4.5.tar.gz --markdown 20230719/c/chatglm-llm/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-07-19 09:21:17] INFO root fetch - processPackages [z4d-certified-devices]: executing diffoscope
+[2023-07-19 09:21:17] INFO root fetch - processPackages [z4d-certified-devices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/z4d-certified-devices-2.76.tar.gz tmp/z4d-certified-devices-2.77.tar.gz --markdown 20230719/z/z4d-certified-devices/2.76-2.77/diff.md --exclude *.pyd
+[2023-07-19 09:21:18] INFO root fetch - processPackages [cloudoll]: Downloading https://files.pythonhosted.org/packages/06/b3/2643e471e443116c95de0d0287850921b1db5283ab97564d931e252aa4ed/cloudoll-2.0.6.tar.gz
+[2023-07-19 09:21:18] INFO root fetch - processPackages [kiki-utils]: Downloading https://files.pythonhosted.org/packages/b7/80/569c40dc9a43045a832445cebd0b08f958af58d1019b3b61483e5941409a/kiki_utils-1.3.1.tar.gz
+[2023-07-19 09:21:18] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/28/a2/7652c50d98b37eb12999dac92423c2e06eb02ce205876482c411d4948af3/cdk-serverless-clamscan-2.5.9.tar.gz
+[2023-07-19 09:21:18] INFO root fetch - processPackages [cloudoll]: executing diffoscope
+[2023-07-19 09:21:18] INFO root fetch - processPackages [cloudoll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudoll-2.0.5.tar.gz tmp/cloudoll-2.0.6.tar.gz --markdown 20230719/c/cloudoll/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-07-19 09:21:18] INFO root fetch - processPackages [cm-two]: executing diffoscope
+[2023-07-19 09:21:18] INFO root fetch - processPackages [cm-two]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cm_two-2.3.41-py3-none-any.whl.zip tmp/cm_two-2.3.5-py3-none-any.whl.zip --markdown 20230719/c/cm-two/2.3.41-2.3.5/diff.md --exclude *.pyd
+[2023-07-19 09:21:18] INFO root fetch - processPackages [kiki-utils]: executing diffoscope
+[2023-07-19 09:21:18] INFO root fetch - processPackages [kiki-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiki_utils-1.3.0.tar.gz tmp/kiki_utils-1.3.1.tar.gz --markdown 20230719/k/kiki-utils/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-07-19 09:21:18] INFO root fetch - processPackages [cdk-serverless-clamscan]: executing diffoscope
+[2023-07-19 09:21:18] INFO root fetch - processPackages [cdk-serverless-clamscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-serverless-clamscan-2.5.8.tar.gz tmp/cdk-serverless-clamscan-2.5.9.tar.gz --markdown 20230719/c/cdk-serverless-clamscan/2.5.8-2.5.9/diff.md --exclude *.pyd
+[2023-07-19 09:21:18] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-07-19 09:21:18] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-07-19 09:21:18] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230719/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-07-19 09:21:19] INFO root fetch - processPackages [chatglm-llm]: Remove: archive file [/home/abi/fetcher/tmp/chatglm-llm-1.4.4.tar.gz]
+[2023-07-19 09:21:19] INFO root fetch - processPackages [chatglm-llm]: Remove: archive file [/home/abi/fetcher/tmp/chatglm-llm-1.4.5.tar.gz]
+[2023-07-19 09:21:19] INFO root fetch - main [MainThread]: End processing [chatglm-llm]: success
+[2023-07-19 09:21:19] ERROR root fetch - processPackages [cm-two]: Diffoscope failed: time="2023-07-19T09:21:18+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+[2023-07-19 09:21:19] INFO root fetch - main [MainThread]: End processing [cm-two] error
+[2023-07-19 09:21:19] INFO root fetch - processPackages [kiki-utils]: Remove: archive file [/home/abi/fetcher/tmp/kiki_utils-1.3.0.tar.gz]
+[2023-07-19 09:21:19] INFO root fetch - processPackages [kiki-utils]: Remove: archive file [/home/abi/fetcher/tmp/kiki_utils-1.3.1.tar.gz]
+[2023-07-19 09:21:19] INFO root fetch - main [MainThread]: End processing [kiki-utils]: success
+[2023-07-19 09:21:19] INFO root fetch - processPackages [cloudoll]: Remove: archive file [/home/abi/fetcher/tmp/cloudoll-2.0.5.tar.gz]
+[2023-07-19 09:21:19] INFO root fetch - processPackages [cloudoll]: Remove: archive file [/home/abi/fetcher/tmp/cloudoll-2.0.6.tar.gz]
+[2023-07-19 09:21:19] INFO root fetch - main [MainThread]: End processing [cloudoll]: success
+[2023-07-19 09:21:20] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.5.8.tar.gz]
+[2023-07-19 09:21:20] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.5.9.tar.gz]
+[2023-07-19 09:21:20] INFO root fetch - main [MainThread]: End processing [cdk-serverless-clamscan]: success
+[2023-07-19 09:21:20] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-07-19 09:21:20] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-07-19 09:21:20] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-07-19 09:21:20] INFO root fetch - processPackages [z4d-certified-devices]: Remove: archive file [/home/abi/fetcher/tmp/z4d-certified-devices-2.76.tar.gz]
+[2023-07-19 09:21:20] INFO root fetch - processPackages [z4d-certified-devices]: Remove: archive file [/home/abi/fetcher/tmp/z4d-certified-devices-2.77.tar.gz]
+[2023-07-19 09:21:20] INFO root fetch - main [MainThread]: End processing [z4d-certified-devices]: success
+[2023-07-19 09:21:20] INFO root fetch - main [MainThread]: Store serial: [18946568]
