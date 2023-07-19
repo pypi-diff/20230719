@@ -19612,3 +19612,131 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-19 11:28:53] INFO root fetch - processPackages [alchemite-apiclient]: Remove: archive file [/home/abi/fetcher/tmp/alchemite_apiclient-0.58.0.tar.gz]
 [2023-07-19 11:28:53] INFO root fetch - main [MainThread]: End processing [alchemite-apiclient]: success
 [2023-07-19 11:28:53] INFO root fetch - main [MainThread]: Store serial: [18947911]
+[2023-07-19 11:33:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18947911]
+[2023-07-19 11:34:02] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-19 11:34:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dank-mids
+[2023-07-19 11:34:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TDCRPy
+[2023-07-19 11:34:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vinted-scraper
+[2023-07-19 11:34:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oneai
+[2023-07-19 11:34:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyweb-cli
+[2023-07-19 11:34:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pynisher
+[2023-07-19 11:34:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dissect.target
+[2023-07-19 11:34:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: minder-downloader
+[2023-07-19 11:34:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: volcengine-python-sdk
+[2023-07-19 11:34:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mail-satvadev
+[2023-07-19 11:34:02] INFO root fetch - processPackages [TDCRPy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 11:34:02] INFO root fetch - processPackages [volcengine-python-sdk]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 11:34:02] INFO root fetch - processPackages [minder-downloader]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-07-19 11:34:02] INFO root fetch - processPackages [dissect.target]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2023-07-19 11:34:02] INFO root fetch - processPackages [pynisher]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-19 11:34:02] INFO root fetch - processPackages [mail-satvadev]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-19 11:34:02] WARNING root fetch - processPackages [vinted-scraper]: Skipping, unable to determine old version
+[2023-07-19 11:34:02] INFO root fetch - processPackages [vinted-scraper]: Start processing: yz-core2
+[2023-07-19 11:34:02] INFO root fetch - processPackages [volcengine-python-sdk]: Downloading https://files.pythonhosted.org/packages/ff/75/e607b174f4efc875809400aaf720dd84ad23c6cf463baaa0667f9f458263/volcengine-python-sdk-1.0.8.tar.gz
+[2023-07-19 11:34:02] INFO root fetch - main [MainThread]: End processing [vinted-scraper] error
+[2023-07-19 11:34:02] WARNING root fetch - processPackages [pyweb-cli]: Skipping, unable to determine old version
+[2023-07-19 11:34:02] INFO root fetch - processPackages [pyweb-cli]: Start processing: pdf-cut
+[2023-07-19 11:34:02] INFO root fetch - main [MainThread]: End processing [pyweb-cli] error
+[2023-07-19 11:34:02] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/45/d1/26f2b4eb42e05416d7662d5fb8b6f31b59dee6421945806c7b7bfdfbfa94/TDCRPy-0.0.8.tar.gz
+[2023-07-19 11:34:02] INFO root fetch - processPackages [oneai]: New version: [0.9.9] Old Version: [0.9.85]
+[2023-07-19 11:34:02] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-19 11:34:02] WARNING root fetch - processPackages [pdf-cut]: Skipping, unable to determine old version
+[2023-07-19 11:34:02] INFO root fetch - processPackages [pdf-cut]: Start processing: buz
+[2023-07-19 11:34:02] INFO root fetch - main [MainThread]: End processing [pdf-cut] error
+[2023-07-19 11:34:02] INFO root fetch - processPackages [oneai]: Downloading https://files.pythonhosted.org/packages/df/db/6335d18686dfc6e002a138da248821154ec1a72553e274b16de234f4e655/oneai-0.9.85.tar.gz
+[2023-07-19 11:34:02] INFO root fetch - processPackages [yz-core2]: New version: [1.0.61b3] Old Version: [1.0.61b2]
+[2023-07-19 11:34:02] INFO root fetch - processPackages [mail-satvadev]: Downloading https://files.pythonhosted.org/packages/ad/d9/e72b90ca5463a167993599718406f8efc38b4cfeef13d8cf477a856e384d/mail_satvadev-1.0.4.tar.gz
+[2023-07-19 11:34:02] INFO root fetch - processPackages [minder-downloader]: Downloading https://files.pythonhosted.org/packages/e1/40/dfb501cbb483aff6844daccae15caa30d64654ee44d5a6d2306332ab6289/minder_downloader-0.1.7.tar.gz
+[2023-07-19 11:34:02] INFO root fetch - processPackages [dissect.target]: Downloading https://files.pythonhosted.org/packages/b1/a4/24f9ce2eb6a1913b82598a01b68b634c9fe5535a9484bff3d7d56a0ae929/dissect.target-3.9.dev8.tar.gz
+[2023-07-19 11:34:02] INFO root fetch - processPackages [pynisher]: Downloading https://files.pythonhosted.org/packages/b7/33/8e9a0cbf2bd7aeb6a2b2a003d8ebe6c19fda10150d4efdae1dacd78d4fac/pynisher-1.0.6.tar.gz
+[2023-07-19 11:34:02] INFO root fetch - processPackages [buz]: New version: [2.2.0rc1] Old Version: [2.1.0rc1]
+[2023-07-19 11:34:02] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/58/f4/f09bcfbd9ef3b75b2932ba824304fc7e7bcee566e8570cb2d64f76eb9adc/TDCRPy-0.0.9.tar.gz
+[2023-07-19 11:34:02] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-19 11:34:03] WARNING root fetch - processPackages [dissect.target]: Skipping package: exceeds size limit 63555307>=10485760
+[2023-07-19 11:34:03] INFO root fetch - processPackages [dissect.target]: Start processing: corporate-reputation
+[2023-07-19 11:34:03] INFO root fetch - main [MainThread]: End processing [dissect.target] error
+[2023-07-19 11:34:03] INFO root fetch - processPackages [volcengine-python-sdk]: Downloading https://files.pythonhosted.org/packages/53/6e/bc2e8996b329c0459547989d687871830a3d17036f25d8455e66ffe3b1a8/volcengine-python-sdk-1.0.9.tar.gz
+[2023-07-19 11:34:03] INFO root fetch - processPackages [yz-core2]: Downloading https://files.pythonhosted.org/packages/59/a4/e37c7ad9f621efc4fe5f6d8573f3fce36a9ceb787ca6c6334d71892d789a/yz-core2-1.0.61b2.tar.gz
+[2023-07-19 11:34:03] INFO root fetch - processPackages [buz]: Downloading https://files.pythonhosted.org/packages/e7/e7/57239c17e79b01ce58944b2df04e2b278551d6e724aaba4bb3dd05aea196/buz-2.1.0rc1.tar.gz
+[2023-07-19 11:34:03] INFO root fetch - processPackages [corporate-reputation]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-19 11:34:03] INFO root fetch - processPackages [TDCRPy]: executing diffoscope
+[2023-07-19 11:34:03] INFO root fetch - processPackages [TDCRPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDCRPy-0.0.8.tar.gz tmp/TDCRPy-0.0.9.tar.gz --markdown 20230719/T/TDCRPy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 11:34:03] INFO root fetch - processPackages [oneai]: Downloading https://files.pythonhosted.org/packages/a8/be/4f8d749fd967478a2b1fff1577b187c9e85d1892517acbe16a8cdf91e094/oneai-0.9.9.tar.gz
+[2023-07-19 11:34:03] INFO root fetch - processPackages [volcengine-python-sdk]: executing diffoscope
+[2023-07-19 11:34:03] INFO root fetch - processPackages [volcengine-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volcengine-python-sdk-1.0.8.tar.gz tmp/volcengine-python-sdk-1.0.9.tar.gz --markdown 20230719/v/volcengine-python-sdk/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 11:34:03] INFO root fetch - processPackages [mail-satvadev]: Downloading https://files.pythonhosted.org/packages/89/b6/b49777ba152c9285ab2f16b0a57d793a7164acde2a3549f2bb5b929fcd8e/mail_satvadev-1.0.5.tar.gz
+[2023-07-19 11:34:03] INFO root fetch - processPackages [pynisher]: Downloading https://files.pythonhosted.org/packages/6f/05/bcb70c171ee9a85b245034e428e4f88f34a34637cfa620233eef90b0fb33/pynisher-1.0.7.tar.gz
+[2023-07-19 11:34:03] INFO root fetch - processPackages [minder-downloader]: Downloading https://files.pythonhosted.org/packages/c7/bc/6225f288edab58d07a61f738fe1890dd58d5897a23708c95ced4a7c2e5fb/minder_downloader-0.1.9.tar.gz
+[2023-07-19 11:34:03] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-19 11:34:03] INFO root fetch - processPackages [oneai]: executing diffoscope
+[2023-07-19 11:34:03] INFO root fetch - processPackages [oneai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oneai-0.9.85.tar.gz tmp/oneai-0.9.9.tar.gz --markdown 20230719/o/oneai/0.9.85-0.9.9/diff.md --exclude *.pyd
+[2023-07-19 11:34:03] INFO root fetch - processPackages [corporate-reputation]: Downloading https://files.pythonhosted.org/packages/52/90/5e729f9e710d327a4da66e84080d39e44841b47430cf9a755fcf226b622e/corporate_reputation-0.2.0.tar.gz
+[2023-07-19 11:34:03] INFO root fetch - processPackages [mail-satvadev]: executing diffoscope
+[2023-07-19 11:34:03] INFO root fetch - processPackages [mail-satvadev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mail_satvadev-1.0.4.tar.gz tmp/mail_satvadev-1.0.5.tar.gz --markdown 20230719/m/mail-satvadev/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-19 11:34:03] INFO root fetch - processPackages [yz-core2]: Downloading https://files.pythonhosted.org/packages/f1/8e/17baf8facb3b52154daff17f6e5b70ee15b4dc4d4cecc4e954f71a8edba9/yz-core2-1.0.61b3.tar.gz
+[2023-07-19 11:34:03] INFO root fetch - processPackages [pynisher]: executing diffoscope
+[2023-07-19 11:34:03] INFO root fetch - processPackages [pynisher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynisher-1.0.6.tar.gz tmp/pynisher-1.0.7.tar.gz --markdown 20230719/p/pynisher/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-19 11:34:03] INFO root fetch - processPackages [buz]: Downloading https://files.pythonhosted.org/packages/22/ac/0fd20d5eab2cafa67f239e0f838e86000bec76ed01a2bf70691df7f9e1ec/buz-2.2.0rc1.tar.gz
+[2023-07-19 11:34:03] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-19 11:34:03] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230719/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-19 11:34:03] INFO root fetch - processPackages [yz-core2]: executing diffoscope
+[2023-07-19 11:34:03] INFO root fetch - processPackages [yz-core2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yz-core2-1.0.61b2.tar.gz tmp/yz-core2-1.0.61b3.tar.gz --markdown 20230719/y/yz-core2/1.0.61b2-1.0.61b3/diff.md --exclude *.pyd
+[2023-07-19 11:34:03] INFO root fetch - processPackages [minder-downloader]: executing diffoscope
+[2023-07-19 11:34:03] INFO root fetch - processPackages [minder-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minder_downloader-0.1.7.tar.gz tmp/minder_downloader-0.1.9.tar.gz --markdown 20230719/m/minder-downloader/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-07-19 11:34:03] INFO root fetch - processPackages [buz]: executing diffoscope
+[2023-07-19 11:34:03] INFO root fetch - processPackages [buz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buz-2.1.0rc1.tar.gz tmp/buz-2.2.0rc1.tar.gz --markdown 20230719/b/buz/2.1.0rc1-2.2.0rc1/diff.md --exclude *.pyd
+[2023-07-19 11:34:03] INFO root fetch - processPackages [corporate-reputation]: Downloading https://files.pythonhosted.org/packages/83/50/162dcfda348ea36784fcaa3808fb354f7848f7e9c77dc203c8fe2d0a8a80/corporate_reputation-0.3.0.tar.gz
+[2023-07-19 11:34:04] INFO root fetch - processPackages [corporate-reputation]: executing diffoscope
+[2023-07-19 11:34:04] INFO root fetch - processPackages [corporate-reputation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corporate_reputation-0.2.0.tar.gz tmp/corporate_reputation-0.3.0.tar.gz --markdown 20230719/c/corporate-reputation/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-19 11:34:04] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.8.tar.gz]
+[2023-07-19 11:34:04] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.9.tar.gz]
+[2023-07-19 11:34:04] INFO root fetch - processPackages [TDCRPy]: Start processing: schemax
+[2023-07-19 11:34:04] INFO root fetch - main [MainThread]: End processing [TDCRPy]: success
+[2023-07-19 11:34:04] WARNING root fetch - processPackages [schemax]: Skipping, unable to determine old version
+[2023-07-19 11:34:04] INFO root fetch - processPackages [schemax]: Start processing: psyqlepg
+[2023-07-19 11:34:04] INFO root fetch - main [MainThread]: End processing [schemax] error
+[2023-07-19 11:34:05] INFO root fetch - processPackages [mail-satvadev]: Remove: archive file [/home/abi/fetcher/tmp/mail_satvadev-1.0.4.tar.gz]
+[2023-07-19 11:34:05] INFO root fetch - processPackages [mail-satvadev]: Remove: archive file [/home/abi/fetcher/tmp/mail_satvadev-1.0.5.tar.gz]
+[2023-07-19 11:34:05] INFO root fetch - processPackages [mail-satvadev]: Start processing: automation_rest_server
+[2023-07-19 11:34:05] INFO root fetch - main [MainThread]: End processing [mail-satvadev]: success
+[2023-07-19 11:34:05] INFO root fetch - processPackages [psyqlepg]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-19 11:34:05] INFO root fetch - processPackages [pynisher]: Remove: archive file [/home/abi/fetcher/tmp/pynisher-1.0.6.tar.gz]
+[2023-07-19 11:34:05] INFO root fetch - processPackages [pynisher]: Remove: archive file [/home/abi/fetcher/tmp/pynisher-1.0.7.tar.gz]
+[2023-07-19 11:34:05] INFO root fetch - main [MainThread]: End processing [pynisher]: success
+[2023-07-19 11:34:05] INFO root fetch - processPackages [automation_rest_server]: New version: [3.8.7] Old Version: [3.8.6]
+[2023-07-19 11:34:05] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-19 11:34:05] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-19 11:34:05] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-19 11:34:05] INFO root fetch - processPackages [oneai]: Remove: archive file [/home/abi/fetcher/tmp/oneai-0.9.85.tar.gz]
+[2023-07-19 11:34:05] INFO root fetch - processPackages [oneai]: Remove: archive file [/home/abi/fetcher/tmp/oneai-0.9.9.tar.gz]
+[2023-07-19 11:34:05] INFO root fetch - main [MainThread]: End processing [oneai]: success
+[2023-07-19 11:34:05] INFO root fetch - processPackages [minder-downloader]: Remove: archive file [/home/abi/fetcher/tmp/minder_downloader-0.1.7.tar.gz]
+[2023-07-19 11:34:05] INFO root fetch - processPackages [minder-downloader]: Remove: archive file [/home/abi/fetcher/tmp/minder_downloader-0.1.9.tar.gz]
+[2023-07-19 11:34:05] INFO root fetch - main [MainThread]: End processing [minder-downloader]: success
+[2023-07-19 11:34:05] INFO root fetch - processPackages [psyqlepg]: Downloading https://files.pythonhosted.org/packages/8f/b4/4b73fe1956e4b4397679095b7eb4024982743fa3c427c0783a3b93662c68/psyqlepg-0.0.1.tar.gz
+[2023-07-19 11:34:05] INFO root fetch - processPackages [automation_rest_server]: Downloading https://files.pythonhosted.org/packages/d2/aa/325f7bc75ec340778383ea46331fe5f6f0218eecaf6d2b3813fcc43c92fc/automation_rest_server-3.8.6.tar.gz
+[2023-07-19 11:34:05] INFO root fetch - processPackages [corporate-reputation]: Remove: archive file [/home/abi/fetcher/tmp/corporate_reputation-0.2.0.tar.gz]
+[2023-07-19 11:34:05] INFO root fetch - processPackages [corporate-reputation]: Remove: archive file [/home/abi/fetcher/tmp/corporate_reputation-0.3.0.tar.gz]
+[2023-07-19 11:34:05] INFO root fetch - main [MainThread]: End processing [corporate-reputation]: success
+[2023-07-19 11:34:05] INFO root fetch - processPackages [buz]: Remove: archive file [/home/abi/fetcher/tmp/buz-2.1.0rc1.tar.gz]
+[2023-07-19 11:34:05] INFO root fetch - processPackages [buz]: Remove: archive file [/home/abi/fetcher/tmp/buz-2.2.0rc1.tar.gz]
+[2023-07-19 11:34:05] INFO root fetch - main [MainThread]: End processing [buz]: success
+[2023-07-19 11:34:05] INFO root fetch - processPackages [psyqlepg]: Downloading https://files.pythonhosted.org/packages/a3/45/bedbd970218598b49e47b9d5d06c65c437d85ce4b10e0154396bfcf3f112/psyqlepg-0.0.2.tar.gz
+[2023-07-19 11:34:05] INFO root fetch - processPackages [yz-core2]: Remove: archive file [/home/abi/fetcher/tmp/yz-core2-1.0.61b2.tar.gz]
+[2023-07-19 11:34:05] INFO root fetch - processPackages [yz-core2]: Remove: archive file [/home/abi/fetcher/tmp/yz-core2-1.0.61b3.tar.gz]
+[2023-07-19 11:34:05] INFO root fetch - main [MainThread]: End processing [yz-core2]: success
+[2023-07-19 11:34:05] INFO root fetch - processPackages [psyqlepg]: executing diffoscope
+[2023-07-19 11:34:05] INFO root fetch - processPackages [psyqlepg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psyqlepg-0.0.1.tar.gz tmp/psyqlepg-0.0.2.tar.gz --markdown 20230719/p/psyqlepg/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-19 11:34:06] INFO root fetch - processPackages [automation_rest_server]: Downloading https://files.pythonhosted.org/packages/04/da/f565272e1c21f70b42cbf0841096f57943e0fed275b640a7e8061eb9bbc4/automation_rest_server-3.8.7.tar.gz
+[2023-07-19 11:34:06] INFO root fetch - processPackages [automation_rest_server]: executing diffoscope
+[2023-07-19 11:34:06] INFO root fetch - processPackages [automation_rest_server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_rest_server-3.8.6.tar.gz tmp/automation_rest_server-3.8.7.tar.gz --markdown 20230719/a/automation_rest_server/3.8.6-3.8.7/diff.md --exclude *.pyd
+[2023-07-19 11:34:06] INFO root fetch - processPackages [psyqlepg]: Remove: archive file [/home/abi/fetcher/tmp/psyqlepg-0.0.1.tar.gz]
+[2023-07-19 11:34:06] INFO root fetch - processPackages [psyqlepg]: Remove: archive file [/home/abi/fetcher/tmp/psyqlepg-0.0.2.tar.gz]
+[2023-07-19 11:34:06] INFO root fetch - main [MainThread]: End processing [psyqlepg]: success
+[2023-07-19 11:34:07] INFO root fetch - processPackages [automation_rest_server]: Remove: archive file [/home/abi/fetcher/tmp/automation_rest_server-3.8.6.tar.gz]
+[2023-07-19 11:34:07] INFO root fetch - processPackages [automation_rest_server]: Remove: archive file [/home/abi/fetcher/tmp/automation_rest_server-3.8.7.tar.gz]
+[2023-07-19 11:34:07] INFO root fetch - main [MainThread]: End processing [automation_rest_server]: success
+[2023-07-19 11:34:15] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.8.tar.gz]
+[2023-07-19 11:34:15] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.9.tar.gz]
+[2023-07-19 11:34:15] INFO root fetch - main [MainThread]: End processing [volcengine-python-sdk]: success
+[2023-07-19 11:34:15] INFO root fetch - main [MainThread]: Store serial: [18947968]
