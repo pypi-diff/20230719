@@ -13131,3 +13131,70 @@
 [2023-07-19 06:32:28] INFO root fetch - processPackages [carefree-learn]: Remove: archive file [/home/abi/fetcher/tmp/carefree-learn-0.4.6.tar.gz]
 [2023-07-19 06:32:28] INFO root fetch - main [MainThread]: End processing [carefree-learn]: success
 [2023-07-19 06:32:28] INFO root fetch - main [MainThread]: Store serial: [18945391]
+[2023-07-19 06:37:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18945391]
+[2023-07-19 06:37:37] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-19 06:37:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lbt-dragonfly
+[2023-07-19 06:37:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: genevector
+[2023-07-19 06:37:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo8-addon-partner-contact-address-detailed
+[2023-07-19 06:37:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xgo-pythonlib
+[2023-07-19 06:37:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wpiformat
+[2023-07-19 06:37:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: circuitpython-uplot
+[2023-07-19 06:37:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdktf-cdktf-provider-google-beta
+[2023-07-19 06:37:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdktf-cdktf-provider-google
+[2023-07-19 06:37:37] INFO root fetch - processPackages [genevector]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-19 06:37:37] INFO root fetch - processPackages [circuitpython-uplot]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-19 06:37:37] INFO root fetch - processPackages [xgo-pythonlib]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-19 06:37:37] INFO root fetch - processPackages [genevector]: Downloading https://files.pythonhosted.org/packages/dc/57/d42b33df453e3771c74eb3d7e3560293048ae90118a1fd719e777f5d25b8/genevector-0.1.0-py3.9.egg
+[2023-07-19 06:37:37] INFO root fetch - processPackages [wpiformat]: New version: [2023.28] Old Version: [2023.27]
+[2023-07-19 06:37:37] INFO root fetch - processPackages [odoo8-addon-partner-contact-address-detailed]: New version: [8.0.1.0.0.99.dev9] Old Version: [8.0.1.0.0.99.dev8]
+[2023-07-19 06:37:37] INFO root fetch - processPackages [circuitpython-uplot]: Downloading https://files.pythonhosted.org/packages/1d/57/734bb4fe2a5f70070960b2cb8cd2200d924a82d4e0a6fa215e3e95a2122d/circuitpython-uplot-0.9.3.tar.gz
+[2023-07-19 06:37:37] INFO root fetch - processPackages [cdktf-cdktf-provider-google]: New version: [8.0.5] Old Version: [8.0.4]
+[2023-07-19 06:37:37] INFO root fetch - processPackages [cdktf-cdktf-provider-google-beta]: New version: [8.0.5] Old Version: [8.0.4]
+[2023-07-19 06:37:37] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-07-19 06:37:38] INFO root fetch - processPackages [xgo-pythonlib]: Downloading https://files.pythonhosted.org/packages/b8/60/7ddb1db6e647b2451df0481036b52af3241ed6febe3c1a7eae179012d71c/xgo-pythonlib-0.2.4.tar.gz
+[2023-07-19 06:37:38] INFO root fetch - processPackages [cdktf-cdktf-provider-google]: Downloading https://files.pythonhosted.org/packages/0f/ae/e7f9abdadf81ffd920c41715970cfebca20bd56de9164792ca55b1c788ed/cdktf-cdktf-provider-google-8.0.4.tar.gz
+[2023-07-19 06:37:38] INFO root fetch - processPackages [genevector]: Downloading https://files.pythonhosted.org/packages/08/32/3ee9815e0b3a2829e96e77fb40ccafb109766aef44739df001171256ae40/genevector-0.2.0.tar.gz
+[2023-07-19 06:37:38] INFO root fetch - processPackages [wpiformat]: Downloading https://files.pythonhosted.org/packages/37/a2/49f8b62d95d666dc0daef763f66798899db067874a691a0014415ea143b7/wpiformat-2023.27.tar.gz
+[2023-07-19 06:37:38] INFO root fetch - processPackages [odoo8-addon-partner-contact-address-detailed]: Downloading https://files.pythonhosted.org/packages/0b/05/90c3511e43ee0001dc4660d6103df83ff2714e90a63ace7cc686b89be1f4/odoo8_addon_partner_contact_address_detailed-8.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-07-19 06:37:38] INFO root fetch - processPackages [cdktf-cdktf-provider-google-beta]: Downloading https://files.pythonhosted.org/packages/80/e5/9fff0b90730c8f81b0f49121ad46b2cfbe639b1158e4ab32b5243e8e992d/cdktf-cdktf-provider-google_beta-8.0.4.tar.gz
+[2023-07-19 06:37:38] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-07-19 06:37:38] INFO root fetch - processPackages [circuitpython-uplot]: Downloading https://files.pythonhosted.org/packages/d9/0f/137307a70ee54fe6b12bf2685f8d7c1a95d4488a5bed4c0ae82f1c3bda38/circuitpython-uplot-0.9.4.tar.gz
+[2023-07-19 06:37:38] WARNING root fetch - processPackages [cdktf-cdktf-provider-google]: Skipping package: exceeds size limit 20246531>=10485760
+[2023-07-19 06:37:38] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-google] error
+[2023-07-19 06:37:38] INFO root fetch - processPackages [genevector]: executing diffoscope
+[2023-07-19 06:37:38] INFO root fetch - processPackages [genevector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genevector-0.1.0-py3.9.egg tmp/genevector-0.2.0.tar.gz --markdown 20230719/g/genevector/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-19 06:37:38] WARNING root fetch - processPackages [cdktf-cdktf-provider-google-beta]: Skipping package: exceeds size limit 23160711>=10485760
+[2023-07-19 06:37:38] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-google-beta] error
+[2023-07-19 06:37:38] INFO root fetch - processPackages [circuitpython-uplot]: executing diffoscope
+[2023-07-19 06:37:38] INFO root fetch - processPackages [circuitpython-uplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circuitpython-uplot-0.9.3.tar.gz tmp/circuitpython-uplot-0.9.4.tar.gz --markdown 20230719/c/circuitpython-uplot/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-19 06:37:38] INFO root fetch - processPackages [xgo-pythonlib]: Downloading https://files.pythonhosted.org/packages/9e/e7/4e465ad2bed7b3dc496b3c18417d7a3b06b02ed509bf4f63e04b0a346ad1/xgo-pythonlib-0.2.5.tar.gz
+[2023-07-19 06:37:38] INFO root fetch - processPackages [xgo-pythonlib]: executing diffoscope
+[2023-07-19 06:37:38] INFO root fetch - processPackages [xgo-pythonlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xgo-pythonlib-0.2.4.tar.gz tmp/xgo-pythonlib-0.2.5.tar.gz --markdown 20230719/x/xgo-pythonlib/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-19 06:37:38] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-07-19 06:37:38] INFO root fetch - processPackages [wpiformat]: Downloading https://files.pythonhosted.org/packages/57/0c/3d96aaf5b42c158b8b6e19ccdbcef66789bade49c9517d4ef0e510544649/wpiformat-2023.28.tar.gz
+[2023-07-19 06:37:38] INFO root fetch - processPackages [odoo8-addon-partner-contact-address-detailed]: Downloading https://files.pythonhosted.org/packages/c2/96/9e80e82fdac6a50ba6f82651ce9fe12046db621ea8443cc74ac479889000/odoo8_addon_partner_contact_address_detailed-8.0.1.0.0.99.dev9-py2-none-any.whl
+[2023-07-19 06:37:38] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-07-19 06:37:38] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230719/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-07-19 06:37:38] INFO root fetch - processPackages [wpiformat]: executing diffoscope
+[2023-07-19 06:37:38] INFO root fetch - processPackages [wpiformat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wpiformat-2023.27.tar.gz tmp/wpiformat-2023.28.tar.gz --markdown 20230719/w/wpiformat/2023.27-2023.28/diff.md --exclude *.pyd
+[2023-07-19 06:37:38] INFO root fetch - processPackages [odoo8-addon-partner-contact-address-detailed]: executing diffoscope
+[2023-07-19 06:37:38] INFO root fetch - processPackages [odoo8-addon-partner-contact-address-detailed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_partner_contact_address_detailed-8.0.1.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_partner_contact_address_detailed-8.0.1.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230719/o/odoo8-addon-partner-contact-address-detailed/8.0.1.0.0.99.dev8-8.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-07-19 06:37:39] INFO root fetch - processPackages [genevector]: Remove: archive file [/home/abi/fetcher/tmp/genevector-0.1.0-py3.9.egg]
+[2023-07-19 06:37:39] INFO root fetch - processPackages [genevector]: Remove: archive file [/home/abi/fetcher/tmp/genevector-0.2.0.tar.gz]
+[2023-07-19 06:37:39] INFO root fetch - main [MainThread]: End processing [genevector]: success
+[2023-07-19 06:37:39] INFO root fetch - processPackages [xgo-pythonlib]: Remove: archive file [/home/abi/fetcher/tmp/xgo-pythonlib-0.2.4.tar.gz]
+[2023-07-19 06:37:39] INFO root fetch - processPackages [xgo-pythonlib]: Remove: archive file [/home/abi/fetcher/tmp/xgo-pythonlib-0.2.5.tar.gz]
+[2023-07-19 06:37:39] INFO root fetch - main [MainThread]: End processing [xgo-pythonlib]: success
+[2023-07-19 06:37:39] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2023-07-19 06:37:39] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2023-07-19 06:37:39] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-07-19 06:37:39] INFO root fetch - processPackages [circuitpython-uplot]: Remove: archive file [/home/abi/fetcher/tmp/circuitpython-uplot-0.9.3.tar.gz]
+[2023-07-19 06:37:39] INFO root fetch - processPackages [circuitpython-uplot]: Remove: archive file [/home/abi/fetcher/tmp/circuitpython-uplot-0.9.4.tar.gz]
+[2023-07-19 06:37:39] INFO root fetch - main [MainThread]: End processing [circuitpython-uplot]: success
+[2023-07-19 06:37:39] INFO root fetch - processPackages [odoo8-addon-partner-contact-address-detailed]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_partner_contact_address_detailed-8.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-07-19 06:37:39] INFO root fetch - processPackages [odoo8-addon-partner-contact-address-detailed]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_partner_contact_address_detailed-8.0.1.0.0.99.dev9-py2-none-any.whl.zip]
+[2023-07-19 06:37:39] INFO root fetch - main [MainThread]: End processing [odoo8-addon-partner-contact-address-detailed]: success
+[2023-07-19 06:37:39] INFO root fetch - processPackages [wpiformat]: Remove: archive file [/home/abi/fetcher/tmp/wpiformat-2023.27.tar.gz]
+[2023-07-19 06:37:39] INFO root fetch - processPackages [wpiformat]: Remove: archive file [/home/abi/fetcher/tmp/wpiformat-2023.28.tar.gz]
+[2023-07-19 06:37:39] INFO root fetch - main [MainThread]: End processing [wpiformat]: success
+[2023-07-19 06:37:39] INFO root fetch - main [MainThread]: Store serial: [18945414]
