@@ -20274,3 +20274,221 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-19 11:55:22] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.9.1a1641826769.tar.gz]
 [2023-07-19 11:55:22] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
 [2023-07-19 11:55:22] INFO root fetch - main [MainThread]: Store serial: [18948204]
+[2023-07-19 12:00:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18948204]
+[2023-07-19 12:00:31] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-07-19 12:00:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nwebclient
+[2023-07-19 12:00:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: markdown-toc-creator
+[2023-07-19 12:00:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: orca-parser
+[2023-07-19 12:00:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wafermap-clustering
+[2023-07-19 12:00:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TravSHACL
+[2023-07-19 12:00:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bosch-thermostat-client
+[2023-07-19 12:00:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: webpy-cli
+[2023-07-19 12:00:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fitsviz
+[2023-07-19 12:00:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ProfitDataFrame
+[2023-07-19 12:00:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: iimcsim
+[2023-07-19 12:00:31] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-19 12:00:31] INFO root fetch - processPackages [ProfitDataFrame]: New version: [2023.7.19] Old Version: [2020.9.20]
+[2023-07-19 12:00:31] INFO root fetch - processPackages [iimcsim]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-19 12:00:31] INFO root fetch - processPackages [markdown-toc-creator]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-19 12:00:31] INFO root fetch - processPackages [TravSHACL]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-07-19 12:00:31] INFO root fetch - processPackages [orca-parser]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-19 12:00:31] INFO root fetch - processPackages [bosch-thermostat-client]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-19 12:00:31] INFO root fetch - processPackages [fitsviz]: New version: [1.0.0] Old Version: [0.0.8]
+[2023-07-19 12:00:31] INFO root fetch - processPackages [wafermap-clustering]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-19 12:00:31] WARNING root fetch - processPackages [webpy-cli]: Skipping, unable to determine old version
+[2023-07-19 12:00:31] INFO root fetch - processPackages [webpy-cli]: Start processing: armonik
+[2023-07-19 12:00:31] INFO root fetch - main [MainThread]: End processing [webpy-cli] error
+[2023-07-19 12:00:31] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-19 12:00:31] INFO root fetch - processPackages [armonik]: New version: [3.9.3.dev630] Old Version: [3.9.3.dev627]
+[2023-07-19 12:00:31] INFO root fetch - processPackages [TravSHACL]: Downloading https://files.pythonhosted.org/packages/6f/be/ab15509d26c17cc7defe041e75f9625df57fdef3cf9d6a4a064d3f98d185/TravSHACL-1.4.1.tar.gz
+[2023-07-19 12:00:32] INFO root fetch - processPackages [markdown-toc-creator]: Downloading https://files.pythonhosted.org/packages/d0/b2/daaacec9b97f11ab7aebfcee8bf73016085e22f1566ba7f3e9ee49695a1f/markdown_toc_creator-0.0.1.tar.gz
+[2023-07-19 12:00:32] INFO root fetch - processPackages [iimcsim]: Downloading https://files.pythonhosted.org/packages/31/e8/f69c84234ad8a4f6a14ea7e2f8d8f46d7a330eea5305c6684069ce016af7/iimcsim-0.1.3.tar.gz
+[2023-07-19 12:00:32] INFO root fetch - processPackages [ProfitDataFrame]: Downloading https://files.pythonhosted.org/packages/70/94/00d369de6ee20f4a5ba1e32d05563cc1895da0031493c14ee6447c3a5b1b/ProfitDataFrame-2020.9.20.tar.gz
+[2023-07-19 12:00:32] INFO root fetch - processPackages [fitsviz]: Downloading https://files.pythonhosted.org/packages/3a/82/3e1e498e18f2cb962b19d9ac6cf645faea5ccf07076aa2c8177342ef3725/fitsviz-0.0.8.tar.gz
+[2023-07-19 12:00:32] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/a3/db/468340c3e51513d2270b938c830901748ba3f03d05938557f70273672795/armonik-3.9.3.dev627.tar.gz
+[2023-07-19 12:00:32] INFO root fetch - processPackages [orca-parser]: Downloading https://files.pythonhosted.org/packages/d8/b9/340e782b8b184ffe65782cddbe04c7e29689f23a2971336cdcd63278659c/orca_parser-0.1.2-py2.py3-none-any.whl
+[2023-07-19 12:00:32] INFO root fetch - processPackages [bosch-thermostat-client]: Downloading https://files.pythonhosted.org/packages/c7/a1/3ecc81ba0c2dd8f2a311c53c25d798e5fb626653517f148e74d31a2848a6/bosch-thermostat-client-0.9.8.tar.gz
+[2023-07-19 12:00:32] INFO root fetch - processPackages [wafermap-clustering]: Downloading https://files.pythonhosted.org/packages/da/32/8783c2bdc331b37a30d7b124decb010917f0591c3393c0a8b2f1bca74b61/wafermap-clustering-0.3.0.tar.gz
+[2023-07-19 12:00:32] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-19 12:00:32] INFO root fetch - processPackages [TravSHACL]: Downloading https://files.pythonhosted.org/packages/5b/6d/4da0fa3c450251e007691d2cfc57af64cf8f574932045d7efedacd209c54/TravSHACL-1.4.2.tar.gz
+[2023-07-19 12:00:32] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/11/ad/4f1bc0423cfda7af28cb5dc84e1865bf90ef91df50054caabbc8de87872b/armonik-3.9.3.dev630.tar.gz
+[2023-07-19 12:00:32] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-19 12:00:32] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230719/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-19 12:00:32] INFO root fetch - processPackages [iimcsim]: Downloading https://files.pythonhosted.org/packages/96/86/0f6097919dac87e68c0ff762af967db7b7efa4b37b433774583269e7a59c/iimcsim-0.1.4.tar.gz
+[2023-07-19 12:00:32] INFO root fetch - processPackages [fitsviz]: Downloading https://files.pythonhosted.org/packages/14/98/ee02da735bdbd0978bde4fe02771819dde2d5aeadeb54ef6fbf1020d66a3/fitsviz-1.0.0.tar.gz
+[2023-07-19 12:00:32] INFO root fetch - processPackages [markdown-toc-creator]: Downloading https://files.pythonhosted.org/packages/64/4c/86e67769ae1387271576f44e6ab9e7f796a75afa7147662ca1fba584ff37/markdown_toc_creator-0.0.2.tar.gz
+[2023-07-19 12:00:32] INFO root fetch - processPackages [ProfitDataFrame]: Downloading https://files.pythonhosted.org/packages/84/68/840239e4d157ea44359bb8fc80a6504ba41f96633cba63baea886f400b67/ProfitDataFrame-2023.7.19.tar.gz
+[2023-07-19 12:00:32] INFO root fetch - processPackages [bosch-thermostat-client]: Downloading https://files.pythonhosted.org/packages/61/c9/c2e93b4a507a766d56275f1de6a60af3b7f44329093d55fb9cd14244d4b5/bosch-thermostat-client-0.9.9.tar.gz
+[2023-07-19 12:00:32] INFO root fetch - processPackages [orca-parser]: Downloading https://files.pythonhosted.org/packages/13/5a/991a5542fcce48820dddd6cdce30a71bad4dee565c5b9b5326b6fd560677/orca_parser-0.1.3-py2.py3-none-any.whl
+[2023-07-19 12:00:32] INFO root fetch - processPackages [wafermap-clustering]: Downloading https://files.pythonhosted.org/packages/ef/39/475028d956c0634524461ce217f93118fbae52e1aaffd305960c77723ada/wafermap-clustering-0.3.1.tar.gz
+[2023-07-19 12:00:32] INFO root fetch - processPackages [armonik]: executing diffoscope
+[2023-07-19 12:00:32] INFO root fetch - processPackages [armonik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armonik-3.9.3.dev627.tar.gz tmp/armonik-3.9.3.dev630.tar.gz --markdown 20230719/a/armonik/3.9.3.dev627-3.9.3.dev630/diff.md --exclude *.pyd
+[2023-07-19 12:00:32] INFO root fetch - processPackages [fitsviz]: executing diffoscope
+[2023-07-19 12:00:32] INFO root fetch - processPackages [fitsviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fitsviz-0.0.8.tar.gz tmp/fitsviz-1.0.0.tar.gz --markdown 20230719/f/fitsviz/0.0.8-1.0.0/diff.md --exclude *.pyd
+[2023-07-19 12:00:32] INFO root fetch - processPackages [TravSHACL]: executing diffoscope
+[2023-07-19 12:00:32] INFO root fetch - processPackages [TravSHACL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TravSHACL-1.4.1.tar.gz tmp/TravSHACL-1.4.2.tar.gz --markdown 20230719/T/TravSHACL/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-07-19 12:00:32] INFO root fetch - processPackages [ProfitDataFrame]: executing diffoscope
+[2023-07-19 12:00:32] INFO root fetch - processPackages [ProfitDataFrame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ProfitDataFrame-2020.9.20.tar.gz tmp/ProfitDataFrame-2023.7.19.tar.gz --markdown 20230719/P/ProfitDataFrame/2020.9.20-2023.7.19/diff.md --exclude *.pyd
+[2023-07-19 12:00:32] INFO root fetch - processPackages [iimcsim]: executing diffoscope
+[2023-07-19 12:00:32] INFO root fetch - processPackages [iimcsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iimcsim-0.1.3.tar.gz tmp/iimcsim-0.1.4.tar.gz --markdown 20230719/i/iimcsim/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-19 12:00:32] INFO root fetch - processPackages [wafermap-clustering]: executing diffoscope
+[2023-07-19 12:00:32] INFO root fetch - processPackages [wafermap-clustering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wafermap-clustering-0.3.0.tar.gz tmp/wafermap-clustering-0.3.1.tar.gz --markdown 20230719/w/wafermap-clustering/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-19 12:00:32] INFO root fetch - processPackages [orca-parser]: executing diffoscope
+[2023-07-19 12:00:32] INFO root fetch - processPackages [orca-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orca_parser-0.1.2-py2.py3-none-any.whl.zip tmp/orca_parser-0.1.3-py2.py3-none-any.whl.zip --markdown 20230719/o/orca-parser/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-19 12:00:32] INFO root fetch - processPackages [markdown-toc-creator]: executing diffoscope
+[2023-07-19 12:00:32] INFO root fetch - processPackages [markdown-toc-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdown_toc_creator-0.0.1.tar.gz tmp/markdown_toc_creator-0.0.2.tar.gz --markdown 20230719/m/markdown-toc-creator/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-19 12:00:33] INFO root fetch - processPackages [bosch-thermostat-client]: executing diffoscope
+[2023-07-19 12:00:33] INFO root fetch - processPackages [bosch-thermostat-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bosch-thermostat-client-0.9.8.tar.gz tmp/bosch-thermostat-client-0.9.9.tar.gz --markdown 20230719/b/bosch-thermostat-client/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-19 12:00:33] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-19 12:00:33] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-19 12:00:33] INFO root fetch - processPackages [nwebclient]: Start processing: convosense-utilities
+[2023-07-19 12:00:33] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-19 12:00:33] INFO root fetch - processPackages [convosense-utilities]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-19 12:00:34] INFO root fetch - processPackages [convosense-utilities]: Downloading https://files.pythonhosted.org/packages/53/cc/aca00b0ca43760a91665e896125a51a31e65e16845d87ed0095872920da4/convosense_utilities-1.0.0.tar.gz
+[2023-07-19 12:00:34] INFO root fetch - processPackages [ProfitDataFrame]: Remove: archive file [/home/abi/fetcher/tmp/ProfitDataFrame-2020.9.20.tar.gz]
+[2023-07-19 12:00:34] INFO root fetch - processPackages [ProfitDataFrame]: Remove: archive file [/home/abi/fetcher/tmp/ProfitDataFrame-2023.7.19.tar.gz]
+[2023-07-19 12:00:34] INFO root fetch - processPackages [ProfitDataFrame]: Start processing: ipysnowball
+[2023-07-19 12:00:34] INFO root fetch - main [MainThread]: End processing [ProfitDataFrame]: success
+[2023-07-19 12:00:34] INFO root fetch - processPackages [ipysnowball]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-19 12:00:34] INFO root fetch - processPackages [orca-parser]: Remove: archive file [/home/abi/fetcher/tmp/orca_parser-0.1.2-py2.py3-none-any.whl.zip]
+[2023-07-19 12:00:34] INFO root fetch - processPackages [orca-parser]: Remove: archive file [/home/abi/fetcher/tmp/orca_parser-0.1.3-py2.py3-none-any.whl.zip]
+[2023-07-19 12:00:34] INFO root fetch - processPackages [orca-parser]: Start processing: fast-transfer
+[2023-07-19 12:00:34] INFO root fetch - main [MainThread]: End processing [orca-parser]: success
+[2023-07-19 12:00:34] INFO root fetch - processPackages [fast-transfer]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-19 12:00:34] INFO root fetch - processPackages [ipysnowball]: Downloading https://files.pythonhosted.org/packages/2b/e4/baf1fc5ea4127bcb3b7d5f30461005d81251eb2d41b310b4bbfe448d15b2/ipysnowball-1.0.1.tar.gz
+[2023-07-19 12:00:34] INFO root fetch - processPackages [markdown-toc-creator]: Remove: archive file [/home/abi/fetcher/tmp/markdown_toc_creator-0.0.1.tar.gz]
+[2023-07-19 12:00:34] INFO root fetch - processPackages [markdown-toc-creator]: Remove: archive file [/home/abi/fetcher/tmp/markdown_toc_creator-0.0.2.tar.gz]
+[2023-07-19 12:00:34] INFO root fetch - processPackages [markdown-toc-creator]: Start processing: league-shop-base
+[2023-07-19 12:00:34] INFO root fetch - main [MainThread]: End processing [markdown-toc-creator]: success
+[2023-07-19 12:00:34] INFO root fetch - processPackages [wafermap-clustering]: Remove: archive file [/home/abi/fetcher/tmp/wafermap-clustering-0.3.0.tar.gz]
+[2023-07-19 12:00:34] INFO root fetch - processPackages [wafermap-clustering]: Remove: archive file [/home/abi/fetcher/tmp/wafermap-clustering-0.3.1.tar.gz]
+[2023-07-19 12:00:34] INFO root fetch - processPackages [wafermap-clustering]: Start processing: uncertainty-datatypes
+[2023-07-19 12:00:34] INFO root fetch - main [MainThread]: End processing [wafermap-clustering]: success
+[2023-07-19 12:00:34] INFO root fetch - processPackages [league-shop-base]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 12:00:34] INFO root fetch - processPackages [TravSHACL]: Remove: archive file [/home/abi/fetcher/tmp/TravSHACL-1.4.1.tar.gz]
+[2023-07-19 12:00:34] INFO root fetch - processPackages [TravSHACL]: Remove: archive file [/home/abi/fetcher/tmp/TravSHACL-1.4.2.tar.gz]
+[2023-07-19 12:00:34] INFO root fetch - processPackages [TravSHACL]: Start processing: cijoe
+[2023-07-19 12:00:34] INFO root fetch - main [MainThread]: End processing [TravSHACL]: success
+[2023-07-19 12:00:34] INFO root fetch - processPackages [fitsviz]: Remove: archive file [/home/abi/fetcher/tmp/fitsviz-0.0.8.tar.gz]
+[2023-07-19 12:00:34] INFO root fetch - processPackages [fitsviz]: Remove: archive file [/home/abi/fetcher/tmp/fitsviz-1.0.0.tar.gz]
+[2023-07-19 12:00:34] INFO root fetch - processPackages [fitsviz]: Start processing: VDBpy
+[2023-07-19 12:00:34] INFO root fetch - main [MainThread]: End processing [fitsviz]: success
+[2023-07-19 12:00:34] INFO root fetch - processPackages [convosense-utilities]: Downloading https://files.pythonhosted.org/packages/db/f8/cb9074d8d33670d541013aa5a31b4649f53bf1c3fcd9fa1c25680b946bc4/convosense_utilities-1.0.1.tar.gz
+[2023-07-19 12:00:34] INFO root fetch - processPackages [uncertainty-datatypes]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-19 12:00:34] INFO root fetch - processPackages [cijoe]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-19 12:00:34] INFO root fetch - processPackages [fast-transfer]: Downloading https://files.pythonhosted.org/packages/0e/fd/390c6b63ce078acdac7fb15e181c0fa21f6e5a31dfd17c646e79c88c3aaf/fast_transfer-0.2.1.tar.gz
+[2023-07-19 12:00:34] INFO root fetch - processPackages [league-shop-base]: Downloading https://files.pythonhosted.org/packages/9a/36/856f05ff8f20b041ffd8a46c1c83f9f8b227d1764d27b5882c86fee7084a/league-shop-base-1.0.8.tar.gz
+[2023-07-19 12:00:34] INFO root fetch - processPackages [VDBpy]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-19 12:00:34] INFO root fetch - processPackages [bosch-thermostat-client]: Remove: archive file [/home/abi/fetcher/tmp/bosch-thermostat-client-0.9.8.tar.gz]
+[2023-07-19 12:00:34] INFO root fetch - processPackages [bosch-thermostat-client]: Remove: archive file [/home/abi/fetcher/tmp/bosch-thermostat-client-0.9.9.tar.gz]
+[2023-07-19 12:00:34] INFO root fetch - processPackages [bosch-thermostat-client]: Start processing: OpenFisca-France-Data
+[2023-07-19 12:00:34] INFO root fetch - main [MainThread]: End processing [bosch-thermostat-client]: success
+[2023-07-19 12:00:34] INFO root fetch - processPackages [iimcsim]: Remove: archive file [/home/abi/fetcher/tmp/iimcsim-0.1.3.tar.gz]
+[2023-07-19 12:00:34] INFO root fetch - processPackages [iimcsim]: Remove: archive file [/home/abi/fetcher/tmp/iimcsim-0.1.4.tar.gz]
+[2023-07-19 12:00:34] INFO root fetch - processPackages [iimcsim]: Start processing: certora-cli-alpha-antti-z3-lemmas-test
+[2023-07-19 12:00:34] INFO root fetch - main [MainThread]: End processing [iimcsim]: success
+[2023-07-19 12:00:34] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.3.dev627.tar.gz]
+[2023-07-19 12:00:34] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.3.dev630.tar.gz]
+[2023-07-19 12:00:34] INFO root fetch - processPackages [armonik]: Start processing: kodexa
+[2023-07-19 12:00:34] INFO root fetch - main [MainThread]: End processing [armonik]: success
+[2023-07-19 12:00:34] INFO root fetch - processPackages [OpenFisca-France-Data]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-07-19 12:00:34] INFO root fetch - processPackages [certora-cli-alpha-antti-z3-lemmas-test]: New version: [20230719.9.59.374544] Old Version: [20230719.8.34.839119]
+[2023-07-19 12:00:34] INFO root fetch - processPackages [ipysnowball]: Downloading https://files.pythonhosted.org/packages/f8/3d/09275f5294c60491754666de4342f3ac3923e1c557181324ca329f5a904c/ipysnowball-1.0.2.tar.gz
+[2023-07-19 12:00:34] INFO root fetch - processPackages [kodexa]: New version: [6.3.35597675762] Old Version: [6.3.35593161100]
+[2023-07-19 12:00:34] INFO root fetch - processPackages [convosense-utilities]: executing diffoscope
+[2023-07-19 12:00:34] INFO root fetch - processPackages [convosense-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/convosense_utilities-1.0.0.tar.gz tmp/convosense_utilities-1.0.1.tar.gz --markdown 20230719/c/convosense-utilities/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-19 12:00:35] INFO root fetch - processPackages [uncertainty-datatypes]: Downloading https://files.pythonhosted.org/packages/6d/c9/76a0c8563db1441bc4b755873c5ebd37ac1480dbf1c0205d45f384eeec71/uncertainty-datatypes-1.0.7.tar.gz
+[2023-07-19 12:00:35] INFO root fetch - processPackages [VDBpy]: Downloading https://files.pythonhosted.org/packages/5f/76/7b6c3b02db4ab9a28479750cf4080ad5277c3b996b291219f4007496fff6/VDBpy-0.1.3.tar.gz
+[2023-07-19 12:00:35] INFO root fetch - processPackages [cijoe]: Downloading https://files.pythonhosted.org/packages/ff/e5/24cca9ceda44409f1453f273bcb51b6c426aab692430e5e07fd742564630/cijoe-0.9.8.tar.gz
+[2023-07-19 12:00:35] INFO root fetch - processPackages [fast-transfer]: Downloading https://files.pythonhosted.org/packages/9d/26/d559240223afbff1eb7c02af020c50498860498b5b1ba5d31b4a16bc646b/fast_transfer-0.2.2.tar.gz
+[2023-07-19 12:00:35] INFO root fetch - processPackages [league-shop-base]: Downloading https://files.pythonhosted.org/packages/e2/26/1a7ca28a471c3705930fb862d3f11522557e5f6c0d324560bcea93b51906/league-shop-base-1.0.9.tar.gz
+[2023-07-19 12:00:35] INFO root fetch - processPackages [certora-cli-alpha-antti-z3-lemmas-test]: Downloading https://files.pythonhosted.org/packages/e3/77/f9760982fdd7090356210240cb88d7e42f4496178a09ce4e65a1ca0346ec/certora-cli-alpha-antti-z3-lemmas-test-20230719.8.34.839119.tar.gz
+[2023-07-19 12:00:35] INFO root fetch - processPackages [OpenFisca-France-Data]: Downloading https://files.pythonhosted.org/packages/dd/17/892708ecee43ed338c16cb3a85e58e2686243c9bdd5e557da4135a67e4ee/OpenFisca-France-Data-1.2.0.tar.gz
+[2023-07-19 12:00:35] INFO root fetch - processPackages [ipysnowball]: executing diffoscope
+[2023-07-19 12:00:35] INFO root fetch - processPackages [ipysnowball]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipysnowball-1.0.1.tar.gz tmp/ipysnowball-1.0.2.tar.gz --markdown 20230719/i/ipysnowball/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-19 12:00:35] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/ee/af/73927d542f0614a546df5c297f1c16e36c0296c545be9f9d37e8d9cda3a5/kodexa-6.3.35593161100.tar.gz
+[2023-07-19 12:00:35] WARNING root fetch - processPackages [certora-cli-alpha-antti-z3-lemmas-test]: Skipping package: exceeds size limit 38785526>=10485760
+[2023-07-19 12:00:35] INFO root fetch - processPackages [certora-cli-alpha-antti-z3-lemmas-test]: Start processing: highcharts-excentis
+[2023-07-19 12:00:35] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-antti-z3-lemmas-test] error
+[2023-07-19 12:00:35] INFO root fetch - processPackages [highcharts-excentis]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-07-19 12:00:35] INFO root fetch - processPackages [fast-transfer]: executing diffoscope
+[2023-07-19 12:00:35] INFO root fetch - processPackages [fast-transfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_transfer-0.2.1.tar.gz tmp/fast_transfer-0.2.2.tar.gz --markdown 20230719/f/fast-transfer/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-19 12:00:35] INFO root fetch - processPackages [league-shop-base]: executing diffoscope
+[2023-07-19 12:00:35] INFO root fetch - processPackages [league-shop-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/league-shop-base-1.0.8.tar.gz tmp/league-shop-base-1.0.9.tar.gz --markdown 20230719/l/league-shop-base/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 12:00:35] INFO root fetch - processPackages [cijoe]: Downloading https://files.pythonhosted.org/packages/32/e8/52676e4dee5f913accc70782d7591988450337b3a2366942814342f121ae/cijoe-0.9.9.tar.gz
+[2023-07-19 12:00:35] INFO root fetch - processPackages [VDBpy]: Downloading https://files.pythonhosted.org/packages/4b/79/1326135ac143e5410ca3fb79111e6e7677cfd52d4cc2febd82eff85cd0e0/VDBpy-0.1.4.tar.gz
+[2023-07-19 12:00:35] INFO root fetch - processPackages [uncertainty-datatypes]: Downloading https://files.pythonhosted.org/packages/47/63/9686e1e4a70487f9723de948b123cc39a4acbc9e1dfbbb400a0a5e107698/uncertainty-datatypes-1.0.8.tar.gz
+[2023-07-19 12:00:35] INFO root fetch - processPackages [cijoe]: executing diffoscope
+[2023-07-19 12:00:35] INFO root fetch - processPackages [cijoe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cijoe-0.9.8.tar.gz tmp/cijoe-0.9.9.tar.gz --markdown 20230719/c/cijoe/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-19 12:00:35] INFO root fetch - processPackages [highcharts-excentis]: Downloading https://files.pythonhosted.org/packages/86/83/f385b69cf9b5c519bc1a2aed3e1a7f71f8a5a364094833450edfd0d09b0d/highcharts-excentis-0.4.3.tar.gz
+[2023-07-19 12:00:35] INFO root fetch - processPackages [OpenFisca-France-Data]: Downloading https://files.pythonhosted.org/packages/11/b1/6f50da79a81c36b8c2ab2397f5cf5f331c71ebe86b5a47ef5440dbc741cc/OpenFisca-France-Data-1.3.0.tar.gz
+[2023-07-19 12:00:35] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/4e/0a/206e2a376b8f7e2e2f3e0d3e326b00b155f04563901d2f0be3310ca06183/kodexa-6.3.35597675762.tar.gz
+[2023-07-19 12:00:35] INFO root fetch - processPackages [uncertainty-datatypes]: executing diffoscope
+[2023-07-19 12:00:35] INFO root fetch - processPackages [uncertainty-datatypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uncertainty-datatypes-1.0.7.tar.gz tmp/uncertainty-datatypes-1.0.8.tar.gz --markdown 20230719/u/uncertainty-datatypes/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-19 12:00:35] INFO root fetch - processPackages [VDBpy]: executing diffoscope
+[2023-07-19 12:00:35] INFO root fetch - processPackages [VDBpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VDBpy-0.1.3.tar.gz tmp/VDBpy-0.1.4.tar.gz --markdown 20230719/V/VDBpy/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-19 12:00:35] INFO root fetch - processPackages [convosense-utilities]: Remove: archive file [/home/abi/fetcher/tmp/convosense_utilities-1.0.0.tar.gz]
+[2023-07-19 12:00:35] INFO root fetch - processPackages [convosense-utilities]: Remove: archive file [/home/abi/fetcher/tmp/convosense_utilities-1.0.1.tar.gz]
+[2023-07-19 12:00:35] INFO root fetch - processPackages [OpenFisca-France-Data]: executing diffoscope
+[2023-07-19 12:00:35] INFO root fetch - processPackages [OpenFisca-France-Data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFisca-France-Data-1.2.0.tar.gz tmp/OpenFisca-France-Data-1.3.0.tar.gz --markdown 20230719/O/OpenFisca-France-Data/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-07-19 12:00:35] INFO root fetch - processPackages [convosense-utilities]: Start processing: mecord-cli
+[2023-07-19 12:00:35] INFO root fetch - main [MainThread]: End processing [convosense-utilities]: success
+[2023-07-19 12:00:35] INFO root fetch - processPackages [mecord-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-19 12:00:35] INFO root fetch - processPackages [kodexa]: executing diffoscope
+[2023-07-19 12:00:35] INFO root fetch - processPackages [kodexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa-6.3.35593161100.tar.gz tmp/kodexa-6.3.35597675762.tar.gz --markdown 20230719/k/kodexa/6.3.35593161100-6.3.35597675762/diff.md --exclude *.pyd
+[2023-07-19 12:00:36] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/99/07/defecf133b4a0c137e7272f092b0a7e4b36005e5d2e5b2e4f22949323973/mecord-cli-0.1.8.tar.gz
+[2023-07-19 12:00:36] INFO root fetch - processPackages [highcharts-excentis]: Downloading https://files.pythonhosted.org/packages/56/7d/4b3d5423b90bf65ca8f42ae9425379bdb875082ab20890ade389a3965b61/highcharts-excentis-0.4.4.tar.gz
+[2023-07-19 12:00:36] INFO root fetch - processPackages [highcharts-excentis]: executing diffoscope
+[2023-07-19 12:00:36] INFO root fetch - processPackages [highcharts-excentis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/highcharts-excentis-0.4.3.tar.gz tmp/highcharts-excentis-0.4.4.tar.gz --markdown 20230719/h/highcharts-excentis/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-07-19 12:00:36] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/2b/9f/dbf00e6cfb2e166744734b7095dec6d81a7ee7213a1ef56c5c29e85783a1/mecord-cli-0.1.9.tar.gz
+[2023-07-19 12:00:36] INFO root fetch - processPackages [mecord-cli]: executing diffoscope
+[2023-07-19 12:00:36] INFO root fetch - processPackages [mecord-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecord-cli-0.1.8.tar.gz tmp/mecord-cli-0.1.9.tar.gz --markdown 20230719/m/mecord-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-19 12:00:36] INFO root fetch - processPackages [fast-transfer]: Remove: archive file [/home/abi/fetcher/tmp/fast_transfer-0.2.1.tar.gz]
+[2023-07-19 12:00:36] INFO root fetch - processPackages [fast-transfer]: Remove: archive file [/home/abi/fetcher/tmp/fast_transfer-0.2.2.tar.gz]
+[2023-07-19 12:00:36] INFO root fetch - processPackages [fast-transfer]: Start processing: pybenutils
+[2023-07-19 12:00:36] INFO root fetch - main [MainThread]: End processing [fast-transfer]: success
+[2023-07-19 12:00:36] INFO root fetch - processPackages [ipysnowball]: Remove: archive file [/home/abi/fetcher/tmp/ipysnowball-1.0.1.tar.gz]
+[2023-07-19 12:00:36] INFO root fetch - processPackages [ipysnowball]: Remove: archive file [/home/abi/fetcher/tmp/ipysnowball-1.0.2.tar.gz]
+[2023-07-19 12:00:36] INFO root fetch - processPackages [ipysnowball]: Start processing: image-file-validator
+[2023-07-19 12:00:36] INFO root fetch - main [MainThread]: End processing [ipysnowball]: success
+[2023-07-19 12:00:36] INFO root fetch - processPackages [pybenutils]: New version: [3.3.0] Old Version: [3.2.3]
+[2023-07-19 12:00:36] INFO root fetch - processPackages [image-file-validator]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-19 12:00:36] INFO root fetch - processPackages [league-shop-base]: Remove: archive file [/home/abi/fetcher/tmp/league-shop-base-1.0.8.tar.gz]
+[2023-07-19 12:00:36] INFO root fetch - processPackages [league-shop-base]: Remove: archive file [/home/abi/fetcher/tmp/league-shop-base-1.0.9.tar.gz]
+[2023-07-19 12:00:36] INFO root fetch - main [MainThread]: End processing [league-shop-base]: success
+[2023-07-19 12:00:36] INFO root fetch - processPackages [image-file-validator]: Downloading https://files.pythonhosted.org/packages/3b/c6/aaa0d4b6a9763cde4bb3ec3383bbbe386c04110d859e28bf6b010d42ea44/image_file_validator-0.0.4-py3-none-any.whl
+[2023-07-19 12:00:37] INFO root fetch - processPackages [pybenutils]: Downloading https://files.pythonhosted.org/packages/46/38/1dce5055a33d2a2c644cdac7dd6854c0884ffcd0b34bcc716c01c9b3ca28/pybenutils-3.2.3.tar.gz
+[2023-07-19 12:00:37] INFO root fetch - processPackages [cijoe]: Remove: archive file [/home/abi/fetcher/tmp/cijoe-0.9.8.tar.gz]
+[2023-07-19 12:00:37] INFO root fetch - processPackages [cijoe]: Remove: archive file [/home/abi/fetcher/tmp/cijoe-0.9.9.tar.gz]
+[2023-07-19 12:00:37] INFO root fetch - main [MainThread]: End processing [cijoe]: success
+[2023-07-19 12:00:37] INFO root fetch - processPackages [image-file-validator]: Downloading https://files.pythonhosted.org/packages/c7/db/b2f8a08ddb5d502b86d071c2bd298b57801d49f77d420c53e034de2a59a9/image_file_validator-0.0.5-py3-none-any.whl
+[2023-07-19 12:00:37] INFO root fetch - processPackages [VDBpy]: Remove: archive file [/home/abi/fetcher/tmp/VDBpy-0.1.3.tar.gz]
+[2023-07-19 12:00:37] INFO root fetch - processPackages [VDBpy]: Remove: archive file [/home/abi/fetcher/tmp/VDBpy-0.1.4.tar.gz]
+[2023-07-19 12:00:37] INFO root fetch - main [MainThread]: End processing [VDBpy]: success
+[2023-07-19 12:00:37] INFO root fetch - processPackages [uncertainty-datatypes]: Remove: archive file [/home/abi/fetcher/tmp/uncertainty-datatypes-1.0.7.tar.gz]
+[2023-07-19 12:00:37] INFO root fetch - processPackages [uncertainty-datatypes]: Remove: archive file [/home/abi/fetcher/tmp/uncertainty-datatypes-1.0.8.tar.gz]
+[2023-07-19 12:00:37] INFO root fetch - main [MainThread]: End processing [uncertainty-datatypes]: success
+[2023-07-19 12:00:37] INFO root fetch - processPackages [image-file-validator]: executing diffoscope
+[2023-07-19 12:00:37] INFO root fetch - processPackages [image-file-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image_file_validator-0.0.4-py3-none-any.whl.zip tmp/image_file_validator-0.0.5-py3-none-any.whl.zip --markdown 20230719/i/image-file-validator/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-19 12:00:37] INFO root fetch - processPackages [pybenutils]: Downloading https://files.pythonhosted.org/packages/6a/21/37c4e5ed1b4156f67cd65ade0d480db54973ef8ae2c6acce67d0bb5df1fc/pybenutils-3.3.0.tar.gz
+[2023-07-19 12:00:37] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-6.3.35593161100.tar.gz]
+[2023-07-19 12:00:37] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-6.3.35597675762.tar.gz]
+[2023-07-19 12:00:37] INFO root fetch - main [MainThread]: End processing [kodexa]: success
+[2023-07-19 12:00:37] INFO root fetch - processPackages [highcharts-excentis]: Remove: archive file [/home/abi/fetcher/tmp/highcharts-excentis-0.4.3.tar.gz]
+[2023-07-19 12:00:37] INFO root fetch - processPackages [highcharts-excentis]: Remove: archive file [/home/abi/fetcher/tmp/highcharts-excentis-0.4.4.tar.gz]
+[2023-07-19 12:00:37] INFO root fetch - main [MainThread]: End processing [highcharts-excentis]: success
+[2023-07-19 12:00:37] INFO root fetch - processPackages [OpenFisca-France-Data]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca-France-Data-1.2.0.tar.gz]
+[2023-07-19 12:00:37] INFO root fetch - processPackages [OpenFisca-France-Data]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca-France-Data-1.3.0.tar.gz]
+[2023-07-19 12:00:37] INFO root fetch - main [MainThread]: End processing [OpenFisca-France-Data]: success
+[2023-07-19 12:00:37] INFO root fetch - processPackages [pybenutils]: executing diffoscope
+[2023-07-19 12:00:37] INFO root fetch - processPackages [pybenutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybenutils-3.2.3.tar.gz tmp/pybenutils-3.3.0.tar.gz --markdown 20230719/p/pybenutils/3.2.3-3.3.0/diff.md --exclude *.pyd
+[2023-07-19 12:00:37] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.1.8.tar.gz]
+[2023-07-19 12:00:37] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.1.9.tar.gz]
+[2023-07-19 12:00:37] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
+[2023-07-19 12:00:38] INFO root fetch - processPackages [image-file-validator]: Remove: archive file [/home/abi/fetcher/tmp/image_file_validator-0.0.4-py3-none-any.whl.zip]
+[2023-07-19 12:00:38] INFO root fetch - processPackages [image-file-validator]: Remove: archive file [/home/abi/fetcher/tmp/image_file_validator-0.0.5-py3-none-any.whl.zip]
+[2023-07-19 12:00:38] INFO root fetch - main [MainThread]: End processing [image-file-validator]: success
+[2023-07-19 12:00:38] INFO root fetch - processPackages [pybenutils]: Remove: archive file [/home/abi/fetcher/tmp/pybenutils-3.2.3.tar.gz]
+[2023-07-19 12:00:38] INFO root fetch - processPackages [pybenutils]: Remove: archive file [/home/abi/fetcher/tmp/pybenutils-3.3.0.tar.gz]
+[2023-07-19 12:00:38] INFO root fetch - main [MainThread]: End processing [pybenutils]: success
+[2023-07-19 12:00:38] INFO root fetch - main [MainThread]: Store serial: [18948284]
