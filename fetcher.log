@@ -6588,3 +6588,144 @@
 [2023-07-19 04:06:31] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2023-07-19 04:06:31] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2023-07-19 04:06:31] INFO root fetch - main [MainThread]: Store serial: [18943188]
+[2023-07-19 04:11:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18943188]
+[2023-07-19 04:11:40] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-19 04:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ros-cdk-computenest
+[2023-07-19 04:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inviz
+[2023-07-19 04:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyISBO
+[2023-07-19 04:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ros-cdk-fc
+[2023-07-19 04:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ros-cdk-alb
+[2023-07-19 04:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: omni-pro
+[2023-07-19 04:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ros-cdk-hbr
+[2023-07-19 04:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: minidevice
+[2023-07-19 04:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ros-cdk-cloudfw
+[2023-07-19 04:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: MarsGT
+[2023-07-19 04:11:40] INFO root fetch - processPackages [MarsGT]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-19 04:11:40] INFO root fetch - processPackages [ros-cdk-alb]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 04:11:40] INFO root fetch - processPackages [MarsGT]: Downloading https://files.pythonhosted.org/packages/4f/b0/c018c2b99a4809925b77dc5707999331d36fe2f79c89b34513d2b64bf872/MarsGT-0.1.6.tar.gz
+[2023-07-19 04:11:40] INFO root fetch - processPackages [inviz]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-19 04:11:40] INFO root fetch - processPackages [ros-cdk-hbr]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 04:11:40] INFO root fetch - processPackages [pyISBO]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-19 04:11:40] INFO root fetch - processPackages [omni-pro]: New version: [0.1.13] Old Version: [0.1.12]
+[2023-07-19 04:11:40] INFO root fetch - processPackages [ros-cdk-computenest]: New version: [1.0.16] Old Version: [1.0.15]
+[2023-07-19 04:11:40] INFO root fetch - processPackages [ros-cdk-fc]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 04:11:40] INFO root fetch - processPackages [minidevice]: New version: [2.1.8] Old Version: [2.1.7]
+[2023-07-19 04:11:40] INFO root fetch - processPackages [ros-cdk-cloudfw]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 04:11:40] INFO root fetch - processPackages [ros-cdk-alb]: Downloading https://files.pythonhosted.org/packages/e7/c0/126c2dabaebee738d668a877343cd36c9fea4282dcfa5f17880e601a30ea/ros-cdk-alb-1.0.8.tar.gz
+[2023-07-19 04:11:40] INFO root fetch - processPackages [inviz]: Downloading https://files.pythonhosted.org/packages/82/d0/d473905d1b9d641d0ba59bf9ed4f9035a47d713c963d010732381524e151/inviz-0.2.3.tar.gz
+[2023-07-19 04:11:40] INFO root fetch - processPackages [pyISBO]: Downloading https://files.pythonhosted.org/packages/ab/17/52bef6d6e60b1bdf424658eb5a297d96cf463f90e87b258d92a87fe8f326/pyISBO-1.0.3.tar.gz
+[2023-07-19 04:11:40] INFO root fetch - processPackages [ros-cdk-cloudfw]: Downloading https://files.pythonhosted.org/packages/9f/2e/90746b9aac214f468e9137704d8d47af9c91c4cf5eaf11145c42fe705baf/ros-cdk-cloudfw-1.0.8.tar.gz
+[2023-07-19 04:11:40] INFO root fetch - processPackages [ros-cdk-computenest]: Downloading https://files.pythonhosted.org/packages/74/b7/b91830aff65e1c15669050d5abe8ee71355ed6473848fdfd5eb4904a9cb7/ros-cdk-computenest-1.0.15.tar.gz
+[2023-07-19 04:11:40] INFO root fetch - processPackages [minidevice]: Downloading https://files.pythonhosted.org/packages/f8/11/8d4fa295e46a3ef91160e6c5aeb699dc4c9128ef2e6e67ee7d3227633be0/minidevice-2.1.7.tar.gz
+[2023-07-19 04:11:40] INFO root fetch - processPackages [MarsGT]: Downloading https://files.pythonhosted.org/packages/47/c4/05a109803647bd6050c29ec480a177d642827ccbe0b6e6b4105eb458d5bc/MarsGT-0.1.7.tar.gz
+[2023-07-19 04:11:40] INFO root fetch - processPackages [ros-cdk-hbr]: Downloading https://files.pythonhosted.org/packages/49/64/279148fbb55572b78b414f302d6ce074d8ea2e0e1a80d5f9647274368573/ros-cdk-hbr-1.0.8.tar.gz
+[2023-07-19 04:11:40] INFO root fetch - processPackages [ros-cdk-fc]: Downloading https://files.pythonhosted.org/packages/61/78/d1c3689c7abecf159bab495320942beb7efda9e9783bb86b6e2602bf46f7/ros-cdk-fc-1.0.8.tar.gz
+[2023-07-19 04:11:40] INFO root fetch - processPackages [omni-pro]: Downloading https://files.pythonhosted.org/packages/3e/68/0834c4fe4d97906573c570a9f68c0f1bd2fe90904abbcab91d1a97b728e1/omni-pro-0.1.12.tar.gz
+[2023-07-19 04:11:41] INFO root fetch - processPackages [inviz]: Downloading https://files.pythonhosted.org/packages/a2/b0/82879b7292019662e640d7a8e3c961d3a284e2285d3318cc184a0657397b/inviz-0.2.4.tar.gz
+[2023-07-19 04:11:41] INFO root fetch - processPackages [MarsGT]: executing diffoscope
+[2023-07-19 04:11:41] INFO root fetch - processPackages [MarsGT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MarsGT-0.1.6.tar.gz tmp/MarsGT-0.1.7.tar.gz --markdown 20230719/M/MarsGT/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-19 04:11:41] INFO root fetch - processPackages [ros-cdk-alb]: Downloading https://files.pythonhosted.org/packages/be/18/0247d322bd73070e5752769bb5dc8b918ae90ec602c044da31a81294b837/ros-cdk-alb-1.0.9.tar.gz
+[2023-07-19 04:11:41] INFO root fetch - processPackages [minidevice]: Downloading https://files.pythonhosted.org/packages/08/87/414e9ec7705c6c170ec69059725ca809f97dafb2ab7d9fbe2f3c83bfe588/minidevice-2.1.8.tar.gz
+[2023-07-19 04:11:41] INFO root fetch - processPackages [pyISBO]: Downloading https://files.pythonhosted.org/packages/fc/b1/2db17ee2bf44efd2435128b12c96e336bacbc8d8da603b0346f541a2f299/pyISBO-1.0.4.tar.gz
+[2023-07-19 04:11:41] INFO root fetch - processPackages [ros-cdk-computenest]: Downloading https://files.pythonhosted.org/packages/1a/ce/4a56740e88027686b61d22c51e698810654a82abd08087a335920901ece8/ros-cdk-computenest-1.0.16.tar.gz
+[2023-07-19 04:11:41] INFO root fetch - processPackages [inviz]: executing diffoscope
+[2023-07-19 04:11:41] INFO root fetch - processPackages [inviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inviz-0.2.3.tar.gz tmp/inviz-0.2.4.tar.gz --markdown 20230719/i/inviz/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-19 04:11:41] INFO root fetch - processPackages [ros-cdk-cloudfw]: Downloading https://files.pythonhosted.org/packages/28/cf/919a32e2a5fab8e5399647618cd1316ddbd5451996c8a30cf2cdd81a2bcd/ros-cdk-cloudfw-1.0.9.tar.gz
+[2023-07-19 04:11:41] INFO root fetch - processPackages [ros-cdk-alb]: executing diffoscope
+[2023-07-19 04:11:41] INFO root fetch - processPackages [ros-cdk-alb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-alb-1.0.8.tar.gz tmp/ros-cdk-alb-1.0.9.tar.gz --markdown 20230719/r/ros-cdk-alb/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 04:11:41] INFO root fetch - processPackages [ros-cdk-hbr]: Downloading https://files.pythonhosted.org/packages/28/9e/4b34515ec580b138f51e6d9794b98f7420254b277417f61d68a933c4abd2/ros-cdk-hbr-1.0.9.tar.gz
+[2023-07-19 04:11:41] INFO root fetch - processPackages [omni-pro]: Downloading https://files.pythonhosted.org/packages/2b/c5/f51876ef4b0df262964deed0dd0fd6ba3caf17c68776ffc4b7e00fe2ebce/omni-pro-0.1.13.tar.gz
+[2023-07-19 04:11:41] INFO root fetch - processPackages [minidevice]: executing diffoscope
+[2023-07-19 04:11:41] INFO root fetch - processPackages [minidevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minidevice-2.1.7.tar.gz tmp/minidevice-2.1.8.tar.gz --markdown 20230719/m/minidevice/2.1.7-2.1.8/diff.md --exclude *.pyd
+[2023-07-19 04:11:41] INFO root fetch - processPackages [pyISBO]: executing diffoscope
+[2023-07-19 04:11:41] INFO root fetch - processPackages [pyISBO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyISBO-1.0.3.tar.gz tmp/pyISBO-1.0.4.tar.gz --markdown 20230719/p/pyISBO/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-19 04:11:41] INFO root fetch - processPackages [ros-cdk-computenest]: executing diffoscope
+[2023-07-19 04:11:41] INFO root fetch - processPackages [ros-cdk-computenest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-computenest-1.0.15.tar.gz tmp/ros-cdk-computenest-1.0.16.tar.gz --markdown 20230719/r/ros-cdk-computenest/1.0.15-1.0.16/diff.md --exclude *.pyd
+[2023-07-19 04:11:41] INFO root fetch - processPackages [ros-cdk-cloudfw]: executing diffoscope
+[2023-07-19 04:11:41] INFO root fetch - processPackages [ros-cdk-cloudfw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-cloudfw-1.0.8.tar.gz tmp/ros-cdk-cloudfw-1.0.9.tar.gz --markdown 20230719/r/ros-cdk-cloudfw/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 04:11:41] INFO root fetch - processPackages [omni-pro]: executing diffoscope
+[2023-07-19 04:11:41] INFO root fetch - processPackages [omni-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omni-pro-0.1.12.tar.gz tmp/omni-pro-0.1.13.tar.gz --markdown 20230719/o/omni-pro/0.1.12-0.1.13/diff.md --exclude *.pyd
+[2023-07-19 04:11:41] INFO root fetch - processPackages [ros-cdk-hbr]: executing diffoscope
+[2023-07-19 04:11:41] INFO root fetch - processPackages [ros-cdk-hbr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-hbr-1.0.8.tar.gz tmp/ros-cdk-hbr-1.0.9.tar.gz --markdown 20230719/r/ros-cdk-hbr/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 04:11:41] INFO root fetch - processPackages [ros-cdk-fc]: Downloading https://files.pythonhosted.org/packages/fd/27/482ea068c777bfd44a3cbe58f164d37f9252fae637b4de451c550f9dc463/ros-cdk-fc-1.0.9.tar.gz
+[2023-07-19 04:11:42] INFO root fetch - processPackages [ros-cdk-fc]: executing diffoscope
+[2023-07-19 04:11:42] INFO root fetch - processPackages [ros-cdk-fc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-fc-1.0.8.tar.gz tmp/ros-cdk-fc-1.0.9.tar.gz --markdown 20230719/r/ros-cdk-fc/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 04:11:42] INFO root fetch - processPackages [MarsGT]: Remove: archive file [/home/abi/fetcher/tmp/MarsGT-0.1.6.tar.gz]
+[2023-07-19 04:11:42] INFO root fetch - processPackages [MarsGT]: Remove: archive file [/home/abi/fetcher/tmp/MarsGT-0.1.7.tar.gz]
+[2023-07-19 04:11:42] INFO root fetch - processPackages [MarsGT]: Start processing: ros-cdk-cen
+[2023-07-19 04:11:42] INFO root fetch - main [MainThread]: End processing [MarsGT]: success
+[2023-07-19 04:11:42] INFO root fetch - processPackages [ros-cdk-cen]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 04:11:42] INFO root fetch - processPackages [inviz]: Remove: archive file [/home/abi/fetcher/tmp/inviz-0.2.3.tar.gz]
+[2023-07-19 04:11:42] INFO root fetch - processPackages [inviz]: Remove: archive file [/home/abi/fetcher/tmp/inviz-0.2.4.tar.gz]
+[2023-07-19 04:11:42] INFO root fetch - processPackages [inviz]: Start processing: poseutil
+[2023-07-19 04:11:42] INFO root fetch - main [MainThread]: End processing [inviz]: success
+[2023-07-19 04:11:42] INFO root fetch - processPackages [ros-cdk-cen]: Downloading https://files.pythonhosted.org/packages/c6/1a/44dc78838de5568cfea2978afc02f9ea03693d8fb6e5742e1fc9de316693/ros-cdk-cen-1.0.8.tar.gz
+[2023-07-19 04:11:42] INFO root fetch - processPackages [poseutil]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-19 04:11:42] INFO root fetch - processPackages [ros-cdk-alb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-alb-1.0.8.tar.gz]
+[2023-07-19 04:11:42] INFO root fetch - processPackages [ros-cdk-alb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-alb-1.0.9.tar.gz]
+[2023-07-19 04:11:42] INFO root fetch - processPackages [ros-cdk-alb]: Start processing: ros-cdk-ots
+[2023-07-19 04:11:42] INFO root fetch - main [MainThread]: End processing [ros-cdk-alb]: success
+[2023-07-19 04:11:42] INFO root fetch - processPackages [minidevice]: Remove: archive file [/home/abi/fetcher/tmp/minidevice-2.1.7.tar.gz]
+[2023-07-19 04:11:42] INFO root fetch - processPackages [minidevice]: Remove: archive file [/home/abi/fetcher/tmp/minidevice-2.1.8.tar.gz]
+[2023-07-19 04:11:42] INFO root fetch - processPackages [minidevice]: Start processing: ros-cdk-ens
+[2023-07-19 04:11:42] INFO root fetch - main [MainThread]: End processing [minidevice]: success
+[2023-07-19 04:11:43] INFO root fetch - processPackages [ros-cdk-ots]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 04:11:43] INFO root fetch - processPackages [ros-cdk-computenest]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-computenest-1.0.15.tar.gz]
+[2023-07-19 04:11:43] INFO root fetch - processPackages [poseutil]: Downloading https://files.pythonhosted.org/packages/ed/c8/572047440a1bc2e93204b130d769616145e7a9820556c26090b19ead6e47/poseutil-0.0.1.tar.gz
+[2023-07-19 04:11:43] INFO root fetch - processPackages [ros-cdk-computenest]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-computenest-1.0.16.tar.gz]
+[2023-07-19 04:11:43] INFO root fetch - processPackages [pyISBO]: Remove: archive file [/home/abi/fetcher/tmp/pyISBO-1.0.3.tar.gz]
+[2023-07-19 04:11:43] INFO root fetch - processPackages [ros-cdk-computenest]: Start processing: stereosite
+[2023-07-19 04:11:43] INFO root fetch - main [MainThread]: End processing [ros-cdk-computenest]: success
+[2023-07-19 04:11:43] INFO root fetch - processPackages [pyISBO]: Remove: archive file [/home/abi/fetcher/tmp/pyISBO-1.0.4.tar.gz]
+[2023-07-19 04:11:43] INFO root fetch - processPackages [pyISBO]: Start processing: fv1-programmer
+[2023-07-19 04:11:43] INFO root fetch - main [MainThread]: End processing [pyISBO]: success
+[2023-07-19 04:11:43] INFO root fetch - processPackages [ros-cdk-ens]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 04:11:43] INFO root fetch - processPackages [fv1-programmer]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-19 04:11:43] WARNING root fetch - processPackages [stereosite]: Skipping, unable to determine old version
+[2023-07-19 04:11:43] INFO root fetch - main [MainThread]: End processing [stereosite] error
+[2023-07-19 04:11:43] INFO root fetch - processPackages [fv1-programmer]: Downloading https://files.pythonhosted.org/packages/54/69/6b99b8b4339037f116b83c6b16c45b528562860105256115d3309099faee/fv1_programmer-0.2.3.tar.gz
+[2023-07-19 04:11:43] INFO root fetch - processPackages [ros-cdk-cen]: Downloading https://files.pythonhosted.org/packages/86/5b/bae43ed1278bcdbc996a7b6e198266f6009b65943be76f375c3a452f49b4/ros-cdk-cen-1.0.9.tar.gz
+[2023-07-19 04:11:43] INFO root fetch - processPackages [ros-cdk-hbr]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-hbr-1.0.8.tar.gz]
+[2023-07-19 04:11:43] INFO root fetch - processPackages [ros-cdk-hbr]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-hbr-1.0.9.tar.gz]
+[2023-07-19 04:11:43] INFO root fetch - main [MainThread]: End processing [ros-cdk-hbr]: success
+[2023-07-19 04:11:43] INFO root fetch - processPackages [ros-cdk-cloudfw]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cloudfw-1.0.8.tar.gz]
+[2023-07-19 04:11:43] INFO root fetch - processPackages [ros-cdk-cloudfw]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cloudfw-1.0.9.tar.gz]
+[2023-07-19 04:11:43] INFO root fetch - main [MainThread]: End processing [ros-cdk-cloudfw]: success
+[2023-07-19 04:11:43] INFO root fetch - processPackages [ros-cdk-ots]: Downloading https://files.pythonhosted.org/packages/3b/93/ae1fb3cf7a5549ee4bc3b3b2230d7ce48976c5fde905db888ea3776314dc/ros-cdk-ots-1.0.8.tar.gz
+[2023-07-19 04:11:43] INFO root fetch - processPackages [ros-cdk-ens]: Downloading https://files.pythonhosted.org/packages/a9/49/0388e72a92545a76da89ef73fc54bdb328d78c72976eaa4260901b947033/ros-cdk-ens-1.0.8.tar.gz
+[2023-07-19 04:11:43] INFO root fetch - processPackages [ros-cdk-fc]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-fc-1.0.8.tar.gz]
+[2023-07-19 04:11:43] INFO root fetch - processPackages [ros-cdk-fc]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-fc-1.0.9.tar.gz]
+[2023-07-19 04:11:43] INFO root fetch - main [MainThread]: End processing [ros-cdk-fc]: success
+[2023-07-19 04:11:43] INFO root fetch - processPackages [poseutil]: Downloading https://files.pythonhosted.org/packages/72/7f/bdc5586e5a4e30c004ee75a413faf082e143fe28cf487d478920018a4512/poseutil-0.0.2.tar.gz
+[2023-07-19 04:11:43] INFO root fetch - processPackages [fv1-programmer]: Downloading https://files.pythonhosted.org/packages/93/67/f25c3fff0018ce73a3fe05cdea659f6e9d9630739c1e6043fa02b28ca5cf/fv1_programmer-0.2.4.tar.gz
+[2023-07-19 04:11:43] INFO root fetch - processPackages [fv1-programmer]: executing diffoscope
+[2023-07-19 04:11:43] INFO root fetch - processPackages [fv1-programmer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fv1_programmer-0.2.3.tar.gz tmp/fv1_programmer-0.2.4.tar.gz --markdown 20230719/f/fv1-programmer/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-19 04:11:43] INFO root fetch - processPackages [poseutil]: executing diffoscope
+[2023-07-19 04:11:43] INFO root fetch - processPackages [poseutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poseutil-0.0.1.tar.gz tmp/poseutil-0.0.2.tar.gz --markdown 20230719/p/poseutil/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-19 04:11:43] INFO root fetch - processPackages [ros-cdk-ots]: Downloading https://files.pythonhosted.org/packages/0c/41/781713882f6cd0475dfbd98ad1cea7e3afc83cbf15cae9582ca15ae23988/ros-cdk-ots-1.0.9.tar.gz
+[2023-07-19 04:11:43] INFO root fetch - processPackages [ros-cdk-ens]: Downloading https://files.pythonhosted.org/packages/43/fc/efd68838d06b21d7a3bc760aa32b8c78e27681eb8f472ebb66139331c44c/ros-cdk-ens-1.0.9.tar.gz
+[2023-07-19 04:11:43] INFO root fetch - processPackages [ros-cdk-ots]: executing diffoscope
+[2023-07-19 04:11:43] INFO root fetch - processPackages [ros-cdk-ots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-ots-1.0.8.tar.gz tmp/ros-cdk-ots-1.0.9.tar.gz --markdown 20230719/r/ros-cdk-ots/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 04:11:43] INFO root fetch - processPackages [ros-cdk-cen]: executing diffoscope
+[2023-07-19 04:11:43] INFO root fetch - processPackages [ros-cdk-cen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-cen-1.0.8.tar.gz tmp/ros-cdk-cen-1.0.9.tar.gz --markdown 20230719/r/ros-cdk-cen/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 04:11:44] INFO root fetch - processPackages [ros-cdk-ens]: executing diffoscope
+[2023-07-19 04:11:44] INFO root fetch - processPackages [ros-cdk-ens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-ens-1.0.8.tar.gz tmp/ros-cdk-ens-1.0.9.tar.gz --markdown 20230719/r/ros-cdk-ens/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 04:11:44] INFO root fetch - processPackages [omni-pro]: Remove: archive file [/home/abi/fetcher/tmp/omni-pro-0.1.12.tar.gz]
+[2023-07-19 04:11:44] INFO root fetch - processPackages [omni-pro]: Remove: archive file [/home/abi/fetcher/tmp/omni-pro-0.1.13.tar.gz]
+[2023-07-19 04:11:44] INFO root fetch - main [MainThread]: End processing [omni-pro]: success
+[2023-07-19 04:11:44] INFO root fetch - processPackages [poseutil]: Remove: archive file [/home/abi/fetcher/tmp/poseutil-0.0.1.tar.gz]
+[2023-07-19 04:11:44] INFO root fetch - processPackages [poseutil]: Remove: archive file [/home/abi/fetcher/tmp/poseutil-0.0.2.tar.gz]
+[2023-07-19 04:11:44] INFO root fetch - main [MainThread]: End processing [poseutil]: success
+[2023-07-19 04:11:44] INFO root fetch - processPackages [fv1-programmer]: Remove: archive file [/home/abi/fetcher/tmp/fv1_programmer-0.2.3.tar.gz]
+[2023-07-19 04:11:44] INFO root fetch - processPackages [fv1-programmer]: Remove: archive file [/home/abi/fetcher/tmp/fv1_programmer-0.2.4.tar.gz]
+[2023-07-19 04:11:44] INFO root fetch - main [MainThread]: End processing [fv1-programmer]: success
+[2023-07-19 04:11:44] INFO root fetch - processPackages [ros-cdk-ens]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ens-1.0.8.tar.gz]
+[2023-07-19 04:11:44] INFO root fetch - processPackages [ros-cdk-ens]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ens-1.0.9.tar.gz]
+[2023-07-19 04:11:44] INFO root fetch - main [MainThread]: End processing [ros-cdk-ens]: success
+[2023-07-19 04:11:44] INFO root fetch - processPackages [ros-cdk-ots]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ots-1.0.8.tar.gz]
+[2023-07-19 04:11:44] INFO root fetch - processPackages [ros-cdk-ots]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ots-1.0.9.tar.gz]
+[2023-07-19 04:11:44] INFO root fetch - main [MainThread]: End processing [ros-cdk-ots]: success
+[2023-07-19 04:11:45] INFO root fetch - processPackages [ros-cdk-cen]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cen-1.0.8.tar.gz]
+[2023-07-19 04:11:45] INFO root fetch - processPackages [ros-cdk-cen]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cen-1.0.9.tar.gz]
+[2023-07-19 04:11:45] INFO root fetch - main [MainThread]: End processing [ros-cdk-cen]: success
+[2023-07-19 04:11:45] INFO root fetch - main [MainThread]: Store serial: [18943234]
