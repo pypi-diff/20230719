@@ -18454,3 +18454,152 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-19 10:46:20] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230718.183712.tar.gz]
 [2023-07-19 10:46:20] INFO root fetch - main [MainThread]: End processing [returnn]: success
 [2023-07-19 10:46:20] INFO root fetch - main [MainThread]: Store serial: [18947383]
+[2023-07-19 10:51:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18947383]
+[2023-07-19 10:51:29] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-19 10:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: location-local
+[2023-07-19 10:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aliyun-python-sdk-dts
+[2023-07-19 10:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: infoblox-exporter
+[2023-07-19 10:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: liveramp-automation
+[2023-07-19 10:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: geoinsight
+[2023-07-19 10:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lyrebird-bugit
+[2023-07-19 10:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yams
+[2023-07-19 10:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xfact
+[2023-07-19 10:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xfact
+[2023-07-19 10:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: TDCRPy
+[2023-07-19 10:51:29] INFO root fetch - processPackages [lyrebird-bugit]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-19 10:51:29] INFO root fetch - processPackages [TDCRPy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 10:51:29] WARNING root fetch - processPackages [infoblox-exporter]: Skipping, unable to determine old version
+[2023-07-19 10:51:29] INFO root fetch - processPackages [infoblox-exporter]: Start processing: liveramp-automation
+[2023-07-19 10:51:29] INFO root fetch - main [MainThread]: End processing [infoblox-exporter] error
+[2023-07-19 10:51:29] INFO root fetch - processPackages [location-local]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-19 10:51:29] INFO root fetch - processPackages [geoinsight]: New version: [0.5.9] Old Version: [0.5.7]
+[2023-07-19 10:51:29] INFO root fetch - processPackages [lyrebird-bugit]: Downloading https://files.pythonhosted.org/packages/d3/95/eace435b1592036295ad9c2b6e0aa3e11d0bb883a7e34745dab498e8a890/lyrebird-bugit-1.9.0.tar.gz
+[2023-07-19 10:51:29] INFO root fetch - processPackages [liveramp-automation]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-19 10:51:29] INFO root fetch - processPackages [liveramp-automation]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-19 10:51:29] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/45/d1/26f2b4eb42e05416d7662d5fb8b6f31b59dee6421945806c7b7bfdfbfa94/TDCRPy-0.0.8.tar.gz
+[2023-07-19 10:51:29] INFO root fetch - processPackages [xfact]: New version: [0.4.66] Old Version: [0.4.65]
+[2023-07-19 10:51:29] INFO root fetch - processPackages [xfact]: New version: [0.4.66] Old Version: [0.4.65]
+[2023-07-19 10:51:29] INFO root fetch - processPackages [yams]: New version: [0.50.0] Old Version: [0.49.3]
+[2023-07-19 10:51:29] INFO root fetch - processPackages [aliyun-python-sdk-dts]: New version: [5.1.9] Old Version: [5.1.8]
+[2023-07-19 10:51:30] INFO root fetch - processPackages [location-local]: Downloading https://files.pythonhosted.org/packages/aa/20/06889b29e51c185fe6af92432dc41584680c333601b1ac22d637c130c58b/location-local-0.0.4.tar.gz
+[2023-07-19 10:51:30] INFO root fetch - processPackages [geoinsight]: Downloading https://files.pythonhosted.org/packages/bc/50/0f1802e3aed0827cedd02d8c0ed83a1b35f17e247f896ea6f2d4f083732f/geoinsight-0.5.7.tar.gz
+[2023-07-19 10:51:30] INFO root fetch - processPackages [liveramp-automation]: Downloading https://files.pythonhosted.org/packages/46/5e/604fb2f9bdeb53f0ecebdd4123c486b0b73756d3443cf0b00fbed4fee82f/liveramp_automation-0.0.1-py3-none-any.whl
+[2023-07-19 10:51:30] INFO root fetch - processPackages [liveramp-automation]: Downloading https://files.pythonhosted.org/packages/46/5e/604fb2f9bdeb53f0ecebdd4123c486b0b73756d3443cf0b00fbed4fee82f/liveramp_automation-0.0.1-py3-none-any.whl
+[2023-07-19 10:51:30] INFO root fetch - processPackages [xfact]: Downloading https://files.pythonhosted.org/packages/77/ce/9dbb6e2d59702d521a307cc77c44fc79ffd2fdd52b657a4f04955b8d75aa/xfact-0.4.65.tar.gz
+[2023-07-19 10:51:30] INFO root fetch - processPackages [xfact]: Downloading https://files.pythonhosted.org/packages/77/ce/9dbb6e2d59702d521a307cc77c44fc79ffd2fdd52b657a4f04955b8d75aa/xfact-0.4.65.tar.gz
+[2023-07-19 10:51:30] INFO root fetch - processPackages [yams]: Downloading https://files.pythonhosted.org/packages/16/8a/dba7b6ef49c84afd8fbc24764ac314fe6e0c186e539cc3d0f06247a455b7/yams-0.49.3.tar.gz
+[2023-07-19 10:51:30] INFO root fetch - processPackages [aliyun-python-sdk-dts]: Downloading https://files.pythonhosted.org/packages/1c/1f/1074b54355d5aef9b6a0e23998334ebbc432ca30552bfb04f332d047c1bd/aliyun-python-sdk-dts-5.1.8.tar.gz
+[2023-07-19 10:51:30] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/58/f4/f09bcfbd9ef3b75b2932ba824304fc7e7bcee566e8570cb2d64f76eb9adc/TDCRPy-0.0.9.tar.gz
+[2023-07-19 10:51:30] INFO root fetch - processPackages [lyrebird-bugit]: Downloading https://files.pythonhosted.org/packages/e5/f0/e11fd63cc79d9b3c22836e7848a7f61dc72450e691ccf4c287491a1fa9ee/lyrebird-bugit-1.9.1.tar.gz
+[2023-07-19 10:51:30] INFO root fetch - processPackages [TDCRPy]: executing diffoscope
+[2023-07-19 10:51:30] INFO root fetch - processPackages [TDCRPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDCRPy-0.0.8.tar.gz tmp/TDCRPy-0.0.9.tar.gz --markdown 20230719/T/TDCRPy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 10:51:30] INFO root fetch - processPackages [location-local]: Downloading https://files.pythonhosted.org/packages/e6/ab/b18ceaf753fc7ab1451185480a917b7bbd1c11dd4ddb5091eb993697992f/location-local-0.0.5.tar.gz
+[2023-07-19 10:51:30] INFO root fetch - processPackages [geoinsight]: Downloading https://files.pythonhosted.org/packages/3d/51/3de62d0b0d8097f627583de59391d0938f6df7682298c214ed042762e563/geoinsight-0.5.9.tar.gz
+[2023-07-19 10:51:30] INFO root fetch - processPackages [liveramp-automation]: Downloading https://files.pythonhosted.org/packages/2b/e4/f77acc91140e7fa75d1b1d542cb7cbff3ef339a36b9621daab9e6bda6f57/liveramp_automation-0.0.2-py3-none-any.whl
+[2023-07-19 10:51:30] INFO root fetch - processPackages [liveramp-automation]: Downloading https://files.pythonhosted.org/packages/2b/e4/f77acc91140e7fa75d1b1d542cb7cbff3ef339a36b9621daab9e6bda6f57/liveramp_automation-0.0.2-py3-none-any.whl
+[2023-07-19 10:51:30] INFO root fetch - processPackages [xfact]: Downloading https://files.pythonhosted.org/packages/e7/f1/b2f5ba6716f561a0af25f32ad5fe8be3377b7100270b817fa3031f9b1e80/xfact-0.4.66.tar.gz
+[2023-07-19 10:51:30] INFO root fetch - processPackages [xfact]: Downloading https://files.pythonhosted.org/packages/e7/f1/b2f5ba6716f561a0af25f32ad5fe8be3377b7100270b817fa3031f9b1e80/xfact-0.4.66.tar.gz
+[2023-07-19 10:51:30] INFO root fetch - processPackages [location-local]: executing diffoscope
+[2023-07-19 10:51:30] INFO root fetch - processPackages [location-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/location-local-0.0.4.tar.gz tmp/location-local-0.0.5.tar.gz --markdown 20230719/l/location-local/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-19 10:51:30] INFO root fetch - processPackages [geoinsight]: executing diffoscope
+[2023-07-19 10:51:30] INFO root fetch - processPackages [geoinsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geoinsight-0.5.7.tar.gz tmp/geoinsight-0.5.9.tar.gz --markdown 20230719/g/geoinsight/0.5.7-0.5.9/diff.md --exclude *.pyd
+[2023-07-19 10:51:30] INFO root fetch - processPackages [yams]: Downloading https://files.pythonhosted.org/packages/38/35/9c138b086d50a77c15447a894216270850b7917e3181ec4e11a30876a7f2/yams-0.50.0.tar.gz
+[2023-07-19 10:51:30] INFO root fetch - processPackages [aliyun-python-sdk-dts]: Downloading https://files.pythonhosted.org/packages/7f/78/86ddfa771b45861393f3b45671a1e183017fb0d367d5777b900fb6244ec9/aliyun-python-sdk-dts-5.1.9.tar.gz
+[2023-07-19 10:51:30] INFO root fetch - processPackages [lyrebird-bugit]: executing diffoscope
+[2023-07-19 10:51:30] INFO root fetch - processPackages [lyrebird-bugit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyrebird-bugit-1.9.0.tar.gz tmp/lyrebird-bugit-1.9.1.tar.gz --markdown 20230719/l/lyrebird-bugit/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-19 10:51:31] INFO root fetch - processPackages [liveramp-automation]: executing diffoscope
+[2023-07-19 10:51:31] INFO root fetch - processPackages [liveramp-automation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveramp_automation-0.0.1-py3-none-any.whl.zip tmp/liveramp_automation-0.0.2-py3-none-any.whl.zip --markdown 20230719/l/liveramp-automation/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-19 10:51:31] INFO root fetch - processPackages [liveramp-automation]: executing diffoscope
+[2023-07-19 10:51:31] INFO root fetch - processPackages [liveramp-automation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveramp_automation-0.0.1-py3-none-any.whl.zip tmp/liveramp_automation-0.0.2-py3-none-any.whl.zip --markdown 20230719/l/liveramp-automation/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-19 10:51:31] INFO root fetch - processPackages [xfact]: executing diffoscope
+[2023-07-19 10:51:31] INFO root fetch - processPackages [xfact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xfact-0.4.65.tar.gz tmp/xfact-0.4.66.tar.gz --markdown 20230719/x/xfact/0.4.65-0.4.66/diff.md --exclude *.pyd
+[2023-07-19 10:51:31] INFO root fetch - processPackages [xfact]: executing diffoscope
+[2023-07-19 10:51:31] INFO root fetch - processPackages [xfact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xfact-0.4.65.tar.gz tmp/xfact-0.4.66.tar.gz --markdown 20230719/x/xfact/0.4.65-0.4.66/diff.md --exclude *.pyd
+[2023-07-19 10:51:31] INFO root fetch - processPackages [yams]: executing diffoscope
+[2023-07-19 10:51:31] INFO root fetch - processPackages [yams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yams-0.49.3.tar.gz tmp/yams-0.50.0.tar.gz --markdown 20230719/y/yams/0.49.3-0.50.0/diff.md --exclude *.pyd
+[2023-07-19 10:51:31] INFO root fetch - processPackages [aliyun-python-sdk-dts]: executing diffoscope
+[2023-07-19 10:51:31] INFO root fetch - processPackages [aliyun-python-sdk-dts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-dts-5.1.8.tar.gz tmp/aliyun-python-sdk-dts-5.1.9.tar.gz --markdown 20230719/a/aliyun-python-sdk-dts/5.1.8-5.1.9/diff.md --exclude *.pyd
+[2023-07-19 10:51:32] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.8.tar.gz]
+[2023-07-19 10:51:32] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.9.tar.gz]
+[2023-07-19 10:51:32] INFO root fetch - processPackages [TDCRPy]: Start processing: gitflow-pyproject-version-bumper
+[2023-07-19 10:51:32] INFO root fetch - main [MainThread]: End processing [TDCRPy]: success
+[2023-07-19 10:51:32] INFO root fetch - processPackages [gitflow-pyproject-version-bumper]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-19 10:51:32] INFO root fetch - processPackages [location-local]: Remove: archive file [/home/abi/fetcher/tmp/location-local-0.0.4.tar.gz]
+[2023-07-19 10:51:32] INFO root fetch - processPackages [location-local]: Remove: archive file [/home/abi/fetcher/tmp/location-local-0.0.5.tar.gz]
+[2023-07-19 10:51:32] INFO root fetch - processPackages [location-local]: Start processing: mecord-cli
+[2023-07-19 10:51:32] INFO root fetch - main [MainThread]: End processing [location-local]: success
+[2023-07-19 10:51:32] INFO root fetch - processPackages [mecord-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-19 10:51:32] INFO root fetch - processPackages [geoinsight]: Remove: archive file [/home/abi/fetcher/tmp/geoinsight-0.5.7.tar.gz]
+[2023-07-19 10:51:32] INFO root fetch - processPackages [geoinsight]: Remove: archive file [/home/abi/fetcher/tmp/geoinsight-0.5.9.tar.gz]
+[2023-07-19 10:51:32] INFO root fetch - processPackages [geoinsight]: Start processing: segment.task.demo
+[2023-07-19 10:51:32] INFO root fetch - main [MainThread]: End processing [geoinsight]: success
+[2023-07-19 10:51:32] INFO root fetch - processPackages [gitflow-pyproject-version-bumper]: Downloading https://files.pythonhosted.org/packages/12/c6/99c3e880fac7540ee8dea6c92cef0bcac4facef3a771ac61aa3b18cad1f3/gitflow-pyproject-version-bumper-0.1.3.tar.gz
+[2023-07-19 10:51:32] WARNING root fetch - processPackages [segment.task.demo]: Skipping, unable to determine old version
+[2023-07-19 10:51:32] INFO root fetch - processPackages [segment.task.demo]: Start processing: tfp-nightly
+[2023-07-19 10:51:32] INFO root fetch - main [MainThread]: End processing [segment.task.demo] error
+[2023-07-19 10:51:32] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/99/07/defecf133b4a0c137e7272f092b0a7e4b36005e5d2e5b2e4f22949323973/mecord-cli-0.1.8.tar.gz
+[2023-07-19 10:51:32] INFO root fetch - processPackages [liveramp-automation]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation-0.0.1-py3-none-any.whl.zip]
+[2023-07-19 10:51:32] INFO root fetch - processPackages [liveramp-automation]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation-0.0.2-py3-none-any.whl.zip]
+[2023-07-19 10:51:32] INFO root fetch - processPackages [liveramp-automation]: Start processing: scinumtools
+[2023-07-19 10:51:32] INFO root fetch - main [MainThread]: End processing [liveramp-automation]: success
+[2023-07-19 10:51:33] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-07-19 10:51:33] INFO root fetch - processPackages [scinumtools]: New version: [1.6.5] Old Version: [1.6.4]
+[2023-07-19 10:51:33] INFO root fetch - processPackages [liveramp-automation]: Start processing: trackplot
+[2023-07-19 10:51:33] INFO root fetch - main [MainThread]: End processing [liveramp-automation]: success
+[2023-07-19 10:51:33] INFO root fetch - processPackages [xfact]: Remove: archive file [/home/abi/fetcher/tmp/xfact-0.4.65.tar.gz]
+[2023-07-19 10:51:33] INFO root fetch - processPackages [xfact]: Remove: archive file [/home/abi/fetcher/tmp/xfact-0.4.66.tar.gz]
+[2023-07-19 10:51:33] INFO root fetch - processPackages [xfact]: Start processing: aliyun-python-sdk-dts
+[2023-07-19 10:51:33] INFO root fetch - main [MainThread]: End processing [xfact]: success
+[2023-07-19 10:51:33] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2023-07-19 10:51:33] INFO root fetch - processPackages [scinumtools]: Downloading https://files.pythonhosted.org/packages/d5/92/bc50acb7b829f2290355d6a85135e9c86c6b1b3dd15fb3a53e3601b39ebf/scinumtools-1.6.4.tar.gz
+[2023-07-19 10:51:33] INFO root fetch - processPackages [aliyun-python-sdk-dts]: New version: [5.1.9] Old Version: [5.1.8]
+[2023-07-19 10:51:33] INFO root fetch - main [MainThread]: End processing [xfact]: success
+[2023-07-19 10:51:33] INFO root fetch - processPackages [trackplot]: New version: [0.3.0] Old Version: [0.2.8]
+[2023-07-19 10:51:33] INFO root fetch - processPackages [gitflow-pyproject-version-bumper]: Downloading https://files.pythonhosted.org/packages/f2/a4/4412559dbbd967157d0bad9f38ae65ede747f1aa36ff6399bfe54790d7bc/gitflow_pyproject_version_bumper-0.1.4.tar.gz
+[2023-07-19 10:51:33] INFO root fetch - processPackages [aliyun-python-sdk-dts]: executing diffoscope
+[2023-07-19 10:51:33] INFO root fetch - processPackages [aliyun-python-sdk-dts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-dts-5.1.8.tar.gz tmp/aliyun-python-sdk-dts-5.1.9.tar.gz --markdown 20230719/a/aliyun-python-sdk-dts/5.1.8-5.1.9/diff.md --exclude *.pyd
+[2023-07-19 10:51:33] INFO root fetch - processPackages [scinumtools]: Downloading https://files.pythonhosted.org/packages/e0/dc/5b87693faef091b3f3ac531aecb573e282612e6fa14752955c59dd87a81c/scinumtools-1.6.5.tar.gz
+[2023-07-19 10:51:33] INFO root fetch - processPackages [yams]: Remove: archive file [/home/abi/fetcher/tmp/yams-0.49.3.tar.gz]
+[2023-07-19 10:51:33] INFO root fetch - processPackages [yams]: Remove: archive file [/home/abi/fetcher/tmp/yams-0.50.0.tar.gz]
+[2023-07-19 10:51:33] INFO root fetch - main [MainThread]: End processing [yams]: success
+[2023-07-19 10:51:33] INFO root fetch - processPackages [gitflow-pyproject-version-bumper]: executing diffoscope
+[2023-07-19 10:51:33] INFO root fetch - processPackages [gitflow-pyproject-version-bumper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitflow-pyproject-version-bumper-0.1.3.tar.gz tmp/gitflow_pyproject_version_bumper-0.1.4.tar.gz --markdown 20230719/g/gitflow-pyproject-version-bumper/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-19 10:51:33] INFO root fetch - processPackages [trackplot]: Downloading https://files.pythonhosted.org/packages/69/5c/f82adba27a84896603e99e4086aea366d3d33f85aeba3a5a2193cdb6d3cb/trackplot-0.2.8.tar.gz
+[2023-07-19 10:51:33] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/2b/9f/dbf00e6cfb2e166744734b7095dec6d81a7ee7213a1ef56c5c29e85783a1/mecord-cli-0.1.9.tar.gz
+[2023-07-19 10:51:33] INFO root fetch - processPackages [aliyun-python-sdk-dts]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-dts-5.1.8.tar.gz]
+[2023-07-19 10:51:33] INFO root fetch - processPackages [aliyun-python-sdk-dts]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-dts-5.1.9.tar.gz]
+[2023-07-19 10:51:33] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-dts]: success
+[2023-07-19 10:51:33] INFO root fetch - processPackages [scinumtools]: executing diffoscope
+[2023-07-19 10:51:33] INFO root fetch - processPackages [scinumtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scinumtools-1.6.4.tar.gz tmp/scinumtools-1.6.5.tar.gz --markdown 20230719/s/scinumtools/1.6.4-1.6.5/diff.md --exclude *.pyd
+[2023-07-19 10:51:33] INFO root fetch - processPackages [mecord-cli]: executing diffoscope
+[2023-07-19 10:51:33] INFO root fetch - processPackages [mecord-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecord-cli-0.1.8.tar.gz tmp/mecord-cli-0.1.9.tar.gz --markdown 20230719/m/mecord-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-19 10:51:33] INFO root fetch - processPackages [trackplot]: Downloading https://files.pythonhosted.org/packages/be/5e/d15d320e846b75915cab959bf6feea7e5b7e4aee57134a2db8b3b93a7c65/trackplot-0.3.0.tar.gz
+[2023-07-19 10:51:34] ERROR root fetch - processPackages [aliyun-python-sdk-dts]: Diffoscope failed: time="2023-07-19T10:51:33+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/aliyun-python-sdk-dts-5.1.8.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/aliyun-python-sdk-dts-5.1.9.tar.gz: No such file or directory
+
+[2023-07-19 10:51:34] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-dts] error
+[2023-07-19 10:51:34] INFO root fetch - processPackages [trackplot]: executing diffoscope
+[2023-07-19 10:51:34] INFO root fetch - processPackages [trackplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trackplot-0.2.8.tar.gz tmp/trackplot-0.3.0.tar.gz --markdown 20230719/t/trackplot/0.2.8-0.3.0/diff.md --exclude *.pyd
+[2023-07-19 10:51:34] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2023-07-19 10:51:34] INFO root fetch - processPackages [gitflow-pyproject-version-bumper]: Remove: archive file [/home/abi/fetcher/tmp/gitflow-pyproject-version-bumper-0.1.3.tar.gz]
+[2023-07-19 10:51:34] INFO root fetch - processPackages [gitflow-pyproject-version-bumper]: Remove: archive file [/home/abi/fetcher/tmp/gitflow_pyproject_version_bumper-0.1.4.tar.gz]
+[2023-07-19 10:51:34] INFO root fetch - main [MainThread]: End processing [gitflow-pyproject-version-bumper]: success
+[2023-07-19 10:51:34] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-07-19 10:51:34] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230719/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-07-19 10:51:35] INFO root fetch - processPackages [scinumtools]: Remove: archive file [/home/abi/fetcher/tmp/scinumtools-1.6.4.tar.gz]
+[2023-07-19 10:51:35] INFO root fetch - processPackages [scinumtools]: Remove: archive file [/home/abi/fetcher/tmp/scinumtools-1.6.5.tar.gz]
+[2023-07-19 10:51:35] INFO root fetch - main [MainThread]: End processing [scinumtools]: success
+[2023-07-19 10:51:35] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.1.8.tar.gz]
+[2023-07-19 10:51:35] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.1.9.tar.gz]
+[2023-07-19 10:51:35] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
+[2023-07-19 10:51:35] INFO root fetch - processPackages [lyrebird-bugit]: Remove: archive file [/home/abi/fetcher/tmp/lyrebird-bugit-1.9.0.tar.gz]
+[2023-07-19 10:51:35] INFO root fetch - processPackages [lyrebird-bugit]: Remove: archive file [/home/abi/fetcher/tmp/lyrebird-bugit-1.9.1.tar.gz]
+[2023-07-19 10:51:35] INFO root fetch - main [MainThread]: End processing [lyrebird-bugit]: success
+[2023-07-19 10:51:35] INFO root fetch - processPackages [trackplot]: Remove: archive file [/home/abi/fetcher/tmp/trackplot-0.2.8.tar.gz]
+[2023-07-19 10:51:35] INFO root fetch - processPackages [trackplot]: Remove: archive file [/home/abi/fetcher/tmp/trackplot-0.3.0.tar.gz]
+[2023-07-19 10:51:35] INFO root fetch - main [MainThread]: End processing [trackplot]: success
+[2023-07-19 10:51:40] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2023-07-19 10:51:40] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2023-07-19 10:51:40] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-07-19 10:51:40] INFO root fetch - main [MainThread]: Store serial: [18947446]
