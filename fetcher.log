@@ -11398,3 +11398,96 @@
 [2023-07-19 05:11:09] INFO root fetch - processPackages [kgraph]: Remove: archive file [/home/abi/fetcher/tmp/kgraph-1.1.0.tar.gz]
 [2023-07-19 05:11:09] INFO root fetch - main [MainThread]: End processing [kgraph]: success
 [2023-07-19 05:11:09] INFO root fetch - main [MainThread]: Store serial: [18944798]
+[2023-07-19 05:16:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18944798]
+[2023-07-19 05:16:19] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-19 05:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s-plus-26
+[2023-07-19 05:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk8s-plus-25
+[2023-07-19 05:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: example-devup-hungbd
+[2023-07-19 05:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: naif-eop-high-prec
+[2023-07-19 05:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: airavata-mft-sdk
+[2023-07-19 05:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: piperider
+[2023-07-19 05:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aaz-dev
+[2023-07-19 05:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: air2phin
+[2023-07-19 05:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fileformats-medimage
+[2023-07-19 05:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: genUniquePassw
+[2023-07-19 05:16:19] INFO root fetch - processPackages [air2phin]: New version: [0.0.22a2] Old Version: [0.0.22a1]
+[2023-07-19 05:16:19] INFO root fetch - processPackages [airavata-mft-sdk]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-07-19 05:16:19] WARNING root fetch - processPackages [genUniquePassw]: Skipping, unable to determine old version
+[2023-07-19 05:16:19] INFO root fetch - processPackages [genUniquePassw]: Start processing: Flask-ShopifyUtils
+[2023-07-19 05:16:19] INFO root fetch - main [MainThread]: End processing [genUniquePassw] error
+[2023-07-19 05:16:19] WARNING root fetch - processPackages [Flask-ShopifyUtils]: Skipping, unable to determine old version
+[2023-07-19 05:16:19] INFO root fetch - processPackages [Flask-ShopifyUtils]: Start processing: renderg-sdk
+[2023-07-19 05:16:19] INFO root fetch - main [MainThread]: End processing [Flask-ShopifyUtils] error
+[2023-07-19 05:16:19] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.8.97] Old Version: [2.8.96]
+[2023-07-19 05:16:19] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.97] Old Version: [2.4.96]
+[2023-07-19 05:16:19] INFO root fetch - processPackages [airavata-mft-sdk]: Downloading https://files.pythonhosted.org/packages/3a/a6/d61404130d92d7bc606a86662bd5c25ba9e11b0bf90ff6d442cd30423186/airavata_mft_sdk-0.0.1a8.tar.gz
+[2023-07-19 05:16:19] INFO root fetch - processPackages [air2phin]: Downloading https://files.pythonhosted.org/packages/76/35/9ca5d247065543eea6813646fac8ed37d2d7ab1796a281ef6b0af2eb10da/air2phin-0.0.22a1.tar.gz
+[2023-07-19 05:16:19] INFO root fetch - processPackages [aaz-dev]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-07-19 05:16:19] WARNING root fetch - processPackages [example-devup-hungbd]: Skipping, unable to determine old version
+[2023-07-19 05:16:19] INFO root fetch - main [MainThread]: End processing [example-devup-hungbd] error
+[2023-07-19 05:16:19] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-19 05:16:19] INFO root fetch - processPackages [piperider]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-07-19 05:16:20] INFO root fetch - processPackages [renderg-sdk]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-19 05:16:20] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/26/4b/c08150749de6e1ae7e663b4e1ee0bf5dffab4df91dc5a088bce9e54ac711/cdk8s-plus-26-2.4.96.tar.gz
+[2023-07-19 05:16:20] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/34/6e/c92f4e8ec0aa24763f45a76c1e4950bbe278ff720baf865142c757657408/cdk8s-plus-25-2.8.96.tar.gz
+[2023-07-19 05:16:20] INFO root fetch - processPackages [fileformats-medimage]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-19 05:16:20] INFO root fetch - processPackages [aaz-dev]: Downloading https://files.pythonhosted.org/packages/d6/df/adfde0105c071f00992ed82276a10d4764ca3f09b6961623461cea9f1b12/aaz-dev-1.4.0.tar.gz
+[2023-07-19 05:16:20] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/09/ed/7488d5d961ce08546f5ee7ced9b28382ede88767e23d898f7a089dbd5065/naif_eop_high_prec-2023.7.8.tar.gz
+[2023-07-19 05:16:20] INFO root fetch - processPackages [renderg-sdk]: Downloading https://files.pythonhosted.org/packages/27/d6/368ec6266135d240b34fbb3b8d0a75b3b8ec2b339b428a868fcea9c869a7/renderg-sdk-0.1.7.tar.gz
+[2023-07-19 05:16:20] INFO root fetch - processPackages [piperider]: Downloading https://files.pythonhosted.org/packages/a4/50/e24b00f8c9eee6add2d234812268358dd31efb1c7692b89e4f2abcf53b3a/piperider-0.9.0.tar.gz
+[2023-07-19 05:16:20] INFO root fetch - processPackages [airavata-mft-sdk]: Downloading https://files.pythonhosted.org/packages/c0/66/18b9ec372f85cca4b99a177499a5fe419165a67369169cda8ca56b481750/airavata_mft_sdk-0.0.1a9.tar.gz
+[2023-07-19 05:16:20] INFO root fetch - processPackages [air2phin]: Downloading https://files.pythonhosted.org/packages/d2/61/cf28c99d22a8fb5568a8c55bd847e476c61d1c6cb1ce75400f09f41a42da/air2phin-0.0.22a2.tar.gz
+[2023-07-19 05:16:20] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/69/67/e66aa7523a39cf44bc9b0f0cbe14ba9f6ff9fe99bdaa21ad3388ec48fd50/cdk8s-plus-26-2.4.97.tar.gz
+[2023-07-19 05:16:20] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/e6/7c/fac583ee5b80be5a58869ec0f6c6d5317738eccf74e5ff207c05b41adebd/cdk8s-plus-25-2.8.97.tar.gz
+[2023-07-19 05:16:20] INFO root fetch - processPackages [airavata-mft-sdk]: executing diffoscope
+[2023-07-19 05:16:20] INFO root fetch - processPackages [airavata-mft-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airavata_mft_sdk-0.0.1a8.tar.gz tmp/airavata_mft_sdk-0.0.1a9.tar.gz --markdown 20230719/a/airavata-mft-sdk/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-07-19 05:16:20] INFO root fetch - processPackages [fileformats-medimage]: Downloading https://files.pythonhosted.org/packages/37/f3/6b444cc32671b435332caf1513fc08414ec1e397cd5d198ba2430990591d/fileformats_medimage-0.4.0.tar.gz
+[2023-07-19 05:16:20] INFO root fetch - processPackages [air2phin]: executing diffoscope
+[2023-07-19 05:16:20] INFO root fetch - processPackages [air2phin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/air2phin-0.0.22a1.tar.gz tmp/air2phin-0.0.22a2.tar.gz --markdown 20230719/a/air2phin/0.0.22a1-0.0.22a2/diff.md --exclude *.pyd
+[2023-07-19 05:16:20] INFO root fetch - processPackages [renderg-sdk]: Downloading https://files.pythonhosted.org/packages/cc/28/dc57b3e42bb4130a2dbd45ae56667b42c222d67511591bef847d7250d3ee/renderg-sdk-0.1.8.tar.gz
+[2023-07-19 05:16:20] INFO root fetch - processPackages [aaz-dev]: Downloading https://files.pythonhosted.org/packages/2a/1f/7fbab3c763c09bfbfae499b172fafccf554624f029a69c2648876d93a0f0/aaz-dev-1.5.0.tar.gz
+[2023-07-19 05:16:20] INFO root fetch - processPackages [fileformats-medimage]: Downloading https://files.pythonhosted.org/packages/44/e7/48b5aa1ec3aee856585ce161d2e14a0103e5998ef9613bc491f15ffe6846/fileformats_medimage-0.4.1.tar.gz
+[2023-07-19 05:16:20] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-07-19 05:16:20] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.96.tar.gz tmp/cdk8s-plus-26-2.4.97.tar.gz --markdown 20230719/c/cdk8s-plus-26/2.4.96-2.4.97/diff.md --exclude *.pyd
+[2023-07-19 05:16:20] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-07-19 05:16:20] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.8.96.tar.gz tmp/cdk8s-plus-25-2.8.97.tar.gz --markdown 20230719/c/cdk8s-plus-25/2.8.96-2.8.97/diff.md --exclude *.pyd
+[2023-07-19 05:16:21] INFO root fetch - processPackages [fileformats-medimage]: executing diffoscope
+[2023-07-19 05:16:21] INFO root fetch - processPackages [fileformats-medimage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fileformats_medimage-0.4.0.tar.gz tmp/fileformats_medimage-0.4.1.tar.gz --markdown 20230719/f/fileformats-medimage/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-19 05:16:21] INFO root fetch - processPackages [aaz-dev]: executing diffoscope
+[2023-07-19 05:16:21] INFO root fetch - processPackages [aaz-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aaz-dev-1.4.0.tar.gz tmp/aaz-dev-1.5.0.tar.gz --markdown 20230719/a/aaz-dev/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-07-19 05:16:21] INFO root fetch - processPackages [piperider]: Downloading https://files.pythonhosted.org/packages/7a/f9/9cc8461c7b00069da016c58db04f6c975e2adf28d9cbd443a882dd7396de/piperider-0.9.0rc1.tar.gz
+[2023-07-19 05:16:21] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/a2/f8/57853410d5affd1adacbfb12a5d90596ba94081ec97e3ffc215261ba9fea/naif_eop_high_prec-2023.7.9.tar.gz
+[2023-07-19 05:16:21] INFO root fetch - processPackages [air2phin]: Remove: archive file [/home/abi/fetcher/tmp/air2phin-0.0.22a1.tar.gz]
+[2023-07-19 05:16:21] INFO root fetch - processPackages [air2phin]: Remove: archive file [/home/abi/fetcher/tmp/air2phin-0.0.22a2.tar.gz]
+[2023-07-19 05:16:21] INFO root fetch - main [MainThread]: End processing [air2phin]: success
+[2023-07-19 05:16:21] INFO root fetch - processPackages [renderg-sdk]: executing diffoscope
+[2023-07-19 05:16:21] INFO root fetch - processPackages [renderg-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renderg-sdk-0.1.7.tar.gz tmp/renderg-sdk-0.1.8.tar.gz --markdown 20230719/r/renderg-sdk/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-19 05:16:21] INFO root fetch - processPackages [airavata-mft-sdk]: Remove: archive file [/home/abi/fetcher/tmp/airavata_mft_sdk-0.0.1a8.tar.gz]
+[2023-07-19 05:16:21] INFO root fetch - processPackages [airavata-mft-sdk]: Remove: archive file [/home/abi/fetcher/tmp/airavata_mft_sdk-0.0.1a9.tar.gz]
+[2023-07-19 05:16:21] INFO root fetch - main [MainThread]: End processing [airavata-mft-sdk]: success
+[2023-07-19 05:16:21] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2023-07-19 05:16:21] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2023.7.8.tar.gz tmp/naif_eop_high_prec-2023.7.9.tar.gz --markdown 20230719/n/naif-eop-high-prec/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-19 05:16:22] INFO root fetch - processPackages [fileformats-medimage]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_medimage-0.4.0.tar.gz]
+[2023-07-19 05:16:22] INFO root fetch - processPackages [fileformats-medimage]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_medimage-0.4.1.tar.gz]
+[2023-07-19 05:16:22] INFO root fetch - main [MainThread]: End processing [fileformats-medimage]: success
+[2023-07-19 05:16:22] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.96.tar.gz]
+[2023-07-19 05:16:22] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.97.tar.gz]
+[2023-07-19 05:16:22] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-07-19 05:16:22] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.96.tar.gz]
+[2023-07-19 05:16:22] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.97.tar.gz]
+[2023-07-19 05:16:22] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-07-19 05:16:22] INFO root fetch - processPackages [piperider]: executing diffoscope
+[2023-07-19 05:16:22] INFO root fetch - processPackages [piperider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-0.9.0.tar.gz tmp/piperider-0.9.0rc1.tar.gz --markdown 20230719/p/piperider/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-07-19 05:16:23] INFO root fetch - processPackages [aaz-dev]: Remove: archive file [/home/abi/fetcher/tmp/aaz-dev-1.4.0.tar.gz]
+[2023-07-19 05:16:23] INFO root fetch - processPackages [aaz-dev]: Remove: archive file [/home/abi/fetcher/tmp/aaz-dev-1.5.0.tar.gz]
+[2023-07-19 05:16:23] INFO root fetch - main [MainThread]: End processing [aaz-dev]: success
+[2023-07-19 05:16:24] INFO root fetch - processPackages [renderg-sdk]: Remove: archive file [/home/abi/fetcher/tmp/renderg-sdk-0.1.7.tar.gz]
+[2023-07-19 05:16:24] INFO root fetch - processPackages [renderg-sdk]: Remove: archive file [/home/abi/fetcher/tmp/renderg-sdk-0.1.8.tar.gz]
+[2023-07-19 05:16:24] INFO root fetch - main [MainThread]: End processing [renderg-sdk]: success
+[2023-07-19 05:16:24] INFO root fetch - processPackages [piperider]: Remove: archive file [/home/abi/fetcher/tmp/piperider-0.9.0.tar.gz]
+[2023-07-19 05:16:24] INFO root fetch - processPackages [piperider]: Remove: archive file [/home/abi/fetcher/tmp/piperider-0.9.0rc1.tar.gz]
+[2023-07-19 05:16:24] INFO root fetch - main [MainThread]: End processing [piperider]: success
+[2023-07-19 05:16:24] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.8.tar.gz]
+[2023-07-19 05:16:24] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.9.tar.gz]
+[2023-07-19 05:16:24] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2023-07-19 05:16:24] INFO root fetch - main [MainThread]: Store serial: [18944835]
