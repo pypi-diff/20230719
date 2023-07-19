@@ -21787,3 +21787,99 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-19 12:54:46] INFO root fetch - processPackages [data-engineering-pulumi-components]: Remove: archive file [/home/abi/fetcher/tmp/data-engineering-pulumi-components-0.4.1.dev7.tar.gz]
 [2023-07-19 12:54:46] INFO root fetch - main [MainThread]: End processing [data-engineering-pulumi-components]: success
 [2023-07-19 12:54:46] INFO root fetch - main [MainThread]: Store serial: [18948984]
+[2023-07-19 12:59:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18948984]
+[2023-07-19 12:59:55] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-19 12:59:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: funding-service-design-utils
+[2023-07-19 12:59:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: antigranular
+[2023-07-19 12:59:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: systembridgewindowssensors
+[2023-07-19 12:59:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: systembridgefrontend
+[2023-07-19 12:59:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TDCRPy
+[2023-07-19 12:59:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bridgecrew
+[2023-07-19 12:59:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: uncertainty-datatypes
+[2023-07-19 12:59:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lXtractor
+[2023-07-19 12:59:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: OneOnOne
+[2023-07-19 12:59:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: micrOSDevToolKit
+[2023-07-19 12:59:55] INFO root fetch - processPackages [lXtractor]: New version: [0.1.dev6] Old Version: [0.1.dev5]
+[2023-07-19 12:59:55] INFO root fetch - processPackages [TDCRPy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 12:59:55] INFO root fetch - processPackages [OneOnOne]: New version: [0.688] Old Version: [0.687]
+[2023-07-19 12:59:55] INFO root fetch - processPackages [uncertainty-datatypes]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 12:59:55] WARNING root fetch - processPackages [micrOSDevToolKit]: Skipping, unable to determine old version
+[2023-07-19 12:59:55] INFO root fetch - processPackages [micrOSDevToolKit]: Start processing: nwebclient
+[2023-07-19 12:59:55] INFO root fetch - main [MainThread]: End processing [micrOSDevToolKit] error
+[2023-07-19 12:59:55] INFO root fetch - processPackages [systembridgefrontend]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-19 12:59:55] INFO root fetch - processPackages [systembridgewindowssensors]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-19 12:59:55] INFO root fetch - processPackages [antigranular]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-19 12:59:55] INFO root fetch - processPackages [funding-service-design-utils]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-19 12:59:55] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-19 12:59:55] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-19 12:59:55] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/45/d1/26f2b4eb42e05416d7662d5fb8b6f31b59dee6421945806c7b7bfdfbfa94/TDCRPy-0.0.8.tar.gz
+[2023-07-19 12:59:55] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/65/d2/7d985f3ac44ad75554e76217be8fe3d28db1bdd322c1ce13e6fb41a13cfb/OneOnOne-0.687.tar.gz
+[2023-07-19 12:59:55] INFO root fetch - processPackages [uncertainty-datatypes]: Downloading https://files.pythonhosted.org/packages/47/63/9686e1e4a70487f9723de948b123cc39a4acbc9e1dfbbb400a0a5e107698/uncertainty-datatypes-1.0.8.tar.gz
+[2023-07-19 12:59:55] INFO root fetch - processPackages [systembridgewindowssensors]: Downloading https://files.pythonhosted.org/packages/81/2c/02c0da61a4727fb73476c2fa38e036da03aeff26456262a663d075806564/systembridgewindowssensors-3.8.0.dev8.tar.gz
+[2023-07-19 12:59:55] INFO root fetch - processPackages [systembridgefrontend]: Downloading https://files.pythonhosted.org/packages/57/b3/050e9a7ff3adb63d1efc61115381d83b27eb28e65b4804113ac3308d3a0c/systembridgefrontend-3.8.0.dev8.tar.gz
+[2023-07-19 12:59:55] INFO root fetch - processPackages [lXtractor]: Downloading https://files.pythonhosted.org/packages/3d/fd/829699838ccd5011fe65aeed44cb69e147c9f813fe34188a889ee9968642/lxtractor-0.1.dev5.tar.gz
+[2023-07-19 12:59:55] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-07-19 12:59:55] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-19 12:59:56] INFO root fetch - processPackages [funding-service-design-utils]: Downloading https://files.pythonhosted.org/packages/fc/05/ebfd1361ff3bd9a9b0a15e036dfd215e147713cb058c15778765feded45b/funding-service-design-utils-2.0.8.tar.gz
+[2023-07-19 12:59:56] INFO root fetch - processPackages [antigranular]: Downloading https://files.pythonhosted.org/packages/16/5c/c6fd2d29d769ca6b127b0d21499567643cbc5e2a60fd6108a93c61b4fd04/antigranular-0.2.1.tar.gz
+[2023-07-19 12:59:56] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/58/f4/f09bcfbd9ef3b75b2932ba824304fc7e7bcee566e8570cb2d64f76eb9adc/TDCRPy-0.0.9.tar.gz
+[2023-07-19 12:59:56] INFO root fetch - processPackages [systembridgefrontend]: Downloading https://files.pythonhosted.org/packages/a7/bd/51ec0da5bcd5903b111736968abaaa3d5a5d6f77e9ccb9ece74f6bb92670/systembridgefrontend-3.8.0.dev9.tar.gz
+[2023-07-19 12:59:56] INFO root fetch - processPackages [uncertainty-datatypes]: Downloading https://files.pythonhosted.org/packages/a2/0e/68bea11827fa0851563450359afc1526f80bfff934f592a362c8e9c4e660/uncertainty-datatypes-1.0.9.tar.gz
+[2023-07-19 12:59:56] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-07-19 12:59:56] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/99/90/79b97977c93ba38b078fba592b91a92021b12943cdc20de874812b4c0ad2/OneOnOne-0.688.tar.gz
+[2023-07-19 12:59:56] INFO root fetch - processPackages [TDCRPy]: executing diffoscope
+[2023-07-19 12:59:56] INFO root fetch - processPackages [TDCRPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDCRPy-0.0.8.tar.gz tmp/TDCRPy-0.0.9.tar.gz --markdown 20230719/T/TDCRPy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 12:59:56] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-19 12:59:56] INFO root fetch - processPackages [antigranular]: Downloading https://files.pythonhosted.org/packages/f9/54/f62e554469e81c3b7dcd095179ba4edf1efc61056ea6211fc7d3b553510f/antigranular-0.2.2.tar.gz
+[2023-07-19 12:59:56] INFO root fetch - processPackages [uncertainty-datatypes]: executing diffoscope
+[2023-07-19 12:59:56] INFO root fetch - processPackages [uncertainty-datatypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uncertainty-datatypes-1.0.8.tar.gz tmp/uncertainty-datatypes-1.0.9.tar.gz --markdown 20230719/u/uncertainty-datatypes/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 12:59:56] INFO root fetch - processPackages [lXtractor]: Downloading https://files.pythonhosted.org/packages/d6/78/cf87905fb82ba062820dace94a675b7f6ff90e2ace8632e0888005aefb87/lxtractor-0.1.dev6.tar.gz
+[2023-07-19 12:59:56] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-07-19 12:59:56] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230719/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-19 12:59:56] INFO root fetch - processPackages [systembridgefrontend]: executing diffoscope
+[2023-07-19 12:59:56] INFO root fetch - processPackages [systembridgefrontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgefrontend-3.8.0.dev8.tar.gz tmp/systembridgefrontend-3.8.0.dev9.tar.gz --markdown 20230719/s/systembridgefrontend/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-19 12:59:56] INFO root fetch - processPackages [funding-service-design-utils]: Downloading https://files.pythonhosted.org/packages/64/dd/5468aa90577e921b62adb3b2a2ce40bcdbcbdf4133e3ffe35bab68233cc6/funding-service-design-utils-2.0.9.tar.gz
+[2023-07-19 12:59:56] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-19 12:59:56] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230719/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-19 12:59:56] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-19 12:59:56] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.687.tar.gz tmp/OneOnOne-0.688.tar.gz --markdown 20230719/O/OneOnOne/0.687-0.688/diff.md --exclude *.pyd
+[2023-07-19 12:59:56] INFO root fetch - processPackages [systembridgewindowssensors]: Downloading https://files.pythonhosted.org/packages/f8/3d/48f6ce73d6a6180d0f6f923ce1229918e40d9911473401454d592f621804/systembridgewindowssensors-3.8.0.dev9.tar.gz
+[2023-07-19 12:59:56] INFO root fetch - processPackages [antigranular]: executing diffoscope
+[2023-07-19 12:59:56] INFO root fetch - processPackages [antigranular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antigranular-0.2.1.tar.gz tmp/antigranular-0.2.2.tar.gz --markdown 20230719/a/antigranular/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-19 12:59:57] INFO root fetch - processPackages [lXtractor]: executing diffoscope
+[2023-07-19 12:59:57] INFO root fetch - processPackages [funding-service-design-utils]: executing diffoscope
+[2023-07-19 12:59:57] INFO root fetch - processPackages [lXtractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lxtractor-0.1.dev5.tar.gz tmp/lxtractor-0.1.dev6.tar.gz --markdown 20230719/l/lXtractor/0.1.dev5-0.1.dev6/diff.md --exclude *.pyd
+[2023-07-19 12:59:57] INFO root fetch - processPackages [funding-service-design-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funding-service-design-utils-2.0.8.tar.gz tmp/funding-service-design-utils-2.0.9.tar.gz --markdown 20230719/f/funding-service-design-utils/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-19 12:59:57] INFO root fetch - processPackages [systembridgewindowssensors]: executing diffoscope
+[2023-07-19 12:59:57] INFO root fetch - processPackages [systembridgewindowssensors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgewindowssensors-3.8.0.dev8.tar.gz tmp/systembridgewindowssensors-3.8.0.dev9.tar.gz --markdown 20230719/s/systembridgewindowssensors/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-19 12:59:58] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.8.tar.gz]
+[2023-07-19 12:59:58] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.9.tar.gz]
+[2023-07-19 12:59:58] INFO root fetch - main [MainThread]: End processing [TDCRPy]: success
+[2023-07-19 12:59:58] INFO root fetch - processPackages [uncertainty-datatypes]: Remove: archive file [/home/abi/fetcher/tmp/uncertainty-datatypes-1.0.8.tar.gz]
+[2023-07-19 12:59:58] INFO root fetch - processPackages [uncertainty-datatypes]: Remove: archive file [/home/abi/fetcher/tmp/uncertainty-datatypes-1.0.9.tar.gz]
+[2023-07-19 12:59:58] INFO root fetch - main [MainThread]: End processing [uncertainty-datatypes]: success
+[2023-07-19 12:59:58] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.98.tar.gz]
+[2023-07-19 12:59:58] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.99.tar.gz]
+[2023-07-19 12:59:58] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-07-19 12:59:58] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-19 12:59:58] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-19 12:59:58] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-19 12:59:58] INFO root fetch - processPackages [antigranular]: Remove: archive file [/home/abi/fetcher/tmp/antigranular-0.2.1.tar.gz]
+[2023-07-19 12:59:58] INFO root fetch - processPackages [antigranular]: Remove: archive file [/home/abi/fetcher/tmp/antigranular-0.2.2.tar.gz]
+[2023-07-19 12:59:58] INFO root fetch - main [MainThread]: End processing [antigranular]: success
+[2023-07-19 12:59:58] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.687.tar.gz]
+[2023-07-19 12:59:58] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.688.tar.gz]
+[2023-07-19 12:59:58] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-19 12:59:58] INFO root fetch - processPackages [lXtractor]: Remove: archive file [/home/abi/fetcher/tmp/lxtractor-0.1.dev5.tar.gz]
+[2023-07-19 12:59:58] INFO root fetch - processPackages [lXtractor]: Remove: archive file [/home/abi/fetcher/tmp/lxtractor-0.1.dev6.tar.gz]
+[2023-07-19 12:59:58] INFO root fetch - main [MainThread]: End processing [lXtractor]: success
+[2023-07-19 12:59:58] INFO root fetch - processPackages [funding-service-design-utils]: Remove: archive file [/home/abi/fetcher/tmp/funding-service-design-utils-2.0.8.tar.gz]
+[2023-07-19 12:59:58] INFO root fetch - processPackages [funding-service-design-utils]: Remove: archive file [/home/abi/fetcher/tmp/funding-service-design-utils-2.0.9.tar.gz]
+[2023-07-19 12:59:58] INFO root fetch - main [MainThread]: End processing [funding-service-design-utils]: success
+[2023-07-19 12:59:58] INFO root fetch - processPackages [systembridgefrontend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgefrontend-3.8.0.dev8.tar.gz]
+[2023-07-19 12:59:58] INFO root fetch - processPackages [systembridgefrontend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgefrontend-3.8.0.dev9.tar.gz]
+[2023-07-19 12:59:58] INFO root fetch - main [MainThread]: End processing [systembridgefrontend]: success
+[2023-07-19 12:59:59] INFO root fetch - processPackages [systembridgewindowssensors]: Remove: archive file [/home/abi/fetcher/tmp/systembridgewindowssensors-3.8.0.dev8.tar.gz]
+[2023-07-19 12:59:59] INFO root fetch - processPackages [systembridgewindowssensors]: Remove: archive file [/home/abi/fetcher/tmp/systembridgewindowssensors-3.8.0.dev9.tar.gz]
+[2023-07-19 12:59:59] INFO root fetch - main [MainThread]: End processing [systembridgewindowssensors]: success
+[2023-07-19 12:59:59] INFO root fetch - main [MainThread]: Store serial: [18949016]
