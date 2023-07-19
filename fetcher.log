@@ -18726,3 +18726,98 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-19 10:57:03] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.9.1a1641826769.tar.gz]
 [2023-07-19 10:57:03] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
 [2023-07-19 10:57:03] INFO root fetch - main [MainThread]: Store serial: [18947521]
+[2023-07-19 11:02:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18947521]
+[2023-07-19 11:02:12] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-19 11:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trackplot
+[2023-07-19 11:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: faasmctl
+[2023-07-19 11:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: visiongraph-ui
+[2023-07-19 11:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: minetcookies
+[2023-07-19 11:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ufwban
+[2023-07-19 11:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: segment-task-producer
+[2023-07-19 11:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: example-package-wljince007
+[2023-07-19 11:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cosmicexcelchecker
+[2023-07-19 11:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: minetcookies
+[2023-07-19 11:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: segment-task-consumer
+[2023-07-19 11:02:12] INFO root fetch - processPackages [trackplot]: New version: [0.3.1] Old Version: [0.2.8]
+[2023-07-19 11:02:12] INFO root fetch - processPackages [minetcookies]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-07-19 11:02:12] INFO root fetch - processPackages [ufwban]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-19 11:02:12] INFO root fetch - processPackages [minetcookies]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-07-19 11:02:12] INFO root fetch - processPackages [faasmctl]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-19 11:02:12] INFO root fetch - processPackages [visiongraph-ui]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-19 11:02:12] INFO root fetch - processPackages [cosmicexcelchecker]: New version: [0.2.2b0] Old Version: [0.2.2a0]
+[2023-07-19 11:02:12] WARNING root fetch - processPackages [segment-task-consumer]: Skipping, unable to determine old version
+[2023-07-19 11:02:12] INFO root fetch - processPackages [segment-task-consumer]: Start processing: trustedtwin
+[2023-07-19 11:02:12] INFO root fetch - main [MainThread]: End processing [segment-task-consumer] error
+[2023-07-19 11:02:12] WARNING root fetch - processPackages [segment-task-producer]: Skipping, unable to determine old version
+[2023-07-19 11:02:12] INFO root fetch - processPackages [segment-task-producer]: Start processing: czthry
+[2023-07-19 11:02:12] INFO root fetch - main [MainThread]: End processing [segment-task-producer] error
+[2023-07-19 11:02:12] WARNING root fetch - processPackages [example-package-wljince007]: Skipping, unable to determine old version
+[2023-07-19 11:02:12] INFO root fetch - processPackages [example-package-wljince007]: Start processing: groupdocs-conversion-cloud
+[2023-07-19 11:02:12] INFO root fetch - main [MainThread]: End processing [example-package-wljince007] error
+[2023-07-19 11:02:12] INFO root fetch - processPackages [minetcookies]: Downloading https://files.pythonhosted.org/packages/ce/e9/b7f015cd8b8e9012201cf958a147db76eab5e4361df36671f224f32b17a6/minetcookies-0.3.6.tar.gz
+[2023-07-19 11:02:12] INFO root fetch - processPackages [minetcookies]: Downloading https://files.pythonhosted.org/packages/ce/e9/b7f015cd8b8e9012201cf958a147db76eab5e4361df36671f224f32b17a6/minetcookies-0.3.6.tar.gz
+[2023-07-19 11:02:12] ERROR root fetch - processPackages [ufwban]: Unable to fetch info: No such project/version 'ufwban' 0.0.1
+[2023-07-19 11:02:12] INFO root fetch - main [MainThread]: End processing [ufwban] error
+[2023-07-19 11:02:12] INFO root fetch - processPackages [trackplot]: Downloading https://files.pythonhosted.org/packages/69/5c/f82adba27a84896603e99e4086aea366d3d33f85aeba3a5a2193cdb6d3cb/trackplot-0.2.8.tar.gz
+[2023-07-19 11:02:12] INFO root fetch - processPackages [cosmicexcelchecker]: Downloading https://files.pythonhosted.org/packages/f9/de/b830773f66ed02c1f53514dd76bf37edb60f333fe3cc283c0a68f68253ce/cosmicexcelchecker-0.2.2a0.tar.gz
+[2023-07-19 11:02:12] INFO root fetch - processPackages [trustedtwin]: New version: [3.3.20230718090121] Old Version: [3.3.20230717090114]
+[2023-07-19 11:02:12] INFO root fetch - processPackages [groupdocs-conversion-cloud]: New version: [23.7] Old Version: [23.6]
+[2023-07-19 11:02:12] INFO root fetch - processPackages [czthry]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-07-19 11:02:13] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/c3/95/208cc27fecf0f02e478e5de43da14514265c2841985803b40ebd9b1d6a31/faasmctl-0.6.1.tar.gz
+[2023-07-19 11:02:13] INFO root fetch - processPackages [visiongraph-ui]: Downloading https://files.pythonhosted.org/packages/8f/d3/a88a5d45f128bc7ce7622c7c4ddd51e8b60bc350faf705dd4bcc7e219572/visiongraph_ui-0.1.0-py3-none-any.whl
+[2023-07-19 11:02:13] INFO root fetch - processPackages [trustedtwin]: Downloading https://files.pythonhosted.org/packages/a7/11/3623fa56d2fb7d5ed3c0c67f8061efd82599876f42136dbfa645ca603147/trustedtwin-3.3.20230717090114.tar.gz
+[2023-07-19 11:02:13] INFO root fetch - processPackages [minetcookies]: Downloading https://files.pythonhosted.org/packages/b6/f7/5cbf582b90b2f4433e7b43ba44d7bda0066cfab55903394610be61e6c74f/minetcookies-0.3.7.tar.gz
+[2023-07-19 11:02:13] INFO root fetch - processPackages [minetcookies]: Downloading https://files.pythonhosted.org/packages/b6/f7/5cbf582b90b2f4433e7b43ba44d7bda0066cfab55903394610be61e6c74f/minetcookies-0.3.7.tar.gz
+[2023-07-19 11:02:13] INFO root fetch - processPackages [groupdocs-conversion-cloud]: Downloading https://files.pythonhosted.org/packages/c8/79/f4e751e439a32b4b945940d4e9e98092c7df26afbdac5cdb02fe0f2dbbac/groupdocs-conversion-cloud-23.6.tar.gz
+[2023-07-19 11:02:13] INFO root fetch - processPackages [czthry]: Downloading https://files.pythonhosted.org/packages/6a/55/aa61a50d8c0463bdd17b19edad63b204f5beeed97a071597b8fc62d709d8/czthry-0.0.7.tar.gz
+[2023-07-19 11:02:13] INFO root fetch - processPackages [minetcookies]: executing diffoscope
+[2023-07-19 11:02:13] INFO root fetch - processPackages [minetcookies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minetcookies-0.3.6.tar.gz tmp/minetcookies-0.3.7.tar.gz --markdown 20230719/m/minetcookies/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-07-19 11:02:13] INFO root fetch - processPackages [cosmicexcelchecker]: Downloading https://files.pythonhosted.org/packages/66/f1/ff1473c165e4eb2aa82a97198d031d40666c4e26926bff8d55ccafc1a89b/cosmicexcelchecker-0.2.2b0.tar.gz
+[2023-07-19 11:02:13] INFO root fetch - processPackages [trackplot]: Downloading https://files.pythonhosted.org/packages/b8/88/0bb0ebf9d3aa1e71f809e5c44818a21b43eb351c98104cd1ce752a799ca8/trackplot-0.3.1.tar.gz
+[2023-07-19 11:02:13] INFO root fetch - processPackages [minetcookies]: executing diffoscope
+[2023-07-19 11:02:13] INFO root fetch - processPackages [minetcookies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minetcookies-0.3.6.tar.gz tmp/minetcookies-0.3.7.tar.gz --markdown 20230719/m/minetcookies/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-07-19 11:02:13] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/21/91/1070c33506b39352079a3cb614e5598a08f552d12cef38b4247a5d1d2dbc/faasmctl-0.6.2.tar.gz
+[2023-07-19 11:02:13] INFO root fetch - processPackages [visiongraph-ui]: Downloading https://files.pythonhosted.org/packages/2c/e2/10395a07c84fc1ca35e2e6ad8ff9b4d61a1d449095a46637d334d411c82a/visiongraph_ui-0.2.0-py3-none-any.whl
+[2023-07-19 11:02:13] INFO root fetch - processPackages [trustedtwin]: Downloading https://files.pythonhosted.org/packages/df/6d/0de9d06bcbf123275bf128dfc696935be4e9ad663578e91b2e694c3b41b2/trustedtwin-3.3.20230718090121.tar.gz
+[2023-07-19 11:02:13] INFO root fetch - processPackages [cosmicexcelchecker]: executing diffoscope
+[2023-07-19 11:02:13] INFO root fetch - processPackages [cosmicexcelchecker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cosmicexcelchecker-0.2.2a0.tar.gz tmp/cosmicexcelchecker-0.2.2b0.tar.gz --markdown 20230719/c/cosmicexcelchecker/0.2.2a0-0.2.2b0/diff.md --exclude *.pyd
+[2023-07-19 11:02:13] INFO root fetch - processPackages [trackplot]: executing diffoscope
+[2023-07-19 11:02:13] INFO root fetch - processPackages [trackplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trackplot-0.2.8.tar.gz tmp/trackplot-0.3.1.tar.gz --markdown 20230719/t/trackplot/0.2.8-0.3.1/diff.md --exclude *.pyd
+[2023-07-19 11:02:13] INFO root fetch - processPackages [faasmctl]: executing diffoscope
+[2023-07-19 11:02:13] INFO root fetch - processPackages [faasmctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faasmctl-0.6.1.tar.gz tmp/faasmctl-0.6.2.tar.gz --markdown 20230719/f/faasmctl/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-19 11:02:13] INFO root fetch - processPackages [groupdocs-conversion-cloud]: Downloading https://files.pythonhosted.org/packages/38/34/cb0149a7001deb0321ba7dd203659b7294563a9c4c20d1bc93d5f9879ea7/groupdocs-conversion-cloud-23.7.tar.gz
+[2023-07-19 11:02:13] INFO root fetch - processPackages [visiongraph-ui]: executing diffoscope
+[2023-07-19 11:02:13] INFO root fetch - processPackages [visiongraph-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visiongraph_ui-0.1.0-py3-none-any.whl.zip tmp/visiongraph_ui-0.2.0-py3-none-any.whl.zip --markdown 20230719/v/visiongraph-ui/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-19 11:02:13] INFO root fetch - processPackages [czthry]: Downloading https://files.pythonhosted.org/packages/29/a6/3b677a7916d25eb5ea7599fe4e6c74da36ce5cbc913fe131950dc876472e/czthry-0.0.9.tar.gz
+[2023-07-19 11:02:13] INFO root fetch - processPackages [trustedtwin]: executing diffoscope
+[2023-07-19 11:02:13] INFO root fetch - processPackages [trustedtwin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trustedtwin-3.3.20230717090114.tar.gz tmp/trustedtwin-3.3.20230718090121.tar.gz --markdown 20230719/t/trustedtwin/3.3.20230717090114-3.3.20230718090121/diff.md --exclude *.pyd
+[2023-07-19 11:02:13] INFO root fetch - processPackages [groupdocs-conversion-cloud]: executing diffoscope
+[2023-07-19 11:02:13] INFO root fetch - processPackages [groupdocs-conversion-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/groupdocs-conversion-cloud-23.6.tar.gz tmp/groupdocs-conversion-cloud-23.7.tar.gz --markdown 20230719/g/groupdocs-conversion-cloud/23.6-23.7/diff.md --exclude *.pyd
+[2023-07-19 11:02:13] INFO root fetch - processPackages [czthry]: executing diffoscope
+[2023-07-19 11:02:13] INFO root fetch - processPackages [czthry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/czthry-0.0.7.tar.gz tmp/czthry-0.0.9.tar.gz --markdown 20230719/c/czthry/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 11:02:15] INFO root fetch - processPackages [minetcookies]: Remove: archive file [/home/abi/fetcher/tmp/minetcookies-0.3.6.tar.gz]
+[2023-07-19 11:02:15] INFO root fetch - processPackages [minetcookies]: Remove: archive file [/home/abi/fetcher/tmp/minetcookies-0.3.7.tar.gz]
+[2023-07-19 11:02:15] INFO root fetch - main [MainThread]: End processing [minetcookies]: success
+[2023-07-19 11:02:15] INFO root fetch - main [MainThread]: End processing [minetcookies]: success
+[2023-07-19 11:02:15] INFO root fetch - processPackages [visiongraph-ui]: Remove: archive file [/home/abi/fetcher/tmp/visiongraph_ui-0.1.0-py3-none-any.whl.zip]
+[2023-07-19 11:02:15] INFO root fetch - processPackages [visiongraph-ui]: Remove: archive file [/home/abi/fetcher/tmp/visiongraph_ui-0.2.0-py3-none-any.whl.zip]
+[2023-07-19 11:02:15] INFO root fetch - main [MainThread]: End processing [visiongraph-ui]: success
+[2023-07-19 11:02:15] INFO root fetch - processPackages [trustedtwin]: Remove: archive file [/home/abi/fetcher/tmp/trustedtwin-3.3.20230717090114.tar.gz]
+[2023-07-19 11:02:15] INFO root fetch - processPackages [trustedtwin]: Remove: archive file [/home/abi/fetcher/tmp/trustedtwin-3.3.20230718090121.tar.gz]
+[2023-07-19 11:02:15] INFO root fetch - main [MainThread]: End processing [trustedtwin]: success
+[2023-07-19 11:02:15] INFO root fetch - processPackages [cosmicexcelchecker]: Remove: archive file [/home/abi/fetcher/tmp/cosmicexcelchecker-0.2.2a0.tar.gz]
+[2023-07-19 11:02:15] INFO root fetch - processPackages [cosmicexcelchecker]: Remove: archive file [/home/abi/fetcher/tmp/cosmicexcelchecker-0.2.2b0.tar.gz]
+[2023-07-19 11:02:15] INFO root fetch - main [MainThread]: End processing [cosmicexcelchecker]: success
+[2023-07-19 11:02:15] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.6.1.tar.gz]
+[2023-07-19 11:02:15] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.6.2.tar.gz]
+[2023-07-19 11:02:15] INFO root fetch - main [MainThread]: End processing [faasmctl]: success
+[2023-07-19 11:02:15] INFO root fetch - processPackages [czthry]: Remove: archive file [/home/abi/fetcher/tmp/czthry-0.0.7.tar.gz]
+[2023-07-19 11:02:15] INFO root fetch - processPackages [czthry]: Remove: archive file [/home/abi/fetcher/tmp/czthry-0.0.9.tar.gz]
+[2023-07-19 11:02:15] INFO root fetch - main [MainThread]: End processing [czthry]: success
+[2023-07-19 11:02:15] INFO root fetch - processPackages [trackplot]: Remove: archive file [/home/abi/fetcher/tmp/trackplot-0.2.8.tar.gz]
+[2023-07-19 11:02:15] INFO root fetch - processPackages [trackplot]: Remove: archive file [/home/abi/fetcher/tmp/trackplot-0.3.1.tar.gz]
+[2023-07-19 11:02:15] INFO root fetch - main [MainThread]: End processing [trackplot]: success
+[2023-07-19 11:02:16] INFO root fetch - processPackages [groupdocs-conversion-cloud]: Remove: archive file [/home/abi/fetcher/tmp/groupdocs-conversion-cloud-23.6.tar.gz]
+[2023-07-19 11:02:16] INFO root fetch - processPackages [groupdocs-conversion-cloud]: Remove: archive file [/home/abi/fetcher/tmp/groupdocs-conversion-cloud-23.7.tar.gz]
+[2023-07-19 11:02:16] INFO root fetch - main [MainThread]: End processing [groupdocs-conversion-cloud]: success
+[2023-07-19 11:02:16] INFO root fetch - main [MainThread]: Store serial: [18947568]
