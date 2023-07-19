@@ -17528,3 +17528,153 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-19 10:09:06] INFO root fetch - processPackages [piperider]: Remove: archive file [/home/abi/fetcher/tmp/piperider-0.9.0rc1.tar.gz]
 [2023-07-19 10:09:06] INFO root fetch - main [MainThread]: End processing [piperider]: success
 [2023-07-19 10:09:06] INFO root fetch - main [MainThread]: Store serial: [18946963]
+[2023-07-19 10:14:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18946963]
+[2023-07-19 10:14:15] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-19 10:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kingunit-inspector
+[2023-07-19 10:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nwebclient
+[2023-07-19 10:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: UCTB
+[2023-07-19 10:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastapi-serve
+[2023-07-19 10:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pharindoko.cdk-internal-gateway
+[2023-07-19 10:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jsonmerge
+[2023-07-19 10:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fastapi-serve
+[2023-07-19 10:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: uqpylab
+[2023-07-19 10:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chia-blockchain
+[2023-07-19 10:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: viper-lib
+[2023-07-19 10:14:16] INFO root fetch - processPackages [fastapi-serve]: New version: [0.0.4.dev8] Old Version: [0.0.4.dev7]
+[2023-07-19 10:14:16] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-19 10:14:16] INFO root fetch - processPackages [fastapi-serve]: New version: [0.0.4.dev8] Old Version: [0.0.4.dev7]
+[2023-07-19 10:14:16] WARNING root fetch - processPackages [kingunit-inspector]: Skipping, unable to determine old version
+[2023-07-19 10:14:16] INFO root fetch - processPackages [kingunit-inspector]: Start processing: ex4nicegui
+[2023-07-19 10:14:16] INFO root fetch - main [MainThread]: End processing [kingunit-inspector] error
+[2023-07-19 10:14:16] INFO root fetch - processPackages [viper-lib]: New version: [0.6.1] Old Version: [0.6]
+[2023-07-19 10:14:16] INFO root fetch - processPackages [ex4nicegui]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-19 10:14:16] INFO root fetch - processPackages [UCTB]: New version: [0.3.5] Old Version: [0.3.0]
+[2023-07-19 10:14:16] INFO root fetch - processPackages [jsonmerge]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-19 10:14:16] INFO root fetch - processPackages [chia-blockchain]: New version: [2.0.0b5] Old Version: [2.0.0b4]
+[2023-07-19 10:14:16] INFO root fetch - processPackages [uqpylab]: New version: [0.95] Old Version: [0.2]
+[2023-07-19 10:14:16] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/f6/50/c1b92dfd7e3332906f199fe75e221db3f24b9aacce77cda0d5cf2e71e642/fastapi-serve-0.0.4.dev7.tar.gz
+[2023-07-19 10:14:16] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-19 10:14:16] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-19 10:14:16] INFO root fetch - processPackages [viper-lib]: Downloading https://files.pythonhosted.org/packages/64/1a/91c25f04d586af4f807228b3ddf3c8ddbfd66ef562a4167b1863bee6c2f7/viper_lib-0.6.tar.gz
+[2023-07-19 10:14:16] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/f6/50/c1b92dfd7e3332906f199fe75e221db3f24b9aacce77cda0d5cf2e71e642/fastapi-serve-0.0.4.dev7.tar.gz
+[2023-07-19 10:14:16] INFO root fetch - processPackages [ex4nicegui]: Downloading https://files.pythonhosted.org/packages/55/62/87d9b01707c92c3fda589c6abcc6c09c5156d2617ef6d51dbdaf5fb9d9c5/ex4nicegui-0.1.9.tar.gz
+[2023-07-19 10:14:16] INFO root fetch - processPackages [jsonmerge]: Downloading https://files.pythonhosted.org/packages/db/cc/3df4599a2ffeafcc16262ece96a1a4cf172578863ea272ed7b65be9493f8/jsonmerge-1.9.1.tar.gz
+[2023-07-19 10:14:16] INFO root fetch - processPackages [UCTB]: Downloading https://files.pythonhosted.org/packages/30/3d/0c4b9dc557d66e535d9a3684e91f69ceac1cf81e7e9512d0037d2d4ca6d2/UCTB-0.3.0.tar.gz
+[2023-07-19 10:14:16] INFO root fetch - processPackages [chia-blockchain]: Downloading https://files.pythonhosted.org/packages/c4/d8/d7b0de308458fd6e76c70672cb84bc7a190be0e23777f394b7e3cd8c23e4/chia-blockchain-2.0.0b4.tar.gz
+[2023-07-19 10:14:16] INFO root fetch - processPackages [uqpylab]: Downloading https://files.pythonhosted.org/packages/38/cf/0bd81c34095048e8c9120bb5c1fd91fc44fae472d60d14a05f9d89c5e7d6/uqpylab-0.2.tar.gz
+[2023-07-19 10:14:16] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: Downloading https://files.pythonhosted.org/packages/44/af/776f05e5bae33847701876c6f3d922ef73f5b4e86e14be753dd36b2b2688/pharindoko.cdk-internal-gateway-1.1.8.tar.gz
+[2023-07-19 10:14:16] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-19 10:14:16] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/a9/a1/dd8a2910d18bbb81d0937e00c72060c1c5ba0f29245e90e01d0b97c6b397/fastapi-serve-0.0.4.dev8.tar.gz
+[2023-07-19 10:14:16] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/a9/a1/dd8a2910d18bbb81d0937e00c72060c1c5ba0f29245e90e01d0b97c6b397/fastapi-serve-0.0.4.dev8.tar.gz
+[2023-07-19 10:14:16] INFO root fetch - processPackages [viper-lib]: Downloading https://files.pythonhosted.org/packages/00/11/d9f940222935625e2504e5ee0d0ce0d20c5d03047e17f24511cf9417cb6e/viper_lib-0.6.1.tar.gz
+[2023-07-19 10:14:16] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-19 10:14:16] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230719/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-19 10:14:17] INFO root fetch - processPackages [jsonmerge]: Downloading https://files.pythonhosted.org/packages/37/9f/959b3191324d831494b81ec06cfaeb11017858fc59cd9de9c6bd757ef29e/jsonmerge-1.9.2.tar.gz
+[2023-07-19 10:14:17] INFO root fetch - processPackages [ex4nicegui]: Downloading https://files.pythonhosted.org/packages/49/d2/8c1c748626d5a8307f67e4252323dcdd36d0b05bed47f192954eb72e0e5c/ex4nicegui-0.2.0.tar.gz
+[2023-07-19 10:14:17] INFO root fetch - processPackages [UCTB]: Downloading https://files.pythonhosted.org/packages/e8/e0/6d22de791eb47f9a5e823672f0a356a08224629117eaa15fa15572eff69f/UCTB-0.3.5.tar.gz
+[2023-07-19 10:14:17] INFO root fetch - processPackages [fastapi-serve]: executing diffoscope
+[2023-07-19 10:14:17] INFO root fetch - processPackages [fastapi-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-serve-0.0.4.dev7.tar.gz tmp/fastapi-serve-0.0.4.dev8.tar.gz --markdown 20230719/f/fastapi-serve/0.0.4.dev7-0.0.4.dev8/diff.md --exclude *.pyd
+[2023-07-19 10:14:17] INFO root fetch - processPackages [fastapi-serve]: executing diffoscope
+[2023-07-19 10:14:17] INFO root fetch - processPackages [fastapi-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-serve-0.0.4.dev7.tar.gz tmp/fastapi-serve-0.0.4.dev8.tar.gz --markdown 20230719/f/fastapi-serve/0.0.4.dev7-0.0.4.dev8/diff.md --exclude *.pyd
+[2023-07-19 10:14:17] INFO root fetch - processPackages [viper-lib]: executing diffoscope
+[2023-07-19 10:14:17] INFO root fetch - processPackages [viper-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viper_lib-0.6.tar.gz tmp/viper_lib-0.6.1.tar.gz --markdown 20230719/v/viper-lib/0.6-0.6.1/diff.md --exclude *.pyd
+[2023-07-19 10:14:17] INFO root fetch - processPackages [uqpylab]: Downloading https://files.pythonhosted.org/packages/e7/23/c416998c9b7311535dbc5ce261ece33f3d795e7a37834b649342cf20f33c/uqpylab-0.95.tar.gz
+[2023-07-19 10:14:17] INFO root fetch - processPackages [jsonmerge]: executing diffoscope
+[2023-07-19 10:14:17] INFO root fetch - processPackages [jsonmerge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonmerge-1.9.1.tar.gz tmp/jsonmerge-1.9.2.tar.gz --markdown 20230719/j/jsonmerge/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-19 10:14:17] INFO root fetch - processPackages [UCTB]: executing diffoscope
+[2023-07-19 10:14:17] INFO root fetch - processPackages [UCTB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UCTB-0.3.0.tar.gz tmp/UCTB-0.3.5.tar.gz --markdown 20230719/U/UCTB/0.3.0-0.3.5/diff.md --exclude *.pyd
+[2023-07-19 10:14:17] INFO root fetch - processPackages [ex4nicegui]: executing diffoscope
+[2023-07-19 10:14:17] INFO root fetch - processPackages [ex4nicegui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ex4nicegui-0.1.9.tar.gz tmp/ex4nicegui-0.2.0.tar.gz --markdown 20230719/e/ex4nicegui/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-19 10:14:17] INFO root fetch - processPackages [uqpylab]: executing diffoscope
+[2023-07-19 10:14:17] INFO root fetch - processPackages [uqpylab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uqpylab-0.2.tar.gz tmp/uqpylab-0.95.tar.gz --markdown 20230719/u/uqpylab/0.2-0.95/diff.md --exclude *.pyd
+[2023-07-19 10:14:17] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: Downloading https://files.pythonhosted.org/packages/00/8c/415bb9054570c25a0cea31fd3d3aa5661d2c81cc5dd2816784d542246f9b/pharindoko.cdk-internal-gateway-1.1.9.tar.gz
+[2023-07-19 10:14:17] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: executing diffoscope
+[2023-07-19 10:14:17] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pharindoko.cdk-internal-gateway-1.1.8.tar.gz tmp/pharindoko.cdk-internal-gateway-1.1.9.tar.gz --markdown 20230719/p/pharindoko.cdk-internal-gateway/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-19 10:14:18] INFO root fetch - processPackages [chia-blockchain]: Downloading https://files.pythonhosted.org/packages/bd/81/9c19396d9d03c08ca7de0efd81c0a8e1b0402deacefad43ccb8ff6fa158c/chia-blockchain-2.0.0b5.tar.gz
+[2023-07-19 10:14:18] INFO root fetch - processPackages [chia-blockchain]: executing diffoscope
+[2023-07-19 10:14:18] INFO root fetch - processPackages [chia-blockchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chia-blockchain-2.0.0b4.tar.gz tmp/chia-blockchain-2.0.0b5.tar.gz --markdown 20230719/c/chia-blockchain/2.0.0b4-2.0.0b5/diff.md --exclude *.pyd
+[2023-07-19 10:14:18] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.4.dev7.tar.gz]
+[2023-07-19 10:14:18] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.4.dev8.tar.gz]
+[2023-07-19 10:14:18] INFO root fetch - processPackages [fastapi-serve]: Start processing: bb-connector
+[2023-07-19 10:14:18] INFO root fetch - main [MainThread]: End processing [fastapi-serve]: success
+[2023-07-19 10:14:18] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-19 10:14:18] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-19 10:14:18] INFO root fetch - processPackages [nwebclient]: Start processing: tksel
+[2023-07-19 10:14:18] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-19 10:14:18] WARNING root fetch - processPackages [tksel]: Skipping, unable to determine old version
+[2023-07-19 10:14:18] INFO root fetch - processPackages [tksel]: Start processing: certora-cli-alpha-master
+[2023-07-19 10:14:18] INFO root fetch - main [MainThread]: End processing [tksel] error
+[2023-07-19 10:14:18] INFO root fetch - processPackages [fastapi-serve]: Start processing: pynsgr
+[2023-07-19 10:14:18] INFO root fetch - main [MainThread]: End processing [fastapi-serve]: success
+[2023-07-19 10:14:18] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230719.7.8.24611] Old Version: [20230718.7.37.850077]
+[2023-07-19 10:14:18] INFO root fetch - processPackages [bb-connector]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-19 10:14:19] INFO root fetch - processPackages [uqpylab]: Remove: archive file [/home/abi/fetcher/tmp/uqpylab-0.2.tar.gz]
+[2023-07-19 10:14:19] INFO root fetch - processPackages [uqpylab]: Remove: archive file [/home/abi/fetcher/tmp/uqpylab-0.95.tar.gz]
+[2023-07-19 10:14:19] INFO root fetch - processPackages [uqpylab]: Start processing: lusid-sdk-preview
+[2023-07-19 10:14:19] INFO root fetch - main [MainThread]: End processing [uqpylab]: success
+[2023-07-19 10:14:19] INFO root fetch - processPackages [jsonmerge]: Remove: archive file [/home/abi/fetcher/tmp/jsonmerge-1.9.1.tar.gz]
+[2023-07-19 10:14:19] INFO root fetch - processPackages [jsonmerge]: Remove: archive file [/home/abi/fetcher/tmp/jsonmerge-1.9.2.tar.gz]
+[2023-07-19 10:14:19] WARNING root fetch - processPackages [pynsgr]: Skipping, unable to determine old version
+[2023-07-19 10:14:19] INFO root fetch - processPackages [pynsgr]: Start processing: lusid-sdk
+[2023-07-19 10:14:19] INFO root fetch - processPackages [jsonmerge]: Start processing: saic-ismart-client
+[2023-07-19 10:14:19] INFO root fetch - main [MainThread]: End processing [pynsgr] error
+[2023-07-19 10:14:19] INFO root fetch - main [MainThread]: End processing [jsonmerge]: success
+[2023-07-19 10:14:19] INFO root fetch - processPackages [viper-lib]: Remove: archive file [/home/abi/fetcher/tmp/viper_lib-0.6.tar.gz]
+[2023-07-19 10:14:19] INFO root fetch - processPackages [viper-lib]: Remove: archive file [/home/abi/fetcher/tmp/viper_lib-0.6.1.tar.gz]
+[2023-07-19 10:14:19] INFO root fetch - processPackages [viper-lib]: Start processing: cgkit1
+[2023-07-19 10:14:19] INFO root fetch - main [MainThread]: End processing [viper-lib]: success
+[2023-07-19 10:14:19] INFO root fetch - processPackages [saic-ismart-client]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-07-19 10:14:19] INFO root fetch - processPackages [cgkit1]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-07-19 10:14:19] INFO root fetch - processPackages [bb-connector]: Downloading https://files.pythonhosted.org/packages/a6/b5/704317ecf996b162f212d7047d0c854775e4eb30ce06127aa635e678626d/bb-connector-0.0.2.tar.gz
+[2023-07-19 10:14:19] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-07-19 10:14:19] INFO root fetch - processPackages [UCTB]: Remove: archive file [/home/abi/fetcher/tmp/UCTB-0.3.0.tar.gz]
+[2023-07-19 10:14:19] INFO root fetch - processPackages [ex4nicegui]: Remove: archive file [/home/abi/fetcher/tmp/ex4nicegui-0.1.9.tar.gz]
+[2023-07-19 10:14:19] INFO root fetch - processPackages [UCTB]: Remove: archive file [/home/abi/fetcher/tmp/UCTB-0.3.5.tar.gz]
+[2023-07-19 10:14:19] INFO root fetch - processPackages [ex4nicegui]: Remove: archive file [/home/abi/fetcher/tmp/ex4nicegui-0.2.0.tar.gz]
+[2023-07-19 10:14:19] INFO root fetch - main [MainThread]: End processing [UCTB]: success
+[2023-07-19 10:14:19] INFO root fetch - main [MainThread]: End processing [ex4nicegui]: success
+[2023-07-19 10:14:19] INFO root fetch - processPackages [saic-ismart-client]: Downloading https://files.pythonhosted.org/packages/61/21/62d3032cc2260919d02ff5cdc6c52a6261c7a18815482bdf1eb3e9795cae/saic_ismart_client-1.4.3.tar.gz
+[2023-07-19 10:14:19] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/d2/e2/bf97ee49610b448e814810ed9bec3911bd784a6b75df5270519b017b9736/certora-cli-alpha-master-20230718.7.37.850077.tar.gz
+[2023-07-19 10:14:19] INFO root fetch - processPackages [lusid-sdk]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-07-19 10:14:19] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: Remove: archive file [/home/abi/fetcher/tmp/pharindoko.cdk-internal-gateway-1.1.8.tar.gz]
+[2023-07-19 10:14:19] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: Remove: archive file [/home/abi/fetcher/tmp/pharindoko.cdk-internal-gateway-1.1.9.tar.gz]
+[2023-07-19 10:14:19] INFO root fetch - main [MainThread]: End processing [pharindoko.cdk-internal-gateway]: success
+[2023-07-19 10:14:19] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37506713>=10485760
+[2023-07-19 10:14:19] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-07-19 10:14:19] INFO root fetch - processPackages [cgkit1]: Downloading https://files.pythonhosted.org/packages/97/69/5f4d3ef7379a88a7d736cd4f1d3b9880898d90a41a30170254cd1a744d5f/cgkit1-1.2.6.tar.gz
+[2023-07-19 10:14:19] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/49/7a/a2c137408aeb27bd4c7f6dd83e907217e3962f825b96448437c4cfa4e0ea/lusid-sdk-preview-1.0.91.tar.gz
+[2023-07-19 10:14:19] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/be/34/7662f651750d07513450337ca9275481d00381ada330eaaa7e365fdde135/lusid-sdk-1.0.91.tar.gz
+[2023-07-19 10:14:19] INFO root fetch - processPackages [bb-connector]: Downloading https://files.pythonhosted.org/packages/13/e1/112e62c23c7052cf1f5fe9cf1651f0d94225e6d251977809ba3eb60e884e/bb-connector-0.0.3.tar.gz
+[2023-07-19 10:14:19] INFO root fetch - processPackages [saic-ismart-client]: Downloading https://files.pythonhosted.org/packages/7c/57/42bff861801a1060745167e34aae388a97c9a1f6cc3e9d33076412e3f3b6/saic_ismart_client-1.4.4.tar.gz
+[2023-07-19 10:14:19] INFO root fetch - processPackages [saic-ismart-client]: executing diffoscope
+[2023-07-19 10:14:19] INFO root fetch - processPackages [saic-ismart-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saic_ismart_client-1.4.3.tar.gz tmp/saic_ismart_client-1.4.4.tar.gz --markdown 20230719/s/saic-ismart-client/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-07-19 10:14:19] INFO root fetch - processPackages [bb-connector]: executing diffoscope
+[2023-07-19 10:14:19] INFO root fetch - processPackages [bb-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bb-connector-0.0.2.tar.gz tmp/bb-connector-0.0.3.tar.gz --markdown 20230719/b/bb-connector/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-19 10:14:19] INFO root fetch - processPackages [cgkit1]: Downloading https://files.pythonhosted.org/packages/56/8a/2a9e75a584b010f83a385c14119f87b573e9b6340c0189a1f323ea5dd550/cgkit1-1.2.7.tar.gz
+[2023-07-19 10:14:19] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/98/81/36672596a28f997865bee76ba030a446e52a68b56b9e297ed56f9a8fb301/lusid-sdk-preview-1.0.98.tar.gz
+[2023-07-19 10:14:19] INFO root fetch - processPackages [cgkit1]: executing diffoscope
+[2023-07-19 10:14:19] INFO root fetch - processPackages [cgkit1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgkit1-1.2.6.tar.gz tmp/cgkit1-1.2.7.tar.gz --markdown 20230719/c/cgkit1/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-07-19 10:14:20] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/14/c8/523a5d4f9c0dcabd6883ffe308d0ecf41ed93c1f7e1cdc4baced16ec67c6/lusid-sdk-1.0.98.tar.gz
+[2023-07-19 10:14:20] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2023-07-19 10:14:20] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.0.91.tar.gz tmp/lusid-sdk-preview-1.0.98.tar.gz --markdown 20230719/l/lusid-sdk-preview/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-07-19 10:14:20] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2023-07-19 10:14:20] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-1.0.91.tar.gz tmp/lusid-sdk-1.0.98.tar.gz --markdown 20230719/l/lusid-sdk/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-07-19 10:14:20] INFO root fetch - processPackages [bb-connector]: Remove: archive file [/home/abi/fetcher/tmp/bb-connector-0.0.2.tar.gz]
+[2023-07-19 10:14:20] INFO root fetch - processPackages [bb-connector]: Remove: archive file [/home/abi/fetcher/tmp/bb-connector-0.0.3.tar.gz]
+[2023-07-19 10:14:20] INFO root fetch - main [MainThread]: End processing [bb-connector]: success
+[2023-07-19 10:14:20] INFO root fetch - processPackages [saic-ismart-client]: Remove: archive file [/home/abi/fetcher/tmp/saic_ismart_client-1.4.3.tar.gz]
+[2023-07-19 10:14:20] INFO root fetch - processPackages [saic-ismart-client]: Remove: archive file [/home/abi/fetcher/tmp/saic_ismart_client-1.4.4.tar.gz]
+[2023-07-19 10:14:20] INFO root fetch - main [MainThread]: End processing [saic-ismart-client]: success
+[2023-07-19 10:14:21] INFO root fetch - processPackages [cgkit1]: Remove: archive file [/home/abi/fetcher/tmp/cgkit1-1.2.6.tar.gz]
+[2023-07-19 10:14:21] INFO root fetch - processPackages [cgkit1]: Remove: archive file [/home/abi/fetcher/tmp/cgkit1-1.2.7.tar.gz]
+[2023-07-19 10:14:21] INFO root fetch - main [MainThread]: End processing [cgkit1]: success
+[2023-07-19 10:14:27] INFO root fetch - processPackages [chia-blockchain]: Remove: archive file [/home/abi/fetcher/tmp/chia-blockchain-2.0.0b4.tar.gz]
+[2023-07-19 10:14:27] INFO root fetch - processPackages [chia-blockchain]: Remove: archive file [/home/abi/fetcher/tmp/chia-blockchain-2.0.0b5.tar.gz]
+[2023-07-19 10:14:27] INFO root fetch - main [MainThread]: End processing [chia-blockchain]: success
+[2023-07-19 10:14:29] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.91.tar.gz]
+[2023-07-19 10:14:29] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.98.tar.gz]
+[2023-07-19 10:14:29] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2023-07-19 10:14:34] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.91.tar.gz]
+[2023-07-19 10:14:34] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.98.tar.gz]
+[2023-07-19 10:14:34] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2023-07-19 10:14:34] INFO root fetch - main [MainThread]: Store serial: [18947019]
