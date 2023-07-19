@@ -16611,3 +16611,66 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-19 09:31:46] INFO root fetch - processPackages [yxspkg]: Remove: archive file [/home/abi/fetcher/tmp/yxspkg-6.9.8-py3-none-any.whl.zip]
 [2023-07-19 09:31:46] INFO root fetch - main [MainThread]: End processing [yxspkg]: success
 [2023-07-19 09:31:46] INFO root fetch - main [MainThread]: Store serial: [18946628]
+[2023-07-19 09:36:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18946628]
+[2023-07-19 09:36:54] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-19 09:36:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Spider-Toolkit
+[2023-07-19 09:36:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: report-dh
+[2023-07-19 09:36:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Flask-Hashids
+[2023-07-19 09:36:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unitxt
+[2023-07-19 09:36:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lazysdk
+[2023-07-19 09:36:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sai-mrp-refreshes-optimisation
+[2023-07-19 09:36:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: DLMS-SPODES
+[2023-07-19 09:36:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: osinfopkg
+[2023-07-19 09:36:55] INFO root fetch - processPackages [Spider-Toolkit]: New version: [23.0.5] Old Version: [23.0.4]
+[2023-07-19 09:36:55] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-07-19 09:36:55] INFO root fetch - processPackages [unitxt]: New version: [1.0.9] Old Version: [1.0.7]
+[2023-07-19 09:36:55] WARNING root fetch - processPackages [osinfopkg]: Skipping, unable to determine old version
+[2023-07-19 09:36:55] INFO root fetch - main [MainThread]: End processing [osinfopkg] error
+[2023-07-19 09:36:55] WARNING root fetch - processPackages [sai-mrp-refreshes-optimisation]: Skipping, unable to determine old version
+[2023-07-19 09:36:55] INFO root fetch - main [MainThread]: End processing [sai-mrp-refreshes-optimisation] error
+[2023-07-19 09:36:55] INFO root fetch - processPackages [Spider-Toolkit]: Downloading https://files.pythonhosted.org/packages/7a/04/8270195599f2008c6b49a371ebba052326f96c449e407f6ac49fc28c1d4a/Spider_Toolkit-23.0.4.tar.gz
+[2023-07-19 09:36:55] INFO root fetch - processPackages [Flask-Hashids]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-19 09:36:55] INFO root fetch - processPackages [report-dh]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-19 09:36:55] INFO root fetch - processPackages [lazysdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-19 09:36:55] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/97/e2/60be495fca055220080de90e294b2c16ad5a60ea6485cdee969131f05bf4/DLMS_SPODES-0.8.3.tar.gz
+[2023-07-19 09:36:55] INFO root fetch - processPackages [unitxt]: Downloading https://files.pythonhosted.org/packages/11/d1/d3b62f8baf803050688a5209b7a249f450e3b915906be3b8636049f44de2/unitxt-1.0.7.tar.gz
+[2023-07-19 09:36:55] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/78/a8/0e1e9fd1aa9750b28e12462781d408863affaeb92dbdb8c020b6d3078e67/DLMS_SPODES-0.9.0.tar.gz
+[2023-07-19 09:36:55] INFO root fetch - processPackages [Flask-Hashids]: Downloading https://files.pythonhosted.org/packages/0c/e0/90fbe19a57c6153d9a15e10233b50a5064f23b140ee0ed7681452697e231/Flask-Hashids-1.0.1.tar.gz
+[2023-07-19 09:36:55] INFO root fetch - processPackages [Spider-Toolkit]: Downloading https://files.pythonhosted.org/packages/b7/0b/944d88375c33106fbaf0dbb4a3ea0e33e42bcd2abb9fd5716aec6ae9eed1/Spider_Toolkit-23.0.5.tar.gz
+[2023-07-19 09:36:55] INFO root fetch - processPackages [report-dh]: Downloading https://files.pythonhosted.org/packages/ca/61/310c98f28cdee4f9643eebd855676e5c7be6042e137573cdc28768e8f575/report-dh-0.9.1.tar.gz
+[2023-07-19 09:36:55] INFO root fetch - processPackages [unitxt]: Downloading https://files.pythonhosted.org/packages/0e/ad/4d0c5d55831a7fd66fbaca1667f8f31321026e46d5f9444cb997646d2fe7/unitxt-1.0.9.tar.gz
+[2023-07-19 09:36:55] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/38/6e/873c1f710606f91c4d8dd01b66a600b8f53828c838a79ba123c316f77c05/lazysdk-0.1.8.tar.gz
+[2023-07-19 09:36:55] INFO root fetch - processPackages [Spider-Toolkit]: executing diffoscope
+[2023-07-19 09:36:55] INFO root fetch - processPackages [Spider-Toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Spider_Toolkit-23.0.4.tar.gz tmp/Spider_Toolkit-23.0.5.tar.gz --markdown 20230719/S/Spider-Toolkit/23.0.4-23.0.5/diff.md --exclude *.pyd
+[2023-07-19 09:36:55] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2023-07-19 09:36:55] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20230719/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-07-19 09:36:55] INFO root fetch - processPackages [unitxt]: executing diffoscope
+[2023-07-19 09:36:55] INFO root fetch - processPackages [unitxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitxt-1.0.7.tar.gz tmp/unitxt-1.0.9.tar.gz --markdown 20230719/u/unitxt/1.0.7-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 09:36:55] INFO root fetch - processPackages [Flask-Hashids]: Downloading https://files.pythonhosted.org/packages/43/3f/5b5ad4c7ef5bcc49d1ba3c86e746083e936a7824fc2a9e39611fba1d4ee2/Flask-Hashids-1.0.2.tar.gz
+[2023-07-19 09:36:55] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/56/f7/82feafe86145b2d6d28587748503b8e9a4aaab1142447bc3345f6b0683e6/lazysdk-0.1.9.tar.gz
+[2023-07-19 09:36:55] INFO root fetch - processPackages [report-dh]: Downloading https://files.pythonhosted.org/packages/46/6b/31920ea74c958ad93386f56bfb06760dfac1e7c2fbefd75115490c2ccf21/report-dh-0.9.2.tar.gz
+[2023-07-19 09:36:56] INFO root fetch - processPackages [lazysdk]: executing diffoscope
+[2023-07-19 09:36:56] INFO root fetch - processPackages [lazysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazysdk-0.1.8.tar.gz tmp/lazysdk-0.1.9.tar.gz --markdown 20230719/l/lazysdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-19 09:36:56] INFO root fetch - processPackages [Flask-Hashids]: executing diffoscope
+[2023-07-19 09:36:56] INFO root fetch - processPackages [Flask-Hashids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-Hashids-1.0.1.tar.gz tmp/Flask-Hashids-1.0.2.tar.gz --markdown 20230719/F/Flask-Hashids/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-19 09:36:56] INFO root fetch - processPackages [report-dh]: executing diffoscope
+[2023-07-19 09:36:56] INFO root fetch - processPackages [report-dh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/report-dh-0.9.1.tar.gz tmp/report-dh-0.9.2.tar.gz --markdown 20230719/r/report-dh/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-19 09:36:56] INFO root fetch - processPackages [Spider-Toolkit]: Remove: archive file [/home/abi/fetcher/tmp/Spider_Toolkit-23.0.4.tar.gz]
+[2023-07-19 09:36:56] INFO root fetch - processPackages [Spider-Toolkit]: Remove: archive file [/home/abi/fetcher/tmp/Spider_Toolkit-23.0.5.tar.gz]
+[2023-07-19 09:36:56] INFO root fetch - main [MainThread]: End processing [Spider-Toolkit]: success
+[2023-07-19 09:36:56] INFO root fetch - processPackages [unitxt]: Remove: archive file [/home/abi/fetcher/tmp/unitxt-1.0.7.tar.gz]
+[2023-07-19 09:36:56] INFO root fetch - processPackages [unitxt]: Remove: archive file [/home/abi/fetcher/tmp/unitxt-1.0.9.tar.gz]
+[2023-07-19 09:36:56] INFO root fetch - main [MainThread]: End processing [unitxt]: success
+[2023-07-19 09:36:57] INFO root fetch - processPackages [Flask-Hashids]: Remove: archive file [/home/abi/fetcher/tmp/Flask-Hashids-1.0.1.tar.gz]
+[2023-07-19 09:36:57] INFO root fetch - processPackages [Flask-Hashids]: Remove: archive file [/home/abi/fetcher/tmp/Flask-Hashids-1.0.2.tar.gz]
+[2023-07-19 09:36:57] INFO root fetch - main [MainThread]: End processing [Flask-Hashids]: success
+[2023-07-19 09:36:57] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.8.3.tar.gz]
+[2023-07-19 09:36:57] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.9.0.tar.gz]
+[2023-07-19 09:36:57] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2023-07-19 09:36:57] INFO root fetch - processPackages [report-dh]: Remove: archive file [/home/abi/fetcher/tmp/report-dh-0.9.1.tar.gz]
+[2023-07-19 09:36:57] INFO root fetch - processPackages [report-dh]: Remove: archive file [/home/abi/fetcher/tmp/report-dh-0.9.2.tar.gz]
+[2023-07-19 09:36:57] INFO root fetch - main [MainThread]: End processing [report-dh]: success
+[2023-07-19 09:36:57] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.8.tar.gz]
+[2023-07-19 09:36:57] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.9.tar.gz]
+[2023-07-19 09:36:57] INFO root fetch - main [MainThread]: End processing [lazysdk]: success
+[2023-07-19 09:36:57] INFO root fetch - main [MainThread]: Store serial: [18946655]
