@@ -2078,3 +2078,87 @@
 [2023-07-19 02:03:46] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.23.3rc2-py3-none-any.whl.zip]
 [2023-07-19 02:03:46] INFO root fetch - main [MainThread]: End processing [determined]: success
 [2023-07-19 02:03:46] INFO root fetch - main [MainThread]: Store serial: [18941520]
+[2023-07-19 02:08:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18941520]
+[2023-07-19 02:08:55] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-19 02:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: determined
+[2023-07-19 02:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eef-data
+[2023-07-19 02:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: model-hub
+[2023-07-19 02:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bravado-core
+[2023-07-19 02:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cmem-plugin-mattermost
+[2023-07-19 02:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mct-nightly
+[2023-07-19 02:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jaxkern-nightly
+[2023-07-19 02:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jaxutils-nightly
+[2023-07-19 02:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pinecone-client-nightly
+[2023-07-19 02:08:55] INFO root fetch - processPackages [bravado-core]: New version: [5.17.1] Old Version: [5.17.0]
+[2023-07-19 02:08:55] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230718] Old Version: [0.0.8.dev20230717]
+[2023-07-19 02:08:55] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-07-19 02:08:55] INFO root fetch - processPackages [eef-data]: New version: [0.51] Old Version: [0.50]
+[2023-07-19 02:08:55] INFO root fetch - processPackages [pinecone-client-nightly]: New version: [2.2.2.dev20230719000638] Old Version: [2.2.2.dev20230702000659]
+[2023-07-19 02:08:55] INFO root fetch - processPackages [cmem-plugin-mattermost]: New version: [2.0.0] Old Version: [1.0.0]
+[2023-07-19 02:08:55] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/3e/d4/1635894bab3fdd9fc4ea3166b04d81de27107995463c9d42bf09bc0be2e8/jaxutils-nightly-0.0.8.dev20230717.tar.gz
+[2023-07-19 02:08:55] INFO root fetch - processPackages [model-hub]: New version: [0.23.3rc2] Old Version: [0.23.3rc1]
+[2023-07-19 02:08:55] INFO root fetch - processPackages [determined]: New version: [0.23.3rc2] Old Version: [0.23.3rc1]
+[2023-07-19 02:08:55] INFO root fetch - processPackages [mct-nightly]: New version: [1.9.0.20230719.post429] Old Version: [1.9.0.20230718.post433]
+[2023-07-19 02:08:55] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-07-19 02:08:55] INFO root fetch - processPackages [bravado-core]: Downloading https://files.pythonhosted.org/packages/68/0c/8f9c4e6e11503460b7aafeece62f4bbb18baed414d14a73b014604a8b291/bravado-core-5.17.0.tar.gz
+[2023-07-19 02:08:55] INFO root fetch - processPackages [eef-data]: Downloading https://files.pythonhosted.org/packages/49/64/f154f53183f08b1b528a8f934e3b5086fba8bd4357067c8f225bbd10de6f/eef-data-0.50.tar.gz
+[2023-07-19 02:08:55] INFO root fetch - processPackages [pinecone-client-nightly]: Downloading https://files.pythonhosted.org/packages/a6/4b/29cfd692726a6c9e23f35c93c4d44632d4608a18592f64fb55295f05a497/pinecone-client-nightly-2.2.2.dev20230702000659.tar.gz
+[2023-07-19 02:08:55] INFO root fetch - processPackages [cmem-plugin-mattermost]: Downloading https://files.pythonhosted.org/packages/0f/f7/b7f4dc4d45333d43eb3329093eda125d0efaabdc9d3201e7ad3bbf603c3e/cmem_plugin_mattermost-1.0.0.tar.gz
+[2023-07-19 02:08:56] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/68/a3/7dc9ee959ccc7fa92be9a1fb6758666c06a29371d3020e6dc29ea077e5d7/model_hub-0.23.3rc1-py3-none-any.whl
+[2023-07-19 02:08:56] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/e8/24/34a6e21683a2309bb4080d3752ff54623bf06bf19139fa3159b95efc0019/mct-nightly-1.9.0.20230718.post433.tar.gz
+[2023-07-19 02:08:56] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/4a/af/3cc2309c24f94f16866c5c0b398f5de04ae008c1eda07714b5b2cf5d6a98/determined-0.23.3rc1-py3-none-any.whl
+[2023-07-19 02:08:56] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/af/76/a6e24b28a5a1f89e0a32fb21e125d4f9c5437e64f980aef2cf40ff5b206e/jaxutils-nightly-0.0.8.dev20230718.tar.gz
+[2023-07-19 02:08:56] INFO root fetch - processPackages [bravado-core]: Downloading https://files.pythonhosted.org/packages/b2/48/83c1ff7fb03c1d67dddaad2dd8bdfba44769302097da25e6f641ab5292d0/bravado-core-5.17.1.tar.gz
+[2023-07-19 02:08:56] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-07-19 02:08:56] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230717.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230718.tar.gz --markdown 20230719/j/jaxutils-nightly/0.0.8.dev20230717-0.0.8.dev20230718/diff.md --exclude *.pyd
+[2023-07-19 02:08:56] INFO root fetch - processPackages [eef-data]: Downloading https://files.pythonhosted.org/packages/98/f3/8a240bfd3771160da2264a2dece1b1700857064bca9809308c43e29584f9/eef-data-0.51.tar.gz
+[2023-07-19 02:08:56] INFO root fetch - processPackages [pinecone-client-nightly]: Downloading https://files.pythonhosted.org/packages/36/a3/0e7845dcdc4b9d756f0a3b5918c837be9e2e596256426e13df4fbda4c3cc/pinecone-client-nightly-2.2.2.dev20230719000638.tar.gz
+[2023-07-19 02:08:56] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/84/6e/5254c14791fca9c6d4b5ea4dc8cfedb8523576d488a60c391a1a103178c9/determined-0.23.3rc2-py3-none-any.whl
+[2023-07-19 02:08:56] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/60/58/c72bbf210a10a1d5da04295c9a31ada9b6263d53a4ab8c670a32edcb0022/model_hub-0.23.3rc2-py3-none-any.whl
+[2023-07-19 02:08:56] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-07-19 02:08:56] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/d5/2a/020fb8236559d00659fa2e314702aadb9a38ea21eab2d4c3320039784b87/mct-nightly-1.9.0.20230719.post429.tar.gz
+[2023-07-19 02:08:56] INFO root fetch - processPackages [bravado-core]: executing diffoscope
+[2023-07-19 02:08:56] INFO root fetch - processPackages [bravado-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bravado-core-5.17.0.tar.gz tmp/bravado-core-5.17.1.tar.gz --markdown 20230719/b/bravado-core/5.17.0-5.17.1/diff.md --exclude *.pyd
+[2023-07-19 02:08:56] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-07-19 02:08:56] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230719/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-07-19 02:08:56] INFO root fetch - processPackages [cmem-plugin-mattermost]: Downloading https://files.pythonhosted.org/packages/71/bb/f139930c12f09f04ce3ddf866d65a6281c416dc1251163e9f52f023fbd9e/cmem_plugin_mattermost-2.0.0.tar.gz
+[2023-07-19 02:08:56] INFO root fetch - processPackages [model-hub]: executing diffoscope
+[2023-07-19 02:08:56] INFO root fetch - processPackages [model-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_hub-0.23.3rc1-py3-none-any.whl.zip tmp/model_hub-0.23.3rc2-py3-none-any.whl.zip --markdown 20230719/m/model-hub/0.23.3rc1-0.23.3rc2/diff.md --exclude *.pyd
+[2023-07-19 02:08:56] INFO root fetch - processPackages [determined]: executing diffoscope
+[2023-07-19 02:08:56] INFO root fetch - processPackages [determined]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined-0.23.3rc1-py3-none-any.whl.zip tmp/determined-0.23.3rc2-py3-none-any.whl.zip --markdown 20230719/d/determined/0.23.3rc1-0.23.3rc2/diff.md --exclude *.pyd
+[2023-07-19 02:08:56] INFO root fetch - processPackages [eef-data]: executing diffoscope
+[2023-07-19 02:08:56] INFO root fetch - processPackages [eef-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eef-data-0.50.tar.gz tmp/eef-data-0.51.tar.gz --markdown 20230719/e/eef-data/0.50-0.51/diff.md --exclude *.pyd
+[2023-07-19 02:08:56] INFO root fetch - processPackages [pinecone-client-nightly]: executing diffoscope
+[2023-07-19 02:08:56] INFO root fetch - processPackages [pinecone-client-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinecone-client-nightly-2.2.2.dev20230702000659.tar.gz tmp/pinecone-client-nightly-2.2.2.dev20230719000638.tar.gz --markdown 20230719/p/pinecone-client-nightly/2.2.2.dev20230702000659-2.2.2.dev20230719000638/diff.md --exclude *.pyd
+[2023-07-19 02:08:56] INFO root fetch - processPackages [cmem-plugin-mattermost]: executing diffoscope
+[2023-07-19 02:08:56] INFO root fetch - processPackages [cmem-plugin-mattermost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmem_plugin_mattermost-1.0.0.tar.gz tmp/cmem_plugin_mattermost-2.0.0.tar.gz --markdown 20230719/c/cmem-plugin-mattermost/1.0.0-2.0.0/diff.md --exclude *.pyd
+[2023-07-19 02:08:56] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-07-19 02:08:56] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.9.0.20230718.post433.tar.gz tmp/mct-nightly-1.9.0.20230719.post429.tar.gz --markdown 20230719/m/mct-nightly/1.9.0.20230718.post433-1.9.0.20230719.post429/diff.md --exclude *.pyd
+[2023-07-19 02:08:57] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230717.tar.gz]
+[2023-07-19 02:08:57] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230718.tar.gz]
+[2023-07-19 02:08:57] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-07-19 02:08:58] INFO root fetch - processPackages [model-hub]: Remove: archive file [/home/abi/fetcher/tmp/model_hub-0.23.3rc1-py3-none-any.whl.zip]
+[2023-07-19 02:08:58] INFO root fetch - processPackages [model-hub]: Remove: archive file [/home/abi/fetcher/tmp/model_hub-0.23.3rc2-py3-none-any.whl.zip]
+[2023-07-19 02:08:58] INFO root fetch - main [MainThread]: End processing [model-hub]: success
+[2023-07-19 02:08:58] INFO root fetch - processPackages [eef-data]: Remove: archive file [/home/abi/fetcher/tmp/eef-data-0.50.tar.gz]
+[2023-07-19 02:08:58] INFO root fetch - processPackages [eef-data]: Remove: archive file [/home/abi/fetcher/tmp/eef-data-0.51.tar.gz]
+[2023-07-19 02:08:58] INFO root fetch - main [MainThread]: End processing [eef-data]: success
+[2023-07-19 02:08:58] INFO root fetch - processPackages [cmem-plugin-mattermost]: Remove: archive file [/home/abi/fetcher/tmp/cmem_plugin_mattermost-1.0.0.tar.gz]
+[2023-07-19 02:08:58] INFO root fetch - processPackages [cmem-plugin-mattermost]: Remove: archive file [/home/abi/fetcher/tmp/cmem_plugin_mattermost-2.0.0.tar.gz]
+[2023-07-19 02:08:58] INFO root fetch - main [MainThread]: End processing [cmem-plugin-mattermost]: success
+[2023-07-19 02:08:58] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-07-19 02:08:58] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-07-19 02:08:58] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-07-19 02:08:58] INFO root fetch - processPackages [bravado-core]: Remove: archive file [/home/abi/fetcher/tmp/bravado-core-5.17.0.tar.gz]
+[2023-07-19 02:08:58] INFO root fetch - processPackages [bravado-core]: Remove: archive file [/home/abi/fetcher/tmp/bravado-core-5.17.1.tar.gz]
+[2023-07-19 02:08:58] INFO root fetch - main [MainThread]: End processing [bravado-core]: success
+[2023-07-19 02:08:58] INFO root fetch - processPackages [pinecone-client-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pinecone-client-nightly-2.2.2.dev20230702000659.tar.gz]
+[2023-07-19 02:08:58] INFO root fetch - processPackages [pinecone-client-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pinecone-client-nightly-2.2.2.dev20230719000638.tar.gz]
+[2023-07-19 02:08:58] INFO root fetch - main [MainThread]: End processing [pinecone-client-nightly]: success
+[2023-07-19 02:08:59] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.23.3rc1-py3-none-any.whl.zip]
+[2023-07-19 02:08:59] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.23.3rc2-py3-none-any.whl.zip]
+[2023-07-19 02:08:59] INFO root fetch - main [MainThread]: End processing [determined]: success
+[2023-07-19 02:08:59] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230718.post433.tar.gz]
+[2023-07-19 02:08:59] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230719.post429.tar.gz]
+[2023-07-19 02:08:59] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-07-19 02:08:59] INFO root fetch - main [MainThread]: Store serial: [18941544]
