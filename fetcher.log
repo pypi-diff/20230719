@@ -16029,3 +16029,134 @@
 [2023-07-19 09:05:27] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
 [2023-07-19 09:05:27] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
 [2023-07-19 09:05:27] INFO root fetch - main [MainThread]: Store serial: [18946413]
+[2023-07-19 09:10:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18946413]
+[2023-07-19 09:10:35] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-19 09:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gammarer.aws-secure-frontend-web-app-cloudfront-distribution
+[2023-07-19 09:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OnloadTable
+[2023-07-19 09:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chatglm-llm
+[2023-07-19 09:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: perceval-public-inbox
+[2023-07-19 09:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bk-resource
+[2023-07-19 09:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pgaspect
+[2023-07-19 09:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: libprocess
+[2023-07-19 09:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jina
+[2023-07-19 09:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tf-hub-nightly
+[2023-07-19 09:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alibabacloud-bailian20230601
+[2023-07-19 09:10:36] WARNING root fetch - processPackages [libprocess]: Skipping, unable to determine old version
+[2023-07-19 09:10:36] INFO root fetch - processPackages [libprocess]: Start processing: certora-cli-alpha-master
+[2023-07-19 09:10:36] INFO root fetch - main [MainThread]: End processing [libprocess] error
+[2023-07-19 09:10:36] INFO root fetch - processPackages [OnloadTable]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-19 09:10:36] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230718.7.37.850077] Old Version: [20230718.23.27.823295]
+[2023-07-19 09:10:36] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-07-19 09:10:36] WARNING root fetch - processPackages [pgaspect]: Skipping, unable to determine old version
+[2023-07-19 09:10:36] INFO root fetch - processPackages [pgaspect]: Start processing: ml-management
+[2023-07-19 09:10:36] INFO root fetch - main [MainThread]: End processing [pgaspect] error
+[2023-07-19 09:10:36] WARNING root fetch - processPackages [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: Skipping, unable to determine old version
+[2023-07-19 09:10:36] INFO root fetch - processPackages [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: Start processing: lamin_logger
+[2023-07-19 09:10:36] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-frontend-web-app-cloudfront-distribution] error
+[2023-07-19 09:10:36] INFO root fetch - processPackages [bk-resource]: New version: [0.4.1] Old Version: [0.4.0rc2]
+[2023-07-19 09:10:36] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-07-19 09:10:36] INFO root fetch - processPackages [perceval-public-inbox]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-19 09:10:36] INFO root fetch - processPackages [alibabacloud-bailian20230601]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-19 09:10:36] INFO root fetch - processPackages [lamin_logger]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-19 09:10:36] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/2e/23/7babad52c9b084ed32cc9e5ec7ab1ceb5c9553ea34b4d8d0ad1b5708dc5f/certora-cli-alpha-master-20230718.23.27.823295.tar.gz
+[2023-07-19 09:10:36] INFO root fetch - processPackages [ml-management]: New version: [0.0.42] Old Version: [0.0.41]
+[2023-07-19 09:10:36] INFO root fetch - processPackages [chatglm-llm]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-07-19 09:10:36] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2023-07-19 09:10:36] INFO root fetch - processPackages [OnloadTable]: Downloading https://files.pythonhosted.org/packages/6e/b9/4a04f8cd288ed7c4a872b2cc01d6d69353e33e7515ab46c59dcd186e623b/OnloadTable-0.3.3.tar.gz
+[2023-07-19 09:10:36] INFO root fetch - processPackages [bk-resource]: Downloading https://files.pythonhosted.org/packages/d1/16/403e69330421adceec7336fe179188ab2b728ab456f030efaf50ae97e293/bk_resource-0.4.0rc2.tar.gz
+[2023-07-19 09:10:36] INFO root fetch - processPackages [jina]: Downloading https://files.pythonhosted.org/packages/f0/3b/7e6b8b6de74c936b09ce9a4d7440511734efe64633b3418e61b667257994/jina-3.9.3.dev8.tar.gz
+[2023-07-19 09:10:36] INFO root fetch - processPackages [lamin_logger]: Downloading https://files.pythonhosted.org/packages/d4/dd/91c9ae85f7d7a9ee6c093ecb7bd3a1064f2ad7c4bcf4567e117b67b572f1/lamin_logger-0.8.0.tar.gz
+[2023-07-19 09:10:36] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37527472>=10485760
+[2023-07-19 09:10:36] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: psychoanalyze
+[2023-07-19 09:10:36] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-07-19 09:10:36] INFO root fetch - processPackages [alibabacloud-bailian20230601]: Downloading https://files.pythonhosted.org/packages/6b/67/1daa05903712ca6a8b89566e08ebbf56f13b40a89de22697f0374b19f669/alibabacloud_bailian20230601-1.0.0.tar.gz
+[2023-07-19 09:10:36] INFO root fetch - processPackages [perceval-public-inbox]: Downloading https://files.pythonhosted.org/packages/f3/db/6aef8fff03d412389971d293eefecadbc59e883f95163728588bcfaba3d0/perceval_public_inbox-0.1.1.tar.gz
+[2023-07-19 09:10:36] INFO root fetch - processPackages [chatglm-llm]: Downloading https://files.pythonhosted.org/packages/26/c9/78e21f4ddf6352bf58591ca2bf4dc2049bb2576c1d9b8b65f034daea4fde/chatglm-llm-1.4.4.tar.gz
+[2023-07-19 09:10:36] INFO root fetch - processPackages [ml-management]: Downloading https://files.pythonhosted.org/packages/38/3e/3b601a9a485e8cbe6559d9004746a24800ddf8417dfc83c24f9848a7721d/ml-management-0.0.41.tar.gz
+[2023-07-19 09:10:36] INFO root fetch - processPackages [psychoanalyze]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-19 09:10:36] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2023-07-19 09:10:37] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-07-19 09:10:37] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230719/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-07-19 09:10:37] INFO root fetch - processPackages [lamin_logger]: Downloading https://files.pythonhosted.org/packages/a0/c2/63047dcefd84183d2b84d725aa067c8fd1414e0bda00b858fea8ad592656/lamin_logger-0.8.1.tar.gz
+[2023-07-19 09:10:37] INFO root fetch - processPackages [jina]: Downloading https://files.pythonhosted.org/packages/89/60/0658aa50da9055ade2f42bd6cecdfa0abdf69ce7f7bd063c628105106538/jina-3.9.3.dev9.tar.gz
+[2023-07-19 09:10:37] INFO root fetch - processPackages [psychoanalyze]: Downloading https://files.pythonhosted.org/packages/20/83/5e8cb4582c4391d1c3c3a2c456461adef4a0c932645dcca2d02aa0921b26/psychoanalyze-0.6.2.tar.gz
+[2023-07-19 09:10:37] INFO root fetch - processPackages [bk-resource]: Downloading https://files.pythonhosted.org/packages/fd/89/b4c299360598f054177b6dc15eb170fd4cbf0db02edced8bfcf0671bb089/bk_resource-0.4.1.tar.gz
+[2023-07-19 09:10:37] INFO root fetch - processPackages [OnloadTable]: Downloading https://files.pythonhosted.org/packages/fa/8f/7dda7a00c7033963e51a92df0f43e26c7ea78b33f2718e075dbff4f29263/OnloadTable-0.3.4.tar.gz
+[2023-07-19 09:10:37] INFO root fetch - processPackages [chatglm-llm]: Downloading https://files.pythonhosted.org/packages/d0/90/e3a4ebf66a40587d5031d9367cd6c12f479db64d38fc682253bac6868cc5/chatglm-llm-1.4.5.tar.gz
+[2023-07-19 09:10:37] INFO root fetch - processPackages [alibabacloud-bailian20230601]: Downloading https://files.pythonhosted.org/packages/c0/bc/4396c4becfbcb43589e3374620da090a49be26174c754dd5cc60aae83338/alibabacloud_bailian20230601-1.1.0.tar.gz
+[2023-07-19 09:10:37] INFO root fetch - processPackages [perceval-public-inbox]: Downloading https://files.pythonhosted.org/packages/d6/cd/ba1865cba6f875a700c7aa0439d7602915a4943aaf3245e4194158658dec/perceval_public_inbox-0.1.2.tar.gz
+[2023-07-19 09:10:37] INFO root fetch - processPackages [ml-management]: Downloading https://files.pythonhosted.org/packages/86/b1/b43c09e7c1d4b2f3573b3008d1c560caf509308e978f760bc1821ec21ea7/ml-management-0.0.42.tar.gz
+[2023-07-19 09:10:37] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-07-19 09:10:37] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230719/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-07-19 09:10:37] INFO root fetch - processPackages [lamin_logger]: executing diffoscope
+[2023-07-19 09:10:37] INFO root fetch - processPackages [lamin_logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamin_logger-0.8.0.tar.gz tmp/lamin_logger-0.8.1.tar.gz --markdown 20230719/l/lamin_logger/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-19 09:10:37] INFO root fetch - processPackages [bk-resource]: executing diffoscope
+[2023-07-19 09:10:37] INFO root fetch - processPackages [bk-resource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bk_resource-0.4.0rc2.tar.gz tmp/bk_resource-0.4.1.tar.gz --markdown 20230719/b/bk-resource/0.4.0rc2-0.4.1/diff.md --exclude *.pyd
+[2023-07-19 09:10:37] INFO root fetch - processPackages [chatglm-llm]: executing diffoscope
+[2023-07-19 09:10:37] INFO root fetch - processPackages [OnloadTable]: executing diffoscope
+[2023-07-19 09:10:37] INFO root fetch - processPackages [chatglm-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatglm-llm-1.4.4.tar.gz tmp/chatglm-llm-1.4.5.tar.gz --markdown 20230719/c/chatglm-llm/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-07-19 09:10:37] INFO root fetch - processPackages [OnloadTable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OnloadTable-0.3.3.tar.gz tmp/OnloadTable-0.3.4.tar.gz --markdown 20230719/O/OnloadTable/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-19 09:10:37] INFO root fetch - processPackages [alibabacloud-bailian20230601]: executing diffoscope
+[2023-07-19 09:10:37] INFO root fetch - processPackages [alibabacloud-bailian20230601]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_bailian20230601-1.0.0.tar.gz tmp/alibabacloud_bailian20230601-1.1.0.tar.gz --markdown 20230719/a/alibabacloud-bailian20230601/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-19 09:10:37] INFO root fetch - processPackages [perceval-public-inbox]: executing diffoscope
+[2023-07-19 09:10:37] INFO root fetch - processPackages [perceval-public-inbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval_public_inbox-0.1.1.tar.gz tmp/perceval_public_inbox-0.1.2.tar.gz --markdown 20230719/p/perceval-public-inbox/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-19 09:10:37] INFO root fetch - processPackages [ml-management]: executing diffoscope
+[2023-07-19 09:10:37] INFO root fetch - processPackages [ml-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-management-0.0.41.tar.gz tmp/ml-management-0.0.42.tar.gz --markdown 20230719/m/ml-management/0.0.41-0.0.42/diff.md --exclude *.pyd
+[2023-07-19 09:10:37] INFO root fetch - processPackages [psychoanalyze]: Downloading https://files.pythonhosted.org/packages/46/93/780be2c349f38bcd816cf2e974d9bb75088d3e124bd15e5e18e9ff809839/psychoanalyze-0.6.3.tar.gz
+[2023-07-19 09:10:37] INFO root fetch - processPackages [psychoanalyze]: executing diffoscope
+[2023-07-19 09:10:37] INFO root fetch - processPackages [psychoanalyze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psychoanalyze-0.6.2.tar.gz tmp/psychoanalyze-0.6.3.tar.gz --markdown 20230719/p/psychoanalyze/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-19 09:10:38] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2023-07-19 09:10:38] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2023-07-19 09:10:38] INFO root fetch - processPackages [tf-hub-nightly]: Start processing: kingunit-inspector
+[2023-07-19 09:10:38] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-07-19 09:10:38] WARNING root fetch - processPackages [kingunit-inspector]: Skipping, unable to determine old version
+[2023-07-19 09:10:38] INFO root fetch - processPackages [kingunit-inspector]: Start processing: streamlit-nightly
+[2023-07-19 09:10:38] INFO root fetch - main [MainThread]: End processing [kingunit-inspector] error
+[2023-07-19 09:10:38] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-07-19 09:10:38] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/bb/77/73ca36b159a0852f16710c30eca243772d04e8d37c1497e26e837ebad465/streamlit-nightly-1.9.3.dev20220531.tar.gz
+[2023-07-19 09:10:39] INFO root fetch - processPackages [chatglm-llm]: Remove: archive file [/home/abi/fetcher/tmp/chatglm-llm-1.4.4.tar.gz]
+[2023-07-19 09:10:39] INFO root fetch - processPackages [chatglm-llm]: Remove: archive file [/home/abi/fetcher/tmp/chatglm-llm-1.4.5.tar.gz]
+[2023-07-19 09:10:39] INFO root fetch - processPackages [chatglm-llm]: Start processing: cell-value
+[2023-07-19 09:10:39] INFO root fetch - main [MainThread]: End processing [chatglm-llm]: success
+[2023-07-19 09:10:39] INFO root fetch - processPackages [lamin_logger]: Remove: archive file [/home/abi/fetcher/tmp/lamin_logger-0.8.0.tar.gz]
+[2023-07-19 09:10:39] INFO root fetch - processPackages [lamin_logger]: Remove: archive file [/home/abi/fetcher/tmp/lamin_logger-0.8.1.tar.gz]
+[2023-07-19 09:10:39] INFO root fetch - processPackages [lamin_logger]: Start processing: web3tool
+[2023-07-19 09:10:39] INFO root fetch - main [MainThread]: End processing [lamin_logger]: success
+[2023-07-19 09:10:39] WARNING root fetch - processPackages [cell-value]: Skipping, unable to determine old version
+[2023-07-19 09:10:39] INFO root fetch - main [MainThread]: End processing [cell-value] error
+[2023-07-19 09:10:39] INFO root fetch - processPackages [web3tool]: New version: [6.6.2] Old Version: [6.6.1]
+[2023-07-19 09:10:39] INFO root fetch - processPackages [OnloadTable]: Remove: archive file [/home/abi/fetcher/tmp/OnloadTable-0.3.3.tar.gz]
+[2023-07-19 09:10:39] INFO root fetch - processPackages [OnloadTable]: Remove: archive file [/home/abi/fetcher/tmp/OnloadTable-0.3.4.tar.gz]
+[2023-07-19 09:10:39] INFO root fetch - main [MainThread]: End processing [OnloadTable]: success
+[2023-07-19 09:10:39] INFO root fetch - processPackages [ml-management]: Remove: archive file [/home/abi/fetcher/tmp/ml-management-0.0.41.tar.gz]
+[2023-07-19 09:10:39] INFO root fetch - processPackages [ml-management]: Remove: archive file [/home/abi/fetcher/tmp/ml-management-0.0.42.tar.gz]
+[2023-07-19 09:10:39] INFO root fetch - main [MainThread]: End processing [ml-management]: success
+[2023-07-19 09:10:39] INFO root fetch - processPackages [perceval-public-inbox]: Remove: archive file [/home/abi/fetcher/tmp/perceval_public_inbox-0.1.1.tar.gz]
+[2023-07-19 09:10:39] INFO root fetch - processPackages [perceval-public-inbox]: Remove: archive file [/home/abi/fetcher/tmp/perceval_public_inbox-0.1.2.tar.gz]
+[2023-07-19 09:10:39] INFO root fetch - main [MainThread]: End processing [perceval-public-inbox]: success
+[2023-07-19 09:10:39] INFO root fetch - processPackages [bk-resource]: Remove: archive file [/home/abi/fetcher/tmp/bk_resource-0.4.0rc2.tar.gz]
+[2023-07-19 09:10:39] INFO root fetch - processPackages [bk-resource]: Remove: archive file [/home/abi/fetcher/tmp/bk_resource-0.4.1.tar.gz]
+[2023-07-19 09:10:39] INFO root fetch - main [MainThread]: End processing [bk-resource]: success
+[2023-07-19 09:10:39] INFO root fetch - processPackages [alibabacloud-bailian20230601]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_bailian20230601-1.0.0.tar.gz]
+[2023-07-19 09:10:39] INFO root fetch - processPackages [psychoanalyze]: Remove: archive file [/home/abi/fetcher/tmp/psychoanalyze-0.6.2.tar.gz]
+[2023-07-19 09:10:39] INFO root fetch - processPackages [alibabacloud-bailian20230601]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_bailian20230601-1.1.0.tar.gz]
+[2023-07-19 09:10:39] INFO root fetch - processPackages [psychoanalyze]: Remove: archive file [/home/abi/fetcher/tmp/psychoanalyze-0.6.3.tar.gz]
+[2023-07-19 09:10:39] INFO root fetch - main [MainThread]: End processing [alibabacloud-bailian20230601]: success
+[2023-07-19 09:10:39] INFO root fetch - main [MainThread]: End processing [psychoanalyze]: success
+[2023-07-19 09:10:39] INFO root fetch - processPackages [web3tool]: Downloading https://files.pythonhosted.org/packages/90/54/df45e331c229046e984586d6df58c3eb2783970f22e8290423f00e60b2a1/web3tool-6.6.1.tar.gz
+[2023-07-19 09:10:39] INFO root fetch - processPackages [jina]: Remove: archive file [/home/abi/fetcher/tmp/jina-3.9.3.dev8.tar.gz]
+[2023-07-19 09:10:39] INFO root fetch - processPackages [jina]: Remove: archive file [/home/abi/fetcher/tmp/jina-3.9.3.dev9.tar.gz]
+[2023-07-19 09:10:39] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-07-19 09:10:40] INFO root fetch - processPackages [web3tool]: Downloading https://files.pythonhosted.org/packages/dd/4b/d774d918c2d9c29cc67149294ab8b5fbcc5a8c665745ba011be44ecadb9c/web3tool-6.6.2.tar.gz
+[2023-07-19 09:10:40] INFO root fetch - processPackages [web3tool]: executing diffoscope
+[2023-07-19 09:10:40] INFO root fetch - processPackages [web3tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web3tool-6.6.1.tar.gz tmp/web3tool-6.6.2.tar.gz --markdown 20230719/w/web3tool/6.6.1-6.6.2/diff.md --exclude *.pyd
+[2023-07-19 09:10:40] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/3f/2a/57340e81e1d94e80229a3f8d9acc663cdad9ffd0ead21e2c20c76b879c18/streamlit-nightly-1.9.3.dev20220601.tar.gz
+[2023-07-19 09:10:42] INFO root fetch - processPackages [web3tool]: Remove: archive file [/home/abi/fetcher/tmp/web3tool-6.6.1.tar.gz]
+[2023-07-19 09:10:42] INFO root fetch - processPackages [web3tool]: Remove: archive file [/home/abi/fetcher/tmp/web3tool-6.6.2.tar.gz]
+[2023-07-19 09:10:42] INFO root fetch - main [MainThread]: End processing [web3tool]: success
+[2023-07-19 09:10:44] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-07-19 09:10:44] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230719/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-07-19 09:10:52] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz]
+[2023-07-19 09:10:52] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
+[2023-07-19 09:10:52] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-07-19 09:10:52] INFO root fetch - main [MainThread]: Store serial: [18946484]
