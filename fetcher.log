@@ -19116,3 +19116,148 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-19 11:07:38] INFO root fetch - processPackages [tksel]: Remove: archive file [/home/abi/fetcher/tmp/tksel-0.1.2.tar.gz]
 [2023-07-19 11:07:38] INFO root fetch - main [MainThread]: End processing [tksel]: success
 [2023-07-19 11:07:38] INFO root fetch - main [MainThread]: Store serial: [18947693]
+[2023-07-19 11:12:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18947693]
+[2023-07-19 11:12:49] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-19 11:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deepsearch-toolkit
+[2023-07-19 11:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-currency-rate-update-boi
+[2023-07-19 11:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: betabageldb
+[2023-07-19 11:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastapi-serve
+[2023-07-19 11:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: darwin-py
+[2023-07-19 11:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: typedspark
+[2023-07-19 11:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: meta-automl
+[2023-07-19 11:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastapi-serve
+[2023-07-19 11:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: edge-tts-ext
+[2023-07-19 11:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: TDCRPy
+[2023-07-19 11:12:49] INFO root fetch - processPackages [TDCRPy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 11:12:49] INFO root fetch - processPackages [fastapi-serve]: New version: [0.0.4.dev9] Old Version: [0.0.4.dev8]
+[2023-07-19 11:12:49] INFO root fetch - processPackages [fastapi-serve]: New version: [0.0.4.dev9] Old Version: [0.0.4.dev8]
+[2023-07-19 11:12:49] INFO root fetch - processPackages [betabageldb]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-19 11:12:49] INFO root fetch - processPackages [darwin-py]: New version: [0.9.0] Old Version: [0.8.9]
+[2023-07-19 11:12:49] WARNING root fetch - processPackages [odoo14-addon-currency-rate-update-boi]: Skipping, unable to determine old version
+[2023-07-19 11:12:49] INFO root fetch - processPackages [odoo14-addon-currency-rate-update-boi]: Start processing: wiliot-api
+[2023-07-19 11:12:49] INFO root fetch - main [MainThread]: End processing [odoo14-addon-currency-rate-update-boi] error
+[2023-07-19 11:12:49] INFO root fetch - processPackages [typedspark]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 11:12:49] WARNING root fetch - processPackages [meta-automl]: Skipping, unable to determine old version
+[2023-07-19 11:12:49] INFO root fetch - processPackages [meta-automl]: Start processing: alibabacloud-swas-open20200601-py2
+[2023-07-19 11:12:49] INFO root fetch - main [MainThread]: End processing [meta-automl] error
+[2023-07-19 11:12:49] WARNING root fetch - processPackages [edge-tts-ext]: Skipping, unable to determine old version
+[2023-07-19 11:12:49] INFO root fetch - processPackages [edge-tts-ext]: Start processing: zipline-tej
+[2023-07-19 11:12:49] INFO root fetch - main [MainThread]: End processing [edge-tts-ext] error
+[2023-07-19 11:12:49] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/45/d1/26f2b4eb42e05416d7662d5fb8b6f31b59dee6421945806c7b7bfdfbfa94/TDCRPy-0.0.8.tar.gz
+[2023-07-19 11:12:49] INFO root fetch - processPackages [deepsearch-toolkit]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-19 11:12:49] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/a9/a1/dd8a2910d18bbb81d0937e00c72060c1c5ba0f29245e90e01d0b97c6b397/fastapi-serve-0.0.4.dev8.tar.gz
+[2023-07-19 11:12:49] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/a9/a1/dd8a2910d18bbb81d0937e00c72060c1c5ba0f29245e90e01d0b97c6b397/fastapi-serve-0.0.4.dev8.tar.gz
+[2023-07-19 11:12:49] INFO root fetch - processPackages [zipline-tej]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 11:12:49] INFO root fetch - processPackages [wiliot-api]: New version: [4.3.1] Old Version: [4.3.0]
+[2023-07-19 11:12:49] INFO root fetch - processPackages [alibabacloud-swas-open20200601-py2]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-19 11:12:49] INFO root fetch - processPackages [typedspark]: Downloading https://files.pythonhosted.org/packages/c8/7a/5b7af5fea6a6c69d54446f8601e38d6e127d5160464f50fc2fb9f6783a82/typedspark-1.0.8.tar.gz
+[2023-07-19 11:12:49] INFO root fetch - processPackages [darwin-py]: Downloading https://files.pythonhosted.org/packages/93/f6/a0986edeb7fdef1e834f8d1de3051e64d7a11b558e66dd6f541d41841c09/darwin_py-0.8.9.tar.gz
+[2023-07-19 11:12:49] INFO root fetch - processPackages [betabageldb]: Downloading https://files.pythonhosted.org/packages/f5/38/33e3070997a7ff74de97e44fc5ce75074c2366ec87ed5c3c5c1193c1c89a/betabageldb-0.1.6.tar.gz
+[2023-07-19 11:12:50] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/81/74/1c77fcc7996870f973250f70f5fd993fbdf66e25b3c8f01eb1d263d75c6a/zipline-tej-0.0.8.tar.gz
+[2023-07-19 11:12:50] INFO root fetch - processPackages [deepsearch-toolkit]: Downloading https://files.pythonhosted.org/packages/53/66/33bde55a240a8b297e68f7746e32e0c49c3be34a0bef777b582ce892e75a/deepsearch_toolkit-0.8.0.tar.gz
+[2023-07-19 11:12:50] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/e7/1d/16eb063c0be64adcc41433639a482b8af46002e242b7f1e230eae382ad5f/fastapi-serve-0.0.4.dev9.tar.gz
+[2023-07-19 11:12:50] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/58/f4/f09bcfbd9ef3b75b2932ba824304fc7e7bcee566e8570cb2d64f76eb9adc/TDCRPy-0.0.9.tar.gz
+[2023-07-19 11:12:50] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/e7/1d/16eb063c0be64adcc41433639a482b8af46002e242b7f1e230eae382ad5f/fastapi-serve-0.0.4.dev9.tar.gz
+[2023-07-19 11:12:50] INFO root fetch - processPackages [alibabacloud-swas-open20200601-py2]: Downloading https://files.pythonhosted.org/packages/b0/91/80e6d16af0841f6c40b28a62c32b80a29de9a4d2fffc30143f52601900d7/alibabacloud_swas-open20200601_py2-1.0.4.tar.gz
+[2023-07-19 11:12:50] INFO root fetch - processPackages [wiliot-api]: Downloading https://files.pythonhosted.org/packages/b9/61/a3be27ce7f4cacbc71eb7037f4a7fdeee19067c1bf94a6433664c9aaa6af/wiliot-api-4.3.0.tar.gz
+[2023-07-19 11:12:50] INFO root fetch - processPackages [fastapi-serve]: executing diffoscope
+[2023-07-19 11:12:50] INFO root fetch - processPackages [fastapi-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-serve-0.0.4.dev8.tar.gz tmp/fastapi-serve-0.0.4.dev9.tar.gz --markdown 20230719/f/fastapi-serve/0.0.4.dev8-0.0.4.dev9/diff.md --exclude *.pyd
+[2023-07-19 11:12:50] INFO root fetch - processPackages [fastapi-serve]: executing diffoscope
+[2023-07-19 11:12:50] INFO root fetch - processPackages [fastapi-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-serve-0.0.4.dev8.tar.gz tmp/fastapi-serve-0.0.4.dev9.tar.gz --markdown 20230719/f/fastapi-serve/0.0.4.dev8-0.0.4.dev9/diff.md --exclude *.pyd
+[2023-07-19 11:12:50] INFO root fetch - processPackages [TDCRPy]: executing diffoscope
+[2023-07-19 11:12:50] INFO root fetch - processPackages [TDCRPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDCRPy-0.0.8.tar.gz tmp/TDCRPy-0.0.9.tar.gz --markdown 20230719/T/TDCRPy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 11:12:50] INFO root fetch - processPackages [betabageldb]: Downloading https://files.pythonhosted.org/packages/51/dc/10654b2eae3eb5adee476bde4331fbe4638dad4a810eb6621d4bdee88b4a/betabageldb-0.1.7.tar.gz
+[2023-07-19 11:12:50] INFO root fetch - processPackages [darwin-py]: Downloading https://files.pythonhosted.org/packages/c5/56/e34f4f67858e6b507fb799ab789e82144a84a51233dfaaea764b8c51ad5d/darwin_py-0.9.0.tar.gz
+[2023-07-19 11:12:50] INFO root fetch - processPackages [typedspark]: Downloading https://files.pythonhosted.org/packages/f9/d8/51db73310caf1dd33e354a0bd438352fd44612a51dac6e8440593bc7ab02/typedspark-1.0.9.tar.gz
+[2023-07-19 11:12:50] INFO root fetch - processPackages [alibabacloud-swas-open20200601-py2]: Downloading https://files.pythonhosted.org/packages/2c/b6/7e60a76a49a2c0411dc87245f9f38cd7d9eca597a284bd8f0358ac70f163/alibabacloud_swas-open20200601_py2-1.0.5.tar.gz
+[2023-07-19 11:12:50] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/84/15/b5579d7eb6cdb4cc9d6c22c0f36086080b26eabdda5b9d6a1f9a7f8f8df6/zipline-tej-0.0.9.tar.gz
+[2023-07-19 11:12:50] INFO root fetch - processPackages [wiliot-api]: Downloading https://files.pythonhosted.org/packages/08/25/c53634a89e159670157ab71e5aaf558865e9bb433f0bfaa0c194895c8693/wiliot-api-4.3.1.tar.gz
+[2023-07-19 11:12:50] INFO root fetch - processPackages [betabageldb]: executing diffoscope
+[2023-07-19 11:12:50] INFO root fetch - processPackages [betabageldb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betabageldb-0.1.6.tar.gz tmp/betabageldb-0.1.7.tar.gz --markdown 20230719/b/betabageldb/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-19 11:12:50] INFO root fetch - processPackages [typedspark]: executing diffoscope
+[2023-07-19 11:12:50] INFO root fetch - processPackages [typedspark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedspark-1.0.8.tar.gz tmp/typedspark-1.0.9.tar.gz --markdown 20230719/t/typedspark/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 11:12:50] INFO root fetch - processPackages [zipline-tej]: executing diffoscope
+[2023-07-19 11:12:50] INFO root fetch - processPackages [zipline-tej]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipline-tej-0.0.8.tar.gz tmp/zipline-tej-0.0.9.tar.gz --markdown 20230719/z/zipline-tej/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 11:12:50] INFO root fetch - processPackages [alibabacloud-swas-open20200601-py2]: executing diffoscope
+[2023-07-19 11:12:50] INFO root fetch - processPackages [alibabacloud-swas-open20200601-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_swas-open20200601_py2-1.0.4.tar.gz tmp/alibabacloud_swas-open20200601_py2-1.0.5.tar.gz --markdown 20230719/a/alibabacloud-swas-open20200601-py2/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-19 11:12:50] INFO root fetch - processPackages [wiliot-api]: executing diffoscope
+[2023-07-19 11:12:50] INFO root fetch - processPackages [wiliot-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiliot-api-4.3.0.tar.gz tmp/wiliot-api-4.3.1.tar.gz --markdown 20230719/w/wiliot-api/4.3.0-4.3.1/diff.md --exclude *.pyd
+[2023-07-19 11:12:51] INFO root fetch - processPackages [deepsearch-toolkit]: Downloading https://files.pythonhosted.org/packages/af/4f/81421d1676fe839d31289bc27a262bdbb1dfd7c868324c8a18fca437e37e/deepsearch_toolkit-0.9.0.tar.gz
+[2023-07-19 11:12:51] INFO root fetch - processPackages [darwin-py]: executing diffoscope
+[2023-07-19 11:12:51] INFO root fetch - processPackages [darwin-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/darwin_py-0.8.9.tar.gz tmp/darwin_py-0.9.0.tar.gz --markdown 20230719/d/darwin-py/0.8.9-0.9.0/diff.md --exclude *.pyd
+[2023-07-19 11:12:51] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.4.dev8.tar.gz]
+[2023-07-19 11:12:51] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.4.dev9.tar.gz]
+[2023-07-19 11:12:51] INFO root fetch - processPackages [fastapi-serve]: Start processing: fastapi-serve
+[2023-07-19 11:12:51] INFO root fetch - main [MainThread]: End processing [fastapi-serve]: success
+[2023-07-19 11:12:51] INFO root fetch - processPackages [deepsearch-toolkit]: executing diffoscope
+[2023-07-19 11:12:51] INFO root fetch - processPackages [deepsearch-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepsearch_toolkit-0.8.0.tar.gz tmp/deepsearch_toolkit-0.9.0.tar.gz --markdown 20230719/d/deepsearch-toolkit/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-19 11:12:51] INFO root fetch - processPackages [fastapi-serve]: New version: [0.0.4.dev9] Old Version: [0.0.4.dev8]
+[2023-07-19 11:12:51] INFO root fetch - processPackages [fastapi-serve]: Start processing: alibabacloud-swas-open20200601
+[2023-07-19 11:12:51] INFO root fetch - main [MainThread]: End processing [fastapi-serve]: success
+[2023-07-19 11:12:51] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/a9/a1/dd8a2910d18bbb81d0937e00c72060c1c5ba0f29245e90e01d0b97c6b397/fastapi-serve-0.0.4.dev8.tar.gz
+[2023-07-19 11:12:51] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.8.tar.gz]
+[2023-07-19 11:12:51] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.9.tar.gz]
+[2023-07-19 11:12:51] INFO root fetch - processPackages [TDCRPy]: Start processing: pycognaize
+[2023-07-19 11:12:51] INFO root fetch - main [MainThread]: End processing [TDCRPy]: success
+[2023-07-19 11:12:52] INFO root fetch - processPackages [alibabacloud-swas-open20200601]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-19 11:12:52] INFO root fetch - processPackages [pycognaize]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-19 11:12:52] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/e7/1d/16eb063c0be64adcc41433639a482b8af46002e242b7f1e230eae382ad5f/fastapi-serve-0.0.4.dev9.tar.gz
+[2023-07-19 11:12:52] INFO root fetch - processPackages [betabageldb]: Remove: archive file [/home/abi/fetcher/tmp/betabageldb-0.1.6.tar.gz]
+[2023-07-19 11:12:52] INFO root fetch - processPackages [betabageldb]: Remove: archive file [/home/abi/fetcher/tmp/betabageldb-0.1.7.tar.gz]
+[2023-07-19 11:12:52] INFO root fetch - processPackages [betabageldb]: Start processing: documentdataextraction
+[2023-07-19 11:12:52] INFO root fetch - main [MainThread]: End processing [betabageldb]: success
+[2023-07-19 11:12:52] INFO root fetch - processPackages [typedspark]: Remove: archive file [/home/abi/fetcher/tmp/typedspark-1.0.8.tar.gz]
+[2023-07-19 11:12:52] INFO root fetch - processPackages [typedspark]: Remove: archive file [/home/abi/fetcher/tmp/typedspark-1.0.9.tar.gz]
+[2023-07-19 11:12:52] INFO root fetch - processPackages [typedspark]: Start processing: pyastgrep
+[2023-07-19 11:12:52] INFO root fetch - main [MainThread]: End processing [typedspark]: success
+[2023-07-19 11:12:52] INFO root fetch - processPackages [fastapi-serve]: executing diffoscope
+[2023-07-19 11:12:52] INFO root fetch - processPackages [fastapi-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-serve-0.0.4.dev8.tar.gz tmp/fastapi-serve-0.0.4.dev9.tar.gz --markdown 20230719/f/fastapi-serve/0.0.4.dev8-0.0.4.dev9/diff.md --exclude *.pyd
+[2023-07-19 11:12:52] INFO root fetch - processPackages [pyastgrep]: New version: [1.3] Old Version: [1.2.2]
+[2023-07-19 11:12:52] INFO root fetch - processPackages [documentdataextraction]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 11:12:52] INFO root fetch - processPackages [pycognaize]: Downloading https://files.pythonhosted.org/packages/5c/36/fb3952a90a0f2e57f9c0c1b9893d6d7dd466a2eae7d75130342669893d31/pycognaize-1.4.8.tar.gz
+[2023-07-19 11:12:52] INFO root fetch - processPackages [alibabacloud-swas-open20200601]: Downloading https://files.pythonhosted.org/packages/f4/1e/548a1b76aac9d2da1d148d35cce2c23030557fc6ae01557a0d397ed7f4f0/alibabacloud_swas-open20200601-1.0.4.tar.gz
+[2023-07-19 11:12:52] INFO root fetch - processPackages [pyastgrep]: Downloading https://files.pythonhosted.org/packages/63/a3/849056c75838f10f25f572d42b0383adf6a001facf4378ef28d366a0c5c2/pyastgrep-1.2.2.tar.gz
+[2023-07-19 11:12:52] INFO root fetch - processPackages [wiliot-api]: Remove: archive file [/home/abi/fetcher/tmp/wiliot-api-4.3.0.tar.gz]
+[2023-07-19 11:12:52] INFO root fetch - processPackages [wiliot-api]: Remove: archive file [/home/abi/fetcher/tmp/wiliot-api-4.3.1.tar.gz]
+[2023-07-19 11:12:52] INFO root fetch - main [MainThread]: End processing [wiliot-api]: success
+[2023-07-19 11:12:52] INFO root fetch - processPackages [documentdataextraction]: Downloading https://files.pythonhosted.org/packages/1a/e4/1e85519ce247c6ed7c20e6c47ef38f5c09cf919ff231bf453cc23a1f0ba0/documentdataextraction-0.0.8-py3-none-any.whl
+[2023-07-19 11:12:52] INFO root fetch - processPackages [alibabacloud-swas-open20200601-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_swas-open20200601_py2-1.0.4.tar.gz]
+[2023-07-19 11:12:52] INFO root fetch - processPackages [alibabacloud-swas-open20200601-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_swas-open20200601_py2-1.0.5.tar.gz]
+[2023-07-19 11:12:52] INFO root fetch - main [MainThread]: End processing [alibabacloud-swas-open20200601-py2]: success
+[2023-07-19 11:12:52] INFO root fetch - processPackages [pyastgrep]: Downloading https://files.pythonhosted.org/packages/1e/4e/aa67d9e1b7f1604411d70471219e6a9daa34f59ee3b19caa98b442ffb800/pyastgrep-1.3.tar.gz
+[2023-07-19 11:12:52] INFO root fetch - processPackages [alibabacloud-swas-open20200601]: Downloading https://files.pythonhosted.org/packages/c5/c8/a5238ee16220307c5a8a443493ca7f7c51b55dc13c736492089947c465a1/alibabacloud_swas-open20200601-1.0.5.tar.gz
+[2023-07-19 11:12:52] INFO root fetch - processPackages [pycognaize]: Downloading https://files.pythonhosted.org/packages/fe/bb/26451b0bbddbd03704f60601f1f0392b063e5ada2fb7acef94a2464582c9/pycognaize-1.4.9.tar.gz
+[2023-07-19 11:12:52] INFO root fetch - processPackages [pyastgrep]: executing diffoscope
+[2023-07-19 11:12:52] INFO root fetch - processPackages [pyastgrep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyastgrep-1.2.2.tar.gz tmp/pyastgrep-1.3.tar.gz --markdown 20230719/p/pyastgrep/1.2.2-1.3/diff.md --exclude *.pyd
+[2023-07-19 11:12:53] INFO root fetch - processPackages [alibabacloud-swas-open20200601]: executing diffoscope
+[2023-07-19 11:12:53] INFO root fetch - processPackages [alibabacloud-swas-open20200601]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_swas-open20200601-1.0.4.tar.gz tmp/alibabacloud_swas-open20200601-1.0.5.tar.gz --markdown 20230719/a/alibabacloud-swas-open20200601/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-19 11:12:53] INFO root fetch - processPackages [darwin-py]: Remove: archive file [/home/abi/fetcher/tmp/darwin_py-0.8.9.tar.gz]
+[2023-07-19 11:12:53] INFO root fetch - processPackages [darwin-py]: Remove: archive file [/home/abi/fetcher/tmp/darwin_py-0.9.0.tar.gz]
+[2023-07-19 11:12:53] INFO root fetch - main [MainThread]: End processing [darwin-py]: success
+[2023-07-19 11:12:53] INFO root fetch - processPackages [documentdataextraction]: Downloading https://files.pythonhosted.org/packages/b3/ec/eb9901e48d02bee04847cd1afe0c6b8ca7231d1a8b133261a63ae052f777/documentdataextraction-0.0.9-py3-none-any.whl
+[2023-07-19 11:12:53] INFO root fetch - processPackages [pycognaize]: executing diffoscope
+[2023-07-19 11:12:53] INFO root fetch - processPackages [pycognaize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycognaize-1.4.8.tar.gz tmp/pycognaize-1.4.9.tar.gz --markdown 20230719/p/pycognaize/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-19 11:12:53] INFO root fetch - processPackages [documentdataextraction]: executing diffoscope
+[2023-07-19 11:12:53] INFO root fetch - processPackages [documentdataextraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/documentdataextraction-0.0.8-py3-none-any.whl.zip tmp/documentdataextraction-0.0.9-py3-none-any.whl.zip --markdown 20230719/d/documentdataextraction/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 11:12:53] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.4.dev8.tar.gz]
+[2023-07-19 11:12:53] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.4.dev9.tar.gz]
+[2023-07-19 11:12:53] INFO root fetch - main [MainThread]: End processing [fastapi-serve]: success
+[2023-07-19 11:12:53] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.8.tar.gz]
+[2023-07-19 11:12:53] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.9.tar.gz]
+[2023-07-19 11:12:53] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
+[2023-07-19 11:12:54] INFO root fetch - processPackages [pyastgrep]: Remove: archive file [/home/abi/fetcher/tmp/pyastgrep-1.2.2.tar.gz]
+[2023-07-19 11:12:54] INFO root fetch - processPackages [pyastgrep]: Remove: archive file [/home/abi/fetcher/tmp/pyastgrep-1.3.tar.gz]
+[2023-07-19 11:12:54] INFO root fetch - main [MainThread]: End processing [pyastgrep]: success
+[2023-07-19 11:12:54] INFO root fetch - processPackages [alibabacloud-swas-open20200601]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_swas-open20200601-1.0.4.tar.gz]
+[2023-07-19 11:12:54] INFO root fetch - processPackages [alibabacloud-swas-open20200601]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_swas-open20200601-1.0.5.tar.gz]
+[2023-07-19 11:12:54] INFO root fetch - main [MainThread]: End processing [alibabacloud-swas-open20200601]: success
+[2023-07-19 11:12:54] INFO root fetch - processPackages [documentdataextraction]: Remove: archive file [/home/abi/fetcher/tmp/documentdataextraction-0.0.8-py3-none-any.whl.zip]
+[2023-07-19 11:12:54] INFO root fetch - processPackages [documentdataextraction]: Remove: archive file [/home/abi/fetcher/tmp/documentdataextraction-0.0.9-py3-none-any.whl.zip]
+[2023-07-19 11:12:54] INFO root fetch - main [MainThread]: End processing [documentdataextraction]: success
+[2023-07-19 11:12:54] INFO root fetch - processPackages [pycognaize]: Remove: archive file [/home/abi/fetcher/tmp/pycognaize-1.4.8.tar.gz]
+[2023-07-19 11:12:54] INFO root fetch - processPackages [pycognaize]: Remove: archive file [/home/abi/fetcher/tmp/pycognaize-1.4.9.tar.gz]
+[2023-07-19 11:12:54] INFO root fetch - main [MainThread]: End processing [pycognaize]: success
+[2023-07-19 11:12:55] INFO root fetch - processPackages [deepsearch-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/deepsearch_toolkit-0.8.0.tar.gz]
+[2023-07-19 11:12:55] INFO root fetch - processPackages [deepsearch-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/deepsearch_toolkit-0.9.0.tar.gz]
+[2023-07-19 11:12:55] INFO root fetch - main [MainThread]: End processing [deepsearch-toolkit]: success
+[2023-07-19 11:12:55] INFO root fetch - main [MainThread]: Store serial: [18947748]
