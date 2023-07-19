@@ -5384,3 +5384,83 @@
 [2023-07-19 03:02:53] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202307190059.tar.gz]
 [2023-07-19 03:02:53] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-07-19 03:02:53] INFO root fetch - main [MainThread]: Store serial: [18942669]
+[2023-07-19 03:07:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18942669]
+[2023-07-19 03:08:02] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-19 03:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: namespace-mahdimir
+[2023-07-19 03:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: state-machine-semaphore
+[2023-07-19 03:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ultranest
+[2023-07-19 03:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyutils
+[2023-07-19 03:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-rds-dump
+[2023-07-19 03:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: BERTSimilar
+[2023-07-19 03:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zibanu-django-auth
+[2023-07-19 03:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nids-datasets
+[2023-07-19 03:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: assisted-service-client
+[2023-07-19 03:08:02] INFO root fetch - processPackages [pyutils]: New version: [0.0.1b9] Old Version: [0.0.1b8]
+[2023-07-19 03:08:02] INFO root fetch - processPackages [nids-datasets]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-19 03:08:02] INFO root fetch - processPackages [BERTSimilar]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-19 03:08:02] INFO root fetch - processPackages [cdk-rds-dump]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-07-19 03:08:02] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-19 03:08:02] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-07-19 03:08:02] INFO root fetch - processPackages [nids-datasets]: Downloading https://files.pythonhosted.org/packages/60/94/34b469ec6012c566c4b1108af1e76e372cfd2acdc2e322c0db8f329721ea/nids_datasets-0.0.5.tar.gz
+[2023-07-19 03:08:02] INFO root fetch - processPackages [namespace-mahdimir]: New version: [2.6.0] Old Version: [2.5.0]
+[2023-07-19 03:08:02] INFO root fetch - processPackages [zibanu-django-auth]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-19 03:08:02] INFO root fetch - processPackages [ultranest]: New version: [3.6.2] Old Version: [3.6.1]
+[2023-07-19 03:08:03] INFO root fetch - processPackages [pyutils]: Downloading https://files.pythonhosted.org/packages/27/50/3ae892a4bd4fcdaa42f4a04d9bd0076733357c659cf7c794bdc24883d3cf/pyutils-0.0.1b8-py3-none-any.whl
+[2023-07-19 03:08:03] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2023-07-19 03:08:03] INFO root fetch - processPackages [cdk-rds-dump]: Downloading https://files.pythonhosted.org/packages/e3/d0/3ee0a27044a7e93a9c7a55104ec1dff844d3bf08a4b2ebe8188c4a3b3223/cdk-rds-dump-1.2.3.tar.gz
+[2023-07-19 03:08:03] INFO root fetch - processPackages [BERTSimilar]: Downloading https://files.pythonhosted.org/packages/89/19/28c10cce021f7f00625c9db002819ed69d9e957b963602c56ef89e7f70e4/BERTSimilar-0.1.8.tar.gz
+[2023-07-19 03:08:03] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2023-07-19 03:08:03] INFO root fetch - processPackages [namespace-mahdimir]: Downloading https://files.pythonhosted.org/packages/f0/0a/d0101b957d05759fc77d5b30f5b5cfcc79b410b340df8b31fc0bf4f451de/namespace_mahdimir-2.5.0.tar.gz
+[2023-07-19 03:08:03] INFO root fetch - processPackages [ultranest]: Downloading https://files.pythonhosted.org/packages/6b/96/e0e3c4041f8a4dc917d7f8af52b38973e34edaa487d78689ed3eb52a802b/ultranest-3.6.1.tar.gz
+[2023-07-19 03:08:03] INFO root fetch - processPackages [zibanu-django-auth]: Downloading https://files.pythonhosted.org/packages/17/04/73d379a7340b99afe2ae87c818f9a310dd80b43b80c22c2a61da06e5a041/zibanu-django-auth-1.0.3.tar.gz
+[2023-07-19 03:08:03] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2023-07-19 03:08:03] INFO root fetch - processPackages [nids-datasets]: Downloading https://files.pythonhosted.org/packages/17/f5/0faf85e7770e8b0f86d20336394a9476a03988e8a23416e19dd4988e542f/nids_datasets-0.0.6.tar.gz
+[2023-07-19 03:08:03] INFO root fetch - processPackages [pyutils]: Downloading https://files.pythonhosted.org/packages/c8/9a/0d17bafc8102fc91fad611435c794bf7de1fd2751d1710ad8a41f99a4da1/pyutils-0.0.1b9-py3-none-any.whl
+[2023-07-19 03:08:03] WARNING root fetch - processPackages [ultranest]: Skipping package: exceeds size limit 21529563>=10485760
+[2023-07-19 03:08:03] INFO root fetch - main [MainThread]: End processing [ultranest] error
+[2023-07-19 03:08:03] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-07-19 03:08:03] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230719/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-07-19 03:08:03] INFO root fetch - processPackages [BERTSimilar]: Downloading https://files.pythonhosted.org/packages/2c/51/447523046b00ec6973b51ac966f51f0db71568265d746e309810ab691302/BERTSimilar-0.1.9.tar.gz
+[2023-07-19 03:08:03] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2023-07-19 03:08:03] INFO root fetch - processPackages [namespace-mahdimir]: Downloading https://files.pythonhosted.org/packages/24/eb/62a8bae492cf5ae081524aa9baeb8b307c52a76a4e1744d79bc137de0bfd/namespace_mahdimir-2.6.0.tar.gz
+[2023-07-19 03:08:03] INFO root fetch - processPackages [nids-datasets]: executing diffoscope
+[2023-07-19 03:08:03] INFO root fetch - processPackages [nids-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nids_datasets-0.0.5.tar.gz tmp/nids_datasets-0.0.6.tar.gz --markdown 20230719/n/nids-datasets/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-19 03:08:03] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2023-07-19 03:08:03] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20230719/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-19 03:08:03] INFO root fetch - processPackages [pyutils]: executing diffoscope
+[2023-07-19 03:08:03] INFO root fetch - processPackages [pyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyutils-0.0.1b8-py3-none-any.whl.zip tmp/pyutils-0.0.1b9-py3-none-any.whl.zip --markdown 20230719/p/pyutils/0.0.1b8-0.0.1b9/diff.md --exclude *.pyd
+[2023-07-19 03:08:03] INFO root fetch - processPackages [BERTSimilar]: executing diffoscope
+[2023-07-19 03:08:03] INFO root fetch - processPackages [BERTSimilar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BERTSimilar-0.1.8.tar.gz tmp/BERTSimilar-0.1.9.tar.gz --markdown 20230719/B/BERTSimilar/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-19 03:08:03] INFO root fetch - processPackages [zibanu-django-auth]: Downloading https://files.pythonhosted.org/packages/88/1d/5cb0e2456d9e81a89080741dba328aba7dd3d55e0b4a5d2e314db9fff2e9/zibanu-django-auth-1.0.4.tar.gz
+[2023-07-19 03:08:03] INFO root fetch - processPackages [cdk-rds-dump]: Downloading https://files.pythonhosted.org/packages/df/65/5ef34f105d507e6de922087d592bbdd5941e7176f7c6cdcfbf92c56dd03e/cdk-rds-dump-1.2.4.tar.gz
+[2023-07-19 03:08:03] INFO root fetch - processPackages [namespace-mahdimir]: executing diffoscope
+[2023-07-19 03:08:03] INFO root fetch - processPackages [namespace-mahdimir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namespace_mahdimir-2.5.0.tar.gz tmp/namespace_mahdimir-2.6.0.tar.gz --markdown 20230719/n/namespace-mahdimir/2.5.0-2.6.0/diff.md --exclude *.pyd
+[2023-07-19 03:08:04] INFO root fetch - processPackages [zibanu-django-auth]: executing diffoscope
+[2023-07-19 03:08:04] INFO root fetch - processPackages [zibanu-django-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zibanu-django-auth-1.0.3.tar.gz tmp/zibanu-django-auth-1.0.4.tar.gz --markdown 20230719/z/zibanu-django-auth/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-19 03:08:04] INFO root fetch - processPackages [cdk-rds-dump]: executing diffoscope
+[2023-07-19 03:08:04] INFO root fetch - processPackages [cdk-rds-dump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-rds-dump-1.2.3.tar.gz tmp/cdk-rds-dump-1.2.4.tar.gz --markdown 20230719/c/cdk-rds-dump/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-07-19 03:08:04] INFO root fetch - processPackages [nids-datasets]: Remove: archive file [/home/abi/fetcher/tmp/nids_datasets-0.0.5.tar.gz]
+[2023-07-19 03:08:04] INFO root fetch - processPackages [nids-datasets]: Remove: archive file [/home/abi/fetcher/tmp/nids_datasets-0.0.6.tar.gz]
+[2023-07-19 03:08:04] INFO root fetch - main [MainThread]: End processing [nids-datasets]: success
+[2023-07-19 03:08:05] INFO root fetch - processPackages [BERTSimilar]: Remove: archive file [/home/abi/fetcher/tmp/BERTSimilar-0.1.8.tar.gz]
+[2023-07-19 03:08:05] INFO root fetch - processPackages [BERTSimilar]: Remove: archive file [/home/abi/fetcher/tmp/BERTSimilar-0.1.9.tar.gz]
+[2023-07-19 03:08:05] INFO root fetch - main [MainThread]: End processing [BERTSimilar]: success
+[2023-07-19 03:08:05] INFO root fetch - processPackages [namespace-mahdimir]: Remove: archive file [/home/abi/fetcher/tmp/namespace_mahdimir-2.5.0.tar.gz]
+[2023-07-19 03:08:05] INFO root fetch - processPackages [namespace-mahdimir]: Remove: archive file [/home/abi/fetcher/tmp/namespace_mahdimir-2.6.0.tar.gz]
+[2023-07-19 03:08:05] INFO root fetch - main [MainThread]: End processing [namespace-mahdimir]: success
+[2023-07-19 03:08:05] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2023-07-19 03:08:05] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2023-07-19 03:08:05] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2023-07-19 03:08:05] INFO root fetch - processPackages [pyutils]: Remove: archive file [/home/abi/fetcher/tmp/pyutils-0.0.1b8-py3-none-any.whl.zip]
+[2023-07-19 03:08:05] INFO root fetch - processPackages [pyutils]: Remove: archive file [/home/abi/fetcher/tmp/pyutils-0.0.1b9-py3-none-any.whl.zip]
+[2023-07-19 03:08:05] INFO root fetch - main [MainThread]: End processing [pyutils]: success
+[2023-07-19 03:08:05] INFO root fetch - processPackages [zibanu-django-auth]: Remove: archive file [/home/abi/fetcher/tmp/zibanu-django-auth-1.0.3.tar.gz]
+[2023-07-19 03:08:05] INFO root fetch - processPackages [zibanu-django-auth]: Remove: archive file [/home/abi/fetcher/tmp/zibanu-django-auth-1.0.4.tar.gz]
+[2023-07-19 03:08:05] INFO root fetch - main [MainThread]: End processing [zibanu-django-auth]: success
+[2023-07-19 03:08:05] INFO root fetch - processPackages [cdk-rds-dump]: Remove: archive file [/home/abi/fetcher/tmp/cdk-rds-dump-1.2.3.tar.gz]
+[2023-07-19 03:08:05] INFO root fetch - processPackages [cdk-rds-dump]: Remove: archive file [/home/abi/fetcher/tmp/cdk-rds-dump-1.2.4.tar.gz]
+[2023-07-19 03:08:05] INFO root fetch - main [MainThread]: End processing [cdk-rds-dump]: success
+[2023-07-19 03:08:06] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2023-07-19 03:08:06] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2023-07-19 03:08:06] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-07-19 03:08:06] INFO root fetch - main [MainThread]: Store serial: [18942693]
