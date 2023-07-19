@@ -15111,3 +15111,95 @@
 [2023-07-19 08:30:55] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
 [2023-07-19 08:30:55] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2023-07-19 08:30:55] INFO root fetch - main [MainThread]: Store serial: [18946075]
+[2023-07-19 08:35:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18946075]
+[2023-07-19 08:36:04] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-19 08:36:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapid-videocr
+[2023-07-19 08:36:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: algo-ops
+[2023-07-19 08:36:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gncpy
+[2023-07-19 08:36:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: elementary-data
+[2023-07-19 08:36:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openssm-dev
+[2023-07-19 08:36:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vanna
+[2023-07-19 08:36:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dicomset
+[2023-07-19 08:36:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: z3c.schema
+[2023-07-19 08:36:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pgsqlx
+[2023-07-19 08:36:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lnauth-django
+[2023-07-19 08:36:05] WARNING root fetch - processPackages [openssm-dev]: Skipping, unable to determine old version
+[2023-07-19 08:36:05] INFO root fetch - processPackages [openssm-dev]: Start processing: mcfit
+[2023-07-19 08:36:05] INFO root fetch - main [MainThread]: End processing [openssm-dev] error
+[2023-07-19 08:36:05] INFO root fetch - processPackages [lnauth-django]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-19 08:36:05] INFO root fetch - processPackages [dicomset]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 08:36:05] INFO root fetch - processPackages [pgsqlx]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-19 08:36:05] INFO root fetch - processPackages [elementary-data]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-07-19 08:36:05] INFO root fetch - processPackages [gncpy]: New version: [2.0.0] Old Version: [1.0.1]
+[2023-07-19 08:36:05] INFO root fetch - processPackages [algo-ops]: New version: [0.0.1.7.0.2] Old Version: [0.0.1.7.0.1]
+[2023-07-19 08:36:05] INFO root fetch - processPackages [vanna]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 08:36:05] INFO root fetch - processPackages [rapid-videocr]: New version: [2.2.4] Old Version: [2.2.3]
+[2023-07-19 08:36:05] INFO root fetch - processPackages [z3c.schema]: New version: [2.0] Old Version: [1.2.0]
+[2023-07-19 08:36:05] INFO root fetch - processPackages [dicomset]: Downloading https://files.pythonhosted.org/packages/e8/0c/d10fafa1eccd5aa8808ae940c53b5d83146d8e376697006256a9f8ff6e95/dicomset-0.0.8.tar.gz
+[2023-07-19 08:36:05] INFO root fetch - processPackages [mcfit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 08:36:05] INFO root fetch - processPackages [lnauth-django]: Downloading https://files.pythonhosted.org/packages/b8/cd/7ce2b5d46d9bb707d42fc5ae9447c1429dbec8f641e0f1b4cb3adff50cb4/lnauth_django-0.3.0.tar.gz
+[2023-07-19 08:36:05] INFO root fetch - processPackages [pgsqlx]: Downloading https://files.pythonhosted.org/packages/98/39/09f93067a569db98b84686253468492071a259083e1c2bdb0ddf8ddf879b/pgsqlx-1.0.5.tar.gz
+[2023-07-19 08:36:05] INFO root fetch - processPackages [vanna]: Downloading https://files.pythonhosted.org/packages/5b/ca/cc777f9bc29b1e4fe210049e3102d56ef58add9c556bae60c14eab33dd11/vanna-0.0.8.tar.gz
+[2023-07-19 08:36:05] INFO root fetch - processPackages [gncpy]: Downloading https://files.pythonhosted.org/packages/27/f7/97d4747b8777f0d865748a107fd284427a4c42407bb8fbdcd6ef0ccdbdc6/gncpy-1.0.1.tar.gz
+[2023-07-19 08:36:05] INFO root fetch - processPackages [elementary-data]: Downloading https://files.pythonhosted.org/packages/5d/89/3f3addea0e1d9b2256fc6455b186f0fc128a4b3ff004658983f44d2833cb/elementary-data-0.8.1.tar.gz
+[2023-07-19 08:36:05] INFO root fetch - processPackages [algo-ops]: Downloading https://files.pythonhosted.org/packages/85/c9/0d466d3c3b5284f65c6e3df1e569aa55a87a2e0698b4309d5c7f3410d3a4/algo-ops-0.0.1.7.0.1.tar.gz
+[2023-07-19 08:36:05] INFO root fetch - processPackages [rapid-videocr]: Downloading https://files.pythonhosted.org/packages/24/2d/3ba92c9b246929f71a0d58e78565cb7aa5b7bbf59f547eedcf77c4369860/rapid_videocr-2.2.3-py3-none-any.whl
+[2023-07-19 08:36:05] INFO root fetch - processPackages [z3c.schema]: Downloading https://files.pythonhosted.org/packages/69/86/e43155f9f43298bb20b7e945aeee82aa89b11e1b7558d7ab29bb3fe7ebfe/z3c.schema-1.2.0.tar.gz
+[2023-07-19 08:36:05] INFO root fetch - processPackages [mcfit]: Downloading https://files.pythonhosted.org/packages/67/0f/ad23ca84e3fd5eee069a9c45274a6dea442096fe5ac21858837fe55b006e/mcfit-0.0.8.tar.gz
+[2023-07-19 08:36:05] INFO root fetch - processPackages [dicomset]: Downloading https://files.pythonhosted.org/packages/f8/c4/8250d56633c9c4a47109798696806a3a063bfaf96d729e58ad6f834ee7aa/dicomset-0.0.9.tar.gz
+[2023-07-19 08:36:05] WARNING root fetch - processPackages [gncpy]: Skipping package: exceeds size limit 13903230>=10485760
+[2023-07-19 08:36:05] INFO root fetch - main [MainThread]: End processing [gncpy] error
+[2023-07-19 08:36:05] INFO root fetch - processPackages [pgsqlx]: Downloading https://files.pythonhosted.org/packages/cb/5e/f5b486d633e991745fb9d0213a34583cd80b5eb70c2b18c256edffa95d80/pgsqlx-1.0.6.tar.gz
+[2023-07-19 08:36:05] INFO root fetch - processPackages [lnauth-django]: Downloading https://files.pythonhosted.org/packages/71/a0/e33072165080c6e73c770b3d5907abcf483a38023e1dabbbb146b8e17ed5/lnauth_django-0.4.0.tar.gz
+[2023-07-19 08:36:06] INFO root fetch - processPackages [dicomset]: executing diffoscope
+[2023-07-19 08:36:06] INFO root fetch - processPackages [dicomset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicomset-0.0.8.tar.gz tmp/dicomset-0.0.9.tar.gz --markdown 20230719/d/dicomset/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 08:36:06] INFO root fetch - processPackages [vanna]: Downloading https://files.pythonhosted.org/packages/96/fd/c03f80a50f42777698aab1db4d2a450d872752730425c9b21148e9ce116b/vanna-0.0.9.tar.gz
+[2023-07-19 08:36:06] INFO root fetch - processPackages [pgsqlx]: executing diffoscope
+[2023-07-19 08:36:06] INFO root fetch - processPackages [pgsqlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgsqlx-1.0.5.tar.gz tmp/pgsqlx-1.0.6.tar.gz --markdown 20230719/p/pgsqlx/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-19 08:36:06] INFO root fetch - processPackages [rapid-videocr]: Downloading https://files.pythonhosted.org/packages/0d/6e/e3530189ecbb6f33d542e5ac8eb0d15df2708059f2a6f012adf7f7c17cfe/rapid_videocr-2.2.4-py3-none-any.whl
+[2023-07-19 08:36:06] INFO root fetch - processPackages [elementary-data]: Downloading https://files.pythonhosted.org/packages/65/9a/8470b25336c193636b68f065d5f4794122bb8dd2458e25e0538b1e2f6c4f/elementary-data-0.8.2.tar.gz
+[2023-07-19 08:36:06] INFO root fetch - processPackages [lnauth-django]: executing diffoscope
+[2023-07-19 08:36:06] INFO root fetch - processPackages [lnauth-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnauth_django-0.3.0.tar.gz tmp/lnauth_django-0.4.0.tar.gz --markdown 20230719/l/lnauth-django/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-19 08:36:06] INFO root fetch - processPackages [algo-ops]: Downloading https://files.pythonhosted.org/packages/6d/80/86e89e656cc3b829a06128371ee970f0c8bd4f8529d89a800a4d3f5a2f1f/algo-ops-0.0.1.7.0.2.tar.gz
+[2023-07-19 08:36:06] INFO root fetch - processPackages [z3c.schema]: Downloading https://files.pythonhosted.org/packages/25/c1/baf9013215906879d5b681946e348d5702100ab9c9dee3599640ab3fad03/z3c.schema-2.0.tar.gz
+[2023-07-19 08:36:06] INFO root fetch - processPackages [mcfit]: Downloading https://files.pythonhosted.org/packages/05/99/b1aaf6a80f4ba361e2d1b85de6762028b876f80f566d9cc173402993dd3f/mcfit-0.0.9.tar.gz
+[2023-07-19 08:36:06] INFO root fetch - processPackages [vanna]: executing diffoscope
+[2023-07-19 08:36:06] INFO root fetch - processPackages [vanna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vanna-0.0.8.tar.gz tmp/vanna-0.0.9.tar.gz --markdown 20230719/v/vanna/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 08:36:06] INFO root fetch - processPackages [algo-ops]: executing diffoscope
+[2023-07-19 08:36:06] INFO root fetch - processPackages [algo-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algo-ops-0.0.1.7.0.1.tar.gz tmp/algo-ops-0.0.1.7.0.2.tar.gz --markdown 20230719/a/algo-ops/0.0.1.7.0.1-0.0.1.7.0.2/diff.md --exclude *.pyd
+[2023-07-19 08:36:06] INFO root fetch - processPackages [rapid-videocr]: executing diffoscope
+[2023-07-19 08:36:06] INFO root fetch - processPackages [rapid-videocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_videocr-2.2.3-py3-none-any.whl.zip tmp/rapid_videocr-2.2.4-py3-none-any.whl.zip --markdown 20230719/r/rapid-videocr/2.2.3-2.2.4/diff.md --exclude *.pyd
+[2023-07-19 08:36:06] INFO root fetch - processPackages [elementary-data]: executing diffoscope
+[2023-07-19 08:36:06] INFO root fetch - processPackages [elementary-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elementary-data-0.8.1.tar.gz tmp/elementary-data-0.8.2.tar.gz --markdown 20230719/e/elementary-data/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-07-19 08:36:06] INFO root fetch - processPackages [z3c.schema]: executing diffoscope
+[2023-07-19 08:36:06] INFO root fetch - processPackages [z3c.schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/z3c.schema-1.2.0.tar.gz tmp/z3c.schema-2.0.tar.gz --markdown 20230719/z/z3c.schema/1.2.0-2.0/diff.md --exclude *.pyd
+[2023-07-19 08:36:06] INFO root fetch - processPackages [mcfit]: executing diffoscope
+[2023-07-19 08:36:06] INFO root fetch - processPackages [mcfit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcfit-0.0.8.tar.gz tmp/mcfit-0.0.9.tar.gz --markdown 20230719/m/mcfit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 08:36:07] INFO root fetch - processPackages [pgsqlx]: Remove: archive file [/home/abi/fetcher/tmp/pgsqlx-1.0.5.tar.gz]
+[2023-07-19 08:36:07] INFO root fetch - processPackages [pgsqlx]: Remove: archive file [/home/abi/fetcher/tmp/pgsqlx-1.0.6.tar.gz]
+[2023-07-19 08:36:07] INFO root fetch - main [MainThread]: End processing [pgsqlx]: success
+[2023-07-19 08:36:07] INFO root fetch - processPackages [lnauth-django]: Remove: archive file [/home/abi/fetcher/tmp/lnauth_django-0.3.0.tar.gz]
+[2023-07-19 08:36:07] INFO root fetch - processPackages [lnauth-django]: Remove: archive file [/home/abi/fetcher/tmp/lnauth_django-0.4.0.tar.gz]
+[2023-07-19 08:36:07] INFO root fetch - main [MainThread]: End processing [lnauth-django]: success
+[2023-07-19 08:36:07] INFO root fetch - processPackages [vanna]: Remove: archive file [/home/abi/fetcher/tmp/vanna-0.0.8.tar.gz]
+[2023-07-19 08:36:07] INFO root fetch - processPackages [vanna]: Remove: archive file [/home/abi/fetcher/tmp/vanna-0.0.9.tar.gz]
+[2023-07-19 08:36:07] INFO root fetch - main [MainThread]: End processing [vanna]: success
+[2023-07-19 08:36:07] INFO root fetch - processPackages [algo-ops]: Remove: archive file [/home/abi/fetcher/tmp/algo-ops-0.0.1.7.0.1.tar.gz]
+[2023-07-19 08:36:07] INFO root fetch - processPackages [algo-ops]: Remove: archive file [/home/abi/fetcher/tmp/algo-ops-0.0.1.7.0.2.tar.gz]
+[2023-07-19 08:36:07] INFO root fetch - main [MainThread]: End processing [algo-ops]: success
+[2023-07-19 08:36:07] INFO root fetch - processPackages [rapid-videocr]: Remove: archive file [/home/abi/fetcher/tmp/rapid_videocr-2.2.3-py3-none-any.whl.zip]
+[2023-07-19 08:36:07] INFO root fetch - processPackages [rapid-videocr]: Remove: archive file [/home/abi/fetcher/tmp/rapid_videocr-2.2.4-py3-none-any.whl.zip]
+[2023-07-19 08:36:07] INFO root fetch - main [MainThread]: End processing [rapid-videocr]: success
+[2023-07-19 08:36:07] INFO root fetch - processPackages [dicomset]: Remove: archive file [/home/abi/fetcher/tmp/dicomset-0.0.8.tar.gz]
+[2023-07-19 08:36:07] INFO root fetch - processPackages [dicomset]: Remove: archive file [/home/abi/fetcher/tmp/dicomset-0.0.9.tar.gz]
+[2023-07-19 08:36:07] INFO root fetch - main [MainThread]: End processing [dicomset]: success
+[2023-07-19 08:36:08] INFO root fetch - processPackages [mcfit]: Remove: archive file [/home/abi/fetcher/tmp/mcfit-0.0.8.tar.gz]
+[2023-07-19 08:36:08] INFO root fetch - processPackages [mcfit]: Remove: archive file [/home/abi/fetcher/tmp/mcfit-0.0.9.tar.gz]
+[2023-07-19 08:36:08] INFO root fetch - main [MainThread]: End processing [mcfit]: success
+[2023-07-19 08:36:08] INFO root fetch - processPackages [z3c.schema]: Remove: archive file [/home/abi/fetcher/tmp/z3c.schema-1.2.0.tar.gz]
+[2023-07-19 08:36:08] INFO root fetch - processPackages [z3c.schema]: Remove: archive file [/home/abi/fetcher/tmp/z3c.schema-2.0.tar.gz]
+[2023-07-19 08:36:08] INFO root fetch - main [MainThread]: End processing [z3c.schema]: success
+[2023-07-19 08:36:09] INFO root fetch - processPackages [elementary-data]: Remove: archive file [/home/abi/fetcher/tmp/elementary-data-0.8.1.tar.gz]
+[2023-07-19 08:36:09] INFO root fetch - processPackages [elementary-data]: Remove: archive file [/home/abi/fetcher/tmp/elementary-data-0.8.2.tar.gz]
+[2023-07-19 08:36:09] INFO root fetch - main [MainThread]: End processing [elementary-data]: success
+[2023-07-19 08:36:09] INFO root fetch - main [MainThread]: Store serial: [18946128]
