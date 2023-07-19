@@ -21325,3 +21325,162 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-19 12:38:40] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
 [2023-07-19 12:38:40] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2023-07-19 12:38:40] INFO root fetch - main [MainThread]: Store serial: [18948633]
+[2023-07-19 12:43:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18948633]
+[2023-07-19 12:43:51] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-19 12:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: splunk-add-on-ucc-framework
+[2023-07-19 12:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Google-Ads-Transparency-Scraper
+[2023-07-19 12:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: systembridgefrontend
+[2023-07-19 12:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: systembridgewindowssensors
+[2023-07-19 12:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: replicate
+[2023-07-19 12:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: irene-pro
+[2023-07-19 12:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tksel
+[2023-07-19 12:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: TDCRPy
+[2023-07-19 12:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: csvcubed
+[2023-07-19 12:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zoho-client-django
+[2023-07-19 12:43:51] INFO root fetch - processPackages [TDCRPy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 12:43:51] INFO root fetch - processPackages [systembridgewindowssensors]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-19 12:43:51] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: New version: [1.5.6] Old Version: [1.5.5]
+[2023-07-19 12:43:51] INFO root fetch - processPackages [tksel]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-19 12:43:51] INFO root fetch - processPackages [replicate]: New version: [0.9.0] Old Version: [0.8.4]
+[2023-07-19 12:43:51] INFO root fetch - processPackages [irene-pro]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-19 12:43:51] INFO root fetch - processPackages [systembridgefrontend]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-19 12:43:51] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: New version: [6.0.0b2] Old Version: [6.0.0b1]
+[2023-07-19 12:43:51] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/45/d1/26f2b4eb42e05416d7662d5fb8b6f31b59dee6421945806c7b7bfdfbfa94/TDCRPy-0.0.8.tar.gz
+[2023-07-19 12:43:51] INFO root fetch - processPackages [zoho-client-django]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-19 12:43:51] INFO root fetch - processPackages [csvcubed]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-07-19 12:43:51] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: Downloading https://files.pythonhosted.org/packages/2b/a3/982b8e73ac8f7f5da126003c0fb922045f1693ebe695a11815c419ce3c75/Google-Ads-Transparency-Scraper-1.5.5.tar.gz
+[2023-07-19 12:43:51] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/66/5b/de9ebfd25965927aaff5bd9dfb253613cff65cc3e36c959883b683aa4cec/irene_pro-0.1.4.tar.gz
+[2023-07-19 12:43:51] INFO root fetch - processPackages [systembridgefrontend]: Downloading https://files.pythonhosted.org/packages/57/b3/050e9a7ff3adb63d1efc61115381d83b27eb28e65b4804113ac3308d3a0c/systembridgefrontend-3.8.0.dev8.tar.gz
+[2023-07-19 12:43:51] INFO root fetch - processPackages [systembridgewindowssensors]: Downloading https://files.pythonhosted.org/packages/81/2c/02c0da61a4727fb73476c2fa38e036da03aeff26456262a663d075806564/systembridgewindowssensors-3.8.0.dev8.tar.gz
+[2023-07-19 12:43:52] INFO root fetch - processPackages [tksel]: Downloading https://files.pythonhosted.org/packages/76/53/92d1dd0684aa8bd05ee892471353343bf2543f1911fb2507f76a4d45ce54/tksel-0.1.3.tar.gz
+[2023-07-19 12:43:52] INFO root fetch - processPackages [replicate]: Downloading https://files.pythonhosted.org/packages/15/02/54ed32c50a43b3704ebe971c98b9157e5e882a715fb1e21ce1bc8d91cf9c/replicate-0.8.4.tar.gz
+[2023-07-19 12:43:52] INFO root fetch - processPackages [zoho-client-django]: Downloading https://files.pythonhosted.org/packages/26/49/4ec1861f1a17d15e6ca6f39de3a521df3fb62f7504f5e262ad5130331108/zoho-client-django-1.2.1.tar.gz
+[2023-07-19 12:43:52] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: Downloading https://files.pythonhosted.org/packages/78/eb/e017cbe06f19daeaed3e507943d6fdf8d5f8e9834542528c1a025b4596be/splunk_add_on_ucc_framework-6.0.0b1.tar.gz
+[2023-07-19 12:43:52] INFO root fetch - processPackages [csvcubed]: Downloading https://files.pythonhosted.org/packages/ed/6a/ea1d3226457bae7c9ccb4b8ac24746b8664530adb30d02b3d1ad75e1aef2/csvcubed-0.4.5-py3-none-any.whl
+[2023-07-19 12:43:52] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/58/f4/f09bcfbd9ef3b75b2932ba824304fc7e7bcee566e8570cb2d64f76eb9adc/TDCRPy-0.0.9.tar.gz
+[2023-07-19 12:43:52] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: Downloading https://files.pythonhosted.org/packages/04/16/4a0aa2eef46bc467112bfbf5ebd7a0cdfd10e939d0032f8650da588d69a8/Google-Ads-Transparency-Scraper-1.5.6.tar.gz
+[2023-07-19 12:43:52] INFO root fetch - processPackages [systembridgewindowssensors]: Downloading https://files.pythonhosted.org/packages/f8/3d/48f6ce73d6a6180d0f6f923ce1229918e40d9911473401454d592f621804/systembridgewindowssensors-3.8.0.dev9.tar.gz
+[2023-07-19 12:43:52] INFO root fetch - processPackages [TDCRPy]: executing diffoscope
+[2023-07-19 12:43:52] INFO root fetch - processPackages [TDCRPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDCRPy-0.0.8.tar.gz tmp/TDCRPy-0.0.9.tar.gz --markdown 20230719/T/TDCRPy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 12:43:52] INFO root fetch - processPackages [systembridgefrontend]: Downloading https://files.pythonhosted.org/packages/a7/bd/51ec0da5bcd5903b111736968abaaa3d5a5d6f77e9ccb9ece74f6bb92670/systembridgefrontend-3.8.0.dev9.tar.gz
+[2023-07-19 12:43:52] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/64/b8/b77ace7a78db747b01f22cd1332f228a47c0286886d96ef16670c2d8b0ce/irene_pro-0.1.5.tar.gz
+[2023-07-19 12:43:52] INFO root fetch - processPackages [replicate]: Downloading https://files.pythonhosted.org/packages/28/3f/3982fb544968be50de3a318260db13ef2a7517d17d572979731c649129d7/replicate-0.9.0.tar.gz
+[2023-07-19 12:43:52] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: executing diffoscope
+[2023-07-19 12:43:52] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Google-Ads-Transparency-Scraper-1.5.5.tar.gz tmp/Google-Ads-Transparency-Scraper-1.5.6.tar.gz --markdown 20230719/G/Google-Ads-Transparency-Scraper/1.5.5-1.5.6/diff.md --exclude *.pyd
+[2023-07-19 12:43:52] INFO root fetch - processPackages [tksel]: Downloading https://files.pythonhosted.org/packages/99/e7/fe18397701932de6ab24e5b6265eb2bab1df64a17b347eef9161708d750d/tksel-0.1.4.tar.gz
+[2023-07-19 12:43:52] INFO root fetch - processPackages [zoho-client-django]: Downloading https://files.pythonhosted.org/packages/a3/4e/c8ca84026fb6471828251700d5f77209b0010350e619104a0886de863bab/zoho-client-django-1.2.2.tar.gz
+[2023-07-19 12:43:52] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-07-19 12:43:52] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.1.4.tar.gz tmp/irene_pro-0.1.5.tar.gz --markdown 20230719/i/irene-pro/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-19 12:43:52] INFO root fetch - processPackages [replicate]: executing diffoscope
+[2023-07-19 12:43:52] INFO root fetch - processPackages [replicate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/replicate-0.8.4.tar.gz tmp/replicate-0.9.0.tar.gz --markdown 20230719/r/replicate/0.8.4-0.9.0/diff.md --exclude *.pyd
+[2023-07-19 12:43:52] INFO root fetch - processPackages [systembridgefrontend]: executing diffoscope
+[2023-07-19 12:43:52] INFO root fetch - processPackages [systembridgefrontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgefrontend-3.8.0.dev8.tar.gz tmp/systembridgefrontend-3.8.0.dev9.tar.gz --markdown 20230719/s/systembridgefrontend/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-19 12:43:52] INFO root fetch - processPackages [csvcubed]: Downloading https://files.pythonhosted.org/packages/87/07/5bd219317b06e56a1acff9041aa023851872a6b5baefb8cc6fdd09c9b85e/csvcubed-0.4.6-py3-none-any.whl
+[2023-07-19 12:43:52] INFO root fetch - processPackages [tksel]: executing diffoscope
+[2023-07-19 12:43:52] INFO root fetch - processPackages [tksel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tksel-0.1.3.tar.gz tmp/tksel-0.1.4.tar.gz --markdown 20230719/t/tksel/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-19 12:43:52] INFO root fetch - processPackages [zoho-client-django]: executing diffoscope
+[2023-07-19 12:43:52] INFO root fetch - processPackages [zoho-client-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoho-client-django-1.2.1.tar.gz tmp/zoho-client-django-1.2.2.tar.gz --markdown 20230719/z/zoho-client-django/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-19 12:43:52] INFO root fetch - processPackages [systembridgewindowssensors]: executing diffoscope
+[2023-07-19 12:43:52] INFO root fetch - processPackages [systembridgewindowssensors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgewindowssensors-3.8.0.dev8.tar.gz tmp/systembridgewindowssensors-3.8.0.dev9.tar.gz --markdown 20230719/s/systembridgewindowssensors/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-19 12:43:52] INFO root fetch - processPackages [csvcubed]: executing diffoscope
+[2023-07-19 12:43:52] INFO root fetch - processPackages [csvcubed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csvcubed-0.4.5-py3-none-any.whl.zip tmp/csvcubed-0.4.6-py3-none-any.whl.zip --markdown 20230719/c/csvcubed/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-07-19 12:43:53] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: Downloading https://files.pythonhosted.org/packages/05/3f/3b6b317e7aef8128151e4751ee17636b01e39b3f95acb7e7c50789587dcf/splunk_add_on_ucc_framework-6.0.0b2.tar.gz
+[2023-07-19 12:43:54] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.8.tar.gz]
+[2023-07-19 12:43:54] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.9.tar.gz]
+[2023-07-19 12:43:54] INFO root fetch - processPackages [TDCRPy]: Start processing: spark-sdk
+[2023-07-19 12:43:54] INFO root fetch - main [MainThread]: End processing [TDCRPy]: success
+[2023-07-19 12:43:54] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: Remove: archive file [/home/abi/fetcher/tmp/Google-Ads-Transparency-Scraper-1.5.5.tar.gz]
+[2023-07-19 12:43:54] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: Remove: archive file [/home/abi/fetcher/tmp/Google-Ads-Transparency-Scraper-1.5.6.tar.gz]
+[2023-07-19 12:43:54] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: Start processing: skypilot-nightly
+[2023-07-19 12:43:54] INFO root fetch - main [MainThread]: End processing [Google-Ads-Transparency-Scraper]: success
+[2023-07-19 12:43:54] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20230718] Old Version: [1.0.0.dev20230717]
+[2023-07-19 12:43:54] INFO root fetch - processPackages [spark-sdk]: New version: [0.5.0rc1] Old Version: [0.5.0rc0]
+[2023-07-19 12:43:54] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/2f/bf/4e42e6de9e29a51919158696667fc8e051e04ea024b8eb8ca5e9382713a4/skypilot-nightly-1.0.0.dev20230717.tar.gz
+[2023-07-19 12:43:54] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.1.4.tar.gz]
+[2023-07-19 12:43:54] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.1.5.tar.gz]
+[2023-07-19 12:43:54] INFO root fetch - processPackages [irene-pro]: Start processing: geohashr
+[2023-07-19 12:43:54] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-07-19 12:43:54] INFO root fetch - processPackages [tksel]: Remove: archive file [/home/abi/fetcher/tmp/tksel-0.1.3.tar.gz]
+[2023-07-19 12:43:54] INFO root fetch - processPackages [tksel]: Remove: archive file [/home/abi/fetcher/tmp/tksel-0.1.4.tar.gz]
+[2023-07-19 12:43:54] INFO root fetch - processPackages [tksel]: Start processing: bchmnn.poodle
+[2023-07-19 12:43:54] INFO root fetch - main [MainThread]: End processing [tksel]: success
+[2023-07-19 12:43:54] INFO root fetch - processPackages [spark-sdk]: Downloading https://files.pythonhosted.org/packages/d8/7d/ee0265727a9515737605efb49209a7dc2f1900377a685eb9f9494c9d6549/spark_sdk-0.5.0rc0-py3-none-any.whl
+[2023-07-19 12:43:54] INFO root fetch - processPackages [bchmnn.poodle]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-19 12:43:54] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: executing diffoscope
+[2023-07-19 12:43:54] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splunk_add_on_ucc_framework-6.0.0b1.tar.gz tmp/splunk_add_on_ucc_framework-6.0.0b2.tar.gz --markdown 20230719/s/splunk-add-on-ucc-framework/6.0.0b1-6.0.0b2/diff.md --exclude *.pyd
+[2023-07-19 12:43:54] INFO root fetch - processPackages [geohashr]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-19 12:43:54] INFO root fetch - processPackages [replicate]: Remove: archive file [/home/abi/fetcher/tmp/replicate-0.8.4.tar.gz]
+[2023-07-19 12:43:54] INFO root fetch - processPackages [replicate]: Remove: archive file [/home/abi/fetcher/tmp/replicate-0.9.0.tar.gz]
+[2023-07-19 12:43:54] INFO root fetch - processPackages [replicate]: Start processing: returnn
+[2023-07-19 12:43:54] INFO root fetch - main [MainThread]: End processing [replicate]: success
+[2023-07-19 12:43:54] INFO root fetch - processPackages [bchmnn.poodle]: Downloading https://files.pythonhosted.org/packages/12/b0/c89bc3cc4aa18d8ed8af152b9df66aedcce55931293bc5719187ef4d17bd/bchmnn.poodle-0.2.4.tar.gz
+[2023-07-19 12:43:54] INFO root fetch - processPackages [zoho-client-django]: Remove: archive file [/home/abi/fetcher/tmp/zoho-client-django-1.2.1.tar.gz]
+[2023-07-19 12:43:54] INFO root fetch - processPackages [zoho-client-django]: Remove: archive file [/home/abi/fetcher/tmp/zoho-client-django-1.2.2.tar.gz]
+[2023-07-19 12:43:54] INFO root fetch - processPackages [zoho-client-django]: Start processing: custlib
+[2023-07-19 12:43:54] INFO root fetch - main [MainThread]: End processing [zoho-client-django]: success
+[2023-07-19 12:43:54] INFO root fetch - processPackages [returnn]: New version: [1.20230719.115042] Old Version: [1.20230719.105013]
+[2023-07-19 12:43:54] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/39/13/4c93d1ba07576f92d28b8e480a51463d45f06fe5de3873680e60f72e9e6e/skypilot-nightly-1.0.0.dev20230718.tar.gz
+[2023-07-19 12:43:55] WARNING root fetch - processPackages [custlib]: Skipping, unable to determine old version
+[2023-07-19 12:43:55] INFO root fetch - processPackages [custlib]: Start processing: fastapi-serve
+[2023-07-19 12:43:55] INFO root fetch - main [MainThread]: End processing [custlib] error
+[2023-07-19 12:43:55] INFO root fetch - processPackages [geohashr]: Downloading https://files.pythonhosted.org/packages/63/50/7d04e91c77349509d9da993fed0a52c24cbf7218191b45b19699b95f3c14/geohashr-1.0.0.tar.gz
+[2023-07-19 12:43:55] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/5d/38/b496fb341af6713ead69f3f847535434545e5587401f52e6e9a57746161e/returnn-1.20230719.105013.tar.gz
+[2023-07-19 12:43:55] INFO root fetch - processPackages [fastapi-serve]: New version: [0.0.4.dev9] Old Version: [0.0.4.dev8]
+[2023-07-19 12:43:55] INFO root fetch - processPackages [spark-sdk]: Downloading https://files.pythonhosted.org/packages/3b/85/93867d0d8bbb52fd4b4697a5840646287a5677dff5af173d7cfa5e8209bb/spark_sdk-0.5.0rc1-py3-none-any.whl
+[2023-07-19 12:43:55] INFO root fetch - processPackages [bchmnn.poodle]: Downloading https://files.pythonhosted.org/packages/b6/23/c2c8a9c2a8cca4f9876c20b1945f7f96702f464b6f70fe766ef4ad743836/bchmnn.poodle-0.2.5.tar.gz
+[2023-07-19 12:43:55] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2023-07-19 12:43:55] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot-nightly-1.0.0.dev20230717.tar.gz tmp/skypilot-nightly-1.0.0.dev20230718.tar.gz --markdown 20230719/s/skypilot-nightly/1.0.0.dev20230717-1.0.0.dev20230718/diff.md --exclude *.pyd
+[2023-07-19 12:43:55] INFO root fetch - processPackages [systembridgefrontend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgefrontend-3.8.0.dev8.tar.gz]
+[2023-07-19 12:43:55] INFO root fetch - processPackages [systembridgefrontend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgefrontend-3.8.0.dev9.tar.gz]
+[2023-07-19 12:43:55] INFO root fetch - processPackages [systembridgefrontend]: Start processing: jwt-pydantic
+[2023-07-19 12:43:55] INFO root fetch - main [MainThread]: End processing [systembridgefrontend]: success
+[2023-07-19 12:43:55] INFO root fetch - processPackages [systembridgewindowssensors]: Remove: archive file [/home/abi/fetcher/tmp/systembridgewindowssensors-3.8.0.dev8.tar.gz]
+[2023-07-19 12:43:55] INFO root fetch - processPackages [systembridgewindowssensors]: Remove: archive file [/home/abi/fetcher/tmp/systembridgewindowssensors-3.8.0.dev9.tar.gz]
+[2023-07-19 12:43:55] INFO root fetch - main [MainThread]: End processing [systembridgewindowssensors]: success
+[2023-07-19 12:43:55] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/a9/a1/dd8a2910d18bbb81d0937e00c72060c1c5ba0f29245e90e01d0b97c6b397/fastapi-serve-0.0.4.dev8.tar.gz
+[2023-07-19 12:43:55] INFO root fetch - processPackages [spark-sdk]: executing diffoscope
+[2023-07-19 12:43:55] INFO root fetch - processPackages [spark-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_sdk-0.5.0rc0-py3-none-any.whl.zip tmp/spark_sdk-0.5.0rc1-py3-none-any.whl.zip --markdown 20230719/s/spark-sdk/0.5.0rc0-0.5.0rc1/diff.md --exclude *.pyd
+[2023-07-19 12:43:55] INFO root fetch - processPackages [bchmnn.poodle]: executing diffoscope
+[2023-07-19 12:43:55] INFO root fetch - processPackages [bchmnn.poodle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bchmnn.poodle-0.2.4.tar.gz tmp/bchmnn.poodle-0.2.5.tar.gz --markdown 20230719/b/bchmnn.poodle/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-19 12:43:55] INFO root fetch - processPackages [geohashr]: Downloading https://files.pythonhosted.org/packages/a5/1f/dcfae3c6b034cbf97567c1980f73168eb7d84ae91e1dafd94a163387675d/geohashr-1.1.0.tar.gz
+[2023-07-19 12:43:55] INFO root fetch - processPackages [jwt-pydantic]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-19 12:43:55] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/e7/1d/16eb063c0be64adcc41433639a482b8af46002e242b7f1e230eae382ad5f/fastapi-serve-0.0.4.dev9.tar.gz
+[2023-07-19 12:43:55] INFO root fetch - processPackages [geohashr]: executing diffoscope
+[2023-07-19 12:43:55] INFO root fetch - processPackages [geohashr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geohashr-1.0.0.tar.gz tmp/geohashr-1.1.0.tar.gz --markdown 20230719/g/geohashr/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-19 12:43:55] INFO root fetch - processPackages [fastapi-serve]: executing diffoscope
+[2023-07-19 12:43:55] INFO root fetch - processPackages [fastapi-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-serve-0.0.4.dev8.tar.gz tmp/fastapi-serve-0.0.4.dev9.tar.gz --markdown 20230719/f/fastapi-serve/0.0.4.dev8-0.0.4.dev9/diff.md --exclude *.pyd
+[2023-07-19 12:43:55] INFO root fetch - processPackages [jwt-pydantic]: Downloading https://files.pythonhosted.org/packages/a6/57/259fba6b794fcd6e9140b9991d32a10de3d7ef5e1018d897096644180982/jwt_pydantic-0.0.6.tar.gz
+[2023-07-19 12:43:56] INFO root fetch - processPackages [csvcubed]: Remove: archive file [/home/abi/fetcher/tmp/csvcubed-0.4.5-py3-none-any.whl.zip]
+[2023-07-19 12:43:56] INFO root fetch - processPackages [csvcubed]: Remove: archive file [/home/abi/fetcher/tmp/csvcubed-0.4.6-py3-none-any.whl.zip]
+[2023-07-19 12:43:56] INFO root fetch - main [MainThread]: End processing [csvcubed]: success
+[2023-07-19 12:43:56] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/d0/f2/8393aac3f3c60648d9a4080ed71e21cc395b6e3d02fd91b1cd123aebb4f4/returnn-1.20230719.115042.tar.gz
+[2023-07-19 12:43:56] INFO root fetch - processPackages [jwt-pydantic]: Downloading https://files.pythonhosted.org/packages/69/04/5e0e2d452bb43e7151785bed83dac9d4c43537266dee6236624fad154ffb/jwt_pydantic-0.0.7.tar.gz
+[2023-07-19 12:43:56] INFO root fetch - processPackages [jwt-pydantic]: executing diffoscope
+[2023-07-19 12:43:56] INFO root fetch - processPackages [jwt-pydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jwt_pydantic-0.0.6.tar.gz tmp/jwt_pydantic-0.0.7.tar.gz --markdown 20230719/j/jwt-pydantic/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-19 12:43:56] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-07-19 12:43:56] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230719.105013.tar.gz tmp/returnn-1.20230719.115042.tar.gz --markdown 20230719/r/returnn/1.20230719.105013-1.20230719.115042/diff.md --exclude *.pyd
+[2023-07-19 12:43:56] INFO root fetch - processPackages [spark-sdk]: Remove: archive file [/home/abi/fetcher/tmp/spark_sdk-0.5.0rc0-py3-none-any.whl.zip]
+[2023-07-19 12:43:56] INFO root fetch - processPackages [spark-sdk]: Remove: archive file [/home/abi/fetcher/tmp/spark_sdk-0.5.0rc1-py3-none-any.whl.zip]
+[2023-07-19 12:43:56] INFO root fetch - main [MainThread]: End processing [spark-sdk]: success
+[2023-07-19 12:43:56] INFO root fetch - processPackages [bchmnn.poodle]: Remove: archive file [/home/abi/fetcher/tmp/bchmnn.poodle-0.2.4.tar.gz]
+[2023-07-19 12:43:56] INFO root fetch - processPackages [bchmnn.poodle]: Remove: archive file [/home/abi/fetcher/tmp/bchmnn.poodle-0.2.5.tar.gz]
+[2023-07-19 12:43:56] INFO root fetch - main [MainThread]: End processing [bchmnn.poodle]: success
+[2023-07-19 12:43:57] INFO root fetch - processPackages [geohashr]: Remove: archive file [/home/abi/fetcher/tmp/geohashr-1.0.0.tar.gz]
+[2023-07-19 12:43:57] INFO root fetch - processPackages [geohashr]: Remove: archive file [/home/abi/fetcher/tmp/geohashr-1.1.0.tar.gz]
+[2023-07-19 12:43:57] INFO root fetch - main [MainThread]: End processing [geohashr]: success
+[2023-07-19 12:43:57] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.4.dev8.tar.gz]
+[2023-07-19 12:43:57] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.4.dev9.tar.gz]
+[2023-07-19 12:43:57] INFO root fetch - main [MainThread]: End processing [fastapi-serve]: success
+[2023-07-19 12:43:57] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: Remove: archive file [/home/abi/fetcher/tmp/splunk_add_on_ucc_framework-6.0.0b1.tar.gz]
+[2023-07-19 12:43:57] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: Remove: archive file [/home/abi/fetcher/tmp/splunk_add_on_ucc_framework-6.0.0b2.tar.gz]
+[2023-07-19 12:43:57] INFO root fetch - main [MainThread]: End processing [splunk-add-on-ucc-framework]: success
+[2023-07-19 12:43:57] INFO root fetch - processPackages [jwt-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/jwt_pydantic-0.0.6.tar.gz]
+[2023-07-19 12:43:57] INFO root fetch - processPackages [jwt-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/jwt_pydantic-0.0.7.tar.gz]
+[2023-07-19 12:43:57] INFO root fetch - main [MainThread]: End processing [jwt-pydantic]: success
+[2023-07-19 12:43:57] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20230717.tar.gz]
+[2023-07-19 12:43:57] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20230718.tar.gz]
+[2023-07-19 12:43:57] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2023-07-19 12:43:59] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230719.105013.tar.gz]
+[2023-07-19 12:43:59] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230719.115042.tar.gz]
+[2023-07-19 12:43:59] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-07-19 12:43:59] INFO root fetch - main [MainThread]: Store serial: [18948724]
