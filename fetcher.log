@@ -5547,3 +5547,86 @@
 [2023-07-19 03:18:42] INFO root fetch - processPackages [arize-phoenix]: Remove: archive file [/home/abi/fetcher/tmp/arize_phoenix-0.0.9.tar.gz]
 [2023-07-19 03:18:42] INFO root fetch - main [MainThread]: End processing [arize-phoenix]: success
 [2023-07-19 03:18:42] INFO root fetch - main [MainThread]: Store serial: [18942738]
+[2023-07-19 03:23:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18942738]
+[2023-07-19 03:23:51] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-19 03:23:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-comprehend-s3olap
+[2023-07-19 03:23:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nids-transformers
+[2023-07-19 03:23:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycoloringextensionV1
+[2023-07-19 03:23:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tej-tool-api
+[2023-07-19 03:23:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arize-phoenix
+[2023-07-19 03:23:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pycoloringextensionV1
+[2023-07-19 03:23:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lapx
+[2023-07-19 03:23:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: toRST
+[2023-07-19 03:23:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tej-tool-api
+[2023-07-19 03:23:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tremolo
+[2023-07-19 03:23:51] WARNING root fetch - processPackages [toRST]: Skipping, unable to determine old version
+[2023-07-19 03:23:51] INFO root fetch - processPackages [toRST]: Start processing: tej-tool-api
+[2023-07-19 03:23:51] INFO root fetch - main [MainThread]: End processing [toRST] error
+[2023-07-19 03:23:51] INFO root fetch - processPackages [arize-phoenix]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 03:23:51] INFO root fetch - processPackages [pycoloringextensionV1]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-19 03:23:51] INFO root fetch - processPackages [pycoloringextensionV1]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-19 03:23:51] INFO root fetch - processPackages [tej-tool-api]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-19 03:23:51] INFO root fetch - processPackages [tej-tool-api]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-19 03:23:51] INFO root fetch - processPackages [tej-tool-api]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-19 03:23:51] WARNING root fetch - processPackages [nids-transformers]: Skipping, unable to determine old version
+[2023-07-19 03:23:51] INFO root fetch - processPackages [nids-transformers]: Start processing: cachetoolz
+[2023-07-19 03:23:51] INFO root fetch - main [MainThread]: End processing [nids-transformers] error
+[2023-07-19 03:23:51] INFO root fetch - processPackages [tremolo]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-19 03:23:51] INFO root fetch - processPackages [lapx]: New version: [0.5.3] Old Version: [0.5.2.post1]
+[2023-07-19 03:23:51] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-19 03:23:52] WARNING root fetch - processPackages [cachetoolz]: Skipping, unable to determine old version
+[2023-07-19 03:23:52] INFO root fetch - main [MainThread]: End processing [cachetoolz] error
+[2023-07-19 03:23:52] INFO root fetch - processPackages [tej-tool-api]: Downloading https://files.pythonhosted.org/packages/5a/bf/cb650d79f09384fa2720d623ee2b29c8060c99dca7e894870233f7748d5b/tej-tool-api-1.0.5.tar.gz
+[2023-07-19 03:23:52] INFO root fetch - processPackages [tej-tool-api]: Downloading https://files.pythonhosted.org/packages/5a/bf/cb650d79f09384fa2720d623ee2b29c8060c99dca7e894870233f7748d5b/tej-tool-api-1.0.5.tar.gz
+[2023-07-19 03:23:52] INFO root fetch - processPackages [tej-tool-api]: Downloading https://files.pythonhosted.org/packages/5a/bf/cb650d79f09384fa2720d623ee2b29c8060c99dca7e894870233f7748d5b/tej-tool-api-1.0.5.tar.gz
+[2023-07-19 03:23:52] INFO root fetch - processPackages [arize-phoenix]: Downloading https://files.pythonhosted.org/packages/aa/cd/6114a7b8cf79cdb8874b7fc09dd26b6b6193c6fd1d0872c07b33869e4529/arize_phoenix-0.0.8.tar.gz
+[2023-07-19 03:23:52] INFO root fetch - processPackages [pycoloringextensionV1]: Downloading https://files.pythonhosted.org/packages/61/e8/859c450fcd990b31f3d4b06bf05249d7a32d1cf642b8a3e4eef602dbf389/pycoloringextensionV1-1.0.0.tar.gz
+[2023-07-19 03:23:52] INFO root fetch - processPackages [pycoloringextensionV1]: Downloading https://files.pythonhosted.org/packages/61/e8/859c450fcd990b31f3d4b06bf05249d7a32d1cf642b8a3e4eef602dbf389/pycoloringextensionV1-1.0.0.tar.gz
+[2023-07-19 03:23:52] INFO root fetch - processPackages [tremolo]: Downloading https://files.pythonhosted.org/packages/17/91/55df15a00968bc570dc929dde0d884467bd21d9f1dc571df2cf31ad3d9c0/tremolo-0.0.98.tar.gz
+[2023-07-19 03:23:52] INFO root fetch - processPackages [lapx]: Downloading https://files.pythonhosted.org/packages/a1/dc/c911b9cd0ab15f57ad616d00a89d045f9ca4aaa6fcb2d661bfe67d2d030d/lapx-0.5.2.post1.tar.gz
+[2023-07-19 03:23:52] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-07-19 03:23:52] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-07-19 03:23:52] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-07-19 03:23:52] INFO root fetch - processPackages [pycoloringextensionV1]: Downloading https://files.pythonhosted.org/packages/13/f3/26429c40a94e19b930a05664b26a82a747321fee23bc43322d4b2a5a9b3a/pycoloringextensionV1-1.1.0.tar.gz
+[2023-07-19 03:23:52] INFO root fetch - processPackages [pycoloringextensionV1]: Downloading https://files.pythonhosted.org/packages/13/f3/26429c40a94e19b930a05664b26a82a747321fee23bc43322d4b2a5a9b3a/pycoloringextensionV1-1.1.0.tar.gz
+[2023-07-19 03:23:52] INFO root fetch - processPackages [arize-phoenix]: Downloading https://files.pythonhosted.org/packages/af/d8/2db399e5e20785b2485581651ae7b1b6686105545492f859f0bf3a9c73f5/arize_phoenix-0.0.9.tar.gz
+[2023-07-19 03:23:52] INFO root fetch - processPackages [tej-tool-api]: Downloading https://files.pythonhosted.org/packages/9b/d2/dd354998bccfe3c0ff46a49aeb8f3d6936a9d51d9675b3a7913a3be27eb2/tej-tool-api-1.0.6.tar.gz
+[2023-07-19 03:23:52] INFO root fetch - processPackages [tej-tool-api]: Downloading https://files.pythonhosted.org/packages/9b/d2/dd354998bccfe3c0ff46a49aeb8f3d6936a9d51d9675b3a7913a3be27eb2/tej-tool-api-1.0.6.tar.gz
+[2023-07-19 03:23:52] INFO root fetch - processPackages [tej-tool-api]: Downloading https://files.pythonhosted.org/packages/9b/d2/dd354998bccfe3c0ff46a49aeb8f3d6936a9d51d9675b3a7913a3be27eb2/tej-tool-api-1.0.6.tar.gz
+[2023-07-19 03:23:52] INFO root fetch - processPackages [tremolo]: Downloading https://files.pythonhosted.org/packages/9d/1f/2855765591f7f7e3122f1fde84cd87b5ded8131578ba6b246fe07394c77b/tremolo-0.0.99.tar.gz
+[2023-07-19 03:23:52] INFO root fetch - processPackages [arize-phoenix]: executing diffoscope
+[2023-07-19 03:23:52] INFO root fetch - processPackages [arize-phoenix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arize_phoenix-0.0.8.tar.gz tmp/arize_phoenix-0.0.9.tar.gz --markdown 20230719/a/arize-phoenix/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 03:23:52] INFO root fetch - processPackages [lapx]: Downloading https://files.pythonhosted.org/packages/9c/78/6df62c670574d641a21440916098b1bfdec5787b472e3825160fe0e2d53d/lapx-0.5.3.tar.gz
+[2023-07-19 03:23:52] INFO root fetch - processPackages [pycoloringextensionV1]: executing diffoscope
+[2023-07-19 03:23:52] INFO root fetch - processPackages [pycoloringextensionV1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycoloringextensionV1-1.0.0.tar.gz tmp/pycoloringextensionV1-1.1.0.tar.gz --markdown 20230719/p/pycoloringextensionV1/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-19 03:23:52] INFO root fetch - processPackages [pycoloringextensionV1]: executing diffoscope
+[2023-07-19 03:23:52] INFO root fetch - processPackages [pycoloringextensionV1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycoloringextensionV1-1.0.0.tar.gz tmp/pycoloringextensionV1-1.1.0.tar.gz --markdown 20230719/p/pycoloringextensionV1/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-19 03:23:52] INFO root fetch - processPackages [tremolo]: executing diffoscope
+[2023-07-19 03:23:52] INFO root fetch - processPackages [tremolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tremolo-0.0.98.tar.gz tmp/tremolo-0.0.99.tar.gz --markdown 20230719/t/tremolo/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-19 03:23:52] INFO root fetch - processPackages [tej-tool-api]: executing diffoscope
+[2023-07-19 03:23:52] INFO root fetch - processPackages [tej-tool-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tej-tool-api-1.0.5.tar.gz tmp/tej-tool-api-1.0.6.tar.gz --markdown 20230719/t/tej-tool-api/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-19 03:23:52] INFO root fetch - processPackages [tej-tool-api]: executing diffoscope
+[2023-07-19 03:23:52] INFO root fetch - processPackages [tej-tool-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tej-tool-api-1.0.5.tar.gz tmp/tej-tool-api-1.0.6.tar.gz --markdown 20230719/t/tej-tool-api/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-19 03:23:52] INFO root fetch - processPackages [tej-tool-api]: executing diffoscope
+[2023-07-19 03:23:52] INFO root fetch - processPackages [tej-tool-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tej-tool-api-1.0.5.tar.gz tmp/tej-tool-api-1.0.6.tar.gz --markdown 20230719/t/tej-tool-api/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-19 03:23:53] INFO root fetch - processPackages [lapx]: executing diffoscope
+[2023-07-19 03:23:53] INFO root fetch - processPackages [lapx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lapx-0.5.2.post1.tar.gz tmp/lapx-0.5.3.tar.gz --markdown 20230719/l/lapx/0.5.2.post1-0.5.3/diff.md --exclude *.pyd
+[2023-07-19 03:23:53] INFO root fetch - processPackages [pycoloringextensionV1]: Remove: archive file [/home/abi/fetcher/tmp/pycoloringextensionV1-1.0.0.tar.gz]
+[2023-07-19 03:23:53] INFO root fetch - processPackages [pycoloringextensionV1]: Remove: archive file [/home/abi/fetcher/tmp/pycoloringextensionV1-1.1.0.tar.gz]
+[2023-07-19 03:23:53] INFO root fetch - main [MainThread]: End processing [pycoloringextensionV1]: success
+[2023-07-19 03:23:54] INFO root fetch - main [MainThread]: End processing [pycoloringextensionV1]: success
+[2023-07-19 03:23:54] INFO root fetch - processPackages [tej-tool-api]: Remove: archive file [/home/abi/fetcher/tmp/tej-tool-api-1.0.5.tar.gz]
+[2023-07-19 03:23:54] INFO root fetch - processPackages [tej-tool-api]: Remove: archive file [/home/abi/fetcher/tmp/tej-tool-api-1.0.6.tar.gz]
+[2023-07-19 03:23:54] INFO root fetch - main [MainThread]: End processing [tej-tool-api]: success
+[2023-07-19 03:23:54] INFO root fetch - main [MainThread]: End processing [tej-tool-api]: success
+[2023-07-19 03:23:54] INFO root fetch - processPackages [tremolo]: Remove: archive file [/home/abi/fetcher/tmp/tremolo-0.0.98.tar.gz]
+[2023-07-19 03:23:54] INFO root fetch - processPackages [tremolo]: Remove: archive file [/home/abi/fetcher/tmp/tremolo-0.0.99.tar.gz]
+[2023-07-19 03:23:54] INFO root fetch - main [MainThread]: End processing [tremolo]: success
+[2023-07-19 03:23:54] INFO root fetch - main [MainThread]: End processing [tej-tool-api]: success
+[2023-07-19 03:23:54] INFO root fetch - processPackages [lapx]: Remove: archive file [/home/abi/fetcher/tmp/lapx-0.5.2.post1.tar.gz]
+[2023-07-19 03:23:54] INFO root fetch - processPackages [lapx]: Remove: archive file [/home/abi/fetcher/tmp/lapx-0.5.3.tar.gz]
+[2023-07-19 03:23:54] INFO root fetch - main [MainThread]: End processing [lapx]: success
+[2023-07-19 03:24:10] INFO root fetch - processPackages [arize-phoenix]: Remove: archive file [/home/abi/fetcher/tmp/arize_phoenix-0.0.8.tar.gz]
+[2023-07-19 03:24:10] INFO root fetch - processPackages [arize-phoenix]: Remove: archive file [/home/abi/fetcher/tmp/arize_phoenix-0.0.9.tar.gz]
+[2023-07-19 03:24:10] INFO root fetch - main [MainThread]: End processing [arize-phoenix]: success
+[2023-07-19 03:24:10] INFO root fetch - main [MainThread]: Store serial: [18942801]
