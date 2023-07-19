@@ -12758,3 +12758,54 @@
 [2023-07-19 06:06:27] INFO root fetch - processPackages [ethrpc]: Remove: archive file [/home/abi/fetcher/tmp/ethrpc-6.6.4.tar.gz]
 [2023-07-19 06:06:27] INFO root fetch - main [MainThread]: End processing [ethrpc]: success
 [2023-07-19 06:06:27] INFO root fetch - main [MainThread]: Store serial: [18945273]
+[2023-07-19 06:11:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18945273]
+[2023-07-19 06:11:36] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-19 06:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-sayoroll
+[2023-07-19 06:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo13-addon-l10n-es-ticketbai-api
+[2023-07-19 06:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: allianceauth-oidc-provider
+[2023-07-19 06:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-l10n-es-ticketbai-api
+[2023-07-19 06:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cmaes
+[2023-07-19 06:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: honeybee-radiance
+[2023-07-19 06:11:36] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-19 06:11:36] WARNING root fetch - processPackages [allianceauth-oidc-provider]: Skipping, unable to determine old version
+[2023-07-19 06:11:36] INFO root fetch - main [MainThread]: End processing [allianceauth-oidc-provider] error
+[2023-07-19 06:11:36] INFO root fetch - processPackages [odoo13-addon-l10n-es-ticketbai-api]: New version: [13.0.1.5.8] Old Version: [13.0.1.5.6]
+[2023-07-19 06:11:36] INFO root fetch - processPackages [odoo14-addon-l10n-es-ticketbai-api]: New version: [14.0.2.4.2] Old Version: [14.0.2.4.1.dev1]
+[2023-07-19 06:11:36] INFO root fetch - processPackages [honeybee-radiance]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-19 06:11:36] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: Downloading https://files.pythonhosted.org/packages/e4/2e/9e9b6b9415e5b9eaaff09b23182e6be51fc5e95708ab0c800eec1a32299d/nonebot-plugin-sayoroll-0.3.0.tar.gz
+[2023-07-19 06:11:36] INFO root fetch - processPackages [cmaes]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-19 06:11:36] INFO root fetch - processPackages [odoo14-addon-l10n-es-ticketbai-api]: Downloading https://files.pythonhosted.org/packages/af/11/eba30a80fe7785879c898c3a33722f3fd6cff57073842e9c570d384bfaf6/odoo14_addon_l10n_es_ticketbai_api-14.0.2.4.1.dev1-py3-none-any.whl
+[2023-07-19 06:11:36] INFO root fetch - processPackages [odoo13-addon-l10n-es-ticketbai-api]: Downloading https://files.pythonhosted.org/packages/bb/ed/51c7fc3dbd4b34abe905ccd0f3df859cd4542c949d3768bebbc9a42b280b/odoo13_addon_l10n_es_ticketbai_api-13.0.1.5.6-py3-none-any.whl
+[2023-07-19 06:11:36] INFO root fetch - processPackages [honeybee-radiance]: Downloading https://files.pythonhosted.org/packages/48/ae/cca3e8aac6a72593fde7860cbf91882050c1a465c316efc2e0472bfa36e1/honeybee-radiance-1.9.1.tar.gz
+[2023-07-19 06:11:36] INFO root fetch - processPackages [cmaes]: Downloading https://files.pythonhosted.org/packages/d9/28/3f62d585d12790b3e0288efb7cfd8d18f561782873fe78ca625402d9e10e/cmaes-0.9.0.tar.gz
+[2023-07-19 06:11:36] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: Downloading https://files.pythonhosted.org/packages/95/58/5cf2c1728b3cf43d74f937285fa74bde972e7bcaee1649e6205079c09b70/nonebot-plugin-sayoroll-0.3.1.tar.gz
+[2023-07-19 06:11:36] INFO root fetch - processPackages [odoo14-addon-l10n-es-ticketbai-api]: Downloading https://files.pythonhosted.org/packages/7a/10/a0fc8236993b757da8840bd672c561c504107e886a561dbac0f804cf5519/odoo14_addon_l10n_es_ticketbai_api-14.0.2.4.2-py3-none-any.whl
+[2023-07-19 06:11:36] INFO root fetch - processPackages [honeybee-radiance]: Downloading https://files.pythonhosted.org/packages/50/24/71a3a4863bb39caef68dcd79f1b380133b1f1968426af26bc9c4812376d1/honeybee-radiance-1.9.2.tar.gz
+[2023-07-19 06:11:37] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: executing diffoscope
+[2023-07-19 06:11:37] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-sayoroll-0.3.0.tar.gz tmp/nonebot-plugin-sayoroll-0.3.1.tar.gz --markdown 20230719/n/nonebot-plugin-sayoroll/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-19 06:11:37] INFO root fetch - processPackages [odoo13-addon-l10n-es-ticketbai-api]: Downloading https://files.pythonhosted.org/packages/a7/14/0285034755333a6d0ec8ceb3cd948f598c7dd83e84a3336339ef02125f5b/odoo13_addon_l10n_es_ticketbai_api-13.0.1.5.8-py3-none-any.whl
+[2023-07-19 06:11:37] INFO root fetch - processPackages [honeybee-radiance]: executing diffoscope
+[2023-07-19 06:11:37] INFO root fetch - processPackages [honeybee-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-1.9.1.tar.gz tmp/honeybee-radiance-1.9.2.tar.gz --markdown 20230719/h/honeybee-radiance/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-19 06:11:37] INFO root fetch - processPackages [odoo14-addon-l10n-es-ticketbai-api]: executing diffoscope
+[2023-07-19 06:11:37] INFO root fetch - processPackages [odoo14-addon-l10n-es-ticketbai-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_es_ticketbai_api-14.0.2.4.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_es_ticketbai_api-14.0.2.4.2-py3-none-any.whl.zip --markdown 20230719/o/odoo14-addon-l10n-es-ticketbai-api/14.0.2.4.1.dev1-14.0.2.4.2/diff.md --exclude *.pyd
+[2023-07-19 06:11:37] INFO root fetch - processPackages [cmaes]: Downloading https://files.pythonhosted.org/packages/d1/f9/35a3c4d887014b8464b4bccb364512fb0e87efb78bace58ec59f1efead63/cmaes-0.9.1.tar.gz
+[2023-07-19 06:11:37] INFO root fetch - processPackages [cmaes]: executing diffoscope
+[2023-07-19 06:11:37] INFO root fetch - processPackages [cmaes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmaes-0.9.0.tar.gz tmp/cmaes-0.9.1.tar.gz --markdown 20230719/c/cmaes/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-19 06:11:37] INFO root fetch - processPackages [odoo13-addon-l10n-es-ticketbai-api]: executing diffoscope
+[2023-07-19 06:11:37] INFO root fetch - processPackages [odoo13-addon-l10n-es-ticketbai-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_l10n_es_ticketbai_api-13.0.1.5.6-py3-none-any.whl.zip tmp/odoo13_addon_l10n_es_ticketbai_api-13.0.1.5.8-py3-none-any.whl.zip --markdown 20230719/o/odoo13-addon-l10n-es-ticketbai-api/13.0.1.5.6-13.0.1.5.8/diff.md --exclude *.pyd
+[2023-07-19 06:11:37] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-sayoroll-0.3.0.tar.gz]
+[2023-07-19 06:11:37] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-sayoroll-0.3.1.tar.gz]
+[2023-07-19 06:11:37] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-sayoroll]: success
+[2023-07-19 06:11:38] INFO root fetch - processPackages [cmaes]: Remove: archive file [/home/abi/fetcher/tmp/cmaes-0.9.0.tar.gz]
+[2023-07-19 06:11:38] INFO root fetch - processPackages [cmaes]: Remove: archive file [/home/abi/fetcher/tmp/cmaes-0.9.1.tar.gz]
+[2023-07-19 06:11:38] INFO root fetch - main [MainThread]: End processing [cmaes]: success
+[2023-07-19 06:11:38] INFO root fetch - processPackages [odoo14-addon-l10n-es-ticketbai-api]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_es_ticketbai_api-14.0.2.4.1.dev1-py3-none-any.whl.zip]
+[2023-07-19 06:11:38] INFO root fetch - processPackages [odoo14-addon-l10n-es-ticketbai-api]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_es_ticketbai_api-14.0.2.4.2-py3-none-any.whl.zip]
+[2023-07-19 06:11:38] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-es-ticketbai-api]: success
+[2023-07-19 06:11:38] INFO root fetch - processPackages [odoo13-addon-l10n-es-ticketbai-api]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_l10n_es_ticketbai_api-13.0.1.5.6-py3-none-any.whl.zip]
+[2023-07-19 06:11:38] INFO root fetch - processPackages [odoo13-addon-l10n-es-ticketbai-api]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_l10n_es_ticketbai_api-13.0.1.5.8-py3-none-any.whl.zip]
+[2023-07-19 06:11:38] INFO root fetch - main [MainThread]: End processing [odoo13-addon-l10n-es-ticketbai-api]: success
+[2023-07-19 06:11:39] INFO root fetch - processPackages [honeybee-radiance]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-1.9.1.tar.gz]
+[2023-07-19 06:11:39] INFO root fetch - processPackages [honeybee-radiance]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-1.9.2.tar.gz]
+[2023-07-19 06:11:39] INFO root fetch - main [MainThread]: End processing [honeybee-radiance]: success
+[2023-07-19 06:11:39] INFO root fetch - main [MainThread]: Store serial: [18945289]
