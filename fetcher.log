@@ -14557,3 +14557,90 @@
 [2023-07-19 07:54:15] INFO root fetch - processPackages [borgmatic]: Remove: archive file [/home/abi/fetcher/tmp/borgmatic-1.8.0.tar.gz]
 [2023-07-19 07:54:15] INFO root fetch - main [MainThread]: End processing [borgmatic]: success
 [2023-07-19 07:54:15] INFO root fetch - main [MainThread]: Store serial: [18945879]
+[2023-07-19 07:59:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18945879]
+[2023-07-19 07:59:25] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-19 07:59:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-sayoroll
+[2023-07-19 07:59:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rclone-python
+[2023-07-19 07:59:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ansys-api-geometry
+[2023-07-19 07:59:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reflex-supporter
+[2023-07-19 07:59:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: BERTSimilar
+[2023-07-19 07:59:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: azure-speech-tools
+[2023-07-19 07:59:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pygbop
+[2023-07-19 07:59:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nids-transformers
+[2023-07-19 07:59:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fun-sentence-splitter
+[2023-07-19 07:59:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: raga-testing-platform
+[2023-07-19 07:59:25] INFO root fetch - processPackages [BERTSimilar]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-19 07:59:25] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-19 07:59:25] INFO root fetch - processPackages [azure-speech-tools]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-19 07:59:25] INFO root fetch - processPackages [nids-transformers]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-19 07:59:25] WARNING root fetch - processPackages [reflex-supporter]: Skipping, unable to determine old version
+[2023-07-19 07:59:25] INFO root fetch - main [MainThread]: End processing [reflex-supporter] error
+[2023-07-19 07:59:25] INFO root fetch - processPackages [BERTSimilar]: Downloading https://files.pythonhosted.org/packages/2c/51/447523046b00ec6973b51ac966f51f0db71568265d746e309810ab691302/BERTSimilar-0.1.9.tar.gz
+[2023-07-19 07:59:25] INFO root fetch - processPackages [ansys-api-geometry]: New version: [0.2.dev0] Old Version: [0.2.9]
+[2023-07-19 07:59:25] INFO root fetch - processPackages [raga-testing-platform]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 07:59:25] INFO root fetch - processPackages [pygbop]: New version: [0.2.0.5] Old Version: [0.2.0.3]
+[2023-07-19 07:59:25] INFO root fetch - processPackages [rclone-python]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-19 07:59:25] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: Downloading https://files.pythonhosted.org/packages/95/58/5cf2c1728b3cf43d74f937285fa74bde972e7bcaee1649e6205079c09b70/nonebot-plugin-sayoroll-0.3.1.tar.gz
+[2023-07-19 07:59:25] INFO root fetch - processPackages [fun-sentence-splitter]: New version: [0.2.366] Old Version: [0.2.344]
+[2023-07-19 07:59:25] INFO root fetch - processPackages [nids-transformers]: Downloading https://files.pythonhosted.org/packages/54/3b/8f3bbd30bed5031feea89d9beb7888d3d9a1b142686c6cc1e8b1f0adc13a/nids_transformers-0.0.7.tar.gz
+[2023-07-19 07:59:25] INFO root fetch - processPackages [azure-speech-tools]: Downloading https://files.pythonhosted.org/packages/36/53/dea25cb4b1991e88e046502e372937667dbddb9aec8bfada3a638afadeb1/azure_speech_tools-0.0.2.tar.gz
+[2023-07-19 07:59:26] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/cb/2b/5872c9c0e75b4ef4393e95963e7fa22ccf8c70b12d66a64c83dfec600b32/raga-testing-platform-1.0.8.tar.gz
+[2023-07-19 07:59:26] INFO root fetch - processPackages [rclone-python]: Downloading https://files.pythonhosted.org/packages/dc/12/7ec05db5504e174a152595cacfe620cd2d3380eebabe7468e08c4fe97162/rclone-python-0.1.7.tar.gz
+[2023-07-19 07:59:26] INFO root fetch - processPackages [ansys-api-geometry]: Downloading https://files.pythonhosted.org/packages/f7/19/29f2e85e6d34e9d29482ace81acbd38d27e296d056070642c886025d8da3/ansys-api-geometry-0.2.9.tar.gz
+[2023-07-19 07:59:26] INFO root fetch - processPackages [fun-sentence-splitter]: Downloading https://files.pythonhosted.org/packages/05/bc/f507e7fa7f8e6500a5be50ba983c9ed7ab9a5be58e5d135abe9ffed1db85/fun_sentence_splitter-0.2.344.tar.gz
+[2023-07-19 07:59:26] INFO root fetch - processPackages [pygbop]: Downloading https://files.pythonhosted.org/packages/45/8c/93e407d70e182554509aed08f4dfa509e3d0866fc90cbe45dde87d0a83b6/pygbop-0.2.0.3.tar.gz
+[2023-07-19 07:59:26] INFO root fetch - processPackages [azure-speech-tools]: Downloading https://files.pythonhosted.org/packages/fa/fd/8bc3aa77a541f0b6cc55311f49910218f19e8eb31a72a24a5ed9a5c872db/azure_speech_tools-0.0.3.tar.gz
+[2023-07-19 07:59:26] INFO root fetch - processPackages [BERTSimilar]: Downloading https://files.pythonhosted.org/packages/30/72/71b2aabf73533da81fbbc91c2d0d4081ef3813b34f08ecc352c226aebe59/BERTSimilar-0.2.0.tar.gz
+[2023-07-19 07:59:26] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: Downloading https://files.pythonhosted.org/packages/0a/2b/830c4d8c79344ba533e7a66ba0cdbee9287fa55f7994d8076e431fa0ae9d/nonebot-plugin-sayoroll-0.3.2.tar.gz
+[2023-07-19 07:59:26] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/23/a1/3de642a69a0d1253446d4f7bd1dd9d074e3fe635e84f3d430d001424a072/raga-testing-platform-1.0.9.tar.gz
+[2023-07-19 07:59:26] INFO root fetch - processPackages [azure-speech-tools]: executing diffoscope
+[2023-07-19 07:59:26] INFO root fetch - processPackages [azure-speech-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure_speech_tools-0.0.2.tar.gz tmp/azure_speech_tools-0.0.3.tar.gz --markdown 20230719/a/azure-speech-tools/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-19 07:59:26] INFO root fetch - processPackages [BERTSimilar]: executing diffoscope
+[2023-07-19 07:59:26] INFO root fetch - processPackages [BERTSimilar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BERTSimilar-0.1.9.tar.gz tmp/BERTSimilar-0.2.0.tar.gz --markdown 20230719/B/BERTSimilar/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-19 07:59:26] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: executing diffoscope
+[2023-07-19 07:59:26] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-sayoroll-0.3.1.tar.gz tmp/nonebot-plugin-sayoroll-0.3.2.tar.gz --markdown 20230719/n/nonebot-plugin-sayoroll/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-19 07:59:26] INFO root fetch - processPackages [raga-testing-platform]: executing diffoscope
+[2023-07-19 07:59:26] INFO root fetch - processPackages [raga-testing-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-testing-platform-1.0.8.tar.gz tmp/raga-testing-platform-1.0.9.tar.gz --markdown 20230719/r/raga-testing-platform/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 07:59:26] INFO root fetch - processPackages [nids-transformers]: Downloading https://files.pythonhosted.org/packages/37/56/ff85ab4dda8adb22bc1ad076a4de5f7e02f7d614293b9884a84e234f0400/nids_transformers-0.0.8.tar.gz
+[2023-07-19 07:59:26] INFO root fetch - processPackages [rclone-python]: Downloading https://files.pythonhosted.org/packages/fd/ff/28375dbae34ba46b0c66f7481c2da11892d2d635abdb959e9993392fddd1/rclone-python-0.1.8.tar.gz
+[2023-07-19 07:59:26] INFO root fetch - processPackages [ansys-api-geometry]: Downloading https://files.pythonhosted.org/packages/5a/e7/edcf39edf8e00f85d1150a441b00249e62669d4273f3571ef378182e37b4/ansys-api-geometry-0.2.dev0.tar.gz
+[2023-07-19 07:59:26] INFO root fetch - processPackages [fun-sentence-splitter]: Downloading https://files.pythonhosted.org/packages/b8/4f/b8356ce13ae86f2fb73206412682e18dbf00049e2534be4cab5ef079013c/fun_sentence_splitter-0.2.366.tar.gz
+[2023-07-19 07:59:26] INFO root fetch - processPackages [pygbop]: Downloading https://files.pythonhosted.org/packages/a6/79/173dd6ed1d32e83018f4da065c81590888ff93e7072f93d3d69befabceea/pygbop-0.2.0.5.tar.gz
+[2023-07-19 07:59:26] INFO root fetch - processPackages [rclone-python]: executing diffoscope
+[2023-07-19 07:59:26] INFO root fetch - processPackages [rclone-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rclone-python-0.1.7.tar.gz tmp/rclone-python-0.1.8.tar.gz --markdown 20230719/r/rclone-python/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-19 07:59:26] INFO root fetch - processPackages [ansys-api-geometry]: executing diffoscope
+[2023-07-19 07:59:26] INFO root fetch - processPackages [ansys-api-geometry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-api-geometry-0.2.9.tar.gz tmp/ansys-api-geometry-0.2.dev0.tar.gz --markdown 20230719/a/ansys-api-geometry/0.2.9-0.2.dev0/diff.md --exclude *.pyd
+[2023-07-19 07:59:26] INFO root fetch - processPackages [pygbop]: executing diffoscope
+[2023-07-19 07:59:26] INFO root fetch - processPackages [pygbop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygbop-0.2.0.3.tar.gz tmp/pygbop-0.2.0.5.tar.gz --markdown 20230719/p/pygbop/0.2.0.3-0.2.0.5/diff.md --exclude *.pyd
+[2023-07-19 07:59:26] INFO root fetch - processPackages [fun-sentence-splitter]: executing diffoscope
+[2023-07-19 07:59:26] INFO root fetch - processPackages [fun-sentence-splitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fun_sentence_splitter-0.2.344.tar.gz tmp/fun_sentence_splitter-0.2.366.tar.gz --markdown 20230719/f/fun-sentence-splitter/0.2.344-0.2.366/diff.md --exclude *.pyd
+[2023-07-19 07:59:27] INFO root fetch - processPackages [nids-transformers]: executing diffoscope
+[2023-07-19 07:59:27] INFO root fetch - processPackages [nids-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nids_transformers-0.0.7.tar.gz tmp/nids_transformers-0.0.8.tar.gz --markdown 20230719/n/nids-transformers/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-19 07:59:28] INFO root fetch - processPackages [azure-speech-tools]: Remove: archive file [/home/abi/fetcher/tmp/azure_speech_tools-0.0.2.tar.gz]
+[2023-07-19 07:59:28] INFO root fetch - processPackages [azure-speech-tools]: Remove: archive file [/home/abi/fetcher/tmp/azure_speech_tools-0.0.3.tar.gz]
+[2023-07-19 07:59:28] INFO root fetch - main [MainThread]: End processing [azure-speech-tools]: success
+[2023-07-19 07:59:28] INFO root fetch - processPackages [BERTSimilar]: Remove: archive file [/home/abi/fetcher/tmp/BERTSimilar-0.1.9.tar.gz]
+[2023-07-19 07:59:28] INFO root fetch - processPackages [BERTSimilar]: Remove: archive file [/home/abi/fetcher/tmp/BERTSimilar-0.2.0.tar.gz]
+[2023-07-19 07:59:28] INFO root fetch - main [MainThread]: End processing [BERTSimilar]: success
+[2023-07-19 07:59:28] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-sayoroll-0.3.1.tar.gz]
+[2023-07-19 07:59:28] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-sayoroll-0.3.2.tar.gz]
+[2023-07-19 07:59:28] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-sayoroll]: success
+[2023-07-19 07:59:28] INFO root fetch - processPackages [fun-sentence-splitter]: Remove: archive file [/home/abi/fetcher/tmp/fun_sentence_splitter-0.2.344.tar.gz]
+[2023-07-19 07:59:28] INFO root fetch - processPackages [fun-sentence-splitter]: Remove: archive file [/home/abi/fetcher/tmp/fun_sentence_splitter-0.2.366.tar.gz]
+[2023-07-19 07:59:28] INFO root fetch - main [MainThread]: End processing [fun-sentence-splitter]: success
+[2023-07-19 07:59:28] INFO root fetch - processPackages [rclone-python]: Remove: archive file [/home/abi/fetcher/tmp/rclone-python-0.1.7.tar.gz]
+[2023-07-19 07:59:28] INFO root fetch - processPackages [rclone-python]: Remove: archive file [/home/abi/fetcher/tmp/rclone-python-0.1.8.tar.gz]
+[2023-07-19 07:59:28] INFO root fetch - main [MainThread]: End processing [rclone-python]: success
+[2023-07-19 07:59:28] INFO root fetch - processPackages [pygbop]: Remove: archive file [/home/abi/fetcher/tmp/pygbop-0.2.0.3.tar.gz]
+[2023-07-19 07:59:28] INFO root fetch - processPackages [pygbop]: Remove: archive file [/home/abi/fetcher/tmp/pygbop-0.2.0.5.tar.gz]
+[2023-07-19 07:59:28] INFO root fetch - main [MainThread]: End processing [pygbop]: success
+[2023-07-19 07:59:28] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.8.tar.gz]
+[2023-07-19 07:59:28] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.9.tar.gz]
+[2023-07-19 07:59:28] INFO root fetch - main [MainThread]: End processing [raga-testing-platform]: success
+[2023-07-19 07:59:28] INFO root fetch - processPackages [ansys-api-geometry]: Remove: archive file [/home/abi/fetcher/tmp/ansys-api-geometry-0.2.9.tar.gz]
+[2023-07-19 07:59:28] INFO root fetch - processPackages [ansys-api-geometry]: Remove: archive file [/home/abi/fetcher/tmp/ansys-api-geometry-0.2.dev0.tar.gz]
+[2023-07-19 07:59:28] INFO root fetch - main [MainThread]: End processing [ansys-api-geometry]: success
+[2023-07-19 07:59:29] INFO root fetch - processPackages [nids-transformers]: Remove: archive file [/home/abi/fetcher/tmp/nids_transformers-0.0.7.tar.gz]
+[2023-07-19 07:59:29] INFO root fetch - processPackages [nids-transformers]: Remove: archive file [/home/abi/fetcher/tmp/nids_transformers-0.0.8.tar.gz]
+[2023-07-19 07:59:29] INFO root fetch - main [MainThread]: End processing [nids-transformers]: success
+[2023-07-19 07:59:29] INFO root fetch - main [MainThread]: Store serial: [18945913]
