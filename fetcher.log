@@ -20630,3 +20630,141 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-19 12:05:54] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
 [2023-07-19 12:05:55] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2023-07-19 12:05:55] INFO root fetch - main [MainThread]: Store serial: [18948344]
+[2023-07-19 12:10:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18948344]
+[2023-07-19 12:11:04] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-19 12:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rabbitbus
+[2023-07-19 12:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: renumics-spotlight
+[2023-07-19 12:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gammarer.aws-frontend-web-app-deploy-stack
+[2023-07-19 12:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: veetility
+[2023-07-19 12:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ipysnowball
+[2023-07-19 12:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: faasmctl
+[2023-07-19 12:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: starfall
+[2023-07-19 12:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyprocessors-chunk_sentences
+[2023-07-19 12:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: uncertainty-datatypes
+[2023-07-19 12:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: contactapi
+[2023-07-19 12:11:05] WARNING root fetch - processPackages [starfall]: Skipping, unable to determine old version
+[2023-07-19 12:11:05] INFO root fetch - processPackages [starfall]: Start processing: ai-transform
+[2023-07-19 12:11:05] INFO root fetch - main [MainThread]: End processing [starfall] error
+[2023-07-19 12:11:05] INFO root fetch - processPackages [faasmctl]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-19 12:11:05] INFO root fetch - processPackages [rabbitbus]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-19 12:11:05] INFO root fetch - processPackages [ipysnowball]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-19 12:11:05] INFO root fetch - processPackages [contactapi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 12:11:05] INFO root fetch - processPackages [renumics-spotlight]: New version: [1.3.0rc6] Old Version: [1.3.0rc5]
+[2023-07-19 12:11:05] INFO root fetch - processPackages [uncertainty-datatypes]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-19 12:11:05] WARNING root fetch - processPackages [gammarer.aws-frontend-web-app-deploy-stack]: Skipping, unable to determine old version
+[2023-07-19 12:11:05] INFO root fetch - processPackages [gammarer.aws-frontend-web-app-deploy-stack]: Start processing: py-astrolab
+[2023-07-19 12:11:05] INFO root fetch - main [MainThread]: End processing [gammarer.aws-frontend-web-app-deploy-stack] error
+[2023-07-19 12:11:05] INFO root fetch - processPackages [pyprocessors-chunk_sentences]: New version: [0.5.5] Old Version: [0.5.14]
+[2023-07-19 12:11:05] INFO root fetch - processPackages [veetility]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-19 12:11:05] INFO root fetch - processPackages [ai-transform]: New version: [0.32.4] Old Version: [0.32.3]
+[2023-07-19 12:11:05] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/21/91/1070c33506b39352079a3cb614e5598a08f552d12cef38b4247a5d1d2dbc/faasmctl-0.6.2.tar.gz
+[2023-07-19 12:11:05] INFO root fetch - processPackages [ipysnowball]: Downloading https://files.pythonhosted.org/packages/f8/3d/09275f5294c60491754666de4342f3ac3923e1c557181324ca329f5a904c/ipysnowball-1.0.2.tar.gz
+[2023-07-19 12:11:05] INFO root fetch - processPackages [contactapi]: Downloading https://files.pythonhosted.org/packages/9e/29/89f0e1f08f97c804a86c888bae62a3aa7606e78688e4195f075b67e30184/ContactApi-0.0.8.tar.gz
+[2023-07-19 12:11:05] INFO root fetch - processPackages [uncertainty-datatypes]: Downloading https://files.pythonhosted.org/packages/6d/c9/76a0c8563db1441bc4b755873c5ebd37ac1480dbf1c0205d45f384eeec71/uncertainty-datatypes-1.0.7.tar.gz
+[2023-07-19 12:11:05] INFO root fetch - processPackages [py-astrolab]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-19 12:11:05] INFO root fetch - processPackages [renumics-spotlight]: Downloading https://files.pythonhosted.org/packages/12/f8/69f34a4d0ee79206b052656cefa620ffd9ed74e849e7daf54c78a82bc8af/renumics_spotlight-1.3.0rc5-py3-none-any.whl
+[2023-07-19 12:11:05] INFO root fetch - processPackages [rabbitbus]: Downloading https://files.pythonhosted.org/packages/e2/6d/991257816c9ddfd91b7c09aa3843e658bafa068857428f062ced2daf8c05/rabbitbus-0.1.1.tar.gz
+[2023-07-19 12:11:05] INFO root fetch - processPackages [py-astrolab]: Downloading https://files.pythonhosted.org/packages/a1/9a/af5aeb38b78b8f18664b7b4a17d337c8ae27f19e08f911bf9d87d2b82e49/py_astrolab-0.3.0.tar.gz
+[2023-07-19 12:11:05] INFO root fetch - processPackages [pyprocessors-chunk_sentences]: Downloading https://files.pythonhosted.org/packages/8c/17/3641302444e2e6bd2c1d4cc59dce4b8f70b6a05f3ee43a6cba521c78059c/pyprocessors_chunk_sentences-0.5.14.tar.gz
+[2023-07-19 12:11:05] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/b4/6c/d6775912e1f4b22333ed3a4fee91721e0069b8797ba5c31097f91a3135d6/veetility-0.1.98.tar.gz
+[2023-07-19 12:11:05] INFO root fetch - processPackages [ai-transform]: Downloading https://files.pythonhosted.org/packages/01/c7/3494b7fffef860939d707d58f52b7fa6ee299d332b9984b074a1fa6f6f3d/ai_transform-0.32.3.tar.gz
+[2023-07-19 12:11:05] INFO root fetch - processPackages [contactapi]: Downloading https://files.pythonhosted.org/packages/3e/b9/7acbd3f62ecb9570e15107a4710b46c534decd3250e771857f587f963f6c/ContactApi-0.0.9.tar.gz
+[2023-07-19 12:11:05] INFO root fetch - processPackages [uncertainty-datatypes]: Downloading https://files.pythonhosted.org/packages/47/63/9686e1e4a70487f9723de948b123cc39a4acbc9e1dfbbb400a0a5e107698/uncertainty-datatypes-1.0.8.tar.gz
+[2023-07-19 12:11:05] INFO root fetch - processPackages [ipysnowball]: Downloading https://files.pythonhosted.org/packages/b0/2b/3cc107334c2bfc2ab63906257cfc8f3deb3ebed2072d5f80bc857cb40f06/ipysnowball-1.0.3.tar.gz
+[2023-07-19 12:11:05] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/13/21/4ae8a1a384b179dd009df6297b6463f6eddf6062e2cbb1a372651441b393/faasmctl-0.6.3.tar.gz
+[2023-07-19 12:11:06] INFO root fetch - processPackages [contactapi]: executing diffoscope
+[2023-07-19 12:11:06] INFO root fetch - processPackages [contactapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ContactApi-0.0.8.tar.gz tmp/ContactApi-0.0.9.tar.gz --markdown 20230719/c/contactapi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 12:11:06] INFO root fetch - processPackages [uncertainty-datatypes]: executing diffoscope
+[2023-07-19 12:11:06] INFO root fetch - processPackages [uncertainty-datatypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uncertainty-datatypes-1.0.7.tar.gz tmp/uncertainty-datatypes-1.0.8.tar.gz --markdown 20230719/u/uncertainty-datatypes/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-19 12:11:06] INFO root fetch - processPackages [faasmctl]: executing diffoscope
+[2023-07-19 12:11:06] INFO root fetch - processPackages [faasmctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faasmctl-0.6.2.tar.gz tmp/faasmctl-0.6.3.tar.gz --markdown 20230719/f/faasmctl/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-19 12:11:06] INFO root fetch - processPackages [ipysnowball]: executing diffoscope
+[2023-07-19 12:11:06] INFO root fetch - processPackages [ipysnowball]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipysnowball-1.0.2.tar.gz tmp/ipysnowball-1.0.3.tar.gz --markdown 20230719/i/ipysnowball/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-19 12:11:06] INFO root fetch - processPackages [py-astrolab]: Downloading https://files.pythonhosted.org/packages/69/ef/310b078451c70fa37c41c1165c051e6cc367ae51792da8d249a55eca89f7/py_astrolab-0.4.0.tar.gz
+[2023-07-19 12:11:06] INFO root fetch - processPackages [rabbitbus]: Downloading https://files.pythonhosted.org/packages/b0/fc/b84fe32dd46df29b7b65d0bf3bc6ca4a72c0f1a0256a7bdd2a5c941ca240/rabbitbus-0.1.2.tar.gz
+[2023-07-19 12:11:06] INFO root fetch - processPackages [rabbitbus]: executing diffoscope
+[2023-07-19 12:11:06] INFO root fetch - processPackages [rabbitbus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rabbitbus-0.1.1.tar.gz tmp/rabbitbus-0.1.2.tar.gz --markdown 20230719/r/rabbitbus/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-19 12:11:06] INFO root fetch - processPackages [ai-transform]: Downloading https://files.pythonhosted.org/packages/db/9e/21fc874a576891b7ef8db24c5e88b70cfe96b142ed70959193d8d1e5e225/ai_transform-0.32.4.tar.gz
+[2023-07-19 12:11:06] INFO root fetch - processPackages [py-astrolab]: executing diffoscope
+[2023-07-19 12:11:06] INFO root fetch - processPackages [py-astrolab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_astrolab-0.3.0.tar.gz tmp/py_astrolab-0.4.0.tar.gz --markdown 20230719/p/py-astrolab/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-19 12:11:06] INFO root fetch - processPackages [pyprocessors-chunk_sentences]: Downloading https://files.pythonhosted.org/packages/a6/fc/58a7c766b266216ce909b11e1c3653c7fc91d29e92e9cc695a760bf3b8cf/pyprocessors-chunk_sentences-0.5.5.tar.gz
+[2023-07-19 12:11:06] INFO root fetch - processPackages [renumics-spotlight]: Downloading https://files.pythonhosted.org/packages/14/13/eca66e85e8b01297da382d4926084380a42e841a6db6fc224b1c8ef27e5f/renumics_spotlight-1.3.0rc6-py3-none-any.whl
+[2023-07-19 12:11:06] INFO root fetch - processPackages [pyprocessors-chunk_sentences]: executing diffoscope
+[2023-07-19 12:11:06] INFO root fetch - processPackages [pyprocessors-chunk_sentences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyprocessors_chunk_sentences-0.5.14.tar.gz tmp/pyprocessors-chunk_sentences-0.5.5.tar.gz --markdown 20230719/p/pyprocessors-chunk_sentences/0.5.14-0.5.5/diff.md --exclude *.pyd
+[2023-07-19 12:11:06] INFO root fetch - processPackages [ai-transform]: executing diffoscope
+[2023-07-19 12:11:06] INFO root fetch - processPackages [ai-transform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_transform-0.32.3.tar.gz tmp/ai_transform-0.32.4.tar.gz --markdown 20230719/a/ai-transform/0.32.3-0.32.4/diff.md --exclude *.pyd
+[2023-07-19 12:11:06] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/a0/4f/eb1359196e4e216d1ccfde231e462db3887b8a191ac90d104f3b45fa4169/veetility-0.1.99.tar.gz
+[2023-07-19 12:11:06] INFO root fetch - processPackages [renumics-spotlight]: executing diffoscope
+[2023-07-19 12:11:06] INFO root fetch - processPackages [renumics-spotlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renumics_spotlight-1.3.0rc5-py3-none-any.whl.zip tmp/renumics_spotlight-1.3.0rc6-py3-none-any.whl.zip --markdown 20230719/r/renumics-spotlight/1.3.0rc5-1.3.0rc6/diff.md --exclude *.pyd
+[2023-07-19 12:11:06] INFO root fetch - processPackages [veetility]: executing diffoscope
+[2023-07-19 12:11:06] INFO root fetch - processPackages [veetility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veetility-0.1.98.tar.gz tmp/veetility-0.1.99.tar.gz --markdown 20230719/v/veetility/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-19 12:11:07] INFO root fetch - processPackages [contactapi]: Remove: archive file [/home/abi/fetcher/tmp/ContactApi-0.0.8.tar.gz]
+[2023-07-19 12:11:07] INFO root fetch - processPackages [contactapi]: Remove: archive file [/home/abi/fetcher/tmp/ContactApi-0.0.9.tar.gz]
+[2023-07-19 12:11:07] INFO root fetch - processPackages [contactapi]: Start processing: solox
+[2023-07-19 12:11:07] INFO root fetch - main [MainThread]: End processing [contactapi]: success
+[2023-07-19 12:11:07] INFO root fetch - processPackages [solox]: New version: [2.6.9] Old Version: [2.6.8]
+[2023-07-19 12:11:07] INFO root fetch - processPackages [ipysnowball]: Remove: archive file [/home/abi/fetcher/tmp/ipysnowball-1.0.2.tar.gz]
+[2023-07-19 12:11:07] INFO root fetch - processPackages [ipysnowball]: Remove: archive file [/home/abi/fetcher/tmp/ipysnowball-1.0.3.tar.gz]
+[2023-07-19 12:11:07] INFO root fetch - processPackages [ipysnowball]: Start processing: spotPython
+[2023-07-19 12:11:07] INFO root fetch - main [MainThread]: End processing [ipysnowball]: success
+[2023-07-19 12:11:07] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.6.2.tar.gz]
+[2023-07-19 12:11:07] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.6.3.tar.gz]
+[2023-07-19 12:11:07] INFO root fetch - processPackages [faasmctl]: Start processing: pyhydrophone
+[2023-07-19 12:11:07] INFO root fetch - main [MainThread]: End processing [faasmctl]: success
+[2023-07-19 12:11:07] INFO root fetch - processPackages [spotPython]: New version: [0.6.6] Old Version: [0.6.4]
+[2023-07-19 12:11:07] INFO root fetch - processPackages [uncertainty-datatypes]: Remove: archive file [/home/abi/fetcher/tmp/uncertainty-datatypes-1.0.7.tar.gz]
+[2023-07-19 12:11:07] INFO root fetch - processPackages [uncertainty-datatypes]: Remove: archive file [/home/abi/fetcher/tmp/uncertainty-datatypes-1.0.8.tar.gz]
+[2023-07-19 12:11:07] INFO root fetch - processPackages [uncertainty-datatypes]: Start processing: bqplot-gl
+[2023-07-19 12:11:07] INFO root fetch - main [MainThread]: End processing [uncertainty-datatypes]: success
+[2023-07-19 12:11:07] INFO root fetch - processPackages [rabbitbus]: Remove: archive file [/home/abi/fetcher/tmp/rabbitbus-0.1.1.tar.gz]
+[2023-07-19 12:11:07] INFO root fetch - processPackages [rabbitbus]: Remove: archive file [/home/abi/fetcher/tmp/rabbitbus-0.1.2.tar.gz]
+[2023-07-19 12:11:07] INFO root fetch - processPackages [rabbitbus]: Start processing: returnn
+[2023-07-19 12:11:07] INFO root fetch - main [MainThread]: End processing [rabbitbus]: success
+[2023-07-19 12:11:07] INFO root fetch - processPackages [solox]: Downloading https://files.pythonhosted.org/packages/00/16/6aea9b88ac54c33ad08e265925ca7b1707ad318cb4293d81a238980ee55a/solox-2.6.8.tar.gz
+[2023-07-19 12:11:07] INFO root fetch - processPackages [pyhydrophone]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-19 12:11:07] INFO root fetch - processPackages [returnn]: New version: [1.20230719.105013] Old Version: [1.20230719.100821]
+[2023-07-19 12:11:07] INFO root fetch - processPackages [py-astrolab]: Remove: archive file [/home/abi/fetcher/tmp/py_astrolab-0.3.0.tar.gz]
+[2023-07-19 12:11:07] INFO root fetch - processPackages [py-astrolab]: Remove: archive file [/home/abi/fetcher/tmp/py_astrolab-0.4.0.tar.gz]
+[2023-07-19 12:11:07] INFO root fetch - main [MainThread]: End processing [py-astrolab]: success
+[2023-07-19 12:11:07] INFO root fetch - processPackages [bqplot-gl]: New version: [0.1.0a0] Old Version: [0.0.0]
+[2023-07-19 12:11:07] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/2c/d3/3adaa14723c33ec4d6d27335049da828ff4a222689f208cea836e9328ed6/returnn-1.20230719.100821.tar.gz
+[2023-07-19 12:11:08] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/8a/8a/b8e6820ac6cee06ebc92e932ca78756f069543c1680f946de827edfd6c54/spotPython-0.6.4.tar.gz
+[2023-07-19 12:11:08] INFO root fetch - processPackages [pyprocessors-chunk_sentences]: Remove: archive file [/home/abi/fetcher/tmp/pyprocessors_chunk_sentences-0.5.14.tar.gz]
+[2023-07-19 12:11:08] INFO root fetch - processPackages [pyprocessors-chunk_sentences]: Remove: archive file [/home/abi/fetcher/tmp/pyprocessors-chunk_sentences-0.5.5.tar.gz]
+[2023-07-19 12:11:08] INFO root fetch - main [MainThread]: End processing [pyprocessors-chunk_sentences]: success
+[2023-07-19 12:11:08] INFO root fetch - processPackages [pyhydrophone]: Downloading https://files.pythonhosted.org/packages/63/df/60d58645b3c0fe27a64b358f6678d476d6eac30f5cbd78f5c1dfcf6cc541/pyhydrophone-0.1.4.tar.gz
+[2023-07-19 12:11:08] INFO root fetch - processPackages [bqplot-gl]: Downloading https://files.pythonhosted.org/packages/d1/2c/6cd3b9f4d4b0904cbba6d07cdcaf6e699b20ab8f07d532c3f2d7089c8667/bqplot-gl-0.0.0.tar.gz
+[2023-07-19 12:11:08] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.98.tar.gz]
+[2023-07-19 12:11:08] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.99.tar.gz]
+[2023-07-19 12:11:08] INFO root fetch - main [MainThread]: End processing [veetility]: success
+[2023-07-19 12:11:08] INFO root fetch - processPackages [ai-transform]: Remove: archive file [/home/abi/fetcher/tmp/ai_transform-0.32.3.tar.gz]
+[2023-07-19 12:11:08] INFO root fetch - processPackages [ai-transform]: Remove: archive file [/home/abi/fetcher/tmp/ai_transform-0.32.4.tar.gz]
+[2023-07-19 12:11:08] INFO root fetch - main [MainThread]: End processing [ai-transform]: success
+[2023-07-19 12:11:08] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/5d/38/b496fb341af6713ead69f3f847535434545e5587401f52e6e9a57746161e/returnn-1.20230719.105013.tar.gz
+[2023-07-19 12:11:08] INFO root fetch - processPackages [pyhydrophone]: Downloading https://files.pythonhosted.org/packages/c1/76/1217ff4ca344ce433c47d5c3803e8d21e7b467fb783559e42aa2f391373a/pyhydrophone-0.1.5.tar.gz
+[2023-07-19 12:11:08] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-07-19 12:11:08] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230719.100821.tar.gz tmp/returnn-1.20230719.105013.tar.gz --markdown 20230719/r/returnn/1.20230719.100821-1.20230719.105013/diff.md --exclude *.pyd
+[2023-07-19 12:11:08] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/26/3a/e0c8869c3079af70834de2782d7915bc51d542a26632a0a863627a93b96a/spotPython-0.6.6.tar.gz
+[2023-07-19 12:11:08] INFO root fetch - processPackages [bqplot-gl]: Downloading https://files.pythonhosted.org/packages/a7/52/7d083c9b71b248ea146e004d793fb928b0e4000897ea5a65ff43e826743d/bqplot_gl-0.1.0a0.tar.gz
+[2023-07-19 12:11:08] INFO root fetch - processPackages [pyhydrophone]: executing diffoscope
+[2023-07-19 12:11:08] INFO root fetch - processPackages [pyhydrophone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhydrophone-0.1.4.tar.gz tmp/pyhydrophone-0.1.5.tar.gz --markdown 20230719/p/pyhydrophone/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-19 12:11:08] INFO root fetch - processPackages [solox]: Downloading https://files.pythonhosted.org/packages/bf/20/c8515e8c26119c74218d12deb21a88db065c49a5ce28dbc46c53077e8b03/solox-2.6.9.tar.gz
+[2023-07-19 12:11:08] WARNING root fetch - processPackages [bqplot-gl]: Skipping package: exceeds size limit 59722700>=10485760
+[2023-07-19 12:11:08] INFO root fetch - main [MainThread]: End processing [bqplot-gl] error
+[2023-07-19 12:11:08] WARNING root fetch - processPackages [solox]: Skipping package: exceeds size limit 17231883>=10485760
+[2023-07-19 12:11:08] INFO root fetch - main [MainThread]: End processing [solox] error
+[2023-07-19 12:11:09] INFO root fetch - processPackages [pyhydrophone]: Remove: archive file [/home/abi/fetcher/tmp/pyhydrophone-0.1.4.tar.gz]
+[2023-07-19 12:11:09] INFO root fetch - processPackages [pyhydrophone]: Remove: archive file [/home/abi/fetcher/tmp/pyhydrophone-0.1.5.tar.gz]
+[2023-07-19 12:11:09] INFO root fetch - main [MainThread]: End processing [pyhydrophone]: success
+[2023-07-19 12:11:09] INFO root fetch - processPackages [spotPython]: executing diffoscope
+[2023-07-19 12:11:09] INFO root fetch - processPackages [spotPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotPython-0.6.4.tar.gz tmp/spotPython-0.6.6.tar.gz --markdown 20230719/s/spotPython/0.6.4-0.6.6/diff.md --exclude *.pyd
+[2023-07-19 12:11:11] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230719.100821.tar.gz]
+[2023-07-19 12:11:11] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230719.105013.tar.gz]
+[2023-07-19 12:11:11] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-07-19 12:11:11] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.6.4.tar.gz]
+[2023-07-19 12:11:11] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.6.6.tar.gz]
+[2023-07-19 12:11:11] INFO root fetch - main [MainThread]: End processing [spotPython]: success
+[2023-07-19 12:11:34] INFO root fetch - processPackages [renumics-spotlight]: Remove: archive file [/home/abi/fetcher/tmp/renumics_spotlight-1.3.0rc5-py3-none-any.whl.zip]
+[2023-07-19 12:11:34] INFO root fetch - processPackages [renumics-spotlight]: Remove: archive file [/home/abi/fetcher/tmp/renumics_spotlight-1.3.0rc6-py3-none-any.whl.zip]
+[2023-07-19 12:11:34] INFO root fetch - main [MainThread]: End processing [renumics-spotlight]: success
+[2023-07-19 12:11:34] INFO root fetch - main [MainThread]: Store serial: [18948396]
