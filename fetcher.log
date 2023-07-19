@@ -15045,3 +15045,69 @@
 [2023-07-19 08:25:37] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230718.tar.gz]
 [2023-07-19 08:25:37] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-07-19 08:25:37] INFO root fetch - main [MainThread]: Store serial: [18946056]
+[2023-07-19 08:30:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18946056]
+[2023-07-19 08:30:46] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-19 08:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pgsqlx
+[2023-07-19 08:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: azure-mgmt-networkcloud
+[2023-07-19 08:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rdkit-to-params
+[2023-07-19 08:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: understar
+[2023-07-19 08:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: windmill-api
+[2023-07-19 08:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wmill
+[2023-07-19 08:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wmill-pg
+[2023-07-19 08:30:47] INFO root fetch - processPackages [azure-mgmt-networkcloud]: New version: [1.0.0b2] Old Version: [1.0.0b1]
+[2023-07-19 08:30:47] INFO root fetch - processPackages [pgsqlx]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-19 08:30:47] INFO root fetch - processPackages [understar]: New version: [2.41] Old Version: [2.4]
+[2023-07-19 08:30:47] INFO root fetch - processPackages [rdkit-to-params]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-07-19 08:30:47] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-07-19 08:30:47] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-07-19 08:30:47] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-07-19 08:30:47] INFO root fetch - processPackages [understar]: Downloading https://files.pythonhosted.org/packages/4a/f0/faf8a0d621c3b0b71b95357caa7f0f22405102953d4cc961e1592c7eab9c/understar-2.4.tar.gz
+[2023-07-19 08:30:47] INFO root fetch - processPackages [pgsqlx]: Downloading https://files.pythonhosted.org/packages/98/39/09f93067a569db98b84686253468492071a259083e1c2bdb0ddf8ddf879b/pgsqlx-1.0.5.tar.gz
+[2023-07-19 08:30:47] INFO root fetch - processPackages [azure-mgmt-networkcloud]: Downloading https://files.pythonhosted.org/packages/da/7c/d9f8115e9814c080b30c191343f2d6d8ab38aef5ea77c02a61feba36d83d/azure-mgmt-networkcloud-1.0.0b1.zip
+[2023-07-19 08:30:47] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/a1/22/f7655b5ea090afc59651b874c61bf7bea4694e3fa9720a46058fa34c71ef/wmill_pg-1.98.0.tar.gz
+[2023-07-19 08:30:47] INFO root fetch - processPackages [rdkit-to-params]: Downloading https://files.pythonhosted.org/packages/23/c9/087e035655b4f33ffeda791f94b3927267b9ff696b451c4c3ed4f9e6102e/rdkit_to_params-1.2.4.tar.gz
+[2023-07-19 08:30:47] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/6d/91/6b6052c80b8d367e051cc2905d1d921bf9a11f63e27a0f802b5c1277aa20/wmill-1.98.0.tar.gz
+[2023-07-19 08:30:47] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/bd/de/5d29ca258adee967295dbf926ab306c480527c234336f0725d4c2bc1d718/windmill_api-1.98.0.tar.gz
+[2023-07-19 08:30:47] INFO root fetch - processPackages [pgsqlx]: Downloading https://files.pythonhosted.org/packages/cb/5e/f5b486d633e991745fb9d0213a34583cd80b5eb70c2b18c256edffa95d80/pgsqlx-1.0.6.tar.gz
+[2023-07-19 08:30:47] INFO root fetch - processPackages [understar]: Downloading https://files.pythonhosted.org/packages/d6/a4/6b78dfbb20fbf54aa364c65372eab6126b2a15b49edb1dc773025c13d7cc/understar-2.41.tar.gz
+[2023-07-19 08:30:47] INFO root fetch - processPackages [azure-mgmt-networkcloud]: Downloading https://files.pythonhosted.org/packages/45/c0/5fe8193858d4e92e74fb77647a72af147627e65b7cea6afff19435f7f2bd/azure-mgmt-networkcloud-1.0.0b2.zip
+[2023-07-19 08:30:47] INFO root fetch - processPackages [pgsqlx]: executing diffoscope
+[2023-07-19 08:30:47] INFO root fetch - processPackages [pgsqlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgsqlx-1.0.5.tar.gz tmp/pgsqlx-1.0.6.tar.gz --markdown 20230719/p/pgsqlx/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-19 08:30:47] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/26/ac/296bc5f7193d111c826ef99b60bf75fe1605158a73d728a5fad8aa771331/wmill_pg-1.99.0.tar.gz
+[2023-07-19 08:30:47] INFO root fetch - processPackages [rdkit-to-params]: Downloading https://files.pythonhosted.org/packages/15/b5/c39334528e3ea04b10d3083aea5c379bfd9b1ac5ac559fc2951bafcd02b5/rdkit_to_params-1.2.5.tar.gz
+[2023-07-19 08:30:47] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/f1/d1/eb5b4c7d25f969fc3603441c8e90a5a8e00688be43ce0631166287977a65/wmill-1.99.0.tar.gz
+[2023-07-19 08:30:48] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/32/94/9431b41ce6b9c2670fbc125624f7ebc3d186482c80c271e3d7acde511319/windmill_api-1.99.0.tar.gz
+[2023-07-19 08:30:48] INFO root fetch - processPackages [understar]: executing diffoscope
+[2023-07-19 08:30:48] INFO root fetch - processPackages [understar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/understar-2.4.tar.gz tmp/understar-2.41.tar.gz --markdown 20230719/u/understar/2.4-2.41/diff.md --exclude *.pyd
+[2023-07-19 08:30:48] INFO root fetch - processPackages [azure-mgmt-networkcloud]: executing diffoscope
+[2023-07-19 08:30:48] INFO root fetch - processPackages [azure-mgmt-networkcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-networkcloud-1.0.0b1.zip tmp/azure-mgmt-networkcloud-1.0.0b2.zip --markdown 20230719/a/azure-mgmt-networkcloud/1.0.0b1-1.0.0b2/diff.md --exclude *.pyd
+[2023-07-19 08:30:48] INFO root fetch - processPackages [rdkit-to-params]: executing diffoscope
+[2023-07-19 08:30:48] INFO root fetch - processPackages [rdkit-to-params]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdkit_to_params-1.2.4.tar.gz tmp/rdkit_to_params-1.2.5.tar.gz --markdown 20230719/r/rdkit-to-params/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-07-19 08:30:48] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2023-07-19 08:30:48] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20230719/w/wmill/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-07-19 08:30:48] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2023-07-19 08:30:48] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20230719/w/wmill-pg/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-07-19 08:30:48] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2023-07-19 08:30:48] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20230719/w/windmill-api/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-07-19 08:30:49] INFO root fetch - processPackages [pgsqlx]: Remove: archive file [/home/abi/fetcher/tmp/pgsqlx-1.0.5.tar.gz]
+[2023-07-19 08:30:49] INFO root fetch - processPackages [pgsqlx]: Remove: archive file [/home/abi/fetcher/tmp/pgsqlx-1.0.6.tar.gz]
+[2023-07-19 08:30:49] INFO root fetch - main [MainThread]: End processing [pgsqlx]: success
+[2023-07-19 08:30:49] INFO root fetch - processPackages [understar]: Remove: archive file [/home/abi/fetcher/tmp/understar-2.4.tar.gz]
+[2023-07-19 08:30:49] INFO root fetch - processPackages [understar]: Remove: archive file [/home/abi/fetcher/tmp/understar-2.41.tar.gz]
+[2023-07-19 08:30:49] INFO root fetch - main [MainThread]: End processing [understar]: success
+[2023-07-19 08:30:49] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.98.0.tar.gz]
+[2023-07-19 08:30:49] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.99.0.tar.gz]
+[2023-07-19 08:30:49] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2023-07-19 08:30:49] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.98.0.tar.gz]
+[2023-07-19 08:30:49] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.99.0.tar.gz]
+[2023-07-19 08:30:49] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2023-07-19 08:30:49] INFO root fetch - processPackages [rdkit-to-params]: Remove: archive file [/home/abi/fetcher/tmp/rdkit_to_params-1.2.4.tar.gz]
+[2023-07-19 08:30:49] INFO root fetch - processPackages [rdkit-to-params]: Remove: archive file [/home/abi/fetcher/tmp/rdkit_to_params-1.2.5.tar.gz]
+[2023-07-19 08:30:49] INFO root fetch - main [MainThread]: End processing [rdkit-to-params]: success
+[2023-07-19 08:30:50] INFO root fetch - processPackages [azure-mgmt-networkcloud]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-networkcloud-1.0.0b1.zip]
+[2023-07-19 08:30:50] INFO root fetch - processPackages [azure-mgmt-networkcloud]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-networkcloud-1.0.0b2.zip]
+[2023-07-19 08:30:50] INFO root fetch - main [MainThread]: End processing [azure-mgmt-networkcloud]: success
+[2023-07-19 08:30:55] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2023-07-19 08:30:55] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2023-07-19 08:30:55] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2023-07-19 08:30:55] INFO root fetch - main [MainThread]: Store serial: [18946075]
