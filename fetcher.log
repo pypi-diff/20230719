@@ -16754,3 +16754,100 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-19 09:42:11] INFO root fetch - processPackages [mlrun]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-1.4.0rc9-py3-none-any.whl.zip]
 [2023-07-19 09:42:11] INFO root fetch - main [MainThread]: End processing [mlrun]: success
 [2023-07-19 09:42:11] INFO root fetch - main [MainThread]: Store serial: [18946680]
+[2023-07-19 09:47:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18946680]
+[2023-07-19 09:47:20] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-19 09:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: elefanto-webkassa
+[2023-07-19 09:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lazysdk
+[2023-07-19 09:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cavsiopy
+[2023-07-19 09:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: advertion
+[2023-07-19 09:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyreloader
+[2023-07-19 09:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: htscf
+[2023-07-19 09:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: understar
+[2023-07-19 09:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: clams-python
+[2023-07-19 09:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: elefanto-webkassa
+[2023-07-19 09:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mxcubeweb
+[2023-07-19 09:47:20] INFO root fetch - processPackages [htscf]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-19 09:47:20] INFO root fetch - processPackages [elefanto-webkassa]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-19 09:47:20] INFO root fetch - processPackages [mxcubeweb]: New version: [1.58.0] Old Version: [1.57.0]
+[2023-07-19 09:47:20] INFO root fetch - processPackages [lazysdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-19 09:47:20] INFO root fetch - processPackages [understar]: New version: [2.42] Old Version: [2.41]
+[2023-07-19 09:47:20] INFO root fetch - processPackages [clams-python]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-19 09:47:20] INFO root fetch - processPackages [elefanto-webkassa]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-19 09:47:20] WARNING root fetch - processPackages [cavsiopy]: Skipping, unable to determine old version
+[2023-07-19 09:47:20] INFO root fetch - processPackages [cavsiopy]: Start processing: py3seed
+[2023-07-19 09:47:20] INFO root fetch - main [MainThread]: End processing [cavsiopy] error
+[2023-07-19 09:47:20] WARNING root fetch - processPackages [pyreloader]: Skipping, unable to determine old version
+[2023-07-19 09:47:20] INFO root fetch - processPackages [pyreloader]: Start processing: axion
+[2023-07-19 09:47:20] INFO root fetch - main [MainThread]: End processing [pyreloader] error
+[2023-07-19 09:47:20] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/38/6e/873c1f710606f91c4d8dd01b66a600b8f53828c838a79ba123c316f77c05/lazysdk-0.1.8.tar.gz
+[2023-07-19 09:47:20] INFO root fetch - processPackages [advertion]: New version: [0.1.0a2] Old Version: [0.1.0a1]
+[2023-07-19 09:47:20] INFO root fetch - processPackages [understar]: Downloading https://files.pythonhosted.org/packages/d6/a4/6b78dfbb20fbf54aa364c65372eab6126b2a15b49edb1dc773025c13d7cc/understar-2.41.tar.gz
+[2023-07-19 09:47:20] INFO root fetch - processPackages [py3seed]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-19 09:47:20] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/c1/5d/2ab93cfb758b62ed09ab02cb4e3ffe08b3523d3563d6435b11a57fd91f96/mxcubeweb-1.57.0.tar.gz
+[2023-07-19 09:47:20] INFO root fetch - processPackages [elefanto-webkassa]: Downloading https://files.pythonhosted.org/packages/f3/df/ca8016ff9b37a681bda371da595150fdb91232237484474f029af765e305/elefanto_webkassa-0.1.1.tar.gz
+[2023-07-19 09:47:20] INFO root fetch - processPackages [elefanto-webkassa]: Downloading https://files.pythonhosted.org/packages/f3/df/ca8016ff9b37a681bda371da595150fdb91232237484474f029af765e305/elefanto_webkassa-0.1.1.tar.gz
+[2023-07-19 09:47:20] INFO root fetch - processPackages [axion]: New version: [3.5.8] Old Version: [3.5.7]
+[2023-07-19 09:47:20] INFO root fetch - processPackages [clams-python]: Downloading https://files.pythonhosted.org/packages/f9/6d/45f5dee14947cc1b84e42edf28edd1007659379cc314725e5f2b91be2636/clams-python-1.0.3.tar.gz
+[2023-07-19 09:47:20] INFO root fetch - processPackages [htscf]: Downloading https://files.pythonhosted.org/packages/6f/45/c863ef923bd1ade659227981f539a08024fd71cb27247ab717ec41b2d3f8/htscf-0.0.2.tar.gz
+[2023-07-19 09:47:20] INFO root fetch - processPackages [py3seed]: Downloading https://files.pythonhosted.org/packages/a0/c8/dd3781830fbbf785f8026c835335603b722a12b32cf559be4306dc463303/py3seed-0.1.7.tar.gz
+[2023-07-19 09:47:20] INFO root fetch - processPackages [advertion]: Downloading https://files.pythonhosted.org/packages/e5/23/6ce3cc52298e7d13bf1ee3e6a563b82df735973fca45c0b77f2cf89563da/advertion-0.1.0a1.tar.gz
+[2023-07-19 09:47:20] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/fc/2a/8d12a1007564b0422e4011a83ede3d859552a77e17dd9f408595a5544eec/axion-3.5.7-cp311-none-win_amd64.whl
+[2023-07-19 09:47:21] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/56/f7/82feafe86145b2d6d28587748503b8e9a4aaab1142447bc3345f6b0683e6/lazysdk-0.1.9.tar.gz
+[2023-07-19 09:47:21] INFO root fetch - processPackages [understar]: Downloading https://files.pythonhosted.org/packages/a9/ab/97306d746ddbc6442bc30b423987a64ee980be37f013d586030868942fed/understar-2.42.tar.gz
+[2023-07-19 09:47:21] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/83/2a/514b6f434552910738200fe52109a618b7df2ebef433e6c72357d13aaadd/mxcubeweb-1.58.0.tar.gz
+[2023-07-19 09:47:21] INFO root fetch - processPackages [elefanto-webkassa]: Downloading https://files.pythonhosted.org/packages/25/02/c141322a7aa76b967ace4da99a2aabbcac58a77e526a0b6edfa7132eec8c/elefanto_webkassa-0.1.2.tar.gz
+[2023-07-19 09:47:21] INFO root fetch - processPackages [elefanto-webkassa]: Downloading https://files.pythonhosted.org/packages/25/02/c141322a7aa76b967ace4da99a2aabbcac58a77e526a0b6edfa7132eec8c/elefanto_webkassa-0.1.2.tar.gz
+[2023-07-19 09:47:21] INFO root fetch - processPackages [clams-python]: Downloading https://files.pythonhosted.org/packages/7d/54/529601f5f18d051d476d29b814a056c0af788eaea5a05cc15d96e3440977/clams-python-1.0.4.tar.gz
+[2023-07-19 09:47:21] INFO root fetch - processPackages [understar]: executing diffoscope
+[2023-07-19 09:47:21] INFO root fetch - processPackages [understar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/understar-2.41.tar.gz tmp/understar-2.42.tar.gz --markdown 20230719/u/understar/2.41-2.42/diff.md --exclude *.pyd
+[2023-07-19 09:47:21] INFO root fetch - processPackages [lazysdk]: executing diffoscope
+[2023-07-19 09:47:21] INFO root fetch - processPackages [lazysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazysdk-0.1.8.tar.gz tmp/lazysdk-0.1.9.tar.gz --markdown 20230719/l/lazysdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-19 09:47:21] INFO root fetch - processPackages [htscf]: Downloading https://files.pythonhosted.org/packages/c4/13/e227f1fc956aedddd47e611fb64508fdf09a91fd62b17c522d70b97bee07/htscf-0.0.3.tar.gz
+[2023-07-19 09:47:21] INFO root fetch - processPackages [py3seed]: Downloading https://files.pythonhosted.org/packages/31/7e/4c554f5e5f72dd899ccdc9191192045cfd5a12713a763ad527bf796d1dc5/py3seed-0.1.8.tar.gz
+[2023-07-19 09:47:21] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/8f/da/5d46b5eaf07f83cb2daf2790fa4eac1a2c482e46addd2d75ad6d5d935b1d/axion-3.5.8-cp311-none-win_amd64.whl
+[2023-07-19 09:47:21] INFO root fetch - processPackages [mxcubeweb]: executing diffoscope
+[2023-07-19 09:47:21] INFO root fetch - processPackages [mxcubeweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mxcubeweb-1.57.0.tar.gz tmp/mxcubeweb-1.58.0.tar.gz --markdown 20230719/m/mxcubeweb/1.57.0-1.58.0/diff.md --exclude *.pyd
+[2023-07-19 09:47:21] INFO root fetch - processPackages [elefanto-webkassa]: executing diffoscope
+[2023-07-19 09:47:21] INFO root fetch - processPackages [elefanto-webkassa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elefanto_webkassa-0.1.1.tar.gz tmp/elefanto_webkassa-0.1.2.tar.gz --markdown 20230719/e/elefanto-webkassa/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-19 09:47:21] INFO root fetch - processPackages [elefanto-webkassa]: executing diffoscope
+[2023-07-19 09:47:21] INFO root fetch - processPackages [elefanto-webkassa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elefanto_webkassa-0.1.1.tar.gz tmp/elefanto_webkassa-0.1.2.tar.gz --markdown 20230719/e/elefanto-webkassa/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-19 09:47:21] INFO root fetch - processPackages [advertion]: Downloading https://files.pythonhosted.org/packages/ac/1c/3707f392c38a08708222bad34a5ff3cd770568432198dec722e30dc9c4f8/advertion-0.1.0a2.tar.gz
+[2023-07-19 09:47:21] INFO root fetch - processPackages [clams-python]: executing diffoscope
+[2023-07-19 09:47:21] INFO root fetch - processPackages [clams-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clams-python-1.0.3.tar.gz tmp/clams-python-1.0.4.tar.gz --markdown 20230719/c/clams-python/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-19 09:47:21] INFO root fetch - processPackages [htscf]: executing diffoscope
+[2023-07-19 09:47:21] INFO root fetch - processPackages [htscf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htscf-0.0.2.tar.gz tmp/htscf-0.0.3.tar.gz --markdown 20230719/h/htscf/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-19 09:47:21] INFO root fetch - processPackages [py3seed]: executing diffoscope
+[2023-07-19 09:47:21] INFO root fetch - processPackages [py3seed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3seed-0.1.7.tar.gz tmp/py3seed-0.1.8.tar.gz --markdown 20230719/p/py3seed/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-19 09:47:21] INFO root fetch - processPackages [advertion]: executing diffoscope
+[2023-07-19 09:47:21] INFO root fetch - processPackages [advertion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/advertion-0.1.0a1.tar.gz tmp/advertion-0.1.0a2.tar.gz --markdown 20230719/a/advertion/0.1.0a1-0.1.0a2/diff.md --exclude *.pyd
+[2023-07-19 09:47:21] INFO root fetch - processPackages [axion]: executing diffoscope
+[2023-07-19 09:47:21] INFO root fetch - processPackages [axion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axion-3.5.7-cp311-none-win_amd64.whl.zip tmp/axion-3.5.8-cp311-none-win_amd64.whl.zip --markdown 20230719/a/axion/3.5.7-3.5.8/diff.md --exclude *.pyd
+[2023-07-19 09:47:23] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.8.tar.gz]
+[2023-07-19 09:47:23] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.9.tar.gz]
+[2023-07-19 09:47:23] INFO root fetch - main [MainThread]: End processing [lazysdk]: success
+[2023-07-19 09:47:23] INFO root fetch - processPackages [understar]: Remove: archive file [/home/abi/fetcher/tmp/understar-2.41.tar.gz]
+[2023-07-19 09:47:23] INFO root fetch - processPackages [understar]: Remove: archive file [/home/abi/fetcher/tmp/understar-2.42.tar.gz]
+[2023-07-19 09:47:23] INFO root fetch - main [MainThread]: End processing [understar]: success
+[2023-07-19 09:47:23] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-3.5.7-cp311-none-win_amd64.whl.zip]
+[2023-07-19 09:47:23] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-3.5.8-cp311-none-win_amd64.whl.zip]
+[2023-07-19 09:47:23] INFO root fetch - main [MainThread]: End processing [axion]: success
+[2023-07-19 09:47:23] INFO root fetch - processPackages [elefanto-webkassa]: Remove: archive file [/home/abi/fetcher/tmp/elefanto_webkassa-0.1.1.tar.gz]
+[2023-07-19 09:47:23] INFO root fetch - processPackages [elefanto-webkassa]: Remove: archive file [/home/abi/fetcher/tmp/elefanto_webkassa-0.1.2.tar.gz]
+[2023-07-19 09:47:23] INFO root fetch - main [MainThread]: End processing [elefanto-webkassa]: success
+[2023-07-19 09:47:23] INFO root fetch - processPackages [py3seed]: Remove: archive file [/home/abi/fetcher/tmp/py3seed-0.1.7.tar.gz]
+[2023-07-19 09:47:23] INFO root fetch - processPackages [py3seed]: Remove: archive file [/home/abi/fetcher/tmp/py3seed-0.1.8.tar.gz]
+[2023-07-19 09:47:23] INFO root fetch - main [MainThread]: End processing [py3seed]: success
+[2023-07-19 09:47:23] INFO root fetch - processPackages [clams-python]: Remove: archive file [/home/abi/fetcher/tmp/clams-python-1.0.3.tar.gz]
+[2023-07-19 09:47:23] INFO root fetch - processPackages [clams-python]: Remove: archive file [/home/abi/fetcher/tmp/clams-python-1.0.4.tar.gz]
+[2023-07-19 09:47:23] INFO root fetch - main [MainThread]: End processing [clams-python]: success
+[2023-07-19 09:47:23] INFO root fetch - processPackages [advertion]: Remove: archive file [/home/abi/fetcher/tmp/advertion-0.1.0a1.tar.gz]
+[2023-07-19 09:47:23] INFO root fetch - processPackages [advertion]: Remove: archive file [/home/abi/fetcher/tmp/advertion-0.1.0a2.tar.gz]
+[2023-07-19 09:47:23] INFO root fetch - main [MainThread]: End processing [advertion]: success
+[2023-07-19 09:47:23] INFO root fetch - processPackages [htscf]: Remove: archive file [/home/abi/fetcher/tmp/htscf-0.0.2.tar.gz]
+[2023-07-19 09:47:23] INFO root fetch - processPackages [htscf]: Remove: archive file [/home/abi/fetcher/tmp/htscf-0.0.3.tar.gz]
+[2023-07-19 09:47:23] INFO root fetch - main [MainThread]: End processing [htscf]: success
+[2023-07-19 09:47:23] INFO root fetch - main [MainThread]: End processing [elefanto-webkassa]: success
+[2023-07-19 09:47:23] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-1.57.0.tar.gz]
+[2023-07-19 09:47:23] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-1.58.0.tar.gz]
+[2023-07-19 09:47:23] INFO root fetch - main [MainThread]: End processing [mxcubeweb]: success
+[2023-07-19 09:47:23] INFO root fetch - main [MainThread]: Store serial: [18946722]
