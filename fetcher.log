@@ -5788,3 +5788,75 @@
 [2023-07-19 03:34:50] INFO root fetch - processPackages [awscrt]: Remove: archive file [/home/abi/fetcher/tmp/awscrt-0.9.7.tar.gz]
 [2023-07-19 03:34:50] INFO root fetch - main [MainThread]: End processing [awscrt]: success
 [2023-07-19 03:34:50] INFO root fetch - main [MainThread]: Store serial: [18942903]
+[2023-07-19 03:39:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18942903]
+[2023-07-19 03:39:59] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-19 03:39:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: specklia
+[2023-07-19 03:39:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: loggingx-py
+[2023-07-19 03:39:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MarsGT
+[2023-07-19 03:39:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: omnata-plugin-devkit
+[2023-07-19 03:39:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cytomulate
+[2023-07-19 03:39:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ros-cdk-assembly-schema
+[2023-07-19 03:39:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: adafri
+[2023-07-19 03:39:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: poseutil
+[2023-07-19 03:39:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ros-cdk-cxapi
+[2023-07-19 03:39:59] INFO root fetch - processPackages [cytomulate]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-19 03:40:00] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-19 03:40:00] INFO root fetch - processPackages [MarsGT]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-19 03:40:00] INFO root fetch - processPackages [adafri]: New version: [0.0.21] Old Version: [0.0.20]
+[2023-07-19 03:40:00] WARNING root fetch - processPackages [poseutil]: Skipping, unable to determine old version
+[2023-07-19 03:40:00] INFO root fetch - main [MainThread]: End processing [poseutil] error
+[2023-07-19 03:40:00] INFO root fetch - processPackages [specklia]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-19 03:40:00] INFO root fetch - processPackages [cytomulate]: Downloading https://files.pythonhosted.org/packages/69/42/654d891fdfe0f07fd23cad7e396c3209a713ba21ce277d89df99bec87527/cytomulate-0.1.0.tar.gz
+[2023-07-19 03:40:00] INFO root fetch - processPackages [ros-cdk-assembly-schema]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 03:40:00] WARNING root fetch - processPackages [loggingx-py]: Skipping, unable to determine old version
+[2023-07-19 03:40:00] INFO root fetch - processPackages [ros-cdk-cxapi]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 03:40:00] INFO root fetch - main [MainThread]: End processing [loggingx-py] error
+[2023-07-19 03:40:00] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/a6/03/037aa46c1c15ce197872a42c2494fcfb0dd6fd4c14cebaeaf6f9495b5cbf/omnata_plugin_devkit-0.1.8.tar.gz
+[2023-07-19 03:40:00] INFO root fetch - processPackages [MarsGT]: Downloading https://files.pythonhosted.org/packages/47/68/edd87a9f176135ffc68778f8a25ec91b1825a6225bd62592d1ea85bc3af0/MarsGT-0.1.5.tar.gz
+[2023-07-19 03:40:00] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/cf/d5/2d275cd522f3bbb738ee6d75fe2124675cf3fc6571e106c0c41644a087d5/adafri-0.0.20.tar.gz
+[2023-07-19 03:40:00] INFO root fetch - processPackages [MarsGT]: Downloading https://files.pythonhosted.org/packages/4f/b0/c018c2b99a4809925b77dc5707999331d36fe2f79c89b34513d2b64bf872/MarsGT-0.1.6.tar.gz
+[2023-07-19 03:40:00] INFO root fetch - processPackages [ros-cdk-cxapi]: Downloading https://files.pythonhosted.org/packages/1f/e6/dd583ddab582d1221ee1a969c71696b74f6d06ac7793da54d7549f70cf57/ros-cdk-cxapi-1.0.8.tar.gz
+[2023-07-19 03:40:00] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/2a/bd/1379d90b6bd45442f7550556688400cbbbfc9ca64d3a7d78533565069eda/specklia-1.2.8.tar.gz
+[2023-07-19 03:40:00] INFO root fetch - processPackages [ros-cdk-assembly-schema]: Downloading https://files.pythonhosted.org/packages/69/c7/844c7616a479dbd33dba633da09bb99b6647c86e91d4ebf7a7bf8e50d64a/ros-cdk-assembly-schema-1.0.8.tar.gz
+[2023-07-19 03:40:00] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/94/e1/5b8aa743f4bbe600dde3989489613981c39b2dfcd44174b9931cf0c42452/omnata_plugin_devkit-0.1.9.tar.gz
+[2023-07-19 03:40:00] INFO root fetch - processPackages [cytomulate]: Downloading https://files.pythonhosted.org/packages/d1/04/93556a5539b95cbeb8167605b3b5ef6f77fa133bc9d3435d91dc7b162b3e/cytomulate-0.2.0.tar.gz
+[2023-07-19 03:40:00] INFO root fetch - processPackages [MarsGT]: executing diffoscope
+[2023-07-19 03:40:00] INFO root fetch - processPackages [MarsGT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MarsGT-0.1.5.tar.gz tmp/MarsGT-0.1.6.tar.gz --markdown 20230719/M/MarsGT/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-19 03:40:00] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2023-07-19 03:40:00] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.1.8.tar.gz tmp/omnata_plugin_devkit-0.1.9.tar.gz --markdown 20230719/o/omnata-plugin-devkit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-19 03:40:00] INFO root fetch - processPackages [cytomulate]: executing diffoscope
+[2023-07-19 03:40:00] INFO root fetch - processPackages [cytomulate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cytomulate-0.1.0.tar.gz tmp/cytomulate-0.2.0.tar.gz --markdown 20230719/c/cytomulate/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-19 03:40:00] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/48/95/99cad20d3e60006a5cf1135db8480d544ba9a72a09b353bedc4611d8b05e/adafri-0.0.21.tar.gz
+[2023-07-19 03:40:01] INFO root fetch - processPackages [ros-cdk-assembly-schema]: Downloading https://files.pythonhosted.org/packages/2b/83/1e959ec26eed4d2aa4034c97ab2977a82364f27f03651d9841a04d9defe4/ros-cdk-assembly-schema-1.0.9.tar.gz
+[2023-07-19 03:40:01] INFO root fetch - processPackages [ros-cdk-cxapi]: Downloading https://files.pythonhosted.org/packages/05/55/8d7adff1d9a900e400ca314b191384110e8121856571cb39beb715207859/ros-cdk-cxapi-1.0.9.tar.gz
+[2023-07-19 03:40:01] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/82/ab/63cdd26880b2cbe03073ca9cb599a0ed43a52df679f722fa5d3eaab6c4c5/specklia-1.2.9.tar.gz
+[2023-07-19 03:40:01] INFO root fetch - processPackages [adafri]: executing diffoscope
+[2023-07-19 03:40:01] INFO root fetch - processPackages [adafri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafri-0.0.20.tar.gz tmp/adafri-0.0.21.tar.gz --markdown 20230719/a/adafri/0.0.20-0.0.21/diff.md --exclude *.pyd
+[2023-07-19 03:40:01] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2023-07-19 03:40:01] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.2.8.tar.gz tmp/specklia-1.2.9.tar.gz --markdown 20230719/s/specklia/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-19 03:40:01] INFO root fetch - processPackages [ros-cdk-cxapi]: executing diffoscope
+[2023-07-19 03:40:01] INFO root fetch - processPackages [ros-cdk-cxapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-cxapi-1.0.8.tar.gz tmp/ros-cdk-cxapi-1.0.9.tar.gz --markdown 20230719/r/ros-cdk-cxapi/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 03:40:01] INFO root fetch - processPackages [ros-cdk-assembly-schema]: executing diffoscope
+[2023-07-19 03:40:01] INFO root fetch - processPackages [ros-cdk-assembly-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-assembly-schema-1.0.8.tar.gz tmp/ros-cdk-assembly-schema-1.0.9.tar.gz --markdown 20230719/r/ros-cdk-assembly-schema/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 03:40:01] INFO root fetch - processPackages [MarsGT]: Remove: archive file [/home/abi/fetcher/tmp/MarsGT-0.1.5.tar.gz]
+[2023-07-19 03:40:01] INFO root fetch - processPackages [MarsGT]: Remove: archive file [/home/abi/fetcher/tmp/MarsGT-0.1.6.tar.gz]
+[2023-07-19 03:40:01] INFO root fetch - main [MainThread]: End processing [MarsGT]: success
+[2023-07-19 03:40:01] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.8.tar.gz]
+[2023-07-19 03:40:01] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.9.tar.gz]
+[2023-07-19 03:40:01] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2023-07-19 03:40:01] INFO root fetch - processPackages [cytomulate]: Remove: archive file [/home/abi/fetcher/tmp/cytomulate-0.1.0.tar.gz]
+[2023-07-19 03:40:01] INFO root fetch - processPackages [cytomulate]: Remove: archive file [/home/abi/fetcher/tmp/cytomulate-0.2.0.tar.gz]
+[2023-07-19 03:40:01] INFO root fetch - main [MainThread]: End processing [cytomulate]: success
+[2023-07-19 03:40:02] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.20.tar.gz]
+[2023-07-19 03:40:02] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.21.tar.gz]
+[2023-07-19 03:40:02] INFO root fetch - main [MainThread]: End processing [adafri]: success
+[2023-07-19 03:40:02] INFO root fetch - processPackages [ros-cdk-assembly-schema]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-assembly-schema-1.0.8.tar.gz]
+[2023-07-19 03:40:02] INFO root fetch - processPackages [ros-cdk-assembly-schema]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-assembly-schema-1.0.9.tar.gz]
+[2023-07-19 03:40:02] INFO root fetch - main [MainThread]: End processing [ros-cdk-assembly-schema]: success
+[2023-07-19 03:40:02] INFO root fetch - processPackages [ros-cdk-cxapi]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cxapi-1.0.8.tar.gz]
+[2023-07-19 03:40:02] INFO root fetch - processPackages [ros-cdk-cxapi]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cxapi-1.0.9.tar.gz]
+[2023-07-19 03:40:02] INFO root fetch - main [MainThread]: End processing [ros-cdk-cxapi]: success
+[2023-07-19 03:40:02] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.2.8.tar.gz]
+[2023-07-19 03:40:02] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.2.9.tar.gz]
+[2023-07-19 03:40:02] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2023-07-19 03:40:02] INFO root fetch - main [MainThread]: Store serial: [18942941]
