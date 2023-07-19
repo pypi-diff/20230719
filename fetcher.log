@@ -6153,3 +6153,129 @@
 [2023-07-19 03:50:30] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
 [2023-07-19 03:50:30] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
 [2023-07-19 03:50:30] INFO root fetch - main [MainThread]: Store serial: [18943032]
+[2023-07-19 03:55:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18943032]
+[2023-07-19 03:55:39] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-19 03:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ros-cdk-cloudphone
+[2023-07-19 03:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-sns-notify
+[2023-07-19 03:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ros-cdk-nlb
+[2023-07-19 03:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-apl
+[2023-07-19 03:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-dall-e
+[2023-07-19 03:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: symbex
+[2023-07-19 03:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pur
+[2023-07-19 03:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ros-cdk-apigateway
+[2023-07-19 03:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ros-cdk-polardb
+[2023-07-19 03:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-07-19 03:55:39] INFO root fetch - processPackages [nonebot-plugin-dall-e]: New version: [0.2] Old Version: [0.1]
+[2023-07-19 03:55:39] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.902] Old Version: [0.0.901]
+[2023-07-19 03:55:39] INFO root fetch - processPackages [ros-cdk-cloudphone]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 03:55:39] INFO root fetch - processPackages [symbex]: New version: [1.3] Old Version: [1.2]
+[2023-07-19 03:55:39] INFO root fetch - processPackages [pur]: New version: [7.1.1] Old Version: [7.1.0]
+[2023-07-19 03:55:39] INFO root fetch - processPackages [ros-cdk-nlb]: New version: [1.0.9] Old Version: [1.0.16]
+[2023-07-19 03:55:39] INFO root fetch - processPackages [ros-cdk-apigateway]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 03:55:39] INFO root fetch - processPackages [ros-cdk-polardb]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 03:55:40] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-19 03:55:40] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-19 03:55:40] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/55/fe/13756fb4ac50cf0e1215707dc1c39da2cd84be132948143f0ec436c1cc3f/nbdev-apl-0.0.901.tar.gz
+[2023-07-19 03:55:40] INFO root fetch - processPackages [nonebot-plugin-dall-e]: Downloading https://files.pythonhosted.org/packages/a4/f9/175f1999d35a34a8be854d7cda40457df24e157b184c966d3f90c2c5f5bc/nonebot_plugin_dall-e-0.1.tar.gz
+[2023-07-19 03:55:40] INFO root fetch - processPackages [ros-cdk-cloudphone]: Downloading https://files.pythonhosted.org/packages/c3/eb/ab038759d335f534fbc0189536f96ab4fe8467adc14768be58ee1cc27492/ros-cdk-cloudphone-1.0.8.tar.gz
+[2023-07-19 03:55:40] INFO root fetch - processPackages [ros-cdk-nlb]: Downloading https://files.pythonhosted.org/packages/1a/1f/3bc0a05d71c9acbb2aec2c3e2d66a8efb8682678a58e2d809f8593cadd2d/ros-cdk-nlb-1.0.16.tar.gz
+[2023-07-19 03:55:40] INFO root fetch - processPackages [pur]: Downloading https://files.pythonhosted.org/packages/e8/2a/56127e56ef44218ea9f399e257fb180bbd7d754708f7e56f006baca5c1b7/pur-7.1.0.tar.gz
+[2023-07-19 03:55:40] INFO root fetch - processPackages [ros-cdk-apigateway]: Downloading https://files.pythonhosted.org/packages/1d/b0/3cedb3539c7bb1d3dcab0f7f1ac2033e973807f841650e1c0abc65c0c72e/ros-cdk-apigateway-1.0.8.tar.gz
+[2023-07-19 03:55:40] INFO root fetch - processPackages [symbex]: Downloading https://files.pythonhosted.org/packages/14/ad/33a54da57fb12c59ffabdb8c7f06baa85569b58b47379683bf04b82f845c/symbex-1.2.tar.gz
+[2023-07-19 03:55:40] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2023-07-19 03:55:40] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/63/7d/ec62f3b7c0e08e1437b2036911a0d42b75ee30ea2cbb819399bdf8b55111/cdk-sns-notify-0.0.98.tar.gz
+[2023-07-19 03:55:40] INFO root fetch - processPackages [ros-cdk-polardb]: Downloading https://files.pythonhosted.org/packages/0f/c8/9a5db89a18dd5f161ed58b6d586eaadf865536c6a5fe35c121bf3e0efdda/ros-cdk-polardb-1.0.8.tar.gz
+[2023-07-19 03:55:40] INFO root fetch - processPackages [nonebot-plugin-dall-e]: Downloading https://files.pythonhosted.org/packages/77/b8/94e0741f2a4e3df1dd8a5f4eadc82077968a87d6c0af9150ce8bb1282a7c/nonebot_plugin_dall-e-0.2.tar.gz
+[2023-07-19 03:55:40] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/e3/f9/2372b93009176e9a087b90ab2045b2da7c4362fc4e31cf7bc3ad154b9bbc/nbdev-apl-0.0.902.tar.gz
+[2023-07-19 03:55:40] INFO root fetch - processPackages [nonebot-plugin-dall-e]: executing diffoscope
+[2023-07-19 03:55:40] INFO root fetch - processPackages [nonebot-plugin-dall-e]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_dall-e-0.1.tar.gz tmp/nonebot_plugin_dall-e-0.2.tar.gz --markdown 20230719/n/nonebot-plugin-dall-e/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-19 03:55:40] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-07-19 03:55:40] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.901.tar.gz tmp/nbdev-apl-0.0.902.tar.gz --markdown 20230719/n/nbdev-apl/0.0.901-0.0.902/diff.md --exclude *.pyd
+[2023-07-19 03:55:40] INFO root fetch - processPackages [ros-cdk-cloudphone]: Downloading https://files.pythonhosted.org/packages/2f/fd/4604e0a4e603c76b8419f9e5c9c4a06b2d424551cfdcdcde41b01be2da5c/ros-cdk-cloudphone-1.0.9.tar.gz
+[2023-07-19 03:55:40] INFO root fetch - processPackages [symbex]: Downloading https://files.pythonhosted.org/packages/44/4c/640ffc740fde44e0ffb1ae40000676b5b0ca2c35003a10b4229c979eb7ff/symbex-1.3.tar.gz
+[2023-07-19 03:55:40] INFO root fetch - processPackages [ros-cdk-nlb]: Downloading https://files.pythonhosted.org/packages/ab/40/a90fcab30009222af951845f910e77e5ecef6b1d0760b0f478506bc6eb96/ros-cdk-nlb-1.0.9.tar.gz
+[2023-07-19 03:55:40] INFO root fetch - processPackages [pur]: Downloading https://files.pythonhosted.org/packages/89/23/c5b937b6ddcfb5ad4ae03eee5d0ef9f438dc598128eb576ac4661045f1eb/pur-7.1.1.tar.gz
+[2023-07-19 03:55:40] INFO root fetch - processPackages [ros-cdk-apigateway]: Downloading https://files.pythonhosted.org/packages/94/48/604f7f2ecb59443deae30113635825597c141a89c4456815b78576861ec2/ros-cdk-apigateway-1.0.9.tar.gz
+[2023-07-19 03:55:40] INFO root fetch - processPackages [symbex]: executing diffoscope
+[2023-07-19 03:55:40] INFO root fetch - processPackages [symbex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbex-1.2.tar.gz tmp/symbex-1.3.tar.gz --markdown 20230719/s/symbex/1.2-1.3/diff.md --exclude *.pyd
+[2023-07-19 03:55:41] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/18/81/3593e022c53913815c1207f0d20763efc2764992a13c81d641f3a01edf7d/cdk-sns-notify-0.0.99.tar.gz
+[2023-07-19 03:55:41] INFO root fetch - processPackages [ros-cdk-polardb]: Downloading https://files.pythonhosted.org/packages/e2/12/7039c84cbcf40b6fcc004c1438f54386d07f7d7a5964d065f39645f43348/ros-cdk-polardb-1.0.9.tar.gz
+[2023-07-19 03:55:41] INFO root fetch - processPackages [ros-cdk-cloudphone]: executing diffoscope
+[2023-07-19 03:55:41] INFO root fetch - processPackages [ros-cdk-cloudphone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-cloudphone-1.0.8.tar.gz tmp/ros-cdk-cloudphone-1.0.9.tar.gz --markdown 20230719/r/ros-cdk-cloudphone/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 03:55:41] INFO root fetch - processPackages [ros-cdk-nlb]: executing diffoscope
+[2023-07-19 03:55:41] INFO root fetch - processPackages [ros-cdk-nlb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-nlb-1.0.16.tar.gz tmp/ros-cdk-nlb-1.0.9.tar.gz --markdown 20230719/r/ros-cdk-nlb/1.0.16-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 03:55:41] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2023-07-19 03:55:41] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20230719/c/cdk-sns-notify/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-19 03:55:41] INFO root fetch - processPackages [pur]: executing diffoscope
+[2023-07-19 03:55:41] INFO root fetch - processPackages [pur]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pur-7.1.0.tar.gz tmp/pur-7.1.1.tar.gz --markdown 20230719/p/pur/7.1.0-7.1.1/diff.md --exclude *.pyd
+[2023-07-19 03:55:41] INFO root fetch - processPackages [ros-cdk-apigateway]: executing diffoscope
+[2023-07-19 03:55:41] INFO root fetch - processPackages [ros-cdk-apigateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-apigateway-1.0.8.tar.gz tmp/ros-cdk-apigateway-1.0.9.tar.gz --markdown 20230719/r/ros-cdk-apigateway/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 03:55:41] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2023-07-19 03:55:41] INFO root fetch - processPackages [ros-cdk-polardb]: executing diffoscope
+[2023-07-19 03:55:41] INFO root fetch - processPackages [ros-cdk-polardb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-polardb-1.0.8.tar.gz tmp/ros-cdk-polardb-1.0.9.tar.gz --markdown 20230719/r/ros-cdk-polardb/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 03:55:41] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-07-19 03:55:41] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230719/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-19 03:55:41] INFO root fetch - processPackages [nonebot-plugin-dall-e]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_dall-e-0.1.tar.gz]
+[2023-07-19 03:55:41] INFO root fetch - processPackages [nonebot-plugin-dall-e]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_dall-e-0.2.tar.gz]
+[2023-07-19 03:55:41] INFO root fetch - processPackages [nonebot-plugin-dall-e]: Start processing: ros-cdk-resourcemanager
+[2023-07-19 03:55:41] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-dall-e]: success
+[2023-07-19 03:55:42] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.901.tar.gz]
+[2023-07-19 03:55:42] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.902.tar.gz]
+[2023-07-19 03:55:42] INFO root fetch - processPackages [nbdev-apl]: Start processing: pbs-builder
+[2023-07-19 03:55:42] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-07-19 03:55:42] INFO root fetch - processPackages [ros-cdk-resourcemanager]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 03:55:42] WARNING root fetch - processPackages [pbs-builder]: Skipping, unable to determine old version
+[2023-07-19 03:55:42] INFO root fetch - processPackages [pbs-builder]: Start processing: ros-cdk-dts
+[2023-07-19 03:55:42] INFO root fetch - main [MainThread]: End processing [pbs-builder] error
+[2023-07-19 03:55:42] INFO root fetch - processPackages [ros-cdk-resourcemanager]: Downloading https://files.pythonhosted.org/packages/ea/d4/41dc4df3979387f5363b04abeac772a2dc5cad91d72d6ed239f79ae787af/ros-cdk-resourcemanager-1.0.8.tar.gz
+[2023-07-19 03:55:42] INFO root fetch - processPackages [ros-cdk-dts]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 03:55:42] INFO root fetch - processPackages [symbex]: Remove: archive file [/home/abi/fetcher/tmp/symbex-1.2.tar.gz]
+[2023-07-19 03:55:42] INFO root fetch - processPackages [symbex]: Remove: archive file [/home/abi/fetcher/tmp/symbex-1.3.tar.gz]
+[2023-07-19 03:55:42] INFO root fetch - processPackages [symbex]: Start processing: magicmath
+[2023-07-19 03:55:42] INFO root fetch - main [MainThread]: End processing [symbex]: success
+[2023-07-19 03:55:42] ERROR root fetch - processPackages [magicmath]: Unable to get metadata: No such project 'magicmath'
+[2023-07-19 03:55:42] INFO root fetch - processPackages [magicmath]: Start processing: ros-cdk-emr
+[2023-07-19 03:55:42] INFO root fetch - main [MainThread]: End processing [magicmath] error
+[2023-07-19 03:55:42] INFO root fetch - processPackages [ros-cdk-cloudphone]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cloudphone-1.0.8.tar.gz]
+[2023-07-19 03:55:42] INFO root fetch - processPackages [ros-cdk-cloudphone]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cloudphone-1.0.9.tar.gz]
+[2023-07-19 03:55:42] INFO root fetch - main [MainThread]: End processing [ros-cdk-cloudphone]: success
+[2023-07-19 03:55:42] INFO root fetch - processPackages [ros-cdk-dts]: Downloading https://files.pythonhosted.org/packages/ad/1d/1e2e566370b2240add5dc79509cf06173bdeb9bb430263e277bdf2eda68d/ros-cdk-dts-1.0.8.tar.gz
+[2023-07-19 03:55:42] INFO root fetch - processPackages [ros-cdk-nlb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-nlb-1.0.16.tar.gz]
+[2023-07-19 03:55:42] INFO root fetch - processPackages [ros-cdk-nlb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-nlb-1.0.9.tar.gz]
+[2023-07-19 03:55:42] INFO root fetch - main [MainThread]: End processing [ros-cdk-nlb]: success
+[2023-07-19 03:55:42] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.98.tar.gz]
+[2023-07-19 03:55:42] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.99.tar.gz]
+[2023-07-19 03:55:42] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2023-07-19 03:55:42] INFO root fetch - processPackages [ros-cdk-polardb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-polardb-1.0.8.tar.gz]
+[2023-07-19 03:55:42] INFO root fetch - processPackages [ros-cdk-polardb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-polardb-1.0.9.tar.gz]
+[2023-07-19 03:55:42] INFO root fetch - main [MainThread]: End processing [ros-cdk-polardb]: success
+[2023-07-19 03:55:42] INFO root fetch - processPackages [ros-cdk-apigateway]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-apigateway-1.0.8.tar.gz]
+[2023-07-19 03:55:42] INFO root fetch - processPackages [ros-cdk-apigateway]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-apigateway-1.0.9.tar.gz]
+[2023-07-19 03:55:42] INFO root fetch - main [MainThread]: End processing [ros-cdk-apigateway]: success
+[2023-07-19 03:55:42] INFO root fetch - processPackages [ros-cdk-resourcemanager]: Downloading https://files.pythonhosted.org/packages/68/d7/0f5bf4ad63980275960221fb5a538dcf1e091552a537918fdba515755016/ros-cdk-resourcemanager-1.0.9.tar.gz
+[2023-07-19 03:55:43] INFO root fetch - processPackages [ros-cdk-emr]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 03:55:43] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz]
+[2023-07-19 03:55:43] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
+[2023-07-19 03:55:43] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-07-19 03:55:43] INFO root fetch - processPackages [ros-cdk-dts]: Downloading https://files.pythonhosted.org/packages/fc/65/4c33a59a985e2867775aa568465be07c3def04d56dac36adf004d1bceefb/ros-cdk-dts-1.0.9.tar.gz
+[2023-07-19 03:55:43] INFO root fetch - processPackages [ros-cdk-resourcemanager]: executing diffoscope
+[2023-07-19 03:55:43] INFO root fetch - processPackages [ros-cdk-resourcemanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-resourcemanager-1.0.8.tar.gz tmp/ros-cdk-resourcemanager-1.0.9.tar.gz --markdown 20230719/r/ros-cdk-resourcemanager/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 03:55:43] INFO root fetch - processPackages [ros-cdk-emr]: Downloading https://files.pythonhosted.org/packages/50/61/202417019680bcdf94da5ef5ff605881e25813c2c7cd5b4bf0d3190d9e33/ros-cdk-emr-1.0.8.tar.gz
+[2023-07-19 03:55:43] INFO root fetch - processPackages [ros-cdk-dts]: executing diffoscope
+[2023-07-19 03:55:43] INFO root fetch - processPackages [ros-cdk-dts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-dts-1.0.8.tar.gz tmp/ros-cdk-dts-1.0.9.tar.gz --markdown 20230719/r/ros-cdk-dts/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 03:55:43] INFO root fetch - processPackages [ros-cdk-emr]: Downloading https://files.pythonhosted.org/packages/8e/dd/a78ed513dffb3ea1146d45f0e1e11a5e14f1ba4e37217d9c7fc294a8ae85/ros-cdk-emr-1.0.9.tar.gz
+[2023-07-19 03:55:43] INFO root fetch - processPackages [ros-cdk-emr]: executing diffoscope
+[2023-07-19 03:55:43] INFO root fetch - processPackages [ros-cdk-emr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-emr-1.0.8.tar.gz tmp/ros-cdk-emr-1.0.9.tar.gz --markdown 20230719/r/ros-cdk-emr/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 03:55:43] INFO root fetch - processPackages [ros-cdk-resourcemanager]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-resourcemanager-1.0.8.tar.gz]
+[2023-07-19 03:55:43] INFO root fetch - processPackages [ros-cdk-resourcemanager]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-resourcemanager-1.0.9.tar.gz]
+[2023-07-19 03:55:43] INFO root fetch - main [MainThread]: End processing [ros-cdk-resourcemanager]: success
+[2023-07-19 03:55:44] INFO root fetch - processPackages [ros-cdk-dts]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dts-1.0.8.tar.gz]
+[2023-07-19 03:55:44] INFO root fetch - processPackages [ros-cdk-dts]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dts-1.0.9.tar.gz]
+[2023-07-19 03:55:44] INFO root fetch - main [MainThread]: End processing [ros-cdk-dts]: success
+[2023-07-19 03:55:44] INFO root fetch - processPackages [ros-cdk-emr]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-emr-1.0.8.tar.gz]
+[2023-07-19 03:55:44] INFO root fetch - processPackages [ros-cdk-emr]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-emr-1.0.9.tar.gz]
+[2023-07-19 03:55:44] INFO root fetch - main [MainThread]: End processing [ros-cdk-emr]: success
+[2023-07-19 03:55:45] INFO root fetch - processPackages [pur]: Remove: archive file [/home/abi/fetcher/tmp/pur-7.1.0.tar.gz]
+[2023-07-19 03:55:45] INFO root fetch - processPackages [pur]: Remove: archive file [/home/abi/fetcher/tmp/pur-7.1.1.tar.gz]
+[2023-07-19 03:55:45] INFO root fetch - main [MainThread]: End processing [pur]: success
+[2023-07-19 03:55:45] INFO root fetch - main [MainThread]: Store serial: [18943072]
