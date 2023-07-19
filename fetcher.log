@@ -17905,3 +17905,188 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-19 10:25:02] INFO root fetch - processPackages [automation-editor-dev]: Remove: archive file [/home/abi/fetcher/tmp/automation_editor_dev-0.0.9.tar.gz]
 [2023-07-19 10:25:02] INFO root fetch - main [MainThread]: End processing [automation-editor-dev]: success
 [2023-07-19 10:25:02] INFO root fetch - main [MainThread]: Store serial: [18947097]
+[2023-07-19 10:30:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18947097]
+[2023-07-19 10:30:11] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-07-19 10:30:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytorch-ood
+[2023-07-19 10:30:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: piperider
+[2023-07-19 10:30:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cosmicexcelchecker
+[2023-07-19 10:30:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-model-optimization-nightly
+[2023-07-19 10:30:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: design.plone.contenttypes
+[2023-07-19 10:30:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ipysnowball
+[2023-07-19 10:30:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: atomicshop
+[2023-07-19 10:30:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: layernext-enterprise-beta
+[2023-07-19 10:30:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: phanos
+[2023-07-19 10:30:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: satellitevu
+[2023-07-19 10:30:12] INFO root fetch - processPackages [tf-model-optimization-nightly]: New version: [0.7.5.dev20230718] Old Version: [0.7.5.dev20230716]
+[2023-07-19 10:30:12] INFO root fetch - processPackages [piperider]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-07-19 10:30:12] INFO root fetch - processPackages [phanos]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 10:30:12] INFO root fetch - processPackages [atomicshop]: New version: [1.8.8] Old Version: [1.8.7]
+[2023-07-19 10:30:12] INFO root fetch - processPackages [pytorch-ood]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-19 10:30:12] INFO root fetch - processPackages [satellitevu]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-07-19 10:30:12] INFO root fetch - processPackages [ipysnowball]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-19 10:30:12] WARNING root fetch - processPackages [cosmicexcelchecker]: Skipping, unable to determine old version
+[2023-07-19 10:30:12] INFO root fetch - processPackages [cosmicexcelchecker]: Start processing: odoo12-addon-product-price-history
+[2023-07-19 10:30:12] INFO root fetch - main [MainThread]: End processing [cosmicexcelchecker] error
+[2023-07-19 10:30:12] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/41/dd/38f9c37b3945117c9626ea5bc2c5086afb5314af82cceac127f128154ecc/tf_model_optimization_nightly-0.7.5.dev20230716-py2.py3-none-any.whl
+[2023-07-19 10:30:12] WARNING root fetch - processPackages [layernext-enterprise-beta]: Skipping, unable to determine old version
+[2023-07-19 10:30:12] INFO root fetch - processPackages [layernext-enterprise-beta]: Start processing: uqpylab
+[2023-07-19 10:30:12] INFO root fetch - main [MainThread]: End processing [layernext-enterprise-beta] error
+[2023-07-19 10:30:12] INFO root fetch - processPackages [design.plone.contenttypes]: New version: [6.0.9] Old Version: [6.0.8]
+[2023-07-19 10:30:12] INFO root fetch - processPackages [odoo12-addon-product-price-history]: New version: [12.0.1.0.1] Old Version: [12.0.1.0.0.99.dev6]
+[2023-07-19 10:30:12] INFO root fetch - processPackages [uqpylab]: New version: [0.95] Old Version: [0.2]
+[2023-07-19 10:30:12] INFO root fetch - processPackages [uqpylab]: Downloading https://files.pythonhosted.org/packages/38/cf/0bd81c34095048e8c9120bb5c1fd91fc44fae472d60d14a05f9d89c5e7d6/uqpylab-0.2.tar.gz
+[2023-07-19 10:30:12] INFO root fetch - processPackages [ipysnowball]: Downloading https://files.pythonhosted.org/packages/c9/04/4f6e302f160f06412a7114500c334b96a8b84d1a4fa4f16d763f6108a335/ipysnowball-1.0.0.tar.gz
+[2023-07-19 10:30:12] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/11/78/714a22dd505cf6f43ec03fad23030621a676285436e517b7657ceca64f6d/atomicshop-1.8.7-py3-none-any.whl
+[2023-07-19 10:30:12] INFO root fetch - processPackages [phanos]: Downloading https://files.pythonhosted.org/packages/82/61/ea2e2161b155f556cdbe8e64085cc5055e1702ac6f09d6e212e4f3070a15/phanos-0.0.8.tar.gz
+[2023-07-19 10:30:12] INFO root fetch - processPackages [piperider]: Downloading https://files.pythonhosted.org/packages/a4/50/e24b00f8c9eee6add2d234812268358dd31efb1c7692b89e4f2abcf53b3a/piperider-0.9.0.tar.gz
+[2023-07-19 10:30:12] INFO root fetch - processPackages [pytorch-ood]: Downloading https://files.pythonhosted.org/packages/46/55/d7aa6e351456dd759f7745c8bc6e70ac08299c7184ca1e465e0ff28e8fbe/pytorch_ood-0.1.3-py3-none-any.whl
+[2023-07-19 10:30:12] INFO root fetch - processPackages [satellitevu]: Downloading https://files.pythonhosted.org/packages/1e/e4/e221be478ec4920225125e44cab6becb2db06dcf3b03aeda772dd3e68151/satellitevu-1.7.0.tar.gz
+[2023-07-19 10:30:12] INFO root fetch - processPackages [design.plone.contenttypes]: Downloading https://files.pythonhosted.org/packages/55/7a/b3d9adf8e72e07ce0dc8b544e82a10bf3f6e2afd264ede3c571ebd362181/design.plone.contenttypes-6.0.8.tar.gz
+[2023-07-19 10:30:12] INFO root fetch - processPackages [odoo12-addon-product-price-history]: Downloading https://files.pythonhosted.org/packages/31/04/3fbbbc65a923852e3f84d99cf3bbeb68e7723224dff3161223bbea778add/odoo12_addon_product_price_history-12.0.1.0.0.99.dev6-py3-none-any.whl
+[2023-07-19 10:30:12] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/6c/5f/57397572691a4746436837f4863f9e995a1d6e5da7da8eb4bc586a32c35b/tf_model_optimization_nightly-0.7.5.dev20230718-py2.py3-none-any.whl
+[2023-07-19 10:30:13] INFO root fetch - processPackages [tf-model-optimization-nightly]: executing diffoscope
+[2023-07-19 10:30:13] INFO root fetch - processPackages [tf-model-optimization-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_model_optimization_nightly-0.7.5.dev20230716-py2.py3-none-any.whl.zip tmp/tf_model_optimization_nightly-0.7.5.dev20230718-py2.py3-none-any.whl.zip --markdown 20230719/t/tf-model-optimization-nightly/0.7.5.dev20230716-0.7.5.dev20230718/diff.md --exclude *.pyd
+[2023-07-19 10:30:13] INFO root fetch - processPackages [uqpylab]: Downloading https://files.pythonhosted.org/packages/e7/23/c416998c9b7311535dbc5ce261ece33f3d795e7a37834b649342cf20f33c/uqpylab-0.95.tar.gz
+[2023-07-19 10:30:13] INFO root fetch - processPackages [ipysnowball]: Downloading https://files.pythonhosted.org/packages/2b/e4/baf1fc5ea4127bcb3b7d5f30461005d81251eb2d41b310b4bbfe448d15b2/ipysnowball-1.0.1.tar.gz
+[2023-07-19 10:30:13] INFO root fetch - processPackages [uqpylab]: executing diffoscope
+[2023-07-19 10:30:13] INFO root fetch - processPackages [uqpylab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uqpylab-0.2.tar.gz tmp/uqpylab-0.95.tar.gz --markdown 20230719/u/uqpylab/0.2-0.95/diff.md --exclude *.pyd
+[2023-07-19 10:30:13] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/07/60/67b67e7fd3cd5ee6777eed9c1c4877cd02d339a1ba6519d852f8845c66b2/atomicshop-1.8.8-py3-none-any.whl
+[2023-07-19 10:30:13] INFO root fetch - processPackages [satellitevu]: Downloading https://files.pythonhosted.org/packages/69/18/c5fd96d1c60dd2b9504751f2e4c2f1efc86a3afa7d46e9e6878c713dd7f4/satellitevu-1.7.1.tar.gz
+[2023-07-19 10:30:13] INFO root fetch - processPackages [phanos]: Downloading https://files.pythonhosted.org/packages/5c/53/a34777d46b68fa387b55d320360c6dc3f375b38ab05ee1584940b713fc9e/phanos-0.0.9.tar.gz
+[2023-07-19 10:30:13] INFO root fetch - processPackages [pytorch-ood]: Downloading https://files.pythonhosted.org/packages/d6/32/9607c853a287b0eface5d2b3ee9b7f84b7e1caf0e598adcb7c2ffd297dd8/pytorch_ood-0.1.4-py3-none-any.whl
+[2023-07-19 10:30:13] INFO root fetch - processPackages [odoo12-addon-product-price-history]: Downloading https://files.pythonhosted.org/packages/59/65/272d008027760cd5e2e1a3c10a12668b5b8496da83d52919e284d570a361/odoo12_addon_product_price_history-12.0.1.0.1-py3-none-any.whl
+[2023-07-19 10:30:13] INFO root fetch - processPackages [ipysnowball]: executing diffoscope
+[2023-07-19 10:30:13] INFO root fetch - processPackages [ipysnowball]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipysnowball-1.0.0.tar.gz tmp/ipysnowball-1.0.1.tar.gz --markdown 20230719/i/ipysnowball/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-19 10:30:13] INFO root fetch - processPackages [design.plone.contenttypes]: Downloading https://files.pythonhosted.org/packages/88/0d/5fca30d525d2cf06215ccd872cb468309acbca97d9de07e8c9c3228f5bd8/design.plone.contenttypes-6.0.9.tar.gz
+[2023-07-19 10:30:13] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2023-07-19 10:30:13] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-1.8.7-py3-none-any.whl.zip tmp/atomicshop-1.8.8-py3-none-any.whl.zip --markdown 20230719/a/atomicshop/1.8.7-1.8.8/diff.md --exclude *.pyd
+[2023-07-19 10:30:13] INFO root fetch - processPackages [satellitevu]: executing diffoscope
+[2023-07-19 10:30:13] INFO root fetch - processPackages [satellitevu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satellitevu-1.7.0.tar.gz tmp/satellitevu-1.7.1.tar.gz --markdown 20230719/s/satellitevu/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-07-19 10:30:13] INFO root fetch - processPackages [piperider]: Downloading https://files.pythonhosted.org/packages/7a/f9/9cc8461c7b00069da016c58db04f6c975e2adf28d9cbd443a882dd7396de/piperider-0.9.0rc1.tar.gz
+[2023-07-19 10:30:13] INFO root fetch - processPackages [pytorch-ood]: executing diffoscope
+[2023-07-19 10:30:13] INFO root fetch - processPackages [pytorch-ood]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch_ood-0.1.3-py3-none-any.whl.zip tmp/pytorch_ood-0.1.4-py3-none-any.whl.zip --markdown 20230719/p/pytorch-ood/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-19 10:30:13] INFO root fetch - processPackages [odoo12-addon-product-price-history]: executing diffoscope
+[2023-07-19 10:30:13] INFO root fetch - processPackages [odoo12-addon-product-price-history]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_product_price_history-12.0.1.0.0.99.dev6-py3-none-any.whl.zip tmp/odoo12_addon_product_price_history-12.0.1.0.1-py3-none-any.whl.zip --markdown 20230719/o/odoo12-addon-product-price-history/12.0.1.0.0.99.dev6-12.0.1.0.1/diff.md --exclude *.pyd
+[2023-07-19 10:30:13] INFO root fetch - processPackages [phanos]: executing diffoscope
+[2023-07-19 10:30:13] INFO root fetch - processPackages [phanos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phanos-0.0.8.tar.gz tmp/phanos-0.0.9.tar.gz --markdown 20230719/p/phanos/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 10:30:13] INFO root fetch - processPackages [design.plone.contenttypes]: executing diffoscope
+[2023-07-19 10:30:13] INFO root fetch - processPackages [design.plone.contenttypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/design.plone.contenttypes-6.0.8.tar.gz tmp/design.plone.contenttypes-6.0.9.tar.gz --markdown 20230719/d/design.plone.contenttypes/6.0.8-6.0.9/diff.md --exclude *.pyd
+[2023-07-19 10:30:13] INFO root fetch - processPackages [piperider]: executing diffoscope
+[2023-07-19 10:30:13] INFO root fetch - processPackages [piperider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-0.9.0.tar.gz tmp/piperider-0.9.0rc1.tar.gz --markdown 20230719/p/piperider/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-07-19 10:30:14] INFO root fetch - processPackages [uqpylab]: Remove: archive file [/home/abi/fetcher/tmp/uqpylab-0.2.tar.gz]
+[2023-07-19 10:30:14] INFO root fetch - processPackages [uqpylab]: Remove: archive file [/home/abi/fetcher/tmp/uqpylab-0.95.tar.gz]
+[2023-07-19 10:30:14] INFO root fetch - processPackages [uqpylab]: Start processing: tksel
+[2023-07-19 10:30:14] INFO root fetch - main [MainThread]: End processing [uqpylab]: success
+[2023-07-19 10:30:14] INFO root fetch - processPackages [tksel]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-19 10:30:14] INFO root fetch - processPackages [tksel]: Downloading https://files.pythonhosted.org/packages/4c/49/0179d2c1f0f2ab55fa132f2f05b1a09b2c1eecff857bdadf8ae75b4a044d/tksel-0.1.0.tar.gz
+[2023-07-19 10:30:15] INFO root fetch - processPackages [ipysnowball]: Remove: archive file [/home/abi/fetcher/tmp/ipysnowball-1.0.0.tar.gz]
+[2023-07-19 10:30:15] INFO root fetch - processPackages [ipysnowball]: Remove: archive file [/home/abi/fetcher/tmp/ipysnowball-1.0.1.tar.gz]
+[2023-07-19 10:30:15] INFO root fetch - processPackages [ipysnowball]: Start processing: leadguru-jobs
+[2023-07-19 10:30:15] INFO root fetch - main [MainThread]: End processing [ipysnowball]: success
+[2023-07-19 10:30:15] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-07-19 10:30:15] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2023-07-19 10:30:15] INFO root fetch - processPackages [satellitevu]: Remove: archive file [/home/abi/fetcher/tmp/satellitevu-1.7.0.tar.gz]
+[2023-07-19 10:30:15] INFO root fetch - processPackages [satellitevu]: Remove: archive file [/home/abi/fetcher/tmp/satellitevu-1.7.1.tar.gz]
+[2023-07-19 10:30:15] INFO root fetch - processPackages [satellitevu]: Start processing: polyapi
+[2023-07-19 10:30:15] INFO root fetch - main [MainThread]: End processing [satellitevu]: success
+[2023-07-19 10:30:15] INFO root fetch - processPackages [phanos]: Remove: archive file [/home/abi/fetcher/tmp/phanos-0.0.8.tar.gz]
+[2023-07-19 10:30:15] INFO root fetch - processPackages [phanos]: Remove: archive file [/home/abi/fetcher/tmp/phanos-0.0.9.tar.gz]
+[2023-07-19 10:30:15] INFO root fetch - processPackages [phanos]: Start processing: talisman-dm
+[2023-07-19 10:30:15] INFO root fetch - main [MainThread]: End processing [phanos]: success
+[2023-07-19 10:30:15] INFO root fetch - processPackages [talisman-dm]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-07-19 10:30:15] INFO root fetch - processPackages [odoo12-addon-product-price-history]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_product_price_history-12.0.1.0.0.99.dev6-py3-none-any.whl.zip]
+[2023-07-19 10:30:15] INFO root fetch - processPackages [odoo12-addon-product-price-history]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_product_price_history-12.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-19 10:30:15] INFO root fetch - processPackages [odoo12-addon-product-price-history]: Start processing: pystval
+[2023-07-19 10:30:15] INFO root fetch - main [MainThread]: End processing [odoo12-addon-product-price-history]: success
+[2023-07-19 10:30:15] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230716-py2.py3-none-any.whl.zip]
+[2023-07-19 10:30:15] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230718-py2.py3-none-any.whl.zip]
+[2023-07-19 10:30:15] INFO root fetch - processPackages [tf-model-optimization-nightly]: Start processing: FunID
+[2023-07-19 10:30:15] INFO root fetch - main [MainThread]: End processing [tf-model-optimization-nightly]: success
+[2023-07-19 10:30:15] INFO root fetch - processPackages [polyapi]: New version: [5.7.0.6] Old Version: [5.7.0.4]
+[2023-07-19 10:30:15] INFO root fetch - processPackages [talisman-dm]: Downloading https://files.pythonhosted.org/packages/ed/7b/c63dab386460cedecb16ca1a9f5dbb275583d9abb2f9852eac02dc8f1139/talisman-dm-1.0.0a8.tar.gz
+[2023-07-19 10:30:15] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2023-07-19 10:30:15] INFO root fetch - processPackages [pystval]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-19 10:30:15] INFO root fetch - processPackages [FunID]: New version: [0.3.9] Old Version: [0.3.8.2]
+[2023-07-19 10:30:15] INFO root fetch - processPackages [pytorch-ood]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_ood-0.1.3-py3-none-any.whl.zip]
+[2023-07-19 10:30:15] INFO root fetch - processPackages [pytorch-ood]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_ood-0.1.4-py3-none-any.whl.zip]
+[2023-07-19 10:30:15] INFO root fetch - processPackages [pytorch-ood]: Start processing: click-schema-config
+[2023-07-19 10:30:15] INFO root fetch - main [MainThread]: End processing [pytorch-ood]: success
+[2023-07-19 10:30:15] INFO root fetch - processPackages [tksel]: Downloading https://files.pythonhosted.org/packages/58/5a/677e75fd1862ab6e8d064a1a9f167258e1129868f98b65407f27f01b6801/tksel-0.1.1.tar.gz
+[2023-07-19 10:30:15] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-07-19 10:30:15] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230719/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-07-19 10:30:15] INFO root fetch - processPackages [polyapi]: Downloading https://files.pythonhosted.org/packages/9c/d2/8c6f5a9aa3f4efa5d5db1c9f60fdc1ed9886e9aeccd7820ab2125a7654ef/polyapi-5.7.0.4.tar.gz
+[2023-07-19 10:30:15] INFO root fetch - processPackages [click-schema-config]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-19 10:30:15] INFO root fetch - processPackages [talisman-dm]: Downloading https://files.pythonhosted.org/packages/bd/ef/0d2809d6ed2c72eee47f846077380162aecf867d99c7289e3fbcb3a223f9/talisman-dm-1.0.0a9.tar.gz
+[2023-07-19 10:30:15] INFO root fetch - processPackages [pystval]: Downloading https://files.pythonhosted.org/packages/4a/ad/83e34b4663f520bdae6080861691de7b46ab32fe5bb647febb1363849856/pystval-1.0.0-cp37-abi3-win_arm64.whl
+[2023-07-19 10:30:15] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-1.8.7-py3-none-any.whl.zip]
+[2023-07-19 10:30:15] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-1.8.8-py3-none-any.whl.zip]
+[2023-07-19 10:30:15] INFO root fetch - processPackages [atomicshop]: Start processing: TDCRPy
+[2023-07-19 10:30:15] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2023-07-19 10:30:15] INFO root fetch - processPackages [FunID]: Downloading https://files.pythonhosted.org/packages/4a/4a/3bf498c2707726c16177fb6d5e4c1fb6b942aa0f857378f22345cee709b9/FunID-0.3.8.2.tar.gz
+[2023-07-19 10:30:15] INFO root fetch - processPackages [TDCRPy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 10:30:15] WARNING root fetch - processPackages [FunID]: Skipping package: exceeds size limit 51450650>=10485760
+[2023-07-19 10:30:15] INFO root fetch - processPackages [FunID]: Start processing: systembridgeconnector
+[2023-07-19 10:30:15] INFO root fetch - main [MainThread]: End processing [FunID] error
+[2023-07-19 10:30:15] INFO root fetch - processPackages [talisman-dm]: executing diffoscope
+[2023-07-19 10:30:15] INFO root fetch - processPackages [talisman-dm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talisman-dm-1.0.0a8.tar.gz tmp/talisman-dm-1.0.0a9.tar.gz --markdown 20230719/t/talisman-dm/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-07-19 10:30:15] INFO root fetch - processPackages [click-schema-config]: Downloading https://files.pythonhosted.org/packages/b4/95/f539f31271493873d42edf27bd924768fddc26e9314b26a4fc7712560b96/click_schema_config-0.2.3.tar.gz
+[2023-07-19 10:30:15] INFO root fetch - processPackages [systembridgeconnector]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-19 10:30:15] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/45/d1/26f2b4eb42e05416d7662d5fb8b6f31b59dee6421945806c7b7bfdfbfa94/TDCRPy-0.0.8.tar.gz
+[2023-07-19 10:30:16] INFO root fetch - processPackages [polyapi]: Downloading https://files.pythonhosted.org/packages/4e/99/72cd0d40051e1696310dc4a375d7aec3170d2311837a88ec162d86074c22/polyapi-5.7.0.6.tar.gz
+[2023-07-19 10:30:16] INFO root fetch - processPackages [systembridgeconnector]: Downloading https://files.pythonhosted.org/packages/b6/5a/0e66891dd12466d8cb2db98ba2763c6b9908471011412ce28189b07ed3e0/systembridgeconnector-3.8.0.dev8.tar.gz
+[2023-07-19 10:30:16] INFO root fetch - processPackages [polyapi]: executing diffoscope
+[2023-07-19 10:30:16] INFO root fetch - processPackages [polyapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polyapi-5.7.0.4.tar.gz tmp/polyapi-5.7.0.6.tar.gz --markdown 20230719/p/polyapi/5.7.0.4-5.7.0.6/diff.md --exclude *.pyd
+[2023-07-19 10:30:16] INFO root fetch - processPackages [pystval]: Downloading https://files.pythonhosted.org/packages/d0/09/8b88acbd4b8b15603b932bf0b2f9ec3b543ae936da5bfa9fc73491f590d7/pystval-1.1.0-cp37-abi3-win_arm64.whl
+[2023-07-19 10:30:16] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/58/f4/f09bcfbd9ef3b75b2932ba824304fc7e7bcee566e8570cb2d64f76eb9adc/TDCRPy-0.0.9.tar.gz
+[2023-07-19 10:30:16] INFO root fetch - processPackages [systembridgeconnector]: Downloading https://files.pythonhosted.org/packages/0c/2f/e4269881b1efc361a16100c5e3f8460ebf231ca289cb095b5ba7d0befbf5/systembridgeconnector-3.8.0.dev9.tar.gz
+[2023-07-19 10:30:16] INFO root fetch - processPackages [click-schema-config]: Downloading https://files.pythonhosted.org/packages/49/4f/fd10419d6b090a8a30cccf3fc3f89ee509c3402cd33a9e2d529df1e746bb/click_schema_config-0.2.4.tar.gz
+[2023-07-19 10:30:16] INFO root fetch - processPackages [pystval]: executing diffoscope
+[2023-07-19 10:30:16] INFO root fetch - processPackages [pystval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystval-1.0.0-cp37-abi3-win_arm64.whl.zip tmp/pystval-1.1.0-cp37-abi3-win_arm64.whl.zip --markdown 20230719/p/pystval/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-19 10:30:16] INFO root fetch - processPackages [systembridgeconnector]: executing diffoscope
+[2023-07-19 10:30:16] INFO root fetch - processPackages [systembridgeconnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgeconnector-3.8.0.dev8.tar.gz tmp/systembridgeconnector-3.8.0.dev9.tar.gz --markdown 20230719/s/systembridgeconnector/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-19 10:30:16] INFO root fetch - processPackages [click-schema-config]: executing diffoscope
+[2023-07-19 10:30:16] INFO root fetch - processPackages [click-schema-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/click_schema_config-0.2.3.tar.gz tmp/click_schema_config-0.2.4.tar.gz --markdown 20230719/c/click-schema-config/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-19 10:30:16] INFO root fetch - processPackages [TDCRPy]: executing diffoscope
+[2023-07-19 10:30:16] INFO root fetch - processPackages [TDCRPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDCRPy-0.0.8.tar.gz tmp/TDCRPy-0.0.9.tar.gz --markdown 20230719/T/TDCRPy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 10:30:16] INFO root fetch - processPackages [tksel]: executing diffoscope
+[2023-07-19 10:30:16] INFO root fetch - processPackages [tksel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tksel-0.1.0.tar.gz tmp/tksel-0.1.1.tar.gz --markdown 20230719/t/tksel/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-19 10:30:16] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2023-07-19 10:30:16] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2023-07-19 10:30:16] INFO root fetch - processPackages [leadguru-jobs]: Start processing: aifactory
+[2023-07-19 10:30:16] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-07-19 10:30:16] INFO root fetch - processPackages [design.plone.contenttypes]: Remove: archive file [/home/abi/fetcher/tmp/design.plone.contenttypes-6.0.8.tar.gz]
+[2023-07-19 10:30:16] INFO root fetch - processPackages [design.plone.contenttypes]: Remove: archive file [/home/abi/fetcher/tmp/design.plone.contenttypes-6.0.9.tar.gz]
+[2023-07-19 10:30:17] INFO root fetch - main [MainThread]: End processing [design.plone.contenttypes]: success
+[2023-07-19 10:30:17] INFO root fetch - processPackages [aifactory]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-07-19 10:30:17] INFO root fetch - processPackages [piperider]: Remove: archive file [/home/abi/fetcher/tmp/piperider-0.9.0.tar.gz]
+[2023-07-19 10:30:17] INFO root fetch - processPackages [piperider]: Remove: archive file [/home/abi/fetcher/tmp/piperider-0.9.0rc1.tar.gz]
+[2023-07-19 10:30:17] INFO root fetch - main [MainThread]: End processing [piperider]: success
+[2023-07-19 10:30:17] INFO root fetch - processPackages [aifactory]: Downloading https://files.pythonhosted.org/packages/72/e8/8b9e1d0ea53e063613c5afd8ff883d95c91ac405d6c91f655e4e1c8153aa/aifactory-1.7.2.tar.gz
+[2023-07-19 10:30:17] INFO root fetch - processPackages [talisman-dm]: Remove: archive file [/home/abi/fetcher/tmp/talisman-dm-1.0.0a8.tar.gz]
+[2023-07-19 10:30:17] INFO root fetch - processPackages [talisman-dm]: Remove: archive file [/home/abi/fetcher/tmp/talisman-dm-1.0.0a9.tar.gz]
+[2023-07-19 10:30:17] INFO root fetch - main [MainThread]: End processing [talisman-dm]: success
+[2023-07-19 10:30:17] INFO root fetch - processPackages [aifactory]: Downloading https://files.pythonhosted.org/packages/38/c7/1b66eeeb3e956c87d95f8be42829e5f635dfb98b372d85f5cc9459c0f46d/aifactory-1.7.3.tar.gz
+[2023-07-19 10:30:17] INFO root fetch - processPackages [pystval]: Remove: archive file [/home/abi/fetcher/tmp/pystval-1.0.0-cp37-abi3-win_arm64.whl.zip]
+[2023-07-19 10:30:17] INFO root fetch - processPackages [pystval]: Remove: archive file [/home/abi/fetcher/tmp/pystval-1.1.0-cp37-abi3-win_arm64.whl.zip]
+[2023-07-19 10:30:17] INFO root fetch - main [MainThread]: End processing [pystval]: success
+[2023-07-19 10:30:17] INFO root fetch - processPackages [aifactory]: executing diffoscope
+[2023-07-19 10:30:17] INFO root fetch - processPackages [aifactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aifactory-1.7.2.tar.gz tmp/aifactory-1.7.3.tar.gz --markdown 20230719/a/aifactory/1.7.2-1.7.3/diff.md --exclude *.pyd
+[2023-07-19 10:30:17] INFO root fetch - processPackages [click-schema-config]: Remove: archive file [/home/abi/fetcher/tmp/click_schema_config-0.2.3.tar.gz]
+[2023-07-19 10:30:17] INFO root fetch - processPackages [click-schema-config]: Remove: archive file [/home/abi/fetcher/tmp/click_schema_config-0.2.4.tar.gz]
+[2023-07-19 10:30:17] INFO root fetch - main [MainThread]: End processing [click-schema-config]: success
+[2023-07-19 10:30:17] INFO root fetch - processPackages [polyapi]: Remove: archive file [/home/abi/fetcher/tmp/polyapi-5.7.0.4.tar.gz]
+[2023-07-19 10:30:17] INFO root fetch - processPackages [polyapi]: Remove: archive file [/home/abi/fetcher/tmp/polyapi-5.7.0.6.tar.gz]
+[2023-07-19 10:30:17] INFO root fetch - main [MainThread]: End processing [polyapi]: success
+[2023-07-19 10:30:17] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.8.tar.gz]
+[2023-07-19 10:30:17] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.9.tar.gz]
+[2023-07-19 10:30:17] INFO root fetch - main [MainThread]: End processing [TDCRPy]: success
+[2023-07-19 10:30:18] INFO root fetch - processPackages [systembridgeconnector]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeconnector-3.8.0.dev8.tar.gz]
+[2023-07-19 10:30:18] INFO root fetch - processPackages [systembridgeconnector]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeconnector-3.8.0.dev9.tar.gz]
+[2023-07-19 10:30:18] INFO root fetch - main [MainThread]: End processing [systembridgeconnector]: success
+[2023-07-19 10:30:18] INFO root fetch - processPackages [aifactory]: Remove: archive file [/home/abi/fetcher/tmp/aifactory-1.7.2.tar.gz]
+[2023-07-19 10:30:18] INFO root fetch - processPackages [aifactory]: Remove: archive file [/home/abi/fetcher/tmp/aifactory-1.7.3.tar.gz]
+[2023-07-19 10:30:18] INFO root fetch - main [MainThread]: End processing [aifactory]: success
+[2023-07-19 10:30:21] INFO root fetch - processPackages [tksel]: Remove: archive file [/home/abi/fetcher/tmp/tksel-0.1.0.tar.gz]
+[2023-07-19 10:30:21] INFO root fetch - processPackages [tksel]: Remove: archive file [/home/abi/fetcher/tmp/tksel-0.1.1.tar.gz]
+[2023-07-19 10:30:21] INFO root fetch - main [MainThread]: End processing [tksel]: success
+[2023-07-19 10:30:21] INFO root fetch - main [MainThread]: Store serial: [18947165]
