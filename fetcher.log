@@ -13839,3 +13839,73 @@
 [2023-07-19 07:03:50] INFO root fetch - processPackages [plothist]: Remove: archive file [/home/abi/fetcher/tmp/plothist-0.5.tar.gz]
 [2023-07-19 07:03:50] INFO root fetch - main [MainThread]: End processing [plothist]: success
 [2023-07-19 07:03:50] INFO root fetch - main [MainThread]: Store serial: [18945593]
+[2023-07-19 07:08:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18945593]
+[2023-07-19 07:09:01] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-19 07:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fundialogues
+[2023-07-19 07:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quantplay
+[2023-07-19 07:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: OpihiExarata
+[2023-07-19 07:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rapid-pe
+[2023-07-19 07:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: open-interpreter
+[2023-07-19 07:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DXR
+[2023-07-19 07:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dask-cuda
+[2023-07-19 07:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ccxt
+[2023-07-19 07:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: twitchify
+[2023-07-19 07:09:01] INFO root fetch - processPackages [open-interpreter]: New version: [0.0.230] Old Version: [0.0.229]
+[2023-07-19 07:09:01] INFO root fetch - processPackages [twitchify]: New version: [1.3.0] Old Version: [1.2.2]
+[2023-07-19 07:09:01] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230718] Old Version: [0.1.1.dev20230717]
+[2023-07-19 07:09:01] WARNING root fetch - processPackages [fundialogues]: Skipping, unable to determine old version
+[2023-07-19 07:09:01] INFO root fetch - main [MainThread]: End processing [fundialogues] error
+[2023-07-19 07:09:01] INFO root fetch - processPackages [OpihiExarata]: New version: [2023.7.6] Old Version: [2023.7.19]
+[2023-07-19 07:09:01] INFO root fetch - processPackages [ccxt]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-07-19 07:09:01] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230718] Old Version: [23.8.0a230717]
+[2023-07-19 07:09:01] INFO root fetch - processPackages [quantplay]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-19 07:09:01] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/a3/7b/aa24ac192f4442594a2b2fce2de080c20e13b2386f8c9ab452d92eca0145/open_interpreter-0.0.229.tar.gz
+[2023-07-19 07:09:01] INFO root fetch - processPackages [DXR]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-07-19 07:09:01] INFO root fetch - processPackages [twitchify]: Downloading https://files.pythonhosted.org/packages/22/22/a63be0dc3853ce89c64958215f2223c4aef82790e366164a53e70702fc4b/twitchify-1.2.2.tar.gz
+[2023-07-19 07:09:01] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/81/67/937e1191ca409009ed8e35ba7633490410d4f9b5bd895c246c8163d29b15/rapid_pe-0.1.1.dev20230717.tar.gz
+[2023-07-19 07:09:01] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/ad/7d/8330d03fabbc3e43fd950e4c4fc50051c4c1ed03e1de206a341ccc8c1663/ccxt-4.0.8.tar.gz
+[2023-07-19 07:09:01] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/41/49/43f70100def831c8c6037fa270aed063c13462738ad9ac931110af27671f/dask-cuda-23.8.0a230717.tar.gz
+[2023-07-19 07:09:01] INFO root fetch - processPackages [OpihiExarata]: Downloading https://files.pythonhosted.org/packages/50/39/6dc2a8483a89af199dd555528d7b66ccc48d2505bac11d1a1b82521d32e4/OpihiExarata-2023.7.19.tar.gz
+[2023-07-19 07:09:01] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/45/df/9dafdbe1d951b59dcb7dc8f02188b232f56f79298a06892f0e603becc389/quantplay-1.3.8.tar.gz
+[2023-07-19 07:09:01] INFO root fetch - processPackages [DXR]: Downloading https://files.pythonhosted.org/packages/b8/ac/247c968775b4d061815b825e9a5b6714929a9f65ea29e4a336b0ca1bca65/DXR-1.9.2.tar.gz
+[2023-07-19 07:09:01] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/8d/0f/2670aa87737832e77fdcfd70e22fcb995404ff30a26e95a0a0c307e64096/open_interpreter-0.0.230.tar.gz
+[2023-07-19 07:09:02] ERROR root fetch - processPackages [twitchify]: Unable to fetch info: No such project/version 'twitchify' 1.3.0
+[2023-07-19 07:09:02] INFO root fetch - main [MainThread]: End processing [twitchify] error
+[2023-07-19 07:09:02] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/62/4e/b311e5f8c5e808e4616f732d063afdeca95ecbefb44e8dbeb93d3d9a1a9a/rapid_pe-0.1.1.dev20230718.tar.gz
+[2023-07-19 07:09:02] INFO root fetch - processPackages [open-interpreter]: executing diffoscope
+[2023-07-19 07:09:02] INFO root fetch - processPackages [open-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_interpreter-0.0.229.tar.gz tmp/open_interpreter-0.0.230.tar.gz --markdown 20230719/o/open-interpreter/0.0.229-0.0.230/diff.md --exclude *.pyd
+[2023-07-19 07:09:02] WARNING root fetch - processPackages [DXR]: Skipping package: exceeds size limit 10502300>=10485760
+[2023-07-19 07:09:02] INFO root fetch - main [MainThread]: End processing [DXR] error
+[2023-07-19 07:09:02] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/e3/0c/19de24a211df5d203bea3629bc08e4706ba17878657c4cc0d4b0bb70da76/dask-cuda-23.8.0a230718.tar.gz
+[2023-07-19 07:09:02] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-07-19 07:09:02] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230717.tar.gz tmp/rapid_pe-0.1.1.dev20230718.tar.gz --markdown 20230719/r/rapid-pe/0.1.1.dev20230717-0.1.1.dev20230718/diff.md --exclude *.pyd
+[2023-07-19 07:09:02] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/32/a5/e913d1abd897de7e300e2702f68a742f7dba4a8d682a377a41f7423bd968/ccxt-4.0.9.tar.gz
+[2023-07-19 07:09:02] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-07-19 07:09:02] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230717.tar.gz tmp/dask-cuda-23.8.0a230718.tar.gz --markdown 20230719/d/dask-cuda/23.8.0a230717-23.8.0a230718/diff.md --exclude *.pyd
+[2023-07-19 07:09:02] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/ee/a5/18caaa36bc077cbd964b78406eed5d1840456172da7cdd1b6c18be824d06/quantplay-1.3.9.tar.gz
+[2023-07-19 07:09:02] INFO root fetch - processPackages [OpihiExarata]: Downloading https://files.pythonhosted.org/packages/8f/f6/5264f3f1a28a264ea94306ae0bc9117efbe7efd604f3d73c4a92455cd998/OpihiExarata-2023.7.6.tar.gz
+[2023-07-19 07:09:02] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-07-19 07:09:02] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.3.8.tar.gz tmp/quantplay-1.3.9.tar.gz --markdown 20230719/q/quantplay/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-19 07:09:02] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-07-19 07:09:02] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-4.0.8.tar.gz tmp/ccxt-4.0.9.tar.gz --markdown 20230719/c/ccxt/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-07-19 07:09:02] INFO root fetch - processPackages [OpihiExarata]: executing diffoscope
+[2023-07-19 07:09:02] INFO root fetch - processPackages [OpihiExarata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpihiExarata-2023.7.19.tar.gz tmp/OpihiExarata-2023.7.6.tar.gz --markdown 20230719/O/OpihiExarata/2023.7.19-2023.7.6/diff.md --exclude *.pyd
+[2023-07-19 07:09:03] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.229.tar.gz]
+[2023-07-19 07:09:03] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.230.tar.gz]
+[2023-07-19 07:09:03] INFO root fetch - main [MainThread]: End processing [open-interpreter]: success
+[2023-07-19 07:09:03] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230717.tar.gz]
+[2023-07-19 07:09:03] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230718.tar.gz]
+[2023-07-19 07:09:03] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-07-19 07:09:03] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230717.tar.gz]
+[2023-07-19 07:09:03] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230718.tar.gz]
+[2023-07-19 07:09:03] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-07-19 07:09:03] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.3.8.tar.gz]
+[2023-07-19 07:09:03] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.3.9.tar.gz]
+[2023-07-19 07:09:03] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-07-19 07:09:04] INFO root fetch - processPackages [OpihiExarata]: Remove: archive file [/home/abi/fetcher/tmp/OpihiExarata-2023.7.19.tar.gz]
+[2023-07-19 07:09:04] INFO root fetch - processPackages [OpihiExarata]: Remove: archive file [/home/abi/fetcher/tmp/OpihiExarata-2023.7.6.tar.gz]
+[2023-07-19 07:09:04] INFO root fetch - main [MainThread]: End processing [OpihiExarata]: success
+[2023-07-19 07:09:07] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.8.tar.gz]
+[2023-07-19 07:09:07] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.9.tar.gz]
+[2023-07-19 07:09:07] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-07-19 07:09:07] INFO root fetch - main [MainThread]: Store serial: [18945624]
