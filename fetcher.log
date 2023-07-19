@@ -1994,3 +1994,87 @@
 [2023-07-19 01:58:34] INFO root fetch - processPackages [hat-drivers]: Remove: archive file [/home/abi/fetcher/tmp/hat_drivers-0.7.3-cp310.cp311-abi3-win_amd64.whl.zip]
 [2023-07-19 01:58:34] INFO root fetch - main [MainThread]: End processing [hat-drivers]: success
 [2023-07-19 01:58:34] INFO root fetch - main [MainThread]: Store serial: [18941494]
+[2023-07-19 02:03:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18941494]
+[2023-07-19 02:03:42] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-19 02:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: es_client
+[2023-07-19 02:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiosu
+[2023-07-19 02:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: film-review-explorer
+[2023-07-19 02:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gen3-util
+[2023-07-19 02:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aiordr
+[2023-07-19 02:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: getpaper
+[2023-07-19 02:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: crypto-screening
+[2023-07-19 02:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torchdatasets-nightly
+[2023-07-19 02:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: determined
+[2023-07-19 02:03:43] INFO root fetch - processPackages [aiosu]: New version: [2.0.0] Old Version: [1.5.0]
+[2023-07-19 02:03:43] INFO root fetch - processPackages [film-review-explorer]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-19 02:03:43] INFO root fetch - processPackages [aiordr]: New version: [0.1.0] Old Version: [0.0.5]
+[2023-07-19 02:03:43] INFO root fetch - processPackages [crypto-screening]: New version: [5.7.0] Old Version: [5.6.0]
+[2023-07-19 02:03:43] INFO root fetch - processPackages [getpaper]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-19 02:03:43] INFO root fetch - processPackages [es_client]: New version: [8.8.2.post1] Old Version: [8.8.2]
+[2023-07-19 02:03:43] INFO root fetch - processPackages [gen3-util]: New version: [0.0.4rc5] Old Version: [0.0.4rc4]
+[2023-07-19 02:03:43] INFO root fetch - processPackages [aiosu]: Downloading https://files.pythonhosted.org/packages/85/ee/5531e60e8bbb5db64c5c411f79d6ad9ce9565c2a508661ecb91480a5dea2/aiosu-1.5.0.tar.gz
+[2023-07-19 02:03:43] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1689725008] Old Version: [1689638637]
+[2023-07-19 02:03:43] INFO root fetch - processPackages [aiordr]: Downloading https://files.pythonhosted.org/packages/f8/ed/f7044f757060e04c9f83e59a37bc5c01aaf75659722faad216552cf23cc1/aiordr-0.0.5.tar.gz
+[2023-07-19 02:03:43] INFO root fetch - processPackages [film-review-explorer]: Downloading https://files.pythonhosted.org/packages/2f/db/c30d5b5db8987834925d818a788edbfed39b678a79f54e242093181a2f73/film_review_explorer-0.0.1.tar.gz
+[2023-07-19 02:03:43] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/c5/6a/ebe243ba24894a3c7f8efe2bd2fd6f0f57eaab1d01299de7dd9f70bdd794/crypto-screening-5.6.0.tar.gz
+[2023-07-19 02:03:43] INFO root fetch - processPackages [determined]: New version: [0.23.3rc2] Old Version: [0.23.3rc1]
+[2023-07-19 02:03:43] INFO root fetch - processPackages [getpaper]: Downloading https://files.pythonhosted.org/packages/1b/b9/bed6f90f8467cb46bb781b3d4e36c00c878a1394b08a44468421f372ab3e/getpaper-0.2.4.tar.gz
+[2023-07-19 02:03:43] INFO root fetch - processPackages [es_client]: Downloading https://files.pythonhosted.org/packages/23/67/0c99e59437d7d1188f1ceae714d0e121ba435186993915e876e7efd07253/es_client-8.8.2.tar.gz
+[2023-07-19 02:03:43] INFO root fetch - processPackages [gen3-util]: Downloading https://files.pythonhosted.org/packages/9c/51/31452ad8db6bfb30b967302dc5702f34898d967680aa97dc46b928cb29ac/gen3_util-0.0.4rc4.tar.gz
+[2023-07-19 02:03:43] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/22/e6/8468ce1bff45e304f022bec7a49480abb6688d2bb2a8faf2fc93cd980ade/torchdatasets-nightly-1689638637.tar.gz
+[2023-07-19 02:03:43] INFO root fetch - processPackages [aiosu]: Downloading https://files.pythonhosted.org/packages/bc/0c/79d317c598b96a668baf26016c153752af44df39b4f8404754ab55fb26ee/aiosu-2.0.0.tar.gz
+[2023-07-19 02:03:43] INFO root fetch - processPackages [film-review-explorer]: Downloading https://files.pythonhosted.org/packages/26/fd/f522a898720cff82db635d9486f2d0ef57447cdce089cee897689c012fdf/film_review_explorer-0.0.2.tar.gz
+[2023-07-19 02:03:43] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/4a/af/3cc2309c24f94f16866c5c0b398f5de04ae008c1eda07714b5b2cf5d6a98/determined-0.23.3rc1-py3-none-any.whl
+[2023-07-19 02:03:43] INFO root fetch - processPackages [aiordr]: Downloading https://files.pythonhosted.org/packages/40/fb/309bbd33695953a9848125cb9c5ca1f110aa9e5dda40e5ac1696c175c79a/aiordr-0.1.0.tar.gz
+[2023-07-19 02:03:43] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/b3/1a/cd09e79d4123e375ec6b3ce626431847edb72599fd2f4d9a98f735df511f/crypto-screening-5.7.0.tar.gz
+[2023-07-19 02:03:44] INFO root fetch - processPackages [aiosu]: executing diffoscope
+[2023-07-19 02:03:44] INFO root fetch - processPackages [aiosu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiosu-1.5.0.tar.gz tmp/aiosu-2.0.0.tar.gz --markdown 20230719/a/aiosu/1.5.0-2.0.0/diff.md --exclude *.pyd
+[2023-07-19 02:03:44] INFO root fetch - processPackages [film-review-explorer]: executing diffoscope
+[2023-07-19 02:03:44] INFO root fetch - processPackages [film-review-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/film_review_explorer-0.0.1.tar.gz tmp/film_review_explorer-0.0.2.tar.gz --markdown 20230719/f/film-review-explorer/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-19 02:03:44] INFO root fetch - processPackages [aiordr]: executing diffoscope
+[2023-07-19 02:03:44] INFO root fetch - processPackages [aiordr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiordr-0.0.5.tar.gz tmp/aiordr-0.1.0.tar.gz --markdown 20230719/a/aiordr/0.0.5-0.1.0/diff.md --exclude *.pyd
+[2023-07-19 02:03:44] INFO root fetch - processPackages [es_client]: Downloading https://files.pythonhosted.org/packages/d4/f8/b9a7a377b06897fe1d1ac4c8c870100d34aeba05caab6c6c5f2ac2380d8d/es_client-8.8.2.post1.tar.gz
+[2023-07-19 02:03:44] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-19 02:03:44] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-5.6.0.tar.gz tmp/crypto-screening-5.7.0.tar.gz --markdown 20230719/c/crypto-screening/5.6.0-5.7.0/diff.md --exclude *.pyd
+[2023-07-19 02:03:44] INFO root fetch - processPackages [getpaper]: Downloading https://files.pythonhosted.org/packages/82/9d/988187a841722342c574f96654745d20399229a1d0f04b88e882d9f37195/getpaper-0.2.5.tar.gz
+[2023-07-19 02:03:44] INFO root fetch - processPackages [gen3-util]: Downloading https://files.pythonhosted.org/packages/0e/ea/048f6266e76293c1adacaac8e8169ffebec354391e482595f620c362249b/gen3_util-0.0.4rc5.tar.gz
+[2023-07-19 02:03:44] INFO root fetch - processPackages [es_client]: executing diffoscope
+[2023-07-19 02:03:44] INFO root fetch - processPackages [es_client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/es_client-8.8.2.tar.gz tmp/es_client-8.8.2.post1.tar.gz --markdown 20230719/e/es_client/8.8.2-8.8.2.post1/diff.md --exclude *.pyd
+[2023-07-19 02:03:44] INFO root fetch - processPackages [getpaper]: executing diffoscope
+[2023-07-19 02:03:44] INFO root fetch - processPackages [getpaper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getpaper-0.2.4.tar.gz tmp/getpaper-0.2.5.tar.gz --markdown 20230719/g/getpaper/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-19 02:03:44] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/50/fd/0bc30e076bda7f603aad80363a1be1dc9b6eeda01d7f39cb2d261463b1d7/torchdatasets-nightly-1689725008.tar.gz
+[2023-07-19 02:03:44] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/84/6e/5254c14791fca9c6d4b5ea4dc8cfedb8523576d488a60c391a1a103178c9/determined-0.23.3rc2-py3-none-any.whl
+[2023-07-19 02:03:44] INFO root fetch - processPackages [gen3-util]: executing diffoscope
+[2023-07-19 02:03:44] INFO root fetch - processPackages [gen3-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gen3_util-0.0.4rc4.tar.gz tmp/gen3_util-0.0.4rc5.tar.gz --markdown 20230719/g/gen3-util/0.0.4rc4-0.0.4rc5/diff.md --exclude *.pyd
+[2023-07-19 02:03:44] INFO root fetch - processPackages [determined]: executing diffoscope
+[2023-07-19 02:03:44] INFO root fetch - processPackages [determined]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined-0.23.3rc1-py3-none-any.whl.zip tmp/determined-0.23.3rc2-py3-none-any.whl.zip --markdown 20230719/d/determined/0.23.3rc1-0.23.3rc2/diff.md --exclude *.pyd
+[2023-07-19 02:03:44] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-07-19 02:03:44] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1689638637.tar.gz tmp/torchdatasets-nightly-1689725008.tar.gz --markdown 20230719/t/torchdatasets-nightly/1689638637-1689725008/diff.md --exclude *.pyd
+[2023-07-19 02:03:45] INFO root fetch - processPackages [aiordr]: Remove: archive file [/home/abi/fetcher/tmp/aiordr-0.0.5.tar.gz]
+[2023-07-19 02:03:45] INFO root fetch - processPackages [aiordr]: Remove: archive file [/home/abi/fetcher/tmp/aiordr-0.1.0.tar.gz]
+[2023-07-19 02:03:45] INFO root fetch - main [MainThread]: End processing [aiordr]: success
+[2023-07-19 02:03:45] INFO root fetch - processPackages [film-review-explorer]: Remove: archive file [/home/abi/fetcher/tmp/film_review_explorer-0.0.1.tar.gz]
+[2023-07-19 02:03:45] INFO root fetch - processPackages [film-review-explorer]: Remove: archive file [/home/abi/fetcher/tmp/film_review_explorer-0.0.2.tar.gz]
+[2023-07-19 02:03:45] INFO root fetch - main [MainThread]: End processing [film-review-explorer]: success
+[2023-07-19 02:03:45] INFO root fetch - processPackages [es_client]: Remove: archive file [/home/abi/fetcher/tmp/es_client-8.8.2.tar.gz]
+[2023-07-19 02:03:45] INFO root fetch - processPackages [es_client]: Remove: archive file [/home/abi/fetcher/tmp/es_client-8.8.2.post1.tar.gz]
+[2023-07-19 02:03:45] INFO root fetch - main [MainThread]: End processing [es_client]: success
+[2023-07-19 02:03:45] INFO root fetch - processPackages [getpaper]: Remove: archive file [/home/abi/fetcher/tmp/getpaper-0.2.4.tar.gz]
+[2023-07-19 02:03:45] INFO root fetch - processPackages [getpaper]: Remove: archive file [/home/abi/fetcher/tmp/getpaper-0.2.5.tar.gz]
+[2023-07-19 02:03:45] INFO root fetch - main [MainThread]: End processing [getpaper]: success
+[2023-07-19 02:03:45] INFO root fetch - processPackages [aiosu]: Remove: archive file [/home/abi/fetcher/tmp/aiosu-1.5.0.tar.gz]
+[2023-07-19 02:03:45] INFO root fetch - processPackages [aiosu]: Remove: archive file [/home/abi/fetcher/tmp/aiosu-2.0.0.tar.gz]
+[2023-07-19 02:03:45] INFO root fetch - main [MainThread]: End processing [aiosu]: success
+[2023-07-19 02:03:45] INFO root fetch - processPackages [gen3-util]: Remove: archive file [/home/abi/fetcher/tmp/gen3_util-0.0.4rc4.tar.gz]
+[2023-07-19 02:03:45] INFO root fetch - processPackages [gen3-util]: Remove: archive file [/home/abi/fetcher/tmp/gen3_util-0.0.4rc5.tar.gz]
+[2023-07-19 02:03:45] INFO root fetch - main [MainThread]: End processing [gen3-util]: success
+[2023-07-19 02:03:46] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1689638637.tar.gz]
+[2023-07-19 02:03:46] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1689725008.tar.gz]
+[2023-07-19 02:03:46] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-07-19 02:03:46] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-5.6.0.tar.gz]
+[2023-07-19 02:03:46] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-5.7.0.tar.gz]
+[2023-07-19 02:03:46] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-19 02:03:46] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.23.3rc1-py3-none-any.whl.zip]
+[2023-07-19 02:03:46] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.23.3rc2-py3-none-any.whl.zip]
+[2023-07-19 02:03:46] INFO root fetch - main [MainThread]: End processing [determined]: success
+[2023-07-19 02:03:46] INFO root fetch - main [MainThread]: Store serial: [18941520]
