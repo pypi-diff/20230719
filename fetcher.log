@@ -22417,3 +22417,156 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-19 13:21:14] INFO root fetch - processPackages [z0bug-odoo]: Remove: archive file [/home/abi/fetcher/tmp/z0bug_odoo-2.0.9.tar.gz]
 [2023-07-19 13:21:14] INFO root fetch - main [MainThread]: End processing [z0bug-odoo]: success
 [2023-07-19 13:21:14] INFO root fetch - main [MainThread]: Store serial: [18949227]
+[2023-07-19 13:26:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18949227]
+[2023-07-19 13:26:23] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-19 13:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dela
+[2023-07-19 13:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bgstools
+[2023-07-19 13:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tb-nightly
+[2023-07-19 13:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: luminesce-sdk-preview
+[2023-07-19 13:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchtnt-nightly
+[2023-07-19 13:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: keras-model-cv
+[2023-07-19 13:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: systembridgeconnector
+[2023-07-19 13:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: periodicity-detection
+[2023-07-19 13:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Configurable-JSON
+[2023-07-19 13:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: automation-editor
+[2023-07-19 13:26:23] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-19 13:26:23] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-07-19 13:26:23] INFO root fetch - processPackages [bgstools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-19 13:26:23] INFO root fetch - processPackages [systembridgeconnector]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-19 13:26:23] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-07-19 13:26:23] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/47/a5/6e0ce29c38b55188a4ab6ec32c5f4908ef7a19908d233cb0c077fcc21462/torchtnt-nightly-2023.7.8.tar.gz
+[2023-07-19 13:26:23] INFO root fetch - processPackages [automation-editor]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 13:26:23] WARNING root fetch - processPackages [periodicity-detection]: Skipping, unable to determine old version
+[2023-07-19 13:26:23] INFO root fetch - processPackages [periodicity-detection]: Start processing: testforBCIplot
+[2023-07-19 13:26:23] INFO root fetch - main [MainThread]: End processing [periodicity-detection] error
+[2023-07-19 13:26:23] INFO root fetch - processPackages [Configurable-JSON]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-19 13:26:23] INFO root fetch - processPackages [keras-model-cv]: New version: [0.5.4] Old Version: [0.3.1]
+[2023-07-19 13:26:23] WARNING root fetch - processPackages [testforBCIplot]: Skipping, unable to determine old version
+[2023-07-19 13:26:23] INFO root fetch - processPackages [testforBCIplot]: Start processing: pythorhead
+[2023-07-19 13:26:23] INFO root fetch - main [MainThread]: End processing [testforBCIplot] error
+[2023-07-19 13:26:23] INFO root fetch - processPackages [dela]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-19 13:26:23] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2023-07-19 13:26:24] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/a3/d9/0f2b579fbbb29225abec7da824c3d2177fa751c84913339da89e8d0b4f89/bgstools-0.1.8.tar.gz
+[2023-07-19 13:26:24] INFO root fetch - processPackages [systembridgeconnector]: Downloading https://files.pythonhosted.org/packages/b6/5a/0e66891dd12466d8cb2db98ba2763c6b9908471011412ce28189b07ed3e0/systembridgeconnector-3.8.0.dev8.tar.gz
+[2023-07-19 13:26:24] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2023-07-19 13:26:24] INFO root fetch - processPackages [pythorhead]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-19 13:26:24] INFO root fetch - processPackages [automation-editor]: Downloading https://files.pythonhosted.org/packages/a6/cc/235d014fef7e03686b0488b987150241cb106dcd6fd45abc8fcb6af5a349/automation_editor-0.0.8.tar.gz
+[2023-07-19 13:26:24] INFO root fetch - processPackages [dela]: Downloading https://files.pythonhosted.org/packages/c0/c6/2e8a505fd9a39829fe03376ba67340750c415d3e30e87abef4b71a79ece4/dela-0.2.0.tar.gz
+[2023-07-19 13:26:24] INFO root fetch - processPackages [Configurable-JSON]: Downloading https://files.pythonhosted.org/packages/09/38/840f30a771646777314b75b000b341486f3eba60c25f50c38ae6cc58476d/Configurable_JSON-1.0.0-py3-none-any.whl
+[2023-07-19 13:26:24] INFO root fetch - processPackages [pythorhead]: Downloading https://files.pythonhosted.org/packages/49/15/aea378d4d4e85b3e6c2c1042b5c1f51f9328340bbc85c946e808e6c5fd1b/pythorhead-0.9.2.tar.gz
+[2023-07-19 13:26:24] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/ae/7f/589eb3c0712725a4a9594bdbc4229b9087a94038117bda63c54ef6d2e7e5/torchtnt-nightly-2023.7.9.tar.gz
+[2023-07-19 13:26:24] INFO root fetch - processPackages [keras-model-cv]: Downloading https://files.pythonhosted.org/packages/b8/e0/30e03f47171c99d58c3bb87366dccf9ed8b6e90976ee4ad218624bdda5c1/keras_model_cv-0.3.1.tar.gz
+[2023-07-19 13:26:24] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2023-07-19 13:26:24] INFO root fetch - processPackages [systembridgeconnector]: Downloading https://files.pythonhosted.org/packages/0c/2f/e4269881b1efc361a16100c5e3f8460ebf231ca289cb095b5ba7d0befbf5/systembridgeconnector-3.8.0.dev9.tar.gz
+[2023-07-19 13:26:24] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-07-19 13:26:24] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.7.8.tar.gz tmp/torchtnt-nightly-2023.7.9.tar.gz --markdown 20230719/t/torchtnt-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-19 13:26:24] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/0a/3c/638191cc7a3a6135dbf58e2857b29d83bacba72ac3e579510aae9606e202/bgstools-0.1.9.tar.gz
+[2023-07-19 13:26:24] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-07-19 13:26:24] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230719/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-07-19 13:26:24] INFO root fetch - processPackages [pythorhead]: Downloading https://files.pythonhosted.org/packages/c1/fa/85c3735e3c50c153ffc2c378a1fddb2f33d95bc334d4a415d7db6589fd8a/pythorhead-0.9.3.tar.gz
+[2023-07-19 13:26:24] INFO root fetch - processPackages [systembridgeconnector]: executing diffoscope
+[2023-07-19 13:26:24] INFO root fetch - processPackages [systembridgeconnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgeconnector-3.8.0.dev8.tar.gz tmp/systembridgeconnector-3.8.0.dev9.tar.gz --markdown 20230719/s/systembridgeconnector/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-19 13:26:24] INFO root fetch - processPackages [dela]: Downloading https://files.pythonhosted.org/packages/f8/3c/9300e8f5b548132b8fbf98dfc9ded7fa1ad2eb39cbcea21b395e21f8e2af/dela-0.2.1.tar.gz
+[2023-07-19 13:26:24] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2023-07-19 13:26:24] INFO root fetch - processPackages [automation-editor]: Downloading https://files.pythonhosted.org/packages/50/4c/caa76f5eb438558d75b65bbcb114724ff8359c2db4245dd07c86a05485a5/automation_editor-0.0.9.tar.gz
+[2023-07-19 13:26:24] INFO root fetch - processPackages [Configurable-JSON]: Downloading https://files.pythonhosted.org/packages/d4/5f/62f70e9ddb41227c4f722b1654730628028236ca8abe413249a2e8fe4bb4/configurable_json-1.1.0.tar.gz
+[2023-07-19 13:26:24] INFO root fetch - processPackages [bgstools]: executing diffoscope
+[2023-07-19 13:26:24] INFO root fetch - processPackages [bgstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgstools-0.1.8.tar.gz tmp/bgstools-0.1.9.tar.gz --markdown 20230719/b/bgstools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-19 13:26:24] INFO root fetch - processPackages [keras-model-cv]: Downloading https://files.pythonhosted.org/packages/b4/70/a29dba9d33bd949a0ae5249d2fb8f498b9e20a4b665987d1204d0fd04688/keras_model_cv-0.5.4.tar.gz
+[2023-07-19 13:26:25] INFO root fetch - processPackages [dela]: executing diffoscope
+[2023-07-19 13:26:25] INFO root fetch - processPackages [dela]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dela-0.2.0.tar.gz tmp/dela-0.2.1.tar.gz --markdown 20230719/d/dela/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-19 13:26:25] INFO root fetch - processPackages [pythorhead]: executing diffoscope
+[2023-07-19 13:26:25] INFO root fetch - processPackages [pythorhead]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythorhead-0.9.2.tar.gz tmp/pythorhead-0.9.3.tar.gz --markdown 20230719/p/pythorhead/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-19 13:26:25] INFO root fetch - processPackages [automation-editor]: executing diffoscope
+[2023-07-19 13:26:25] INFO root fetch - processPackages [automation-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_editor-0.0.8.tar.gz tmp/automation_editor-0.0.9.tar.gz --markdown 20230719/a/automation-editor/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 13:26:25] INFO root fetch - processPackages [Configurable-JSON]: executing diffoscope
+[2023-07-19 13:26:25] INFO root fetch - processPackages [Configurable-JSON]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Configurable_JSON-1.0.0-py3-none-any.whl.zip tmp/configurable_json-1.1.0.tar.gz --markdown 20230719/C/Configurable-JSON/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-19 13:26:25] INFO root fetch - processPackages [keras-model-cv]: executing diffoscope
+[2023-07-19 13:26:25] INFO root fetch - processPackages [keras-model-cv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_model_cv-0.3.1.tar.gz tmp/keras_model_cv-0.5.4.tar.gz --markdown 20230719/k/keras-model-cv/0.3.1-0.5.4/diff.md --exclude *.pyd
+[2023-07-19 13:26:25] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-07-19 13:26:25] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230719/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-07-19 13:26:26] INFO root fetch - processPackages [systembridgeconnector]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeconnector-3.8.0.dev8.tar.gz]
+[2023-07-19 13:26:26] INFO root fetch - processPackages [systembridgeconnector]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeconnector-3.8.0.dev9.tar.gz]
+[2023-07-19 13:26:26] INFO root fetch - processPackages [systembridgeconnector]: Start processing: wafermap-clustering
+[2023-07-19 13:26:26] INFO root fetch - main [MainThread]: End processing [systembridgeconnector]: success
+[2023-07-19 13:26:26] INFO root fetch - processPackages [bgstools]: Remove: archive file [/home/abi/fetcher/tmp/bgstools-0.1.8.tar.gz]
+[2023-07-19 13:26:26] INFO root fetch - processPackages [bgstools]: Remove: archive file [/home/abi/fetcher/tmp/bgstools-0.1.9.tar.gz]
+[2023-07-19 13:26:26] INFO root fetch - processPackages [bgstools]: Start processing: torchrl-nightly
+[2023-07-19 13:26:26] INFO root fetch - main [MainThread]: End processing [bgstools]: success
+[2023-07-19 13:26:26] INFO root fetch - processPackages [wafermap-clustering]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-19 13:26:26] INFO root fetch - processPackages [wafermap-clustering]: Downloading https://files.pythonhosted.org/packages/da/32/8783c2bdc331b37a30d7b124decb010917f0591c3393c0a8b2f1bca74b61/wafermap-clustering-0.3.0.tar.gz
+[2023-07-19 13:26:27] INFO root fetch - processPackages [Configurable-JSON]: Remove: archive file [/home/abi/fetcher/tmp/Configurable_JSON-1.0.0-py3-none-any.whl.zip]
+[2023-07-19 13:26:27] INFO root fetch - processPackages [Configurable-JSON]: Remove: archive file [/home/abi/fetcher/tmp/configurable_json-1.1.0.tar.gz]
+[2023-07-19 13:26:27] INFO root fetch - processPackages [Configurable-JSON]: Start processing: py4web-debug-tools
+[2023-07-19 13:26:27] INFO root fetch - main [MainThread]: End processing [Configurable-JSON]: success
+[2023-07-19 13:26:27] INFO root fetch - processPackages [torchrl-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-19 13:26:27] INFO root fetch - processPackages [dela]: Remove: archive file [/home/abi/fetcher/tmp/dela-0.2.0.tar.gz]
+[2023-07-19 13:26:27] INFO root fetch - processPackages [dela]: Remove: archive file [/home/abi/fetcher/tmp/dela-0.2.1.tar.gz]
+[2023-07-19 13:26:27] INFO root fetch - processPackages [dela]: Start processing: web3r
+[2023-07-19 13:26:27] INFO root fetch - main [MainThread]: End processing [dela]: success
+[2023-07-19 13:26:27] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.7.8.tar.gz]
+[2023-07-19 13:26:27] INFO root fetch - processPackages [py4web-debug-tools]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-19 13:26:27] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.7.9.tar.gz]
+[2023-07-19 13:26:27] INFO root fetch - processPackages [torchtnt-nightly]: Start processing: crypto-screening
+[2023-07-19 13:26:27] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-07-19 13:26:27] INFO root fetch - processPackages [crypto-screening]: New version: [6.1.0] Old Version: [6.0.0]
+[2023-07-19 13:26:27] INFO root fetch - processPackages [py4web-debug-tools]: Downloading https://files.pythonhosted.org/packages/42/78/1d887a71a3913617e9423d4c6e583101bf1585204254ca2c89105d7de8df/py4web_debug_tools-1.0.0.tar.gz
+[2023-07-19 13:26:27] INFO root fetch - processPackages [pythorhead]: Remove: archive file [/home/abi/fetcher/tmp/pythorhead-0.9.2.tar.gz]
+[2023-07-19 13:26:27] INFO root fetch - processPackages [pythorhead]: Remove: archive file [/home/abi/fetcher/tmp/pythorhead-0.9.3.tar.gz]
+[2023-07-19 13:26:27] INFO root fetch - processPackages [pythorhead]: Start processing: OneOnOne
+[2023-07-19 13:26:27] INFO root fetch - main [MainThread]: End processing [pythorhead]: success
+[2023-07-19 13:26:27] INFO root fetch - processPackages [web3r]: New version: [0.2] Old Version: [0.1]
+[2023-07-19 13:26:27] INFO root fetch - processPackages [wafermap-clustering]: Downloading https://files.pythonhosted.org/packages/ef/39/475028d956c0634524461ce217f93118fbae52e1aaffd305960c77723ada/wafermap-clustering-0.3.1.tar.gz
+[2023-07-19 13:26:27] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/c2/ba/e426407bd5c33c956f916fde202f873193e224f875f6806177aa53a35ec3/crypto-screening-6.0.0.tar.gz
+[2023-07-19 13:26:27] INFO root fetch - processPackages [OneOnOne]: New version: [0.689] Old Version: [0.688]
+[2023-07-19 13:26:27] INFO root fetch - processPackages [automation-editor]: Remove: archive file [/home/abi/fetcher/tmp/automation_editor-0.0.8.tar.gz]
+[2023-07-19 13:26:27] INFO root fetch - processPackages [automation-editor]: Remove: archive file [/home/abi/fetcher/tmp/automation_editor-0.0.9.tar.gz]
+[2023-07-19 13:26:27] INFO root fetch - main [MainThread]: End processing [automation-editor]: success
+[2023-07-19 13:26:27] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2023-07-19 13:26:27] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2023-07-19 13:26:27] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-07-19 13:26:27] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/38/33/59a88ceafbd8e349b7f261de4859c91912b883bd14249422d344f09ba9ed/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl
+[2023-07-19 13:26:27] INFO root fetch - processPackages [keras-model-cv]: Remove: archive file [/home/abi/fetcher/tmp/keras_model_cv-0.3.1.tar.gz]
+[2023-07-19 13:26:27] INFO root fetch - processPackages [keras-model-cv]: Remove: archive file [/home/abi/fetcher/tmp/keras_model_cv-0.5.4.tar.gz]
+[2023-07-19 13:26:27] INFO root fetch - main [MainThread]: End processing [keras-model-cv]: success
+[2023-07-19 13:26:27] INFO root fetch - processPackages [wafermap-clustering]: executing diffoscope
+[2023-07-19 13:26:27] INFO root fetch - processPackages [wafermap-clustering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wafermap-clustering-0.3.0.tar.gz tmp/wafermap-clustering-0.3.1.tar.gz --markdown 20230719/w/wafermap-clustering/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-19 13:26:27] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/99/90/79b97977c93ba38b078fba592b91a92021b12943cdc20de874812b4c0ad2/OneOnOne-0.688.tar.gz
+[2023-07-19 13:26:27] INFO root fetch - processPackages [web3r]: Downloading https://files.pythonhosted.org/packages/6f/05/24f1954c2ed6f79fd0e3744f4f63d18667144b172ff7576177d9e7ffdeea/web3r-0.1.tar.gz
+[2023-07-19 13:26:27] INFO root fetch - processPackages [py4web-debug-tools]: Downloading https://files.pythonhosted.org/packages/e8/d9/90cd3e030790c1698dd61dc6434b68d3c4dca5ae4c13fa747717460fba44/py4web_debug_tools-1.1.0.tar.gz
+[2023-07-19 13:26:27] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/fa/6a/4480080c6f6f58a1f0dc7acab4f6fa853e8e5b92cfbb780379182bfde7a0/crypto-screening-6.1.0.tar.gz
+[2023-07-19 13:26:27] INFO root fetch - processPackages [py4web-debug-tools]: executing diffoscope
+[2023-07-19 13:26:27] INFO root fetch - processPackages [py4web-debug-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py4web_debug_tools-1.0.0.tar.gz tmp/py4web_debug_tools-1.1.0.tar.gz --markdown 20230719/p/py4web-debug-tools/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-19 13:26:27] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/c1/eb/39d540ed7f0764b16999e8cb6ed030d71a5f197cf82f92679767d55e0537/OneOnOne-0.689.tar.gz
+[2023-07-19 13:26:27] INFO root fetch - processPackages [web3r]: Downloading https://files.pythonhosted.org/packages/90/70/7365837d4d6cc004766c6d46c9bf0d99145e7750c7d2a9bf9a274f41f72c/web3r-0.2.tar.gz
+[2023-07-19 13:26:27] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/22/59/298ac6427c9497e554f2b3ba5d253603250fe69672e94a74affda6a5613c/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl
+[2023-07-19 13:26:28] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-19 13:26:28] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-6.0.0.tar.gz tmp/crypto-screening-6.1.0.tar.gz --markdown 20230719/c/crypto-screening/6.0.0-6.1.0/diff.md --exclude *.pyd
+[2023-07-19 13:26:28] INFO root fetch - processPackages [web3r]: executing diffoscope
+[2023-07-19 13:26:28] INFO root fetch - processPackages [web3r]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web3r-0.1.tar.gz tmp/web3r-0.2.tar.gz --markdown 20230719/w/web3r/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-19 13:26:28] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-19 13:26:28] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.688.tar.gz tmp/OneOnOne-0.689.tar.gz --markdown 20230719/O/OneOnOne/0.688-0.689/diff.md --exclude *.pyd
+[2023-07-19 13:26:28] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2023-07-19 13:26:28] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip --markdown 20230719/t/torchrl-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-19 13:26:28] INFO root fetch - processPackages [wafermap-clustering]: Remove: archive file [/home/abi/fetcher/tmp/wafermap-clustering-0.3.0.tar.gz]
+[2023-07-19 13:26:28] INFO root fetch - processPackages [wafermap-clustering]: Remove: archive file [/home/abi/fetcher/tmp/wafermap-clustering-0.3.1.tar.gz]
+[2023-07-19 13:26:28] INFO root fetch - main [MainThread]: End processing [wafermap-clustering]: success
+[2023-07-19 13:26:28] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2023-07-19 13:26:28] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2023-07-19 13:26:28] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-07-19 13:26:29] INFO root fetch - processPackages [py4web-debug-tools]: Remove: archive file [/home/abi/fetcher/tmp/py4web_debug_tools-1.0.0.tar.gz]
+[2023-07-19 13:26:29] INFO root fetch - processPackages [py4web-debug-tools]: Remove: archive file [/home/abi/fetcher/tmp/py4web_debug_tools-1.1.0.tar.gz]
+[2023-07-19 13:26:29] INFO root fetch - main [MainThread]: End processing [py4web-debug-tools]: success
+[2023-07-19 13:26:29] INFO root fetch - processPackages [web3r]: Remove: archive file [/home/abi/fetcher/tmp/web3r-0.1.tar.gz]
+[2023-07-19 13:26:29] INFO root fetch - processPackages [web3r]: Remove: archive file [/home/abi/fetcher/tmp/web3r-0.2.tar.gz]
+[2023-07-19 13:26:29] INFO root fetch - main [MainThread]: End processing [web3r]: success
+[2023-07-19 13:26:29] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.688.tar.gz]
+[2023-07-19 13:26:29] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.689.tar.gz]
+[2023-07-19 13:26:29] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-19 13:26:29] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-6.0.0.tar.gz]
+[2023-07-19 13:26:29] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-6.1.0.tar.gz]
+[2023-07-19 13:26:29] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-19 13:26:30] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip]
+[2023-07-19 13:26:30] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-19 13:26:30] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2023-07-19 13:26:30] INFO root fetch - main [MainThread]: Store serial: [18949284]
