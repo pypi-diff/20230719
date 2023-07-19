@@ -21883,3 +21883,108 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-19 12:59:59] INFO root fetch - processPackages [systembridgewindowssensors]: Remove: archive file [/home/abi/fetcher/tmp/systembridgewindowssensors-3.8.0.dev9.tar.gz]
 [2023-07-19 12:59:59] INFO root fetch - main [MainThread]: End processing [systembridgewindowssensors]: success
 [2023-07-19 12:59:59] INFO root fetch - main [MainThread]: Store serial: [18949016]
+[2023-07-19 13:05:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18949016]
+[2023-07-19 13:05:08] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-19 13:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dj-static-revision
+[2023-07-19 13:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: capnpy
+[2023-07-19 13:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TDCRPy
+[2023-07-19 13:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seven-cloudapp-frame
+[2023-07-19 13:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-mp-shop-offers
+[2023-07-19 13:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: visium-explore
+[2023-07-19 13:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: myokit
+[2023-07-19 13:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: irene-pro
+[2023-07-19 13:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: crypto-screening
+[2023-07-19 13:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nwebclient
+[2023-07-19 13:05:09] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-19 13:05:09] WARNING root fetch - processPackages [visium-explore]: Skipping, unable to determine old version
+[2023-07-19 13:05:09] INFO root fetch - processPackages [visium-explore]: Start processing: checkov
+[2023-07-19 13:05:09] INFO root fetch - main [MainThread]: End processing [visium-explore] error
+[2023-07-19 13:05:09] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2023-07-19 13:05:09] INFO root fetch - processPackages [capnpy]: New version: [0.9.0rc2] Old Version: [0.9.0]
+[2023-07-19 13:05:09] INFO root fetch - processPackages [myokit]: New version: [1.35.1] Old Version: [1.35.0]
+[2023-07-19 13:05:09] INFO root fetch - processPackages [TDCRPy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 13:05:09] INFO root fetch - processPackages [crypto-screening]: New version: [6.0.0] Old Version: [5.7.0]
+[2023-07-19 13:05:09] INFO root fetch - processPackages [irene-pro]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-19 13:05:09] INFO root fetch - processPackages [dj-static-revision]: New version: [0.6] Old Version: [0.5]
+[2023-07-19 13:05:09] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-19 13:05:09] INFO root fetch - processPackages [django-mp-shop-offers]: New version: [2.0.1] Old Version: [2.0]
+[2023-07-19 13:05:09] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-19 13:05:09] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/b3/1a/cd09e79d4123e375ec6b3ce626431847edb72599fd2f4d9a98f735df511f/crypto-screening-5.7.0.tar.gz
+[2023-07-19 13:05:09] INFO root fetch - processPackages [capnpy]: Downloading https://files.pythonhosted.org/packages/0d/e7/f142e3c5f9bdafec6a9aff388ad67a3015a1eb7eb88ff71cbff607984fe8/capnpy-0.9.0.tar.gz
+[2023-07-19 13:05:09] INFO root fetch - processPackages [myokit]: Downloading https://files.pythonhosted.org/packages/46/67/08e550c2b854cfcc3023815c919003589c6d9d74047ae029cdddf7a0d333/myokit-1.35.0.tar.gz
+[2023-07-19 13:05:09] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/35/2b/05b1b8a3faf3e0417c648bb54a3032af0de6b3d08180acd83e1eea5e3701/seven_cloudapp_frame-1.0.9.8.tar.gz
+[2023-07-19 13:05:09] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/45/d1/26f2b4eb42e05416d7662d5fb8b6f31b59dee6421945806c7b7bfdfbfa94/TDCRPy-0.0.8.tar.gz
+[2023-07-19 13:05:09] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8f/c0/b3713d4cbc03ff63d42af6bc96060bf07ac510f578af21d0beb23a58ebd5/checkov-2.3.98.tar.gz
+[2023-07-19 13:05:09] INFO root fetch - processPackages [dj-static-revision]: Downloading https://files.pythonhosted.org/packages/98/07/297638eebe73b54b54888bb7f4a24cd6d396f732636114a250b52b572b4b/dj-static-revision-0.5.tar.gz
+[2023-07-19 13:05:09] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/64/b8/b77ace7a78db747b01f22cd1332f228a47c0286886d96ef16670c2d8b0ce/irene_pro-0.1.5.tar.gz
+[2023-07-19 13:05:09] INFO root fetch - processPackages [django-mp-shop-offers]: Downloading https://files.pythonhosted.org/packages/9b/b9/5fc7895c9790cf379690cdb003a036f9b4b72df95a971a1852e9b4ebcf8d/django-mp-shop-offers-2.0.tar.gz
+[2023-07-19 13:05:09] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-19 13:05:09] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/58/f4/f09bcfbd9ef3b75b2932ba824304fc7e7bcee566e8570cb2d64f76eb9adc/TDCRPy-0.0.9.tar.gz
+[2023-07-19 13:05:09] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-19 13:05:09] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230719/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-19 13:05:10] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/c2/ba/e426407bd5c33c956f916fde202f873193e224f875f6806177aa53a35ec3/crypto-screening-6.0.0.tar.gz
+[2023-07-19 13:05:10] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/36/b2/faea7cf4d04d72880327d7e73a0327922cb8cd1c61a51e8fd38f344e9f2f/checkov-2.3.99.tar.gz
+[2023-07-19 13:05:10] INFO root fetch - processPackages [TDCRPy]: executing diffoscope
+[2023-07-19 13:05:10] INFO root fetch - processPackages [TDCRPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDCRPy-0.0.8.tar.gz tmp/TDCRPy-0.0.9.tar.gz --markdown 20230719/T/TDCRPy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 13:05:10] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/c4/2b/4a3fc6f61747b01302ce1cd2b04300fb90fd02da2184966a9b58666f728a/irene_pro-0.1.6.tar.gz
+[2023-07-19 13:05:10] INFO root fetch - processPackages [capnpy]: Downloading https://files.pythonhosted.org/packages/81/e3/b59d3b23b5cb2eb0437e07ae38e6b9d692d492cad4da849e9ad25d2f25d5/capnpy-0.9.0rc2.tar.gz
+[2023-07-19 13:05:10] INFO root fetch - processPackages [dj-static-revision]: Downloading https://files.pythonhosted.org/packages/7f/4b/82ce1d8d59f758278c0e7907a566089e6f8ad53274673dc61bc606e91508/dj_static_revision-0.6.tar.gz
+[2023-07-19 13:05:10] INFO root fetch - processPackages [django-mp-shop-offers]: Downloading https://files.pythonhosted.org/packages/12/27/80cbb3f201bc8155f62896bf6cf33318af7bb398ad4938c56214339839cc/django-mp-shop-offers-2.0.1.tar.gz
+[2023-07-19 13:05:10] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-07-19 13:05:10] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230719/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-19 13:05:10] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/74/d6/645286f46e81a7cbd30574c917b65af03679c974a979c0421012bd713cbd/seven_cloudapp_frame-1.0.9.9.tar.gz
+[2023-07-19 13:05:10] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-19 13:05:10] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-5.7.0.tar.gz tmp/crypto-screening-6.0.0.tar.gz --markdown 20230719/c/crypto-screening/5.7.0-6.0.0/diff.md --exclude *.pyd
+[2023-07-19 13:05:10] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-07-19 13:05:10] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.1.5.tar.gz tmp/irene_pro-0.1.6.tar.gz --markdown 20230719/i/irene-pro/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-19 13:05:10] INFO root fetch - processPackages [dj-static-revision]: executing diffoscope
+[2023-07-19 13:05:10] INFO root fetch - processPackages [dj-static-revision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj-static-revision-0.5.tar.gz tmp/dj_static_revision-0.6.tar.gz --markdown 20230719/d/dj-static-revision/0.5-0.6/diff.md --exclude *.pyd
+[2023-07-19 13:05:10] INFO root fetch - processPackages [django-mp-shop-offers]: executing diffoscope
+[2023-07-19 13:05:10] INFO root fetch - processPackages [django-mp-shop-offers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-mp-shop-offers-2.0.tar.gz tmp/django-mp-shop-offers-2.0.1.tar.gz --markdown 20230719/d/django-mp-shop-offers/2.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-19 13:05:10] INFO root fetch - processPackages [myokit]: Downloading https://files.pythonhosted.org/packages/16/15/f699b32a18465b580909385265e05c95f6e5a51d38df9f1ac23337154b5b/myokit-1.35.1.tar.gz
+[2023-07-19 13:05:10] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-07-19 13:05:10] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.8.tar.gz tmp/seven_cloudapp_frame-1.0.9.9.tar.gz --markdown 20230719/s/seven-cloudapp-frame/1.0.9.8-1.0.9.9/diff.md --exclude *.pyd
+[2023-07-19 13:05:10] INFO root fetch - processPackages [capnpy]: executing diffoscope
+[2023-07-19 13:05:10] INFO root fetch - processPackages [capnpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capnpy-0.9.0.tar.gz tmp/capnpy-0.9.0rc2.tar.gz --markdown 20230719/c/capnpy/0.9.0-0.9.0rc2/diff.md --exclude *.pyd
+[2023-07-19 13:05:10] INFO root fetch - processPackages [myokit]: executing diffoscope
+[2023-07-19 13:05:10] INFO root fetch - processPackages [myokit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myokit-1.35.0.tar.gz tmp/myokit-1.35.1.tar.gz --markdown 20230719/m/myokit/1.35.0-1.35.1/diff.md --exclude *.pyd
+[2023-07-19 13:05:11] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-19 13:05:11] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-19 13:05:11] INFO root fetch - processPackages [nwebclient]: Start processing: spaces
+[2023-07-19 13:05:11] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-19 13:05:12] INFO root fetch - processPackages [spaces]: New version: [0.9b1] Old Version: [0.8.0]
+[2023-07-19 13:05:12] INFO root fetch - processPackages [spaces]: Downloading https://files.pythonhosted.org/packages/d1/7b/11318ffef4e73d87603222fe68f3066c1f5b6a6b05f4eccf55910d0bff13/spaces-0.8.0.tar.gz
+[2023-07-19 13:05:12] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.8.tar.gz]
+[2023-07-19 13:05:12] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.9.tar.gz]
+[2023-07-19 13:05:12] INFO root fetch - main [MainThread]: End processing [TDCRPy]: success
+[2023-07-19 13:05:12] INFO root fetch - processPackages [spaces]: Downloading https://files.pythonhosted.org/packages/23/b7/e018ef67aa5015ec5f90cc005195b149fa30f4547e793523a4ffbd16aa28/spaces-0.9b1.tar.gz
+[2023-07-19 13:05:12] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.1.5.tar.gz]
+[2023-07-19 13:05:12] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.1.6.tar.gz]
+[2023-07-19 13:05:12] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-07-19 13:05:12] INFO root fetch - processPackages [dj-static-revision]: Remove: archive file [/home/abi/fetcher/tmp/dj-static-revision-0.5.tar.gz]
+[2023-07-19 13:05:12] INFO root fetch - processPackages [dj-static-revision]: Remove: archive file [/home/abi/fetcher/tmp/dj_static_revision-0.6.tar.gz]
+[2023-07-19 13:05:12] INFO root fetch - main [MainThread]: End processing [dj-static-revision]: success
+[2023-07-19 13:05:12] INFO root fetch - processPackages [spaces]: executing diffoscope
+[2023-07-19 13:05:12] INFO root fetch - processPackages [spaces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaces-0.8.0.tar.gz tmp/spaces-0.9b1.tar.gz --markdown 20230719/s/spaces/0.8.0-0.9b1/diff.md --exclude *.pyd
+[2023-07-19 13:05:12] INFO root fetch - processPackages [django-mp-shop-offers]: Remove: archive file [/home/abi/fetcher/tmp/django-mp-shop-offers-2.0.tar.gz]
+[2023-07-19 13:05:12] INFO root fetch - processPackages [django-mp-shop-offers]: Remove: archive file [/home/abi/fetcher/tmp/django-mp-shop-offers-2.0.1.tar.gz]
+[2023-07-19 13:05:12] INFO root fetch - main [MainThread]: End processing [django-mp-shop-offers]: success
+[2023-07-19 13:05:13] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-5.7.0.tar.gz]
+[2023-07-19 13:05:13] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-6.0.0.tar.gz]
+[2023-07-19 13:05:13] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-19 13:05:13] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.9.8.tar.gz]
+[2023-07-19 13:05:13] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.9.9.tar.gz]
+[2023-07-19 13:05:13] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-07-19 13:05:14] INFO root fetch - processPackages [spaces]: Remove: archive file [/home/abi/fetcher/tmp/spaces-0.8.0.tar.gz]
+[2023-07-19 13:05:14] INFO root fetch - processPackages [spaces]: Remove: archive file [/home/abi/fetcher/tmp/spaces-0.9b1.tar.gz]
+[2023-07-19 13:05:14] INFO root fetch - main [MainThread]: End processing [spaces]: success
+[2023-07-19 13:05:14] INFO root fetch - processPackages [capnpy]: Remove: archive file [/home/abi/fetcher/tmp/capnpy-0.9.0.tar.gz]
+[2023-07-19 13:05:14] INFO root fetch - processPackages [capnpy]: Remove: archive file [/home/abi/fetcher/tmp/capnpy-0.9.0rc2.tar.gz]
+[2023-07-19 13:05:14] INFO root fetch - main [MainThread]: End processing [capnpy]: success
+[2023-07-19 13:05:16] INFO root fetch - processPackages [myokit]: Remove: archive file [/home/abi/fetcher/tmp/myokit-1.35.0.tar.gz]
+[2023-07-19 13:05:16] INFO root fetch - processPackages [myokit]: Remove: archive file [/home/abi/fetcher/tmp/myokit-1.35.1.tar.gz]
+[2023-07-19 13:05:16] INFO root fetch - main [MainThread]: End processing [myokit]: success
+[2023-07-19 13:05:28] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.98.tar.gz]
+[2023-07-19 13:05:28] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
+[2023-07-19 13:05:28] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-07-19 13:05:28] INFO root fetch - main [MainThread]: Store serial: [18949063]
