@@ -14761,3 +14761,86 @@
 [2023-07-19 08:04:43] INFO root fetch - processPackages [quivr]: Remove: archive file [/home/abi/fetcher/tmp/quivr-0.4.3.tar.gz]
 [2023-07-19 08:04:43] INFO root fetch - main [MainThread]: End processing [quivr]: success
 [2023-07-19 08:04:43] INFO root fetch - main [MainThread]: Store serial: [18945946]
+[2023-07-19 08:09:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18945946]
+[2023-07-19 08:09:51] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-19 08:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zhousf-lib
+[2023-07-19 08:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastapi-serve
+[2023-07-19 08:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ImgTextClipboard-python
+[2023-07-19 08:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastapi-serve
+[2023-07-19 08:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dj-beatcloud
+[2023-07-19 08:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: func-ai
+[2023-07-19 08:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ilsadvbisnvavojebaij
+[2023-07-19 08:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastapi-serve
+[2023-07-19 08:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: iqrfpy
+[2023-07-19 08:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: numan
+[2023-07-19 08:09:52] INFO root fetch - processPackages [fastapi-serve]: New version: [0.0.4.dev2] Old Version: [0.0.3.dev9]
+[2023-07-19 08:09:52] INFO root fetch - processPackages [fastapi-serve]: New version: [0.0.4.dev2] Old Version: [0.0.3.dev9]
+[2023-07-19 08:09:52] INFO root fetch - processPackages [zhousf-lib]: New version: [0.8.8] Old Version: [0.8.7]
+[2023-07-19 08:09:52] INFO root fetch - processPackages [fastapi-serve]: New version: [0.0.4.dev2] Old Version: [0.0.3.dev9]
+[2023-07-19 08:09:52] INFO root fetch - processPackages [func-ai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 08:09:52] WARNING root fetch - processPackages [ImgTextClipboard-python]: Skipping, unable to determine old version
+[2023-07-19 08:09:52] INFO root fetch - main [MainThread]: End processing [ImgTextClipboard-python] error
+[2023-07-19 08:09:52] INFO root fetch - processPackages [ilsadvbisnvavojebaij]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-19 08:09:52] INFO root fetch - processPackages [dj-beatcloud]: New version: [2.6.0b2] Old Version: [2.6.0b1]
+[2023-07-19 08:09:52] INFO root fetch - processPackages [numan]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-07-19 08:09:52] INFO root fetch - processPackages [iqrfpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-19 08:09:52] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/c1/ef/c33bb8ce90862ada7ac0e1cb284bc41af05415126105911cc824b193693d/fastapi-serve-0.0.3.dev9.tar.gz
+[2023-07-19 08:09:52] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/c1/ef/c33bb8ce90862ada7ac0e1cb284bc41af05415126105911cc824b193693d/fastapi-serve-0.0.3.dev9.tar.gz
+[2023-07-19 08:09:52] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/c1/ef/c33bb8ce90862ada7ac0e1cb284bc41af05415126105911cc824b193693d/fastapi-serve-0.0.3.dev9.tar.gz
+[2023-07-19 08:09:52] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/00/ea/93254d77024521194bb31361648ca093e067f2861922d6f8ccc3ef6b2283/zhousf-lib-0.8.7.tar.gz
+[2023-07-19 08:09:52] INFO root fetch - processPackages [dj-beatcloud]: Downloading https://files.pythonhosted.org/packages/05/64/2c94f2722b02f4524af76317d965e6325883a7d9e675f23f9303c5d31cc5/dj_beatcloud-2.6.0b1.tar.gz
+[2023-07-19 08:09:52] INFO root fetch - processPackages [func-ai]: Downloading https://files.pythonhosted.org/packages/c0/f4/b23a9b786650ad0b3759f129c070e7d6f14a6df81520c1fd00cc9c5ca0ac/func_ai-0.0.8.tar.gz
+[2023-07-19 08:09:52] INFO root fetch - processPackages [ilsadvbisnvavojebaij]: Downloading https://files.pythonhosted.org/packages/f7/bb/393ecb2d16628474b5d8b200d47b8d11646e72e93507fe560d894e9a989e/ilsadvbisnvavojebaij-0.2.0.tar.gz
+[2023-07-19 08:09:52] INFO root fetch - processPackages [numan]: Downloading https://files.pythonhosted.org/packages/00/63/80e5eb954b6be2068ca27e72bae2e8d4aed20da62257a8ac439acdb075e2/numan-1.0.9.tar.gz
+[2023-07-19 08:09:52] INFO root fetch - processPackages [iqrfpy]: Downloading https://files.pythonhosted.org/packages/b7/5f/e812275617185f777c7fce9c456eb51a907a7befdc183c6889e181172873/iqrfpy-0.1.8.tar.gz
+[2023-07-19 08:09:52] INFO root fetch - processPackages [dj-beatcloud]: Downloading https://files.pythonhosted.org/packages/41/87/a0f6b86f268512c0ca4ce9ff73c6fcf1a0c18310eb72492d172df6e5db0c/dj_beatcloud-2.6.0b2.tar.gz
+[2023-07-19 08:09:52] INFO root fetch - processPackages [ilsadvbisnvavojebaij]: Downloading https://files.pythonhosted.org/packages/0b/9b/8d153a042c77ea034363e2c6b775c3c7b0a3f3430e04333185f1bd2cc14b/ilsadvbisnvavojebaij-0.2.1.tar.gz
+[2023-07-19 08:09:52] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/8f/00/42451ba7bc80f578437abc8508d0da122293f9e1fc34ff63664b146ecc67/fastapi-serve-0.0.4.dev2.tar.gz
+[2023-07-19 08:09:52] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/8f/00/42451ba7bc80f578437abc8508d0da122293f9e1fc34ff63664b146ecc67/fastapi-serve-0.0.4.dev2.tar.gz
+[2023-07-19 08:09:52] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/8f/00/42451ba7bc80f578437abc8508d0da122293f9e1fc34ff63664b146ecc67/fastapi-serve-0.0.4.dev2.tar.gz
+[2023-07-19 08:09:52] INFO root fetch - processPackages [ilsadvbisnvavojebaij]: executing diffoscope
+[2023-07-19 08:09:52] INFO root fetch - processPackages [ilsadvbisnvavojebaij]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ilsadvbisnvavojebaij-0.2.0.tar.gz tmp/ilsadvbisnvavojebaij-0.2.1.tar.gz --markdown 20230719/i/ilsadvbisnvavojebaij/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-19 08:09:52] INFO root fetch - processPackages [func-ai]: Downloading https://files.pythonhosted.org/packages/e1/77/244803e88aec0456ea39650555721c4921effbc09d40de9b2a4fd8299841/func_ai-0.0.9.tar.gz
+[2023-07-19 08:09:52] INFO root fetch - processPackages [dj-beatcloud]: executing diffoscope
+[2023-07-19 08:09:52] INFO root fetch - processPackages [dj-beatcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj_beatcloud-2.6.0b1.tar.gz tmp/dj_beatcloud-2.6.0b2.tar.gz --markdown 20230719/d/dj-beatcloud/2.6.0b1-2.6.0b2/diff.md --exclude *.pyd
+[2023-07-19 08:09:52] INFO root fetch - processPackages [fastapi-serve]: executing diffoscope
+[2023-07-19 08:09:52] INFO root fetch - processPackages [fastapi-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-serve-0.0.3.dev9.tar.gz tmp/fastapi-serve-0.0.4.dev2.tar.gz --markdown 20230719/f/fastapi-serve/0.0.3.dev9-0.0.4.dev2/diff.md --exclude *.pyd
+[2023-07-19 08:09:52] INFO root fetch - processPackages [fastapi-serve]: executing diffoscope
+[2023-07-19 08:09:52] INFO root fetch - processPackages [fastapi-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-serve-0.0.3.dev9.tar.gz tmp/fastapi-serve-0.0.4.dev2.tar.gz --markdown 20230719/f/fastapi-serve/0.0.3.dev9-0.0.4.dev2/diff.md --exclude *.pyd
+[2023-07-19 08:09:52] INFO root fetch - processPackages [fastapi-serve]: executing diffoscope
+[2023-07-19 08:09:52] INFO root fetch - processPackages [fastapi-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-serve-0.0.3.dev9.tar.gz tmp/fastapi-serve-0.0.4.dev2.tar.gz --markdown 20230719/f/fastapi-serve/0.0.3.dev9-0.0.4.dev2/diff.md --exclude *.pyd
+[2023-07-19 08:09:53] INFO root fetch - processPackages [func-ai]: executing diffoscope
+[2023-07-19 08:09:53] INFO root fetch - processPackages [func-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/func_ai-0.0.8.tar.gz tmp/func_ai-0.0.9.tar.gz --markdown 20230719/f/func-ai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 08:09:53] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/8c/10/f2e41da1240d36a250de7f8e447ebe71cc206b0deca1e4a01e92fdb69e26/zhousf-lib-0.8.8.tar.gz
+[2023-07-19 08:09:53] INFO root fetch - processPackages [numan]: Downloading https://files.pythonhosted.org/packages/0d/3e/58147cca17a0dbd405c89dc717efd9e7e91e09ee3479225d4725c85591a9/numan-1.1.0.tar.gz
+[2023-07-19 08:09:53] INFO root fetch - processPackages [iqrfpy]: Downloading https://files.pythonhosted.org/packages/61/4d/d6db2b0216d6f8be72314ce157fb65dd7999d0129899beaf32ce8889d1db/iqrfpy-0.1.9.tar.gz
+[2023-07-19 08:09:53] INFO root fetch - processPackages [numan]: executing diffoscope
+[2023-07-19 08:09:53] INFO root fetch - processPackages [numan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numan-1.0.9.tar.gz tmp/numan-1.1.0.tar.gz --markdown 20230719/n/numan/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-07-19 08:09:53] INFO root fetch - processPackages [zhousf-lib]: executing diffoscope
+[2023-07-19 08:09:53] INFO root fetch - processPackages [zhousf-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhousf-lib-0.8.7.tar.gz tmp/zhousf-lib-0.8.8.tar.gz --markdown 20230719/z/zhousf-lib/0.8.7-0.8.8/diff.md --exclude *.pyd
+[2023-07-19 08:09:53] INFO root fetch - processPackages [iqrfpy]: executing diffoscope
+[2023-07-19 08:09:53] INFO root fetch - processPackages [iqrfpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqrfpy-0.1.8.tar.gz tmp/iqrfpy-0.1.9.tar.gz --markdown 20230719/i/iqrfpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-19 08:09:54] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.3.dev9.tar.gz]
+[2023-07-19 08:09:54] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.4.dev2.tar.gz]
+[2023-07-19 08:09:54] INFO root fetch - main [MainThread]: End processing [fastapi-serve]: success
+[2023-07-19 08:09:54] INFO root fetch - processPackages [ilsadvbisnvavojebaij]: Remove: archive file [/home/abi/fetcher/tmp/ilsadvbisnvavojebaij-0.2.0.tar.gz]
+[2023-07-19 08:09:54] INFO root fetch - processPackages [ilsadvbisnvavojebaij]: Remove: archive file [/home/abi/fetcher/tmp/ilsadvbisnvavojebaij-0.2.1.tar.gz]
+[2023-07-19 08:09:54] INFO root fetch - main [MainThread]: End processing [ilsadvbisnvavojebaij]: success
+[2023-07-19 08:09:54] INFO root fetch - main [MainThread]: End processing [fastapi-serve]: success
+[2023-07-19 08:09:54] INFO root fetch - processPackages [func-ai]: Remove: archive file [/home/abi/fetcher/tmp/func_ai-0.0.8.tar.gz]
+[2023-07-19 08:09:54] INFO root fetch - processPackages [func-ai]: Remove: archive file [/home/abi/fetcher/tmp/func_ai-0.0.9.tar.gz]
+[2023-07-19 08:09:54] INFO root fetch - main [MainThread]: End processing [func-ai]: success
+[2023-07-19 08:09:54] INFO root fetch - main [MainThread]: End processing [fastapi-serve]: success
+[2023-07-19 08:09:54] INFO root fetch - processPackages [dj-beatcloud]: Remove: archive file [/home/abi/fetcher/tmp/dj_beatcloud-2.6.0b1.tar.gz]
+[2023-07-19 08:09:54] INFO root fetch - processPackages [dj-beatcloud]: Remove: archive file [/home/abi/fetcher/tmp/dj_beatcloud-2.6.0b2.tar.gz]
+[2023-07-19 08:09:54] INFO root fetch - main [MainThread]: End processing [dj-beatcloud]: success
+[2023-07-19 08:09:54] INFO root fetch - processPackages [numan]: Remove: archive file [/home/abi/fetcher/tmp/numan-1.0.9.tar.gz]
+[2023-07-19 08:09:54] INFO root fetch - processPackages [numan]: Remove: archive file [/home/abi/fetcher/tmp/numan-1.1.0.tar.gz]
+[2023-07-19 08:09:54] INFO root fetch - main [MainThread]: End processing [numan]: success
+[2023-07-19 08:09:55] INFO root fetch - processPackages [iqrfpy]: Remove: archive file [/home/abi/fetcher/tmp/iqrfpy-0.1.8.tar.gz]
+[2023-07-19 08:09:55] INFO root fetch - processPackages [iqrfpy]: Remove: archive file [/home/abi/fetcher/tmp/iqrfpy-0.1.9.tar.gz]
+[2023-07-19 08:09:55] INFO root fetch - main [MainThread]: End processing [iqrfpy]: success
+[2023-07-19 08:09:55] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-0.8.7.tar.gz]
+[2023-07-19 08:09:55] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-0.8.8.tar.gz]
+[2023-07-19 08:09:55] INFO root fetch - main [MainThread]: End processing [zhousf-lib]: success
+[2023-07-19 08:09:55] INFO root fetch - main [MainThread]: Store serial: [18945975]
