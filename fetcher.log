@@ -18187,3 +18187,129 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-19 10:35:42] INFO root fetch - processPackages [aify]: Remove: archive file [/home/abi/fetcher/tmp/aify-0.1.2-py3-none-any.whl.zip]
 [2023-07-19 10:35:42] INFO root fetch - main [MainThread]: End processing [aify]: success
 [2023-07-19 10:35:42] INFO root fetch - main [MainThread]: Store serial: [18947202]
+[2023-07-19 10:40:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18947202]
+[2023-07-19 10:40:52] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-19 10:40:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alpaqa
+[2023-07-19 10:40:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nvfuser-cu117
+[2023-07-19 10:40:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sphinx-wagtail-theme
+[2023-07-19 10:40:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clickzetta-migration
+[2023-07-19 10:40:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alpaqa-debug
+[2023-07-19 10:40:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: atomicshop
+[2023-07-19 10:40:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nvfuser-cu118
+[2023-07-19 10:40:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ArducamEvkSDK
+[2023-07-19 10:40:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cosmicexcelchecker
+[2023-07-19 10:40:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: collective.redirect301
+[2023-07-19 10:40:52] INFO root fetch - processPackages [nvfuser-cu117]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-07-19 10:40:52] INFO root fetch - processPackages [atomicshop]: New version: [1.8.8] Old Version: [1.8.7]
+[2023-07-19 10:40:52] INFO root fetch - processPackages [clickzetta-migration]: New version: [0.0.0.6] Old Version: [0.0.0.5]
+[2023-07-19 10:40:52] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-07-19 10:40:52] INFO root fetch - processPackages [sphinx-wagtail-theme]: New version: [6.1.0] Old Version: [6.0.0]
+[2023-07-19 10:40:52] WARNING root fetch - processPackages [ArducamEvkSDK]: Skipping, unable to determine old version
+[2023-07-19 10:40:52] INFO root fetch - processPackages [ArducamEvkSDK]: Start processing: trainy
+[2023-07-19 10:40:52] INFO root fetch - main [MainThread]: End processing [ArducamEvkSDK] error
+[2023-07-19 10:40:52] WARNING root fetch - processPackages [collective.redirect301]: Skipping, unable to determine old version
+[2023-07-19 10:40:52] INFO root fetch - processPackages [collective.redirect301]: Start processing: tremolo
+[2023-07-19 10:40:52] INFO root fetch - main [MainThread]: End processing [collective.redirect301] error
+[2023-07-19 10:40:52] INFO root fetch - processPackages [cosmicexcelchecker]: New version: [0.2.2a0] Old Version: [0.2.1]
+[2023-07-19 10:40:52] WARNING root fetch - processPackages [alpaqa-debug]: Skipping, unable to determine old version
+[2023-07-19 10:40:52] INFO root fetch - processPackages [alpaqa-debug]: Start processing: aiworkflows
+[2023-07-19 10:40:52] INFO root fetch - main [MainThread]: End processing [alpaqa-debug] error
+[2023-07-19 10:40:52] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/11/78/714a22dd505cf6f43ec03fad23030621a676285436e517b7657ceca64f6d/atomicshop-1.8.7-py3-none-any.whl
+[2023-07-19 10:40:52] INFO root fetch - processPackages [nvfuser-cu117]: Downloading https://files.pythonhosted.org/packages/97/5f/a04da4d60f1816efafaa93531502bc7956df43f23ed210d62d175d8ae006/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-19 10:40:52] INFO root fetch - processPackages [alpaqa]: New version: [1.0.0a7] Old Version: [1.0.0a6]
+[2023-07-19 10:40:52] INFO root fetch - processPackages [clickzetta-migration]: Downloading https://files.pythonhosted.org/packages/b2/88/c04c2cef2e9078c9a9036d46a23b7462acdf5232c5b3f3f8ec68718fe703/clickzetta-migration-0.0.0.5.tar.gz
+[2023-07-19 10:40:52] WARNING root fetch - processPackages [trainy]: Skipping, unable to determine old version
+[2023-07-19 10:40:52] INFO root fetch - processPackages [trainy]: Start processing: pystlogic
+[2023-07-19 10:40:52] INFO root fetch - main [MainThread]: End processing [trainy] error
+[2023-07-19 10:40:52] INFO root fetch - processPackages [tremolo]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-19 10:40:52] INFO root fetch - processPackages [aiworkflows]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-19 10:40:52] INFO root fetch - processPackages [sphinx-wagtail-theme]: Downloading https://files.pythonhosted.org/packages/e0/d9/27b8e850bc6480916e8e387692c239ccbc1dd3a5bc9b7f6606af672fad00/sphinx_wagtail_theme-6.0.0.tar.gz
+[2023-07-19 10:40:52] INFO root fetch - processPackages [cosmicexcelchecker]: Downloading https://files.pythonhosted.org/packages/4d/55/2ffa77e1143fc64c238688b266478b45cb3bc24e1b035185290692cbbe76/cosmicexcelchecker-0.2.1.tar.gz
+[2023-07-19 10:40:52] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/4b/cd/4c428ce97d9be97932eb85eb49ce89f8833a6daf4081080607d7a4dd07d9/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-19 10:40:53] WARNING root fetch - processPackages [pystlogic]: Skipping, unable to determine old version
+[2023-07-19 10:40:53] INFO root fetch - processPackages [pystlogic]: Start processing: cloudoll
+[2023-07-19 10:40:53] INFO root fetch - main [MainThread]: End processing [pystlogic] error
+[2023-07-19 10:40:53] INFO root fetch - processPackages [tremolo]: Downloading https://files.pythonhosted.org/packages/17/91/55df15a00968bc570dc929dde0d884467bd21d9f1dc571df2cf31ad3d9c0/tremolo-0.0.98.tar.gz
+[2023-07-19 10:40:53] INFO root fetch - processPackages [alpaqa]: Downloading https://files.pythonhosted.org/packages/f6/32/5adf0f8b8c7227976ff285bf2cd392c43934e844b9c96bf6d0897e74b9c4/alpaqa-1.0.0a6.tar.gz
+[2023-07-19 10:40:53] INFO root fetch - processPackages [cloudoll]: New version: [2.0.7] Old Version: [2.0.6]
+[2023-07-19 10:40:53] INFO root fetch - processPackages [cloudoll]: Downloading https://files.pythonhosted.org/packages/06/b3/2643e471e443116c95de0d0287850921b1db5283ab97564d931e252aa4ed/cloudoll-2.0.6.tar.gz
+[2023-07-19 10:40:53] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/07/60/67b67e7fd3cd5ee6777eed9c1c4877cd02d339a1ba6519d852f8845c66b2/atomicshop-1.8.8-py3-none-any.whl
+[2023-07-19 10:40:53] INFO root fetch - processPackages [clickzetta-migration]: Downloading https://files.pythonhosted.org/packages/c9/5e/7538f48c074387f7e3a5ad48f54fffba6fcc77d86a16f3faaa4119ad5130/clickzetta-migration-0.0.0.6.tar.gz
+[2023-07-19 10:40:53] INFO root fetch - processPackages [aiworkflows]: Downloading https://files.pythonhosted.org/packages/68/4e/f1f54914731cfa6cf3cacabd6e4c3aef62432ec15be593b7b54913bea2ee/aiworkflows-0.0.1.tar.gz
+[2023-07-19 10:40:53] INFO root fetch - processPackages [tremolo]: Downloading https://files.pythonhosted.org/packages/9d/1f/2855765591f7f7e3122f1fde84cd87b5ded8131578ba6b246fe07394c77b/tremolo-0.0.99.tar.gz
+[2023-07-19 10:40:53] INFO root fetch - processPackages [cosmicexcelchecker]: Downloading https://files.pythonhosted.org/packages/f9/de/b830773f66ed02c1f53514dd76bf37edb60f333fe3cc283c0a68f68253ce/cosmicexcelchecker-0.2.2a0.tar.gz
+[2023-07-19 10:40:53] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2023-07-19 10:40:53] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-1.8.7-py3-none-any.whl.zip tmp/atomicshop-1.8.8-py3-none-any.whl.zip --markdown 20230719/a/atomicshop/1.8.7-1.8.8/diff.md --exclude *.pyd
+[2023-07-19 10:40:53] INFO root fetch - processPackages [clickzetta-migration]: executing diffoscope
+[2023-07-19 10:40:53] INFO root fetch - processPackages [clickzetta-migration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-migration-0.0.0.5.tar.gz tmp/clickzetta-migration-0.0.0.6.tar.gz --markdown 20230719/c/clickzetta-migration/0.0.0.5-0.0.0.6/diff.md --exclude *.pyd
+[2023-07-19 10:40:53] INFO root fetch - processPackages [sphinx-wagtail-theme]: Downloading https://files.pythonhosted.org/packages/31/b5/9eaaf4a644db221d6c94d585dc769d550f3fc87ffe0e46c35f80c60e7c6c/sphinx_wagtail_theme-6.1.0.tar.gz
+[2023-07-19 10:40:53] INFO root fetch - processPackages [alpaqa]: Downloading https://files.pythonhosted.org/packages/83/34/dabccce430ae25281b1f3da5ed4d83a76fadd97d7297d7319705e6e43234/alpaqa-1.0.0a7.tar.gz
+[2023-07-19 10:40:53] INFO root fetch - processPackages [aiworkflows]: Downloading https://files.pythonhosted.org/packages/79/cd/365b9bedb0fcec4562e4e66e1081d9d874036930212b71ab71d0ace3ce1c/aiworkflows-0.0.2.tar.gz
+[2023-07-19 10:40:53] INFO root fetch - processPackages [tremolo]: executing diffoscope
+[2023-07-19 10:40:53] INFO root fetch - processPackages [tremolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tremolo-0.0.98.tar.gz tmp/tremolo-0.0.99.tar.gz --markdown 20230719/t/tremolo/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-19 10:40:53] INFO root fetch - processPackages [cloudoll]: Downloading https://files.pythonhosted.org/packages/0b/6e/20b508879b1b9a480880f43be213451159d737a2ff506444e12f0c09bc20/cloudoll-2.0.7.tar.gz
+[2023-07-19 10:40:53] INFO root fetch - processPackages [cosmicexcelchecker]: executing diffoscope
+[2023-07-19 10:40:53] INFO root fetch - processPackages [cosmicexcelchecker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cosmicexcelchecker-0.2.1.tar.gz tmp/cosmicexcelchecker-0.2.2a0.tar.gz --markdown 20230719/c/cosmicexcelchecker/0.2.1-0.2.2a0/diff.md --exclude *.pyd
+[2023-07-19 10:40:53] INFO root fetch - processPackages [aiworkflows]: executing diffoscope
+[2023-07-19 10:40:53] INFO root fetch - processPackages [aiworkflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiworkflows-0.0.1.tar.gz tmp/aiworkflows-0.0.2.tar.gz --markdown 20230719/a/aiworkflows/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-19 10:40:53] INFO root fetch - processPackages [alpaqa]: executing diffoscope
+[2023-07-19 10:40:53] INFO root fetch - processPackages [alpaqa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alpaqa-1.0.0a6.tar.gz tmp/alpaqa-1.0.0a7.tar.gz --markdown 20230719/a/alpaqa/1.0.0a6-1.0.0a7/diff.md --exclude *.pyd
+[2023-07-19 10:40:53] INFO root fetch - processPackages [cloudoll]: executing diffoscope
+[2023-07-19 10:40:53] INFO root fetch - processPackages [cloudoll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudoll-2.0.6.tar.gz tmp/cloudoll-2.0.7.tar.gz --markdown 20230719/c/cloudoll/2.0.6-2.0.7/diff.md --exclude *.pyd
+[2023-07-19 10:40:53] INFO root fetch - processPackages [sphinx-wagtail-theme]: executing diffoscope
+[2023-07-19 10:40:53] INFO root fetch - processPackages [sphinx-wagtail-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_wagtail_theme-6.0.0.tar.gz tmp/sphinx_wagtail_theme-6.1.0.tar.gz --markdown 20230719/s/sphinx-wagtail-theme/6.0.0-6.1.0/diff.md --exclude *.pyd
+[2023-07-19 10:40:54] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/b4/43/b31a00b4452d0b5904b6a1613a4dc7aa7a262ccdc4d4f61614f466008980/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-19 10:40:54] INFO root fetch - processPackages [nvfuser-cu117]: Downloading https://files.pythonhosted.org/packages/74/50/be3d462491ae9f70d80293010b36c2a163fbf4cce3cab00d4fd749c345ce/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-19 10:40:55] INFO root fetch - processPackages [clickzetta-migration]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-migration-0.0.0.5.tar.gz]
+[2023-07-19 10:40:55] INFO root fetch - processPackages [clickzetta-migration]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-migration-0.0.0.6.tar.gz]
+[2023-07-19 10:40:55] INFO root fetch - processPackages [clickzetta-migration]: Start processing: upkie_description
+[2023-07-19 10:40:55] INFO root fetch - main [MainThread]: End processing [clickzetta-migration]: success
+[2023-07-19 10:40:55] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2023-07-19 10:40:55] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230719/n/nvfuser-cu118/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-07-19 10:40:55] INFO root fetch - processPackages [upkie_description]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-07-19 10:40:55] INFO root fetch - processPackages [tremolo]: Remove: archive file [/home/abi/fetcher/tmp/tremolo-0.0.98.tar.gz]
+[2023-07-19 10:40:55] INFO root fetch - processPackages [tremolo]: Remove: archive file [/home/abi/fetcher/tmp/tremolo-0.0.99.tar.gz]
+[2023-07-19 10:40:55] INFO root fetch - processPackages [tremolo]: Start processing: fwdviewpy
+[2023-07-19 10:40:55] INFO root fetch - main [MainThread]: End processing [tremolo]: success
+[2023-07-19 10:40:55] INFO root fetch - processPackages [fwdviewpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-19 10:40:55] INFO root fetch - processPackages [aiworkflows]: Remove: archive file [/home/abi/fetcher/tmp/aiworkflows-0.0.1.tar.gz]
+[2023-07-19 10:40:55] INFO root fetch - processPackages [aiworkflows]: Remove: archive file [/home/abi/fetcher/tmp/aiworkflows-0.0.2.tar.gz]
+[2023-07-19 10:40:55] INFO root fetch - main [MainThread]: End processing [aiworkflows]: success
+[2023-07-19 10:40:55] INFO root fetch - processPackages [cosmicexcelchecker]: Remove: archive file [/home/abi/fetcher/tmp/cosmicexcelchecker-0.2.1.tar.gz]
+[2023-07-19 10:40:55] INFO root fetch - processPackages [cosmicexcelchecker]: Remove: archive file [/home/abi/fetcher/tmp/cosmicexcelchecker-0.2.2a0.tar.gz]
+[2023-07-19 10:40:55] INFO root fetch - main [MainThread]: End processing [cosmicexcelchecker]: success
+[2023-07-19 10:40:55] INFO root fetch - processPackages [cloudoll]: Remove: archive file [/home/abi/fetcher/tmp/cloudoll-2.0.6.tar.gz]
+[2023-07-19 10:40:55] INFO root fetch - processPackages [cloudoll]: Remove: archive file [/home/abi/fetcher/tmp/cloudoll-2.0.7.tar.gz]
+[2023-07-19 10:40:55] INFO root fetch - main [MainThread]: End processing [cloudoll]: success
+[2023-07-19 10:40:55] INFO root fetch - processPackages [upkie_description]: Downloading https://files.pythonhosted.org/packages/0b/36/92352ede7b3df6466468628b79113d99c6551b58864b5dc3d112cebffa38/upkie_description-1.3.0.tar.gz
+[2023-07-19 10:40:55] INFO root fetch - processPackages [fwdviewpy]: Downloading https://files.pythonhosted.org/packages/3e/73/2afa6fcbbdcbdb8f06826b7788d93771111bc330d73133654c81a5d742de/fwdviewpy-0.1.8.tar.gz
+[2023-07-19 10:40:56] INFO root fetch - processPackages [fwdviewpy]: Downloading https://files.pythonhosted.org/packages/8a/ad/935ce0b4a6ffdf166ff13e80c7efb896639069807f34b5d234fca7adbeaa/fwdviewpy-0.1.9.tar.gz
+[2023-07-19 10:40:56] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-1.8.7-py3-none-any.whl.zip]
+[2023-07-19 10:40:56] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-1.8.8-py3-none-any.whl.zip]
+[2023-07-19 10:40:56] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2023-07-19 10:40:56] INFO root fetch - processPackages [fwdviewpy]: executing diffoscope
+[2023-07-19 10:40:56] INFO root fetch - processPackages [fwdviewpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fwdviewpy-0.1.8.tar.gz tmp/fwdviewpy-0.1.9.tar.gz --markdown 20230719/f/fwdviewpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-19 10:40:56] INFO root fetch - processPackages [alpaqa]: Remove: archive file [/home/abi/fetcher/tmp/alpaqa-1.0.0a6.tar.gz]
+[2023-07-19 10:40:56] INFO root fetch - processPackages [alpaqa]: Remove: archive file [/home/abi/fetcher/tmp/alpaqa-1.0.0a7.tar.gz]
+[2023-07-19 10:40:56] INFO root fetch - main [MainThread]: End processing [alpaqa]: success
+[2023-07-19 10:40:56] INFO root fetch - processPackages [nvfuser-cu117]: executing diffoscope
+[2023-07-19 10:40:56] INFO root fetch - processPackages [nvfuser-cu117]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230719/n/nvfuser-cu117/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-07-19 10:40:57] INFO root fetch - processPackages [upkie_description]: Downloading https://files.pythonhosted.org/packages/05/e4/7154f78bb9ab484583e9e88432b9355e26973924cadfab6b868746a2829d/upkie_description-1.4.0.tar.gz
+[2023-07-19 10:40:57] INFO root fetch - processPackages [fwdviewpy]: Remove: archive file [/home/abi/fetcher/tmp/fwdviewpy-0.1.8.tar.gz]
+[2023-07-19 10:40:57] INFO root fetch - processPackages [fwdviewpy]: Remove: archive file [/home/abi/fetcher/tmp/fwdviewpy-0.1.9.tar.gz]
+[2023-07-19 10:40:57] INFO root fetch - main [MainThread]: End processing [fwdviewpy]: success
+[2023-07-19 10:40:57] INFO root fetch - processPackages [upkie_description]: executing diffoscope
+[2023-07-19 10:40:57] INFO root fetch - processPackages [upkie_description]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upkie_description-1.3.0.tar.gz tmp/upkie_description-1.4.0.tar.gz --markdown 20230719/u/upkie_description/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-07-19 10:40:57] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-19 10:40:57] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-19 10:40:57] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2023-07-19 10:40:58] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-19 10:40:58] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-19 10:40:58] INFO root fetch - main [MainThread]: End processing [nvfuser-cu117]: success
+[2023-07-19 10:40:59] INFO root fetch - processPackages [upkie_description]: Remove: archive file [/home/abi/fetcher/tmp/upkie_description-1.3.0.tar.gz]
+[2023-07-19 10:40:59] INFO root fetch - processPackages [upkie_description]: Remove: archive file [/home/abi/fetcher/tmp/upkie_description-1.4.0.tar.gz]
+[2023-07-19 10:40:59] INFO root fetch - main [MainThread]: End processing [upkie_description]: success
+[2023-07-19 10:41:02] INFO root fetch - processPackages [sphinx-wagtail-theme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_wagtail_theme-6.0.0.tar.gz]
+[2023-07-19 10:41:02] INFO root fetch - processPackages [sphinx-wagtail-theme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_wagtail_theme-6.1.0.tar.gz]
+[2023-07-19 10:41:02] INFO root fetch - main [MainThread]: End processing [sphinx-wagtail-theme]: success
+[2023-07-19 10:41:02] INFO root fetch - main [MainThread]: Store serial: [18947330]
