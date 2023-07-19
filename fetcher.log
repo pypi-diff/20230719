@@ -20007,3 +20007,140 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-19 11:44:42] INFO root fetch - processPackages [gmsaas]: Remove: archive file [/home/abi/fetcher/tmp/gmsaas-1.8.0-py3-none-win_amd64.whl.zip]
 [2023-07-19 11:44:42] INFO root fetch - main [MainThread]: End processing [gmsaas]: success
 [2023-07-19 11:44:42] INFO root fetch - main [MainThread]: Store serial: [18948094]
+[2023-07-19 11:49:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18948094]
+[2023-07-19 11:49:51] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-19 11:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wonder-sdk
+[2023-07-19 11:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: akshare
+[2023-07-19 11:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: collective.behavior.relatedmedia
+[2023-07-19 11:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stock-open-api
+[2023-07-19 11:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: elefanto-webkassa
+[2023-07-19 11:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wodoo
+[2023-07-19 11:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aesim.simba
+[2023-07-19 11:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: image-file-validator
+[2023-07-19 11:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: atproto
+[2023-07-19 11:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: uagents-twilio
+[2023-07-19 11:49:51] INFO root fetch - processPackages [atproto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 11:49:51] INFO root fetch - processPackages [aesim.simba]: New version: [23.5.5] Old Version: [2023.7.7a1]
+[2023-07-19 11:49:51] INFO root fetch - processPackages [uagents-twilio]: New version: [1.1] Old Version: [1.0]
+[2023-07-19 11:49:51] INFO root fetch - processPackages [collective.behavior.relatedmedia]: New version: [3.3.1] Old Version: [3.3.0]
+[2023-07-19 11:49:51] INFO root fetch - processPackages [stock-open-api]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-19 11:49:51] INFO root fetch - processPackages [elefanto-webkassa]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-19 11:49:51] INFO root fetch - processPackages [wodoo]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-19 11:49:51] INFO root fetch - processPackages [wonder-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-19 11:49:51] INFO root fetch - processPackages [image-file-validator]: New version: [0.0.4] Old Version: [0.0.1]
+[2023-07-19 11:49:51] INFO root fetch - processPackages [elefanto-webkassa]: Downloading https://files.pythonhosted.org/packages/ea/41/8d6a9d20d44bf1e7cb8e951a562669f13b60ccd84447c3e70d67392fe5af/elefanto_webkassa-0.2.0.tar.gz
+[2023-07-19 11:49:51] INFO root fetch - processPackages [atproto]: Downloading https://files.pythonhosted.org/packages/41/b1/8fd5cf9bb765a6bab94fe28a2c42c4f7961bca68115339fa301a2551b814/atproto-0.0.8.tar.gz
+[2023-07-19 11:49:51] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-07-19 11:49:51] INFO root fetch - processPackages [aesim.simba]: Downloading https://files.pythonhosted.org/packages/99/c0/91f2d8ca1666c667c28916adb39658c714234a72dab1cb3a7e4632e1fd5b/aesim.simba-2023.7.7a1-py3-none-win_amd64.whl
+[2023-07-19 11:49:51] INFO root fetch - processPackages [stock-open-api]: Downloading https://files.pythonhosted.org/packages/16/1f/656d2d2ee72475da82f243812d226d1824d6429d60769fdea06fe4bde7c3/stock-open-api-0.0.3.tar.gz
+[2023-07-19 11:49:51] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/f1/e5/4eaf4bac81e606caa8deb3d95f64c8de95dc532f6bd16aef12de595f56cc/wodoo-0.4.8.tar.gz
+[2023-07-19 11:49:51] WARNING root fetch - processPackages [aesim.simba]: Skipping package: exceeds size limit 70570174>=10485760
+[2023-07-19 11:49:51] INFO root fetch - processPackages [aesim.simba]: Start processing: letterenv
+[2023-07-19 11:49:51] INFO root fetch - main [MainThread]: End processing [aesim.simba] error
+[2023-07-19 11:49:51] INFO root fetch - processPackages [uagents-twilio]: Downloading https://files.pythonhosted.org/packages/95/7d/5a13ebd44b8bb77c76112ef50f3ff272f3eab09b004f6b1a0de5e3df6623/uagents_twilio-1.0.tar.gz
+[2023-07-19 11:49:51] INFO root fetch - processPackages [collective.behavior.relatedmedia]: Downloading https://files.pythonhosted.org/packages/76/c2/3fba1a881d5995368d84e83de78273cbfbde61ca8c6ddedb62b7b8ec9c27/collective.behavior.relatedmedia-3.3.0.tar.gz
+[2023-07-19 11:49:51] INFO root fetch - processPackages [letterenv]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-19 11:49:52] INFO root fetch - processPackages [image-file-validator]: Downloading https://files.pythonhosted.org/packages/cc/5f/490e0becef40abcbffea9aab15d856fa9d0bcd961a37575ae52bd91707ea/image-file-validator-0.0.1.tar.gz
+[2023-07-19 11:49:52] INFO root fetch - processPackages [wonder-sdk]: Downloading https://files.pythonhosted.org/packages/37/05/241450cdd86b168a622dc8451f3538b4f32243b5ee9cc34c5c69fd955cfe/wonder-sdk-0.1.8.tar.gz
+[2023-07-19 11:49:52] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2023-07-19 11:49:52] INFO root fetch - processPackages [letterenv]: Downloading https://files.pythonhosted.org/packages/43/30/5e4cf529848d164f7e4a63d6518d6c76a3cd5903ad19e34ee86fe6f88b42/letterenv-0.1.3.tar.gz
+[2023-07-19 11:49:52] INFO root fetch - processPackages [atproto]: Downloading https://files.pythonhosted.org/packages/77/1e/7dc305471e00c4c47363abdd5b249d56887681dfb22aa19f38866d6e7506/atproto-0.0.9.tar.gz
+[2023-07-19 11:49:52] INFO root fetch - processPackages [elefanto-webkassa]: Downloading https://files.pythonhosted.org/packages/3c/52/bfd5755e9e35259bb01df7b728717cc12da73c6c3104db3cf2c97c6937c6/elefanto_webkassa-0.2.1.tar.gz
+[2023-07-19 11:49:52] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/34/e8/81686b3a77a0edae554159a95e4782f911bd4ea59a2990954162a6b1e97e/wodoo-0.4.9.tar.gz
+[2023-07-19 11:49:52] INFO root fetch - processPackages [atproto]: executing diffoscope
+[2023-07-19 11:49:52] INFO root fetch - processPackages [atproto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atproto-0.0.8.tar.gz tmp/atproto-0.0.9.tar.gz --markdown 20230719/a/atproto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 11:49:52] INFO root fetch - processPackages [elefanto-webkassa]: executing diffoscope
+[2023-07-19 11:49:52] INFO root fetch - processPackages [elefanto-webkassa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elefanto_webkassa-0.2.0.tar.gz tmp/elefanto_webkassa-0.2.1.tar.gz --markdown 20230719/e/elefanto-webkassa/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-19 11:49:52] INFO root fetch - processPackages [stock-open-api]: Downloading https://files.pythonhosted.org/packages/c2/91/e1f0ac49bf7690418c7b8c07ad5e4445efce24b74ef95b60e2fe9ec214c5/stock-open-api-0.0.4.tar.gz
+[2023-07-19 11:49:52] INFO root fetch - processPackages [uagents-twilio]: Downloading https://files.pythonhosted.org/packages/20/3d/0152e2b1fb318033adf4a22ca5613230e5d73eb70125d526171141c10760/uagents_twilio-1.1.tar.gz
+[2023-07-19 11:49:52] INFO root fetch - processPackages [letterenv]: Downloading https://files.pythonhosted.org/packages/89/f7/bce539c420b954f6366b7db80fdf70c19afeaf1d70bfe86f586013f841db/letterenv-0.1.4.tar.gz
+[2023-07-19 11:49:52] INFO root fetch - processPackages [wodoo]: executing diffoscope
+[2023-07-19 11:49:52] INFO root fetch - processPackages [wodoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wodoo-0.4.8.tar.gz tmp/wodoo-0.4.9.tar.gz --markdown 20230719/w/wodoo/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-19 11:49:52] INFO root fetch - processPackages [stock-open-api]: executing diffoscope
+[2023-07-19 11:49:52] INFO root fetch - processPackages [stock-open-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stock-open-api-0.0.3.tar.gz tmp/stock-open-api-0.0.4.tar.gz --markdown 20230719/s/stock-open-api/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-19 11:49:52] INFO root fetch - processPackages [collective.behavior.relatedmedia]: Downloading https://files.pythonhosted.org/packages/ed/c1/25680f3429102d3e59518a8ae51cdf3a8e76e0154e1491ccc0d8e33df513/collective.behavior.relatedmedia-3.3.1.tar.gz
+[2023-07-19 11:49:52] INFO root fetch - processPackages [uagents-twilio]: executing diffoscope
+[2023-07-19 11:49:52] INFO root fetch - processPackages [uagents-twilio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uagents_twilio-1.0.tar.gz tmp/uagents_twilio-1.1.tar.gz --markdown 20230719/u/uagents-twilio/1.0-1.1/diff.md --exclude *.pyd
+[2023-07-19 11:49:52] INFO root fetch - processPackages [letterenv]: executing diffoscope
+[2023-07-19 11:49:52] INFO root fetch - processPackages [letterenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/letterenv-0.1.3.tar.gz tmp/letterenv-0.1.4.tar.gz --markdown 20230719/l/letterenv/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-19 11:49:52] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2023-07-19 11:49:52] INFO root fetch - processPackages [wonder-sdk]: Downloading https://files.pythonhosted.org/packages/f5/25/4991f4bef37b01368e06cda988181108fda8312bf6cdff12e141d0b13a80/wonder-sdk-0.1.9.tar.gz
+[2023-07-19 11:49:52] INFO root fetch - processPackages [collective.behavior.relatedmedia]: executing diffoscope
+[2023-07-19 11:49:52] INFO root fetch - processPackages [collective.behavior.relatedmedia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.behavior.relatedmedia-3.3.0.tar.gz tmp/collective.behavior.relatedmedia-3.3.1.tar.gz --markdown 20230719/c/collective.behavior.relatedmedia/3.3.0-3.3.1/diff.md --exclude *.pyd
+[2023-07-19 11:49:53] INFO root fetch - processPackages [wonder-sdk]: executing diffoscope
+[2023-07-19 11:49:53] INFO root fetch - processPackages [wonder-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wonder-sdk-0.1.8.tar.gz tmp/wonder-sdk-0.1.9.tar.gz --markdown 20230719/w/wonder-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-19 11:49:53] INFO root fetch - processPackages [image-file-validator]: Downloading https://files.pythonhosted.org/packages/3b/c6/aaa0d4b6a9763cde4bb3ec3383bbbe386c04110d859e28bf6b010d42ea44/image_file_validator-0.0.4-py3-none-any.whl
+[2023-07-19 11:49:53] INFO root fetch - processPackages [image-file-validator]: executing diffoscope
+[2023-07-19 11:49:53] INFO root fetch - processPackages [image-file-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image-file-validator-0.0.1.tar.gz tmp/image_file_validator-0.0.4-py3-none-any.whl.zip --markdown 20230719/i/image-file-validator/0.0.1-0.0.4/diff.md --exclude *.pyd
+[2023-07-19 11:49:53] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-07-19 11:49:53] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20230719/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-07-19 11:49:53] INFO root fetch - processPackages [elefanto-webkassa]: Remove: archive file [/home/abi/fetcher/tmp/elefanto_webkassa-0.2.0.tar.gz]
+[2023-07-19 11:49:53] INFO root fetch - processPackages [elefanto-webkassa]: Remove: archive file [/home/abi/fetcher/tmp/elefanto_webkassa-0.2.1.tar.gz]
+[2023-07-19 11:49:53] INFO root fetch - processPackages [elefanto-webkassa]: Start processing: super-gradients
+[2023-07-19 11:49:53] INFO root fetch - main [MainThread]: End processing [elefanto-webkassa]: success
+[2023-07-19 11:49:54] INFO root fetch - processPackages [letterenv]: Remove: archive file [/home/abi/fetcher/tmp/letterenv-0.1.3.tar.gz]
+[2023-07-19 11:49:54] INFO root fetch - processPackages [letterenv]: Remove: archive file [/home/abi/fetcher/tmp/letterenv-0.1.4.tar.gz]
+[2023-07-19 11:49:54] INFO root fetch - processPackages [letterenv]: Start processing: gov-uk-dashboards
+[2023-07-19 11:49:54] INFO root fetch - main [MainThread]: End processing [letterenv]: success
+[2023-07-19 11:49:54] INFO root fetch - processPackages [super-gradients]: New version: [3.1.3] Old Version: [3.1.2]
+[2023-07-19 11:49:54] INFO root fetch - processPackages [uagents-twilio]: Remove: archive file [/home/abi/fetcher/tmp/uagents_twilio-1.0.tar.gz]
+[2023-07-19 11:49:54] INFO root fetch - processPackages [uagents-twilio]: Remove: archive file [/home/abi/fetcher/tmp/uagents_twilio-1.1.tar.gz]
+[2023-07-19 11:49:54] INFO root fetch - processPackages [uagents-twilio]: Start processing: uncertainty-datatypes
+[2023-07-19 11:49:54] INFO root fetch - main [MainThread]: End processing [uagents-twilio]: success
+[2023-07-19 11:49:54] INFO root fetch - processPackages [stock-open-api]: Remove: archive file [/home/abi/fetcher/tmp/stock-open-api-0.0.3.tar.gz]
+[2023-07-19 11:49:54] INFO root fetch - processPackages [stock-open-api]: Remove: archive file [/home/abi/fetcher/tmp/stock-open-api-0.0.4.tar.gz]
+[2023-07-19 11:49:54] INFO root fetch - processPackages [stock-open-api]: Start processing: betabageldb
+[2023-07-19 11:49:54] INFO root fetch - main [MainThread]: End processing [stock-open-api]: success
+[2023-07-19 11:49:54] INFO root fetch - processPackages [uncertainty-datatypes]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-19 11:49:54] INFO root fetch - processPackages [betabageldb]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-19 11:49:54] INFO root fetch - processPackages [gov-uk-dashboards]: New version: [9.9.0] Old Version: [9.8.0]
+[2023-07-19 11:49:54] INFO root fetch - processPackages [uncertainty-datatypes]: Downloading https://files.pythonhosted.org/packages/da/ae/e3dd5363ac71d685fed2c4083b74916ac06ca8b9c9eef5e1a069bf0f73ad/uncertainty-datatypes-1.0.5.tar.gz
+[2023-07-19 11:49:54] INFO root fetch - processPackages [betabageldb]: Downloading https://files.pythonhosted.org/packages/51/dc/10654b2eae3eb5adee476bde4331fbe4638dad4a810eb6621d4bdee88b4a/betabageldb-0.1.7.tar.gz
+[2023-07-19 11:49:54] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.8.tar.gz]
+[2023-07-19 11:49:54] INFO root fetch - processPackages [super-gradients]: Downloading https://files.pythonhosted.org/packages/c3/4e/b2b3273ad67c05f7b83b2202941059b06d38a3bc6d4e19d4e254663026b4/super_gradients-3.1.2-py3-none-any.whl
+[2023-07-19 11:49:54] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.9.tar.gz]
+[2023-07-19 11:49:54] INFO root fetch - processPackages [wodoo]: Start processing: nonlinear-causal
+[2023-07-19 11:49:54] INFO root fetch - main [MainThread]: End processing [wodoo]: success
+[2023-07-19 11:49:54] INFO root fetch - processPackages [wonder-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wonder-sdk-0.1.8.tar.gz]
+[2023-07-19 11:49:54] INFO root fetch - processPackages [wonder-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wonder-sdk-0.1.9.tar.gz]
+[2023-07-19 11:49:54] INFO root fetch - main [MainThread]: End processing [wonder-sdk]: success
+[2023-07-19 11:49:54] WARNING root fetch - processPackages [nonlinear-causal]: Skipping, unable to determine old version
+[2023-07-19 11:49:54] INFO root fetch - main [MainThread]: End processing [nonlinear-causal] error
+[2023-07-19 11:49:54] INFO root fetch - processPackages [gov-uk-dashboards]: Downloading https://files.pythonhosted.org/packages/28/15/aa038ec0161f510bba1e81208b6b8fb48174839d812f78343601edd00197/gov_uk_dashboards-9.8.0.tar.gz
+[2023-07-19 11:49:54] INFO root fetch - processPackages [uncertainty-datatypes]: Downloading https://files.pythonhosted.org/packages/d8/5c/99531427683fa28c836c6586c4106eb1eb228861fbda686e6ff9bca723e7/uncertainty-datatypes-1.0.6.tar.gz
+[2023-07-19 11:49:54] INFO root fetch - processPackages [collective.behavior.relatedmedia]: Remove: archive file [/home/abi/fetcher/tmp/collective.behavior.relatedmedia-3.3.0.tar.gz]
+[2023-07-19 11:49:54] INFO root fetch - processPackages [collective.behavior.relatedmedia]: Remove: archive file [/home/abi/fetcher/tmp/collective.behavior.relatedmedia-3.3.1.tar.gz]
+[2023-07-19 11:49:54] INFO root fetch - main [MainThread]: End processing [collective.behavior.relatedmedia]: success
+[2023-07-19 11:49:54] INFO root fetch - processPackages [betabageldb]: Downloading https://files.pythonhosted.org/packages/c2/34/1df19a6b72dad2408df5afca3825091bd8053dc094f3d8d5afd9b5995c3b/betabageldb-0.1.8.tar.gz
+[2023-07-19 11:49:54] INFO root fetch - processPackages [uncertainty-datatypes]: executing diffoscope
+[2023-07-19 11:49:54] INFO root fetch - processPackages [uncertainty-datatypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uncertainty-datatypes-1.0.5.tar.gz tmp/uncertainty-datatypes-1.0.6.tar.gz --markdown 20230719/u/uncertainty-datatypes/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-19 11:49:54] INFO root fetch - processPackages [super-gradients]: Downloading https://files.pythonhosted.org/packages/00/23/736774e8c1bb630b2935f5c274a276fb711668c4ad688125310463c5af63/super_gradients-3.1.3-py3-none-any.whl
+[2023-07-19 11:49:54] INFO root fetch - processPackages [atproto]: Remove: archive file [/home/abi/fetcher/tmp/atproto-0.0.8.tar.gz]
+[2023-07-19 11:49:54] INFO root fetch - processPackages [atproto]: Remove: archive file [/home/abi/fetcher/tmp/atproto-0.0.9.tar.gz]
+[2023-07-19 11:49:54] INFO root fetch - main [MainThread]: End processing [atproto]: success
+[2023-07-19 11:49:54] INFO root fetch - processPackages [betabageldb]: executing diffoscope
+[2023-07-19 11:49:54] INFO root fetch - processPackages [betabageldb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betabageldb-0.1.7.tar.gz tmp/betabageldb-0.1.8.tar.gz --markdown 20230719/b/betabageldb/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-19 11:49:54] INFO root fetch - processPackages [super-gradients]: executing diffoscope
+[2023-07-19 11:49:54] INFO root fetch - processPackages [super-gradients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/super_gradients-3.1.2-py3-none-any.whl.zip tmp/super_gradients-3.1.3-py3-none-any.whl.zip --markdown 20230719/s/super-gradients/3.1.2-3.1.3/diff.md --exclude *.pyd
+[2023-07-19 11:49:55] INFO root fetch - processPackages [gov-uk-dashboards]: Downloading https://files.pythonhosted.org/packages/28/ea/814247833cc4320a4963bc9588f46cb3725c05f6064d14ac066bbc574e6d/gov_uk_dashboards-9.9.0.tar.gz
+[2023-07-19 11:49:55] INFO root fetch - processPackages [gov-uk-dashboards]: executing diffoscope
+[2023-07-19 11:49:55] INFO root fetch - processPackages [gov-uk-dashboards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gov_uk_dashboards-9.8.0.tar.gz tmp/gov_uk_dashboards-9.9.0.tar.gz --markdown 20230719/g/gov-uk-dashboards/9.8.0-9.9.0/diff.md --exclude *.pyd
+[2023-07-19 11:49:55] INFO root fetch - processPackages [image-file-validator]: Remove: archive file [/home/abi/fetcher/tmp/image-file-validator-0.0.1.tar.gz]
+[2023-07-19 11:49:55] INFO root fetch - processPackages [image-file-validator]: Remove: archive file [/home/abi/fetcher/tmp/image_file_validator-0.0.4-py3-none-any.whl.zip]
+[2023-07-19 11:49:55] INFO root fetch - main [MainThread]: End processing [image-file-validator]: success
+[2023-07-19 11:49:55] INFO root fetch - processPackages [betabageldb]: Remove: archive file [/home/abi/fetcher/tmp/betabageldb-0.1.7.tar.gz]
+[2023-07-19 11:49:55] INFO root fetch - processPackages [betabageldb]: Remove: archive file [/home/abi/fetcher/tmp/betabageldb-0.1.8.tar.gz]
+[2023-07-19 11:49:55] INFO root fetch - main [MainThread]: End processing [betabageldb]: success
+[2023-07-19 11:49:55] INFO root fetch - processPackages [uncertainty-datatypes]: Remove: archive file [/home/abi/fetcher/tmp/uncertainty-datatypes-1.0.5.tar.gz]
+[2023-07-19 11:49:55] INFO root fetch - processPackages [uncertainty-datatypes]: Remove: archive file [/home/abi/fetcher/tmp/uncertainty-datatypes-1.0.6.tar.gz]
+[2023-07-19 11:49:55] INFO root fetch - main [MainThread]: End processing [uncertainty-datatypes]: success
+[2023-07-19 11:49:56] INFO root fetch - processPackages [gov-uk-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/gov_uk_dashboards-9.8.0.tar.gz]
+[2023-07-19 11:49:56] INFO root fetch - processPackages [gov-uk-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/gov_uk_dashboards-9.9.0.tar.gz]
+[2023-07-19 11:49:56] INFO root fetch - main [MainThread]: End processing [gov-uk-dashboards]: success
+[2023-07-19 11:49:57] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2023-07-19 11:49:57] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2023-07-19 11:49:57] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-07-19 11:49:58] INFO root fetch - processPackages [super-gradients]: Remove: archive file [/home/abi/fetcher/tmp/super_gradients-3.1.2-py3-none-any.whl.zip]
+[2023-07-19 11:49:58] INFO root fetch - processPackages [super-gradients]: Remove: archive file [/home/abi/fetcher/tmp/super_gradients-3.1.3-py3-none-any.whl.zip]
+[2023-07-19 11:49:58] INFO root fetch - main [MainThread]: End processing [super-gradients]: success
+[2023-07-19 11:49:58] INFO root fetch - main [MainThread]: Store serial: [18948152]
