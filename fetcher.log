@@ -16851,3 +16851,133 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-19 09:47:23] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-1.58.0.tar.gz]
 [2023-07-19 09:47:23] INFO root fetch - main [MainThread]: End processing [mxcubeweb]: success
 [2023-07-19 09:47:23] INFO root fetch - main [MainThread]: Store serial: [18946722]
+[2023-07-19 09:52:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18946722]
+[2023-07-19 09:52:32] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-19 09:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onyx-client
+[2023-07-19 09:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scipion-em-chimera
+[2023-07-19 09:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: provider-switch
+[2023-07-19 09:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: keras-nightly
+[2023-07-19 09:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bentoml
+[2023-07-19 09:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyreloader
+[2023-07-19 09:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kolibri-explore-plugin
+[2023-07-19 09:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stock-open-api
+[2023-07-19 09:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sphractal
+[2023-07-19 09:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bb-connector
+[2023-07-19 09:52:32] WARNING root fetch - processPackages [bb-connector]: Skipping, unable to determine old version
+[2023-07-19 09:52:32] INFO root fetch - processPackages [bb-connector]: Start processing: tf-nightly-cpu
+[2023-07-19 09:52:32] INFO root fetch - main [MainThread]: End processing [bb-connector] error
+[2023-07-19 09:52:32] WARNING root fetch - processPackages [pyreloader]: Skipping, unable to determine old version
+[2023-07-19 09:52:32] INFO root fetch - processPackages [pyreloader]: Start processing: fast-transfer
+[2023-07-19 09:52:32] INFO root fetch - main [MainThread]: End processing [pyreloader] error
+[2023-07-19 09:52:32] INFO root fetch - processPackages [sphractal]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-19 09:52:32] INFO root fetch - processPackages [stock-open-api]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-19 09:52:32] INFO root fetch - processPackages [kolibri-explore-plugin]: New version: [6.9.0] Old Version: [6.8.0]
+[2023-07-19 09:52:32] INFO root fetch - processPackages [provider-switch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 09:52:32] INFO root fetch - processPackages [bentoml]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-19 09:52:32] INFO root fetch - processPackages [onyx-client]: New version: [7.1.0] Old Version: [7.0.0]
+[2023-07-19 09:52:32] INFO root fetch - processPackages [fast-transfer]: New version: [0.1.1] Old Version: [0.0.2]
+[2023-07-19 09:52:32] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-07-19 09:52:32] INFO root fetch - processPackages [scipion-em-chimera]: New version: [3.3.6] Old Version: [3.3.5]
+[2023-07-19 09:52:32] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230719] Old Version: [2.14.0.dev20230718]
+[2023-07-19 09:52:32] INFO root fetch - processPackages [fast-transfer]: Downloading https://files.pythonhosted.org/packages/e7/b4/2da539d3b93897fdafa61542347bf99db04db8adf274023e560c9fe0eefa/fast_transfer-0.0.2.tar.gz
+[2023-07-19 09:52:32] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/b1/6d/156256fa9e3fa7de2df2059d47e10f9622e16808846d88bf7a096397ad36/sphractal-0.9.0.tar.gz
+[2023-07-19 09:52:32] INFO root fetch - processPackages [kolibri-explore-plugin]: Downloading https://files.pythonhosted.org/packages/ce/f9/31b5cbfd9a83d09f22e7a4a1bcfe80aa5ac42dcb7177d812abc4159b1f22/kolibri_explore_plugin-6.8.0-py2.py3-none-any.whl
+[2023-07-19 09:52:32] INFO root fetch - processPackages [stock-open-api]: Downloading https://files.pythonhosted.org/packages/0c/1d/112b4c7f4504435d0b0f7f92e92ec5251cd21615eb12c22e6365ea30b9e7/stock-open-api-0.0.2.tar.gz
+[2023-07-19 09:52:32] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-07-19 09:52:33] WARNING root fetch - processPackages [kolibri-explore-plugin]: Skipping package: exceeds size limit 17418137>=10485760
+[2023-07-19 09:52:33] INFO root fetch - processPackages [kolibri-explore-plugin]: Start processing: django-excel-storage
+[2023-07-19 09:52:33] INFO root fetch - main [MainThread]: End processing [kolibri-explore-plugin] error
+[2023-07-19 09:52:33] INFO root fetch - processPackages [provider-switch]: Downloading https://files.pythonhosted.org/packages/8b/e3/c1cca50a6b01c97e65e660217636fd806f6e851a332e3f37d86e10f92c0f/provider-switch-0.0.8.tar.gz
+[2023-07-19 09:52:33] INFO root fetch - processPackages [bentoml]: Downloading https://files.pythonhosted.org/packages/03/dd/fcdee2ea476e419e1baa92d9614d8de2d843cd53fc82c4ccb1b5a86d7b46/bentoml-1.0.8.tar.gz
+[2023-07-19 09:52:33] INFO root fetch - processPackages [onyx-client]: Downloading https://files.pythonhosted.org/packages/6a/53/bc32526d1dafc412b6792942a26ae4ba69d37c86a7d0bd01460ce70a0502/onyx_client-7.0.0.tar.gz
+[2023-07-19 09:52:33] INFO root fetch - processPackages [scipion-em-chimera]: Downloading https://files.pythonhosted.org/packages/bd/fe/8e404b105882fe2b37174b5d719df04781dc4173df31328c2ad6dfe36804/scipion-em-chimera-3.3.5.tar.gz
+[2023-07-19 09:52:33] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/f5/2e/35af52fd6b3bb20ef24ab22dacefafce256fdb3e3fe5370904f5fb965854/tf_nightly_cpu-2.14.0.dev20230718-cp39-cp39-win_amd64.whl
+[2023-07-19 09:52:33] INFO root fetch - processPackages [django-excel-storage]: New version: [2.0.8] Old Version: [2.0.6]
+[2023-07-19 09:52:33] INFO root fetch - processPackages [stock-open-api]: Downloading https://files.pythonhosted.org/packages/16/1f/656d2d2ee72475da82f243812d226d1824d6429d60769fdea06fe4bde7c3/stock-open-api-0.0.3.tar.gz
+[2023-07-19 09:52:33] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/b7/3c/357fa6f2eda84dc8aff5499145b341ad2d8a7162270a504b401c65b633a3/sphractal-0.9.1.tar.gz
+[2023-07-19 09:52:33] INFO root fetch - processPackages [stock-open-api]: executing diffoscope
+[2023-07-19 09:52:33] INFO root fetch - processPackages [stock-open-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stock-open-api-0.0.2.tar.gz tmp/stock-open-api-0.0.3.tar.gz --markdown 20230719/s/stock-open-api/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-19 09:52:33] INFO root fetch - processPackages [sphractal]: executing diffoscope
+[2023-07-19 09:52:33] INFO root fetch - processPackages [sphractal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphractal-0.9.0.tar.gz tmp/sphractal-0.9.1.tar.gz --markdown 20230719/s/sphractal/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-19 09:52:33] INFO root fetch - processPackages [django-excel-storage]: Downloading https://files.pythonhosted.org/packages/2c/97/c6b608695c3a3ca556bd2ecceeed28dffe8ac945fe7d8c1385bbab3d9076/django-excel-storage-2.0.6.tar.gz
+[2023-07-19 09:52:33] INFO root fetch - processPackages [onyx-client]: Downloading https://files.pythonhosted.org/packages/b7/4c/9f4bdd1012bb75a4101ca5021989187e41c918383058d2aceca547803f3f/onyx_client-7.1.0.tar.gz
+[2023-07-19 09:52:33] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/ad/90/d363e9a65d2a82e82f2fa76c36d776773bdcb4a1498a7ba756c4a6dd966d/tf_nightly_cpu-2.14.0.dev20230719-cp39-cp39-win_amd64.whl
+[2023-07-19 09:52:33] INFO root fetch - processPackages [fast-transfer]: Downloading https://files.pythonhosted.org/packages/50/9f/4f3ac293b06946f0025e7ee5c02b131409c0c4c4162781e15a05ee6176a0/fast_transfer-0.1.1.tar.gz
+[2023-07-19 09:52:33] INFO root fetch - processPackages [provider-switch]: Downloading https://files.pythonhosted.org/packages/4e/56/5d1b98053040582f21a41f144eb7fad199eb0ac4c1a7be807313ef0d36c9/provider-switch-0.0.9.tar.gz
+[2023-07-19 09:52:33] INFO root fetch - processPackages [scipion-em-chimera]: Downloading https://files.pythonhosted.org/packages/c3/3c/2660778710c59d899d333f8df875516dd217c1b8d3cddc3487dc8c9549b0/scipion-em-chimera-3.3.6.tar.gz
+[2023-07-19 09:52:33] INFO root fetch - processPackages [onyx-client]: executing diffoscope
+[2023-07-19 09:52:33] INFO root fetch - processPackages [onyx-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onyx_client-7.0.0.tar.gz tmp/onyx_client-7.1.0.tar.gz --markdown 20230719/o/onyx-client/7.0.0-7.1.0/diff.md --exclude *.pyd
+[2023-07-19 09:52:33] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-07-19 09:52:33] INFO root fetch - processPackages [fast-transfer]: executing diffoscope
+[2023-07-19 09:52:33] INFO root fetch - processPackages [fast-transfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_transfer-0.0.2.tar.gz tmp/fast_transfer-0.1.1.tar.gz --markdown 20230719/f/fast-transfer/0.0.2-0.1.1/diff.md --exclude *.pyd
+[2023-07-19 09:52:33] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-07-19 09:52:33] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230718-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230719-cp39-cp39-win_amd64.whl.zip --markdown 20230719/t/tf-nightly-cpu/2.14.0.dev20230718-2.14.0.dev20230719/diff.md --exclude *.pyd
+[2023-07-19 09:52:33] WARNING root fetch - processPackages [bentoml]: Skipping package: exceeds size limit 14352845>=10485760
+[2023-07-19 09:52:33] INFO root fetch - processPackages [bentoml]: Start processing: py3seed
+[2023-07-19 09:52:33] INFO root fetch - main [MainThread]: End processing [bentoml] error
+[2023-07-19 09:52:33] INFO root fetch - processPackages [scipion-em-chimera]: executing diffoscope
+[2023-07-19 09:52:33] INFO root fetch - processPackages [scipion-em-chimera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-chimera-3.3.5.tar.gz tmp/scipion-em-chimera-3.3.6.tar.gz --markdown 20230719/s/scipion-em-chimera/3.3.5-3.3.6/diff.md --exclude *.pyd
+[2023-07-19 09:52:33] INFO root fetch - processPackages [py3seed]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-19 09:52:33] INFO root fetch - processPackages [provider-switch]: executing diffoscope
+[2023-07-19 09:52:33] INFO root fetch - processPackages [provider-switch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/provider-switch-0.0.8.tar.gz tmp/provider-switch-0.0.9.tar.gz --markdown 20230719/p/provider-switch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 09:52:33] INFO root fetch - processPackages [django-excel-storage]: Downloading https://files.pythonhosted.org/packages/a3/1f/933ebc49ff2ae9c9149f374beb2d100de8c995b1b21aa2f84fe0e676fed4/django-excel-storage-2.0.8.tar.gz
+[2023-07-19 09:52:34] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-07-19 09:52:34] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230719/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-07-19 09:52:34] INFO root fetch - processPackages [py3seed]: Downloading https://files.pythonhosted.org/packages/31/7e/4c554f5e5f72dd899ccdc9191192045cfd5a12713a763ad527bf796d1dc5/py3seed-0.1.8.tar.gz
+[2023-07-19 09:52:34] INFO root fetch - processPackages [django-excel-storage]: executing diffoscope
+[2023-07-19 09:52:34] INFO root fetch - processPackages [django-excel-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-excel-storage-2.0.6.tar.gz tmp/django-excel-storage-2.0.8.tar.gz --markdown 20230719/d/django-excel-storage/2.0.6-2.0.8/diff.md --exclude *.pyd
+[2023-07-19 09:52:34] INFO root fetch - processPackages [py3seed]: Downloading https://files.pythonhosted.org/packages/45/c2/da3098210f97fbcbfd382ea95661e740c9454d7b43877a0ab72c28aeb6d9/py3seed-0.1.9.tar.gz
+[2023-07-19 09:52:34] INFO root fetch - processPackages [py3seed]: executing diffoscope
+[2023-07-19 09:52:34] INFO root fetch - processPackages [py3seed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3seed-0.1.8.tar.gz tmp/py3seed-0.1.9.tar.gz --markdown 20230719/p/py3seed/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-19 09:52:35] INFO root fetch - processPackages [stock-open-api]: Remove: archive file [/home/abi/fetcher/tmp/stock-open-api-0.0.2.tar.gz]
+[2023-07-19 09:52:35] INFO root fetch - processPackages [stock-open-api]: Remove: archive file [/home/abi/fetcher/tmp/stock-open-api-0.0.3.tar.gz]
+[2023-07-19 09:52:35] INFO root fetch - processPackages [stock-open-api]: Start processing: unitxt
+[2023-07-19 09:52:35] INFO root fetch - main [MainThread]: End processing [stock-open-api]: success
+[2023-07-19 09:52:35] INFO root fetch - processPackages [unitxt]: New version: [1.0.9] Old Version: [1.0.7]
+[2023-07-19 09:52:35] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230718-cp39-cp39-win_amd64.whl.zip]
+[2023-07-19 09:52:35] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230719-cp39-cp39-win_amd64.whl.zip]
+[2023-07-19 09:52:35] INFO root fetch - processPackages [tf-nightly-cpu]: Start processing: onqlave-python-sdk-pilot
+[2023-07-19 09:52:35] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-07-19 09:52:35] INFO root fetch - processPackages [unitxt]: Downloading https://files.pythonhosted.org/packages/11/d1/d3b62f8baf803050688a5209b7a249f450e3b915906be3b8636049f44de2/unitxt-1.0.7.tar.gz
+[2023-07-19 09:52:35] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 09:52:35] INFO root fetch - processPackages [onyx-client]: Remove: archive file [/home/abi/fetcher/tmp/onyx_client-7.0.0.tar.gz]
+[2023-07-19 09:52:35] INFO root fetch - processPackages [onyx-client]: Remove: archive file [/home/abi/fetcher/tmp/onyx_client-7.1.0.tar.gz]
+[2023-07-19 09:52:35] INFO root fetch - processPackages [onyx-client]: Start processing: cosmicexcelchecker
+[2023-07-19 09:52:35] INFO root fetch - main [MainThread]: End processing [onyx-client]: success
+[2023-07-19 09:52:35] INFO root fetch - processPackages [fast-transfer]: Remove: archive file [/home/abi/fetcher/tmp/fast_transfer-0.0.2.tar.gz]
+[2023-07-19 09:52:35] INFO root fetch - processPackages [fast-transfer]: Remove: archive file [/home/abi/fetcher/tmp/fast_transfer-0.1.1.tar.gz]
+[2023-07-19 09:52:35] INFO root fetch - main [MainThread]: End processing [fast-transfer]: success
+[2023-07-19 09:52:35] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Downloading https://files.pythonhosted.org/packages/59/52/27818a5b0dc9fe59434c9f8dd87931c7b1e1d7bfb5c4444e786d74d04257/onqlave-python-sdk-pilot-0.0.8.tar.gz
+[2023-07-19 09:52:35] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.9.0.tar.gz]
+[2023-07-19 09:52:35] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.9.1.tar.gz]
+[2023-07-19 09:52:35] INFO root fetch - main [MainThread]: End processing [sphractal]: success
+[2023-07-19 09:52:35] INFO root fetch - processPackages [provider-switch]: Remove: archive file [/home/abi/fetcher/tmp/provider-switch-0.0.8.tar.gz]
+[2023-07-19 09:52:35] INFO root fetch - processPackages [provider-switch]: Remove: archive file [/home/abi/fetcher/tmp/provider-switch-0.0.9.tar.gz]
+[2023-07-19 09:52:35] INFO root fetch - main [MainThread]: End processing [provider-switch]: success
+[2023-07-19 09:52:35] WARNING root fetch - processPackages [cosmicexcelchecker]: Skipping, unable to determine old version
+[2023-07-19 09:52:35] INFO root fetch - main [MainThread]: End processing [cosmicexcelchecker] error
+[2023-07-19 09:52:35] INFO root fetch - processPackages [unitxt]: Downloading https://files.pythonhosted.org/packages/0e/ad/4d0c5d55831a7fd66fbaca1667f8f31321026e46d5f9444cb997646d2fe7/unitxt-1.0.9.tar.gz
+[2023-07-19 09:52:35] INFO root fetch - processPackages [django-excel-storage]: Remove: archive file [/home/abi/fetcher/tmp/django-excel-storage-2.0.6.tar.gz]
+[2023-07-19 09:52:35] INFO root fetch - processPackages [django-excel-storage]: Remove: archive file [/home/abi/fetcher/tmp/django-excel-storage-2.0.8.tar.gz]
+[2023-07-19 09:52:35] INFO root fetch - main [MainThread]: End processing [django-excel-storage]: success
+[2023-07-19 09:52:35] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Downloading https://files.pythonhosted.org/packages/63/b0/994ce6161d7a0abbf7a7adef4b05993a95b3f12dcef78d435a13caa4c412/onqlave-python-sdk-pilot-0.0.9.tar.gz
+[2023-07-19 09:52:35] INFO root fetch - processPackages [unitxt]: executing diffoscope
+[2023-07-19 09:52:35] INFO root fetch - processPackages [unitxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitxt-1.0.7.tar.gz tmp/unitxt-1.0.9.tar.gz --markdown 20230719/u/unitxt/1.0.7-1.0.9/diff.md --exclude *.pyd
+[2023-07-19 09:52:35] INFO root fetch - processPackages [scipion-em-chimera]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-chimera-3.3.5.tar.gz]
+[2023-07-19 09:52:35] INFO root fetch - processPackages [scipion-em-chimera]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-chimera-3.3.6.tar.gz]
+[2023-07-19 09:52:35] INFO root fetch - main [MainThread]: End processing [scipion-em-chimera]: success
+[2023-07-19 09:52:35] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: executing diffoscope
+[2023-07-19 09:52:35] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onqlave-python-sdk-pilot-0.0.8.tar.gz tmp/onqlave-python-sdk-pilot-0.0.9.tar.gz --markdown 20230719/o/onqlave-python-sdk-pilot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 09:52:36] INFO root fetch - processPackages [py3seed]: Remove: archive file [/home/abi/fetcher/tmp/py3seed-0.1.8.tar.gz]
+[2023-07-19 09:52:36] INFO root fetch - processPackages [py3seed]: Remove: archive file [/home/abi/fetcher/tmp/py3seed-0.1.9.tar.gz]
+[2023-07-19 09:52:36] INFO root fetch - main [MainThread]: End processing [py3seed]: success
+[2023-07-19 09:52:36] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Remove: archive file [/home/abi/fetcher/tmp/onqlave-python-sdk-pilot-0.0.8.tar.gz]
+[2023-07-19 09:52:36] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Remove: archive file [/home/abi/fetcher/tmp/onqlave-python-sdk-pilot-0.0.9.tar.gz]
+[2023-07-19 09:52:36] INFO root fetch - main [MainThread]: End processing [onqlave-python-sdk-pilot]: success
+[2023-07-19 09:52:36] INFO root fetch - processPackages [unitxt]: Remove: archive file [/home/abi/fetcher/tmp/unitxt-1.0.7.tar.gz]
+[2023-07-19 09:52:36] INFO root fetch - processPackages [unitxt]: Remove: archive file [/home/abi/fetcher/tmp/unitxt-1.0.9.tar.gz]
+[2023-07-19 09:52:36] INFO root fetch - main [MainThread]: End processing [unitxt]: success
+[2023-07-19 09:52:38] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip]
+[2023-07-19 09:52:38] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
+[2023-07-19 09:52:38] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-07-19 09:52:38] INFO root fetch - main [MainThread]: Store serial: [18946777]
