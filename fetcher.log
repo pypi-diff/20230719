@@ -12450,3 +12450,96 @@
 [2023-07-19 05:50:36] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2023.7.0b3.tar.gz]
 [2023-07-19 05:50:36] INFO root fetch - main [MainThread]: End processing [esphome]: success
 [2023-07-19 05:50:36] INFO root fetch - main [MainThread]: Store serial: [18945163]
+[2023-07-19 05:55:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18945163]
+[2023-07-19 05:55:46] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-19 05:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdktf-cdktf-provider-databricks
+[2023-07-19 05:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-cdktf-provider-newrelic
+[2023-07-19 05:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdktf-cdktf-provider-okta
+[2023-07-19 05:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: omni-pro
+[2023-07-19 05:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdktf-cdktf-provider-vault
+[2023-07-19 05:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fnum
+[2023-07-19 05:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: finance-scrapers
+[2023-07-19 05:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdktf-cdktf-provider-mongodbatlas
+[2023-07-19 05:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdktf-cdktf-provider-github
+[2023-07-19 05:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: finter
+[2023-07-19 05:55:46] INFO root fetch - processPackages [omni-pro]: New version: [0.1.14] Old Version: [0.1.13]
+[2023-07-19 05:55:46] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: New version: [9.0.1] Old Version: [9.0.0]
+[2023-07-19 05:55:46] INFO root fetch - processPackages [omni-pro]: Downloading https://files.pythonhosted.org/packages/2b/c5/f51876ef4b0df262964deed0dd0fd6ba3caf17c68776ffc4b7e00fe2ebce/omni-pro-0.1.13.tar.gz
+[2023-07-19 05:55:46] INFO root fetch - processPackages [fnum]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-07-19 05:55:46] INFO root fetch - processPackages [finance-scrapers]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-19 05:55:46] INFO root fetch - processPackages [finter]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 05:55:46] INFO root fetch - processPackages [cdktf-cdktf-provider-mongodbatlas]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-07-19 05:55:46] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: New version: [9.0.1] Old Version: [9.0.0]
+[2023-07-19 05:55:46] INFO root fetch - processPackages [cdktf-cdktf-provider-okta]: New version: [9.0.0] Old Version: [8.0.2]
+[2023-07-19 05:55:46] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: New version: [9.0.1] Old Version: [9.0.0]
+[2023-07-19 05:55:46] INFO root fetch - processPackages [cdktf-cdktf-provider-github]: New version: [9.0.0] Old Version: [8.0.5]
+[2023-07-19 05:55:47] INFO root fetch - processPackages [finter]: Downloading https://files.pythonhosted.org/packages/3f/67/a34c11ccfbaf6906bef8a6f98dc9c0635e28381e93a61a2f77a494e47eaf/finter-0.0.8-py3-none-any.whl
+[2023-07-19 05:55:47] INFO root fetch - processPackages [cdktf-cdktf-provider-okta]: Downloading https://files.pythonhosted.org/packages/1c/18/2a62b6718999fc6b17e0ceab705057b3fb79d734c1a4c1b5591cf6d4ada7/cdktf-cdktf-provider-okta-8.0.2.tar.gz
+[2023-07-19 05:55:47] INFO root fetch - processPackages [fnum]: Downloading https://files.pythonhosted.org/packages/49/3b/56b9f5fd2339f774407ba30143731890be5ab792151b85cff7c6b2b77b60/fnum-1.5.0-py3-none-any.whl
+[2023-07-19 05:55:47] INFO root fetch - processPackages [finance-scrapers]: Downloading https://files.pythonhosted.org/packages/0a/fe/48401c8b2fee721dddd8532b464868ee716f9a137110395c5c2107bfd1d6/finance-scrapers-0.0.3.tar.gz
+[2023-07-19 05:55:47] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: Downloading https://files.pythonhosted.org/packages/48/16/67cb0065717f827eb29755dafee65032c95527e1d290a9402d1f231f5739/cdktf-cdktf-provider-databricks-9.0.0.tar.gz
+[2023-07-19 05:55:47] INFO root fetch - processPackages [omni-pro]: Downloading https://files.pythonhosted.org/packages/66/09/ffab759e814a4ebd2599c6be81d4be1b1cce56619ccf5afdea8257086620/omni-pro-0.1.14.tar.gz
+[2023-07-19 05:55:47] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Downloading https://files.pythonhosted.org/packages/7d/bc/e1cc01180021ce8c2713b704fb54434e12a9da2f62011c67813e8b15452d/cdktf-cdktf-provider-newrelic-9.0.0.tar.gz
+[2023-07-19 05:55:47] INFO root fetch - processPackages [cdktf-cdktf-provider-github]: Downloading https://files.pythonhosted.org/packages/ea/00/58c8f8e70a0ecf9a5172582003f19714be9f607ba9ab6ed8fd7397a49cc6/cdktf-cdktf-provider-github-8.0.5.tar.gz
+[2023-07-19 05:55:47] INFO root fetch - processPackages [cdktf-cdktf-provider-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/f3/1f/df618dcfa35139e4487e434915a03ca2f2dc1595a07ff015a5c642bcf647/cdktf-cdktf-provider-mongodbatlas-4.0.0.tar.gz
+[2023-07-19 05:55:47] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: Downloading https://files.pythonhosted.org/packages/f5/3b/7f410aca37ad20b83b637cb97bf444941ab453002ed61938c3ca49001800/cdktf-cdktf-provider-vault-9.0.0.tar.gz
+[2023-07-19 05:55:47] INFO root fetch - processPackages [omni-pro]: executing diffoscope
+[2023-07-19 05:55:47] INFO root fetch - processPackages [omni-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omni-pro-0.1.13.tar.gz tmp/omni-pro-0.1.14.tar.gz --markdown 20230719/o/omni-pro/0.1.13-0.1.14/diff.md --exclude *.pyd
+[2023-07-19 05:55:47] INFO root fetch - processPackages [fnum]: Downloading https://files.pythonhosted.org/packages/5d/58/af4812acb722d53a7661dd10550551ef0c1a2d917b2bfb7b169219425782/fnum-1.6.0-py3-none-any.whl
+[2023-07-19 05:55:47] INFO root fetch - processPackages [finance-scrapers]: Downloading https://files.pythonhosted.org/packages/6c/95/e6a8340f1c0264dffe25c2706af7ccb0416fdf5c54733220867bb4af7a32/finance-scrapers-0.0.4.tar.gz
+[2023-07-19 05:55:47] INFO root fetch - processPackages [fnum]: executing diffoscope
+[2023-07-19 05:55:47] INFO root fetch - processPackages [fnum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fnum-1.5.0-py3-none-any.whl.zip tmp/fnum-1.6.0-py3-none-any.whl.zip --markdown 20230719/f/fnum/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-07-19 05:55:47] INFO root fetch - processPackages [finance-scrapers]: executing diffoscope
+[2023-07-19 05:55:47] INFO root fetch - processPackages [finance-scrapers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finance-scrapers-0.0.3.tar.gz tmp/finance-scrapers-0.0.4.tar.gz --markdown 20230719/f/finance-scrapers/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-19 05:55:47] INFO root fetch - processPackages [finter]: Downloading https://files.pythonhosted.org/packages/7c/74/1948e4ff1b4aec9933e42ce1ab3d3495b1535bf1d203da0e462ed238eeed/finter-0.0.9-py3-none-any.whl
+[2023-07-19 05:55:47] INFO root fetch - processPackages [cdktf-cdktf-provider-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/04/a4/a600b5d68c91b8df6b7e421867e63ae7ac9562c6dbb0f2978f8f1e7a7847/cdktf-cdktf-provider-mongodbatlas-4.0.1.tar.gz
+[2023-07-19 05:55:48] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: Downloading https://files.pythonhosted.org/packages/97/c2/e40222c46eb57bec5ee9f69beef584d7c987d0c45126221780c12218d3cb/cdktf-cdktf-provider-vault-9.0.1.tar.gz
+[2023-07-19 05:55:48] INFO root fetch - processPackages [finter]: executing diffoscope
+[2023-07-19 05:55:48] INFO root fetch - processPackages [finter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finter-0.0.8-py3-none-any.whl.zip tmp/finter-0.0.9-py3-none-any.whl.zip --markdown 20230719/f/finter/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 05:55:48] INFO root fetch - processPackages [cdktf-cdktf-provider-okta]: Downloading https://files.pythonhosted.org/packages/0b/d0/a4b8860a54a663d18f37333481694546cc1e870c23aa8abaa96fe8d85d2f/cdktf-cdktf-provider-okta-9.0.0.tar.gz
+[2023-07-19 05:55:48] INFO root fetch - processPackages [cdktf-cdktf-provider-github]: Downloading https://files.pythonhosted.org/packages/38/a2/80bff1b032197c47ab6962d4b1d29a6d67d5326dd42db02455ba3ad60e14/cdktf-cdktf-provider-github-9.0.0.tar.gz
+[2023-07-19 05:55:48] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: Downloading https://files.pythonhosted.org/packages/f2/41/a10203a0e3ade128a6d5513b95c0b66116641bcc4f7d3d7053606209c335/cdktf-cdktf-provider-databricks-9.0.1.tar.gz
+[2023-07-19 05:55:48] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Downloading https://files.pythonhosted.org/packages/05/25/91775c1f8409c1b21fedcab547825b47f83c99e920f35b90d86bb894250f/cdktf-cdktf-provider-newrelic-9.0.1.tar.gz
+[2023-07-19 05:55:48] INFO root fetch - processPackages [cdktf-cdktf-provider-mongodbatlas]: executing diffoscope
+[2023-07-19 05:55:48] INFO root fetch - processPackages [cdktf-cdktf-provider-mongodbatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-mongodbatlas-4.0.0.tar.gz tmp/cdktf-cdktf-provider-mongodbatlas-4.0.1.tar.gz --markdown 20230719/c/cdktf-cdktf-provider-mongodbatlas/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-07-19 05:55:48] INFO root fetch - processPackages [cdktf-cdktf-provider-okta]: executing diffoscope
+[2023-07-19 05:55:48] INFO root fetch - processPackages [cdktf-cdktf-provider-okta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-okta-8.0.2.tar.gz tmp/cdktf-cdktf-provider-okta-9.0.0.tar.gz --markdown 20230719/c/cdktf-cdktf-provider-okta/8.0.2-9.0.0/diff.md --exclude *.pyd
+[2023-07-19 05:55:48] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: executing diffoscope
+[2023-07-19 05:55:48] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-vault-9.0.0.tar.gz tmp/cdktf-cdktf-provider-vault-9.0.1.tar.gz --markdown 20230719/c/cdktf-cdktf-provider-vault/9.0.0-9.0.1/diff.md --exclude *.pyd
+[2023-07-19 05:55:48] INFO root fetch - processPackages [cdktf-cdktf-provider-github]: executing diffoscope
+[2023-07-19 05:55:48] INFO root fetch - processPackages [cdktf-cdktf-provider-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-github-8.0.5.tar.gz tmp/cdktf-cdktf-provider-github-9.0.0.tar.gz --markdown 20230719/c/cdktf-cdktf-provider-github/8.0.5-9.0.0/diff.md --exclude *.pyd
+[2023-07-19 05:55:48] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: executing diffoscope
+[2023-07-19 05:55:48] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-newrelic-9.0.0.tar.gz tmp/cdktf-cdktf-provider-newrelic-9.0.1.tar.gz --markdown 20230719/c/cdktf-cdktf-provider-newrelic/9.0.0-9.0.1/diff.md --exclude *.pyd
+[2023-07-19 05:55:48] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: executing diffoscope
+[2023-07-19 05:55:48] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-databricks-9.0.0.tar.gz tmp/cdktf-cdktf-provider-databricks-9.0.1.tar.gz --markdown 20230719/c/cdktf-cdktf-provider-databricks/9.0.0-9.0.1/diff.md --exclude *.pyd
+[2023-07-19 05:55:48] INFO root fetch - processPackages [fnum]: Remove: archive file [/home/abi/fetcher/tmp/fnum-1.5.0-py3-none-any.whl.zip]
+[2023-07-19 05:55:48] INFO root fetch - processPackages [fnum]: Remove: archive file [/home/abi/fetcher/tmp/fnum-1.6.0-py3-none-any.whl.zip]
+[2023-07-19 05:55:48] INFO root fetch - main [MainThread]: End processing [fnum]: success
+[2023-07-19 05:55:48] INFO root fetch - processPackages [finance-scrapers]: Remove: archive file [/home/abi/fetcher/tmp/finance-scrapers-0.0.3.tar.gz]
+[2023-07-19 05:55:48] INFO root fetch - processPackages [finance-scrapers]: Remove: archive file [/home/abi/fetcher/tmp/finance-scrapers-0.0.4.tar.gz]
+[2023-07-19 05:55:48] INFO root fetch - main [MainThread]: End processing [finance-scrapers]: success
+[2023-07-19 05:55:50] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.0.8-py3-none-any.whl.zip]
+[2023-07-19 05:55:50] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.0.9-py3-none-any.whl.zip]
+[2023-07-19 05:55:50] INFO root fetch - main [MainThread]: End processing [finter]: success
+[2023-07-19 05:55:50] INFO root fetch - processPackages [omni-pro]: Remove: archive file [/home/abi/fetcher/tmp/omni-pro-0.1.13.tar.gz]
+[2023-07-19 05:55:50] INFO root fetch - processPackages [omni-pro]: Remove: archive file [/home/abi/fetcher/tmp/omni-pro-0.1.14.tar.gz]
+[2023-07-19 05:55:50] INFO root fetch - main [MainThread]: End processing [omni-pro]: success
+[2023-07-19 05:55:50] INFO root fetch - processPackages [cdktf-cdktf-provider-github]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-github-8.0.5.tar.gz]
+[2023-07-19 05:55:50] INFO root fetch - processPackages [cdktf-cdktf-provider-github]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-github-9.0.0.tar.gz]
+[2023-07-19 05:55:50] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-github]: success
+[2023-07-19 05:55:51] INFO root fetch - processPackages [cdktf-cdktf-provider-okta]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-okta-8.0.2.tar.gz]
+[2023-07-19 05:55:51] INFO root fetch - processPackages [cdktf-cdktf-provider-okta]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-okta-9.0.0.tar.gz]
+[2023-07-19 05:55:51] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-okta]: success
+[2023-07-19 05:55:52] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-newrelic-9.0.0.tar.gz]
+[2023-07-19 05:55:52] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-newrelic-9.0.1.tar.gz]
+[2023-07-19 05:55:52] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-newrelic]: success
+[2023-07-19 05:55:53] INFO root fetch - processPackages [cdktf-cdktf-provider-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-mongodbatlas-4.0.0.tar.gz]
+[2023-07-19 05:55:53] INFO root fetch - processPackages [cdktf-cdktf-provider-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-mongodbatlas-4.0.1.tar.gz]
+[2023-07-19 05:55:53] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-mongodbatlas]: success
+[2023-07-19 05:55:53] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-databricks-9.0.0.tar.gz]
+[2023-07-19 05:55:53] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-databricks-9.0.1.tar.gz]
+[2023-07-19 05:55:53] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-databricks]: success
+[2023-07-19 05:55:53] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-vault-9.0.0.tar.gz]
+[2023-07-19 05:55:53] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-vault-9.0.1.tar.gz]
+[2023-07-19 05:55:53] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-vault]: success
+[2023-07-19 05:55:53] INFO root fetch - main [MainThread]: Store serial: [18945195]
