@@ -18313,3 +18313,144 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-19 10:41:02] INFO root fetch - processPackages [sphinx-wagtail-theme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_wagtail_theme-6.1.0.tar.gz]
 [2023-07-19 10:41:02] INFO root fetch - main [MainThread]: End processing [sphinx-wagtail-theme]: success
 [2023-07-19 10:41:02] INFO root fetch - main [MainThread]: Store serial: [18947330]
+[2023-07-19 10:46:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18947330]
+[2023-07-19 10:46:11] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-19 10:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llm-client
+[2023-07-19 10:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tff-nightly
+[2023-07-19 10:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: teamscale-client
+[2023-07-19 10:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: usseg
+[2023-07-19 10:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: libtimed
+[2023-07-19 10:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tf-estimator-nightly
+[2023-07-19 10:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: faasmctl
+[2023-07-19 10:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: elefanto-webkassa
+[2023-07-19 10:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyvmomi
+[2023-07-19 10:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Navix
+[2023-07-19 10:46:12] INFO root fetch - processPackages [pyvmomi]: New version: [8.0.1.0.2] Old Version: [8.0.1.0.1]
+[2023-07-19 10:46:12] INFO root fetch - processPackages [faasmctl]: New version: [0.6.0] Old Version: [0.5.6]
+[2023-07-19 10:46:12] INFO root fetch - processPackages [Navix]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-07-19 10:46:12] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-07-19 10:46:12] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230718] Old Version: [0.0.1.dev20230717]
+[2023-07-19 10:46:12] INFO root fetch - processPackages [llm-client]: New version: [0.7.0] Old Version: [0.6.2]
+[2023-07-19 10:46:12] INFO root fetch - processPackages [usseg]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-19 10:46:12] INFO root fetch - processPackages [libtimed]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-19 10:46:12] INFO root fetch - processPackages [elefanto-webkassa]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-19 10:46:12] INFO root fetch - processPackages [teamscale-client]: New version: [9.0.1] Old Version: [9.0]
+[2023-07-19 10:46:12] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/31/a0/5e1b898e43043b32d95e8719e2eb127692fd8261edbdad4801876a46893f/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl
+[2023-07-19 10:46:12] INFO root fetch - processPackages [Navix]: Downloading https://files.pythonhosted.org/packages/66/5f/33e3ce8891d987a6e0c388d065879d0b0a1db7c137661bd65b81f72c5627/Navix-0.3.7.tar.gz
+[2023-07-19 10:46:12] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/8e/10/d63cc319da3743ac87fedc597c3b6fb6154cdb9025115ed6a87176e633fa/faasmctl-0.5.6.tar.gz
+[2023-07-19 10:46:12] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/d6/4a/ac78617cd0b6996b427327d9a608f73df279c7fcea43b362ed1f82c59519/tff_nightly-0.0.1.dev20230717-py2.py3-none-any.whl
+[2023-07-19 10:46:12] INFO root fetch - processPackages [pyvmomi]: Downloading https://files.pythonhosted.org/packages/38/25/2c89faf8ab0847041df14cc6de12335a175dd0c3bcc2065d1025ba30c953/pyvmomi-8.0.1.0.1.tar.gz
+[2023-07-19 10:46:12] INFO root fetch - processPackages [elefanto-webkassa]: Downloading https://files.pythonhosted.org/packages/8b/5a/bbf932227fcf59d507c4e2893c5dab67ea090c016e6e9862a5e9ad993c8b/elefanto_webkassa-0.1.5.tar.gz
+[2023-07-19 10:46:12] INFO root fetch - processPackages [llm-client]: Downloading https://files.pythonhosted.org/packages/72/c2/44dc4340cc3a3fdc879aedcaa318fa1b4a3028931507deba17d35d6a7ee9/llm_client-0.6.2.tar.gz
+[2023-07-19 10:46:12] INFO root fetch - processPackages [libtimed]: Downloading https://files.pythonhosted.org/packages/c6/ca/c494e675f1cc259bd7d9a0aefd90102705bd338c45597f74fc6d445c3b26/libtimed-0.1.0.tar.gz
+[2023-07-19 10:46:12] INFO root fetch - processPackages [usseg]: Downloading https://files.pythonhosted.org/packages/f9/20/7a1cfa3621b19811519a6bb6a46c4ffae4d164b802232e5eaf28f133bf6c/usseg-0.4.0.tar.gz
+[2023-07-19 10:46:12] INFO root fetch - processPackages [teamscale-client]: Downloading https://files.pythonhosted.org/packages/18/11/6aa8addd186cdf79de5d526bc36995e062df629b09e5623f58cfed90e983/teamscale-client-9.0.tar.gz
+[2023-07-19 10:46:12] INFO root fetch - processPackages [Navix]: Downloading https://files.pythonhosted.org/packages/cc/c5/7358ab7c8eda99dfb2849d7524f1179d5f6277192a394bca66f14f715d80/Navix-0.3.8.tar.gz
+[2023-07-19 10:46:12] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/06/1b/2680b4d22438591c89ce8c72bf725ec4f4997657e2a4702a15de7bd2a4de/faasmctl-0.6.0.tar.gz
+[2023-07-19 10:46:12] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b6/fe4f7077ae036fd90bf9dfdc09b52cf611b857e7a26c3bc44a2e76c94af2/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl
+[2023-07-19 10:46:13] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/86/2d/a71ceba3856ee41c06ad5ea7657dc8ee52fb6f132785acdc5394f4896c8e/tff_nightly-0.0.1.dev20230718-py2.py3-none-any.whl
+[2023-07-19 10:46:13] INFO root fetch - processPackages [faasmctl]: executing diffoscope
+[2023-07-19 10:46:13] INFO root fetch - processPackages [faasmctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faasmctl-0.5.6.tar.gz tmp/faasmctl-0.6.0.tar.gz --markdown 20230719/f/faasmctl/0.5.6-0.6.0/diff.md --exclude *.pyd
+[2023-07-19 10:46:13] INFO root fetch - processPackages [Navix]: executing diffoscope
+[2023-07-19 10:46:13] INFO root fetch - processPackages [Navix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Navix-0.3.7.tar.gz tmp/Navix-0.3.8.tar.gz --markdown 20230719/N/Navix/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-07-19 10:46:13] INFO root fetch - processPackages [libtimed]: Downloading https://files.pythonhosted.org/packages/5c/83/d4bd48158850bd3524befe9cbdf1988efe8c5f2434f4deab0c7a218dca1c/libtimed-0.2.0.tar.gz
+[2023-07-19 10:46:13] INFO root fetch - processPackages [pyvmomi]: Downloading https://files.pythonhosted.org/packages/33/36/dcdbaae24b7ccd2685bb5d975553235269edd2492b3a273ddefd11989432/pyvmomi-8.0.1.0.2.tar.gz
+[2023-07-19 10:46:13] INFO root fetch - processPackages [usseg]: Downloading https://files.pythonhosted.org/packages/58/79/c79bec8b411fe6d7b750c92d6c0200f6e499780bee300d6d40bac2930104/usseg-0.5.0.tar.gz
+[2023-07-19 10:46:13] INFO root fetch - processPackages [elefanto-webkassa]: Downloading https://files.pythonhosted.org/packages/ef/82/2dde7b4547d8302e8f551849d0abfa08afae8703d748f6a4087c0944258d/elefanto_webkassa-0.1.6.tar.gz
+[2023-07-19 10:46:13] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-07-19 10:46:13] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230719/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-07-19 10:46:13] INFO root fetch - processPackages [teamscale-client]: Downloading https://files.pythonhosted.org/packages/ad/0a/cb1332bf4b808a71deb67935a96dfa01f24716981d151ab6878bd937b9c7/teamscale_client-9.0.1-py3-none-any.whl
+[2023-07-19 10:46:13] INFO root fetch - processPackages [llm-client]: Downloading https://files.pythonhosted.org/packages/9f/50/8d70f665b21ccd9ed540cb85d23558817766cbedb5b4688dfe2f663c13aa/llm_client-0.7.0.tar.gz
+[2023-07-19 10:46:13] INFO root fetch - processPackages [libtimed]: executing diffoscope
+[2023-07-19 10:46:13] INFO root fetch - processPackages [libtimed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libtimed-0.1.0.tar.gz tmp/libtimed-0.2.0.tar.gz --markdown 20230719/l/libtimed/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-19 10:46:13] INFO root fetch - processPackages [usseg]: executing diffoscope
+[2023-07-19 10:46:13] INFO root fetch - processPackages [usseg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usseg-0.4.0.tar.gz tmp/usseg-0.5.0.tar.gz --markdown 20230719/u/usseg/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-19 10:46:13] INFO root fetch - processPackages [teamscale-client]: executing diffoscope
+[2023-07-19 10:46:13] INFO root fetch - processPackages [teamscale-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teamscale-client-9.0.tar.gz tmp/teamscale_client-9.0.1-py3-none-any.whl.zip --markdown 20230719/t/teamscale-client/9.0-9.0.1/diff.md --exclude *.pyd
+[2023-07-19 10:46:13] INFO root fetch - processPackages [llm-client]: executing diffoscope
+[2023-07-19 10:46:13] INFO root fetch - processPackages [llm-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_client-0.6.2.tar.gz tmp/llm_client-0.7.0.tar.gz --markdown 20230719/l/llm-client/0.6.2-0.7.0/diff.md --exclude *.pyd
+[2023-07-19 10:46:13] INFO root fetch - processPackages [elefanto-webkassa]: executing diffoscope
+[2023-07-19 10:46:13] INFO root fetch - processPackages [elefanto-webkassa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elefanto_webkassa-0.1.5.tar.gz tmp/elefanto_webkassa-0.1.6.tar.gz --markdown 20230719/e/elefanto-webkassa/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-19 10:46:13] INFO root fetch - processPackages [pyvmomi]: executing diffoscope
+[2023-07-19 10:46:13] INFO root fetch - processPackages [pyvmomi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvmomi-8.0.1.0.1.tar.gz tmp/pyvmomi-8.0.1.0.2.tar.gz --markdown 20230719/p/pyvmomi/8.0.1.0.1-8.0.1.0.2/diff.md --exclude *.pyd
+[2023-07-19 10:46:13] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-07-19 10:46:13] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230717-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230718-py2.py3-none-any.whl.zip --markdown 20230719/t/tff-nightly/0.0.1.dev20230717-0.0.1.dev20230718/diff.md --exclude *.pyd
+[2023-07-19 10:46:15] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.5.6.tar.gz]
+[2023-07-19 10:46:15] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.6.0.tar.gz]
+[2023-07-19 10:46:15] INFO root fetch - processPackages [faasmctl]: Start processing: ufwban
+[2023-07-19 10:46:15] INFO root fetch - main [MainThread]: End processing [faasmctl]: success
+[2023-07-19 10:46:15] WARNING root fetch - processPackages [ufwban]: Skipping, unable to determine old version
+[2023-07-19 10:46:15] INFO root fetch - processPackages [ufwban]: Start processing: stockpick
+[2023-07-19 10:46:15] INFO root fetch - main [MainThread]: End processing [ufwban] error
+[2023-07-19 10:46:15] INFO root fetch - processPackages [stockpick]: New version: [1.4.1] Old Version: [1.3.2]
+[2023-07-19 10:46:15] INFO root fetch - processPackages [libtimed]: Remove: archive file [/home/abi/fetcher/tmp/libtimed-0.1.0.tar.gz]
+[2023-07-19 10:46:15] INFO root fetch - processPackages [libtimed]: Remove: archive file [/home/abi/fetcher/tmp/libtimed-0.2.0.tar.gz]
+[2023-07-19 10:46:15] INFO root fetch - processPackages [libtimed]: Start processing: odoo13-addon-account-banking-sepa-credit-transfer
+[2023-07-19 10:46:15] INFO root fetch - main [MainThread]: End processing [libtimed]: success
+[2023-07-19 10:46:15] INFO root fetch - processPackages [teamscale-client]: Remove: archive file [/home/abi/fetcher/tmp/teamscale-client-9.0.tar.gz]
+[2023-07-19 10:46:15] INFO root fetch - processPackages [teamscale-client]: Remove: archive file [/home/abi/fetcher/tmp/teamscale_client-9.0.1-py3-none-any.whl.zip]
+[2023-07-19 10:46:15] INFO root fetch - processPackages [teamscale-client]: Start processing: scinumtools
+[2023-07-19 10:46:15] INFO root fetch - main [MainThread]: End processing [teamscale-client]: success
+[2023-07-19 10:46:15] INFO root fetch - processPackages [stockpick]: Downloading https://files.pythonhosted.org/packages/46/51/bfb6c34392d074caf0294439749e9dc79f73dce829daaefc6943be3c1fdb/stockpick-1.3.2-py3-none-any.whl
+[2023-07-19 10:46:15] INFO root fetch - processPackages [scinumtools]: New version: [1.6.5] Old Version: [1.6.4]
+[2023-07-19 10:46:15] INFO root fetch - processPackages [odoo13-addon-account-banking-sepa-credit-transfer]: New version: [13.0.1.1.2.dev1] Old Version: [13.0.1.1.2]
+[2023-07-19 10:46:15] INFO root fetch - processPackages [usseg]: Remove: archive file [/home/abi/fetcher/tmp/usseg-0.4.0.tar.gz]
+[2023-07-19 10:46:15] INFO root fetch - processPackages [usseg]: Remove: archive file [/home/abi/fetcher/tmp/usseg-0.5.0.tar.gz]
+[2023-07-19 10:46:15] INFO root fetch - processPackages [usseg]: Start processing: returnn
+[2023-07-19 10:46:15] INFO root fetch - main [MainThread]: End processing [usseg]: success
+[2023-07-19 10:46:15] INFO root fetch - processPackages [Navix]: Remove: archive file [/home/abi/fetcher/tmp/Navix-0.3.7.tar.gz]
+[2023-07-19 10:46:15] INFO root fetch - processPackages [Navix]: Remove: archive file [/home/abi/fetcher/tmp/Navix-0.3.8.tar.gz]
+[2023-07-19 10:46:15] INFO root fetch - processPackages [Navix]: Start processing: bec-widgets
+[2023-07-19 10:46:15] INFO root fetch - main [MainThread]: End processing [Navix]: success
+[2023-07-19 10:46:15] INFO root fetch - processPackages [scinumtools]: Downloading https://files.pythonhosted.org/packages/d5/92/bc50acb7b829f2290355d6a85135e9c86c6b1b3dd15fb3a53e3601b39ebf/scinumtools-1.6.4.tar.gz
+[2023-07-19 10:46:15] INFO root fetch - processPackages [returnn]: New version: [1.20230718.183712] Old Version: [1.20230718.150009]
+[2023-07-19 10:46:15] INFO root fetch - processPackages [elefanto-webkassa]: Remove: archive file [/home/abi/fetcher/tmp/elefanto_webkassa-0.1.5.tar.gz]
+[2023-07-19 10:46:15] INFO root fetch - processPackages [elefanto-webkassa]: Remove: archive file [/home/abi/fetcher/tmp/elefanto_webkassa-0.1.6.tar.gz]
+[2023-07-19 10:46:15] INFO root fetch - main [MainThread]: End processing [elefanto-webkassa]: success
+[2023-07-19 10:46:15] INFO root fetch - processPackages [odoo13-addon-account-banking-sepa-credit-transfer]: Downloading https://files.pythonhosted.org/packages/20/2f/79221328be3a5c2d9faeedf5432ee248aaa953114a889366869a5dd2919a/odoo13_addon_account_banking_sepa_credit_transfer-13.0.1.1.2-py3-none-any.whl
+[2023-07-19 10:46:15] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/96/7d/7c7ffc8235b57738e796322525f80d682a0a8ccf8c5720a66fcfbe614ad9/returnn-1.20230718.150009.tar.gz
+[2023-07-19 10:46:15] INFO root fetch - processPackages [bec-widgets]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-07-19 10:46:15] INFO root fetch - processPackages [llm-client]: Remove: archive file [/home/abi/fetcher/tmp/llm_client-0.6.2.tar.gz]
+[2023-07-19 10:46:15] INFO root fetch - processPackages [llm-client]: Remove: archive file [/home/abi/fetcher/tmp/llm_client-0.7.0.tar.gz]
+[2023-07-19 10:46:15] INFO root fetch - main [MainThread]: End processing [llm-client]: success
+[2023-07-19 10:46:15] INFO root fetch - processPackages [stockpick]: Downloading https://files.pythonhosted.org/packages/7c/94/c1fa8c680dc06aee86a12a6beea392375f878467fe6455ef985878a813dd/stockpick-1.4.1-py3-none-any.whl
+[2023-07-19 10:46:16] INFO root fetch - processPackages [scinumtools]: Downloading https://files.pythonhosted.org/packages/e0/dc/5b87693faef091b3f3ac531aecb573e282612e6fa14752955c59dd87a81c/scinumtools-1.6.5.tar.gz
+[2023-07-19 10:46:16] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip]
+[2023-07-19 10:46:16] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
+[2023-07-19 10:46:16] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-07-19 10:46:16] INFO root fetch - processPackages [stockpick]: executing diffoscope
+[2023-07-19 10:46:16] INFO root fetch - processPackages [stockpick]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stockpick-1.3.2-py3-none-any.whl.zip tmp/stockpick-1.4.1-py3-none-any.whl.zip --markdown 20230719/s/stockpick/1.3.2-1.4.1/diff.md --exclude *.pyd
+[2023-07-19 10:46:16] INFO root fetch - processPackages [bec-widgets]: Downloading https://files.pythonhosted.org/packages/59/2f/a66e033492cdf338bdc43b5b1f77aad6dde7cbbb696e3c3df9806109df16/bec_widgets-0.2.1.tar.gz
+[2023-07-19 10:46:16] INFO root fetch - processPackages [scinumtools]: executing diffoscope
+[2023-07-19 10:46:16] INFO root fetch - processPackages [scinumtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scinumtools-1.6.4.tar.gz tmp/scinumtools-1.6.5.tar.gz --markdown 20230719/s/scinumtools/1.6.4-1.6.5/diff.md --exclude *.pyd
+[2023-07-19 10:46:16] INFO root fetch - processPackages [odoo13-addon-account-banking-sepa-credit-transfer]: Downloading https://files.pythonhosted.org/packages/10/a3/452eef4b89a64b433d30cf3b0db28f0d8a7a371b5ea3a54b1e627f5857d1/odoo13_addon_account_banking_sepa_credit_transfer-13.0.1.1.2.dev1-py3-none-any.whl
+[2023-07-19 10:46:16] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/5a/10/4338c83fa3649123a7065bd928fdd06af9b53fb3a99fa8dcdb105fd40fdb/returnn-1.20230718.183712.tar.gz
+[2023-07-19 10:46:16] INFO root fetch - processPackages [odoo13-addon-account-banking-sepa-credit-transfer]: executing diffoscope
+[2023-07-19 10:46:16] INFO root fetch - processPackages [odoo13-addon-account-banking-sepa-credit-transfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_account_banking_sepa_credit_transfer-13.0.1.1.2-py3-none-any.whl.zip tmp/odoo13_addon_account_banking_sepa_credit_transfer-13.0.1.1.2.dev1-py3-none-any.whl.zip --markdown 20230719/o/odoo13-addon-account-banking-sepa-credit-transfer/13.0.1.1.2-13.0.1.1.2.dev1/diff.md --exclude *.pyd
+[2023-07-19 10:46:16] INFO root fetch - processPackages [bec-widgets]: Downloading https://files.pythonhosted.org/packages/62/ea/e9c5af4cc70ae9d9e87d28cd179eca4d9700f884ef2a54b89556077a5fd2/bec_widgets-0.3.0.tar.gz
+[2023-07-19 10:46:16] INFO root fetch - processPackages [bec-widgets]: executing diffoscope
+[2023-07-19 10:46:16] INFO root fetch - processPackages [bec-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_widgets-0.2.1.tar.gz tmp/bec_widgets-0.3.0.tar.gz --markdown 20230719/b/bec-widgets/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-07-19 10:46:16] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-07-19 10:46:16] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230718.150009.tar.gz tmp/returnn-1.20230718.183712.tar.gz --markdown 20230719/r/returnn/1.20230718.150009-1.20230718.183712/diff.md --exclude *.pyd
+[2023-07-19 10:46:17] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230717-py2.py3-none-any.whl.zip]
+[2023-07-19 10:46:17] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230718-py2.py3-none-any.whl.zip]
+[2023-07-19 10:46:17] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-07-19 10:46:17] INFO root fetch - processPackages [stockpick]: Remove: archive file [/home/abi/fetcher/tmp/stockpick-1.3.2-py3-none-any.whl.zip]
+[2023-07-19 10:46:17] INFO root fetch - processPackages [stockpick]: Remove: archive file [/home/abi/fetcher/tmp/stockpick-1.4.1-py3-none-any.whl.zip]
+[2023-07-19 10:46:17] INFO root fetch - main [MainThread]: End processing [stockpick]: success
+[2023-07-19 10:46:17] INFO root fetch - processPackages [scinumtools]: Remove: archive file [/home/abi/fetcher/tmp/scinumtools-1.6.4.tar.gz]
+[2023-07-19 10:46:17] INFO root fetch - processPackages [scinumtools]: Remove: archive file [/home/abi/fetcher/tmp/scinumtools-1.6.5.tar.gz]
+[2023-07-19 10:46:17] INFO root fetch - main [MainThread]: End processing [scinumtools]: success
+[2023-07-19 10:46:17] INFO root fetch - processPackages [pyvmomi]: Remove: archive file [/home/abi/fetcher/tmp/pyvmomi-8.0.1.0.1.tar.gz]
+[2023-07-19 10:46:17] INFO root fetch - processPackages [pyvmomi]: Remove: archive file [/home/abi/fetcher/tmp/pyvmomi-8.0.1.0.2.tar.gz]
+[2023-07-19 10:46:17] INFO root fetch - main [MainThread]: End processing [pyvmomi]: success
+[2023-07-19 10:46:17] INFO root fetch - processPackages [bec-widgets]: Remove: archive file [/home/abi/fetcher/tmp/bec_widgets-0.2.1.tar.gz]
+[2023-07-19 10:46:17] INFO root fetch - processPackages [bec-widgets]: Remove: archive file [/home/abi/fetcher/tmp/bec_widgets-0.3.0.tar.gz]
+[2023-07-19 10:46:17] INFO root fetch - main [MainThread]: End processing [bec-widgets]: success
+[2023-07-19 10:46:18] INFO root fetch - processPackages [odoo13-addon-account-banking-sepa-credit-transfer]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_account_banking_sepa_credit_transfer-13.0.1.1.2-py3-none-any.whl.zip]
+[2023-07-19 10:46:18] INFO root fetch - processPackages [odoo13-addon-account-banking-sepa-credit-transfer]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_account_banking_sepa_credit_transfer-13.0.1.1.2.dev1-py3-none-any.whl.zip]
+[2023-07-19 10:46:18] INFO root fetch - main [MainThread]: End processing [odoo13-addon-account-banking-sepa-credit-transfer]: success
+[2023-07-19 10:46:20] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230718.150009.tar.gz]
+[2023-07-19 10:46:20] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230718.183712.tar.gz]
+[2023-07-19 10:46:20] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-07-19 10:46:20] INFO root fetch - main [MainThread]: Store serial: [18947383]
