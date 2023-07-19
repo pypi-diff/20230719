@@ -13198,3 +13198,69 @@
 [2023-07-19 06:37:39] INFO root fetch - processPackages [wpiformat]: Remove: archive file [/home/abi/fetcher/tmp/wpiformat-2023.28.tar.gz]
 [2023-07-19 06:37:39] INFO root fetch - main [MainThread]: End processing [wpiformat]: success
 [2023-07-19 06:37:39] INFO root fetch - main [MainThread]: Store serial: [18945414]
+[2023-07-19 06:42:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18945414]
+[2023-07-19 06:42:48] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-19 06:42:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nics
+[2023-07-19 06:42:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: omni-pro
+[2023-07-19 06:42:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: predibase-api
+[2023-07-19 06:42:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: predibase
+[2023-07-19 06:42:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-bunny
+[2023-07-19 06:42:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: adafri
+[2023-07-19 06:42:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pypomes-core
+[2023-07-19 06:42:48] INFO root fetch - processPackages [predibase-api]: New version: [2023.7.8] Old Version: [2023.7.7]
+[2023-07-19 06:42:48] INFO root fetch - processPackages [nics]: New version: [3.0.0b6] Old Version: [3.0.0b5]
+[2023-07-19 06:42:48] INFO root fetch - processPackages [adafri]: New version: [0.0.23] Old Version: [0.0.22]
+[2023-07-19 06:42:48] INFO root fetch - processPackages [predibase]: New version: [2023.7.8] Old Version: [2023.7.7]
+[2023-07-19 06:42:48] INFO root fetch - processPackages [omni-pro]: New version: [0.1.15] Old Version: [0.1.14]
+[2023-07-19 06:42:48] INFO root fetch - processPackages [predibase-api]: Downloading https://files.pythonhosted.org/packages/90/24/f91338711d2e2299d6624107c83e4ecccb01450e8b873b56126c2e8c3b01/predibase-api-2023.7.7.tar.gz
+[2023-07-19 06:42:48] INFO root fetch - processPackages [pypomes-core]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-19 06:42:48] INFO root fetch - processPackages [django-bunny]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-07-19 06:42:48] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/a4/e4/281a8acf25ab54bcbcbd30e35e348e9be416a9717f4a0659d23123158074/adafri-0.0.22.tar.gz
+[2023-07-19 06:42:48] INFO root fetch - processPackages [predibase]: Downloading https://files.pythonhosted.org/packages/76/ed/0c7f72629c19dce0e00d45986593b40476d432bee2ed907f39e3171ce5a1/predibase-2023.7.7.tar.gz
+[2023-07-19 06:42:48] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/68/8b/c2c844a7e909ad45d50875377798eb9c20b4c75291cc255a33100a68ef8c/nics-3.0.0b5.tar.gz
+[2023-07-19 06:42:48] INFO root fetch - processPackages [omni-pro]: Downloading https://files.pythonhosted.org/packages/66/09/ffab759e814a4ebd2599c6be81d4be1b1cce56619ccf5afdea8257086620/omni-pro-0.1.14.tar.gz
+[2023-07-19 06:42:49] INFO root fetch - processPackages [predibase-api]: Downloading https://files.pythonhosted.org/packages/8e/b3/e2b24d7d65fe083c3a6dead11a4cb7a793a66f1abd7a790b0919e7a2c35f/predibase-api-2023.7.8.tar.gz
+[2023-07-19 06:42:49] INFO root fetch - processPackages [pypomes-core]: Downloading https://files.pythonhosted.org/packages/17/f9/88ec7ec15475338a6a38247cc78d264c42c36c105cc2e06d0e154b8637fe/pypomes_core-0.1.8.tar.gz
+[2023-07-19 06:42:49] INFO root fetch - processPackages [django-bunny]: Downloading https://files.pythonhosted.org/packages/fa/4b/a3dc5b409e0abd25486a76746864e64a034f140928529e952878f6c9ac65/django-bunny-1.0.9.tar.gz
+[2023-07-19 06:42:49] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/73/58/23867426663a07bffc92280df4ceaaad43d16df930caac8f9e5aad9f0f40/nics-3.0.0b6.tar.gz
+[2023-07-19 06:42:49] INFO root fetch - processPackages [predibase]: Downloading https://files.pythonhosted.org/packages/81/03/5204d43fdf7e405baf4aa7f471d947e08e9f74d7b513e93dff63550b05ca/predibase-2023.7.8.tar.gz
+[2023-07-19 06:42:49] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/84/2e/02ebb42b41c97ce0912206d957e64f42ae561ea91d7a5925c1f36b5587ff/adafri-0.0.23.tar.gz
+[2023-07-19 06:42:49] INFO root fetch - processPackages [predibase-api]: executing diffoscope
+[2023-07-19 06:42:49] INFO root fetch - processPackages [predibase-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/predibase-api-2023.7.7.tar.gz tmp/predibase-api-2023.7.8.tar.gz --markdown 20230719/p/predibase-api/2023.7.7-2023.7.8/diff.md --exclude *.pyd
+[2023-07-19 06:42:49] INFO root fetch - processPackages [nics]: executing diffoscope
+[2023-07-19 06:42:49] INFO root fetch - processPackages [nics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nics-3.0.0b5.tar.gz tmp/nics-3.0.0b6.tar.gz --markdown 20230719/n/nics/3.0.0b5-3.0.0b6/diff.md --exclude *.pyd
+[2023-07-19 06:42:49] INFO root fetch - processPackages [omni-pro]: Downloading https://files.pythonhosted.org/packages/c7/d6/e8afd6fa23dfb4a2d624fec3dfb47955bcbc2a4b747c1b42ac4abfce82d2/omni-pro-0.1.15.tar.gz
+[2023-07-19 06:42:49] INFO root fetch - processPackages [predibase]: executing diffoscope
+[2023-07-19 06:42:49] INFO root fetch - processPackages [predibase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/predibase-2023.7.7.tar.gz tmp/predibase-2023.7.8.tar.gz --markdown 20230719/p/predibase/2023.7.7-2023.7.8/diff.md --exclude *.pyd
+[2023-07-19 06:42:49] INFO root fetch - processPackages [adafri]: executing diffoscope
+[2023-07-19 06:42:49] INFO root fetch - processPackages [adafri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafri-0.0.22.tar.gz tmp/adafri-0.0.23.tar.gz --markdown 20230719/a/adafri/0.0.22-0.0.23/diff.md --exclude *.pyd
+[2023-07-19 06:42:49] INFO root fetch - processPackages [pypomes-core]: Downloading https://files.pythonhosted.org/packages/99/44/af3ba2c10420f4262379ea5356fa837f78afcb23fabb363479ea0bf8611b/pypomes_core-0.1.9.tar.gz
+[2023-07-19 06:42:49] INFO root fetch - processPackages [omni-pro]: executing diffoscope
+[2023-07-19 06:42:49] INFO root fetch - processPackages [omni-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omni-pro-0.1.14.tar.gz tmp/omni-pro-0.1.15.tar.gz --markdown 20230719/o/omni-pro/0.1.14-0.1.15/diff.md --exclude *.pyd
+[2023-07-19 06:42:49] INFO root fetch - processPackages [pypomes-core]: executing diffoscope
+[2023-07-19 06:42:49] INFO root fetch - processPackages [pypomes-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_core-0.1.8.tar.gz tmp/pypomes_core-0.1.9.tar.gz --markdown 20230719/p/pypomes-core/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-19 06:42:50] INFO root fetch - processPackages [predibase-api]: Remove: archive file [/home/abi/fetcher/tmp/predibase-api-2023.7.7.tar.gz]
+[2023-07-19 06:42:50] INFO root fetch - processPackages [predibase-api]: Remove: archive file [/home/abi/fetcher/tmp/predibase-api-2023.7.8.tar.gz]
+[2023-07-19 06:42:50] INFO root fetch - main [MainThread]: End processing [predibase-api]: success
+[2023-07-19 06:42:50] INFO root fetch - processPackages [django-bunny]: Downloading https://files.pythonhosted.org/packages/f8/26/57cf6b09d250887d0c2a15bb46174a87e4576958bc3b458a4696b3eb5825/django_bunny-1.1.0.tar.gz
+[2023-07-19 06:42:50] INFO root fetch - processPackages [django-bunny]: executing diffoscope
+[2023-07-19 06:42:50] INFO root fetch - processPackages [django-bunny]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-bunny-1.0.9.tar.gz tmp/django_bunny-1.1.0.tar.gz --markdown 20230719/d/django-bunny/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-07-19 06:42:50] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-3.0.0b5.tar.gz]
+[2023-07-19 06:42:50] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-3.0.0b6.tar.gz]
+[2023-07-19 06:42:50] INFO root fetch - main [MainThread]: End processing [nics]: success
+[2023-07-19 06:42:50] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.22.tar.gz]
+[2023-07-19 06:42:50] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.23.tar.gz]
+[2023-07-19 06:42:50] INFO root fetch - main [MainThread]: End processing [adafri]: success
+[2023-07-19 06:42:50] INFO root fetch - processPackages [predibase]: Remove: archive file [/home/abi/fetcher/tmp/predibase-2023.7.7.tar.gz]
+[2023-07-19 06:42:50] INFO root fetch - processPackages [predibase]: Remove: archive file [/home/abi/fetcher/tmp/predibase-2023.7.8.tar.gz]
+[2023-07-19 06:42:50] INFO root fetch - main [MainThread]: End processing [predibase]: success
+[2023-07-19 06:42:50] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-0.1.8.tar.gz]
+[2023-07-19 06:42:50] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-0.1.9.tar.gz]
+[2023-07-19 06:42:50] INFO root fetch - main [MainThread]: End processing [pypomes-core]: success
+[2023-07-19 06:42:51] INFO root fetch - processPackages [django-bunny]: Remove: archive file [/home/abi/fetcher/tmp/django-bunny-1.0.9.tar.gz]
+[2023-07-19 06:42:51] INFO root fetch - processPackages [django-bunny]: Remove: archive file [/home/abi/fetcher/tmp/django_bunny-1.1.0.tar.gz]
+[2023-07-19 06:42:51] INFO root fetch - main [MainThread]: End processing [django-bunny]: success
+[2023-07-19 06:42:51] INFO root fetch - processPackages [omni-pro]: Remove: archive file [/home/abi/fetcher/tmp/omni-pro-0.1.14.tar.gz]
+[2023-07-19 06:42:51] INFO root fetch - processPackages [omni-pro]: Remove: archive file [/home/abi/fetcher/tmp/omni-pro-0.1.15.tar.gz]
+[2023-07-19 06:42:51] INFO root fetch - main [MainThread]: End processing [omni-pro]: success
+[2023-07-19 06:42:51] INFO root fetch - main [MainThread]: Store serial: [18945435]
