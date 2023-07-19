@@ -18090,3 +18090,100 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-19 10:30:21] INFO root fetch - processPackages [tksel]: Remove: archive file [/home/abi/fetcher/tmp/tksel-0.1.1.tar.gz]
 [2023-07-19 10:30:21] INFO root fetch - main [MainThread]: End processing [tksel]: success
 [2023-07-19 10:30:21] INFO root fetch - main [MainThread]: Store serial: [18947165]
+[2023-07-19 10:35:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18947165]
+[2023-07-19 10:35:31] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-19 10:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zimran-events
+[2023-07-19 10:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datadog-checks-base
+[2023-07-19 10:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lightly
+[2023-07-19 10:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aify
+[2023-07-19 10:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chatllm
+[2023-07-19 10:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: clickzetta-migration
+[2023-07-19 10:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ufwban
+[2023-07-19 10:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-antti-z3-lemmas-test
+[2023-07-19 10:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PyThaiTTS
+[2023-07-19 10:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ignos-internal-api-client
+[2023-07-19 10:35:31] INFO root fetch - processPackages [certora-cli-alpha-antti-z3-lemmas-test]: New version: [20230719.7.54.116042] Old Version: [20230719.7.22.185265]
+[2023-07-19 10:35:31] INFO root fetch - processPackages [clickzetta-migration]: New version: [0.0.0.5] Old Version: [0.0.0.4]
+[2023-07-19 10:35:31] INFO root fetch - processPackages [PyThaiTTS]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-19 10:35:31] INFO root fetch - processPackages [aify]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-19 10:35:31] INFO root fetch - processPackages [chatllm]: New version: [2023.7.4.13.43.50] Old Version: [2023.7.4.12.13.14]
+[2023-07-19 10:35:31] INFO root fetch - processPackages [datadog-checks-base]: New version: [9.6.0] Old Version: [9.5.0]
+[2023-07-19 10:35:31] INFO root fetch - processPackages [clickzetta-migration]: Downloading https://files.pythonhosted.org/packages/7a/26/46ba330f63049dcced01451611fadd4c8e1bedc7bdd853fe83a461f5f43c/clickzetta-migration-0.0.0.4.tar.gz
+[2023-07-19 10:35:31] INFO root fetch - processPackages [zimran-events]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-19 10:35:31] INFO root fetch - processPackages [lightly]: New version: [1.4.8] Old Version: [1.4.7]
+[2023-07-19 10:35:31] WARNING root fetch - processPackages [ufwban]: Skipping, unable to determine old version
+[2023-07-19 10:35:31] INFO root fetch - processPackages [ufwban]: Start processing: nvfuser-cu121
+[2023-07-19 10:35:31] INFO root fetch - main [MainThread]: End processing [ufwban] error
+[2023-07-19 10:35:31] INFO root fetch - processPackages [ignos-internal-api-client]: New version: [20230719.0.5642] Old Version: [20230702.0.5514]
+[2023-07-19 10:35:31] INFO root fetch - processPackages [PyThaiTTS]: Downloading https://files.pythonhosted.org/packages/17/13/6a608358ba817497f553df3fd05a3780810072d1d62adc98ae1005aebce5/PyThaiTTS-0.1.1.tar.gz
+[2023-07-19 10:35:31] INFO root fetch - processPackages [aify]: Downloading https://files.pythonhosted.org/packages/16/77/3af94aa9c76da429b46e3c38485a83d7ce8d29266f2797a3d6c964dc6723/aify-0.1.1-py3-none-any.whl
+[2023-07-19 10:35:31] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-07-19 10:35:31] INFO root fetch - processPackages [certora-cli-alpha-antti-z3-lemmas-test]: Downloading https://files.pythonhosted.org/packages/51/81/9ba3333705fe06f06a40f675c3b892c832873c1212800b840e400664242a/certora-cli-alpha-antti-z3-lemmas-test-20230719.7.22.185265.tar.gz
+[2023-07-19 10:35:31] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/ac/15/d8015b5ea1834f5c18e47edecc9b74875a43e81a49b4b2b2372660959ee1/chatllm-2023.7.4.12.13.14.tar.gz
+[2023-07-19 10:35:31] WARNING root fetch - processPackages [certora-cli-alpha-antti-z3-lemmas-test]: Skipping package: exceeds size limit 38785473>=10485760
+[2023-07-19 10:35:31] INFO root fetch - processPackages [certora-cli-alpha-antti-z3-lemmas-test]: Start processing: faasmctl
+[2023-07-19 10:35:31] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-antti-z3-lemmas-test] error
+[2023-07-19 10:35:31] WARNING root fetch - processPackages [chatllm]: Skipping package: exceeds size limit 11352041>=10485760
+[2023-07-19 10:35:31] INFO root fetch - main [MainThread]: End processing [chatllm] error
+[2023-07-19 10:35:31] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/b3/bf/667bd4aad6c776a5e62ad2f63da6dd5bb51f013f1ff3284d04efbf109991/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-19 10:35:32] INFO root fetch - processPackages [zimran-events]: Downloading https://files.pythonhosted.org/packages/c9/81/7df18ee62a096c056b5797ba161386758501fee56161f0bd1f09b32994c0/zimran-events-0.3.0.tar.gz
+[2023-07-19 10:35:32] INFO root fetch - processPackages [lightly]: Downloading https://files.pythonhosted.org/packages/d0/34/8f127fd141110cc9eb8862e19287641d86206e9b8b58535bc9168eacedd7/lightly-1.4.7.tar.gz
+[2023-07-19 10:35:32] INFO root fetch - processPackages [ignos-internal-api-client]: Downloading https://files.pythonhosted.org/packages/66/b4/0702e77475a929abb4e1a50e984ea1f92dfa21b11c0a1da0554dd3a66f68/ignos-internal-api-client-20230702.0.5514.tar.gz
+[2023-07-19 10:35:32] INFO root fetch - processPackages [datadog-checks-base]: Downloading https://files.pythonhosted.org/packages/43/33/0058df29cd2f889d75fd3b628c22d38554e17b2fe2867f0de729b045318d/datadog_checks_base-9.5.0-py2.py3-none-any.whl
+[2023-07-19 10:35:32] INFO root fetch - processPackages [faasmctl]: New version: [0.6.0] Old Version: [0.5.6]
+[2023-07-19 10:35:32] INFO root fetch - processPackages [PyThaiTTS]: Downloading https://files.pythonhosted.org/packages/7b/ac/41c287a09ea2a08e178fd413c0000c589f64e208a586005e74a2c11e7d5f/PyThaiTTS-0.2.0.tar.gz
+[2023-07-19 10:35:32] INFO root fetch - processPackages [clickzetta-migration]: Downloading https://files.pythonhosted.org/packages/b2/88/c04c2cef2e9078c9a9036d46a23b7462acdf5232c5b3f3f8ec68718fe703/clickzetta-migration-0.0.0.5.tar.gz
+[2023-07-19 10:35:32] INFO root fetch - processPackages [clickzetta-migration]: executing diffoscope
+[2023-07-19 10:35:32] INFO root fetch - processPackages [clickzetta-migration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-migration-0.0.0.4.tar.gz tmp/clickzetta-migration-0.0.0.5.tar.gz --markdown 20230719/c/clickzetta-migration/0.0.0.4-0.0.0.5/diff.md --exclude *.pyd
+[2023-07-19 10:35:32] INFO root fetch - processPackages [PyThaiTTS]: executing diffoscope
+[2023-07-19 10:35:32] INFO root fetch - processPackages [PyThaiTTS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyThaiTTS-0.1.1.tar.gz tmp/PyThaiTTS-0.2.0.tar.gz --markdown 20230719/P/PyThaiTTS/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-19 10:35:32] INFO root fetch - processPackages [aify]: Downloading https://files.pythonhosted.org/packages/9c/55/db5a6bca72847920fc4cbd2cec02c811ae5d8b34d66de1421772ebb7ca95/aify-0.1.2-py3-none-any.whl
+[2023-07-19 10:35:32] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/8e/10/d63cc319da3743ac87fedc597c3b6fb6154cdb9025115ed6a87176e633fa/faasmctl-0.5.6.tar.gz
+[2023-07-19 10:35:32] INFO root fetch - processPackages [zimran-events]: Downloading https://files.pythonhosted.org/packages/a0/d7/80c6685d9a6418944c148a3dc3679bcfa3ce95f9383bed0143f32a4dd623/zimran-events-0.3.1.tar.gz
+[2023-07-19 10:35:32] INFO root fetch - processPackages [ignos-internal-api-client]: Downloading https://files.pythonhosted.org/packages/31/94/e58196e6324823021fc0e546f426fad25acbd0ac4997ebb3e6d65f5d62ae/ignos-internal-api-client-20230719.0.5642.tar.gz
+[2023-07-19 10:35:32] INFO root fetch - processPackages [datadog-checks-base]: Downloading https://files.pythonhosted.org/packages/85/a5/da8ded74bcfc838d21b13ba266ea5256690703a778c52ecefea6536ae83e/datadog_checks_base-9.6.0-py2.py3-none-any.whl
+[2023-07-19 10:35:32] INFO root fetch - processPackages [zimran-events]: executing diffoscope
+[2023-07-19 10:35:32] INFO root fetch - processPackages [zimran-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zimran-events-0.3.0.tar.gz tmp/zimran-events-0.3.1.tar.gz --markdown 20230719/z/zimran-events/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-19 10:35:32] INFO root fetch - processPackages [lightly]: Downloading https://files.pythonhosted.org/packages/22/4f/08b2315b8a277a13960ced57b9a287366c1b0b543b24ae52aea86d1fec16/lightly-1.4.8.tar.gz
+[2023-07-19 10:35:32] INFO root fetch - processPackages [aify]: executing diffoscope
+[2023-07-19 10:35:32] INFO root fetch - processPackages [aify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aify-0.1.1-py3-none-any.whl.zip tmp/aify-0.1.2-py3-none-any.whl.zip --markdown 20230719/a/aify/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-19 10:35:32] INFO root fetch - processPackages [ignos-internal-api-client]: executing diffoscope
+[2023-07-19 10:35:32] INFO root fetch - processPackages [ignos-internal-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ignos-internal-api-client-20230702.0.5514.tar.gz tmp/ignos-internal-api-client-20230719.0.5642.tar.gz --markdown 20230719/i/ignos-internal-api-client/20230702.0.5514-20230719.0.5642/diff.md --exclude *.pyd
+[2023-07-19 10:35:32] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/05/3d/6c84b5f07a9f69349df1b20f64065b4cbd84158521710f47bb31051a8ee9/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-19 10:35:32] INFO root fetch - processPackages [lightly]: executing diffoscope
+[2023-07-19 10:35:32] INFO root fetch - processPackages [lightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightly-1.4.7.tar.gz tmp/lightly-1.4.8.tar.gz --markdown 20230719/l/lightly/1.4.7-1.4.8/diff.md --exclude *.pyd
+[2023-07-19 10:35:32] INFO root fetch - processPackages [datadog-checks-base]: executing diffoscope
+[2023-07-19 10:35:32] INFO root fetch - processPackages [datadog-checks-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datadog_checks_base-9.5.0-py2.py3-none-any.whl.zip tmp/datadog_checks_base-9.6.0-py2.py3-none-any.whl.zip --markdown 20230719/d/datadog-checks-base/9.5.0-9.6.0/diff.md --exclude *.pyd
+[2023-07-19 10:35:32] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/06/1b/2680b4d22438591c89ce8c72bf725ec4f4997657e2a4702a15de7bd2a4de/faasmctl-0.6.0.tar.gz
+[2023-07-19 10:35:32] INFO root fetch - processPackages [faasmctl]: executing diffoscope
+[2023-07-19 10:35:32] INFO root fetch - processPackages [faasmctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faasmctl-0.5.6.tar.gz tmp/faasmctl-0.6.0.tar.gz --markdown 20230719/f/faasmctl/0.5.6-0.6.0/diff.md --exclude *.pyd
+[2023-07-19 10:35:33] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2023-07-19 10:35:33] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230719/n/nvfuser-cu121/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-07-19 10:35:33] INFO root fetch - processPackages [PyThaiTTS]: Remove: archive file [/home/abi/fetcher/tmp/PyThaiTTS-0.1.1.tar.gz]
+[2023-07-19 10:35:33] INFO root fetch - processPackages [PyThaiTTS]: Remove: archive file [/home/abi/fetcher/tmp/PyThaiTTS-0.2.0.tar.gz]
+[2023-07-19 10:35:33] INFO root fetch - main [MainThread]: End processing [PyThaiTTS]: success
+[2023-07-19 10:35:34] INFO root fetch - processPackages [clickzetta-migration]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-migration-0.0.0.4.tar.gz]
+[2023-07-19 10:35:34] INFO root fetch - processPackages [clickzetta-migration]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-migration-0.0.0.5.tar.gz]
+[2023-07-19 10:35:34] INFO root fetch - main [MainThread]: End processing [clickzetta-migration]: success
+[2023-07-19 10:35:34] INFO root fetch - processPackages [zimran-events]: Remove: archive file [/home/abi/fetcher/tmp/zimran-events-0.3.0.tar.gz]
+[2023-07-19 10:35:34] INFO root fetch - processPackages [zimran-events]: Remove: archive file [/home/abi/fetcher/tmp/zimran-events-0.3.1.tar.gz]
+[2023-07-19 10:35:34] INFO root fetch - main [MainThread]: End processing [zimran-events]: success
+[2023-07-19 10:35:34] INFO root fetch - processPackages [ignos-internal-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ignos-internal-api-client-20230702.0.5514.tar.gz]
+[2023-07-19 10:35:34] INFO root fetch - processPackages [ignos-internal-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ignos-internal-api-client-20230719.0.5642.tar.gz]
+[2023-07-19 10:35:34] INFO root fetch - main [MainThread]: End processing [ignos-internal-api-client]: success
+[2023-07-19 10:35:34] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.5.6.tar.gz]
+[2023-07-19 10:35:34] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.6.0.tar.gz]
+[2023-07-19 10:35:34] INFO root fetch - main [MainThread]: End processing [faasmctl]: success
+[2023-07-19 10:35:35] INFO root fetch - processPackages [datadog-checks-base]: Remove: archive file [/home/abi/fetcher/tmp/datadog_checks_base-9.5.0-py2.py3-none-any.whl.zip]
+[2023-07-19 10:35:35] INFO root fetch - processPackages [datadog-checks-base]: Remove: archive file [/home/abi/fetcher/tmp/datadog_checks_base-9.6.0-py2.py3-none-any.whl.zip]
+[2023-07-19 10:35:35] INFO root fetch - main [MainThread]: End processing [datadog-checks-base]: success
+[2023-07-19 10:35:35] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-19 10:35:35] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-19 10:35:35] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2023-07-19 10:35:36] INFO root fetch - processPackages [lightly]: Remove: archive file [/home/abi/fetcher/tmp/lightly-1.4.7.tar.gz]
+[2023-07-19 10:35:36] INFO root fetch - processPackages [lightly]: Remove: archive file [/home/abi/fetcher/tmp/lightly-1.4.8.tar.gz]
+[2023-07-19 10:35:36] INFO root fetch - main [MainThread]: End processing [lightly]: success
+[2023-07-19 10:35:42] INFO root fetch - processPackages [aify]: Remove: archive file [/home/abi/fetcher/tmp/aify-0.1.1-py3-none-any.whl.zip]
+[2023-07-19 10:35:42] INFO root fetch - processPackages [aify]: Remove: archive file [/home/abi/fetcher/tmp/aify-0.1.2-py3-none-any.whl.zip]
+[2023-07-19 10:35:42] INFO root fetch - main [MainThread]: End processing [aify]: success
+[2023-07-19 10:35:42] INFO root fetch - main [MainThread]: Store serial: [18947202]
