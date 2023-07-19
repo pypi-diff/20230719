@@ -20144,3 +20144,133 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-19 11:49:58] INFO root fetch - processPackages [super-gradients]: Remove: archive file [/home/abi/fetcher/tmp/super_gradients-3.1.3-py3-none-any.whl.zip]
 [2023-07-19 11:49:58] INFO root fetch - main [MainThread]: End processing [super-gradients]: success
 [2023-07-19 11:49:58] INFO root fetch - main [MainThread]: Store serial: [18948152]
+[2023-07-19 11:55:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18948152]
+[2023-07-19 11:55:07] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-19 11:55:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: struvolpy
+[2023-07-19 11:55:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libjth
+[2023-07-19 11:55:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: synthdog
+[2023-07-19 11:55:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dbmig
+[2023-07-19 11:55:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stock-open-api
+[2023-07-19 11:55:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: era-5g-client
+[2023-07-19 11:55:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: EAScheduler
+[2023-07-19 11:55:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: elefanto-webkassa
+[2023-07-19 11:55:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: image-file-validator
+[2023-07-19 11:55:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: iflytekspark
+[2023-07-19 11:55:08] INFO root fetch - processPackages [synthdog]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-07-19 11:55:08] INFO root fetch - processPackages [image-file-validator]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-19 11:55:08] INFO root fetch - processPackages [elefanto-webkassa]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-19 11:55:08] WARNING root fetch - processPackages [struvolpy]: Skipping, unable to determine old version
+[2023-07-19 11:55:08] INFO root fetch - processPackages [struvolpy]: Start processing: TDCRPy
+[2023-07-19 11:55:08] INFO root fetch - main [MainThread]: End processing [struvolpy] error
+[2023-07-19 11:55:08] INFO root fetch - processPackages [EAScheduler]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-19 11:55:08] INFO root fetch - processPackages [stock-open-api]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-19 11:55:08] INFO root fetch - processPackages [era-5g-client]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-19 11:55:08] INFO root fetch - processPackages [dbmig]: New version: [1.7.0] Old Version: [1.6.3]
+[2023-07-19 11:55:08] WARNING root fetch - processPackages [libjth]: Skipping, unable to determine old version
+[2023-07-19 11:55:08] WARNING root fetch - processPackages [iflytekspark]: Skipping, unable to determine old version
+[2023-07-19 11:55:08] INFO root fetch - processPackages [libjth]: Start processing: AshCrypt
+[2023-07-19 11:55:08] INFO root fetch - main [MainThread]: End processing [libjth] error
+[2023-07-19 11:55:08] INFO root fetch - processPackages [iflytekspark]: Start processing: cloudfoundry-client
+[2023-07-19 11:55:08] INFO root fetch - main [MainThread]: End processing [iflytekspark] error
+[2023-07-19 11:55:08] INFO root fetch - processPackages [TDCRPy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-19 11:55:08] INFO root fetch - processPackages [image-file-validator]: Downloading https://files.pythonhosted.org/packages/3b/c6/aaa0d4b6a9763cde4bb3ec3383bbbe386c04110d859e28bf6b010d42ea44/image_file_validator-0.0.4-py3-none-any.whl
+[2023-07-19 11:55:08] INFO root fetch - processPackages [AshCrypt]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-07-19 11:55:08] INFO root fetch - processPackages [cloudfoundry-client]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-19 11:55:08] INFO root fetch - processPackages [era-5g-client]: Downloading https://files.pythonhosted.org/packages/90/de/d64ba1c957e03616b1dd5c20e976a25a827109c1156a6e547241e6a3f4ca/era_5g_client-0.4.0.tar.gz
+[2023-07-19 11:55:08] INFO root fetch - processPackages [synthdog]: Downloading https://files.pythonhosted.org/packages/1f/bc/141d57ec471bfd6d191ebd0ff48753dca839594cf5bff437c89d78c1495d/synthdog-0.6.4.tar.gz
+[2023-07-19 11:55:08] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/45/d1/26f2b4eb42e05416d7662d5fb8b6f31b59dee6421945806c7b7bfdfbfa94/TDCRPy-0.0.8.tar.gz
+[2023-07-19 11:55:08] INFO root fetch - processPackages [stock-open-api]: Downloading https://files.pythonhosted.org/packages/70/3c/4e14e55384f76f618f36f1b1f18e68ab925ef0a361355359f6158c1baaaf/stock-open-api-0.0.5.tar.gz
+[2023-07-19 11:55:08] INFO root fetch - processPackages [AshCrypt]: Downloading https://files.pythonhosted.org/packages/c3/f2/e70f0e5d4656c76bae8cc44606832ff0112b313e5b47733cd622c8dccf62/AshCrypt-2.0.4.tar.gz
+[2023-07-19 11:55:08] INFO root fetch - processPackages [EAScheduler]: Downloading https://files.pythonhosted.org/packages/69/01/892462ebb55c5fad51c03e9a00930e49bf4ee94d9cc2dc035f905b78ff2a/EAScheduler-0.1.8.tar.gz
+[2023-07-19 11:55:08] INFO root fetch - processPackages [elefanto-webkassa]: Downloading https://files.pythonhosted.org/packages/03/2f/ed8429af0832ce35f2137dbf202a6ab204a53c60ce48fc423185f5f58a1e/elefanto_webkassa-0.2.2.tar.gz
+[2023-07-19 11:55:08] WARNING root fetch - processPackages [synthdog]: Skipping package: exceeds size limit 21933302>=10485760
+[2023-07-19 11:55:08] INFO root fetch - processPackages [synthdog]: Start processing: nwebclient
+[2023-07-19 11:55:08] INFO root fetch - main [MainThread]: End processing [synthdog] error
+[2023-07-19 11:55:08] INFO root fetch - processPackages [dbmig]: Downloading https://files.pythonhosted.org/packages/12/07/08d897917ffab24b64cac9c13ab9d3357318e9efd6158fff9534c05d4b97/dbmig-1.6.3.tar.gz
+[2023-07-19 11:55:08] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-19 11:55:08] INFO root fetch - processPackages [cloudfoundry-client]: Downloading https://files.pythonhosted.org/packages/20/9d/99e5d890e6765de459205dc09268f793312a5677c6c6c01fe5bdfcd3cfd0/cloudfoundry-client-1.8.0.tar.gz
+[2023-07-19 11:55:08] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-19 11:55:09] INFO root fetch - processPackages [image-file-validator]: Downloading https://files.pythonhosted.org/packages/c7/db/b2f8a08ddb5d502b86d071c2bd298b57801d49f77d420c53e034de2a59a9/image_file_validator-0.0.5-py3-none-any.whl
+[2023-07-19 11:55:09] INFO root fetch - processPackages [era-5g-client]: Downloading https://files.pythonhosted.org/packages/15/86/5128d5863ff97c95ea00c4507bc62bebda115a8452be6a7b5154f76e3632/era_5g_client-0.4.1.tar.gz
+[2023-07-19 11:55:09] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/58/f4/f09bcfbd9ef3b75b2932ba824304fc7e7bcee566e8570cb2d64f76eb9adc/TDCRPy-0.0.9.tar.gz
+[2023-07-19 11:55:09] INFO root fetch - processPackages [AshCrypt]: Downloading https://files.pythonhosted.org/packages/b5/f8/860bfc470e716b89092fa4ada40ee1a1488553ff5dfdcda6aa2409ff69d7/AshCrypt-2.0.5.tar.gz
+[2023-07-19 11:55:09] INFO root fetch - processPackages [elefanto-webkassa]: Downloading https://files.pythonhosted.org/packages/ec/59/a6d9ba15933df5c741eb618485450c8ced07f2b3e35ba870d9994124d3e7/elefanto_webkassa-0.2.3.tar.gz
+[2023-07-19 11:55:09] INFO root fetch - processPackages [stock-open-api]: Downloading https://files.pythonhosted.org/packages/a9/3c/063f1b38ae7de2bb168521e833ff550429d3ace25b246023b64288409417/stock-open-api-0.0.6.tar.gz
+[2023-07-19 11:55:09] INFO root fetch - processPackages [era-5g-client]: executing diffoscope
+[2023-07-19 11:55:09] INFO root fetch - processPackages [era-5g-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/era_5g_client-0.4.0.tar.gz tmp/era_5g_client-0.4.1.tar.gz --markdown 20230719/e/era-5g-client/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-19 11:55:09] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-19 11:55:09] INFO root fetch - processPackages [dbmig]: Downloading https://files.pythonhosted.org/packages/fb/37/635fc7d417eaa9e2764693950ebb3860332b40b28494fc62a8a85c25553d/dbmig-1.7.0-py3-none-any.whl
+[2023-07-19 11:55:09] INFO root fetch - processPackages [image-file-validator]: executing diffoscope
+[2023-07-19 11:55:09] INFO root fetch - processPackages [image-file-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image_file_validator-0.0.4-py3-none-any.whl.zip tmp/image_file_validator-0.0.5-py3-none-any.whl.zip --markdown 20230719/i/image-file-validator/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-19 11:55:09] INFO root fetch - processPackages [TDCRPy]: executing diffoscope
+[2023-07-19 11:55:09] INFO root fetch - processPackages [TDCRPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDCRPy-0.0.8.tar.gz tmp/TDCRPy-0.0.9.tar.gz --markdown 20230719/T/TDCRPy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-19 11:55:09] INFO root fetch - processPackages [cloudfoundry-client]: Downloading https://files.pythonhosted.org/packages/55/78/4daaeca27bd3ade38295a089555f453630d5f2b13180002f6f74c5807c43/cloudfoundry-client-1.9.0.tar.gz
+[2023-07-19 11:55:09] INFO root fetch - processPackages [stock-open-api]: executing diffoscope
+[2023-07-19 11:55:09] INFO root fetch - processPackages [stock-open-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stock-open-api-0.0.5.tar.gz tmp/stock-open-api-0.0.6.tar.gz --markdown 20230719/s/stock-open-api/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-19 11:55:09] INFO root fetch - processPackages [dbmig]: executing diffoscope
+[2023-07-19 11:55:09] INFO root fetch - processPackages [dbmig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbmig-1.6.3.tar.gz tmp/dbmig-1.7.0-py3-none-any.whl.zip --markdown 20230719/d/dbmig/1.6.3-1.7.0/diff.md --exclude *.pyd
+[2023-07-19 11:55:09] INFO root fetch - processPackages [AshCrypt]: executing diffoscope
+[2023-07-19 11:55:09] INFO root fetch - processPackages [AshCrypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AshCrypt-2.0.4.tar.gz tmp/AshCrypt-2.0.5.tar.gz --markdown 20230719/A/AshCrypt/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-07-19 11:55:09] INFO root fetch - processPackages [EAScheduler]: Downloading https://files.pythonhosted.org/packages/62/db/1bd67952c814c9ce0abc936d231bd12d6d7a09df9bb6a715fcba01ee6476/EAScheduler-0.1.9.tar.gz
+[2023-07-19 11:55:09] INFO root fetch - processPackages [elefanto-webkassa]: executing diffoscope
+[2023-07-19 11:55:09] INFO root fetch - processPackages [elefanto-webkassa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elefanto_webkassa-0.2.2.tar.gz tmp/elefanto_webkassa-0.2.3.tar.gz --markdown 20230719/e/elefanto-webkassa/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-19 11:55:09] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-19 11:55:09] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230719/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-19 11:55:09] INFO root fetch - processPackages [cloudfoundry-client]: executing diffoscope
+[2023-07-19 11:55:09] INFO root fetch - processPackages [cloudfoundry-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudfoundry-client-1.8.0.tar.gz tmp/cloudfoundry-client-1.9.0.tar.gz --markdown 20230719/c/cloudfoundry-client/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-19 11:55:09] INFO root fetch - processPackages [EAScheduler]: executing diffoscope
+[2023-07-19 11:55:09] INFO root fetch - processPackages [EAScheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EAScheduler-0.1.8.tar.gz tmp/EAScheduler-0.1.9.tar.gz --markdown 20230719/E/EAScheduler/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-19 11:55:10] INFO root fetch - processPackages [dbmig]: Remove: archive file [/home/abi/fetcher/tmp/dbmig-1.6.3.tar.gz]
+[2023-07-19 11:55:10] INFO root fetch - processPackages [dbmig]: Remove: archive file [/home/abi/fetcher/tmp/dbmig-1.7.0-py3-none-any.whl.zip]
+[2023-07-19 11:55:10] INFO root fetch - processPackages [dbmig]: Start processing: OpenGeode-core
+[2023-07-19 11:55:10] INFO root fetch - main [MainThread]: End processing [dbmig]: success
+[2023-07-19 11:55:10] INFO root fetch - processPackages [image-file-validator]: Remove: archive file [/home/abi/fetcher/tmp/image_file_validator-0.0.4-py3-none-any.whl.zip]
+[2023-07-19 11:55:10] INFO root fetch - processPackages [image-file-validator]: Remove: archive file [/home/abi/fetcher/tmp/image_file_validator-0.0.5-py3-none-any.whl.zip]
+[2023-07-19 11:55:10] INFO root fetch - processPackages [image-file-validator]: Start processing: pulumi-aws-native
+[2023-07-19 11:55:10] INFO root fetch - main [MainThread]: End processing [image-file-validator]: success
+[2023-07-19 11:55:10] INFO root fetch - processPackages [pulumi-aws-native]: New version: [0.9.1a1641826769] Old Version: [0.9.1a1641824984]
+[2023-07-19 11:55:10] INFO root fetch - processPackages [OpenGeode-core]: New version: [9.10.4] Old Version: [14.4.4rc1]
+[2023-07-19 11:55:11] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/89/ce/96408f528e6ba1eda1aea4b6573d97640f6288eac90da3e79f8e64f86ba8/pulumi_aws_native-0.9.1a1641824984.tar.gz
+[2023-07-19 11:55:11] INFO root fetch - processPackages [era-5g-client]: Remove: archive file [/home/abi/fetcher/tmp/era_5g_client-0.4.0.tar.gz]
+[2023-07-19 11:55:11] INFO root fetch - processPackages [era-5g-client]: Remove: archive file [/home/abi/fetcher/tmp/era_5g_client-0.4.1.tar.gz]
+[2023-07-19 11:55:11] INFO root fetch - processPackages [era-5g-client]: Start processing: nwebclient
+[2023-07-19 11:55:11] INFO root fetch - main [MainThread]: End processing [era-5g-client]: success
+[2023-07-19 11:55:11] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-19 11:55:11] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-19 11:55:11] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-19 11:55:11] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-19 11:55:11] INFO root fetch - processPackages [OpenGeode-core]: Downloading https://files.pythonhosted.org/packages/70/f5/05a57092f6bf1e9466ba1fd3e7f6e5d697f7f8f1143171f24e2a9dcf33cf/OpenGeode_core-14.4.4rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-19 11:55:11] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.8.tar.gz]
+[2023-07-19 11:55:11] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.9.tar.gz]
+[2023-07-19 11:55:11] INFO root fetch - main [MainThread]: End processing [TDCRPy]: success
+[2023-07-19 11:55:11] INFO root fetch - processPackages [elefanto-webkassa]: Remove: archive file [/home/abi/fetcher/tmp/elefanto_webkassa-0.2.2.tar.gz]
+[2023-07-19 11:55:11] INFO root fetch - processPackages [elefanto-webkassa]: Remove: archive file [/home/abi/fetcher/tmp/elefanto_webkassa-0.2.3.tar.gz]
+[2023-07-19 11:55:11] INFO root fetch - main [MainThread]: End processing [elefanto-webkassa]: success
+[2023-07-19 11:55:11] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-19 11:55:11] INFO root fetch - processPackages [EAScheduler]: Remove: archive file [/home/abi/fetcher/tmp/EAScheduler-0.1.8.tar.gz]
+[2023-07-19 11:55:11] INFO root fetch - processPackages [EAScheduler]: Remove: archive file [/home/abi/fetcher/tmp/EAScheduler-0.1.9.tar.gz]
+[2023-07-19 11:55:11] INFO root fetch - main [MainThread]: End processing [EAScheduler]: success
+[2023-07-19 11:55:11] INFO root fetch - processPackages [stock-open-api]: Remove: archive file [/home/abi/fetcher/tmp/stock-open-api-0.0.5.tar.gz]
+[2023-07-19 11:55:11] INFO root fetch - processPackages [stock-open-api]: Remove: archive file [/home/abi/fetcher/tmp/stock-open-api-0.0.6.tar.gz]
+[2023-07-19 11:55:11] INFO root fetch - main [MainThread]: End processing [stock-open-api]: success
+[2023-07-19 11:55:11] INFO root fetch - processPackages [AshCrypt]: Remove: archive file [/home/abi/fetcher/tmp/AshCrypt-2.0.4.tar.gz]
+[2023-07-19 11:55:11] INFO root fetch - processPackages [AshCrypt]: Remove: archive file [/home/abi/fetcher/tmp/AshCrypt-2.0.5.tar.gz]
+[2023-07-19 11:55:11] INFO root fetch - main [MainThread]: End processing [AshCrypt]: success
+[2023-07-19 11:55:11] WARNING root fetch - processPackages [OpenGeode-core]: Skipping package: exceeds size limit 14141212>=10485760
+[2023-07-19 11:55:11] INFO root fetch - main [MainThread]: End processing [OpenGeode-core] error
+[2023-07-19 11:55:11] INFO root fetch - processPackages [cloudfoundry-client]: Remove: archive file [/home/abi/fetcher/tmp/cloudfoundry-client-1.8.0.tar.gz]
+[2023-07-19 11:55:11] INFO root fetch - processPackages [cloudfoundry-client]: Remove: archive file [/home/abi/fetcher/tmp/cloudfoundry-client-1.9.0.tar.gz]
+[2023-07-19 11:55:11] INFO root fetch - main [MainThread]: End processing [cloudfoundry-client]: success
+[2023-07-19 11:55:11] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-19 11:55:11] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/c5/18/9e8b8df236b81bb0bae9bd78ac3551ff235749974974287ab4dd99269408/pulumi_aws_native-0.9.1a1641826769.tar.gz
+[2023-07-19 11:55:11] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-19 11:55:11] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230719/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-19 11:55:11] INFO root fetch - processPackages [pulumi-aws-native]: executing diffoscope
+[2023-07-19 11:55:11] INFO root fetch - processPackages [pulumi-aws-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230719:/home/abi/fetcher/20230719:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws_native-0.9.1a1641824984.tar.gz tmp/pulumi_aws_native-0.9.1a1641826769.tar.gz --markdown 20230719/p/pulumi-aws-native/0.9.1a1641824984-0.9.1a1641826769/diff.md --exclude *.pyd
+[2023-07-19 11:55:12] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-19 11:55:12] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-19 11:55:12] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-19 11:55:22] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.9.1a1641824984.tar.gz]
+[2023-07-19 11:55:22] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.9.1a1641826769.tar.gz]
+[2023-07-19 11:55:22] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
+[2023-07-19 11:55:22] INFO root fetch - main [MainThread]: Store serial: [18948204]
